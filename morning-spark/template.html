@@ -1,11 +1,17 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — [[DATE_SHORT]]</title><style>
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — [[DATE_SHORT]]</title><style>
 :root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
 *{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
 body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
 .wrap{max-width:640px;margin:0 auto;padding:0 24px}
 .label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
-header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 .meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
 .bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
 .intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
@@ -26,27 +32,47 @@ header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;ali
 .src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
 .src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
 footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
 </style></head><body><div class="wrap">
-<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div><div class="label">Ed. [[ED]]</div></div>
-<div class="meta label">[[DATE_LONG]] &nbsp;/&nbsp; three collisions</div><div class="bar"></div></header>
-<div class="intro"><span class="label">Signal over noise — three ideas to carry today</span></div>
-<div class="spark"><div class="snum"><span class="n">01</span><span class="t">[[S1_TITLE]]</span></div>
-<div class="eq"><div class="term"><div class="who">[[S1_WHO_A]]</div><div class="what">[[S1_WHAT_A]]</div></div>
-<div class="op">+</div><div class="term"><div class="who">[[S1_WHO_B]]</div><div class="what">[[S1_WHAT_B]]</div></div>
-<div class="op">=</div><div class="result"><div class="r">[[S1_RESULT]]</div></div></div>
-<div class="tickline"><span class="label">The tick</span><p>[[S1_TICK]]</p></div>
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. [[ED]]</div></div></div>
+<div class="meta label">[[DATE_LONG]] &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">[[S1_TITLE]]</span><span data-l="vi">[[S1_TITLE_VI]]</span></span></div>
+<div class="eq"><div class="term"><div class="who">[[S1_WHO_A]]</div><div class="what"><span data-l="en">[[S1_WHAT_A]]</span><span data-l="vi">[[S1_WHAT_A_VI]]</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">[[S1_WHO_B]]</div><div class="what"><span data-l="en">[[S1_WHAT_B]]</span><span data-l="vi">[[S1_WHAT_B_VI]]</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">[[S1_RESULT]]</span><span data-l="vi">[[S1_RESULT_VI]]</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">[[S1_TICK]]</span><span data-l="vi">[[S1_TICK_VI]]</span></p></div>
 <div class="src-link"><a href="[[S1_URL]]" target="_blank" rel="noopener">[[S1_SRC]] &rarr;</a></div></div>
-<div class="spark"><div class="snum"><span class="n">02</span><span class="t">[[S2_TITLE]]</span></div>
-<div class="eq"><div class="term"><div class="who">[[S2_WHO_A]]</div><div class="what">[[S2_WHAT_A]]</div></div>
-<div class="op">+</div><div class="term"><div class="who">[[S2_WHO_B]]</div><div class="what">[[S2_WHAT_B]]</div></div>
-<div class="op">=</div><div class="result"><div class="r">[[S2_RESULT]]</div></div></div>
-<div class="tickline"><span class="label">The tick</span><p>[[S2_TICK]]</p></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">[[S2_TITLE]]</span><span data-l="vi">[[S2_TITLE_VI]]</span></span></div>
+<div class="eq"><div class="term"><div class="who">[[S2_WHO_A]]</div><div class="what"><span data-l="en">[[S2_WHAT_A]]</span><span data-l="vi">[[S2_WHAT_A_VI]]</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">[[S2_WHO_B]]</div><div class="what"><span data-l="en">[[S2_WHAT_B]]</span><span data-l="vi">[[S2_WHAT_B_VI]]</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">[[S2_RESULT]]</span><span data-l="vi">[[S2_RESULT_VI]]</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">[[S2_TICK]]</span><span data-l="vi">[[S2_TICK_VI]]</span></p></div>
 <div class="src-link"><a href="[[S2_URL]]" target="_blank" rel="noopener">[[S2_SRC]] &rarr;</a></div></div>
-<div class="spark"><div class="snum"><span class="n">03</span><span class="t">[[S3_TITLE]]</span></div>
-<div class="eq"><div class="term"><div class="who">[[S3_WHO_A]]</div><div class="what">[[S3_WHAT_A]]</div></div>
-<div class="op">+</div><div class="term"><div class="who">[[S3_WHO_B]]</div><div class="what">[[S3_WHAT_B]]</div></div>
-<div class="op">=</div><div class="result"><div class="r">[[S3_RESULT]]</div></div></div>
-<div class="tickline"><span class="label">The tick</span><p>[[S3_TICK]]</p></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">[[S3_TITLE]]</span><span data-l="vi">[[S3_TITLE_VI]]</span></span></div>
+<div class="eq"><div class="term"><div class="who">[[S3_WHO_A]]</div><div class="what"><span data-l="en">[[S3_WHAT_A]]</span><span data-l="vi">[[S3_WHAT_A_VI]]</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">[[S3_WHO_B]]</div><div class="what"><span data-l="en">[[S3_WHAT_B]]</span><span data-l="vi">[[S3_WHAT_B_VI]]</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">[[S3_RESULT]]</span><span data-l="vi">[[S3_RESULT_VI]]</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">[[S3_TICK]]</span><span data-l="vi">[[S3_TICK_VI]]</span></p></div>
 <div class="src-link"><a href="[[S3_URL]]" target="_blank" rel="noopener">[[S3_SRC]] &rarr;</a></div></div>
-<footer><div class="label">[[SOURCES_LINE]]<br>Morning Spark — curated from twelve minds worth listening to.</div></footer>
-</div></body></html>
+<footer><div class="label"><span data-l="en">Today: [[SOURCES_NAMES]]<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: [[SOURCES_NAMES]]<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

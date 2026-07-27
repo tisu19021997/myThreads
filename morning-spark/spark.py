@@ -43,6 +43,12 @@ EMOJI = re.compile(
 SPARK_FIELDS = ["title", "headline", "result", "tick", "provocation", "a", "b"]
 SIDE_FIELDS = ["who", "what"]
 
+# Every authored string exists twice: English, and a `_vi` twin. Names, URLs and dates
+# are not translated. The Vietnamese is written, not machine-translated -- keep the
+# English loanwords Vietnamese product people actually say (output, outcome, retention,
+# agent, proxy metric) rather than forcing Sino-Vietnamese equivalents nobody uses.
+BILINGUAL = ["title", "headline", "result", "tick", "provocation"]
+
 
 class Bad(Exception):
     pass
@@ -85,6 +91,7 @@ def validate(date, doc, prior_urls):
     if not isinstance(doc.get("edition"), int):
         raise Bad("edition must be an integer")
     check_text("framing", doc.get("framing", ""))
+    check_text("framing_vi", doc.get("framing_vi", ""))
     sparks = doc.get("sparks")
     if not isinstance(sparks, list) or len(sparks) != 3:
         raise Bad("sparks must be a list of exactly 3 entries")
@@ -94,18 +101,23 @@ def validate(date, doc, prior_urls):
         for f in SPARK_FIELDS:
             if f not in s:
                 raise Bad(f"spark {i}: missing field {f!r}")
-        for f in ("title", "headline", "result", "tick", "provocation"):
+        for f in BILINGUAL:
             check_text(f"spark {i}.{f}", s[f])
+            check_text(f"spark {i}.{f}_vi", s.get(f + "_vi", ""))
         for side in ("a", "b"):
             for f in SIDE_FIELDS:
                 check_text(f"spark {i}.{side}.{f}", s[side].get(f, ""))
+            check_text(f"spark {i}.{side}.what_vi", s[side].get("what_vi", ""))
 
-        under = s.get("result_underline", "")
-        if under and under not in s["result"]:
-            raise Bad(f"spark {i}: result_underline {under!r} not found in result")
-        for b in s.get("tick_bold", []):
-            if b not in s["tick"]:
-                raise Bad(f"spark {i}: tick_bold {b!r} not found in tick")
+        for suffix in ("", "_vi"):
+            under = s.get("result_underline" + suffix, "")
+            if under and under not in s["result" + suffix]:
+                raise Bad(
+                    f"spark {i}: result_underline{suffix} {under!r} not found in result{suffix}"
+                )
+            for b in s.get("tick_bold" + suffix, []):
+                if b not in s["tick" + suffix]:
+                    raise Bad(f"spark {i}: tick_bold{suffix} {b!r} not found in tick{suffix}")
 
         src = s.get("source", {})
         for f in ("title", "site", "url"):
@@ -155,19 +167,24 @@ def render_html(date, doc, sparks):
     people = []
     for i, s in enumerate(sparks, 1):
         p = f"S{i}_"
-        tokens[p + "TITLE"] = esc(s["title"].upper())
         tokens[p + "WHO_A"] = esc(s["a"]["who"])
-        tokens[p + "WHAT_A"] = esc(s["a"]["what"])
         tokens[p + "WHO_B"] = esc(s["b"]["who"])
-        tokens[p + "WHAT_B"] = esc(s["b"]["what"])
-        tokens[p + "RESULT"] = wrap(s["result"], s.get("result_underline", ""), "u")
-        tokens[p + "TICK"] = wrap_all(s["tick"], s.get("tick_bold", []), "b")
         tokens[p + "URL"] = esc(s["source"]["url"])
         tokens[p + "SRC"] = esc(f"{s['source']['site']} — {s['source']['title']}")
+        for suffix, key in (("", ""), ("_VI", "_vi")):
+            tokens[p + "TITLE" + suffix] = esc(s["title" + key].upper())
+            tokens[p + "WHAT_A" + suffix] = esc(s["a"]["what" + key])
+            tokens[p + "WHAT_B" + suffix] = esc(s["b"]["what" + key])
+            tokens[p + "RESULT" + suffix] = wrap(
+                s["result" + key], s.get("result_underline" + key, ""), "u"
+            )
+            tokens[p + "TICK" + suffix] = wrap_all(
+                s["tick" + key], s.get("tick_bold" + key, []), "b"
+            )
         for who in (s["a"]["who"], s["b"]["who"]):
             if who not in people:
                 people.append(who)
-    tokens["SOURCES_LINE"] = esc("Today: " + " / ".join(people))
+    tokens["SOURCES_NAMES"] = esc(" / ".join(people))
 
     out = TEMPLATE.read_text(encoding="utf-8")
     for k, v in tokens.items():
@@ -194,19 +211,6 @@ def render_text(date, doc, sparks):
         )
     blocks.append(doc.get("footer", "Full styled card → open the session."))
     return "\n\n".join(blocks) + "\n"
-
-
-STYLE_RE = re.compile(r"(?is)<style[^>]*>.*?</style>")
-BODY_RE = re.compile(r"(?is)<body[^>]*>(.*)</body>")
-
-
-def render_artifact(full_html):
-    """Same card, minus the document wrapper: an Artifact supplies its own head and body."""
-    style = STYLE_RE.search(full_html)
-    body = BODY_RE.search(full_html)
-    if not style or not body:
-        raise Bad("could not split the rendered card into style and body")
-    return f"{style.group(0)}\n{body.group(1).strip()}\n"
 
 
 def rebuild_index(all_editions):
@@ -301,11 +305,8 @@ def cmd_build(args):
     EDITIONS.mkdir(parents=True, exist_ok=True)
     html_path = EDITIONS / f"{date}.html"
     txt_path = EDITIONS / f"{date}.txt"
-    art_path = EDITIONS / f"{date}.artifact.html"
-    full_html = render_html(date, doc, sparks)
-    html_path.write_text(full_html, encoding="utf-8")
+    html_path.write_text(render_html(date, doc, sparks), encoding="utf-8")
     txt_path.write_text(render_text(date, doc, sparks), encoding="utf-8")
-    art_path.write_text(render_artifact(full_html), encoding="utf-8")
 
     if not any(d == date for d, _ in all_editions):
         all_editions.append((date, doc))
@@ -313,7 +314,6 @@ def cmd_build(args):
 
     print(f"ok  {html_path}")
     print(f"ok  {txt_path}")
-    print(f"ok  {art_path}")
     print(f"ok  {INDEX}")
     print(f"ok  {HOME}")
     return 0

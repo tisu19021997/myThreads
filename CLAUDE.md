@@ -21,9 +21,8 @@ morning-spark/
   spark.py            build tool (stdlib only)
   template.html       fixed layout, tokens are [[LIKE_THIS]] -- do not edit the CSS or structure
   data/YYYY-MM-DD.json   the edition, hand-authored -- the only file you write by hand
-  editions/YYYY-MM-DD.html  generated
-  editions/YYYY-MM-DD.artifact.html  generated -- same card, no document wrapper, for publishing
-  editions/YYYY-MM-DD.txt   generated -- this is the message you send
+  editions/YYYY-MM-DD.html  generated -- bilingual, carries its own language toggle
+  editions/YYYY-MM-DD.txt   generated -- this is the message you send, English
   index.json          generated rollup of every spark ever sent
 ```
 
@@ -75,13 +74,8 @@ dominate, and anchor at least one spark on something recently published.
    fix the JSON and run it again. Adding the day to the site is automatic: never hand-edit
    `index.html`, just build.
 5. `SendUserFile` on `morning-spark/editions/<today>.html`, status `proactive`,
-   display `render`, one-line caption.
-5b. Publish `morning-spark/editions/<today>.artifact.html` with the `Artifact` tool, so the
-   edition keeps a durable link once the container is gone. Title `Morning Spark -- <Mon D>`,
-   favicon the same every day, one-line description. Never pass the `.html` file: it is a
-   whole document and the tool supplies its own wrapper. Each day is a new file path, so
-   each edition gets its own URL -- do not pass `url` to overwrite a previous day. If this
-   step fails, say so and carry on; it must not sink an edition that already built.
+   display `render`, one-line caption. Do not publish an Artifact -- the edition's durable
+   home is GitHub Pages, and pushing is what deploys it.
 6. Commit and push: `git add -A && git commit && git push -u origin main`.
 7. Your final message is the contents of `morning-spark/editions/<today>.txt`, verbatim --
    it becomes the push notification and email. Nothing else: no preamble, no status update,
@@ -95,18 +89,27 @@ dominate, and anchor at least one spark on something recently published.
   "date": "2026-07-27",
   "edition": 1,
   "framing": "One short framing line, max 12 words.",
-  "note": "One line on themes used, so tomorrow can avoid them.",
+  "framing_vi": "Same line in Vietnamese.",
+  "note": "One line on themes used, so tomorrow can avoid them. English only, never rendered.",
   "sparks": [
     {
       "title": "TWO OR THREE WORD KICKER",
+      "title_vi": "KICKER IN VIETNAMESE",
       "headline": "Short punchy headline",
-      "a": {"who": "Ben Thompson", "what": "What his piece or framework actually argues."},
-      "b": {"who": "April Dunford", "what": "What hers argues."},
+      "headline_vi": "Same headline in Vietnamese.",
+      "a": {"who": "Ben Thompson", "what": "What his piece or framework actually argues.",
+            "what_vi": "The same, in Vietnamese."},
+      "b": {"who": "April Dunford", "what": "What hers argues.", "what_vi": "The same, in Vietnamese."},
       "result": "The fresh third thought, one or two lines, ending on the punchiest tail.",
+      "result_vi": "The same thought in Vietnamese, also ending on its punchiest tail.",
       "result_underline": "the punchiest tail",
+      "result_underline_vi": "its punchiest tail",
       "tick": "The question he carries all day.",
+      "tick_vi": "The same question in Vietnamese.",
       "tick_bold": ["the key words"],
+      "tick_bold_vi": ["the key words, in Vietnamese"],
       "provocation": "One or two plain sentences for the text edition.",
+      "provocation_vi": "The same, in Vietnamese.",
       "source": {
         "site": "Stratechery",
         "title": "Title of the piece you read",
@@ -119,8 +122,26 @@ dominate, and anchor at least one spark on something recently published.
 ```
 
 `result_underline` must be a substring of `result`; each `tick_bold` entry must be a
-substring of `tick`. The script escapes everything and applies the markup, so never put
-HTML in the JSON. Three sparks exactly.
+substring of `tick`. The same holds inside Vietnamese: `result_underline_vi` must be a
+substring of `result_vi`, and `tick_bold_vi` of `tick_vi` -- the pairs never cross
+languages. The script escapes everything and applies the markup, so never put HTML in the
+JSON. Three sparks exactly. `who`, `source` and `note` are never translated.
+
+## Vietnamese
+
+Every authored string has a `_vi` twin and the build fails without it. The card renders
+both and carries an EN / VI toggle; the choice is remembered, and a first-time visitor
+whose browser is Vietnamese lands on Vietnamese.
+
+Write it, do not translate it. The test is whether a Vietnamese product person would say
+it out loud. That means keeping the English terms they actually use -- output, outcome,
+retention, proxy metric, agent, ship, headcount, tagline -- instead of reaching for
+Sino-Vietnamese equivalents nobody says. Match the English register: terse, punchy, plain
+`bạn`, and idiom where it earns its place (`giậm chân tại chỗ`, `nhúc nhích`, `tới nơi
+tới chốn`) rather than a stiff word-for-word rendering. If a Vietnamese line reads longer
+and more formal than its English twin, it is wrong.
+
+The `.txt` edition stays English, since it is the push notification and email.
 
 ## Pushing
 
@@ -134,13 +155,9 @@ Step 0 exists because the run cannot assume the clone lands on `main`. Check wit
 
 ## The site
 
-Every edition is published twice: as a private Artifact (step 5b) and as a public page on
-GitHub Pages, served from `main` at the repo root. Pushing is all a run has to do -- Pages
-redeploys on its own, so there is no build step to trigger and nothing to wait on.
+Editions live on GitHub Pages, served from `main` at the repo root. Pushing is all a run
+has to do -- Pages redeploys on its own, so there is no build step to trigger, nothing to
+wait on, and no Artifact to publish.
 
 `index.html` is a bare list of links on purpose. The design lives in the dated cards; the
 front door only has to be a working index, so it carries no CSS and needs no upkeep.
-
-Pages serves `editions/<date>.html`, the complete document. It must never link
-`editions/<date>.artifact.html` -- that one is a fragment with its head stripped for the
-Artifact tool, so it has no viewport meta and renders unreadably zoomed on a phone.

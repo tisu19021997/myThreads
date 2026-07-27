@@ -2,26 +2,38 @@
   "date": "2026-07-27",
   "edition": 1,
   "framing": "Three collisions on speed, agency, and the discipline of subtraction.",
+  "framing_vi": "Ba va chạm: tốc độ, sự chủ động, và kỷ luật của phép trừ.",
   "note": "Themes: AI output vs outcome, agent-era agency, focus as positioning. Sources: SVPG, Stratechery, A Smart Bear.",
   "sparks": [
     {
       "title": "SPEED WITHOUT SIGNAL",
+      "title_vi": "TỐC ĐỘ KHÔNG TÍN HIỆU",
       "headline": "Your velocity is not a metric",
+      "headline_vi": "Tốc độ ship không phải một chỉ số",
       "a": {
         "who": "Marty Cagan",
-        "what": "Teams are shipping visibly faster with AI while outcomes stay flat, because the old project model was built to produce output, not outcomes."
+        "what": "Teams are shipping visibly faster with AI while outcomes stay flat, because the old project model was built to produce output, not outcomes.",
+        "what_vi": "Các team ship nhanh thấy rõ nhờ AI nhưng outcome vẫn giậm chân tại chỗ, vì mô hình dự án cũ sinh ra để tạo output chứ không phải outcome."
       },
       "b": {
         "who": "Gibson Biddle",
-        "what": "Pick proxy metrics: short-term signals you can move this week that actually predict long-term retention."
+        "what": "Pick proxy metrics: short-term signals you can move this week that actually predict long-term retention.",
+        "what_vi": "Chọn proxy metric: những tín hiệu ngắn hạn bạn dịch chuyển được ngay trong tuần và thực sự dự báo được retention dài hạn."
       },
       "result": "Ship rate is an output metric wearing an outcome's clothes. If no proxy metric moved this week, AI did not make you faster, it made you louder.",
+      "result_vi": "Tốc độ ship là chỉ số output khoác áo outcome. Tuần này không có proxy metric nào nhúc nhích thì AI không làm bạn nhanh hơn, nó chỉ làm bạn ồn ào hơn.",
       "result_underline": "it made you louder",
+      "result_underline_vi": "nó chỉ làm bạn ồn ào hơn",
       "tick": "Which proxy metric moved because you shipped faster this month?",
+      "tick_vi": "Tháng này proxy metric nào đã nhúc nhích nhờ việc bạn ship nhanh hơn?",
       "tick_bold": [
         "proxy metric"
       ],
+      "tick_bold_vi": [
+        "proxy metric"
+      ],
       "provocation": "Cagan's paradox is that AI adoption is climbing while results sit still, and the strong product companies are pulling further ahead rather than closing the gap. Biddle's answer predates AI: name the leading indicator you can move weekly, and let it judge your speed.",
+      "provocation_vi": "Nghịch lý Cagan chỉ ra: mức độ dùng AI tăng đều nhưng kết quả thì đứng yên, và các công ty product mạnh đang bỏ xa phần còn lại chứ không hề thu hẹp khoảng cách. Câu trả lời của Biddle có trước cả AI: gọi tên chỉ số dẫn dắt mà bạn dịch chuyển được hằng tuần, rồi để nó phán xét tốc độ của bạn.",
       "source": {
         "site": "SVPG",
         "title": "The AI Productivity Paradox",
@@ -31,22 +43,33 @@
     },
     {
       "title": "AGENCY IS SCARCE",
+      "title_vi": "SỰ CHỦ ĐỘNG MỚI HIẾM",
       "headline": "The bottleneck moved from hands to wants",
+      "headline_vi": "Nút thắt dời từ đôi tay sang ý muốn",
       "a": {
         "who": "Ben Thompson",
-        "what": "Agents are a third paradigm, and because one person can direct many of them, AI no longer needs widescale human adoption for its impact to be profound."
+        "what": "Agents are a third paradigm, and because one person can direct many of them, AI no longer needs widescale human adoption for its impact to be profound.",
+        "what_vi": "Agent là hệ hình thứ ba, và vì một người điều khiển được nhiều agent cùng lúc, AI không còn cần cả xã hội cùng dùng thì tác động mới đủ sâu."
       },
       "b": {
         "who": "Paul Graham",
-        "what": "Make something a small number of people want a lot, rather than something many people want a little."
+        "what": "Make something a small number of people want a lot, rather than something many people want a little.",
+        "what_vi": "Hãy làm thứ mà một số ít người thèm muốn mãnh liệt, thay vì thứ mà rất nhiều người chỉ thích sơ sơ."
       },
       "result": "Graham's rule now cuts both ways: the builders are also a small number of people who want something a lot. Wanting precisely is the new scarce resource.",
+      "result_vi": "Quy tắc của Graham giờ cắt cả hai chiều: phía người làm ra sản phẩm cũng chỉ là một số ít người thèm muốn thứ gì đó mãnh liệt. Muốn một cách chính xác mới là tài nguyên khan hiếm.",
       "result_underline": "Wanting precisely is the new scarce resource",
+      "result_underline_vi": "Muốn một cách chính xác mới là tài nguyên khan hiếm",
       "tick": "What do you want specifically enough to hand an agent tonight?",
+      "tick_vi": "Tối nay bạn muốn thứ gì đủ cụ thể để giao thẳng cho một agent?",
       "tick_bold": [
         "specifically enough"
       ],
+      "tick_bold_vi": [
+        "đủ cụ thể"
+      ],
       "provocation": "Thompson's line is that AI still needs agency, it just does not need agency from that many people. That makes taste and initiative the constraint, not headcount or capital.",
+      "provocation_vi": "Thompson nói AI vẫn cần sự chủ động, chỉ là không cần sự chủ động từ quá nhiều người. Thứ giới hạn bạn vì thế là gu thẩm mỹ và khả năng tự khởi sự, không phải headcount hay vốn.",
       "source": {
         "site": "Stratechery",
         "title": "Agents Over Bubbles",
@@ -56,22 +79,33 @@
     },
     {
       "title": "SUBTRACT TO POSITION",
+      "title_vi": "BỚT ĐI ĐỂ ĐỊNH VỊ",
       "headline": "Your calendar is your positioning statement",
+      "headline_vi": "Lịch làm việc chính là tuyên bố định vị",
       "a": {
         "who": "Jason Cohen",
-        "what": "Only when you stop doing most things do you create the space to fully execute the few that decide whether you thrive or perish."
+        "what": "Only when you stop doing most things do you create the space to fully execute the few that decide whether you thrive or perish.",
+        "what_vi": "Chỉ khi bạn ngừng làm phần lớn mọi thứ, bạn mới tạo ra khoảng trống để làm tới nơi tới chốn vài việc quyết định bạn sống hay chết."
       },
       "b": {
         "who": "April Dunford",
-        "what": "Positioning is a deliberate choice of competitive alternative, not a tagline you write at the end."
+        "what": "Positioning is a deliberate choice of competitive alternative, not a tagline you write at the end.",
+        "what_vi": "Định vị là lựa chọn có chủ đích về đối thủ thay thế, không phải câu tagline viết vào phút chót."
       },
       "result": "Positioning is not a document, it is a subtraction you can audit. Every yes you cannot defend is a competitor you just decided to be.",
+      "result_vi": "Định vị không phải một tài liệu, nó là một phép trừ có thể kiểm toán được. Mỗi cái gật đầu bạn không bảo vệ nổi là một đối thủ mà bạn vừa chọn trở thành.",
       "result_underline": "a competitor you just decided to be",
+      "result_underline_vi": "một đối thủ mà bạn vừa chọn trở thành",
       "tick": "What did you say yes to this week that blurs what you are?",
+      "tick_vi": "Tuần này bạn gật đầu với điều gì khiến bạn trở nên nhoè nhoẹt?",
       "tick_bold": [
         "blurs what you are"
       ],
+      "tick_bold_vi": [
+        "nhoè nhoẹt"
+      ],
       "provocation": "Cohen catalogues what stopping creates space for: better customers, one real metric, a few modes of differentiation. Dunford names the thing that space is for, which is one clear alternative you beat.",
+      "provocation_vi": "Cohen liệt kê những gì việc dừng lại mở ra: khách hàng tốt hơn, một chỉ số thật sự, vài cách khác biệt hoá. Dunford gọi tên đích đến của khoảng trống đó, là một đối thủ thay thế rõ ràng mà bạn thắng được.",
       "source": {
         "site": "A Smart Bear",
         "title": "Creating space",

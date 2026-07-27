@@ -1,11 +1,17 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Jul 27</title><style>
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Jul 27</title><style>
 :root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
 *{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
 body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
 .wrap{max-width:640px;margin:0 auto;padding:0 24px}
 .label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
-header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 .meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
 .bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
 .intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
@@ -26,27 +32,47 @@ header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;ali
 .src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
 .src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
 footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
 </style></head><body><div class="wrap">
-<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div><div class="label">Ed. 01</div></div>
-<div class="meta label">Monday, July 27, 2026 &nbsp;/&nbsp; three collisions</div><div class="bar"></div></header>
-<div class="intro"><span class="label">Signal over noise — three ideas to carry today</span></div>
-<div class="spark"><div class="snum"><span class="n">01</span><span class="t">SPEED WITHOUT SIGNAL</span></div>
-<div class="eq"><div class="term"><div class="who">Marty Cagan</div><div class="what">Teams are shipping visibly faster with AI while outcomes stay flat, because the old project model was built to produce output, not outcomes.</div></div>
-<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what">Pick proxy metrics: short-term signals you can move this week that actually predict long-term retention.</div></div>
-<div class="op">=</div><div class="result"><div class="r">Ship rate is an output metric wearing an outcome&#x27;s clothes. If no proxy metric moved this week, AI did not make you faster, <u>it made you louder</u>.</div></div></div>
-<div class="tickline"><span class="label">The tick</span><p>Which <b>proxy metric</b> moved because you shipped faster this month?</p></div>
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 01</div></div></div>
+<div class="meta label">Monday, July 27, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">SPEED WITHOUT SIGNAL</span><span data-l="vi">TỐC ĐỘ KHÔNG TÍN HIỆU</span></span></div>
+<div class="eq"><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">Teams are shipping visibly faster with AI while outcomes stay flat, because the old project model was built to produce output, not outcomes.</span><span data-l="vi">Các team ship nhanh thấy rõ nhờ AI nhưng outcome vẫn giậm chân tại chỗ, vì mô hình dự án cũ sinh ra để tạo output chứ không phải outcome.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">Pick proxy metrics: short-term signals you can move this week that actually predict long-term retention.</span><span data-l="vi">Chọn proxy metric: những tín hiệu ngắn hạn bạn dịch chuyển được ngay trong tuần và thực sự dự báo được retention dài hạn.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Ship rate is an output metric wearing an outcome&#x27;s clothes. If no proxy metric moved this week, AI did not make you faster, <u>it made you louder</u>.</span><span data-l="vi">Tốc độ ship là chỉ số output khoác áo outcome. Tuần này không có proxy metric nào nhúc nhích thì AI không làm bạn nhanh hơn, <u>nó chỉ làm bạn ồn ào hơn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which <b>proxy metric</b> moved because you shipped faster this month?</span><span data-l="vi">Tháng này <b>proxy metric</b> nào đã nhúc nhích nhờ việc bạn ship nhanh hơn?</span></p></div>
 <div class="src-link"><a href="https://www.svpg.com/the-ai-productivity-paradox/" target="_blank" rel="noopener">SVPG — The AI Productivity Paradox &rarr;</a></div></div>
-<div class="spark"><div class="snum"><span class="n">02</span><span class="t">AGENCY IS SCARCE</span></div>
-<div class="eq"><div class="term"><div class="who">Ben Thompson</div><div class="what">Agents are a third paradigm, and because one person can direct many of them, AI no longer needs widescale human adoption for its impact to be profound.</div></div>
-<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what">Make something a small number of people want a lot, rather than something many people want a little.</div></div>
-<div class="op">=</div><div class="result"><div class="r">Graham&#x27;s rule now cuts both ways: the builders are also a small number of people who want something a lot. <u>Wanting precisely is the new scarce resource</u>.</div></div></div>
-<div class="tickline"><span class="label">The tick</span><p>What do you want <b>specifically enough</b> to hand an agent tonight?</p></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">AGENCY IS SCARCE</span><span data-l="vi">SỰ CHỦ ĐỘNG MỚI HIẾM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Agents are a third paradigm, and because one person can direct many of them, AI no longer needs widescale human adoption for its impact to be profound.</span><span data-l="vi">Agent là hệ hình thứ ba, và vì một người điều khiển được nhiều agent cùng lúc, AI không còn cần cả xã hội cùng dùng thì tác động mới đủ sâu.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">Make something a small number of people want a lot, rather than something many people want a little.</span><span data-l="vi">Hãy làm thứ mà một số ít người thèm muốn mãnh liệt, thay vì thứ mà rất nhiều người chỉ thích sơ sơ.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Graham&#x27;s rule now cuts both ways: the builders are also a small number of people who want something a lot. <u>Wanting precisely is the new scarce resource</u>.</span><span data-l="vi">Quy tắc của Graham giờ cắt cả hai chiều: phía người làm ra sản phẩm cũng chỉ là một số ít người thèm muốn thứ gì đó mãnh liệt. <u>Muốn một cách chính xác mới là tài nguyên khan hiếm</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What do you want <b>specifically enough</b> to hand an agent tonight?</span><span data-l="vi">Tối nay bạn muốn thứ gì <b>đủ cụ thể</b> để giao thẳng cho một agent?</span></p></div>
 <div class="src-link"><a href="https://stratechery.com/2026/agents-over-bubbles/" target="_blank" rel="noopener">Stratechery — Agents Over Bubbles &rarr;</a></div></div>
-<div class="spark"><div class="snum"><span class="n">03</span><span class="t">SUBTRACT TO POSITION</span></div>
-<div class="eq"><div class="term"><div class="who">Jason Cohen</div><div class="what">Only when you stop doing most things do you create the space to fully execute the few that decide whether you thrive or perish.</div></div>
-<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what">Positioning is a deliberate choice of competitive alternative, not a tagline you write at the end.</div></div>
-<div class="op">=</div><div class="result"><div class="r">Positioning is not a document, it is a subtraction you can audit. Every yes you cannot defend is <u>a competitor you just decided to be</u>.</div></div></div>
-<div class="tickline"><span class="label">The tick</span><p>What did you say yes to this week that <b>blurs what you are</b>?</p></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">SUBTRACT TO POSITION</span><span data-l="vi">BỚT ĐI ĐỂ ĐỊNH VỊ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">Only when you stop doing most things do you create the space to fully execute the few that decide whether you thrive or perish.</span><span data-l="vi">Chỉ khi bạn ngừng làm phần lớn mọi thứ, bạn mới tạo ra khoảng trống để làm tới nơi tới chốn vài việc quyết định bạn sống hay chết.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is a deliberate choice of competitive alternative, not a tagline you write at the end.</span><span data-l="vi">Định vị là lựa chọn có chủ đích về đối thủ thay thế, không phải câu tagline viết vào phút chót.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Positioning is not a document, it is a subtraction you can audit. Every yes you cannot defend is <u>a competitor you just decided to be</u>.</span><span data-l="vi">Định vị không phải một tài liệu, nó là một phép trừ có thể kiểm toán được. Mỗi cái gật đầu bạn không bảo vệ nổi là <u>một đối thủ mà bạn vừa chọn trở thành</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did you say yes to this week that <b>blurs what you are</b>?</span><span data-l="vi">Tuần này bạn gật đầu với điều gì khiến bạn trở nên <b>nhoè nhoẹt</b>?</span></p></div>
 <div class="src-link"><a href="https://longform.asmartbear.com/focus/" target="_blank" rel="noopener">A Smart Bear — Creating space &rarr;</a></div></div>
-<footer><div class="label">Today: Marty Cagan / Gibson Biddle / Ben Thompson / Paul Graham / Jason Cohen / April Dunford<br>Morning Spark — curated from twelve minds worth listening to.</div></footer>
-</div></body></html>
+<footer><div class="label"><span data-l="en">Today: Marty Cagan / Gibson Biddle / Ben Thompson / Paul Graham / Jason Cohen / April Dunford<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Marty Cagan / Gibson Biddle / Ben Thompson / Paul Graham / Jason Cohen / April Dunford<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
