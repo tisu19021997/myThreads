@@ -1,0 +1,84 @@
+{
+  "_comment": "Reference shape only. Files named YYYY-MM-DD.json are the real editions; this one is ignored by ledger, build and index.",
+  "date": "2026-07-27",
+  "edition": 1,
+  "framing": "Three collisions to carry into the build.",
+  "note": "Example file. Themes: positioning, team autonomy, discovery cadence.",
+  "sparks": [
+    {
+      "title": "POSITION THE TEAM",
+      "headline": "Positioning is an org chart problem",
+      "a": {
+        "who": "April Dunford",
+        "what": "Positioning is a deliberate choice of competitive alternative, not a tagline you write at the end."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Empowered teams are given problems to solve, not features to build."
+      },
+      "result": "A team that cannot name its competitive alternative is not empowered, it is guessing in public.",
+      "result_underline": "guessing in public",
+      "tick": "What is the alternative your users would pick if your product vanished tonight?",
+      "tick_bold": [
+        "alternative"
+      ],
+      "provocation": "Empowerment without positioning just distributes the guessing. Name the alternative first, then hand over the problem.",
+      "source": {
+        "site": "April Dunford",
+        "title": "Positioning blog",
+        "url": "https://www.aprildunford.com/blog",
+        "published": "2026-01-01"
+      }
+    },
+    {
+      "title": "LOOPS OVER FUNNELS",
+      "headline": "Your eval set is a growth loop",
+      "a": {
+        "who": "Brian Balfour",
+        "what": "Growth compounds through loops where the output of one cycle becomes the input of the next."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery means a weekly touchpoint with customers, not a quarterly research project."
+      },
+      "result": "Every failed model output is a discovery interview you already paid for and threw away.",
+      "result_underline": "threw away",
+      "tick": "Which failure from last week made it into your eval set?",
+      "tick_bold": [
+        "eval set"
+      ],
+      "provocation": "Model failures are the cheapest customer signal you will ever collect. Route them into a loop instead of a bug tracker.",
+      "source": {
+        "site": "Brian Balfour",
+        "title": "Essays",
+        "url": "https://brianbalfour.com/essays",
+        "published": "2026-01-01"
+      }
+    },
+    {
+      "title": "SMALL AND WANTED",
+      "headline": "Aggregation starts as a favour",
+      "a": {
+        "who": "Paul Graham",
+        "what": "Make something a small number of people want a lot, rather than something many people want a little."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregators win by owning the demand relationship and commoditising supply."
+      },
+      "result": "Aggregation is what a favour looks like after it scales past the favour.",
+      "result_underline": "scales past the favour",
+      "tick": "Who are the ten people your product would ruin the week of if it disappeared?",
+      "tick_bold": [
+        "ten people"
+      ],
+      "provocation": "Every aggregator started as a service to a handful of people who could not get it elsewhere. Find your handful.",
+      "source": {
+        "site": "Paul Graham",
+        "title": "Articles",
+        "url": "https://paulgraham.com/articles.html",
+        "published": "2026-01-01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — [[DATE_SHORT]]</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div><div class="label">Ed. [[ED]]</div></div>
+<div class="meta label">[[DATE_LONG]] &nbsp;/&nbsp; three collisions</div><div class="bar"></div></header>
+<div class="intro"><span class="label">Signal over noise — three ideas to carry today</span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t">[[S1_TITLE]]</span></div>
+<div class="eq"><div class="term"><div class="who">[[S1_WHO_A]]</div><div class="what">[[S1_WHAT_A]]</div></div>
+<div class="op">+</div><div class="term"><div class="who">[[S1_WHO_B]]</div><div class="what">[[S1_WHAT_B]]</div></div>
+<div class="op">=</div><div class="result"><div class="r">[[S1_RESULT]]</div></div></div>
+<div class="tickline"><span class="label">The tick</span><p>[[S1_TICK]]</p></div>
+<div class="src-link"><a href="[[S1_URL]]" target="_blank" rel="noopener">[[S1_SRC]] &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t">[[S2_TITLE]]</span></div>
+<div class="eq"><div class="term"><div class="who">[[S2_WHO_A]]</div><div class="what">[[S2_WHAT_A]]</div></div>
+<div class="op">+</div><div class="term"><div class="who">[[S2_WHO_B]]</div><div class="what">[[S2_WHAT_B]]</div></div>
+<div class="op">=</div><div class="result"><div class="r">[[S2_RESULT]]</div></div></div>
+<div class="tickline"><span class="label">The tick</span><p>[[S2_TICK]]</p></div>
+<div class="src-link"><a href="[[S2_URL]]" target="_blank" rel="noopener">[[S2_SRC]] &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t">[[S3_TITLE]]</span></div>
+<div class="eq"><div class="term"><div class="who">[[S3_WHO_A]]</div><div class="what">[[S3_WHAT_A]]</div></div>
+<div class="op">+</div><div class="term"><div class="who">[[S3_WHO_B]]</div><div class="what">[[S3_WHAT_B]]</div></div>
+<div class="op">=</div><div class="result"><div class="r">[[S3_RESULT]]</div></div></div>
+<div class="tickline"><span class="label">The tick</span><p>[[S3_TICK]]</p></div>
+<div class="src-link"><a href="[[S3_URL]]" target="_blank" rel="noopener">[[S3_SRC]] &rarr;</a></div></div>
+<footer><div class="label">[[SOURCES_LINE]]<br>Morning Spark — curated from twelve minds worth listening to.</div></footer>
+</div></body></html>
