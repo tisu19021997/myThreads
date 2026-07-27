@@ -110,4 +110,5 @@ HTML in the JSON. Three sparks exactly.
 
 The scheduled run commits its edition straight to `main` -- that is intended, and is the
 standing permission for it. The ledger only works if every edition lands on the default
-branch.
+branch. If a clone somehow has no `main`, create it from the setup branch first:
+`git checkout -B main origin/claude/morning-spark-daily-xkgzgx`.
