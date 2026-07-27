@@ -21,6 +21,9 @@ DATA = ROOT / "data"
 EDITIONS = ROOT / "editions"
 TEMPLATE = ROOT / "template.html"
 INDEX = ROOT / "index.json"
+SITE = ROOT.parent
+HOME = SITE / "index.html"
+NOJEKYLL = SITE / ".nojekyll"
 TZ = zoneinfo.ZoneInfo("Asia/Ho_Chi_Minh")
 SEP = "─" * 17
 
@@ -233,6 +236,34 @@ def rebuild_index(all_editions):
     return entries
 
 
+def rebuild_home(entries):
+    """The GitHub Pages front door: a plain list of links, deliberately unstyled.
+
+    The styling lives in the dated cards. This page only has to be a working
+    index of them, so it stays a bare list that never needs maintaining.
+    """
+    lines = [
+        "<!DOCTYPE html>",
+        '<html lang="en">',
+        '<meta charset="utf-8">',
+        '<meta name="viewport" content="width=device-width, initial-scale=1">',
+        "<title>Morning Spark</title>",
+        "<h1>Morning Spark</h1>",
+        f"<p>{len(entries)} edition{'' if len(entries) == 1 else 's'}.</p>",
+        "<ul>",
+    ]
+    for e in entries:
+        d = e["date"]
+        lines.append(
+            f'<li><a href="morning-spark/editions/{d}.html">{d} &mdash; Ed. {e["edition"]:02d}</a>'
+            f' (<a href="morning-spark/editions/{d}.txt">text</a>)</li>'
+        )
+    lines += ["</ul>", "</html>"]
+    HOME.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    NOJEKYLL.touch()
+    return HOME
+
+
 # ------------------------------------------------------------------- commands
 
 def cmd_ledger(args):
@@ -278,12 +309,13 @@ def cmd_build(args):
 
     if not any(d == date for d, _ in all_editions):
         all_editions.append((date, doc))
-    rebuild_index(all_editions)
+    rebuild_home(rebuild_index(all_editions))
 
     print(f"ok  {html_path}")
     print(f"ok  {txt_path}")
     print(f"ok  {art_path}")
     print(f"ok  {INDEX}")
+    print(f"ok  {HOME}")
     return 0
 
 

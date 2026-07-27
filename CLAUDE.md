@@ -15,6 +15,8 @@ whole story is one click away.
 ## Layout
 
 ```
+index.html            generated -- the GitHub Pages front door, a plain list of links
+.nojekyll             tells Pages to serve the files as-is, no Jekyll build
 morning-spark/
   spark.py            build tool (stdlib only)
   template.html       fixed layout, tokens are [[LIKE_THIS]] -- do not edit the CSS or structure
@@ -68,8 +70,10 @@ dominate, and anchor at least one spark on something recently published.
    accurate, and keep the exact URL you read.
 3. Write `morning-spark/data/<today>.json` (schema below).
 4. `python3 morning-spark/spark.py build` -- validates, renders all three editions, updates
-   `index.json`. It fails loudly on emoji, missing fields, or a source URL already used;
-   fix the JSON and run it again.
+   `index.json`, and regenerates the root `index.html` so today's card is linked from the
+   Pages front door. It fails loudly on emoji, missing fields, or a source URL already used;
+   fix the JSON and run it again. Adding the day to the site is automatic: never hand-edit
+   `index.html`, just build.
 5. `SendUserFile` on `morning-spark/editions/<today>.html`, status `proactive`,
    display `render`, one-line caption.
 5b. Publish `morning-spark/editions/<today>.artifact.html` with the `Artifact` tool, so the
@@ -127,3 +131,16 @@ from anywhere else, and never open a pull request for an edition.
 
 Step 0 exists because the run cannot assume the clone lands on `main`. Check with
 `git ls-remote --symref origin HEAD` if a run looks like it started on the wrong branch.
+
+## The site
+
+Every edition is published twice: as a private Artifact (step 5b) and as a public page on
+GitHub Pages, served from `main` at the repo root. Pushing is all a run has to do -- Pages
+redeploys on its own, so there is no build step to trigger and nothing to wait on.
+
+`index.html` is a bare list of links on purpose. The design lives in the dated cards; the
+front door only has to be a working index, so it carries no CSS and needs no upkeep.
+
+Pages serves `editions/<date>.html`, the complete document. It must never link
+`editions/<date>.artifact.html` -- that one is a fragment with its head stripped for the
+Artifact tool, so it has no viewport meta and renders unreadably zoomed on a phone.
