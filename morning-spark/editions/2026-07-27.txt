@@ -1,0 +1,22 @@
+Morning Spark · Monday, July 27 · Ed. 01
+Three collisions on speed, agency, and the discipline of subtraction.
+
+─────────────────
+01 · Your velocity is not a metric
+Marty Cagan × Gibson Biddle
+Cagan's paradox is that AI adoption is climbing while results sit still, and the strong product companies are pulling further ahead rather than closing the gap. Biddle's answer predates AI: name the leading indicator you can move weekly, and let it judge your speed.
+→ https://www.svpg.com/the-ai-productivity-paradox/
+
+─────────────────
+02 · The bottleneck moved from hands to wants
+Ben Thompson × Paul Graham
+Thompson's line is that AI still needs agency, it just does not need agency from that many people. That makes taste and initiative the constraint, not headcount or capital.
+→ https://stratechery.com/2026/agents-over-bubbles/
+
+─────────────────
+03 · Your calendar is your positioning statement
+Jason Cohen × April Dunford
+Cohen catalogues what stopping creates space for: better customers, one real metric, a few modes of differentiation. Dunford names the thing that space is for, which is one clear alternative you beat.
+→ https://longform.asmartbear.com/focus/
+
+Full styled card → open the session.

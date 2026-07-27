@@ -1,0 +1,83 @@
+{
+  "date": "2026-07-27",
+  "edition": 1,
+  "framing": "Three collisions on speed, agency, and the discipline of subtraction.",
+  "note": "Themes: AI output vs outcome, agent-era agency, focus as positioning. Sources: SVPG, Stratechery, A Smart Bear.",
+  "sparks": [
+    {
+      "title": "SPEED WITHOUT SIGNAL",
+      "headline": "Your velocity is not a metric",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "Teams are shipping visibly faster with AI while outcomes stay flat, because the old project model was built to produce output, not outcomes."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "Pick proxy metrics: short-term signals you can move this week that actually predict long-term retention."
+      },
+      "result": "Ship rate is an output metric wearing an outcome's clothes. If no proxy metric moved this week, AI did not make you faster, it made you louder.",
+      "result_underline": "it made you louder",
+      "tick": "Which proxy metric moved because you shipped faster this month?",
+      "tick_bold": [
+        "proxy metric"
+      ],
+      "provocation": "Cagan's paradox is that AI adoption is climbing while results sit still, and the strong product companies are pulling further ahead rather than closing the gap. Biddle's answer predates AI: name the leading indicator you can move weekly, and let it judge your speed.",
+      "source": {
+        "site": "SVPG",
+        "title": "The AI Productivity Paradox",
+        "url": "https://www.svpg.com/the-ai-productivity-paradox/",
+        "published": "2026-07-23"
+      }
+    },
+    {
+      "title": "AGENCY IS SCARCE",
+      "headline": "The bottleneck moved from hands to wants",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "Agents are a third paradigm, and because one person can direct many of them, AI no longer needs widescale human adoption for its impact to be profound."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Make something a small number of people want a lot, rather than something many people want a little."
+      },
+      "result": "Graham's rule now cuts both ways: the builders are also a small number of people who want something a lot. Wanting precisely is the new scarce resource.",
+      "result_underline": "Wanting precisely is the new scarce resource",
+      "tick": "What do you want specifically enough to hand an agent tonight?",
+      "tick_bold": [
+        "specifically enough"
+      ],
+      "provocation": "Thompson's line is that AI still needs agency, it just does not need agency from that many people. That makes taste and initiative the constraint, not headcount or capital.",
+      "source": {
+        "site": "Stratechery",
+        "title": "Agents Over Bubbles",
+        "url": "https://stratechery.com/2026/agents-over-bubbles/",
+        "published": "2026-03-16"
+      }
+    },
+    {
+      "title": "SUBTRACT TO POSITION",
+      "headline": "Your calendar is your positioning statement",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "Only when you stop doing most things do you create the space to fully execute the few that decide whether you thrive or perish."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is a deliberate choice of competitive alternative, not a tagline you write at the end."
+      },
+      "result": "Positioning is not a document, it is a subtraction you can audit. Every yes you cannot defend is a competitor you just decided to be.",
+      "result_underline": "a competitor you just decided to be",
+      "tick": "What did you say yes to this week that blurs what you are?",
+      "tick_bold": [
+        "blurs what you are"
+      ],
+      "provocation": "Cohen catalogues what stopping creates space for: better customers, one real metric, a few modes of differentiation. Dunford names the thing that space is for, which is one clear alternative you beat.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "Creating space",
+        "url": "https://longform.asmartbear.com/focus/",
+        "published": "2026-01-04"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "editions": [
+    {
+      "date": "2026-07-27",
+      "edition": 1,
+      "note": "Themes: AI output vs outcome, agent-era agency, focus as positioning. Sources: SVPG, Stratechery, A Smart Bear.",
+      "sparks": [
+        {
+          "pair": "Marty Cagan x Gibson Biddle",
+          "headline": "Your velocity is not a metric",
+          "source": "SVPG — The AI Productivity Paradox",
+          "url": "https://www.svpg.com/the-ai-productivity-paradox/"
+        },
+        {
+          "pair": "Ben Thompson x Paul Graham",
+          "headline": "The bottleneck moved from hands to wants",
+          "source": "Stratechery — Agents Over Bubbles",
+          "url": "https://stratechery.com/2026/agents-over-bubbles/"
+        },
+        {
+          "pair": "Jason Cohen x April Dunford",
+          "headline": "Your calendar is your positioning statement",
+          "source": "A Smart Bear — Creating space",
+          "url": "https://longform.asmartbear.com/focus/"
+        }
+      ]
+    }
+  ]
+}
