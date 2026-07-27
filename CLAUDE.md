@@ -66,7 +66,12 @@ dominate, and anchor at least one spark on something recently published.
 1. `python3 morning-spark/spark.py ledger` -- gives today's date, the next edition number,
    and everything already sent. Do not reuse a piece or a pairing from it.
 2. Search and fetch. Read at least one of the two pieces behind each spark so the idea is
-   accurate, and keep the exact URL you read.
+   accurate, and keep the exact URL you read. `WebSearch` finds them; `WebFetch` has been
+   returning 403 on every host, including ones that are plainly reachable, so fall back to
+   `curl` rather than concluding the network is down. Only a real egress denial counts as
+   blocked: check `curl -sS "$HTTPS_PROXY/__agentproxy/status"`, which names the host and
+   the reason. If the pieces truly cannot be read, produce no edition and say so -- never
+   assemble sparks out of search snippets.
 3. Write `morning-spark/data/<today>.json` (schema below).
 4. `python3 morning-spark/spark.py build` -- validates, renders all three editions, updates
    `index.json`, and regenerates the root `index.html` so today's card is linked from the
