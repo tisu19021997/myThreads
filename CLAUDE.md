@@ -20,6 +20,7 @@ morning-spark/
   template.html       fixed layout, tokens are [[LIKE_THIS]] -- do not edit the CSS or structure
   data/YYYY-MM-DD.json   the edition, hand-authored -- the only file you write by hand
   editions/YYYY-MM-DD.html  generated
+  editions/YYYY-MM-DD.artifact.html  generated -- same card, no document wrapper, for publishing
   editions/YYYY-MM-DD.txt   generated -- this is the message you send
   index.json          generated rollup of every spark ever sent
 ```
@@ -56,16 +57,27 @@ dominate, and anchor at least one spark on something recently published.
 
 ## The run
 
+0. `git fetch origin main && git checkout -B main origin/main` -- do this before anything
+   else. The ledger reads the working tree, so a run that starts on any other branch sees
+   an empty history, hands out an edition number already used, and repeats yesterday's
+   sources. If the ledger says "no history yet" and `index.json` exists on `main`, you are
+   on the wrong branch; do not curate until this is fixed.
 1. `python3 morning-spark/spark.py ledger` -- gives today's date, the next edition number,
    and everything already sent. Do not reuse a piece or a pairing from it.
 2. Search and fetch. Read at least one of the two pieces behind each spark so the idea is
    accurate, and keep the exact URL you read.
 3. Write `morning-spark/data/<today>.json` (schema below).
-4. `python3 morning-spark/spark.py build` -- validates, renders both editions, updates
+4. `python3 morning-spark/spark.py build` -- validates, renders all three editions, updates
    `index.json`. It fails loudly on emoji, missing fields, or a source URL already used;
    fix the JSON and run it again.
 5. `SendUserFile` on `morning-spark/editions/<today>.html`, status `proactive`,
    display `render`, one-line caption.
+5b. Publish `morning-spark/editions/<today>.artifact.html` with the `Artifact` tool, so the
+   edition keeps a durable link once the container is gone. Title `Morning Spark -- <Mon D>`,
+   favicon the same every day, one-line description. Never pass the `.html` file: it is a
+   whole document and the tool supplies its own wrapper. Each day is a new file path, so
+   each edition gets its own URL -- do not pass `url` to overwrite a previous day. If this
+   step fails, say so and carry on; it must not sink an edition that already built.
 6. Commit and push: `git add -A && git commit && git push -u origin main`.
 7. Your final message is the contents of `morning-spark/editions/<today>.txt`, verbatim --
    it becomes the push notification and email. Nothing else: no preamble, no status update,
@@ -109,6 +121,9 @@ HTML in the JSON. Three sparks exactly.
 ## Pushing
 
 The scheduled run commits its edition straight to `main` -- that is intended, and is the
-standing permission for it. The ledger only works if every edition lands on the default
-branch. If a clone somehow has no `main`, create it from the setup branch first:
-`git checkout -B main origin/claude/morning-spark-daily-xkgzgx`.
+standing permission for it. `main` is the trunk: it is the one branch that holds every
+edition, so it is the only branch the ledger can dedupe against. Never let a run curate
+from anywhere else, and never open a pull request for an edition.
+
+Step 0 exists because the run cannot assume the clone lands on `main`. Check with
+`git ls-remote --symref origin HEAD` if a run looks like it started on the wrong branch.

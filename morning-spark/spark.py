@@ -193,6 +193,19 @@ def render_text(date, doc, sparks):
     return "\n\n".join(blocks) + "\n"
 
 
+STYLE_RE = re.compile(r"(?is)<style[^>]*>.*?</style>")
+BODY_RE = re.compile(r"(?is)<body[^>]*>(.*)</body>")
+
+
+def render_artifact(full_html):
+    """Same card, minus the document wrapper: an Artifact supplies its own head and body."""
+    style = STYLE_RE.search(full_html)
+    body = BODY_RE.search(full_html)
+    if not style or not body:
+        raise Bad("could not split the rendered card into style and body")
+    return f"{style.group(0)}\n{body.group(1).strip()}\n"
+
+
 def rebuild_index(all_editions):
     entries = []
     for date, doc in all_editions:
@@ -257,8 +270,11 @@ def cmd_build(args):
     EDITIONS.mkdir(parents=True, exist_ok=True)
     html_path = EDITIONS / f"{date}.html"
     txt_path = EDITIONS / f"{date}.txt"
-    html_path.write_text(render_html(date, doc, sparks), encoding="utf-8")
+    art_path = EDITIONS / f"{date}.artifact.html"
+    full_html = render_html(date, doc, sparks)
+    html_path.write_text(full_html, encoding="utf-8")
     txt_path.write_text(render_text(date, doc, sparks), encoding="utf-8")
+    art_path.write_text(render_artifact(full_html), encoding="utf-8")
 
     if not any(d == date for d, _ in all_editions):
         all_editions.append((date, doc))
@@ -266,6 +282,7 @@ def cmd_build(args):
 
     print(f"ok  {html_path}")
     print(f"ok  {txt_path}")
+    print(f"ok  {art_path}")
     print(f"ok  {INDEX}")
     return 0
 
