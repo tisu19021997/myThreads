@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, July 28 · Ed. 02
+Three collisions on borrowed skill, burnt compute, and vacated seats.
+
+─────────────────
+01 · Artifacts are not expertise
+John Cutler × Teresa Torres
+Cutler lists nine motions a capability can take, and the dangerous one is loss: the work disappears before the capability behind it has been reproduced anywhere else. Torres's teams dodged it by doing the awkward learning themselves, out loud, every week.
+→ https://cutlefish.substack.com/p/tbm-432-bundling-and-unbundling-capabilities
+
+─────────────────
+02 · Your growth loop has a GPU bill
+Vikas Kansal × Brian Balfour
+Kansal hit this at Google: the free tier was so good that users asked why they should pay, while the power users who did pay burned terrifying compute. Balfour's LinkedIn breakdown is the other half, where AI is the only reason the loop spins at all.
+→ https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont
+
+─────────────────
+03 · Empowerment needs someone to leave
+Melissa Perri × Marty Cagan
+Perri's point is that the companies which delete the PM role get unhappy fast, once they find out how much PMs were actually carrying. The fix is not deleting the role, it is pushing it up until it owns the business, and letting engineers and designers own the tactics.
+→ https://melissaperri.com/blog/2023/7/7/are-we-getting-rid-of-product-managers
+
+Full styled card → open the session.

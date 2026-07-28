@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-28",
+  "edition": 2,
+  "framing": "Three collisions on borrowed skill, burnt compute, and vacated seats.",
+  "framing_vi": "Ba va chạm: năng lực đi mượn, compute bị đốt, và những chiếc ghế bỏ trống.",
+  "note": "Themes: capability loss vs learning reps, AI unit economics inside a growth loop, PM role moving up to GM. Sources: The Beautiful Mess, Lenny's Newsletter, Melissa Perri.",
+  "sparks": [
+    {
+      "title": "BORROWED CAPABILITY",
+      "title_vi": "NĂNG LỰC ĐI MƯỢN",
+      "headline": "Artifacts are not expertise",
+      "headline_vi": "Artifact không phải là năng lực",
+      "a": {
+        "who": "John Cutler",
+        "what": "A role is only a temporary bundle. When expertise gets embedded into tools, the learning path that produced the judgment quietly leaves with it.",
+        "what_vi": "Một role chỉ là gói năng lực tạm thời. Khi expertise bị nhét vào tool, con đường học nghề tạo ra khả năng phán đoán cũng lặng lẽ đi theo."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Across nine AI product teams, nobody started as an expert. They got good by running experiments weekly and writing their own evals.",
+        "what_vi": "Qua chín team làm sản phẩm AI, không ai xuất phát từ chỗ là chuyên gia. Họ giỏi lên nhờ chạy thử nghiệm hằng tuần và tự viết eval."
+      },
+      "result": "AI does not take the skill you already have, it takes the one you would have grown. The teams pulling ahead kept the reps, not the tool.",
+      "result_vi": "AI không lấy đi kỹ năng bạn đang có, nó lấy đi kỹ năng lẽ ra bạn sẽ có. Team bứt lên là team giữ lại số lần tự làm, chứ không phải giữ cái tool.",
+      "result_underline": "The teams pulling ahead kept the reps, not the tool.",
+      "result_underline_vi": "Team bứt lên là team giữ lại số lần tự làm, chứ không phải giữ cái tool.",
+      "tick": "Which judgment call did you outsource today that you could not make yourself tomorrow?",
+      "tick_vi": "Hôm nay bạn giao đi quyết định nào mà ngày mai bạn tự ra không nổi?",
+      "tick_bold": [
+        "could not make yourself"
+      ],
+      "tick_bold_vi": [
+        "tự ra không nổi"
+      ],
+      "provocation": "Cutler lists nine motions a capability can take, and the dangerous one is loss: the work disappears before the capability behind it has been reproduced anywhere else. Torres's teams dodged it by doing the awkward learning themselves, out loud, every week.",
+      "provocation_vi": "Cutler liệt kê chín kiểu dịch chuyển của một năng lực, và kiểu nguy hiểm nhất là mất trắng: việc biến mất trước khi năng lực đằng sau nó kịp mọc lại ở chỗ khác. Các team của Torres né được vì họ tự học phần khó chịu đó, công khai, mỗi tuần.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 432: Bundling and Unbundling Capabilities (and AI)",
+        "url": "https://cutlefish.substack.com/p/tbm-432-bundling-and-unbundling-capabilities",
+        "published": "2026-07-26"
+      }
+    },
+    {
+      "title": "THE METER RUNS",
+      "title_vi": "ĐỒNG HỒ VẪN CHẠY",
+      "headline": "Your growth loop has a GPU bill",
+      "headline_vi": "Growth loop của bạn có hoá đơn GPU",
+      "a": {
+        "who": "Vikas Kansal",
+        "what": "In AI the free tier is where the compute burns, so the lever that works is gating usage intensity, not gating model intelligence.",
+        "what_vi": "Với AI, chính tier free mới là chỗ đốt compute, nên đòn bẩy chạy được là chặn theo cường độ dùng, không phải chặn theo độ thông minh của model."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "LinkedIn's AI assisted loop worked by narrowing the consumer to creator canyon: AI wrote the starter content so far more users would add the unique part.",
+        "what_vi": "Loop có AI hỗ trợ của LinkedIn chạy được nhờ thu hẹp khoảng cách từ người đọc sang người tạo: AI viết phần mồi để nhiều user hơn chịu bỏ vào phần độc nhất."
+      },
+      "result": "AI made the input to your loop nearly free and the output genuinely expensive. Growth and gross margin are now the same equation.",
+      "result_vi": "AI làm đầu vào của loop gần như miễn phí, còn đầu ra thì đắt thật. Tăng trưởng và biên lợi nhuận giờ là cùng một phương trình.",
+      "result_underline": "Growth and gross margin are now the same equation.",
+      "result_underline_vi": "Tăng trưởng và biên lợi nhuận giờ là cùng một phương trình.",
+      "tick": "What does one more active user cost you before they ever pay?",
+      "tick_vi": "Thêm một user active tốn của bạn bao nhiêu trước khi họ trả đồng nào?",
+      "tick_bold": [
+        "before they ever pay"
+      ],
+      "tick_bold_vi": [
+        "trước khi họ trả đồng nào"
+      ],
+      "provocation": "Kansal hit this at Google: the free tier was so good that users asked why they should pay, while the power users who did pay burned terrifying compute. Balfour's LinkedIn breakdown is the other half, where AI is the only reason the loop spins at all.",
+      "provocation_vi": "Kansal đụng đúng chuyện này ở Google: tier free tốt tới mức user hỏi trả tiền làm gì, còn power user chịu trả thì đốt compute đến phát sợ. Bài mổ xẻ LinkedIn của Balfour là nửa còn lại, nơi AI mới là lý do duy nhất khiến loop quay được.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "Why SaaS freemium playbooks don't work in AI, and what to do instead",
+        "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
+        "published": "2026-05-05"
+      }
+    },
+    {
+      "title": "UP, NOT DOWN",
+      "title_vi": "ĐI LÊN, KHÔNG ĐI XUỐNG",
+      "headline": "Empowerment needs someone to leave",
+      "headline_vi": "Muốn team tự chủ thì phải có người rời chỗ",
+      "a": {
+        "who": "Melissa Perri",
+        "what": "The PM role is merging with the GM role, and the product owner who only feeds developers tasks should be finished.",
+        "what_vi": "Vai trò PM đang nhập lại với vai trò GM, còn kiểu product owner chỉ ngồi ném task cho developer thì nên chấm dứt."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Empowered teams are handed problems to solve, not features to build.",
+        "what_vi": "Team được trao quyền nhận về vấn đề để giải, không phải danh sách feature để build."
+      },
+      "result": "Empowerment is not something you hand down, it is a seat you vacate. If nobody moves up to the business, empowered just means unattended.",
+      "result_vi": "Trao quyền không phải thứ bạn phát xuống, nó là cái ghế bạn rời khỏi. Không ai bước lên phía business thì tự chủ chỉ là bỏ mặc.",
+      "result_underline": "empowered just means unattended",
+      "result_underline_vi": "tự chủ chỉ là bỏ mặc",
+      "tick": "What decision are you still holding that your team would make better?",
+      "tick_vi": "Bạn còn giữ khư khư quyết định nào mà team ra còn tốt hơn bạn?",
+      "tick_bold": [
+        "still holding"
+      ],
+      "tick_bold_vi": [
+        "giữ khư khư"
+      ],
+      "provocation": "Perri's point is that the companies which delete the PM role get unhappy fast, once they find out how much PMs were actually carrying. The fix is not deleting the role, it is pushing it up until it owns the business, and letting engineers and designers own the tactics.",
+      "provocation_vi": "Ý của Perri là công ty nào xoá luôn vai trò PM sẽ vỡ mộng rất nhanh, khi phát hiện PM thực ra đang gánh bao nhiêu việc. Cách sửa không phải xoá vai trò, mà là đẩy nó lên cao đến khi nó chịu trách nhiệm cho business, rồi để engineer và designer cầm phần chiến thuật.",
+      "source": {
+        "site": "Melissa Perri",
+        "title": "Are We Getting Rid of Product Managers?",
+        "url": "https://melissaperri.com/blog/2023/7/7/are-we-getting-rid-of-product-managers",
+        "published": "2023-07-07"
+      }
+    }
+  ]
+}

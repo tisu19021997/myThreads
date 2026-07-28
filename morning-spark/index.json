@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-07-28",
+      "edition": 2,
+      "note": "Themes: capability loss vs learning reps, AI unit economics inside a growth loop, PM role moving up to GM. Sources: The Beautiful Mess, Lenny's Newsletter, Melissa Perri.",
+      "sparks": [
+        {
+          "pair": "John Cutler x Teresa Torres",
+          "headline": "Artifacts are not expertise",
+          "source": "The Beautiful Mess — TBM 432: Bundling and Unbundling Capabilities (and AI)",
+          "url": "https://cutlefish.substack.com/p/tbm-432-bundling-and-unbundling-capabilities"
+        },
+        {
+          "pair": "Vikas Kansal x Brian Balfour",
+          "headline": "Your growth loop has a GPU bill",
+          "source": "Lenny's Newsletter — Why SaaS freemium playbooks don't work in AI, and what to do instead",
+          "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont"
+        },
+        {
+          "pair": "Melissa Perri x Marty Cagan",
+          "headline": "Empowerment needs someone to leave",
+          "source": "Melissa Perri — Are We Getting Rid of Product Managers?",
+          "url": "https://melissaperri.com/blog/2023/7/7/are-we-getting-rid-of-product-managers"
+        }
+      ]
+    },
+    {
       "date": "2026-07-27",
       "edition": 1,
       "note": "Themes: AI output vs outcome, agent-era agency, focus as positioning. Sources: SVPG, Stratechery, A Smart Bear.",
