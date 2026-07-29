@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, July 29 · Ed. 03
+Three collisions on inherited curves, honest numbers, and chosen frames.
+
+─────────────────
+01 · Your ceiling was fixed before launch
+Ben Thompson × Andrew Chen
+Thompson's read is that today's price umbrella comes from scarce compute, and it hides whose cost structure is actually cheaper; when supply catches up, structure is all that is left. Chen's is that a D1 of ten percent is not a tuning problem, it is a product nobody wanted, and the honest move is to pivot in week one.
+→ https://stratechery.com/2026/whos-afraid-of-chinese-models/
+
+─────────────────
+02 · A score with no reason gets ignored
+Teresa Torres × Gibson Biddle
+Hertility found clinicians adopted the model faster when it returned several diagnoses with probabilities and the evidence for each, rather than one confident label. Proxy metrics fail the same way: the number gets adopted company wide, the link to the value it stands for never gets tested.
+→ https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/
+
+─────────────────
+03 · ARPU is a positioning decision
+Brian Balfour × April Dunford
+Balfour's threshold is brutally simple and almost nobody actually runs it: market size times willingness to pay times realistic capture. Dunford's half is that willingness to pay is not a property of the market, it is a property of the frame you put yourself in, which means the equation has one variable you get to author.
+→ https://brianbalfour.com/essays/model-market-fit-threshold-for-growth
+
+Full styled card → open the session.

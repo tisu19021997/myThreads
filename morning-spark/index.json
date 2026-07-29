@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-07-29",
+      "edition": 3,
+      "note": "Themes: launch-time ceilings on price and retention, probability over verdict inside metrics, ARPU as an output of positioning. Sources: Stratechery, Product Talk, Brian Balfour.",
+      "sparks": [
+        {
+          "pair": "Ben Thompson x Andrew Chen",
+          "headline": "Your ceiling was fixed before launch",
+          "source": "Stratechery — Who's Afraid of Chinese Models?",
+          "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/"
+        },
+        {
+          "pair": "Teresa Torres x Gibson Biddle",
+          "headline": "A score with no reason gets ignored",
+          "source": "Product Talk — Building AI for Women's Health: How Hertility Combined Bayesian Diagnosis and Scan Automation",
+          "url": "https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/"
+        },
+        {
+          "pair": "Brian Balfour x April Dunford",
+          "headline": "ARPU is a positioning decision",
+          "source": "Brian Balfour — The Model Market Fit Threshold & What it Means for Your Growth Strategy",
+          "url": "https://brianbalfour.com/essays/model-market-fit-threshold-for-growth"
+        }
+      ]
+    },
+    {
       "date": "2026-07-28",
       "edition": 2,
       "note": "Themes: capability loss vs learning reps, AI unit economics inside a growth loop, PM role moving up to GM. Sources: The Beautiful Mess, Lenny's Newsletter, Melissa Perri.",

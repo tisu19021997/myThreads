@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-29",
+  "edition": 3,
+  "framing": "Three collisions on inherited curves, honest numbers, and chosen frames.",
+  "framing_vi": "Ba va chạm: đường cong nhận sẵn, con số thật thà, và cái khung tự chọn.",
+  "note": "Themes: launch-time ceilings on price and retention, probability over verdict inside metrics, ARPU as an output of positioning. Sources: Stratechery, Product Talk, Brian Balfour.",
+  "sparks": [
+    {
+      "title": "SET AT BIRTH",
+      "title_vi": "ĐỊNH SẴN TỪ ĐẦU",
+      "headline": "Your ceiling was fixed before launch",
+      "headline_vi": "Trần của bạn đã chốt trước khi launch",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "Tokens are not the commodity, intelligence is. In a commodity market nobody wins on price, so the profit sits with whoever has the better cost structure.",
+        "what_vi": "Token không phải thứ bị commodity hoá, intelligence mới là. Trong thị trường kiểu đó không ai thắng bằng giá, lời nằm ở bên có cost structure tốt hơn."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "Retention decays at a predictable half life, and early retention already tells you the late one. You cannot A/B test your way out; only a big pivot bends the curve.",
+        "what_vi": "Retention rụng theo một nhịp đoán được, và retention sớm đã nói trước retention về sau. A/B test không gỡ được, chỉ pivot lớn mới bẻ nổi đường cong."
+      },
+      "result": "Price and retention are both curves you inherit at launch, not dials you turn afterwards. Tuning is where teams go to avoid the rebuild.",
+      "result_vi": "Giá và retention đều là đường cong bạn nhận ngay lúc launch, không phải nút để vặn sau. Tinh chỉnh là chỗ team trốn việc phải làm lại.",
+      "result_underline": "Tuning is where teams go to avoid the rebuild.",
+      "result_underline_vi": "Tinh chỉnh là chỗ team trốn việc phải làm lại.",
+      "tick": "Which number are you optimising when the thing under it needs rebuilding?",
+      "tick_vi": "Bạn đang tối ưu con số nào trong khi thứ nằm dưới nó mới là thứ cần xây lại?",
+      "tick_bold": [
+        "the thing under it needs rebuilding"
+      ],
+      "tick_bold_vi": [
+        "thứ nằm dưới nó mới là thứ cần xây lại"
+      ],
+      "provocation": "Thompson's read is that today's price umbrella comes from scarce compute, and it hides whose cost structure is actually cheaper; when supply catches up, structure is all that is left. Chen's is that a D1 of ten percent is not a tuning problem, it is a product nobody wanted, and the honest move is to pivot in week one.",
+      "provocation_vi": "Thompson đọc ra rằng cái ô giá hiện nay dựng lên từ chuyện thiếu compute, và nó che mất ai mới thật sự rẻ hơn; khi nguồn cung đuổi kịp thì chỉ còn cost structure. Chen thì nói D1 mười phần trăm không phải bài toán tinh chỉnh, đó là sản phẩm không ai cần, và nước đi thật thà là pivot ngay tuần đầu.",
+      "source": {
+        "site": "Stratechery",
+        "title": "Who's Afraid of Chinese Models?",
+        "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+        "published": "2026-07-20"
+      }
+    },
+    {
+      "title": "SHOW THE ODDS",
+      "title_vi": "ĐƯA RA XÁC SUẤT",
+      "headline": "A score with no reason gets ignored",
+      "headline_vi": "Con số không kèm lý do sẽ bị bỏ qua",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "Hertility hands clinicians a probability plus the reasoning behind it instead of a binary diagnosis, and builds fresh-eyes review in on purpose to fight automation bias.",
+        "what_vi": "Hertility đưa cho bác sĩ một xác suất kèm lập luận thay vì một chẩn đoán có hay không, và cố tình dựng thêm vòng review độc lập để chống automation bias."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "A proxy metric is a fast number you bet stands in for the slow one that matters, and the bet has to be proven rather than assumed.",
+        "what_vi": "Proxy metric là con số nhanh mà bạn cược rằng nó thay được con số chậm nhưng quan trọng, và vụ cược đó phải chứng minh chứ không mặc định đúng."
+      },
+      "result": "Your proxy metric is a probability wearing a verdict's clothes. Put the reasoning next to the number, or your team trusts it as blindly as a black box.",
+      "result_vi": "Proxy metric của bạn là một xác suất khoác áo phán quyết. Đặt lập luận ngay cạnh con số, không thì team tin nó mù quáng y như tin một cái hộp đen.",
+      "result_underline": "your team trusts it as blindly as a black box",
+      "result_underline_vi": "team tin nó mù quáng y như tin một cái hộp đen",
+      "tick": "Does your dashboard hand people a number, or a reason?",
+      "tick_vi": "Dashboard của bạn đưa cho người ta một con số, hay một lý do?",
+      "tick_bold": [
+        "a number, or a reason"
+      ],
+      "tick_bold_vi": [
+        "một con số, hay một lý do"
+      ],
+      "provocation": "Hertility found clinicians adopted the model faster when it returned several diagnoses with probabilities and the evidence for each, rather than one confident label. Proxy metrics fail the same way: the number gets adopted company wide, the link to the value it stands for never gets tested.",
+      "provocation_vi": "Hertility phát hiện bác sĩ chịu dùng model nhanh hơn khi nó trả về nhiều chẩn đoán kèm xác suất và bằng chứng cho từng cái, thay vì một cái nhãn nói chắc nịch. Proxy metric hỏng y hệt: con số thì cả công ty xài, còn mối liên hệ với giá trị nó đại diện thì chẳng ai đi kiểm.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Building AI for Women's Health: How Hertility Combined Bayesian Diagnosis and Scan Automation",
+        "url": "https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/",
+        "published": "2026-07-23"
+      }
+    },
+    {
+      "title": "THE MATH MOVES",
+      "title_vi": "PHÉP TÍNH ĐỔI THEO",
+      "headline": "ARPU is a positioning decision",
+      "headline_vi": "ARPU là một quyết định positioning",
+      "a": {
+        "who": "Brian Balfour",
+        "what": "Model Market Fit is arithmetic: ARPU times customers in the market times the share you can realistically take has to clear the number you are aiming at.",
+        "what_vi": "Model Market Fit là phép tính: ARPU nhân số khách trong thị trường nhân phần bạn giành được thật sự, phải vượt con số bạn đang nhắm."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is context. The market you place yourself in decides who buyers compare you to, and that comparison decides what you are worth to them.",
+        "what_vi": "Positioning là bối cảnh. Thị trường bạn tự đặt mình vào quyết định người mua đem bạn so với ai, và phép so đó quyết định bạn đáng giá bao nhiêu với họ."
+      },
+      "result": "ARPU is not a fact you measure, it is downstream of the category you picked. Change the comparison set and every number in the model moves with it.",
+      "result_vi": "ARPU không phải sự thật bạn đo được, nó là hệ quả của category bạn chọn. Đổi nhóm đem ra so là mọi con số trong model đổi theo.",
+      "result_underline": "Change the comparison set and every number in the model moves with it.",
+      "result_underline_vi": "Đổi nhóm đem ra so là mọi con số trong model đổi theo.",
+      "tick": "Who does your buyer compare you to, and what does that comparison cost you?",
+      "tick_vi": "Người mua đem bạn ra so với ai, và phép so đó lấy mất của bạn bao nhiêu?",
+      "tick_bold": [
+        "what does that comparison cost you"
+      ],
+      "tick_bold_vi": [
+        "phép so đó lấy mất của bạn bao nhiêu"
+      ],
+      "provocation": "Balfour's threshold is brutally simple and almost nobody actually runs it: market size times willingness to pay times realistic capture. Dunford's half is that willingness to pay is not a property of the market, it is a property of the frame you put yourself in, which means the equation has one variable you get to author.",
+      "provocation_vi": "Ngưỡng của Balfour đơn giản đến phũ mà gần như không ai chịu bấm máy: quy mô thị trường nhân mức sẵn sàng trả nhân phần giành được thực tế. Nửa của Dunford là mức sẵn sàng trả không thuộc về thị trường, nó thuộc về cái khung bạn đặt mình vào, nghĩa là trong phương trình có một biến bạn tự viết được.",
+      "source": {
+        "site": "Brian Balfour",
+        "title": "The Model Market Fit Threshold & What it Means for Your Growth Strategy",
+        "url": "https://brianbalfour.com/essays/model-market-fit-threshold-for-growth",
+        "published": "2017-07-26"
+      }
+    }
+  ]
+}
