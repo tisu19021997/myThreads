@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-30",
+  "edition": 4,
+  "framing": "Three ways the thing you never chose ends up choosing you.",
+  "framing_vi": "Ba cách mà thứ bạn chưa từng chọn lại quay ra chọn bạn.",
+  "note": "Themes: unwritten strategy as a plan for a plan, wrong category selecting the wrong users, governance as the last uncopyable moat. Sources: The Beautiful Mess, April Dunford, SVPG.",
+  "sparks": [
+    {
+      "title": "WRITE IT DOWN",
+      "title_vi": "VIẾT RA ĐI",
+      "headline": "Nobody hid the strategy, nobody wrote it",
+      "headline_vi": "Không ai giấu strategy, chỉ là chưa ai viết nó ra",
+      "a": {
+        "who": "John Cutler",
+        "what": "At the kickoff the strategy is plainly not a strategy, and the room sorts by who can see the incoherence and who can tolerate it. The people who see it and cannot tolerate it get offered a bargain: gain influence by giving up the right to name the fiction, then spend years defending it.",
+        "what_vi": "Ở buổi kickoff, cái gọi là strategy rõ ràng không phải strategy, và cả phòng tự chia theo ai nhìn ra sự lộn xộn và ai chịu được nó. Người nhìn ra mà không chịu được thì được mời một cái deal: muốn có ảnh hưởng thì thôi đừng gọi tên sự giả vờ đó nữa, rồi vài năm sau chính bạn đi bảo vệ nó."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Putting an idea into words is a severe test, and reading it back as a stranger is the real one. When someone taps their head and says it is all up here, everyone watching knows the truth: at best it is a plan for a plan.",
+        "what_vi": "Viết một ý ra thành câu là một bài test khắc nghiệt, mà đọc lại nó bằng mắt người lạ mới là bài test thật. Khi ai đó chỉ vào đầu bảo mọi thứ nằm trong này rồi, ai cũng hiểu: giỏi lắm thì đó là cái kế hoạch để làm kế hoạch."
+      },
+      "result": "The ambiguity is not protecting a strategy, it is standing in for one that was never written. So stop translating it downward and ask for the sentence.",
+      "result_vi": "Sự mơ hồ đó không che chở cho một strategy nào, nó chỉ đứng thay chỗ cho cái chưa từng được viết ra. Nên đừng dịch nó xuống cho team nữa, hãy đòi lấy một câu.",
+      "result_underline": "ask for the sentence",
+      "result_underline_vi": "hãy đòi lấy một câu",
+      "tick": "Whose unwritten strategy are you quietly drafting for free this quarter?",
+      "tick_vi": "Quý này bạn đang âm thầm viết hộ không công cái strategy của ai?",
+      "tick_bold": [
+        "quietly drafting for free"
+      ],
+      "tick_bold_vi": [
+        "âm thầm viết hộ không công"
+      ],
+      "provocation": "Cutler's five species are worth knowing yourself by: believer, player, checked out, purist, and the coherence checker who carries the most in their head. Graham's test is the cheap way out of that trap, because a strategy that cannot survive one written paragraph read by a stranger was never being withheld from you.",
+      "provocation_vi": "Năm kiểu người của Cutler đáng để bạn tự soi mình: người tin, người chơi game, người đã tắt máy, người thuần chủng nguyên tắc, và người đi kiểm tra tính nhất quán, kiểu gánh nhiều nhất trong đầu. Bài test của Graham là đường ra rẻ nhất, vì một strategy không sống nổi qua một đoạn văn cho người lạ đọc thì chưa từng bị giữ lại khỏi bạn.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 433: The Border Collie Faustian Bargain",
+        "url": "https://cutlefish.substack.com/p/tbm-433-the-border-collie-faustian",
+        "published": "2026-07-29"
+      }
+    },
+    {
+      "title": "WRONG SHELF",
+      "title_vi": "SAI KỆ HÀNG",
+      "headline": "The category picks your users, the users pick your numbers",
+      "headline_vi": "Category chọn user, user chọn luôn số của bạn",
+      "a": {
+        "who": "April Dunford",
+        "what": "If you do not position on purpose, customers do it for you from the clues easiest to assemble, and they file you into a category you cannot win. Your strongest capability becomes the one nobody was looking for.",
+        "what_vi": "Không chủ động positioning thì khách tự làm hộ bạn, dựa vào mấy dấu hiệu dễ ghép nhất, và họ nhét bạn vào một category bạn không thể thắng. Thứ mạnh nhất của bạn thành thứ chẳng ai đi tìm."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "Incentivised users are negatively selected: worse LTV, worse conversion, less engaged, plus fraud. They break the very spreadsheet that justified going after them, and they pull forward the organic users you would have won for free.",
+        "what_vi": "User đến vì incentive bị chọn lọc ngược: LTV tệ hơn, conversion tệ hơn, ít engage hơn, kèm cả gian lận. Chính họ phá cái spreadsheet đã dùng để biện minh cho chương trình, và họ kéo sớm những user organic mà bạn vốn có được miễn phí."
+      },
+      "result": "Both are the same failure at different depths: something else decided who shows up, and then those arrivals produced honest numbers about a product you did not choose to build. Your retention chart is downstream of your category.",
+      "result_vi": "Hai chuyện đó là một lỗi ở hai độ sâu: có thứ khác quyết định ai bước vào, rồi chính những người đó tạo ra các con số thật thà về một sản phẩm bạn không chọn làm. Cái chart retention của bạn nằm dưới nguồn của category.",
+      "result_underline": "Your retention chart is downstream of your category.",
+      "result_underline_vi": "Cái chart retention của bạn nằm dưới nguồn của category.",
+      "tick": "If your numbers are honest about the wrong users, what exactly are you learning?",
+      "tick_vi": "Nếu số của bạn thật thà về nhóm user sai, thì rốt cuộc bạn học được gì?",
+      "tick_bold": [
+        "honest about the wrong users"
+      ],
+      "tick_bold_vi": [
+        "thật thà về nhóm user sai"
+      ],
+      "provocation": "Dunford's example is an app that could be chat, email or team collaboration; leave it open and the customer picks chat, and then judges your file sharing against a phone call. Chen ran Uber's three hundred million dollar referral programme and found those riders were worse than paid ads, which means the cohort you recruited also rewrote what your dashboard means.",
+      "provocation_vi": "Ví dụ của Dunford là một app có thể là chat, email hay team collaboration; để mở thì khách chọn chat, rồi đem tính năng share file của bạn ra so với một cuộc gọi. Chen từng chạy chương trình referral ba trăm triệu đô của Uber và thấy nhóm rider đó còn tệ hơn cả user mua từ quảng cáo, nghĩa là cohort bạn tuyển về cũng viết lại luôn nghĩa của cái dashboard.",
+      "source": {
+        "site": "April Dunford",
+        "title": "Don't let Customers Decide What Your Product Is",
+        "url": "https://www.aprildunford.com/post/dont-let-customers-decide-what-your-product-is",
+        "published": "2019-09-11"
+      }
+    },
+    {
+      "title": "BUY THE HOUSE",
+      "title_vi": "MUA CẢ CÁI NHÀ",
+      "headline": "A great product is copyable, a great company is buyable",
+      "headline_vi": "Sản phẩm hay thì copy được, công ty hay thì mua được",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "Great products are necessary for great companies but nowhere near sufficient. Proving you can build them makes you a target for people who infiltrate boards, replace missionary founders and cash out, so he is now arguing for mission-locked governance instead of treating this as unavoidable.",
+        "what_vi": "Sản phẩm tốt là điều kiện cần cho công ty tốt, nhưng còn xa mới đủ. Chứng minh được là bạn làm ra sản phẩm tốt thì bạn thành mục tiêu của những người chui vào board, thay founder có lý tưởng rồi bán chốt lời, nên giờ ông đi cổ vũ cho governance khoá vào mission thay vì coi chuyện đó là không tránh được."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "Anything that can be copied will be copied: features, copy, pricing, the lot. The only real advantage is the thing that can neither be copied nor bought, and almost everyone believes they have one when they do not.",
+        "what_vi": "Cái gì copy được thì sẽ bị copy: tính năng, câu chữ, giá, tất. Lợi thế thật duy nhất là thứ không copy được mà cũng không mua được, và gần như ai cũng tưởng mình có một cái như vậy trong khi không."
+      },
+      "result": "Put them together and the moat moves off the roadmap. In an era where the product itself gets cheaper to clone every month, the last uncopyable asset is how control is locked.",
+      "result_vi": "Ghép lại thì cái moat rời khỏi roadmap. Trong thời mà bản thân sản phẩm mỗi tháng một dễ clone hơn, thứ duy nhất không copy nổi là cách quyền kiểm soát được khoá lại.",
+      "result_underline": "the last uncopyable asset is how control is locked",
+      "result_underline_vi": "thứ duy nhất không copy nổi là cách quyền kiểm soát được khoá lại",
+      "tick": "You defended the product all year, but who can still buy the decisions?",
+      "tick_vi": "Cả năm bạn bảo vệ sản phẩm, nhưng ai vẫn mua được quyền ra quyết định?",
+      "tick_bold": [
+        "who can still buy the decisions"
+      ],
+      "tick_bold_vi": [
+        "ai vẫn mua được quyền ra quyết định"
+      ],
+      "provocation": "Cagan admits he spent a career deferring governance to lawyers and now calls that a possible mistake, after Eric Ries's Incorruptible argued the structure is choosable. Cohen's list of real advantages, insider knowledge and single-minded obsession among them, has the same shape: it is never the artefact, it is the arrangement that produced it.",
+      "provocation_vi": "Cagan thừa nhận cả sự nghiệp ông đẩy chuyện governance cho luật sư, giờ gọi đó là một sai lầm có thể có, sau khi cuốn Incorruptible của Eric Ries lập luận rằng cấu trúc là thứ chọn được. Danh sách lợi thế thật của Cohen, gồm hiểu biết người trong ngành và sự tập trung một chiều đến cực đoan, cùng một hình dạng: không bao giờ là cái vật, mà là cái sắp xếp đã tạo ra nó.",
+      "source": {
+        "site": "SVPG",
+        "title": "Great Products, Bad Companies",
+        "url": "https://www.svpg.com/great-products-bad-companies/",
+        "published": "2026-06-30"
+      }
+    }
+  ]
+}

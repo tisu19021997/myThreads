@@ -1,0 +1,22 @@
+Morning Spark · Thursday, July 30 · Ed. 04
+Three ways the thing you never chose ends up choosing you.
+
+─────────────────
+01 · Nobody hid the strategy, nobody wrote it
+John Cutler × Paul Graham
+Cutler's five species are worth knowing yourself by: believer, player, checked out, purist, and the coherence checker who carries the most in their head. Graham's test is the cheap way out of that trap, because a strategy that cannot survive one written paragraph read by a stranger was never being withheld from you.
+→ https://cutlefish.substack.com/p/tbm-433-the-border-collie-faustian
+
+─────────────────
+02 · The category picks your users, the users pick your numbers
+April Dunford × Andrew Chen
+Dunford's example is an app that could be chat, email or team collaboration; leave it open and the customer picks chat, and then judges your file sharing against a phone call. Chen ran Uber's three hundred million dollar referral programme and found those riders were worse than paid ads, which means the cohort you recruited also rewrote what your dashboard means.
+→ https://www.aprildunford.com/post/dont-let-customers-decide-what-your-product-is
+
+─────────────────
+03 · A great product is copyable, a great company is buyable
+Marty Cagan × Jason Cohen
+Cagan admits he spent a career deferring governance to lawyers and now calls that a possible mistake, after Eric Ries's Incorruptible argued the structure is choosable. Cohen's list of real advantages, insider knowledge and single-minded obsession among them, has the same shape: it is never the artefact, it is the arrangement that produced it.
+→ https://www.svpg.com/great-products-bad-companies/
+
+Full styled card → open the session.
