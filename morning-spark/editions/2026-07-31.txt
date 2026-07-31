@@ -1,0 +1,22 @@
+Morning Spark · Friday, July 31 · Ed. 05
+Three ways the obvious advantage stops being the advantage.
+
+─────────────────
+01 · The model layer is your quartz movement
+Paul Graham × Teresa Torres
+Graham puts the Swiss transformation at roughly twenty years. Snapbar did its version twice in five, and the second one only worked because the first fourteen years were unglamorous domain work nobody could prompt their way into.
+→ https://paulgraham.com/brandage.html
+
+─────────────────
+02 · Price the hour the way you price the loop
+Andrew Chen × Jason Cohen
+Chen's honest note is that the classic loops died with mobile and the knowledge got lost along with them. Cohen's rate is how you avoid spending a year rebuilding a loop that was already under 1.0 before you started.
+→ https://andrewchen.substack.com/p/braindump-on-viral-loops
+
+─────────────────
+03 · The proxy metric you have not asked for yet
+Lenny Rachitsky × Gibson Biddle
+Only 22 percent fear losing the job to AI. Far more fear being expected to do more for the same pay, at a pace nobody can hold. The number to watch is not adoption, it is how many people still recognise themselves in the work.
+→ https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026
+
+Full styled card → open the session.

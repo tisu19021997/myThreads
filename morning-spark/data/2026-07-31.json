@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-31",
+  "edition": 5,
+  "framing": "Three ways the obvious advantage stops being the advantage.",
+  "framing_vi": "Ba cách mà lợi thế hiển nhiên thôi không còn là lợi thế.",
+  "note": "Themes: what you fall back on after commoditization, compounding as the filter for an hour, identity as a retention proxy metric. Sources: Paul Graham, andrewchen, Lenny's Newsletter.",
+  "sparks": [
+    {
+      "title": "QUARTZ CRISIS",
+      "title_vi": "KHỦNG HOẢNG QUARTZ",
+      "headline": "The model layer is your quartz movement",
+      "headline_vi": "Model layer chính là bộ máy quartz của bạn",
+      "a": {
+        "who": "Paul Graham",
+        "what": "Brand is what is left when technology erases the substantive differences between products. Quartz took accuracy away as a selling point in about a decade, and the Swiss houses that survived did it by turning from precision instrument makers into luxury brands, selling status instead of engineering. Revenue went up.",
+        "what_vi": "Brand là thứ còn lại khi công nghệ xoá sạch khác biệt thực chất giữa các sản phẩm. Quartz lấy mất độ chính xác khỏi vai trò điểm bán chỉ trong khoảng một thập kỷ, và mấy nhà Thuỵ Sĩ sống sót được là nhờ đổi từ thợ làm thiết bị chính xác thành brand xa xỉ, bán status thay vì bán kỹ thuật. Doanh thu còn lên."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "On Just Now Possible, Snapbar tells her the same story from the inside: the models commoditize, so the value slides to the application layer. Fourteen years of photo booth work is what lets them fine-tune to brand quality and meta-prompt so a person's likeness, disability included, comes out right.",
+        "what_vi": "Trong Just Now Possible, Snapbar kể cho cô đúng câu chuyện đó từ bên trong: model bị commoditize, nên giá trị dạt về application layer. Mười bốn năm làm photo booth mới là thứ giúp họ fine-tune ra chất lượng đủ chuẩn brand, và meta-prompt để gương mặt một người, kể cả khuyết tật, hiện ra cho đúng."
+      },
+      "result": "Commoditization never tells you what to fall back on. Graham's watchmakers fell back on the story; Snapbar fell back on the fourteen years the story would have been about. Only one of those is something you can start earning today.",
+      "result_vi": "Commoditize không bao giờ nói cho bạn biết phải lùi về đâu. Mấy nhà đồng hồ của Graham lùi về câu chuyện; Snapbar lùi về mười bốn năm mà câu chuyện đó lẽ ra nói tới. Chỉ một trong hai thứ đó là thứ hôm nay bạn bắt đầu tích được.",
+      "result_underline": "something you can start earning today",
+      "result_underline_vi": "hôm nay bạn bắt đầu tích được",
+      "tick": "When the models level out, am I selling engineering or the story of engineering?",
+      "tick_vi": "Khi model san bằng hết, bạn đang bán kỹ thuật hay bán câu chuyện về kỹ thuật?",
+      "tick_bold": [
+        "the story of engineering"
+      ],
+      "tick_bold_vi": [
+        "câu chuyện về kỹ thuật"
+      ],
+      "provocation": "Graham puts the Swiss transformation at roughly twenty years. Snapbar did its version twice in five, and the second one only worked because the first fourteen years were unglamorous domain work nobody could prompt their way into.",
+      "provocation_vi": "Graham tính cuộc lột xác của Thuỵ Sĩ mất chừng hai chục năm. Snapbar làm bản của mình hai lần trong năm năm, và lần thứ hai chạy được chỉ vì mười bốn năm trước đó là thứ domain work không hào nhoáng, không ai prompt ra được.",
+      "source": {
+        "site": "Paul Graham",
+        "title": "The Brand Age",
+        "url": "https://paulgraham.com/brandage.html",
+        "published": "2026-03"
+      }
+    },
+    {
+      "title": "ABOVE ONE",
+      "title_vi": "TRÊN MỘT",
+      "headline": "Price the hour the way you price the loop",
+      "headline_vi": "Định giá một giờ giống cách bạn định giá một loop",
+      "a": {
+        "who": "Andrew Chen",
+        "what": "Viral factor is a ratio and the entire game is whether it clears 1.0. Below that the loop is a decaying series that quietly stops, and much of the optimization work he catalogues from the Web 2.0 years amounts to choosing how slowly it dies.",
+        "what_vi": "Viral factor là một tỷ số, và cả cuộc chơi chỉ nằm ở chuyện nó có vượt 1.0 hay không. Dưới mức đó, loop là một chuỗi tắt dần rồi lặng lẽ dừng hẳn, và phần lớn việc optimize mà anh liệt kê từ thời Web 2.0 thật ra chỉ là chọn xem nó chết chậm tới đâu."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "Value your own hour at a thousand dollars, not your consultant rate. A startup pays you in one lump sum four years out with maybe a one in four chance of paying at all, so the risk premium is the whole point. At that price, incremental projects are simply not affordable.",
+        "what_vi": "Hãy định giá một giờ của bạn ở mức một nghìn đô, đừng lấy rate đi làm consultant. Startup trả bạn một cục sau bốn năm, mà xác suất trả thật có khi chỉ một phần tư, nên phần bù rủi ro mới là điểm chính. Ở cái giá đó, mấy dự án chỉ nhích thêm một chút thì bạn không đủ tiền để làm."
+      },
+      "result": "Two prices, one filter. Chen prices the loop, Cohen prices the hour, and both throw out anything that merely adds. Stop asking whether the work moves a number and ask whether it moves an exponent.",
+      "result_vi": "Hai cái giá, một bộ lọc. Chen định giá loop, Cohen định giá giờ, và cả hai đều vứt hết những gì chỉ cộng thêm. Đừng hỏi việc này có làm số liệu nhúc nhích không, hỏi xem nó có làm đổi số mũ không.",
+      "result_underline": "ask whether it moves an exponent",
+      "result_underline_vi": "hỏi xem nó có làm đổi số mũ không",
+      "tick": "What did I touch today that keeps compounding after I stop touching it?",
+      "tick_vi": "Hôm nay bạn động vào thứ gì mà nó vẫn tiếp tục nhân lên sau khi bạn buông tay?",
+      "tick_bold": [
+        "keeps compounding after I stop touching it"
+      ],
+      "tick_bold_vi": [
+        "vẫn tiếp tục nhân lên sau khi bạn buông tay"
+      ],
+      "provocation": "Chen's honest note is that the classic loops died with mobile and the knowledge got lost along with them. Cohen's rate is how you avoid spending a year rebuilding a loop that was already under 1.0 before you started.",
+      "provocation_vi": "Chen thẳng thắn: các loop kinh điển chết cùng với mobile, và kiến thức về chúng mất theo luôn. Cái rate của Cohen là cách bạn tránh mất cả năm đi xây lại một loop vốn đã dưới 1.0 từ trước khi bạn bắt đầu.",
+      "source": {
+        "site": "andrewchen",
+        "title": "BRAINDUMP ON VIRAL LOOPS",
+        "url": "https://andrewchen.substack.com/p/braindump-on-viral-loops",
+        "published": "2025-11-05"
+      }
+    },
+    {
+      "title": "ONE QUESTION",
+      "title_vi": "MỘT CÂU HỎI",
+      "headline": "The proxy metric you have not asked for yet",
+      "headline_vi": "Cái proxy metric bạn chưa bao giờ đi hỏi",
+      "a": {
+        "who": "Lenny Rachitsky",
+        "what": "The 2026 sentiment survey found one question outranks the rest: has AI amplified you or diminished you. It predicts career optimism and whether someone would recommend the field better than role, level and company size combined, and the gap is about three times the size of the famous founder effect. Burnout climbed from 44.7 to 55.7 percent in a single year.",
+        "what_vi": "Khảo sát sentiment 2026 tìm ra một câu hỏi ăn đứt phần còn lại: AI đã khuếch đại bạn hay làm bạn bé đi. Nó dự đoán mức lạc quan nghề nghiệp, và cả chuyện người ta có khuyên ai vào nghề hay không, chuẩn hơn cả role, level và quy mô công ty cộng lại, với khoảng cách gấp khoảng ba lần hiệu ứng founder vốn đã nổi tiếng. Burnout leo từ 44,7 lên 55,7 phần trăm chỉ trong một năm."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "A proxy metric is the near-term number you can actually move that reliably predicts the long-term outcome you cannot measure yet. Pick the wrong proxy and you will optimize hard, for a year, in the wrong direction.",
+        "what_vi": "Proxy metric là con số ngắn hạn bạn thực sự làm nhúc nhích được, và nó dự đoán đáng tin cậy cái outcome dài hạn mà bạn chưa đo được. Chọn nhầm proxy thì bạn sẽ optimize rất hăng say, suốt một năm, về sai hướng."
+      },
+      "result": "That survey just handed you a retention proxy for your own team, and it is not eNPS and not comp. One sentence about identity, asked out loud, tells you who is still here next year.",
+      "result_vi": "Khảo sát đó vừa đưa cho bạn một proxy về retention của chính team bạn, và nó không phải eNPS, cũng không phải lương. Một câu về chuyện họ thấy mình là ai, hỏi thành tiếng, cho bạn biết năm sau ai còn ở lại.",
+      "result_underline": "tells you who is still here next year",
+      "result_underline_vi": "cho bạn biết năm sau ai còn ở lại",
+      "tick": "If I asked my team that question tomorrow, whose answer would surprise me?",
+      "tick_vi": "Nếu mai bạn hỏi team câu đó, câu trả lời của ai sẽ làm bạn bất ngờ?",
+      "tick_bold": [
+        "whose answer would surprise me"
+      ],
+      "tick_bold_vi": [
+        "câu trả lời của ai sẽ làm bạn bất ngờ"
+      ],
+      "provocation": "Only 22 percent fear losing the job to AI. Far more fear being expected to do more for the same pay, at a pace nobody can hold. The number to watch is not adoption, it is how many people still recognise themselves in the work.",
+      "provocation_vi": "Chỉ 22 phần trăm sợ mất việc vào tay AI. Nhiều hơn hẳn là sợ bị đòi làm nhiều hơn với cùng số lương, ở một nhịp không ai giữ nổi. Con số đáng theo dõi không phải tỷ lệ adoption, mà là còn bao nhiêu người nhận ra chính mình trong công việc.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "How tech workers are feeling in 2026: a workforce splitting in two",
+        "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
+        "published": "2026-07-07"
+      }
+    }
+  ]
+}

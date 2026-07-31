@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-07-31",
+      "edition": 5,
+      "note": "Themes: what you fall back on after commoditization, compounding as the filter for an hour, identity as a retention proxy metric. Sources: Paul Graham, andrewchen, Lenny's Newsletter.",
+      "sparks": [
+        {
+          "pair": "Paul Graham x Teresa Torres",
+          "headline": "The model layer is your quartz movement",
+          "source": "Paul Graham — The Brand Age",
+          "url": "https://paulgraham.com/brandage.html"
+        },
+        {
+          "pair": "Andrew Chen x Jason Cohen",
+          "headline": "Price the hour the way you price the loop",
+          "source": "andrewchen — BRAINDUMP ON VIRAL LOOPS",
+          "url": "https://andrewchen.substack.com/p/braindump-on-viral-loops"
+        },
+        {
+          "pair": "Lenny Rachitsky x Gibson Biddle",
+          "headline": "The proxy metric you have not asked for yet",
+          "source": "Lenny's Newsletter — How tech workers are feeling in 2026: a workforce splitting in two",
+          "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026"
+        }
+      ]
+    },
+    {
       "date": "2026-07-30",
       "edition": 4,
       "note": "Themes: unwritten strategy as a plan for a plan, wrong category selecting the wrong users, governance as the last uncopyable moat. Sources: The Beautiful Mess, April Dunford, SVPG.",
