@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-01",
+  "edition": 6,
+  "framing": "The cheap part got cheaper. The scarce part did not move.",
+  "framing_vi": "Phần rẻ thì càng rẻ. Phần hiếm thì không nhúc nhích.",
+  "note": "Themes: discovery as subtraction rather than confidence, the social contract as the gate on AI gains, judgment as the bottleneck once prototypes are free. Sources: A Smart Bear, The Beautiful Mess, SVPG.",
+  "sparks": [
+    {
+      "title": "ONLY SUBTRACT",
+      "title_vi": "CHỈ TRỪ ĐI",
+      "headline": "Discovery can only subtract",
+      "headline_vi": "Discovery chỉ làm được phép trừ",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "RICE-style confidence scores are noise. You cannot assign real probabilities to something unprecedented, so the question is not how sure you are, it is what stays wise under any distribution: what is true always, and what you can recover from fast. He admits his own favourite move, interviewing customers, sits inside the same confidence trap. You never really know until you build.",
+        "what_vi": "Mấy điểm confidence kiểu RICE chỉ là nhiễu. Bạn không gán nổi xác suất thật cho một thứ chưa từng có tiền lệ, nên câu hỏi không phải bạn chắc tới đâu, mà là làm gì thì vẫn khôn dù phân phối có ra sao: cái gì luôn đúng, và hỏng thì gượng lại nhanh cỡ nào. Ông thừa nhận chiêu ruột của chính mình, đi phỏng vấn khách, cũng nằm trong đúng cái bẫy confidence đó. Xây ra rồi mới thật sự biết."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery is weekly customer touchpoints feeding an opportunity solution tree: you name the assumptions sitting under an idea, then run the smallest test that could break one of them. The output is a habit of contact, not a verdict.",
+        "what_vi": "Continuous discovery là tuần nào cũng có touchpoint với khách, đổ vào opportunity solution tree: bạn gọi tên các giả định nằm dưới một ý tưởng, rồi chạy bài test nhỏ nhất có thể làm gãy một trong số đó. Cái ra được là thói quen tiếp xúc, không phải một phán quyết."
+      },
+      "result": "Put them together and discovery stops pretending to be a confidence machine. Torres gives you the weekly reps, Cohen tells you what the reps are for: interviews can only kill an idea, never crown one.",
+      "result_vi": "Ghép lại thì discovery thôi giả vờ làm cái máy sản xuất confidence. Torres cho bạn số reps hằng tuần, Cohen nói cho bạn biết reps đó để làm gì: phỏng vấn chỉ giết được một ý tưởng, không bao giờ phong vương cho nó.",
+      "result_underline": "interviews can only kill an idea, never crown one",
+      "result_underline_vi": "phỏng vấn chỉ giết được một ý tưởng, không bao giờ phong vương cho nó",
+      "tick": "Which idea on my list survived only because nobody tried to kill it?",
+      "tick_vi": "Ý tưởng nào trong danh sách của bạn sống sót chỉ vì chưa ai thử giết nó?",
+      "tick_bold": [
+        "nobody tried to kill it"
+      ],
+      "tick_bold_vi": [
+        "chưa ai thử giết nó"
+      ],
+      "provocation": "Cohen's two-by-two is brutal. Was confident and they loved it, was confident and nobody cared, was not confident and they loved it, was not confident and nobody cared: every cell has plenty of examples. That is what a confidence score is worth. Ask instead whether the downside is survivable.",
+      "provocation_vi": "Cái bảng hai nhân hai của Cohen phũ thật. Chắc chắn rồi được yêu, chắc chắn rồi bị ngó lơ, không chắc rồi được yêu, không chắc rồi bị ngó lơ: ô nào cũng đầy ví dụ. Điểm confidence đáng giá đúng chừng đó. Hỏi câu khác đi, hỏng thì bạn sống nổi không.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "Lost confidence",
+        "url": "https://longform.asmartbear.com/confidence/",
+        "published": "2026-06-21"
+      }
+    },
+    {
+      "title": "THE DENOMINATOR",
+      "title_vi": "MẪU SỐ",
+      "headline": "Your AI rollout has a market fit problem",
+      "headline_vi": "Cú rollout AI của bạn đang thiếu market fit",
+      "a": {
+        "who": "John Cutler",
+        "what": "AI success in an organisation is machine understanding times problem understanding times practice evolution, all divided by the social contract: the credible commitment that gains from improvement will not be captured against the people who generated them. Break that denominator and the whole thing collapses however strong the top is. Resistance to a mandate is then rational self-preservation, not ignorance.",
+        "what_vi": "Thành công của AI trong một tổ chức bằng hiểu máy nhân hiểu vấn đề nhân tiến hoá cách làm, tất cả chia cho social contract: cam kết đáng tin rằng phần lợi từ cải tiến sẽ không bị quay ngược lại đè lên chính người tạo ra nó. Mẫu số gãy thì cả phân số sập, tử số mạnh cỡ nào cũng vậy. Lúc đó chống lại một cái lệnh dùng AI là tự vệ hợp lý, không phải do kém hiểu."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Growth is a system, not a tactic. Product, market, channel and model have to fit each other, and bolting a strong channel onto a model it does not fit buys you a burst and then a wall, because the mismatch is structural rather than a matter of effort.",
+        "what_vi": "Growth là một hệ thống, không phải một chiêu. Product, market, channel và model phải khớp nhau, cắm một channel mạnh vào cái model không hợp thì bạn mua được một đợt bùng rồi đâm vào tường, vì lệch là lệch ở cấu trúc chứ không phải chuyện cố gắng nhiều hay ít."
+      },
+      "result": "An AI mandate is a channel. It is pushed at a market that has to buy it, your own team, whose competing alternative is the version of the job they still recognise themselves in. The first market you have to fit is the one already on payroll.",
+      "result_vi": "Một cái lệnh dùng AI chính là một channel. Nó được đẩy tới một thị trường buộc phải mua, là chính team bạn, mà lựa chọn cạnh tranh của họ là phiên bản công việc họ còn nhận ra mình trong đó. Thị trường đầu tiên bạn phải khớp là thị trường đã nằm trong bảng lương.",
+      "result_underline": "The first market you have to fit is the one already on payroll",
+      "result_underline_vi": "Thị trường đầu tiên bạn phải khớp là thị trường đã nằm trong bảng lương",
+      "tick": "Who on my team would quietly lose something if my AI push actually worked?",
+      "tick_vi": "Ai trong team bạn sẽ lặng lẽ mất một thứ gì đó nếu cú đẩy AI của bạn chạy thật?",
+      "tick_bold": [
+        "quietly lose something"
+      ],
+      "tick_bold_vi": [
+        "lặng lẽ mất một thứ gì đó"
+      ],
+      "provocation": "The formula is multiplicative, so a zero anywhere in the numerator ends it. The denominator is worse than that: it is the precondition for everything above the line. Most mandates force one term high and assume the other two take care of themselves.",
+      "provocation_vi": "Công thức là phép nhân, nên tử số có một số không ở đâu đó là xong. Mẫu số còn nặng hơn thế: nó là điều kiện cần cho mọi thứ nằm trên gạch ngang. Phần lớn các lệnh dùng AI đẩy mạnh một biến rồi mặc định hai biến kia tự lo.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 431: The Denominator That Matters",
+        "url": "https://cutlefish.substack.com/p/tbm-431-the-denominator-that-matters",
+        "published": "2026-07-19"
+      }
+    },
+    {
+      "title": "TWENTY A WEEK",
+      "title_vi": "HAI MƯƠI MỘT TUẦN",
+      "headline": "Free prototypes, same missing sentence",
+      "headline_vi": "Prototype miễn phí, vẫn thiếu đúng một câu",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "Delivery got cheap, so building is no longer the bottleneck; discovery is. Build to learn and build to earn are different jobs carrying different risks, and a team can now run ten to twenty prototypes a week and test several approaches in parallel instead of one at a time. The tooling is the easy part. The hard part is the product sense to read what comes back.",
+        "what_vi": "Delivery rẻ đi rồi, nên xây không còn là nút thắt nữa; discovery mới là. Build to learn và build to earn là hai việc khác nhau, rủi ro khác nhau, và giờ một team chạy được mười tới hai mươi prototype một tuần, test song song nhiều hướng thay vì lần lượt từng cái. Công cụ là phần dễ. Phần khó là product sense để đọc xem kết quả nói gì."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning starts from the competitive alternative: what the customer would do if you did not exist. Value only reads against that baseline, and the category you claim tells people which yardstick to hold up. Get the frame wrong and a genuinely good product looks unremarkable.",
+        "what_vi": "Positioning bắt đầu từ competitive alternative: khách sẽ làm gì nếu bạn không tồn tại. Giá trị chỉ đọc được khi đặt cạnh cái mốc đó, và category bạn nhận sẽ nói cho người ta biết nên cầm cây thước nào lên đo. Đặt sai khung thì một sản phẩm ngon thật cũng trông nhạt."
+      },
+      "result": "Twenty prototypes a week is twenty answers to a question nobody wrote down. Dunford supplies the missing sentence, compared to what. Test the alternative, not the artefact.",
+      "result_vi": "Hai mươi prototype một tuần là hai mươi câu trả lời cho một câu hỏi chưa ai viết ra. Dunford đưa cho bạn cái câu còn thiếu, so với cái gì. Test cái lựa chọn thay thế, đừng test cái bạn vừa dựng.",
+      "result_underline": "Test the alternative, not the artefact",
+      "result_underline_vi": "Test cái lựa chọn thay thế, đừng test cái bạn vừa dựng",
+      "tick": "What would this user do tomorrow if my prototype did not exist?",
+      "tick_vi": "Ngày mai người dùng này sẽ làm gì nếu prototype của bạn không tồn tại?",
+      "tick_bold": [
+        "if my prototype did not exist"
+      ],
+      "tick_bold_vi": [
+        "nếu prototype của bạn không tồn tại"
+      ],
+      "provocation": "Cagan's warning is that cheap delivery turns the old project model into a turbo-charged feature factory. Speed only compounds whatever frame you started in, so one sentence naming the alternative is now worth more than the twenty builds.",
+      "provocation_vi": "Cagan cảnh báo rằng delivery rẻ biến project model cũ thành cái feature factory chạy hết ga. Tốc độ chỉ nhân lên cái khung bạn khởi đầu, nên một câu gọi tên lựa chọn thay thế bây giờ đáng giá hơn cả hai mươi bản dựng.",
+      "source": {
+        "site": "SVPG",
+        "title": "Build to Learn vs Build to Earn",
+        "url": "https://www.svpg.com/build-to-learn-vs-build-to-earn/",
+        "published": "2026-04-16"
+      }
+    }
+  ]
+}

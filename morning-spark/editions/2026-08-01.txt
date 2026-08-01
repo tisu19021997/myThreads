@@ -1,0 +1,22 @@
+Morning Spark · Saturday, August 1 · Ed. 06
+The cheap part got cheaper. The scarce part did not move.
+
+─────────────────
+01 · Discovery can only subtract
+Jason Cohen × Teresa Torres
+Cohen's two-by-two is brutal. Was confident and they loved it, was confident and nobody cared, was not confident and they loved it, was not confident and nobody cared: every cell has plenty of examples. That is what a confidence score is worth. Ask instead whether the downside is survivable.
+→ https://longform.asmartbear.com/confidence/
+
+─────────────────
+02 · Your AI rollout has a market fit problem
+John Cutler × Brian Balfour
+The formula is multiplicative, so a zero anywhere in the numerator ends it. The denominator is worse than that: it is the precondition for everything above the line. Most mandates force one term high and assume the other two take care of themselves.
+→ https://cutlefish.substack.com/p/tbm-431-the-denominator-that-matters
+
+─────────────────
+03 · Free prototypes, same missing sentence
+Marty Cagan × April Dunford
+Cagan's warning is that cheap delivery turns the old project model into a turbo-charged feature factory. Speed only compounds whatever frame you started in, so one sentence naming the alternative is now worth more than the twenty builds.
+→ https://www.svpg.com/build-to-learn-vs-build-to-earn/
+
+Full styled card → open the session.

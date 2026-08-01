@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-01",
+      "edition": 6,
+      "note": "Themes: discovery as subtraction rather than confidence, the social contract as the gate on AI gains, judgment as the bottleneck once prototypes are free. Sources: A Smart Bear, The Beautiful Mess, SVPG.",
+      "sparks": [
+        {
+          "pair": "Jason Cohen x Teresa Torres",
+          "headline": "Discovery can only subtract",
+          "source": "A Smart Bear — Lost confidence",
+          "url": "https://longform.asmartbear.com/confidence/"
+        },
+        {
+          "pair": "John Cutler x Brian Balfour",
+          "headline": "Your AI rollout has a market fit problem",
+          "source": "The Beautiful Mess — TBM 431: The Denominator That Matters",
+          "url": "https://cutlefish.substack.com/p/tbm-431-the-denominator-that-matters"
+        },
+        {
+          "pair": "Marty Cagan x April Dunford",
+          "headline": "Free prototypes, same missing sentence",
+          "source": "SVPG — Build to Learn vs Build to Earn",
+          "url": "https://www.svpg.com/build-to-learn-vs-build-to-earn/"
+        }
+      ]
+    },
+    {
       "date": "2026-07-31",
       "edition": 5,
       "note": "Themes: what you fall back on after commoditization, compounding as the filter for an hour, identity as a retention proxy metric. Sources: Paul Graham, andrewchen, Lenny's Newsletter.",
