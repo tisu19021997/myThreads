@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-02",
+  "edition": 7,
+  "framing": "Nothing you grade yourself is going to tell you the truth.",
+  "framing_vi": "Cái gì bạn tự chấm điểm thì đừng mong nó nói thật.",
+  "note": "Themes: an outside price as the only honest hurdle, fixers as an inward network effect, durability as the second number behind growth. Sources: Stratechery, The Beautiful Mess, Paul Graham.",
+  "sparks": [
+    {
+      "title": "RENT IT OUT",
+      "title_vi": "ĐEM CHO THUÊ",
+      "headline": "Let the market price your roadmap",
+      "headline_vi": "Để thị trường ra giá cho roadmap của bạn",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "In a speech he writes for Zuckerberg to give, Meta admits every large mistake came from the same place: wanting to be a platform instead of embracing the advertising and entertainment business it already was. Web-first mobile, twelve figures into Reality Labs, missing that Facebook had become entertainment. The proposed fix is not a new vision. It is a hurdle rate: rent part of the compute out on the spot market, so the only way to claw it back is to prove you earn more with it than a stranger will pay.",
+        "what_vi": "Trong bài diễn văn Thompson viết hộ Zuckerberg, Meta tự nhận mọi sai lầm lớn đều ra từ một chỗ: muốn làm platform thay vì chấp nhận mình vốn là một cỗ máy quảng cáo và giải trí. Bám web khi mobile lên, đốt mười hai chữ số vào Reality Labs, không nhìn ra Facebook đã thành entertainment. Cách sửa không phải một tầm nhìn mới. Nó là một cái hurdle rate: đem một phần compute ra cho thuê ngoài thị trường, muốn lấy lại thì phải chứng minh bạn kiếm được nhiều hơn cái giá người lạ sẵn sàng trả."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "The build trap: organisations stuck measuring themselves by output because nothing ever forces the outcome question. Shipping becomes the evidence of value and the roadmap becomes a promise made to yourself. Her way out is the product kata, naming the outcome you owe and measuring the gap that is left, before anyone argues about what to build.",
+        "what_vi": "Build trap: công ty kẹt trong việc tự đo mình bằng output vì chẳng có gì bắt họ trả lời câu hỏi outcome. Ship xong là coi như có giá trị, roadmap thành lời hứa với chính mình. Lối ra của Perri là product kata, gọi tên cái outcome bạn đang nợ và đo khoảng cách còn lại, trước khi ai đó bàn xây gì."
+      },
+      "result": "Meta's discipline is not a metric, it is a bid. The build trap survives because nobody outside ever quotes a price for the quarter your team is about to spend. Put the capacity on the market and the roadmap has to beat a stranger's offer.",
+      "result_vi": "Kỷ luật của Meta không nằm ở một metric, nó nằm ở một cái giá chào. Build trap sống dai vì chẳng ai bên ngoài từng ra giá cho cái quý mà team bạn sắp tiêu. Đem capacity ra chợ đi, rồi roadmap sẽ phải thắng được giá của một người lạ.",
+      "result_underline": "the roadmap has to beat a stranger's offer",
+      "result_underline_vi": "roadmap sẽ phải thắng được giá của một người lạ",
+      "tick": "What would an outsider pay for the week my team is about to spend?",
+      "tick_vi": "Một người ngoài sẽ trả bao nhiêu cho cái tuần mà team bạn sắp tiêu?",
+      "tick_bold": [
+        "an outsider pay"
+      ],
+      "tick_bold_vi": [
+        "Một người ngoài sẽ trả bao nhiêu"
+      ],
+      "provocation": "Output metrics are graded by the same people who picked the work. A rental price is not. Thompson's move is to install one number nobody in the building controls, then let it quietly kill whatever cannot clear it.",
+      "provocation_vi": "Metric về output do đúng những người chọn việc chấm điểm. Giá cho thuê thì không. Nước đi của Thompson là cắm vào một con số không ai trong toà nhà điều khiển được, rồi để nó lặng lẽ khai tử mấy thứ không vượt nổi.",
+      "source": {
+        "site": "Stratechery",
+        "title": "A Script for Mark Zuckerberg",
+        "url": "https://stratechery.com/2026/a-script-for-mark-zuckerberg/",
+        "published": "2026-07-07"
+      }
+    },
+    {
+      "title": "THE FIXERS",
+      "title_vi": "DÂN RÀNH ĐƯỜNG",
+      "headline": "Your navigators are why it stays broken",
+      "headline_vi": "Chính mấy người rành đường giữ cho nó hỏng",
+      "a": {
+        "who": "John Cutler",
+        "what": "When strategy, structure, technology and incentives line up, an organisation can leave almost everything implicit: read one map layer and you can fill in the rest. When they stop lining up, every layer cuts across the others and getting anything done becomes a specialised navigation skill. So the company gets good at dependency docs, cross-functional forums and hiring fixers, which lowers the pain just enough that the incoherence is never addressed. AI can compare the maps but cannot make them agree, and smoothing the contradictions only manufactures the appearance of alignment.",
+        "what_vi": "Khi strategy, cấu trúc, công nghệ và incentive khớp nhau, tổ chức để ngầm gần hết mọi thứ cũng không sao: đọc một lớp bản đồ là đoán được các lớp còn lại. Khi chúng lệch nhau, mỗi lớp cắt ngang các lớp kia, và làm xong được việc trở thành một kỹ năng đi đường riêng. Thế là công ty giỏi lên ở khoản ghi chép dependency, lập forum liên phòng ban, thuê người chạy việc, đủ để bớt đau và cũng đủ để cái lệch đó không bao giờ được sửa. AI so được các lớp bản đồ nhưng không làm chúng khớp, và làm mượt mâu thuẫn thì chỉ đẻ ra cảm giác đã align."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "Network effects: the product gets more valuable to each person as more people join, and the brutal part is the cold start before that kicks in. Once the network is dense enough the value sits in the connections rather than the features, which is exactly what makes leaving expensive.",
+        "what_vi": "Network effect: càng nhiều người dùng thì sản phẩm càng đáng giá với từng người, và phần tàn nhẫn là cold start trước khi vòng đó chạy. Mạng đủ dày rồi thì giá trị nằm ở các kết nối chứ không nằm ở tính năng, và đó đúng là thứ làm cho việc rời đi trở nên đắt."
+      },
+      "result": "The fixers are a network effect pointed inward. Every workaround adds a node, every node makes the maze worth more to the people who know it, and by the time the org could be fixed, the ones who could fix it are the ones it made important.",
+      "result_vi": "Đám rành đường chính là network effect quay ngược vào trong. Mỗi lần lách là thêm một node, mỗi node làm mê cung đáng giá hơn với người thuộc đường, và tới lúc tổ chức sửa được thì người sửa được lại chính là người mê cung phong chức.",
+      "result_underline": "the ones who could fix it are the ones it made important",
+      "result_underline_vi": "người sửa được lại chính là người mê cung phong chức",
+      "tick": "Who in my company would be worth less if the structure made sense?",
+      "tick_vi": "Ai trong công ty bạn sẽ mất giá nếu cấu trúc trở nên rành mạch?",
+      "tick_bold": [
+        "worth less if the structure made sense"
+      ],
+      "tick_bold_vi": [
+        "mất giá nếu cấu trúc trở nên rành mạch"
+      ],
+      "provocation": "Cutler's tell is that insiders move around happily. That is not evidence of coherence, it is evidence that navigation became a job. Every new dependency doc is one more reason to keep the maze standing.",
+      "provocation_vi": "Dấu hiệu Cutler chỉ ra là người trong nhà đi lại thoải mái. Đó không phải bằng chứng của sự mạch lạc, đó là bằng chứng việc đi đường đã thành một cái nghề. Mỗi tài liệu dependency mới là thêm một lý do giữ nguyên mê cung.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 434: How Maps Can Hide Problems",
+        "url": "https://cutlefish.substack.com/p/tbm-434-how-maps-can-hide-problems",
+        "published": "2026-08-01"
+      }
+    },
+    {
+      "title": "TWO NUMBERS",
+      "title_vi": "HAI CON SỐ",
+      "headline": "Growth proves love. It does not buy time.",
+      "headline_vi": "Growth chứng minh họ mê. Nó không mua thêm thời gian.",
+      "a": {
+        "who": "Paul Graham",
+        "what": "Becoming a billionaire reduces to two numbers: the growth rate and how long it continues. Fifteen percent a month for five years is 4384 times; a couple of million growing at 93 percent a month is nine and a half months from a billion. You earn the first number by making something people tell their friends about, which usually means making what you and your friends want, found by working on projects rather than hunting for ideas. The second number he waves off: you predicted the demand, so the market will grow.",
+        "what_vi": "Thành tỷ phú rút lại còn hai con số: tốc độ tăng trưởng và nó kéo dài bao lâu. 15% một tháng trong năm năm là 4384 lần; hai triệu đô mà tăng 93% một tháng thì cách mốc tỷ đô đúng chín tháng rưỡi. Con số đầu kiếm được bằng cách làm ra thứ người ta kể lại cho bạn bè, mà thường là làm đúng thứ bạn và đám bạn bạn muốn, tìm ra từ việc nghịch project chứ không phải ngồi săn ý tưởng. Con số thứ hai thì ông phẩy tay: bạn đoán trúng nhu cầu rồi, thị trường sẽ tự lớn."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: a product strategy has to delight customers, in hard-to-copy ways, that enhance margin. Delight on its own is a rented advantage. The hard-to-copy half, personalisation, scale economics, brand, is what stops the delight being competed away, and proxy metrics tell you it is slipping long before revenue does.",
+        "what_vi": "DHM: một product strategy phải làm khách delight, theo cách khó copy, và cải thiện margin. Delight không thôi là lợi thế đi thuê. Nửa khó copy, tức personalization, lợi thế quy mô, thương hiệu, mới giữ cho delight khỏi bị đua mất, còn proxy metric báo bạn biết nó đang tuột từ lâu trước khi doanh thu kịp lên tiếng."
+      },
+      "result": "Graham's first number is the purest proxy metric there is: word of mouth, priced monthly. But he hands the second number to the market, and Biddle's whole point is that the market is where it gets taken back. Hard-to-copy is not a moat, it is the exponent's duration.",
+      "result_vi": "Con số đầu của Graham là proxy metric thuần khiết nhất: truyền miệng, tính theo tháng. Nhưng con số thứ hai ông giao lại cho thị trường, mà theo Biddle thì thị trường đúng là chỗ người ta lấy nó khỏi tay bạn. Khó copy không phải cái hào, nó là thời hạn của số mũ.",
+      "result_underline": "Hard-to-copy is not a moat, it is the exponent's duration",
+      "result_underline_vi": "Khó copy không phải cái hào, nó là thời hạn của số mũ",
+      "tick": "My growth rate says they love it. What says they cannot get it elsewhere next year?",
+      "tick_vi": "Growth rate nói họ mê bạn. Cái gì nói sang năm họ không kiếm được chỗ khác?",
+      "tick_bold": [
+        "cannot get it elsewhere next year"
+      ],
+      "tick_bold_vi": [
+        "sang năm họ không kiếm được chỗ khác"
+      ],
+      "provocation": "Compounding is arithmetic. The number of months is strategy. Graham is right that you cannot cheat your way to a bigger market, and Biddle is right that you can be copied out of one. Only one of the two numbers is under attack.",
+      "provocation_vi": "Lãi kép là số học. Số tháng mới là chiến lược. Graham đúng ở chỗ bạn không gian lận để thị trường to ra, Biddle đúng ở chỗ bạn có thể bị copy văng khỏi thị trường đó. Chỉ một trong hai con số đang bị tấn công.",
+      "source": {
+        "site": "Paul Graham",
+        "title": "How to Earn a Billion Dollars",
+        "url": "https://paulgraham.com/earn.html",
+        "published": "2026-06-01"
+      }
+    }
+  ]
+}

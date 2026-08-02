@@ -1,0 +1,22 @@
+Morning Spark · Sunday, August 2 · Ed. 07
+Nothing you grade yourself is going to tell you the truth.
+
+─────────────────
+01 · Let the market price your roadmap
+Ben Thompson × Melissa Perri
+Output metrics are graded by the same people who picked the work. A rental price is not. Thompson's move is to install one number nobody in the building controls, then let it quietly kill whatever cannot clear it.
+→ https://stratechery.com/2026/a-script-for-mark-zuckerberg/
+
+─────────────────
+02 · Your navigators are why it stays broken
+John Cutler × Andrew Chen
+Cutler's tell is that insiders move around happily. That is not evidence of coherence, it is evidence that navigation became a job. Every new dependency doc is one more reason to keep the maze standing.
+→ https://cutlefish.substack.com/p/tbm-434-how-maps-can-hide-problems
+
+─────────────────
+03 · Growth proves love. It does not buy time.
+Paul Graham × Gibson Biddle
+Compounding is arithmetic. The number of months is strategy. Graham is right that you cannot cheat your way to a bigger market, and Biddle is right that you can be copied out of one. Only one of the two numbers is under attack.
+→ https://paulgraham.com/earn.html
+
+Full styled card → open the session.

@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-02",
+      "edition": 7,
+      "note": "Themes: an outside price as the only honest hurdle, fixers as an inward network effect, durability as the second number behind growth. Sources: Stratechery, The Beautiful Mess, Paul Graham.",
+      "sparks": [
+        {
+          "pair": "Ben Thompson x Melissa Perri",
+          "headline": "Let the market price your roadmap",
+          "source": "Stratechery — A Script for Mark Zuckerberg",
+          "url": "https://stratechery.com/2026/a-script-for-mark-zuckerberg/"
+        },
+        {
+          "pair": "John Cutler x Andrew Chen",
+          "headline": "Your navigators are why it stays broken",
+          "source": "The Beautiful Mess — TBM 434: How Maps Can Hide Problems",
+          "url": "https://cutlefish.substack.com/p/tbm-434-how-maps-can-hide-problems"
+        },
+        {
+          "pair": "Paul Graham x Gibson Biddle",
+          "headline": "Growth proves love. It does not buy time.",
+          "source": "Paul Graham — How to Earn a Billion Dollars",
+          "url": "https://paulgraham.com/earn.html"
+        }
+      ]
+    },
+    {
       "date": "2026-08-01",
       "edition": 6,
       "note": "Themes: discovery as subtraction rather than confidence, the social contract as the gate on AI gains, judgment as the bottleneck once prototypes are free. Sources: A Smart Bear, The Beautiful Mess, SVPG.",
