@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-03",
+  "edition": 8,
+  "framing": "What only a room confirmed is not evidence.",
+  "framing_vi": "Cái gì mới chỉ có phòng họp xác nhận thì không phải evidence.",
+  "note": "Themes: churn stories over inbox signal, AI buying two of Biddle's three legs, the funded record over the stated document. Sources: Product Talk, Brian Balfour, Melissa Perri.",
+  "sparks": [
+    {
+      "title": "VERDICT, NOT CAUSE",
+      "title_vi": "BẢN ÁN, KHÔNG PHẢI CHẨN ĐOÁN",
+      "headline": "Your retention curve is a verdict, not a diagnosis",
+      "headline_vi": "Đường retention là bản án, không phải chẩn đoán",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "Her ladder of evidence: the cheap signals are everywhere and they are weak. Support tickets, app store reviews, sales call notes, all abundant, all low signal strength, and the trap is that they feel like they are telling you what to build. Half of what teams call interviews turns out to be a demo or a stakeholder meeting. What is worth collecting is a story of one specific experience: what were you trying to do, when did it come up, what went wrong.",
+        "what_vi": "Ladder of evidence: mấy tín hiệu rẻ thì ở đâu cũng có, mà yếu. Support ticket, review trên app store, note của sales, nhiều vô kể nhưng signal thấp, và cái bẫy là chúng cho cảm giác đang chỉ cho bạn phải xây gì. Một nửa những buổi team gọi là interview hoá ra là demo hoặc họp stakeholder. Thứ đáng lấy là câu chuyện của một lần cụ thể: bạn đang định làm gì, chuyện nổi lên lúc nào, hỏng ở đâu."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "Fifteen years of staring at retention curves, and the first law is that you cannot fix bad retention. Notifications will not do it, A/B tests will not do it. The curve decays at a predictable half life, early retention predicts late retention, and churn is asymmetric: losing a user forever is far easier than winning one back. The only thing that has ever bent a bad curve is a big pivot, a different home screen, a different description, a different product to be compared against.",
+        "what_vi": "Mười lăm năm nhìn đường retention, luật đầu tiên là retention tệ thì không sửa được. Thêm notification không xong, A/B test không xong. Đường cong rơi theo một nhịp đoán được, D1 tệ thì D30 cũng tệ, và churn thì lệch: mất hẳn một user dễ hơn kéo họ về nhiều. Thứ duy nhất từng bẻ được đường cong xấu là một cú pivot lớn, đổi hẳn home screen, đổi hẳn cách mô tả, đứng sang cạnh một sản phẩm khác."
+      },
+      "result": "Chen's curve tells you the pivot is required. It never tells you which one. The signals sitting in your inbox all come from people who stayed, and the story that names the pivot belongs to someone who already left.",
+      "result_vi": "Đường cong của Chen nói cho bạn biết phải pivot. Nó không bao giờ nói pivot đi đâu. Tín hiệu nằm trong inbox toàn đến từ người đã ở lại, còn câu chuyện gọi tên được cú pivot thì nằm ở người đã bỏ đi.",
+      "result_underline": "belongs to someone who already left",
+      "result_underline_vi": "nằm ở người đã bỏ đi",
+      "tick": "Whose leaving do I only know as a number?",
+      "tick_vi": "Ai bỏ mình đi mà mình chỉ biết họ dưới dạng một con số?",
+      "tick_bold": [
+        "Whose leaving"
+      ],
+      "tick_bold_vi": [
+        "chỉ biết họ dưới dạng một con số"
+      ],
+      "provocation": "A bad curve is a verdict, and Chen says you cannot A/B test your way out of one. Torres says the cheap signals feel like they tell you what to build and almost never do. The pivot is inside the story of someone who churned, and nobody in your inbox is them.",
+      "provocation_vi": "Đường cong xấu là một bản án, và Chen nói bạn không A/B test ra khỏi nó được. Torres nói mấy tín hiệu rẻ cho cảm giác đang chỉ bạn xây gì, mà gần như không bao giờ. Cú pivot nằm trong câu chuyện của người đã churn, và trong inbox của bạn không có ai là họ.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Quality of Evidence - All Things Product Podcast with Teresa Torres & Petra Wille",
+        "url": "https://www.producttalk.org/quality-of-evidence-all-things-product-podcast-with-teresa-torres-petra-wille/",
+        "published": "2026-07-14"
+      }
+    },
+    {
+      "title": "TWO OF THREE",
+      "title_vi": "HAI TRÊN BA",
+      "headline": "AI buys two legs of the stool, never the third",
+      "headline_vi": "AI mua được hai chân ghế, chân thứ ba thì không",
+      "a": {
+        "who": "Brian Balfour",
+        "what": "LinkedIn's collaborative articles: AI writes the question, the structure and a starter paragraph, then the feed asks members to comment on each section. The pages rank, pull in new users and reactivate old ones, and went from zero to a million uniques a month between March and June. The trick is not the writing, which Balfour calls empty calories. It is that AI narrowed the consumer to creator canyon, the gap that only one or two percent of users ever cross.",
+        "what_vi": "Collaborative article của LinkedIn: AI viết câu hỏi, dựng dàn ý và một đoạn mở, rồi feed mời member vào comment từng mục. Mấy trang đó lên top search, kéo user mới và kéo cả user cũ quay lại, từ tháng Ba tới tháng Sáu đi từ 0 lên một triệu unique mỗi tháng. Điểm hay không nằm ở nội dung, Balfour nói thẳng nó nhạt. Nó nằm ở chỗ AI thu hẹp cái hố từ người đọc sang người tạo nội dung, cái hố mà bình thường chỉ 1 tới 2 phần trăm user bước qua."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: a product wins when it delights customers, in hard to copy, margin enhancing ways. Three legs, and the point of the framework is that no two of them hold the stool up on their own. Proxy metrics come with it, the near term number you agree to watch while retention takes a year to answer.",
+        "what_vi": "DHM: sản phẩm thắng khi nó delight khách hàng, theo cách khó copy và có lời. Ba chân, và ý của framework là hai chân thì không đỡ nổi cái ghế. Đi kèm là proxy metric, con số ngắn hạn bạn chịu nhìn trong lúc chờ retention cả năm mới trả lời."
+      },
+      "result": "AI just made hard to copy and margin enhancing cheap to buy. LinkedIn bought two legs, skipped delight, and the loop ran anyway. It runs on attention borrowed from a search engine, and that lender can change its mind.",
+      "result_vi": "AI vừa làm cho khó copy và có lời thành thứ mua được. LinkedIn mua hai chân, bỏ chân delight, mà loop vẫn chạy. Nó chạy bằng attention vay của một cái search engine, và chủ nợ đó có quyền đổi ý.",
+      "result_underline": "that lender can change its mind",
+      "result_underline_vi": "chủ nợ đó có quyền đổi ý",
+      "tick": "Which leg is my AI actually buying: delight, or just cheaper supply?",
+      "tick_vi": "AI của mình đang mua chân nào: delight, hay chỉ là supply rẻ hơn?",
+      "tick_bold": [
+        "delight, or just cheaper supply"
+      ],
+      "tick_bold_vi": [
+        "delight, hay chỉ là supply rẻ hơn"
+      ],
+      "provocation": "Balfour's LinkedIn loop went from zero to a million monthly uniques by using AI to shrink the gap between reading and creating. Nobody claims the content is good. Biddle's test asks which of delight, hard to copy and margin you actually bought, and this one bought two.",
+      "provocation_vi": "Loop của LinkedIn đi từ 0 lên một triệu unique mỗi tháng nhờ AI thu hẹp khoảng cách giữa đọc và viết. Không ai bảo nội dung đó hay. Bài test của Biddle hỏi bạn mua được chân nào trong ba chân delight, khó copy, có lời, và ở đây là hai.",
+      "source": {
+        "site": "Brian Balfour",
+        "title": "A Breakdown of LinkedIn's AI Assisted Growth Loop",
+        "url": "https://brianbalfour.com/essays/a-breakdown-of-linkedins-ai-assisted-growth-loop",
+        "published": "2023-07-31"
+      }
+    },
+    {
+      "title": "READ THE RECORD",
+      "title_vi": "ĐỌC CÁI HỒ SƠ",
+      "headline": "Stop reading the deck, read what got funded",
+      "headline_vi": "Đừng đọc slide, đọc xem cái gì được rót tiền",
+      "a": {
+        "who": "Melissa Perri",
+        "what": "When the strategy is fuzzy, a vision that says be the best, goals that only restate a revenue target, or a pet project wearing a strategy costume like build an AI chatbot, her move is to stop waiting for someone to write it clearly. Go read the choices instead: what gets funded, what gets killed, what gets celebrated. Write that up as a memo and let people react to it. Strategy is written in the choices a company makes every day.",
+        "what_vi": "Khi strategy mù mờ, kiểu tầm nhìn giỏi nhất, mục tiêu chỉ lặp lại con số doanh thu, hay pet project khoác áo định hướng như xây con chatbot AI, nước đi của Perri là thôi ngồi đợi ai viết cho rõ. Đi đọc lựa chọn: cái gì được rót tiền, cái gì bị cắt, cái gì được tuyên dương. Viết lại thành một memo rồi để mọi người phản ứng với nó. Strategy nằm trong những lựa chọn công ty làm mỗi ngày."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning first, storytelling second. Every structured narrative framework assumes inputs you may not have: a tight target customer, differentiated value, the real competitive alternative. Brainstorm those inside the office and the story that comes out can be genuinely compelling and still, in her word, bullcrap. Positioning has to come from who already loves the thing and why.",
+        "what_vi": "Positioning trước, story sau. Khung kể chuyện nào cũng giả định bạn có sẵn mấy cái input mà thường là chưa có: khách hàng mục tiêu rõ ràng, giá trị khác biệt, đối thủ thật sự đang bị đem ra so. Ngồi trong phòng brainstorm ra mấy input đó thì vẫn ra được câu chuyện rất cuốn, và theo đúng chữ của Dunford, vẫn là xạo. Positioning phải đến từ chuyện ai đang thật sự mê sản phẩm và vì sao."
+      },
+      "result": "Both of them drop the document and read the record. Perri writes strategy from where the money already went; Dunford writes positioning from who already paid. Anything a room agreed to and nobody checked is a story, however well it sells.",
+      "result_vi": "Cả hai đều bỏ cái văn bản để đọc cái hồ sơ. Perri viết strategy từ chỗ tiền đã chảy, Dunford viết positioning từ chỗ ai đã trả tiền. Cái gì cả phòng gật đầu mà chưa ai đi kiểm thì vẫn chỉ là một câu chuyện hay.",
+      "result_underline": "is a story, however well it sells",
+      "result_underline_vi": "vẫn chỉ là một câu chuyện hay",
+      "tick": "Which line in our story has only ever been confirmed by us?",
+      "tick_vi": "Câu nào trong story của mình mới chỉ có mình tự xác nhận với nhau?",
+      "tick_bold": [
+        "only ever been confirmed by us"
+      ],
+      "tick_bold_vi": [
+        "mới chỉ có mình tự xác nhận với nhau"
+      ],
+      "provocation": "Perri's move when strategy is fuzzy is to stop asking and start reading: what got funded, what got killed, what got celebrated. Dunford's warning is the twin of it, a structured story built on invented inputs sells beautifully and is still fiction. Both of them trade the document for the record.",
+      "provocation_vi": "Khi strategy mù mờ, nước đi của Perri là thôi hỏi và bắt đầu đọc: cái gì được rót tiền, cái gì bị cắt, cái gì được khen. Cảnh báo của Dunford là bản song sinh của nó, một câu chuyện dựng trên input tự nghĩ ra thì bán rất chạy mà vẫn là hư cấu. Cả hai đổi cái văn bản lấy cái hồ sơ.",
+      "source": {
+        "site": "Melissa Perri",
+        "title": "How to Get Clarity When Your Company's Strategy is Fuzzy",
+        "url": "https://melissaperri.com/blog/2024/10/22/how-to-get-clarity-when-your-companys-strategy-is-fuzzy",
+        "published": "2024-10-22"
+      }
+    }
+  ]
+}
