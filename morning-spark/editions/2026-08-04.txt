@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, August 4 · Ed. 09
+When making is cheap, deciding is the whole job.
+
+─────────────────
+01 · AI moves the work up a rung, never the accountability
+Colin Matthews × Marty Cagan
+Matthews ends three ladders of AI leverage with a warning: do not spend your time being a worse engineer than the rest of your team. Cagan has spent twenty years naming the part of the job nobody can take from you. The rung to stand on is the highest one whose output you can still answer for.
+→ https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage
+
+─────────────────
+02 · Your competitor is not another vendor, it is no decision
+April Dunford × Ben Thompson
+Dunford: 40 percent of B2B processes end in no decision, usually because the buying team cannot agree on the approach. Thompson: when supply is abundant, power belongs to whoever organises the choice. Same law at two scales, so sell the way to decide, not the thing being decided.
+→ https://www.aprildunford.com/post/positioning-vs-strategy-vs-vision
+
+─────────────────
+03 · A strategy nobody could refuse is not a strategy
+Jason Cohen × Paul Graham
+Cohen's test is brutal: if the opposite of your strategy is obviously stupid, you have decided nothing. Make something people want does not survive it, because every team on earth already agrees. The decision is which few people, and what you accept losing in order to serve them.
+→ https://longform.asmartbear.com/strategic-choices/
+
+Full styled card → open the session.

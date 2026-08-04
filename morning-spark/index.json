@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-04",
+      "edition": 9,
+      "note": "Themes: the rung you can still sign for, positioning as the argument your champion repeats, strategy as the good thing it forbids. Sources: Lenny's Newsletter, April Dunford, A Smart Bear.",
+      "sparks": [
+        {
+          "pair": "Colin Matthews x Marty Cagan",
+          "headline": "AI moves the work up a rung, never the accountability",
+          "source": "Lenny's Newsletter — How top PMs increase their leverage with AI",
+          "url": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage"
+        },
+        {
+          "pair": "April Dunford x Ben Thompson",
+          "headline": "Your competitor is not another vendor, it is no decision",
+          "source": "April Dunford — Positioning vs Strategy vs Vision",
+          "url": "https://www.aprildunford.com/post/positioning-vs-strategy-vs-vision"
+        },
+        {
+          "pair": "Jason Cohen x Paul Graham",
+          "headline": "A strategy nobody could refuse is not a strategy",
+          "source": "A Smart Bear — Strategic choices: When both options are good",
+          "url": "https://longform.asmartbear.com/strategic-choices/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-03",
       "edition": 8,
       "note": "Themes: churn stories over inbox signal, AI buying two of Biddle's three legs, the funded record over the stated document. Sources: Product Talk, Brian Balfour, Melissa Perri.",

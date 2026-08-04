@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-04",
+  "edition": 9,
+  "framing": "When making is cheap, deciding is the whole job.",
+  "framing_vi": "Khi làm ra thứ gì cũng rẻ, quyết định mới là việc chính.",
+  "note": "Themes: the rung you can still sign for, positioning as the argument your champion repeats, strategy as the good thing it forbids. Sources: Lenny's Newsletter, April Dunford, A Smart Bear.",
+  "sparks": [
+    {
+      "title": "THE RUNG YOU OWN",
+      "title_vi": "BẬC MÌNH DÁM NHẬN",
+      "headline": "AI moves the work up a rung, never the accountability",
+      "headline_vi": "AI đẩy việc lên một bậc, trách nhiệm thì để nguyên",
+      "a": {
+        "who": "Colin Matthews",
+        "what": "Three ladders of leverage: personal, product, systems. On each one, rung one is AI helping you work, rung two is AI producing the artifact, rung three is AI completing the whole task and checking its own result. He wires Claude to PostHog over MCP, hands over an entire retention analysis, and adds one instruction: cite your sources so I can validate. Then the warning that ends the piece. As a PM it makes no sense to spend your time being a worse engineer than the rest of your team. Knowing when to write a doc, when to ship a prototype and when to open a PR is the skill, not the climbing.",
+        "what_vi": "Ba cái thang leverage: personal, product, systems. Thang nào cũng vậy, bậc một là AI phụ bạn làm, bậc hai là AI làm ra luôn cái artifact, bậc ba là AI chạy trọn task rồi tự kiểm kết quả. Anh nối Claude với PostHog qua MCP, giao nguyên bài retention analysis, kèm đúng một câu dặn: cite nguồn để tôi còn kiểm. Rồi cảnh báo ở cuối bài. PM không việc gì phải ngồi làm một engineer dở hơn cả team. Cái khó là biết khi nào viết doc, khi nào dựng prototype, khi nào mở PR, chứ không phải leo cho cao."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "In the product operating model a team is handed a problem to solve, not a list of features to build. It picks its own way there and answers for the result. The part of the job that was never delegable is the judgment about value and viability: knowing the customer, the data, the business, the constraints well enough that someone in the room can say yes to this and mean it.",
+        "what_vi": "Trong product operating model, team được giao một vấn đề để giải, không phải danh sách feature để làm. Team tự chọn đường và chịu trách nhiệm về kết quả. Phần chưa bao giờ giao đi được là phán đoán về value và viability: hiểu khách, hiểu số, hiểu business, hiểu giới hạn đủ để có người trong phòng dám gật và chịu trách nhiệm với cái gật đó."
+      },
+      "result": "The ladder never touches Cagan's half of the job. Every rung you climb hands the doing to a model and hands the judgment straight back to you. Work goes up the ladder; the signature does not.",
+      "result_vi": "Cái thang không chạm được vào nửa phần việc mà Cagan nói tới. Leo thêm một bậc là bạn giao phần làm cho model và nhận lại nguyên phần phán đoán. Việc thì đẩy lên thang được; chữ ký thì không.",
+      "result_underline": "the signature does not",
+      "result_underline_vi": "chữ ký thì không",
+      "tick": "Which AI output today would I put my name on without reading it twice?",
+      "tick_vi": "Output nào của AI hôm nay mình dám ký tên vào mà không cần đọc lại lần hai?",
+      "tick_bold": [
+        "put my name on"
+      ],
+      "tick_bold_vi": [
+        "dám ký tên vào"
+      ],
+      "provocation": "Matthews ends three ladders of AI leverage with a warning: do not spend your time being a worse engineer than the rest of your team. Cagan has spent twenty years naming the part of the job nobody can take from you. The rung to stand on is the highest one whose output you can still answer for.",
+      "provocation_vi": "Matthews kết ba cái thang leverage bằng một câu cảnh báo: đừng dành thời gian làm một engineer dở hơn cả team. Cagan thì hai mươi năm nay chỉ gọi tên đúng cái phần việc không ai lấy được của bạn. Bậc nên đứng là bậc cao nhất mà bạn vẫn còn chịu trách nhiệm được cho output của nó.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "How top PMs increase their leverage with AI",
+        "url": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage",
+        "published": "2026-06-30"
+      }
+    },
+    {
+      "title": "SELL THE MAP",
+      "title_vi": "BÁN CÁI BẢN ĐỒ",
+      "headline": "Your competitor is not another vendor, it is no decision",
+      "headline_vi": "Đối thủ của bạn không phải vendor nào, mà là thôi để sau",
+      "a": {
+        "who": "April Dunford",
+        "what": "Vision is the destination, strategy is the road, and positioning sits stubbornly in the present tense: why choose us, right now, in the market as it actually is. It changes at every stage of the strategy, from CRM for investment banks to CRM for financial services to Enterprise CRM. So the sales pitch is not the investor pitch. Customers do not pay today's cash for tomorrow's promises. What buyers actually want is help navigating their options, and 40 percent of B2B processes end in no decision at all, mostly because the buying team cannot agree on the approach.",
+        "what_vi": "Vision là cái đích, strategy là con đường, còn positioning thì lì lợm ở thì hiện tại: vì sao chọn bạn, ngay lúc này, trong thị trường đúng như nó đang có. Nó đổi theo từng chặng của strategy, từ CRM cho investment bank sang CRM cho financial services rồi mới tới Enterprise CRM. Nên pitch bán hàng không phải pitch gọi vốn. Khách không trả tiền hôm nay cho lời hứa ngày mai. Thứ người mua thật sự cần là được dẫn đường giữa các lựa chọn, và 40 phần trăm quy trình mua B2B kết thúc bằng không quyết gì cả, phần lớn vì nhóm mua không thống nhất nổi cách giải quyết."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregation theory: once distribution and supply cost close to nothing, the scarce thing is no longer the goods, it is demand. Power moves to whoever owns the moment of choosing and organises the options on the user's behalf, and everyone upstream gets commoditised into an interchangeable supplier.",
+        "what_vi": "Aggregation theory: khi phân phối và nguồn cung gần như không tốn gì, thứ khan hiếm không còn là hàng mà là nhu cầu. Quyền lực chạy về phía ai đứng ngay khoảnh khắc khách chọn và sắp xếp lựa chọn giùm họ, còn phía trên chuỗi thì bị đẩy thành nhà cung cấp thay thế được."
+      },
+      "result": "Thompson's aggregators won the moment of choosing, not the supply. Dunford's 40 percent is the same law shrunk into a single deal: options are everywhere, the buying team is stuck, and whoever makes the decision cheap takes it. Positioning is not what you claim, it is the argument your champion repeats in the room you are not in.",
+      "result_vi": "Aggregator của Thompson thắng ở khoảnh khắc khách chọn, không phải ở chỗ có hàng. Con số 40 phần trăm của Dunford là đúng cái luật đó thu nhỏ vào một cái deal: lựa chọn thì đầy, nhóm mua thì kẹt, ai làm cho việc quyết định nhẹ đi thì người đó lấy deal. Positioning không phải điều bạn tự nói, nó là câu mà champion của bạn nhắc lại trong phòng họp không có bạn.",
+      "result_underline": "the argument your champion repeats in the room you are not in",
+      "result_underline_vi": "câu mà champion của bạn nhắc lại trong phòng họp không có bạn",
+      "tick": "Have I written the one sentence my champion has to defend without me?",
+      "tick_vi": "Mình đã viết sẵn cái câu mà champion phải đứng ra bảo vệ khi không có mình chưa?",
+      "tick_bold": [
+        "defend without me"
+      ],
+      "tick_bold_vi": [
+        "bảo vệ khi không có mình"
+      ],
+      "provocation": "Dunford: 40 percent of B2B processes end in no decision, usually because the buying team cannot agree on the approach. Thompson: when supply is abundant, power belongs to whoever organises the choice. Same law at two scales, so sell the way to decide, not the thing being decided.",
+      "provocation_vi": "Dunford: 40 phần trăm quy trình mua B2B chết ở chỗ không quyết, thường vì nhóm mua không thống nhất được cách làm. Thompson: khi hàng thừa thì quyền nằm ở người sắp xếp lựa chọn. Cùng một luật ở hai cỡ, nên hãy bán cách quyết định, đừng chỉ bán món hàng.",
+      "source": {
+        "site": "April Dunford",
+        "title": "Positioning vs Strategy vs Vision",
+        "url": "https://www.aprildunford.com/post/positioning-vs-strategy-vs-vision",
+        "published": "2021-11-16"
+      }
+    },
+    {
+      "title": "WHAT IT FORBIDS",
+      "title_vi": "CÁI NÓ CẤM",
+      "headline": "A strategy nobody could refuse is not a strategy",
+      "headline_vi": "Cái strategy không ai cãi lại được thì không phải strategy",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "A real strategic choice picks A over B when B is also smart. Good design is not a choice, because bad design was never the clever alternative. All in one is a choice, because the opposite, a small core made extremely extensible, is a bet successful companies have also made. You take the whole package, including the unfortunate second order effects, and you write them down so three hundred people can decide independently and still reinforce each other. A strategy that never says no is not a strategy.",
+        "what_vi": "Một strategic choice thật là chọn A trong khi B cũng khôn. Design đẹp không phải lựa chọn, vì design xấu chưa bao giờ là phương án khôn. All in one mới là lựa chọn, vì vế ngược lại, một cái lõi nhỏ cực dễ mở rộng, cũng là ván cược của nhiều công ty thành công. Chọn là nhận nguyên gói, kể cả mấy hệ quả khó chịu, rồi viết hết ra để ba trăm người tự quyết mà vẫn cộng hưởng với nhau. Strategy không bao giờ nói không thì không phải strategy."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Make something people want, the line printed on the Y Combinator shirt. The half nobody quotes is the operating instruction under it: in the beginning you recruit users one at a time and do things that do not scale, because a handful of people who love the thing beats a crowd that mildly approves.",
+        "what_vi": "Make something people want, câu in trên áo Y Combinator. Nửa sau ít ai trích mới là phần hướng dẫn thật: giai đoạn đầu bạn đi kiếm từng user một, làm cả những việc không scale, vì một nhóm nhỏ mê sản phẩm ăn đứt một đám đông thấy cũng được."
+      },
+      "result": "Run Cohen's opposite test on the most famous line in startups and it fails. Nobody sets out to make something people do not want, so it is a filter, not a choice. The choice hides in the half everyone skips: the few you go get by hand, and therefore everyone you agree to disappoint.",
+      "result_vi": "Đem opposite test của Cohen ra thử câu nổi tiếng nhất giới startup thì nó rớt. Có ai đặt mục tiêu làm thứ không ai muốn đâu, nên đó là bộ lọc, không phải lựa chọn. Lựa chọn nằm ở nửa sau ai cũng bỏ qua: vài user bạn đi kiếm từng người, và kèm theo đó là tất cả những ai bạn chấp nhận làm cho thất vọng.",
+      "result_underline": "everyone you agree to disappoint",
+      "result_underline_vi": "tất cả những ai bạn chấp nhận làm cho thất vọng",
+      "tick": "Which customers are we choosing to disappoint this quarter?",
+      "tick_vi": "Quý này mình chấp nhận làm nhóm khách nào thất vọng?",
+      "tick_bold": [
+        "choosing to disappoint"
+      ],
+      "tick_bold_vi": [
+        "chấp nhận làm nhóm khách nào thất vọng"
+      ],
+      "provocation": "Cohen's test is brutal: if the opposite of your strategy is obviously stupid, you have decided nothing. Make something people want does not survive it, because every team on earth already agrees. The decision is which few people, and what you accept losing in order to serve them.",
+      "provocation_vi": "Bài test của Cohen rất phũ: nếu vế ngược lại của strategy nghe ngu ngốc thì bạn chưa quyết gì cả. Make something people want không qua nổi, vì team nào trên đời cũng gật. Quyết định thật là chọn nhóm nhỏ nào, và chịu mất gì để phục vụ nhóm đó.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "Strategic choices: When both options are good",
+        "url": "https://longform.asmartbear.com/strategic-choices/",
+        "published": "2026-02-22"
+      }
+    }
+  ]
+}

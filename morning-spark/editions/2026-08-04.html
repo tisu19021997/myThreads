@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 4</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 09</div></div></div>
+<div class="meta label">Tuesday, August 4, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE RUNG YOU OWN</span><span data-l="vi">BẬC MÌNH DÁM NHẬN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Colin Matthews</div><div class="what"><span data-l="en">Three ladders of leverage: personal, product, systems. On each one, rung one is AI helping you work, rung two is AI producing the artifact, rung three is AI completing the whole task and checking its own result. He wires Claude to PostHog over MCP, hands over an entire retention analysis, and adds one instruction: cite your sources so I can validate. Then the warning that ends the piece. As a PM it makes no sense to spend your time being a worse engineer than the rest of your team. Knowing when to write a doc, when to ship a prototype and when to open a PR is the skill, not the climbing.</span><span data-l="vi">Ba cái thang leverage: personal, product, systems. Thang nào cũng vậy, bậc một là AI phụ bạn làm, bậc hai là AI làm ra luôn cái artifact, bậc ba là AI chạy trọn task rồi tự kiểm kết quả. Anh nối Claude với PostHog qua MCP, giao nguyên bài retention analysis, kèm đúng một câu dặn: cite nguồn để tôi còn kiểm. Rồi cảnh báo ở cuối bài. PM không việc gì phải ngồi làm một engineer dở hơn cả team. Cái khó là biết khi nào viết doc, khi nào dựng prototype, khi nào mở PR, chứ không phải leo cho cao.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">In the product operating model a team is handed a problem to solve, not a list of features to build. It picks its own way there and answers for the result. The part of the job that was never delegable is the judgment about value and viability: knowing the customer, the data, the business, the constraints well enough that someone in the room can say yes to this and mean it.</span><span data-l="vi">Trong product operating model, team được giao một vấn đề để giải, không phải danh sách feature để làm. Team tự chọn đường và chịu trách nhiệm về kết quả. Phần chưa bao giờ giao đi được là phán đoán về value và viability: hiểu khách, hiểu số, hiểu business, hiểu giới hạn đủ để có người trong phòng dám gật và chịu trách nhiệm với cái gật đó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The ladder never touches Cagan&#x27;s half of the job. Every rung you climb hands the doing to a model and hands the judgment straight back to you. Work goes up the ladder; <u>the signature does not</u>.</span><span data-l="vi">Cái thang không chạm được vào nửa phần việc mà Cagan nói tới. Leo thêm một bậc là bạn giao phần làm cho model và nhận lại nguyên phần phán đoán. Việc thì đẩy lên thang được; <u>chữ ký thì không</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which AI output today would I <b>put my name on</b> without reading it twice?</span><span data-l="vi">Output nào của AI hôm nay mình <b>dám ký tên vào</b> mà không cần đọc lại lần hai?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — How top PMs increase their leverage with AI &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">SELL THE MAP</span><span data-l="vi">BÁN CÁI BẢN ĐỒ</span></span></div>
+<div class="eq"><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Vision is the destination, strategy is the road, and positioning sits stubbornly in the present tense: why choose us, right now, in the market as it actually is. It changes at every stage of the strategy, from CRM for investment banks to CRM for financial services to Enterprise CRM. So the sales pitch is not the investor pitch. Customers do not pay today&#x27;s cash for tomorrow&#x27;s promises. What buyers actually want is help navigating their options, and 40 percent of B2B processes end in no decision at all, mostly because the buying team cannot agree on the approach.</span><span data-l="vi">Vision là cái đích, strategy là con đường, còn positioning thì lì lợm ở thì hiện tại: vì sao chọn bạn, ngay lúc này, trong thị trường đúng như nó đang có. Nó đổi theo từng chặng của strategy, từ CRM cho investment bank sang CRM cho financial services rồi mới tới Enterprise CRM. Nên pitch bán hàng không phải pitch gọi vốn. Khách không trả tiền hôm nay cho lời hứa ngày mai. Thứ người mua thật sự cần là được dẫn đường giữa các lựa chọn, và 40 phần trăm quy trình mua B2B kết thúc bằng không quyết gì cả, phần lớn vì nhóm mua không thống nhất nổi cách giải quyết.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Aggregation theory: once distribution and supply cost close to nothing, the scarce thing is no longer the goods, it is demand. Power moves to whoever owns the moment of choosing and organises the options on the user&#x27;s behalf, and everyone upstream gets commoditised into an interchangeable supplier.</span><span data-l="vi">Aggregation theory: khi phân phối và nguồn cung gần như không tốn gì, thứ khan hiếm không còn là hàng mà là nhu cầu. Quyền lực chạy về phía ai đứng ngay khoảnh khắc khách chọn và sắp xếp lựa chọn giùm họ, còn phía trên chuỗi thì bị đẩy thành nhà cung cấp thay thế được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Thompson&#x27;s aggregators won the moment of choosing, not the supply. Dunford&#x27;s 40 percent is the same law shrunk into a single deal: options are everywhere, the buying team is stuck, and whoever makes the decision cheap takes it. Positioning is not what you claim, it is <u>the argument your champion repeats in the room you are not in</u>.</span><span data-l="vi">Aggregator của Thompson thắng ở khoảnh khắc khách chọn, không phải ở chỗ có hàng. Con số 40 phần trăm của Dunford là đúng cái luật đó thu nhỏ vào một cái deal: lựa chọn thì đầy, nhóm mua thì kẹt, ai làm cho việc quyết định nhẹ đi thì người đó lấy deal. Positioning không phải điều bạn tự nói, nó là <u>câu mà champion của bạn nhắc lại trong phòng họp không có bạn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Have I written the one sentence my champion has to <b>defend without me</b>?</span><span data-l="vi">Mình đã viết sẵn cái câu mà champion phải đứng ra <b>bảo vệ khi không có mình</b> chưa?</span></p></div>
+<div class="src-link"><a href="https://www.aprildunford.com/post/positioning-vs-strategy-vs-vision" target="_blank" rel="noopener">April Dunford — Positioning vs Strategy vs Vision &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">WHAT IT FORBIDS</span><span data-l="vi">CÁI NÓ CẤM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">A real strategic choice picks A over B when B is also smart. Good design is not a choice, because bad design was never the clever alternative. All in one is a choice, because the opposite, a small core made extremely extensible, is a bet successful companies have also made. You take the whole package, including the unfortunate second order effects, and you write them down so three hundred people can decide independently and still reinforce each other. A strategy that never says no is not a strategy.</span><span data-l="vi">Một strategic choice thật là chọn A trong khi B cũng khôn. Design đẹp không phải lựa chọn, vì design xấu chưa bao giờ là phương án khôn. All in one mới là lựa chọn, vì vế ngược lại, một cái lõi nhỏ cực dễ mở rộng, cũng là ván cược của nhiều công ty thành công. Chọn là nhận nguyên gói, kể cả mấy hệ quả khó chịu, rồi viết hết ra để ba trăm người tự quyết mà vẫn cộng hưởng với nhau. Strategy không bao giờ nói không thì không phải strategy.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">Make something people want, the line printed on the Y Combinator shirt. The half nobody quotes is the operating instruction under it: in the beginning you recruit users one at a time and do things that do not scale, because a handful of people who love the thing beats a crowd that mildly approves.</span><span data-l="vi">Make something people want, câu in trên áo Y Combinator. Nửa sau ít ai trích mới là phần hướng dẫn thật: giai đoạn đầu bạn đi kiếm từng user một, làm cả những việc không scale, vì một nhóm nhỏ mê sản phẩm ăn đứt một đám đông thấy cũng được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Run Cohen&#x27;s opposite test on the most famous line in startups and it fails. Nobody sets out to make something people do not want, so it is a filter, not a choice. The choice hides in the half everyone skips: the few you go get by hand, and therefore <u>everyone you agree to disappoint</u>.</span><span data-l="vi">Đem opposite test của Cohen ra thử câu nổi tiếng nhất giới startup thì nó rớt. Có ai đặt mục tiêu làm thứ không ai muốn đâu, nên đó là bộ lọc, không phải lựa chọn. Lựa chọn nằm ở nửa sau ai cũng bỏ qua: vài user bạn đi kiếm từng người, và kèm theo đó là <u>tất cả những ai bạn chấp nhận làm cho thất vọng</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which customers are we <b>choosing to disappoint</b> this quarter?</span><span data-l="vi">Quý này mình <b>chấp nhận làm nhóm khách nào thất vọng</b>?</span></p></div>
+<div class="src-link"><a href="https://longform.asmartbear.com/strategic-choices/" target="_blank" rel="noopener">A Smart Bear — Strategic choices: When both options are good &rarr;</a></div></div>
+<footer><div class="label"><span data-l="en">Today: Colin Matthews / Marty Cagan / April Dunford / Ben Thompson / Jason Cohen / Paul Graham<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Colin Matthews / Marty Cagan / April Dunford / Ben Thompson / Jason Cohen / Paul Graham<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
