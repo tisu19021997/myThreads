@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-05",
+      "edition": 10,
+      "note": "Themes: carrying cost as the reason dead bets survive, margin sliding to the un-promptable layer, emergence as a loop rule rather than a plan. Sources: The Beautiful Mess, Product Talk, Lenny's Newsletter.",
+      "sparks": [
+        {
+          "pair": "John Cutler x Melissa Perri",
+          "headline": "AI does not spring the build trap. It pays the rent.",
+          "source": "The Beautiful Mess — TBM 430: Incubate, Compound, Refinance, Liquidate",
+          "url": "https://cutlefish.substack.com/p/tbm-430-incubate-compound-refinance"
+        },
+        {
+          "pair": "Teresa Torres x Ben Thompson",
+          "headline": "The model was the commodity. The years were not.",
+          "source": "Product Talk — From COVID Pivot to AI World Building: How Snapbar Reinvented the Photo Experience",
+          "url": "https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/"
+        },
+        {
+          "pair": "Molly Graham x Brian Balfour",
+          "headline": "A career is a loop, not a funnel.",
+          "source": "Lenny's Newsletter — What if you're not supposed to have a long-term plan?",
+          "url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have"
+        }
+      ]
+    },
+    {
       "date": "2026-08-04",
       "edition": 9,
       "note": "Themes: the rung you can still sign for, positioning as the argument your champion repeats, strategy as the good thing it forbids. Sources: Lenny's Newsletter, April Dunford, A Smart Bear.",

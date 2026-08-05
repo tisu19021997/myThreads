@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-05",
+  "edition": 10,
+  "framing": "What stays scarce when the building gets cheap.",
+  "framing_vi": "Làm ra thứ gì cũng rẻ, vậy cái gì còn hiếm?",
+  "note": "Themes: carrying cost as the reason dead bets survive, margin sliding to the un-promptable layer, emergence as a loop rule rather than a plan. Sources: The Beautiful Mess, Product Talk, Lenny's Newsletter.",
+  "sparks": [
+    {
+      "title": "CHEAP TO KEEP",
+      "title_vi": "RẺ NÊN CỨ GIỮ",
+      "headline": "AI does not spring the build trap. It pays the rent.",
+      "headline_vi": "AI không tạo ra build trap. Nó trả tiền thuê cho cái bẫy đó.",
+      "a": {
+        "who": "John Cutler",
+        "what": "Software is a portfolio priced on two axes: the value an asset creates against what it costs to carry. AI changes the cost and the speed, not the physics, so the only real question is which movement you are accelerating.",
+        "what_vi": "Software là một portfolio, định giá trên hai trục: giá trị nó tạo ra và chi phí để nuôi nó. AI đổi chi phí và tốc độ, không đổi bản chất, nên câu hỏi thật sự là bạn đang tăng tốc theo hướng nào."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "The build trap is an org measuring what it ships instead of what that shipping changes. Escaping it means killing the work that never earned its keep.",
+        "what_vi": "Build trap là khi cả công ty đo cái mình ship thay vì đo cái việc ship đó thay đổi được gì. Thoát ra nghĩa là dám giết những thứ chưa bao giờ đáng đồng tiền."
+      },
+      "result": "AI does not spring the build trap, it lowers the rent on it. A bet you can afford to carry forever is a bet nobody will ever kill.",
+      "result_vi": "AI không tạo ra build trap, nó chỉ làm tiền thuê rẻ đi. Một canh bạc bạn nuôi mãi vẫn nổi là canh bạc không ai nỡ giết.",
+      "result_underline": "a bet nobody will ever kill",
+      "result_underline_vi": "canh bạc không ai nỡ giết",
+      "tick": "Which of your bets is still alive only because it got cheap?",
+      "tick_vi": "Dự án nào của bạn còn sống chỉ vì nó rẻ đi?",
+      "tick_bold": ["still alive only because it got cheap"],
+      "tick_bold_vi": ["còn sống chỉ vì nó rẻ đi"],
+      "provocation": "Cutler asks which direction AI is accelerating, not whether it is fast. Perri's build trap is the direction most teams are already pointed. Cheap enough to keep is how a dead bet survives the meeting where it should have died.",
+      "provocation_vi": "Cutler hỏi AI đang tăng tốc theo hướng nào, chứ không phải nhanh hay chậm. Build trap của Perri chính là hướng phần lớn team đang đi sẵn. Rẻ đủ để giữ là cách một canh bạc chết sống sót qua đúng cuộc họp lẽ ra đã kết liễu nó.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 430: Incubate, Compound, Refinance, Liquidate",
+        "url": "https://cutlefish.substack.com/p/tbm-430-incubate-compound-refinance",
+        "published": "2026-07-12"
+      }
+    },
+    {
+      "title": "FOURTEEN YEARS",
+      "title_vi": "MƯỜI BỐN NĂM",
+      "headline": "The model was the commodity. The years were not.",
+      "headline_vi": "Model mới là thứ rẻ. Mười bốn năm kia thì không.",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "Snapbar, a fourteen-year-old photo booth company, fine-tuned commodity image models on top of hard-won photography and events knowledge, and came out looking so AI-native that Torres assumed it was a new startup.",
+        "what_vi": "Snapbar, công ty photo booth mười bốn năm tuổi, fine-tune mấy model ảnh ai cũng xài được trên nền kiến thức nhiếp ảnh và tổ chức sự kiện tích cóp bao năm, rồi ra sản phẩm AI-native tới mức Torres tưởng đây là startup mới."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "When a layer modularizes and commoditizes, the profit does not vanish. It slides to whoever integrates the layer next door.",
+        "what_vi": "Khi một tầng bị module hoá và rẻ hoá, lợi nhuận không biến mất, nó trượt sang tay ai tích hợp được tầng kế bên."
+      },
+      "result": "The models modularized and the margin slid sideways, into the one layer nobody can prompt into existence. AI-native was the wrong thing to be.",
+      "result_vi": "Model bị module hoá, biên lợi nhuận trượt sang tầng duy nhất không prompt ra được. AI-native hoá ra là thứ không đáng làm.",
+      "result_underline": "AI-native was the wrong thing to be",
+      "result_underline_vi": "AI-native hoá ra là thứ không đáng làm",
+      "tick": "What do you know that took years and cannot be prompted?",
+      "tick_vi": "Bạn biết cái gì mà phải mất nhiều năm mới có và không prompt ra được?",
+      "tick_bold": ["took years and cannot be prompted"],
+      "tick_bold_vi": ["phải mất nhiều năm mới có và không prompt ra được"],
+      "provocation": "Snapbar did not beat AI-native startups by being more AI. It stacked commodity models on fourteen years nobody else had. When the model layer commoditizes, Thompson's rule says the margin moves next door, and next door is domain knowledge you cannot buy this quarter.",
+      "provocation_vi": "Snapbar thắng mấy startup AI-native không phải nhờ AI nhiều hơn. Họ chồng model rẻ tiền lên mười bốn năm mà không ai khác có. Khi tầng model rẻ đi, theo Thompson biên lợi nhuận trượt sang tầng kế bên, và tầng kế bên là domain knowledge không mua được trong một quý.",
+      "source": {
+        "site": "Product Talk",
+        "title": "From COVID Pivot to AI World Building: How Snapbar Reinvented the Photo Experience",
+        "url": "https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
+        "published": "2026-07-09"
+      }
+    },
+    {
+      "title": "NO MAP",
+      "title_vi": "KHÔNG CÓ BẢN ĐỒ",
+      "headline": "A career is a loop, not a funnel.",
+      "headline_vi": "Sự nghiệp là một loop, không phải cái phễu.",
+      "a": {
+        "who": "Molly Graham",
+        "what": "She never had a career plan. A few principles applied locally, follow the energy, take the next step; the shape only looks designed in hindsight. She calls it emergence.",
+        "what_vi": "Cô chưa bao giờ có kế hoạch sự nghiệp. Vài nguyên tắc, áp vào từng tình huống trước mắt, đi theo cái làm mình có năng lượng, bước tiếp bước kế. Nhìn lại mới thấy có hình hài. Cô gọi đó là emergence."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "A growth loop is not a funnel. You do not forecast the output, you design the step that feeds itself and let it compound.",
+        "what_vi": "Growth loop không phải cái phễu. Bạn không dự báo output, bạn thiết kế cái bước tự nuôi chính nó rồi để nó compound."
+      },
+      "result": "Emergence is not the absence of a plan, it is a loop with a good rule in it. You cannot forecast the output, only tune the step that keeps firing.",
+      "result_vi": "Emergence không phải là không có kế hoạch, nó là một cái loop với luật chạy đủ tốt. Bạn không dự báo được output, chỉ chỉnh được cái bước cứ lặp lại hoài.",
+      "result_underline": "only tune the step that keeps firing",
+      "result_underline_vi": "chỉ chỉnh được cái bước cứ lặp lại hoài",
+      "tick": "With no plan at all, what is the one rule you would still run tomorrow?",
+      "tick_vi": "Bỏ hết kế hoạch đi, mai bạn vẫn chạy theo luật nào?",
+      "tick_bold": ["the one rule you would still run tomorrow"],
+      "tick_bold_vi": ["mai bạn vẫn chạy theo luật nào"],
+      "provocation": "Graham says the pattern only looks designed in hindsight. Balfour says you never design the output either, only the loop. Same shape. A plan is a forecast you will miss; a rule is a step you can run tomorrow morning.",
+      "provocation_vi": "Graham nói nhìn lại mới thấy có hình hài. Balfour nói bạn cũng chẳng bao giờ thiết kế output, chỉ thiết kế cái loop. Cùng một hình. Kế hoạch là dự báo kiểu gì cũng trật; luật là cái bước sáng mai bạn chạy được luôn.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "What if you're not supposed to have a long-term plan?",
+        "url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
+        "published": "2026-08-04"
+      }
+    }
+  ]
+}

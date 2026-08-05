@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 5</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 10</div></div></div>
+<div class="meta label">Wednesday, August 5, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">CHEAP TO KEEP</span><span data-l="vi">RẺ NÊN CỨ GIỮ</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Software is a portfolio priced on two axes: the value an asset creates against what it costs to carry. AI changes the cost and the speed, not the physics, so the only real question is which movement you are accelerating.</span><span data-l="vi">Software là một portfolio, định giá trên hai trục: giá trị nó tạo ra và chi phí để nuôi nó. AI đổi chi phí và tốc độ, không đổi bản chất, nên câu hỏi thật sự là bạn đang tăng tốc theo hướng nào.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">The build trap is an org measuring what it ships instead of what that shipping changes. Escaping it means killing the work that never earned its keep.</span><span data-l="vi">Build trap là khi cả công ty đo cái mình ship thay vì đo cái việc ship đó thay đổi được gì. Thoát ra nghĩa là dám giết những thứ chưa bao giờ đáng đồng tiền.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">AI does not spring the build trap, it lowers the rent on it. A bet you can afford to carry forever is <u>a bet nobody will ever kill</u>.</span><span data-l="vi">AI không tạo ra build trap, nó chỉ làm tiền thuê rẻ đi. Một canh bạc bạn nuôi mãi vẫn nổi là <u>canh bạc không ai nỡ giết</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your bets is <b>still alive only because it got cheap</b>?</span><span data-l="vi">Dự án nào của bạn <b>còn sống chỉ vì nó rẻ đi</b>?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-430-incubate-compound-refinance" target="_blank" rel="noopener">The Beautiful Mess — TBM 430: Incubate, Compound, Refinance, Liquidate &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">FOURTEEN YEARS</span><span data-l="vi">MƯỜI BỐN NĂM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Snapbar, a fourteen-year-old photo booth company, fine-tuned commodity image models on top of hard-won photography and events knowledge, and came out looking so AI-native that Torres assumed it was a new startup.</span><span data-l="vi">Snapbar, công ty photo booth mười bốn năm tuổi, fine-tune mấy model ảnh ai cũng xài được trên nền kiến thức nhiếp ảnh và tổ chức sự kiện tích cóp bao năm, rồi ra sản phẩm AI-native tới mức Torres tưởng đây là startup mới.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">When a layer modularizes and commoditizes, the profit does not vanish. It slides to whoever integrates the layer next door.</span><span data-l="vi">Khi một tầng bị module hoá và rẻ hoá, lợi nhuận không biến mất, nó trượt sang tay ai tích hợp được tầng kế bên.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The models modularized and the margin slid sideways, into the one layer nobody can prompt into existence. <u>AI-native was the wrong thing to be</u>.</span><span data-l="vi">Model bị module hoá, biên lợi nhuận trượt sang tầng duy nhất không prompt ra được. <u>AI-native hoá ra là thứ không đáng làm</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What do you know that <b>took years and cannot be prompted</b>?</span><span data-l="vi">Bạn biết cái gì mà <b>phải mất nhiều năm mới có và không prompt ra được</b>?</span></p></div>
+<div class="src-link"><a href="https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/" target="_blank" rel="noopener">Product Talk — From COVID Pivot to AI World Building: How Snapbar Reinvented the Photo Experience &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">NO MAP</span><span data-l="vi">KHÔNG CÓ BẢN ĐỒ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Molly Graham</div><div class="what"><span data-l="en">She never had a career plan. A few principles applied locally, follow the energy, take the next step; the shape only looks designed in hindsight. She calls it emergence.</span><span data-l="vi">Cô chưa bao giờ có kế hoạch sự nghiệp. Vài nguyên tắc, áp vào từng tình huống trước mắt, đi theo cái làm mình có năng lượng, bước tiếp bước kế. Nhìn lại mới thấy có hình hài. Cô gọi đó là emergence.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">A growth loop is not a funnel. You do not forecast the output, you design the step that feeds itself and let it compound.</span><span data-l="vi">Growth loop không phải cái phễu. Bạn không dự báo output, bạn thiết kế cái bước tự nuôi chính nó rồi để nó compound.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Emergence is not the absence of a plan, it is a loop with a good rule in it. You cannot forecast the output, <u>only tune the step that keeps firing</u>.</span><span data-l="vi">Emergence không phải là không có kế hoạch, nó là một cái loop với luật chạy đủ tốt. Bạn không dự báo được output, <u>chỉ chỉnh được cái bước cứ lặp lại hoài</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">With no plan at all, what is <b>the one rule you would still run tomorrow</b>?</span><span data-l="vi">Bỏ hết kế hoạch đi, <b>mai bạn vẫn chạy theo luật nào</b>?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — What if you&#x27;re not supposed to have a long-term plan? &rarr;</a></div></div>
+<footer><div class="label"><span data-l="en">Today: John Cutler / Melissa Perri / Teresa Torres / Ben Thompson / Molly Graham / Brian Balfour<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: John Cutler / Melissa Perri / Teresa Torres / Ben Thompson / Molly Graham / Brian Balfour<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
