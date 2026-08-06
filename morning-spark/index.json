@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-06",
+      "edition": 11,
+      "note": "Themes: the error log over the eval score, the second workload that volume exposes, the constrained side as the only moat. Sources: Product Talk, Stratechery, andrewchen.",
+      "sparks": [
+        {
+          "pair": "Teresa Torres x Brian Balfour",
+          "headline": "Evals are a discovery habit, not a grade",
+          "source": "Product Talk — The Call to Adventure",
+          "url": "https://www.producttalk.org/the-call-to-adventure/"
+        },
+        {
+          "pair": "Ben Thompson x Marty Cagan",
+          "headline": "The demo and the product do not run on the same machine",
+          "source": "Stratechery — The Inference Shift",
+          "url": "https://stratechery.com/2026/the-inference-shift/"
+        },
+        {
+          "pair": "Andrew Chen x Gibson Biddle",
+          "headline": "Everyone can delight demand. Almost nobody can hold supply.",
+          "source": "andrewchen — Why \"Uber for X\" startups failed: The supply side is king",
+          "url": "https://andrewchen.com/why-uber-for-x-failed/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-05",
       "edition": 10,
       "note": "Themes: carrying cost as the reason dead bets survive, margin sliding to the un-promptable layer, emergence as a loop rule rather than a plan. Sources: The Beautiful Mess, Product Talk, Lenny's Newsletter.",

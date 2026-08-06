@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-06",
+  "edition": 11,
+  "framing": "Three systems that hide where the real work is.",
+  "framing_vi": "Ba hệ thống giấu mất chỗ việc thật sự nằm.",
+  "note": "Themes: the error log over the eval score, the second workload that volume exposes, the constrained side as the only moat. Sources: Product Talk, Stratechery, andrewchen.",
+  "sparks": [
+    {
+      "title": "THE ERROR LOG",
+      "title_vi": "SỔ LỖI",
+      "headline": "Evals are a discovery habit, not a grade",
+      "headline_vi": "Eval là thói quen discovery, không phải cái điểm.",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "Fifteen months from AI novice to shipping AI coaches, and the habit that unlocked it was evals: look at what the model gets wrong, learn to measure that error, then go fix it. She calls evals the missing discovery habit.",
+        "what_vi": "Mười lăm tháng từ tay mơ AI tới chỗ ship được AI coach, và thứ mở khoá là eval: nhìn xem model sai chỗ nào, học cách đo cái sai đó, rồi sửa. Cô gọi eval là thói quen discovery còn thiếu."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "One north star metric is a lagging output. It is the scoreboard, and you cannot run an experiment against a scoreboard; you have to break it into the inputs a team can actually move.",
+        "what_vi": "Một north star metric chỉ là con số lagging. Nó là bảng tỉ số, mà bảng tỉ số thì không chạy thí nghiệm được; phải bẻ nó ra thành những input mà team đụng tay vào được."
+      },
+      "result": "An eval score is a north star with the same blind spot: it lags, and it hides which failure is moving it. The number is the scoreboard, the error log is the play.",
+      "result_vi": "Điểm eval mù y hệt north star: nó chạy sau, và nó giấu mất cái lỗi đang kéo nó đi. Con số là bảng tỉ số, sổ lỗi mới là đường bóng.",
+      "result_underline": "the error log is the play",
+      "result_underline_vi": "sổ lỗi mới là đường bóng",
+      "tick": "What did your model get wrong this week that you actually wrote down?",
+      "tick_vi": "Tuần này model của bạn sai chỗ nào mà bạn thật sự ghi lại?",
+      "tick_bold": ["actually wrote down"],
+      "tick_bold_vi": ["thật sự ghi lại"],
+      "provocation": "Torres treats evals as a loop, not a grade. The value sits in the error you named, not the score you posted. Balfour's warning lands exactly here: one number lags, and it hides which input moved it. Keep the log, not the leaderboard.",
+      "provocation_vi": "Torres coi eval là một vòng lặp, không phải cái điểm. Giá trị nằm ở cái lỗi bạn gọi được tên, không phải con số bạn khoe. Cảnh báo của Balfour rơi đúng chỗ này: một con số thì chạy sau, và nó giấu mất input nào đã kéo nó. Giữ sổ lỗi, đừng giữ bảng xếp hạng.",
+      "source": {
+        "site": "Product Talk",
+        "title": "The Call to Adventure",
+        "url": "https://www.producttalk.org/the-call-to-adventure/",
+        "published": "2026-08-05"
+      }
+    },
+    {
+      "title": "TWO WORKLOADS",
+      "title_vi": "HAI LOẠI TẢI",
+      "headline": "The demo and the product do not run on the same machine",
+      "headline_vi": "Demo và product không chạy chung một cỗ máy.",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "Training and inference both ran fine on GPUs, so the industry treated them as one problem. But decode is serial and bound by memory bandwidth, a different workload, and at scale it starts pulling silicon of its own.",
+        "what_vi": "Training với inference đều chạy ngon trên GPU nên cả ngành coi là một bài toán. Nhưng decode là tải serial, nghẽn ở băng thông bộ nhớ, một loại tải khác hẳn, và tới một quy mô nào đó nó đòi con chip riêng."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "A prototype and a shippable product are two different workloads too. The second one carries thousands of business rules plus reliability, telemetry and compliance, and people who have only ever prototyped keep mistaking the first for the second.",
+        "what_vi": "Prototype và product cũng là hai loại tải khác nhau. Cái thứ hai gánh hàng nghìn business rule cộng reliability, telemetry, compliance, và ai mới chỉ prototype thì hay tưởng cái đầu là cái sau."
+      },
+      "result": "A flexible tool hides the second workload until volume drags it out. The day someone runs their business on your demo, you stop iterating and start buying different machinery.",
+      "result_vi": "Tool linh hoạt giấu cái tải thứ hai cho tới khi volume lôi nó ra. Ngày có người đem demo của bạn ra chạy việc thật, bạn hết iterate và bắt đầu phải sắm máy khác.",
+      "result_underline": "start buying different machinery",
+      "result_underline_vi": "bắt đầu phải sắm máy khác",
+      "tick": "Which of your prototypes is already carrying someone's real work?",
+      "tick_vi": "Prototype nào của bạn đang gánh việc thật của người khác rồi?",
+      "tick_bold": ["carrying someone's real work"],
+      "tick_bold_vi": ["gánh việc thật"],
+      "provocation": "Thompson's point about inference is that a workload looks like one problem right up until its volume makes the differences expensive. Cagan's prototype is the same shape. Flexible tooling sells you the illusion of one workload, and volume is what sends the invoice.",
+      "provocation_vi": "Ý của Thompson về inference: một loại tải trông như cùng một bài toán, cho tới khi volume làm cho khác biệt trở nên đắt. Prototype của Cagan cũng y hệt. Tool linh hoạt bán cho bạn ảo giác chỉ có một loại tải, còn volume là thứ gửi hoá đơn.",
+      "source": {
+        "site": "Stratechery",
+        "title": "The Inference Shift",
+        "url": "https://stratechery.com/2026/the-inference-shift/",
+        "published": "2026-05-11"
+      }
+    },
+    {
+      "title": "THE SHORT SIDE",
+      "title_vi": "BÊN THIẾU HÀNG",
+      "headline": "Everyone can delight demand. Almost nobody can hold supply.",
+      "headline_vi": "Ai cũng làm demand vui được. Giữ được supply mới khó.",
+      "a": {
+        "who": "Andrew Chen",
+        "what": "The Uber for X wave mostly died on the supply side: the same cost to acquire a worker as rideshare, but demand too spiky to keep that worker busy. Judge a marketplace from the supply side's point of view first.",
+        "what_vi": "Làn sóng Uber for X phần lớn chết ở phía supply: chi phí kiếm một người làm ngang rideshare, nhưng demand lúc dồn lúc trống, không đủ việc nuôi họ. Muốn xét một marketplace, xét từ góc của bên supply trước."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: a strategy has to delight customers in ways that are hard to copy and margin-enhancing. Delight alone is table stakes. The hard-to-copy leg is the one still standing in three years.",
+        "what_vi": "DHM: chiến lược phải làm khách hàng thích, theo cách khó copy và tốt cho margin. Riêng cái thích thì ai cũng làm được. Chân khó copy mới là chân còn đứng sau ba năm."
+      },
+      "result": "The hard-to-copy leg almost always sits on the constrained side. Shipping into the abundant side is not progress, it is just faster.",
+      "result_vi": "Chân khó copy gần như luôn nằm ở bên đang thiếu. Ship vào bên đang thừa không phải là tiến bộ, chỉ là nhanh hơn thôi.",
+      "result_underline": "it is just faster",
+      "result_underline_vi": "chỉ là nhanh hơn thôi",
+      "tick": "Which side of your product runs out of hours first?",
+      "tick_vi": "Bên nào trong sản phẩm của bạn hết giờ trước?",
+      "tick_bold": ["runs out of hours first"],
+      "tick_bold_vi": ["hết giờ trước"],
+      "provocation": "Chen's test for a marketplace is whether the supply side can stay busy enough to stay at all. Biddle's test for a strategy is whether the delight is hard to copy. They meet in one place: the side that runs short is where the difficulty lives, and difficulty is the only thing a competitor cannot buy.",
+      "provocation_vi": "Phép thử của Chen cho một marketplace: bên supply có đủ việc để ở lại không. Phép thử của Biddle cho chiến lược: cái làm khách thích có khó copy không. Hai cái gặp nhau ở một chỗ: bên nào đang thiếu thì cái khó nằm ở đó, và cái khó là thứ duy nhất đối thủ không mua được.",
+      "source": {
+        "site": "andrewchen",
+        "title": "Why \"Uber for X\" startups failed: The supply side is king",
+        "url": "https://andrewchen.com/why-uber-for-x-failed/"
+      }
+    }
+  ]
+}

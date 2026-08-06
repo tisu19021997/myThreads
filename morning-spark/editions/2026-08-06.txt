@@ -1,0 +1,22 @@
+Morning Spark · Thursday, August 6 · Ed. 11
+Three systems that hide where the real work is.
+
+─────────────────
+01 · Evals are a discovery habit, not a grade
+Teresa Torres × Brian Balfour
+Torres treats evals as a loop, not a grade. The value sits in the error you named, not the score you posted. Balfour's warning lands exactly here: one number lags, and it hides which input moved it. Keep the log, not the leaderboard.
+→ https://www.producttalk.org/the-call-to-adventure/
+
+─────────────────
+02 · The demo and the product do not run on the same machine
+Ben Thompson × Marty Cagan
+Thompson's point about inference is that a workload looks like one problem right up until its volume makes the differences expensive. Cagan's prototype is the same shape. Flexible tooling sells you the illusion of one workload, and volume is what sends the invoice.
+→ https://stratechery.com/2026/the-inference-shift/
+
+─────────────────
+03 · Everyone can delight demand. Almost nobody can hold supply.
+Andrew Chen × Gibson Biddle
+Chen's test for a marketplace is whether the supply side can stay busy enough to stay at all. Biddle's test for a strategy is whether the delight is hard to copy. They meet in one place: the side that runs short is where the difficulty lives, and difficulty is the only thing a competitor cannot buy.
+→ https://andrewchen.com/why-uber-for-x-failed/
+
+Full styled card → open the session.

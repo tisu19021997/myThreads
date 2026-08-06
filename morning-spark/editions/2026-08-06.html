@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 6</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 11</div></div></div>
+<div class="meta label">Thursday, August 6, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE ERROR LOG</span><span data-l="vi">SỔ LỖI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Fifteen months from AI novice to shipping AI coaches, and the habit that unlocked it was evals: look at what the model gets wrong, learn to measure that error, then go fix it. She calls evals the missing discovery habit.</span><span data-l="vi">Mười lăm tháng từ tay mơ AI tới chỗ ship được AI coach, và thứ mở khoá là eval: nhìn xem model sai chỗ nào, học cách đo cái sai đó, rồi sửa. Cô gọi eval là thói quen discovery còn thiếu.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">One north star metric is a lagging output. It is the scoreboard, and you cannot run an experiment against a scoreboard; you have to break it into the inputs a team can actually move.</span><span data-l="vi">Một north star metric chỉ là con số lagging. Nó là bảng tỉ số, mà bảng tỉ số thì không chạy thí nghiệm được; phải bẻ nó ra thành những input mà team đụng tay vào được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">An eval score is a north star with the same blind spot: it lags, and it hides which failure is moving it. The number is the scoreboard, <u>the error log is the play</u>.</span><span data-l="vi">Điểm eval mù y hệt north star: nó chạy sau, và nó giấu mất cái lỗi đang kéo nó đi. Con số là bảng tỉ số, <u>sổ lỗi mới là đường bóng</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did your model get wrong this week that you <b>actually wrote down</b>?</span><span data-l="vi">Tuần này model của bạn sai chỗ nào mà bạn <b>thật sự ghi lại</b>?</span></p></div>
+<div class="src-link"><a href="https://www.producttalk.org/the-call-to-adventure/" target="_blank" rel="noopener">Product Talk — The Call to Adventure &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">TWO WORKLOADS</span><span data-l="vi">HAI LOẠI TẢI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Training and inference both ran fine on GPUs, so the industry treated them as one problem. But decode is serial and bound by memory bandwidth, a different workload, and at scale it starts pulling silicon of its own.</span><span data-l="vi">Training với inference đều chạy ngon trên GPU nên cả ngành coi là một bài toán. Nhưng decode là tải serial, nghẽn ở băng thông bộ nhớ, một loại tải khác hẳn, và tới một quy mô nào đó nó đòi con chip riêng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">A prototype and a shippable product are two different workloads too. The second one carries thousands of business rules plus reliability, telemetry and compliance, and people who have only ever prototyped keep mistaking the first for the second.</span><span data-l="vi">Prototype và product cũng là hai loại tải khác nhau. Cái thứ hai gánh hàng nghìn business rule cộng reliability, telemetry, compliance, và ai mới chỉ prototype thì hay tưởng cái đầu là cái sau.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A flexible tool hides the second workload until volume drags it out. The day someone runs their business on your demo, you stop iterating and <u>start buying different machinery</u>.</span><span data-l="vi">Tool linh hoạt giấu cái tải thứ hai cho tới khi volume lôi nó ra. Ngày có người đem demo của bạn ra chạy việc thật, bạn hết iterate và <u>bắt đầu phải sắm máy khác</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your prototypes is already <b>carrying someone&#x27;s real work</b>?</span><span data-l="vi">Prototype nào của bạn đang <b>gánh việc thật</b> của người khác rồi?</span></p></div>
+<div class="src-link"><a href="https://stratechery.com/2026/the-inference-shift/" target="_blank" rel="noopener">Stratechery — The Inference Shift &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE SHORT SIDE</span><span data-l="vi">BÊN THIẾU HÀNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">The Uber for X wave mostly died on the supply side: the same cost to acquire a worker as rideshare, but demand too spiky to keep that worker busy. Judge a marketplace from the supply side&#x27;s point of view first.</span><span data-l="vi">Làn sóng Uber for X phần lớn chết ở phía supply: chi phí kiếm một người làm ngang rideshare, nhưng demand lúc dồn lúc trống, không đủ việc nuôi họ. Muốn xét một marketplace, xét từ góc của bên supply trước.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">DHM: a strategy has to delight customers in ways that are hard to copy and margin-enhancing. Delight alone is table stakes. The hard-to-copy leg is the one still standing in three years.</span><span data-l="vi">DHM: chiến lược phải làm khách hàng thích, theo cách khó copy và tốt cho margin. Riêng cái thích thì ai cũng làm được. Chân khó copy mới là chân còn đứng sau ba năm.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The hard-to-copy leg almost always sits on the constrained side. Shipping into the abundant side is not progress, <u>it is just faster</u>.</span><span data-l="vi">Chân khó copy gần như luôn nằm ở bên đang thiếu. Ship vào bên đang thừa không phải là tiến bộ, <u>chỉ là nhanh hơn thôi</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which side of your product <b>runs out of hours first</b>?</span><span data-l="vi">Bên nào trong sản phẩm của bạn <b>hết giờ trước</b>?</span></p></div>
+<div class="src-link"><a href="https://andrewchen.com/why-uber-for-x-failed/" target="_blank" rel="noopener">andrewchen — Why &quot;Uber for X&quot; startups failed: The supply side is king &rarr;</a></div></div>
+<footer><div class="label"><span data-l="en">Today: Teresa Torres / Brian Balfour / Ben Thompson / Marty Cagan / Andrew Chen / Gibson Biddle<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Teresa Torres / Brian Balfour / Ben Thompson / Marty Cagan / Andrew Chen / Gibson Biddle<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
