@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-07",
+  "edition": 12,
+  "framing": "What surrounds the work decides what the work is worth.",
+  "framing_vi": "Thứ bao quanh công việc quyết định nó đáng giá bao nhiêu.",
+  "note": "Themes: the untested frame around a desirability test, the stage versus the craft, the freed hour needing a hard-to-copy target. Sources: Product Talk, The Beautiful Mess, A Smart Bear.",
+  "sparks": [
+    {
+      "title": "THE FRAME",
+      "title_vi": "CÁI KHUNG",
+      "headline": "That no may be your context, not your idea",
+      "headline_vi": "Cái không đó có thể là context, không phải ý tưởng.",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "Do not test the whole idea, test the assumptions under it. Story map it, generate twenty or more across desirability, viability, feasibility, usability and ethics, then plot them by evidence against importance and go after the leap-of-faith ones.",
+        "what_vi": "Đừng test cả ý tưởng, test mấy cái assumption nằm dưới nó. Story map ra, bới cho được hai chục cái trở lên: desirability, viability, feasibility, usability và đạo đức, rồi xếp theo bằng chứng và độ quan trọng, xong đánh vào mấy cái leap-of-faith."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Joshua Bell, arguably the best violinist alive, played a Metro plaza in a ball cap next to a garbage can. Of 1,070 commuters, seven stopped. He made $32.17. Same player, same music, different frame: context trumps product.",
+        "what_vi": "Joshua Bell, có thể nói là tay violin giỏi nhất còn sống, đứng đánh ở sân ga Metro, đội mũ lưỡi trai, cạnh thùng rác. 1.070 người đi qua, bảy người dừng lại. Anh kiếm được 32,17 đô. Vẫn người đó, bản nhạc đó, khác mỗi cái khung: context ăn đứt product."
+      },
+      "result": "Your riskiest assumption never makes the two-by-two. It is the frame you ran the test inside, and a no from the wrong plaza is not a no.",
+      "result_vi": "Assumption rủi ro nhất chẳng bao giờ lên được cái ma trận hai chiều. Nó là cái khung bạn dựng test bên trong, và bị chê ở sai sân thì chưa phải là bị chê.",
+      "result_underline": "a no from the wrong plaza is not a no",
+      "result_underline_vi": "bị chê ở sai sân thì chưa phải là bị chê",
+      "tick": "That no you got last week: was it the idea, or the plaza you tested it in?",
+      "tick_vi": "Cái không bạn nhận tuần trước: do ý tưởng, hay do cái sân bạn đem nó ra test?",
+      "tick_bold": ["the plaza you tested it in"],
+      "tick_bold_vi": ["cái sân bạn đem nó ra test"],
+      "provocation": "Torres wants twenty assumptions per idea, sorted by evidence and importance, so you test the risky ones instead of the whole thing. Dunford's Joshua Bell is the assumption nobody writes down: the frame. Add one line to the map, about what would have to be true of where you tested.",
+      "provocation_vi": "Torres muốn hai mươi assumption cho mỗi ý tưởng, xếp theo bằng chứng và độ quan trọng, để bạn test cái rủi ro thay vì test cả cục. Joshua Bell của Dunford chính là assumption chẳng ai ghi ra: cái khung. Thêm một dòng vào bản đồ, về chuyện chỗ bạn đem ra test phải đúng những gì thì kết quả mới tính.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Ch. 9: Identifying Hidden Assumptions",
+        "url": "https://www.producttalk.org/cdh-book-club-august-2026/",
+        "published": "2026-08-03"
+      }
+    },
+    {
+      "title": "BIG HAT",
+      "title_vi": "MŨ TO",
+      "headline": "Work is a stage; your worth is not on it",
+      "headline_vi": "Chỗ làm là sân khấu, giá trị của bạn không nằm trên đó.",
+      "a": {
+        "who": "John Cutler",
+        "what": "Work is front stage. Being told you overthink, that you are too theoretical, is a note on how you played the scene, not a verdict on you. A company is not a community; belonging there is conditional, so stop using it as the mirror that says whether you are OK.",
+        "what_vi": "Chỗ làm là sân khấu phía trước. Bị nhận xét là nghĩ nhiều quá, lý thuyết quá, đó chỉ là lời nhắc về cách bạn diễn cảnh đó, không phải bản án về con người bạn. Công ty không phải cộng đồng; thuộc về nó là có điều kiện, đừng lấy nó làm gương soi xem mình ổn hay không."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Wearing the product manager title while the actual job is coordination is theater. Big hat, no cattle. And when a CEO goes looking for costs to cut, the person performing the role goes before the designer or engineer doing it.",
+        "what_vi": "Đeo cái title product manager trong khi việc thật chỉ là điều phối thì đó là diễn. Mũ thì to mà chẳng có con bò nào. Và lúc CEO đi tìm chỗ để cắt chi phí, người đang diễn cái role đi trước designer hay engineer đang làm thật."
+      },
+      "result": "Both men are describing the same stage. Play the scene, but keep the cattle offstage, because the performance is what gets cut and the craft is what carries.",
+      "result_vi": "Cả hai đang nói về cùng một sân khấu. Cứ diễn cho tròn cảnh, nhưng đàn bò thì để ngoài sân khấu, vì cái bị cắt là màn diễn còn cái nuôi bạn là nghề.",
+      "result_underline": "the performance is what gets cut and the craft is what carries",
+      "result_underline_vi": "cái bị cắt là màn diễn còn cái nuôi bạn là nghề",
+      "tick": "If your title vanished tomorrow, what would you still be able to do by hand?",
+      "tick_vi": "Mai title của bạn bốc hơi, bạn còn tự tay làm được cái gì?",
+      "tick_bold": ["do by hand"],
+      "tick_bold_vi": ["tự tay làm được"],
+      "provocation": "Cutler borrows Goffman: work is front stage, and the feedback is a director's note, not a verdict. Cagan's version is colder, big hat and no cattle, and the hat is the first thing cut. Put your self-worth in the craft and your patience in the scene, not the other way round.",
+      "provocation_vi": "Cutler mượn Goffman: chỗ làm là sân khấu phía trước, feedback là lời đạo diễn chứ không phải bản án. Bản của Cagan lạnh hơn, mũ to mà không có bò, và cái mũ bị cắt đầu tiên. Đặt giá trị bản thân vào tay nghề, đặt kiên nhẫn vào màn diễn, đừng làm ngược lại.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 429: How To Thrive At Work When You Think Too Much",
+        "url": "https://cutlefish.substack.com/p/tbm-429-how-to-thrive-at-work-when",
+        "published": "2026-07-06"
+      }
+    },
+    {
+      "title": "THE FREED HOUR",
+      "title_vi": "GIỜ ĐƯỢC TRẢ LẠI",
+      "headline": "If an agent can do the hour, the hour was never the asset",
+      "headline_vi": "Agent làm được cái giờ đó, thì cái giờ đó chưa bao giờ là tài sản.",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "Price a founder hour like a consultant paid four years late and only if the company survives. At a one-in-four survival rate, $150 an hour has to become something like $1000, and at that rate you cannot afford receipts, bookkeeping, or any project whose upside is small.",
+        "what_vi": "Định giá một giờ của founder như ông consultant bốn năm sau mới được trả, mà chỉ được trả nếu công ty còn sống. Xác suất sống một phần tư thì 150 đô một giờ phải thành cỡ 1000 đô, và ở mức đó bạn không kham nổi hoá đơn, sổ sách, hay bất cứ dự án nào upside bé tí."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: delight customers in ways that are hard to copy and margin-enhancing. Delight on its own gets copied by the end of the quarter. Only the hard-to-copy part compounds into a business.",
+        "what_vi": "DHM: làm khách hàng thích, theo cách khó copy và tốt cho margin. Chỉ làm người ta thích thôi thì hết quý là bị copy. Chỉ phần khó copy mới dồn lại thành cái business."
+      },
+      "result": "AI took the price of delegation to zero, so Cohen's list is now free and his math is untouched. The hour is still worth $1000 only if you spend it on the part nobody can copy.",
+      "result_vi": "AI kéo giá của việc delegate về gần bằng không, nên cái danh sách của Cohen giờ miễn phí còn phép tính của ông thì vẫn thế. Giờ đó chỉ đáng 1000 đô nếu bạn tiêu nó vào phần không ai copy được.",
+      "result_underline": "only if you spend it on the part nobody can copy",
+      "result_underline_vi": "nếu bạn tiêu nó vào phần không ai copy được",
+      "tick": "The hours an agent handed back to you this week: what did you actually buy with them?",
+      "tick_vi": "Mấy tiếng agent trả lại cho bạn tuần này: bạn đã mua được gì bằng chúng?",
+      "tick_bold": ["what did you actually buy with them"],
+      "tick_bold_vi": ["bạn đã mua được gì bằng chúng"],
+      "provocation": "Cohen's $1000 an hour was an argument for delegating everything small. AI answered it: the small things are free now. But a freed hour is not a won hour. Biddle's filter is the one that still charges you. Put it into what is hard to copy, or you have automated your way to the same place faster.",
+      "provocation_vi": "Cái 1000 đô một giờ của Cohen là lý lẽ để delegate hết mấy việc nhỏ. AI trả lời rồi: mấy việc nhỏ giờ miễn phí. Nhưng giờ được trả lại không phải giờ kiếm được. Bộ lọc của Biddle mới là thứ còn tính phí bạn. Đổ vào cái khó copy, không thì bạn chỉ tự động hoá để giậm chân tại chỗ nhanh hơn.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "What is the value of one hour of a startup founder's time?",
+        "url": "https://longform.asmartbear.com/value-time/",
+        "published": "2012-01-10"
+      }
+    }
+  ]
+}

@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-07",
+      "edition": 12,
+      "note": "Themes: the untested frame around a desirability test, the stage versus the craft, the freed hour needing a hard-to-copy target. Sources: Product Talk, The Beautiful Mess, A Smart Bear.",
+      "sparks": [
+        {
+          "pair": "Teresa Torres x April Dunford",
+          "headline": "That no may be your context, not your idea",
+          "source": "Product Talk — Ch. 9: Identifying Hidden Assumptions",
+          "url": "https://www.producttalk.org/cdh-book-club-august-2026/"
+        },
+        {
+          "pair": "John Cutler x Marty Cagan",
+          "headline": "Work is a stage; your worth is not on it",
+          "source": "The Beautiful Mess — TBM 429: How To Thrive At Work When You Think Too Much",
+          "url": "https://cutlefish.substack.com/p/tbm-429-how-to-thrive-at-work-when"
+        },
+        {
+          "pair": "Jason Cohen x Gibson Biddle",
+          "headline": "If an agent can do the hour, the hour was never the asset",
+          "source": "A Smart Bear — What is the value of one hour of a startup founder's time?",
+          "url": "https://longform.asmartbear.com/value-time/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-06",
       "edition": 11,
       "note": "Themes: the error log over the eval score, the second workload that volume exposes, the constrained side as the only moat. Sources: Product Talk, Stratechery, andrewchen.",
