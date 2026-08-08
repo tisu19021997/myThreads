@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-08",
+      "edition": 13,
+      "note": "Themes: the unscalable channel worth keeping forever, shipping as conflict avoidance, the status quo as the competitor with no logo. Sources: SVPG, Lenny's Newsletter, April Dunford.",
+      "sparks": [
+        {
+          "pair": "Marty Cagan x Paul Graham",
+          "headline": "Do not graduate from the thing that works",
+          "source": "SVPG — Forward Deployed Engineers",
+          "url": "https://www.svpg.com/forward-deployed-engineers/"
+        },
+        {
+          "pair": "Joe Hudson x Melissa Perri",
+          "headline": "When building is free, building becomes the dodge",
+          "source": "Lenny's Newsletter — The New Inner Game: Your Unfair Advantage",
+          "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage"
+        },
+        {
+          "pair": "April Dunford x Gibson Biddle",
+          "headline": "Your biggest competitor has no logo",
+          "source": "April Dunford — Positioning and Competition",
+          "url": "https://www.aprildunford.com/post/positioning-and-competition"
+        }
+      ]
+    },
+    {
       "date": "2026-08-07",
       "edition": 12,
       "note": "Themes: the untested frame around a desirability test, the stage versus the craft, the freed hour needing a hard-to-copy target. Sources: Product Talk, The Beautiful Mess, A Smart Bear.",

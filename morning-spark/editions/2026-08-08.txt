@@ -1,0 +1,22 @@
+Morning Spark · Saturday, August 8 · Ed. 13
+The things that decide it never show up in the report.
+
+─────────────────
+01 · Do not graduate from the thing that works
+Marty Cagan × Paul Graham
+Graham says recruit by hand, then switch to less manual methods once the engine catches. Cagan's forward deployed engineer never switches: the embed stays staffed, and what it learns becomes product. Pick the one channel to the customer you will never automate.
+→ https://www.svpg.com/forward-deployed-engineers/
+
+─────────────────
+02 · When building is free, building becomes the dodge
+Joe Hudson × Melissa Perri
+Hudson says the scarce skill in an AI-forward team is staying in the hard conversation. Perri says the build trap is measuring output. Put them together and the trap deepens as building gets cheaper, because dodging the conversation now costs one prompt. Name one feature this week that is standing in for a disagreement.
+→ https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage
+
+─────────────────
+03 · Your biggest competitor has no logo
+April Dunford × Gibson Biddle
+Dunford says the first alternative you have to beat is the status quo, and it takes one deal in four. Biddle says find the proxy metric that predicts retention early. Nobody builds the proxy metric for no decision. Try one: how long the customer's current workaround has already survived.
+→ https://www.aprildunford.com/post/positioning-and-competition
+
+Full styled card → open the session.

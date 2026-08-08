@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-08",
+  "edition": 13,
+  "framing": "The things that decide it never show up in the report.",
+  "framing_vi": "Mấy thứ quyết định cuộc chơi lại chẳng bao giờ hiện lên trong báo cáo.",
+  "note": "Themes: the unscalable channel worth keeping forever, shipping as conflict avoidance, the status quo as the competitor with no logo. Sources: SVPG, Lenny's Newsletter, April Dunford.",
+  "sparks": [
+    {
+      "title": "THE CRANK",
+      "title_vi": "CÁI TAY QUAY",
+      "headline": "Do not graduate from the thing that works",
+      "headline_vi": "Đừng tốt nghiệp khỏi thứ đang chạy ngon.",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "A forward deployed engineer embeds with the customer to see their environment, their problems, and what it actually takes to deliver the outcome. Palantir looks like a consulting shop and is not: the custom work is an input to the product, never the thing being handed over.",
+        "what_vi": "Forward deployed engineer là người xuống nằm vùng với khách: nhìn tận mắt môi trường của họ, vấn đề của họ, và thật ra cần gì mới ra được outcome. Palantir nhìn như công ty làm thuê nhưng không phải: phần custom là input cho product, không bao giờ là thứ đem giao."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Startups take off because the founders make them take off. Recruit users by hand: the Collison brothers set people up on the spot, Airbnb went door to door in New York. The unscalable start is a crank you turn until the engine catches, then you switch to less manual methods.",
+        "what_vi": "Startup cất cánh vì founder đẩy nó lên. Đi kiếm user bằng tay: anh em Collison thấy ai gật là mở laptop cài luôn tại chỗ, Airbnb gõ cửa từng nhà ở New York. Việc không scale lúc đầu là cái tay quay, quay tới khi máy nổ thì chuyển sang cách đỡ thủ công hơn."
+      },
+      "result": "Graham's crank is meant to be let go of. Cagan bolts it on permanently, because the question was never when to stop doing things that do not scale, but which one to keep forever.",
+      "result_vi": "Tay quay của Graham là để buông ra. Cagan thì bắt vít nó vào luôn, vì câu hỏi chưa bao giờ là khi nào ngừng làm mấy việc không scale, mà là giữ lại cái nào mãi mãi.",
+      "result_underline": "which one to keep forever",
+      "result_underline_vi": "giữ lại cái nào mãi mãi",
+      "tick": "Which unscalable thing did you retire too early, and who stopped hearing the customer when you did?",
+      "tick_vi": "Việc không scale nào bạn dẹp quá sớm, và dẹp xong thì ai mất luôn đường nghe khách?",
+      "tick_bold": [
+        "retire too early"
+      ],
+      "tick_bold_vi": [
+        "dẹp quá sớm"
+      ],
+      "provocation": "Graham says recruit by hand, then switch to less manual methods once the engine catches. Cagan's forward deployed engineer never switches: the embed stays staffed, and what it learns becomes product. Pick the one channel to the customer you will never automate.",
+      "provocation_vi": "Graham bảo kiếm user bằng tay, máy nổ rồi thì chuyển sang cách đỡ thủ công. Forward deployed engineer của Cagan thì không chuyển bao giờ: chỗ nằm vùng đó vẫn có người ngồi, và những gì học được ở đó thành product. Chọn lấy một đường nghe khách mà bạn sẽ không bao giờ tự động hoá.",
+      "source": {
+        "site": "SVPG",
+        "title": "Forward Deployed Engineers",
+        "url": "https://www.svpg.com/forward-deployed-engineers/",
+        "published": "2025-09-17"
+      }
+    },
+    {
+      "title": "CHEAP EXIT",
+      "title_vi": "LỐI THOÁT RẺ",
+      "headline": "When building is free, building becomes the dodge",
+      "headline_vi": "Build gần như miễn phí, build thành chỗ né.",
+      "a": {
+        "who": "Joe Hudson",
+        "what": "Knowledge and effort, the two things we trained for all our lives, are exactly what AI does best. Teams flatten into NBA rosters: fewer people, far more capital riding on each one. What decides who thrives is emotional clarity, the ability to stay in a hard conversation without being run by what you feel.",
+        "what_vi": "Kiến thức và sức lực, đúng hai thứ mình luyện cả đời, lại là hai thứ AI làm giỏi nhất. Team dẹp phẳng lại như một roster NBA: ít người hơn, mà vốn đặt lên mỗi người thì nặng hơn nhiều. Thứ quyết định ai trụ được là emotional clarity, khả năng ngồi lại trong một cuộc nói chuyện khó mà không bị cảm xúc lái đi."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "The build trap is an organisation measuring itself by what it ships instead of by what changes for the customer. Output feels like progress. Outcome is the only thing that pays.",
+        "what_vi": "Build trap là khi cả tổ chức đo mình bằng thứ ship ra thay vì thứ đổi được cho khách. Output cho cảm giác đang tiến. Chỉ outcome mới trả tiền."
+      },
+      "result": "Shipping was always the polite way to end an argument nobody wanted to have. Make it nearly free and the build trap stops being a measurement problem and becomes the cheapest place to hide.",
+      "result_vi": "Ship xưa nay vẫn là cách lịch sự để kết thúc một cuộc tranh luận chẳng ai muốn mở. Giờ ship gần như miễn phí, build trap thôi là chuyện đo sai, nó thành chỗ trốn rẻ nhất.",
+      "result_underline": "the cheapest place to hide",
+      "result_underline_vi": "chỗ trốn rẻ nhất",
+      "tick": "The feature you are about to build: is it the answer, or the argument you are avoiding?",
+      "tick_vi": "Cái feature bạn sắp build: nó là câu trả lời, hay là cuộc tranh luận bạn đang né?",
+      "tick_bold": [
+        "the argument you are avoiding"
+      ],
+      "tick_bold_vi": [
+        "cuộc tranh luận bạn đang né"
+      ],
+      "provocation": "Hudson says the scarce skill in an AI-forward team is staying in the hard conversation. Perri says the build trap is measuring output. Put them together and the trap deepens as building gets cheaper, because dodging the conversation now costs one prompt. Name one feature this week that is standing in for a disagreement.",
+      "provocation_vi": "Hudson nói kỹ năng hiếm trong một team chạy bằng AI là ngồi được trong cuộc nói chuyện khó. Perri nói build trap là đo bằng output. Ghép lại: build càng rẻ thì bẫy càng sâu, vì né cuộc nói chuyện đó giờ chỉ tốn một cái prompt. Tuần này gọi tên một feature đang đứng thế chỗ cho một bất đồng.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "The New Inner Game: Your Unfair Advantage",
+        "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
+        "published": "2026-06-23"
+      }
+    },
+    {
+      "title": "NO LOGO",
+      "title_vi": "KHÔNG LOGO",
+      "headline": "Your biggest competitor has no logo",
+      "headline_vi": "Đối thủ lớn nhất của bạn không có logo.",
+      "a": {
+        "who": "April Dunford",
+        "what": "Position against competitive alternatives, not competitors. Ask what the customer would do if your offering did not exist: usually a spreadsheet, a manual process, an intern. In enterprise software, twenty to thirty percent of deals are lost to no decision.",
+        "what_vi": "Định vị so với competitive alternative, không phải so với competitor. Hỏi xem nếu không có bạn thì khách sẽ làm gì: thường là một cái spreadsheet, một quy trình làm tay, một bạn intern. Trong enterprise software, hai tới ba chục phần trăm deal rơi vào no decision."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: delight customers in hard-to-copy, margin-enhancing ways, and find a proxy metric that predicts retention long before retention itself can tell you anything.",
+        "what_vi": "DHM: làm khách thích, theo cách khó copy và nống được biên lợi nhuận, rồi tìm một proxy metric báo trước retention từ lâu trước khi retention kịp nói gì."
+      },
+      "result": "The alternative that takes one deal in four never enters the CRM, because no decision has no logo to log. Your win/loss review is a scoreboard with the leading team left off it.",
+      "result_vi": "Cái alternative ăn của bạn một trong bốn deal thì chẳng bao giờ vào CRM, vì no decision làm gì có logo mà log. Bảng win/loss của bạn là bảng tỷ số thiếu mất đội đang dẫn.",
+      "result_underline": "a scoreboard with the leading team left off it",
+      "result_underline_vi": "bảng tỷ số thiếu mất đội đang dẫn",
+      "tick": "What proxy metric would tell you the status quo is winning, before the quarter does?",
+      "tick_vi": "Proxy metric nào sẽ báo cho bạn biết status quo đang thắng, trước khi hết quý?",
+      "tick_bold": [
+        "the status quo is winning"
+      ],
+      "tick_bold_vi": [
+        "status quo đang thắng"
+      ],
+      "provocation": "Dunford says the first alternative you have to beat is the status quo, and it takes one deal in four. Biddle says find the proxy metric that predicts retention early. Nobody builds the proxy metric for no decision. Try one: how long the customer's current workaround has already survived.",
+      "provocation_vi": "Dunford nói thứ đầu tiên phải hạ là status quo, và nó ăn một trong bốn deal. Biddle nói tìm proxy metric báo sớm retention. Chẳng ai đi dựng proxy metric cho no decision. Thử một cái: cách làm chắp vá hiện tại của khách đã sống được bao lâu rồi.",
+      "source": {
+        "site": "April Dunford",
+        "title": "Positioning and Competition",
+        "url": "https://www.aprildunford.com/post/positioning-and-competition",
+        "published": "2020-12-28"
+      }
+    }
+  ]
+}
