@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-09",
+  "edition": 14,
+  "framing": "Before you copy it, ask who it was actually built for.",
+  "framing_vi": "Trước khi copy, hỏi xem thứ đó vốn được làm ra cho ai.",
+  "note": "Themes: the strategy pyramid as positioning aimed at leadership, advice that only held under one model's constraints, the bad first prompt as a build-to-learn prototype. Sources: The Beautiful Mess, A Smart Bear, Product Talk.",
+  "sparks": [
+    {
+      "title": "THE PYRAMID",
+      "title_vi": "CÁI KIM TỰ THÁP",
+      "headline": "Your strategy deck has a target customer",
+      "headline_vi": "Deck chiến lược của bạn cũng có target customer.",
+      "a": {
+        "who": "John Cutler",
+        "what": "Vision-to-tactics pyramids are mostly deckware. The labels are roll-up mechanisms built to leave leaders feeling aligned, and then people start imagining the labels are real things. The work itself only ever happens at the front-line team.",
+        "what_vi": "Mấy cái kim tự tháp vision xuống tactics phần lớn là deckware. Label trong đó là cơ chế roll-up để lãnh đạo thấy mọi thứ gọn gàng, rồi người ta tưởng label là thật. Việc thật chỉ diễn ra ở team front-line."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is the context you set so the right buyer sees the value immediately, and it is only real once it has been tested against the alternatives that buyer is actually weighing, including doing nothing.",
+        "what_vi": "Positioning là cái context bạn dựng lên để đúng người mua nhìn phát thấy giá trị ngay. Nó chỉ thật khi đem đọ với mấy lựa chọn người đó đang cân, kể cả lựa chọn không làm gì."
+      },
+      "result": "The pyramid is positioning work: context arranged until someone instantly gets it. Dunford's only question is who the buyer is, and the honest answer is the people who cannot walk out.",
+      "result_vi": "Kim tự tháp thật ra là positioning: sắp context lại cho ai đó nhìn phát hiểu ngay. Dunford chỉ hỏi đúng một câu, người mua là ai, và câu trả lời thật lòng là mấy người không có quyền đứng dậy đi ra.",
+      "result_underline": "the people who cannot walk out",
+      "result_underline_vi": "mấy người không có quyền đứng dậy đi ra",
+      "tick": "Who is the target customer of your strategy slide, and can they say no?",
+      "tick_vi": "Target customer của cái slide chiến lược của bạn là ai, và họ có quyền nói không?",
+      "tick_bold": [
+        "target customer of your strategy slide"
+      ],
+      "tick_bold_vi": [
+        "Target customer của cái slide chiến lược"
+      ],
+      "provocation": "Dunford tests positioning against the alternatives a real buyer is weighing. A strategy pyramid never faces that test, because its audience is paid to stay in the room. Read today's top slide to someone who can walk out.",
+      "provocation_vi": "Dunford đem positioning đi đọ với mấy lựa chọn mà người mua thật đang cân. Kim tự tháp chiến lược không bao giờ qua bài test đó, vì khán giả của nó ăn lương để ngồi lại trong phòng. Thử đọc cái slide đầu tiên hôm nay cho một người có quyền đứng dậy đi ra.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 435: 20 Unfiltered Operating Takes",
+        "url": "https://cutlefish.substack.com/p/tbm-435-20-unfiltered-operating-takes",
+        "published": "2026-08-08"
+      }
+    },
+    {
+      "title": "NO MAP",
+      "title_vi": "KHÔNG CÓ BẢN ĐỒ",
+      "headline": "The tactic travels, the constraint stays home",
+      "headline_vi": "Tactic thì đi theo bạn, cái ràng buộc thì ở lại.",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "For any piece of advice, there are startups that succeeded doing it and startups that failed doing it, plus successes and failures doing the opposite. Winners are anomalies, and trends do not predict outliers. A compass tells you which way is north, not whether you should be heading north.",
+        "what_vi": "Với bất kỳ lời khuyên nào, có startup làm theo rồi thành công, có startup làm theo rồi chết, và làm ngược lại cũng đủ cả hai chiều. Người thắng là ngoại lệ, mà trend thì không đoán nổi ngoại lệ. La bàn chỉ cho bạn hướng bắc, chứ không nói bạn có nên đi về hướng bắc hay không."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Channels are determined by your model. Every business sits somewhere on the ARPU to CAC spectrum, and that number decides which channels can ever pay back inside a year. Products are built to fit channels; channels are not built to fit products.",
+        "what_vi": "Channel là do model của bạn quyết. Business nào cũng nằm đâu đó trên phổ ARPU và CAC, và con số đó quyết định channel nào mới hoàn vốn nổi trong vòng một năm. Product phải làm cho vừa channel, chứ channel không đẻ ra cho vừa product."
+      },
+      "result": "Cohen shows the advice does not transfer. Balfour shows why: every playbook was load-bearing on one ARPU, one channel, one way of charging. There is no map, but the constraints are sitting right there, and you can check yours.",
+      "result_vi": "Cohen chỉ ra lời khuyên không đem đi đâu được. Balfour chỉ ra vì sao: playbook nào cũng đứng được nhờ một mức ARPU, một channel, một cách thu tiền. Không có bản đồ, nhưng mấy cái ràng buộc nằm ngay đó, và bạn kiểm được cái của mình.",
+      "result_underline": "you can check yours",
+      "result_underline_vi": "bạn kiểm được cái của mình",
+      "tick": "The playbook you are copying this quarter: what ARPU was it written at?",
+      "tick_vi": "Cái playbook bạn đang copy quý này: nó được viết ở mức ARPU nào?",
+      "tick_bold": [
+        "what ARPU was it written at"
+      ],
+      "tick_bold_vi": [
+        "nó được viết ở mức ARPU nào"
+      ],
+      "provocation": "Cohen says there is no map, because trends cannot predict outliers. Balfour narrows it: the tactic stood on an ARPU, a channel, and a way of charging. Before you copy it, write those three numbers down for the company you took it from, then for yours.",
+      "provocation_vi": "Cohen bảo không có bản đồ, vì trend không đoán nổi ngoại lệ. Balfour thu hẹp lại: cái tactic đó đứng được là nhờ một mức ARPU, một channel, một cách thu tiền. Trước khi copy, ghi ra ba con số đó của công ty bạn lấy về, rồi ghi ba con số của bạn.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "A compass is not a map",
+        "url": "https://longform.asmartbear.com/compass/",
+        "published": "2013-01-29"
+      }
+    },
+    {
+      "title": "FIFTEEN MINUTES",
+      "title_vi": "MƯỜI LĂM PHÚT",
+      "headline": "Your worst prompt is a prototype",
+      "headline_vi": "Cái prompt dở nhất của bạn là một prototype.",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "People say their problems are too small for AI. The real blocker is exposure: you cannot know what AI is good at until you use it, and you cannot use it well until you know. Break the loop by taking one item off today's to-do list, giving it fifteen minutes, and expecting the result to be bad.",
+        "what_vi": "Ai cũng nói vấn đề của mình nhỏ quá, xài AI làm gì. Chặn thật ra không nằm ở vấn đề nhỏ mà ở chỗ chưa đụng đủ: chưa xài thì không biết AI giỏi cái gì, chưa biết thì xài không ra gì. Cách gỡ là lấy một việc trong to-do list hôm nay, cho nó mười lăm phút, và chuẩn bị tinh thần kết quả sẽ dở."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Build to learn and build to earn are different jobs. A prototype exists to answer a question, so it is cheap, disposable, and never held to the standards of the thing you ship.",
+        "what_vi": "Build to learn với build to earn là hai việc khác nhau. Prototype sinh ra để trả lời một câu hỏi, nên nó rẻ, xài xong bỏ, và không bao giờ bị chấm theo chuẩn của đồ đem ship."
+      },
+      "result": "Cagan lets the prototype be bad, because it only owes you an answer. Torres turns that permission back on you: the thing being prototyped is your own way of working, and it is meant to come out bad the first time.",
+      "result_vi": "Cagan cho phép prototype dở, vì nó chỉ nợ bạn một câu trả lời. Torres quay cái quyền đó về phía bạn: thứ đang được prototype là cách bạn làm việc, và lần đầu nó phải dở.",
+      "result_underline": "it is meant to come out bad the first time",
+      "result_underline_vi": "lần đầu nó phải dở",
+      "tick": "Which task did you keep from AI today because you were grading it as shipped work?",
+      "tick_vi": "Việc nào hôm nay bạn không đưa cho AI, chỉ vì bạn chấm nó theo chuẩn đồ ship?",
+      "tick_bold": [
+        "grading it as shipped work"
+      ],
+      "tick_bold_vi": [
+        "chấm nó theo chuẩn đồ ship"
+      ],
+      "provocation": "Torres runs one to-do item through AI every day and lets it fail. Cagan named that motion years ago: build to learn, where the only deliverable is an answer. Take one task off today's list, spend fifteen minutes, and keep the finding rather than the output.",
+      "provocation_vi": "Torres mỗi ngày đẩy một việc trong to-do list qua AI và để nó hỏng cũng được. Cagan đặt tên cho động tác đó lâu rồi: build to learn, thứ duy nhất phải giao là một câu trả lời. Chọn một việc trong list hôm nay, bỏ ra mười lăm phút, và giữ lại cái bạn học được thay vì cái output.",
+      "source": {
+        "site": "Product Talk",
+        "title": "AI-Shaped Problems - All Things Product Podcast with Teresa Torres & Petra Wille",
+        "url": "https://www.producttalk.org/ai-shaped-problems-all-things-product-podcast-with-teresa-torres-petra-wille/",
+        "published": "2026-06-30"
+      }
+    }
+  ]
+}

@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-09",
+      "edition": 14,
+      "note": "Themes: the strategy pyramid as positioning aimed at leadership, advice that only held under one model's constraints, the bad first prompt as a build-to-learn prototype. Sources: The Beautiful Mess, A Smart Bear, Product Talk.",
+      "sparks": [
+        {
+          "pair": "John Cutler x April Dunford",
+          "headline": "Your strategy deck has a target customer",
+          "source": "The Beautiful Mess — TBM 435: 20 Unfiltered Operating Takes",
+          "url": "https://cutlefish.substack.com/p/tbm-435-20-unfiltered-operating-takes"
+        },
+        {
+          "pair": "Jason Cohen x Brian Balfour",
+          "headline": "The tactic travels, the constraint stays home",
+          "source": "A Smart Bear — A compass is not a map",
+          "url": "https://longform.asmartbear.com/compass/"
+        },
+        {
+          "pair": "Teresa Torres x Marty Cagan",
+          "headline": "Your worst prompt is a prototype",
+          "source": "Product Talk — AI-Shaped Problems - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/ai-shaped-problems-all-things-product-podcast-with-teresa-torres-petra-wille/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-08",
       "edition": 13,
       "note": "Themes: the unscalable channel worth keeping forever, shipping as conflict avoidance, the status quo as the competitor with no logo. Sources: SVPG, Lenny's Newsletter, April Dunford.",
