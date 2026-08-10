@@ -1,0 +1,22 @@
+Morning Spark · Monday, August 10 · Ed. 15
+Volume got cheap. The advantage moved to the specific.
+
+─────────────────
+01 · Hiring is a search, not a funnel
+Adam Ward × Brian Balfour
+Ward's fix is not a better funnel, it is refusing to have one: scope, map, pursue. The map is the asset, and it only exists if you keep it warm long before a role opens.
+→ https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent
+
+─────────────────
+02 · The model coaches you and exposes you in one stroke
+Marty Cagan × Andrew Chen
+Cagan's condition is context: the model only coaches once it knows your goals, your constraints and your strategy. Spend twenty minutes writing that down, then ask it the question you have been avoiding.
+→ https://www.svpg.com/product-coaching-and-ai/
+
+─────────────────
+03 · Cheap tokens are a bid for your workflow
+Ben Thompson × Gibson Biddle
+Thompson's point is that real usage, not compute, is the scarce input now. Take one workflow this week and write its traces somewhere you own, before the only copy of how you work sits in someone else's training set.
+→ https://stratechery.com/2026/anthropics-safety-superpower/
+
+Full styled card → open the session.

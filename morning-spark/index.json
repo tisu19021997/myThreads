@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-10",
+      "edition": 15,
+      "note": "Themes: hiring as a search loop rather than a funnel, the model as a coach that ends coaching's cold start and the cover for theater, usage traces as the last hard-to-copy leg. Sources: Lenny's Newsletter, SVPG, Stratechery.",
+      "sparks": [
+        {
+          "pair": "Adam Ward x Brian Balfour",
+          "headline": "Hiring is a search, not a funnel",
+          "source": "Lenny's Newsletter — The playbook for building high talent density teams",
+          "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent"
+        },
+        {
+          "pair": "Marty Cagan x Andrew Chen",
+          "headline": "The model coaches you and exposes you in one stroke",
+          "source": "SVPG — Product Coaching and AI",
+          "url": "https://www.svpg.com/product-coaching-and-ai/"
+        },
+        {
+          "pair": "Ben Thompson x Gibson Biddle",
+          "headline": "Cheap tokens are a bid for your workflow",
+          "source": "Stratechery — Anthropic's Safety Superpower",
+          "url": "https://stratechery.com/2026/anthropics-safety-superpower/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-09",
       "edition": 14,
       "note": "Themes: the strategy pyramid as positioning aimed at leadership, advice that only held under one model's constraints, the bad first prompt as a build-to-learn prototype. Sources: The Beautiful Mess, A Smart Bear, Product Talk.",

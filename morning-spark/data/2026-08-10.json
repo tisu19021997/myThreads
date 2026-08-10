@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-10",
+  "edition": 15,
+  "framing": "Volume got cheap. The advantage moved to the specific.",
+  "framing_vi": "Số lượng giờ rẻ rồi. Lợi thế dời sang chỗ cụ thể.",
+  "note": "Themes: hiring as a search loop rather than a funnel, the model as a coach that ends coaching's cold start and the cover for theater, usage traces as the last hard-to-copy leg. Sources: Lenny's Newsletter, SVPG, Stratechery.",
+  "sparks": [
+    {
+      "title": "TWENTY NAMES",
+      "title_vi": "HAI MƯƠI CÁI TÊN",
+      "headline": "Hiring is a search, not a funnel",
+      "headline_vi": "Tuyển người là đi săn, không phải hứng phễu.",
+      "a": {
+        "who": "Adam Ward",
+        "what": "The standard recruiting funnel, which he calls the funnel of doom, optimizes for volume and lands you a median hire. Run every role like an executive search instead: scope it, map who is actually out there, then pursue relentlessly. Caring more than anyone else is the unfair advantage.",
+        "what_vi": "Cái phễu tuyển dụng tiêu chuẩn, ổng gọi là funnel of doom, tối ưu cho số lượng nên bạn tuyển được người tầm tầm. Thay vào đó chạy mỗi vị trí như một cuộc executive search: scope lại, map xem ngoài kia thật sự có ai, rồi đeo bám tới nơi tới chốn. Lợi thế lớn nhất là quan tâm hơn tất cả những người còn lại."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Funnels are linear and leak at every step. Loops compound, because the output of one cycle is the input of the next. Growth that lasts comes from a loop you can name, not a funnel you can widen.",
+        "what_vi": "Phễu thì tuyến tính và rò ở từng bước. Loop thì compound, vì output của vòng này là input của vòng sau. Tăng trưởng bền đến từ cái loop bạn gọi tên được, không phải cái phễu bạn nới rộng ra."
+      },
+      "result": "Hiring has the same defect growth has: widening the top only buys more median. A search compounds, because the person you fought for hands you the next twenty names.",
+      "result_vi": "Tuyển người dính đúng cái lỗi của growth: nới miệng phễu chỉ mua thêm người tầm tầm. Đi săn thì compound, vì người bạn theo đuổi tới cùng sẽ đưa bạn hai mươi cái tên tiếp theo.",
+      "result_underline": "hands you the next twenty names",
+      "result_underline_vi": "đưa bạn hai mươi cái tên tiếp theo",
+      "tick": "Name the twenty people you would fight for. When did you last talk to one?",
+      "tick_vi": "Kể tên hai mươi người bạn sẵn sàng theo tới cùng. Lần cuối bạn nói chuyện với một người trong đó là khi nào?",
+      "tick_bold": [
+        "the twenty people you would fight for"
+      ],
+      "tick_bold_vi": [
+        "hai mươi người bạn sẵn sàng theo tới cùng"
+      ],
+      "provocation": "Ward's fix is not a better funnel, it is refusing to have one: scope, map, pursue. The map is the asset, and it only exists if you keep it warm long before a role opens.",
+      "provocation_vi": "Cách của Ward không phải làm cái phễu tốt hơn, mà là bỏ luôn cái phễu: scope, map, đeo bám. Cái map mới là tài sản, và nó chỉ tồn tại nếu bạn giữ ấm nó từ lâu trước khi có slot tuyển.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "The playbook for building high talent density teams",
+        "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+        "published": "2026-08-09"
+      }
+    },
+    {
+      "title": "RENTED COACH",
+      "title_vi": "COACH ĐI THUÊ",
+      "headline": "The model coaches you and exposes you in one stroke",
+      "headline_vi": "Model vừa coach bạn, vừa lột trần bạn.",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "Two decades of arguing that coaching must come from your manager, retired. Most managers cannot or will not coach, so he now tells product people to use a foundation model as their coach, loaded with their goals, constraints and strategic context. He also warns that using AI to pump out roadmaps and PRDs faster mostly exposes product management theater, since an engineer or an agent can do that too.",
+        "what_vi": "Hai chục năm ổng nói coaching phải đến từ sếp trực tiếp, giờ ổng rút lại. Phần lớn manager không thể hoặc không chịu coach, nên ổng bảo dân product lấy foundation model làm coach, nạp vào đó mục tiêu, ràng buộc và strategic context của mình. Ổng cũng cảnh báo: dùng AI để đẻ roadmap với PRD nhanh hơn thì chủ yếu là lòi ra product management theater, vì engineer hay agent làm cái đó cũng được."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "The cold start problem: a network is worth nothing until one atomic network exists. The hard part is never the tool, it is getting the first small group of the right people into one place.",
+        "what_vi": "Cold start problem: một cái network vô giá trị cho tới khi có được atomic network đầu tiên. Phần khó chưa bao giờ là cái tool, mà là gom được nhóm nhỏ đúng người đầu tiên vào một chỗ."
+      },
+      "result": "Coaching had a cold start of its own: you needed someone who already knew, which is why most people never started. The model ends that, and the same stroke ends your cover.",
+      "result_vi": "Coaching cũng có cold start của nó: phải có sẵn người biết việc, nên phần lớn dân product không bao giờ bắt đầu được. Model xoá cái đó, và cũng chính cú đó xoá luôn chỗ bạn núp.",
+      "result_underline": "the same stroke ends your cover",
+      "result_underline_vi": "cũng chính cú đó xoá luôn chỗ bạn núp",
+      "tick": "If an agent could have produced your entire last week, what were you there for?",
+      "tick_vi": "Nếu một con agent làm được nguyên tuần vừa rồi của bạn, vậy bạn ở đó để làm gì?",
+      "tick_bold": [
+        "what were you there for"
+      ],
+      "tick_bold_vi": [
+        "bạn ở đó để làm gì"
+      ],
+      "provocation": "Cagan's condition is context: the model only coaches once it knows your goals, your constraints and your strategy. Spend twenty minutes writing that down, then ask it the question you have been avoiding.",
+      "provocation_vi": "Điều kiện của Cagan là context: model chỉ coach được khi nó biết mục tiêu, ràng buộc và chiến lược của bạn. Bỏ hai mươi phút viết cái đó ra, rồi hỏi nó đúng câu bạn đang né.",
+      "source": {
+        "site": "SVPG",
+        "title": "Product Coaching and AI",
+        "url": "https://www.svpg.com/product-coaching-and-ai/",
+        "published": "2026-02-04"
+      }
+    },
+    {
+      "title": "YOUR TRACES",
+      "title_vi": "DẤU VẾT CỦA BẠN",
+      "headline": "Cheap tokens are a bid for your workflow",
+      "headline_vi": "Token rẻ là cái giá người ta trả để mua workflow của bạn.",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "Model gains now come mostly from reinforcement learning on real usage, so the subsidised plans are partly a bid for data: one estimate has a 200 dollar plan handing back thousands of dollars of tokens. Anthropic moved to retaining all usage for thirty days, and the cycle is plain. More of your workflow inside the product, more data, a more capable product, more of your workflow.",
+        "what_vi": "Model giờ mạnh lên chủ yếu nhờ reinforcement learning trên usage thật, nên mấy gói bán lỗ một phần là để mua data: có ước tính gói 200 đô trả lại cho bạn hàng ngàn đô token. Anthropic chuyển sang giữ toàn bộ usage trong ba mươi ngày, và cái vòng thì quá rõ. Workflow của bạn nằm trong sản phẩm càng nhiều, data càng nhiều, sản phẩm càng mạnh, workflow lại càng chạy vào đó."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: delight customers in hard-to-copy, margin-enhancing ways. Anything a competitor can buy or rent tomorrow is not the advantage. The advantage is the part that took years and cannot be lifted.",
+        "what_vi": "DHM: làm khách hàng thích, theo cách khó copy và tốt cho biên lợi nhuận. Cái gì mai đối thủ mua hay thuê được thì không phải lợi thế. Lợi thế là phần mất nhiều năm mới có và không ai bê đi được."
+      },
+      "result": "The model is the rentable leg and everyone rents the same one. What is left that is hard to copy is the record of how your team actually works, so decide whose loop it trains.",
+      "result_vi": "Model là cái chân đi thuê được, và ai cũng thuê đúng cái đó. Thứ còn lại mà khó copy là bản ghi cách team bạn thật sự làm việc, nên tự quyết đi: nó train cho loop của ai.",
+      "result_underline": "decide whose loop it trains",
+      "result_underline_vi": "nó train cho loop của ai",
+      "tick": "What did your team learn last week that lives somewhere only you can query?",
+      "tick_vi": "Tuần rồi team bạn học được gì mà nó nằm ở chỗ chỉ mình bạn query được?",
+      "tick_bold": [
+        "only you can query"
+      ],
+      "tick_bold_vi": [
+        "chỉ mình bạn query được"
+      ],
+      "provocation": "Thompson's point is that real usage, not compute, is the scarce input now. Take one workflow this week and write its traces somewhere you own, before the only copy of how you work sits in someone else's training set.",
+      "provocation_vi": "Ý của Thompson: thứ khan hiếm bây giờ là usage thật, không phải compute. Tuần này lấy một workflow và ghi lại dấu vết của nó ở chỗ bạn sở hữu, trước khi bản duy nhất ghi cách bạn làm việc nằm trong training set của người khác.",
+      "source": {
+        "site": "Stratechery",
+        "title": "Anthropic's Safety Superpower",
+        "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+        "published": "2026-06-15"
+      }
+    }
+  ]
+}
