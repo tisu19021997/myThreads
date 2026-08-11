@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 11</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 16</div></div></div>
+<div class="meta label">Tuesday, August 11, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">TOOL BUILDERS</span><span data-l="vi">DÂN LÀM TOOL</span></span></div>
+<div class="eq"><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">He takes his newest definition of the product role from Benedict Evans, who argues that AI lets anyone build their own tools and almost nobody will. Three skills stay rare: seeing the general problem behind one person&#x27;s pain, finding a solution that works for the customer, and finding one that also works for the business. Writing the code was never the hard part. Knowing the tool should exist is.</span><span data-l="vi">Ổng lấy luôn định nghĩa mới nhất về vai trò product từ Benedict Evans: AI cho ai cũng tự làm được tool, mà gần như không ai làm. Ba kỹ năng vẫn hiếm: nhìn ra vấn đề chung đằng sau cái đau của một người, tìm ra giải pháp chạy được với khách hàng, và tìm ra cái vừa chạy được với business. Viết code chưa bao giờ là phần khó. Biết cái tool đó có đáng tồn tại hay không mới khó.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Growth is a system of fits, not a tactic. A move lifted from another company fails because it grew inside their model, not yours. The tactic is never the thing; the fit around it is.</span><span data-l="vi">Growth là một hệ các fit, không phải một chiêu. Chiêu bê từ công ty khác về thì fail, vì nó lớn lên trong model của họ, không phải của bạn. Chiêu không bao giờ là thứ chính; cái fit bao quanh nó mới là.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Your customer can vibe-code your feature in an afternoon and still not have your product, because they lifted the tool and left the model around it. That is <u>a weekend, not a product</u>.</span><span data-l="vi">Khách hàng vibe-code ra cái feature của bạn trong một buổi chiều mà vẫn không có sản phẩm của bạn, vì họ bê cái tool đi và bỏ lại cả cái model quanh nó. Cái đó là <u>một buổi cuối tuần, không phải một sản phẩm</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which half of your product could a customer rebuild this week, and which half <b>would they abandon by Friday</b>?</span><span data-l="vi">Nửa nào trong sản phẩm của bạn khách hàng tự dựng lại được trong tuần này, và nửa nào <b>tới thứ Sáu là họ bỏ</b>?</span></p></div>
+<div class="src-link"><a href="https://www.svpg.com/a-fresh-definition-of-the-product-role/" target="_blank" rel="noopener">SVPG — A Fresh Definition of The Product Role &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">WRAPPER WARS</span><span data-l="vi">CUỘC CHIẾN WRAPPER</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">Models are commoditizing: open source stays about six months behind, distillation closes the rest, so the app layer fills with so-called GPT wrappers the way Web 2.0 filled with database wrappers. The question stops being can you build it and becomes will they come and will they stay. His answer is network effects, broken into three things you can put on a roadmap: acquisition, retention, monetization.</span><span data-l="vi">Model đang bị commoditize: open source chỉ chậm chừng sáu tháng, distillation lấp nốt phần còn lại, nên tầng app đầy mấy thứ bị gọi là GPT wrapper, y như Web 2.0 đầy database wrapper. Câu hỏi không còn là làm được hay không, mà là người ta có tới và có ở lại không. Câu trả lời của ổng là network effect, chẻ ra thành ba thứ bỏ thẳng lên roadmap được: acquisition, retention, monetization.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">The build trap: teams measure output, the features they shipped, instead of outcome, the customer behavior that actually changed. A roadmap of features is a list of bets nobody ever settles.</span><span data-l="vi">Build trap: team đo output, tức ship được bao nhiêu feature, thay vì đo outcome, tức hành vi khách hàng có đổi thật không. Roadmap toàn feature là một danh sách cược mà không ai chốt.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">In a market where anything ships in a weekend, a feature roadmap is a spec you hand the copycat for free. Acquire, reactivate, monetize is <u>the only roadmap nobody can lift</u>.</span><span data-l="vi">Trong cái thị trường mà cái gì cũng ship được trong một cuối tuần, roadmap toàn feature là cái spec bạn tặng không cho thằng đi copy. Acquire, reactivate, monetize mới là <u>roadmap không ai bê đi được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which line on your roadmap is <b>still yours</b> the morning a competitor ships it?</span><span data-l="vi">Dòng nào trên roadmap của bạn <b>vẫn là của bạn</b> vào cái sáng đối thủ ship đúng nó?</span></p></div>
+<div class="src-link"><a href="https://andrewchen.substack.com/p/revenge-of-the-gpt-wrappers-defensibility" target="_blank" rel="noopener">andrewchen — Revenge of the GPT Wrappers: Defensibility in a world of commoditized AI models &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">LOW IN THE TREE</span><span data-l="vi">NHÁNH THẤP</span></span></div>
+<div class="eq"><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">The persistent and the obstinate both refuse to stop, but differently. The persistent are boats whose engine cannot be throttled back; the obstinate are boats whose rudder will not turn. The persistent hold on high in the decision tree, to the goal, and give way anywhere below it. The obstinate cling to their first ideas about how to get there, formed when they knew least.</span><span data-l="vi">Người kiên trì và người cố chấp đều không chịu dừng, nhưng khác nhau. Người kiên trì là con thuyền không ga nhỏ lại được; người cố chấp là con thuyền không bẻ được bánh lái. Người kiên trì giữ chặt nhánh cao của cây quyết định, tức là mục tiêu, còn bên dưới thì nhường hết. Người cố chấp ôm mấy ý tưởng đầu tiên về cách đi tới, mấy ý nghĩ ra lúc còn biết ít nhất.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is a deliberate choice of the context you want to be judged in, not a fact about your product. The category you called yourself on day one was mostly inherited by accident, and you are allowed to change it.</span><span data-l="vi">Positioning là chuyện bạn chủ động chọn bối cảnh để người ta đánh giá mình, không phải một sự thật cố định của sản phẩm. Cái category bạn tự gán cho mình ngày đầu phần lớn là vơ đại, và bạn hoàn toàn có quyền đổi.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The category you named on day one sits low in the tree, picked when you understood the problem least. Hold the problem, <u>turn the rudder</u>.</span><span data-l="vi">Cái category bạn đặt ngày đầu nằm ở nhánh thấp, chọn đúng lúc bạn hiểu vấn đề ít nhất. Giữ vấn đề, còn <u>bánh lái thì bẻ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What are you defending because it is right, and what <b>because you said it first</b>?</span><span data-l="vi">Bạn đang bảo vệ cái gì vì nó đúng, và cái gì chỉ <b>vì bạn nói ra trước</b>?</span></p></div>
+<div class="src-link"><a href="https://paulgraham.com/persistence.html" target="_blank" rel="noopener">Paul Graham — The Right Kind of Stubborn &rarr;</a></div></div>
+<footer><div class="label"><span data-l="en">Today: Marty Cagan / Brian Balfour / Andrew Chen / Melissa Perri / Paul Graham / April Dunford<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Marty Cagan / Brian Balfour / Andrew Chen / Melissa Perri / Paul Graham / April Dunford<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, August 11 · Ed. 16
+Everything below the goal got cheap. Hold the goal.
+
+─────────────────
+01 · Building got free. Knowing what to build did not.
+Marty Cagan × Brian Balfour
+Cagan's test for the role is three questions: what is the general problem, does the solution work for the customer, does it also work for the business. Take the feature you are building and answer the third one out loud.
+→ https://www.svpg.com/a-fresh-definition-of-the-product-role/
+
+─────────────────
+02 · Ship a feature and you have published your spec
+Andrew Chen × Melissa Perri
+Chen's three pillars are deliberately concrete: users bringing users, the network waking dormant users, the network raising what people will pay. Pick the one you have never staffed.
+→ https://andrewchen.substack.com/p/revenge-of-the-gpt-wrappers-defensibility
+
+─────────────────
+03 · Hold the goal, turn the rudder
+Paul Graham × April Dunford
+Graham's tell is how someone reacts to a hole in their plan: the persistent lean in, the obstinate glaze over. Watch yourself in the next review and notice which one you did.
+→ https://paulgraham.com/persistence.html
+
+Full styled card → open the session.

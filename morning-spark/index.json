@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-11",
+      "edition": 16,
+      "note": "Themes: knowing which tool deserves to exist as the surviving product skill, a feature roadmap as a free spec for the copycat, the category you named first as a low node you are allowed to turn. Sources: SVPG, andrewchen, Paul Graham.",
+      "sparks": [
+        {
+          "pair": "Marty Cagan x Brian Balfour",
+          "headline": "Building got free. Knowing what to build did not.",
+          "source": "SVPG — A Fresh Definition of The Product Role",
+          "url": "https://www.svpg.com/a-fresh-definition-of-the-product-role/"
+        },
+        {
+          "pair": "Andrew Chen x Melissa Perri",
+          "headline": "Ship a feature and you have published your spec",
+          "source": "andrewchen — Revenge of the GPT Wrappers: Defensibility in a world of commoditized AI models",
+          "url": "https://andrewchen.substack.com/p/revenge-of-the-gpt-wrappers-defensibility"
+        },
+        {
+          "pair": "Paul Graham x April Dunford",
+          "headline": "Hold the goal, turn the rudder",
+          "source": "Paul Graham — The Right Kind of Stubborn",
+          "url": "https://paulgraham.com/persistence.html"
+        }
+      ]
+    },
+    {
       "date": "2026-08-10",
       "edition": 15,
       "note": "Themes: hiring as a search loop rather than a funnel, the model as a coach that ends coaching's cold start and the cover for theater, usage traces as the last hard-to-copy leg. Sources: Lenny's Newsletter, SVPG, Stratechery.",

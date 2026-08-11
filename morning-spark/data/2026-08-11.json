@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-11",
+  "edition": 16,
+  "framing": "Everything below the goal got cheap. Hold the goal.",
+  "framing_vi": "Cái gì nằm dưới mục tiêu cũng rẻ đi rồi. Giữ mục tiêu.",
+  "note": "Themes: knowing which tool deserves to exist as the surviving product skill, a feature roadmap as a free spec for the copycat, the category you named first as a low node you are allowed to turn. Sources: SVPG, andrewchen, Paul Graham.",
+  "sparks": [
+    {
+      "title": "TOOL BUILDERS",
+      "title_vi": "DÂN LÀM TOOL",
+      "headline": "Building got free. Knowing what to build did not.",
+      "headline_vi": "Làm ra tool thì free rồi. Biết nên làm cái gì thì không.",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "He takes his newest definition of the product role from Benedict Evans, who argues that AI lets anyone build their own tools and almost nobody will. Three skills stay rare: seeing the general problem behind one person's pain, finding a solution that works for the customer, and finding one that also works for the business. Writing the code was never the hard part. Knowing the tool should exist is.",
+        "what_vi": "Ổng lấy luôn định nghĩa mới nhất về vai trò product từ Benedict Evans: AI cho ai cũng tự làm được tool, mà gần như không ai làm. Ba kỹ năng vẫn hiếm: nhìn ra vấn đề chung đằng sau cái đau của một người, tìm ra giải pháp chạy được với khách hàng, và tìm ra cái vừa chạy được với business. Viết code chưa bao giờ là phần khó. Biết cái tool đó có đáng tồn tại hay không mới khó."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Growth is a system of fits, not a tactic. A move lifted from another company fails because it grew inside their model, not yours. The tactic is never the thing; the fit around it is.",
+        "what_vi": "Growth là một hệ các fit, không phải một chiêu. Chiêu bê từ công ty khác về thì fail, vì nó lớn lên trong model của họ, không phải của bạn. Chiêu không bao giờ là thứ chính; cái fit bao quanh nó mới là."
+      },
+      "result": "Your customer can vibe-code your feature in an afternoon and still not have your product, because they lifted the tool and left the model around it. That is a weekend, not a product.",
+      "result_vi": "Khách hàng vibe-code ra cái feature của bạn trong một buổi chiều mà vẫn không có sản phẩm của bạn, vì họ bê cái tool đi và bỏ lại cả cái model quanh nó. Cái đó là một buổi cuối tuần, không phải một sản phẩm.",
+      "result_underline": "a weekend, not a product",
+      "result_underline_vi": "một buổi cuối tuần, không phải một sản phẩm",
+      "tick": "Which half of your product could a customer rebuild this week, and which half would they abandon by Friday?",
+      "tick_vi": "Nửa nào trong sản phẩm của bạn khách hàng tự dựng lại được trong tuần này, và nửa nào tới thứ Sáu là họ bỏ?",
+      "tick_bold": [
+        "would they abandon by Friday"
+      ],
+      "tick_bold_vi": [
+        "tới thứ Sáu là họ bỏ"
+      ],
+      "provocation": "Cagan's test for the role is three questions: what is the general problem, does the solution work for the customer, does it also work for the business. Take the feature you are building and answer the third one out loud.",
+      "provocation_vi": "Bài test của Cagan cho vai trò này gồm ba câu: vấn đề chung là gì, giải pháp có chạy với khách hàng không, và có chạy với business không. Lấy cái feature bạn đang làm rồi trả lời câu thứ ba ra thành tiếng.",
+      "source": {
+        "site": "SVPG",
+        "title": "A Fresh Definition of The Product Role",
+        "url": "https://www.svpg.com/a-fresh-definition-of-the-product-role/",
+        "published": "2026-08-10"
+      }
+    },
+    {
+      "title": "WRAPPER WARS",
+      "title_vi": "CUỘC CHIẾN WRAPPER",
+      "headline": "Ship a feature and you have published your spec",
+      "headline_vi": "Ship một feature là bạn công bố luôn cái spec.",
+      "a": {
+        "who": "Andrew Chen",
+        "what": "Models are commoditizing: open source stays about six months behind, distillation closes the rest, so the app layer fills with so-called GPT wrappers the way Web 2.0 filled with database wrappers. The question stops being can you build it and becomes will they come and will they stay. His answer is network effects, broken into three things you can put on a roadmap: acquisition, retention, monetization.",
+        "what_vi": "Model đang bị commoditize: open source chỉ chậm chừng sáu tháng, distillation lấp nốt phần còn lại, nên tầng app đầy mấy thứ bị gọi là GPT wrapper, y như Web 2.0 đầy database wrapper. Câu hỏi không còn là làm được hay không, mà là người ta có tới và có ở lại không. Câu trả lời của ổng là network effect, chẻ ra thành ba thứ bỏ thẳng lên roadmap được: acquisition, retention, monetization."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "The build trap: teams measure output, the features they shipped, instead of outcome, the customer behavior that actually changed. A roadmap of features is a list of bets nobody ever settles.",
+        "what_vi": "Build trap: team đo output, tức ship được bao nhiêu feature, thay vì đo outcome, tức hành vi khách hàng có đổi thật không. Roadmap toàn feature là một danh sách cược mà không ai chốt."
+      },
+      "result": "In a market where anything ships in a weekend, a feature roadmap is a spec you hand the copycat for free. Acquire, reactivate, monetize is the only roadmap nobody can lift.",
+      "result_vi": "Trong cái thị trường mà cái gì cũng ship được trong một cuối tuần, roadmap toàn feature là cái spec bạn tặng không cho thằng đi copy. Acquire, reactivate, monetize mới là roadmap không ai bê đi được.",
+      "result_underline": "the only roadmap nobody can lift",
+      "result_underline_vi": "roadmap không ai bê đi được",
+      "tick": "Which line on your roadmap is still yours the morning a competitor ships it?",
+      "tick_vi": "Dòng nào trên roadmap của bạn vẫn là của bạn vào cái sáng đối thủ ship đúng nó?",
+      "tick_bold": [
+        "still yours"
+      ],
+      "tick_bold_vi": [
+        "vẫn là của bạn"
+      ],
+      "provocation": "Chen's three pillars are deliberately concrete: users bringing users, the network waking dormant users, the network raising what people will pay. Pick the one you have never staffed.",
+      "provocation_vi": "Ba trụ của Chen cố tình rất cụ thể: user kéo user, network đánh thức user đang ngủ, network nâng mức người ta chịu trả. Chọn đúng cái trụ bạn chưa bao giờ cắm người vào.",
+      "source": {
+        "site": "andrewchen",
+        "title": "Revenge of the GPT Wrappers: Defensibility in a world of commoditized AI models",
+        "url": "https://andrewchen.substack.com/p/revenge-of-the-gpt-wrappers-defensibility",
+        "published": "2025-02-04"
+      }
+    },
+    {
+      "title": "LOW IN THE TREE",
+      "title_vi": "NHÁNH THẤP",
+      "headline": "Hold the goal, turn the rudder",
+      "headline_vi": "Giữ mục tiêu, còn bánh lái thì bẻ.",
+      "a": {
+        "who": "Paul Graham",
+        "what": "The persistent and the obstinate both refuse to stop, but differently. The persistent are boats whose engine cannot be throttled back; the obstinate are boats whose rudder will not turn. The persistent hold on high in the decision tree, to the goal, and give way anywhere below it. The obstinate cling to their first ideas about how to get there, formed when they knew least.",
+        "what_vi": "Người kiên trì và người cố chấp đều không chịu dừng, nhưng khác nhau. Người kiên trì là con thuyền không ga nhỏ lại được; người cố chấp là con thuyền không bẻ được bánh lái. Người kiên trì giữ chặt nhánh cao của cây quyết định, tức là mục tiêu, còn bên dưới thì nhường hết. Người cố chấp ôm mấy ý tưởng đầu tiên về cách đi tới, mấy ý nghĩ ra lúc còn biết ít nhất."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is a deliberate choice of the context you want to be judged in, not a fact about your product. The category you called yourself on day one was mostly inherited by accident, and you are allowed to change it.",
+        "what_vi": "Positioning là chuyện bạn chủ động chọn bối cảnh để người ta đánh giá mình, không phải một sự thật cố định của sản phẩm. Cái category bạn tự gán cho mình ngày đầu phần lớn là vơ đại, và bạn hoàn toàn có quyền đổi."
+      },
+      "result": "The category you named on day one sits low in the tree, picked when you understood the problem least. Hold the problem, turn the rudder.",
+      "result_vi": "Cái category bạn đặt ngày đầu nằm ở nhánh thấp, chọn đúng lúc bạn hiểu vấn đề ít nhất. Giữ vấn đề, còn bánh lái thì bẻ.",
+      "result_underline": "turn the rudder",
+      "result_underline_vi": "bánh lái thì bẻ",
+      "tick": "What are you defending because it is right, and what because you said it first?",
+      "tick_vi": "Bạn đang bảo vệ cái gì vì nó đúng, và cái gì chỉ vì bạn nói ra trước?",
+      "tick_bold": [
+        "because you said it first"
+      ],
+      "tick_bold_vi": [
+        "vì bạn nói ra trước"
+      ],
+      "provocation": "Graham's tell is how someone reacts to a hole in their plan: the persistent lean in, the obstinate glaze over. Watch yourself in the next review and notice which one you did.",
+      "provocation_vi": "Dấu hiệu Graham chỉ ra nằm ở lúc bị vạch lỗ hổng trong kế hoạch: người kiên trì chồm tới, người cố chấp thì đơ mắt. Buổi review tới để ý xem bạn rơi vào bên nào.",
+      "source": {
+        "site": "Paul Graham",
+        "title": "The Right Kind of Stubborn",
+        "url": "https://paulgraham.com/persistence.html",
+        "published": "2024-07"
+      }
+    }
+  ]
+}
