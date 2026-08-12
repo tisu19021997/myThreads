@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-12",
+  "edition": 17,
+  "framing": "The number is green. Ask where the risk went.",
+  "framing_vi": "Con số thì xanh. Hỏi xem rủi ro chạy đi đâu.",
+  "note": "Themes: risk relocated to where nobody prices it, the yellow section as the window where a problem is still cheap, taste as the bet no metric can defend. Sources: Stratechery, Brian Balfour, A Smart Bear.",
+  "sparks": [
+    {
+      "title": "UNMARKED RISK",
+      "title_vi": "RỦI RO ĐI ĐÂU",
+      "headline": "Nobody made it safer. They moved it.",
+      "headline_vi": "Không ai làm nó an toàn hơn. Người ta chỉ dời nó đi.",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "Nvidia has lined up Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to mobilise over 500 billion dollars of outside capital for AI factories, and is backstopping up to a quarter of the residual value itself. Thompson reads that guarantee as a price cut Nvidia never has to book: it defends the margin by finding new pools willing to carry the risk, and those pools are insurance floats and pension money, the savings that are supposed to be the safe part.",
+        "what_vi": "Nvidia bắt tay Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs và KKR để kéo hơn 500 tỷ đô vốn bên ngoài vào xây AI factory, rồi tự đứng ra đỡ tới một phần tư giá trị còn lại. Thompson đọc cái bảo lãnh đó là một lần giảm giá mà Nvidia không phải ghi vào sổ: nó giữ nguyên margin bằng cách tìm túi tiền khác chịu ôm rủi ro, mà túi đó là tiền bảo hiểm với tiền hưu trí, đúng loại tiền lẽ ra phải nằm chỗ an toàn."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "AI amplifies the direction an organisation is already moving. Where the block is friction or missing scaffolding, it helps. Where the block is fear, incentives or learned helplessness, it just automates the avoidance. His friend's image: AI as hydrogen peroxide, bubbling up to show you where the wound is, or AI as air freshener.",
+        "what_vi": "AI khuếch đại đúng cái hướng tổ chức đang đi sẵn. Chỗ nào tắc vì ma sát hay thiếu công cụ thì nó gỡ thật. Chỗ nào tắc vì sợ, vì incentive lệch, vì lâu ngày ai cũng buông, thì nó chỉ tự động hoá luôn cái sự né tránh. Hình ảnh bạn ổng dùng: AI là oxy già, sủi lên đúng chỗ vết thương, hoặc AI là bình xịt thơm phòng."
+      },
+      "result": "Both are the same move: keep the number clean by relocating the exposure. Nvidia's risk did not shrink, it walked to a place nobody marks to market. So did whatever is behind your green dashboard.",
+      "result_vi": "Cả hai là cùng một nước đi: giữ con số cho sạch bằng cách dời chỗ rủi ro. Rủi ro của Nvidia không nhỏ đi, nó đi bộ sang chỗ không ai định giá. Thứ nằm sau cái dashboard xanh của bạn cũng vậy.",
+      "result_underline": "a place nobody marks to market",
+      "result_underline_vi": "chỗ không ai định giá",
+      "tick": "Which green number in your week is really an exposure you moved somewhere nobody prices?",
+      "tick_vi": "Con số xanh nào trong tuần của bạn thật ra là một rủi ro bạn đã dời sang chỗ không ai tính giá?",
+      "tick_bold": [
+        "moved somewhere nobody prices"
+      ],
+      "tick_bold_vi": [
+        "dời sang chỗ không ai tính giá"
+      ],
+      "provocation": "Thompson's tell is the backstop. A guarantee on residual value is a discount that never appears in the price. Find the one you are quietly writing this quarter.",
+      "provocation_vi": "Dấu hiệu Thompson chỉ ra nằm ở cái bảo lãnh. Đứng ra đỡ giá trị còn lại chính là giảm giá mà không bao giờ hiện ra trong giá. Tìm cái bảo lãnh bạn đang âm thầm ký trong quý này.",
+      "source": {
+        "site": "Stratechery",
+        "title": "Nvidia's Risky Business",
+        "url": "https://stratechery.com/2026/nvidias-risky-business/",
+        "published": "2026-08-11"
+      }
+    },
+    {
+      "title": "YELLOW SECTION",
+      "title_vi": "PHẦN VÀNG",
+      "headline": "Honesty is a channel, not a temperament",
+      "headline_vi": "Thẳng thắn là một cái kênh, không phải tính cách.",
+      "a": {
+        "who": "Brian Balfour",
+        "what": "A private memo from the CEO to the board only, never for the wider team, discussed live before the meeting. Four blocks: overview, green for what is working, yellow for complexity that is emerging but not urgent, red for what needs focus now, across finance, product, sales, strategy and above all people. Sugarcoat once and the trust is very hard to get back.",
+        "what_vi": "Một memo riêng, CEO gửi thẳng cho board, không cho team rộng đọc, và ngồi bàn trước khi họp. Bốn khối: tóm tắt, xanh cho cái đang chạy tốt, vàng cho mấy chuyện đang chớm rắc rối mà chưa cần xử ngay, đỏ cho cái phải xử liền, trải trên tài chính, product, sales, chiến lược, và nhất là con người. Tô hồng một lần thôi là lòng tin rất khó lấy lại."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Founders are handed one piece of advice, hire good people and give them room, and it quietly turns delegation into a licence not to know. Jobs kept irregular channels open straight past the org chart, because the thing that matters most is the thing the reporting line is built to smooth over.",
+        "what_vi": "Founder nào cũng được nhét cho đúng một lời khuyên, tuyển người giỏi rồi để họ tự chạy, và nó lặng lẽ biến việc uỷ quyền thành cái quyền không cần biết. Jobs giữ mấy kênh không chính quy, đi vòng qua sơ đồ tổ chức, vì thứ quan trọng nhất luôn là thứ mà đường báo cáo sinh ra để làm cho mượt."
+      },
+      "result": "The yellow section is the whole product. Green is a report, red is already a bill, and yellow is the only place a problem is still cheap.",
+      "result_vi": "Phần vàng mới là thứ đáng giá nhất. Xanh chỉ là báo cáo, đỏ thì đã thành hoá đơn, còn vàng là chỗ duy nhất vấn đề còn rẻ.",
+      "result_underline": "a problem is still cheap",
+      "result_underline_vi": "vấn đề còn rẻ",
+      "tick": "What is sitting in your yellow right now, and has anyone actually heard it?",
+      "tick_vi": "Ngay lúc này phần vàng của bạn đang có gì, và đã có ai thật sự nghe chưa?",
+      "tick_bold": [
+        "has anyone actually heard it"
+      ],
+      "tick_bold_vi": [
+        "đã có ai thật sự nghe chưa"
+      ],
+      "provocation": "Balfour's version ends with the board's questions written down, so the next report can be read against the last one. Write yours tonight for an audience of one.",
+      "provocation_vi": "Bản của Balfour có phần chép lại câu hỏi của board, để lần sau đọc bản mới còn soi được bản cũ. Tối nay viết bản của bạn, cho đúng một người đọc.",
+      "source": {
+        "site": "Brian Balfour",
+        "title": "A Simple Tool To Create Effective Board Meetings",
+        "url": "https://brianbalfour.com/essays/a-simple-tool-to-create-effective-board-meetings",
+        "published": "2023-08-09"
+      }
+    },
+    {
+      "title": "TASTE BUDGET",
+      "title_vi": "NGÂN SÁCH CHO GU",
+      "headline": "Some value never shows up as a lift",
+      "headline_vi": "Có thứ giá trị không bao giờ hiện ra thành một cái lift.",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "His first product had a mini-viewer in the corner: more code, more screen, more bugs, slower to draw, and carrying no more information than the thin scrollbar marks every competitor used. By every measure it was the wrong call. It was also the thing users wrote in about, and the high point of every review.",
+        "what_vi": "Sản phẩm đầu tay của ổng có cái mini-viewer ở góc: tốn code hơn, chiếm chỗ hơn, dễ bug hơn, vẽ chậm hơn, và không cho thêm một mẩu thông tin nào so với mấy vạch mảnh trên scrollbar mà đối thủ nào cũng xài. Đo kiểu gì cũng là quyết định sai. Vậy mà nó lại là thứ user viết mail khen, và là điểm sáng trong mọi bài review."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "Her cure for the build trap is to make every bet answer to a measured change in customer behaviour. No outcome, no place on the roadmap. Value is what the customer does differently, and if you cannot watch it move, you cannot claim it.",
+        "what_vi": "Cách bà chữa build trap là bắt mọi cược phải trả lời bằng một thay đổi đo được trong hành vi khách hàng. Không có outcome thì không có chỗ trên roadmap. Giá trị là chuyện khách hàng làm khác đi, và nếu không nhìn thấy nó nhúc nhích thì đừng nhận."
+      },
+      "result": "Outcomes pull you out of the build trap and drop you into a quieter one, where you only build what your instruments can already see. Keep one bet a year whose only defence is taste.",
+      "result_vi": "Outcome kéo bạn ra khỏi build trap rồi thả bạn vào một cái bẫy im hơn, chỗ bạn chỉ làm những thứ mà đồ đo của bạn nhìn thấy sẵn. Mỗi năm giữ lấy một cược mà lý do duy nhất để bảo vệ nó là gu.",
+      "result_underline": "whose only defence is taste",
+      "result_underline_vi": "lý do duy nhất để bảo vệ nó là gu",
+      "tick": "What would you ship this quarter if you were not allowed to name the metric?",
+      "tick_vi": "Quý này bạn sẽ ship cái gì nếu không được phép nêu ra metric?",
+      "tick_bold": [
+        "not allowed to name the metric"
+      ],
+      "tick_bold_vi": [
+        "không được phép nêu ra metric"
+      ],
+      "provocation": "Cohen's test is what people mention unprompted. Name the thing in your product customers bring up on their own that no dashboard is tracking.",
+      "provocation_vi": "Bài test của Cohen là cái người ta tự nhắc tới mà không ai hỏi. Kể ra thứ trong sản phẩm của bạn mà khách hàng tự nhiên nhắc, còn dashboard thì không theo dõi.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "Maybe not so much with the \"optimization\"",
+        "url": "https://longform.asmartbear.com/creativity-over-optimization/",
+        "published": "2010-04-05"
+      }
+    }
+  ]
+}

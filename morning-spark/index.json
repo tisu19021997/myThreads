@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-12",
+      "edition": 17,
+      "note": "Themes: risk relocated to where nobody prices it, the yellow section as the window where a problem is still cheap, taste as the bet no metric can defend. Sources: Stratechery, Brian Balfour, A Smart Bear.",
+      "sparks": [
+        {
+          "pair": "Ben Thompson x John Cutler",
+          "headline": "Nobody made it safer. They moved it.",
+          "source": "Stratechery — Nvidia's Risky Business",
+          "url": "https://stratechery.com/2026/nvidias-risky-business/"
+        },
+        {
+          "pair": "Brian Balfour x Paul Graham",
+          "headline": "Honesty is a channel, not a temperament",
+          "source": "Brian Balfour — A Simple Tool To Create Effective Board Meetings",
+          "url": "https://brianbalfour.com/essays/a-simple-tool-to-create-effective-board-meetings"
+        },
+        {
+          "pair": "Jason Cohen x Melissa Perri",
+          "headline": "Some value never shows up as a lift",
+          "source": "A Smart Bear — Maybe not so much with the \"optimization\"",
+          "url": "https://longform.asmartbear.com/creativity-over-optimization/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-11",
       "edition": 16,
       "note": "Themes: knowing which tool deserves to exist as the surviving product skill, a feature roadmap as a free spec for the copycat, the category you named first as a low node you are allowed to turn. Sources: SVPG, andrewchen, Paul Graham.",
