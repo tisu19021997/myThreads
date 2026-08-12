@@ -1,0 +1,49 @@
+{
+  "day": 4,
+  "kind": "build",
+  "framing": "Invent the language. Do not port the menu onto new hardware.",
+  "blocks": [
+    {
+      "label": "Intake",
+      "minutes": 20,
+      "body": "Read Google Design on Soli. A radar chip that senses your hand in the air is a blank slate, and the trap is obvious in hindsight: put a cursor on it, add buttons, ship a mouse made of air. Instead the team built virtual tools out of movements hands already make against themselves.",
+      "bold": ["movements hands already make against themselves"],
+      "detail": [
+        "Note the distinction between explicit gesture and implicit signal: presence, approach, attention.",
+        "Ask what the failure mode is when a gesture language has no physical stop, no click, no edge.",
+        "Nothing here is about radar. It is about refusing to inherit the interaction model."
+      ]
+    },
+    {
+      "label": "Bench",
+      "minutes": 30,
+      "body": "Object three: something with no screen at all and more than one control. Map it. Then, across all three objects, find every implicit interaction you missed the first time, the things the object senses or assumes without you doing anything deliberate.",
+      "detail": [
+        "Headphones, a rice cooker, a fan, a car door, a mechanical lock.",
+        "Implicit: it knows you picked it up, it knows the lid is closed, it knows it is dark, it knows nobody is there.",
+        "Add those rows to all three cards. Most objects have more of them than their manuals admit."
+      ]
+    },
+    {
+      "label": "Log",
+      "minutes": 5,
+      "body": "Three cards should now exist in some form. Say where they actually are."
+    }
+  ],
+  "source": {
+    "site": "Google Design",
+    "title": "Design Beyond Touch: How Soli Reimagines Interaction",
+    "url": "https://design.google/library/a-new-interaction-design-paradigm",
+    "kind": "case study",
+    "length": "15 min",
+    "published": ""
+  },
+  "done_when": "All three objects are mapped, and every card has at least one implicit interaction on it.",
+  "question": "Which implicit interaction, on any of your three objects, would you have shipped as a button?",
+  "object": {
+    "name": "Google Pixel 4 Motion Sense",
+    "why": "Radar shipped in a phone and mostly failed, which is more instructive than a success: the gestures worked, but nobody could remember a vocabulary with no physical edges to hold onto.",
+    "url": "https://research.google/blog/soli-radar-based-perception-and-interaction-in-pixel-4/"
+  },
+  "note": "Soli for invented vs inherited interaction language. Introduces implicit interaction, which feeds week 11 on ambient computing directly."
+}

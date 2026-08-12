@@ -1,0 +1,49 @@
+{
+  "day": 2,
+  "kind": "build",
+  "framing": "Hardware and software as one experience, or two products taped together.",
+  "blocks": [
+    {
+      "label": "Intake",
+      "minutes": 25,
+      "body": "Watch Apple's Apple Watch Design Tips and Tricks. Ignore every word about WatchKit. What you are after is the argument for holistic design: the claim that the crown, the case, the tap on your wrist and the pixels are one product, and that a phone app shrunk down is a different, worse thing.",
+      "bold": ["one product"],
+      "detail": [
+        "Watch at 1.25x if you must, but do not skim the first third.",
+        "Write down every moment where a hardware decision forces a software decision, or the reverse.",
+        "Notice how often the answer to a design problem is a physical control rather than a screen."
+      ]
+    },
+    {
+      "label": "Bench",
+      "minutes": 25,
+      "body": "Finish object one. Now go back through your three columns and mark each row: was this interaction chosen for this object, or inherited because that is how such things are done? Inherited is not an insult. It is a place someone stopped thinking.",
+      "detail": [
+        "Chosen: someone argued about it, and the object would be worse the other way.",
+        "Inherited: it is a button because the last one had a button.",
+        "Expect roughly two chosen rows out of eight. That ratio is the whole point of the exercise."
+      ]
+    },
+    {
+      "label": "Log",
+      "minutes": 5,
+      "body": "One line on what exists now that did not exist last night."
+    }
+  ],
+  "source": {
+    "site": "Apple",
+    "title": "Apple Watch Design Tips and Tricks (WWDC15)",
+    "url": "https://developer.apple.com/videos/play/wwdc2015/805/",
+    "kind": "talk",
+    "length": "39 min",
+    "published": "2015-06-01"
+  },
+  "done_when": "Object one card is complete and every row is marked chosen or inherited.",
+  "question": "Which inherited interaction on your object would you defend anyway, and why?",
+  "object": {
+    "name": "Apple Watch Digital Crown",
+    "why": "A hundred-year-old watch part repurposed as a scroll input, kept because your finger covers the screen and the screen is the size of a stamp.",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos"
+  },
+  "note": "Holistic design. Introduces chosen vs inherited, which runs all week and returns in week 2 as the basis for the modality swap."
+}

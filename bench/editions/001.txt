@@ -1,0 +1,55 @@
+Bench · Day 001/168 · P01 Interaction as a material · W1 Input, behaviour, feedback
+You are training for a job that already has a description.
+
+─────────────────
+WEEK 1 PROJECT — The Interaction Autopsy
+Due day 007, 6 days left.
+Pick three physical objects you own that could not be more different: something with a screen, something with none, something with exactly one control. Map every interaction each one supports as input to behaviour to feedback. Mark each triple as chosen or inherited.
+Deliverable: Three hand-drawn A5 cards, photographed, one object per card
+
+─────────────────
+ORDER THIS WEEK
+  - Craft kit: corrugated card, foam board, craft knife, cutting mat, masking tape, glue stick, sticky notes
+    150k-300k · same day locally · needed week 1
+    Shopee, NhatTao
+  - A5 plain notebook and a fine black pen
+    50k-120k · same day · needed week 1
+    Shopee
+  - Watchy v3 (SQFMI)
+    about 2.0M-2.8M incl. shipping · 2-5 weeks to VN · needed week 8
+    SQFMI
+
+─────────────────
+INTAKE  20 min
+Find the Hardware Interaction Designer posting on Nothing's careers page. If it has rotated out, take the nearest neighbour: Design Engineer, Interaction Designer, Product Experience. Read the whole thing twice. You are not applying today. You are reading it as a syllabus someone else already wrote for you.
+Nothing — Careers: Hardware Interaction Designer
+→ https://nothing.tech/pages/careers
+  - Underline every noun that is a skill: buttons, screens, sound, voice, apps, light, motion, haptics.
+  - Underline every verb that is a behaviour: conceive, prototype, communicate, iterate.
+  - Note which ones you can already do today as a software engineer. It will be more than you expect, and fewer than you need.
+
+─────────────────
+BENCH  30 min
+Hand-write the rubric on one card, eight lines, one per requirement. This card lives on your desk for 168 days. Then pick the first of your three autopsy objects, something with exactly one control, and write down every single thing it does.
+  - The eight lines: multimodal interaction, hardware and software integration, physical prototyping, interaction reasoning, technical implementation, product concept development, attention to detail, explaining both why and how.
+  - Object one: a lighter, a kettle, a doorbell, a lamp switch, a mechanical watch crown. One control only.
+  - For every interaction write three columns: what you do, what it does, how you know it did it.
+
+─────────────────
+LOG  5 min
+Close the day. The log is the only thing that unlocks tomorrow.
+
+─────────────────
+DONE WHEN
+The rubric card is on your desk and object one has at least six interactions written in three columns.
+
+LOG
+Which line of the rubric is furthest from where you are today, and what is the honest reason?
+bench.py log --day 1 --did "..." --made "..."
+
+THE OBJECT
+Nothing Phone Glyph interface — A notification system built entirely from light on the back of a phone, where the interesting decision was not the LEDs but agreeing that the phone should be face down.
+
+→ https://nothing.tech/
+
+55 min · streak 0d · 0/168 done

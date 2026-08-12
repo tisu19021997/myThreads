@@ -1,0 +1,46 @@
+{
+  "day": 7,
+  "kind": "bench_test",
+  "framing": "First week done. Now prove it against the rubric.",
+  "blocks": [
+    {
+      "label": "Show",
+      "minutes": 15,
+      "body": "Lay the three cards out and photograph them together as one set. Then say out loud, to a person or to a recording, what each object taught you. Out loud, not in your head. The gap between what you think you understood and what you can say is the entire lesson of a bench test.",
+      "bold": ["Out loud, not in your head"],
+      "detail": [
+        "Two minutes per card, timed.",
+        "If you run out of things to say before ninety seconds, that card is thin.",
+        "Keep the recording. Week 24 asks you to explain a product in the same voice."
+      ]
+    },
+    {
+      "label": "Teardown",
+      "minutes": 30,
+      "body": "Score yourself honestly against one line of the Nothing rubric only: interaction reasoning. Can you explain why an interaction is the way it is, using evidence from the object rather than taste? Write the score, one to five, and the sentence that justifies it.",
+      "detail": [
+        "One is: I described what it does. Three is: I can tell chosen from inherited and defend the call. Five is: I can predict what breaks if you change it.",
+        "Then write the single thing that would move you one point up. That sentence is next week's real homework.",
+        "Do not score the other seven rubric lines. Week 1 only had the reasoning in it."
+      ]
+    },
+    {
+      "label": "Verdict",
+      "minutes": 15,
+      "body": "Decide what carries forward. Pick the one object from your three that you want to keep working on, because week 2 rebuilds one of its interactions five different ways. Choose the one with the most wrong in it, not the one you like most.",
+      "detail": [
+        "Write the interaction you are taking into week 2 as a single sentence.",
+        "Check the kit list: your craft materials should be in the house by now, and Watchy should be ordered.",
+        "Confirm the rubric card is still on your desk. It stays there for 161 more days."
+      ]
+    }
+  ],
+  "done_when": "A photographed set of three cards, a spoken recording, a rubric score with justification, and one interaction named for week 2.",
+  "question": "What did you say out loud that you had not managed to write down?",
+  "object": {
+    "name": "Braun T3 pocket radio, 1958",
+    "why": "Dieter Rams put a perforated speaker grille and a single wheel on a box, and it became the argument that a control surface is the product's entire personality.",
+    "url": ""
+  },
+  "note": "Bench Test 01. Scores interaction reasoning only. Selects the object that carries into week 2's modality swap, and checks the kit orders landed."
+}

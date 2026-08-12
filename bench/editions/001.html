@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bench — Day 001</title><style>
+:root{--ground:#121214;--ink:#EDEBE5;--dim:#9A968C;--hair:#2A2A2E;--card:#1A1A1D;--accent:#FF4A00;--ok:#7FD1A4}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label,.mono{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace}
+.label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+header{padding:32px 0 0}
+.brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.dayno{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;color:var(--dim)}
+.dayno b{color:var(--ink);font-weight:700}
+.meta{margin-top:7px}
+.rail{display:flex;gap:2px;margin-top:16px;height:6px}
+.rail .t{flex:1;background:var(--hair);border-radius:1px}
+.rail .t.done{background:var(--ink)}
+.rail .t.now{background:var(--accent)}
+.rail .t.bt{margin-right:7px}
+.rail .t.bt:last-child{margin-right:0}
+.framing{padding:22px 0 4px;font-size:clamp(19px,4.6vw,23px);line-height:1.34;font-weight:700;letter-spacing:-.01em}
+.banner{margin-top:18px;padding:12px 14px;border-left:3px solid var(--accent);background:var(--card);font-size:14px;line-height:1.45;color:var(--ink)}
+.proj{margin-top:26px;padding:18px;background:var(--card);border-top:3px solid var(--accent)}
+.projhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.projhead .lbl{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.projhead .due{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.08em;color:var(--dim)}
+.proj h2{font-size:20px;letter-spacing:-.01em;margin-top:9px;font-weight:800}
+.proj .spec{font-size:15px;color:#C8C4BA;margin-top:8px;line-height:1.5}
+.proj dl{margin-top:13px;border-top:1px solid var(--hair);padding-top:11px}
+.proj dt{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.proj dd{font-size:14px;margin:3px 0 9px;line-height:1.45}
+.proj dd:last-child{margin-bottom:0}
+.prep{margin-top:20px;padding:18px;border:1px solid var(--accent)}
+.prephead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.prephead .lbl{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.prephead .due{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim)}
+.prep ul{list-style:none;margin-top:12px}
+.prep li{padding:11px 0;border-top:1px solid var(--hair)}
+.prep li:first-child{border-top:none}
+.prep .it{display:block;font-size:15px;font-weight:600;line-height:1.4}
+.prep .mt{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);margin-top:4px}
+.prep .sh{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;margin-top:4px}
+.prep .sh a{color:var(--accent);text-decoration:none}.prep .sh a:hover{text-decoration:underline}
+.prep .note{font-size:12px;color:var(--dim);margin-top:12px;padding-top:11px;border-top:1px solid var(--hair);line-height:1.5}
+.blk{padding:26px 0;border-top:1px solid var(--hair)}
+.blkhead{display:flex;align-items:baseline;gap:12px}
+.blkhead .n{font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;color:var(--accent)}
+.blkhead .lbl{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;flex:1}
+.blkhead .min{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim)}
+.blk .body{font-size:17px;line-height:1.5;margin-top:11px;color:#DAD6CC}
+.blk .body b{color:var(--ink);font-weight:800}
+.src{display:block;margin-top:13px;padding:12px 14px;background:var(--card);text-decoration:none;border-left:2px solid var(--accent)}
+.src .site{display:block;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.src .ttl{display:block;font-size:15px;color:var(--ink);margin-top:3px;font-weight:600;line-height:1.35}
+.src .kind{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);margin-top:4px}
+.detail{list-style:none;margin-top:12px}
+.detail li{position:relative;padding-left:18px;font-size:14px;line-height:1.55;color:#C0BCB2;margin-top:6px}
+.detail li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:1px;background:var(--accent)}
+.close{margin-top:8px;padding:20px 0 0;border-top:3px solid var(--ink)}
+.close .row{padding:14px 0;border-bottom:1px solid var(--hair)}
+.close .row:last-child{border-bottom:none}
+.close .k{display:block;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.close .v{display:block;font-size:16px;margin-top:5px;line-height:1.45}
+.cmd{margin-top:9px;padding:10px 12px;background:#0C0C0E;border:1px solid var(--hair);font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);overflow-x:auto;white-space:pre;line-height:1.6}
+.obj{margin-top:26px;padding:18px;background:var(--card)}
+.obj .k{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+.obj h3{font-size:17px;margin-top:7px;font-weight:800;letter-spacing:-.01em}
+.obj p{font-size:14px;color:#C0BCB2;margin-top:6px;line-height:1.5}
+.obj a{color:var(--accent);text-decoration:none}.obj a:hover{text-decoration:underline}
+footer{margin-top:30px;padding-top:20px;border-top:1px solid var(--hair)}
+.stats{display:flex;gap:26px;flex-wrap:wrap}
+.stat .k{display:block;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.stat .v{display:block;font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;margin-top:3px}
+.ms{margin-top:18px;font-size:12px;color:var(--dim);line-height:1.55}
+.ms b{color:var(--ink);font-weight:600}
+.links{margin-top:14px;font-family:ui-monospace,Menlo,monospace;font-size:11px}
+.links a{color:var(--dim);text-decoration:underline;margin-right:14px}
+</style></head><body><div class="wrap">
+<header>
+<div class="brandrow"><div class="brand">Bench<span class="d">.</span></div>
+<div class="dayno">Day <b>001</b> / 168 &nbsp; BUILD DAY</div></div>
+<div class="meta label">P01 Interaction as a material &nbsp;/&nbsp; W1 Input, behaviour, feedback &nbsp;/&nbsp; day 1 of 7</div>
+<div class="rail"><i class="t now"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t bt"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t bt"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t bt"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="t bt"></i></div>
+</header>
+<p class="framing">You are training for a job that already has a description.</p>
+
+<section class="proj"><div class="projhead"><span class="lbl">Week 1 project</span><span class="due">Day 007 &middot; 6 days left</span></div><h2>The Interaction Autopsy</h2><p class="spec">Pick three physical objects you own that could not be more different: something with a screen, something with none, something with exactly one control. Map every interaction each one supports as input to behaviour to feedback. Mark each triple as chosen or inherited.</p><dl><dt>Deliverable</dt><dd>Three hand-drawn A5 cards, photographed, one object per card</dd><dt>Stretch</dt><dd>Find one triple in each object you believe is wrong, and say what it should have been</dd></dl></section>
+<section class="prep"><div class="prephead"><span class="lbl">Order this week</span><span class="due">so it is on the bench in time</span></div><ul><li><span class="it">Craft kit: corrugated card, foam board, craft knife, cutting mat, masking tape, glue stick, sticky notes</span><span class="mt">150k-300k &middot; same day locally &middot; needed week 1 (day 007)</span><span class="sh"><a href="https://shopee.vn/" target="_blank" rel="noopener">Shopee</a> &middot; NhatTao</span></li><li><span class="it">A5 plain notebook and a fine black pen</span><span class="mt">50k-120k &middot; same day &middot; needed week 1 (day 007)</span><span class="sh"><a href="https://shopee.vn/" target="_blank" rel="noopener">Shopee</a></span></li><li><span class="it">Watchy v3 (SQFMI)</span><span class="mt">about 2.0M-2.8M incl. shipping &middot; 2-5 weeks to VN &middot; needed week 8 (day 056)</span><span class="sh"><a href="https://watchy.sqfmi.com/" target="_blank" rel="noopener">SQFMI</a></span></li></ul><p class="note">Local shops deliver in HCMC within one to three days. Anything crossing a border needs weeks. Order today, not on the day you need it.</p></section>
+<section class="blk"><div class="blkhead"><span class="n">01</span><span class="lbl">INTAKE</span><span class="min">20 min</span></div><p class="body">Find the Hardware Interaction Designer posting on Nothing&#x27;s careers page. If it has rotated out, take the nearest neighbour: Design Engineer, Interaction Designer, Product Experience. Read the whole thing twice. You are not applying today. You are <b>reading it as a syllabus</b> someone else already wrote for you.</p><a class="src" href="https://nothing.tech/pages/careers" target="_blank" rel="noopener"><span class="site">Nothing</span><span class="ttl">Careers: Hardware Interaction Designer</span><span class="kind">role description / 10 min</span></a><ul class="detail"><li>Underline every noun that is a skill: buttons, screens, sound, voice, apps, light, motion, haptics.</li><li>Underline every verb that is a behaviour: conceive, prototype, communicate, iterate.</li><li>Note which ones you can already do today as a software engineer. It will be more than you expect, and fewer than you need.</li></ul></section><section class="blk"><div class="blkhead"><span class="n">02</span><span class="lbl">BENCH</span><span class="min">30 min</span></div><p class="body">Hand-write the rubric on one card, eight lines, one per requirement. This card lives on your desk for 168 days. Then pick the first of your three autopsy objects, something with exactly one control, and write down every single thing it does.</p><ul class="detail"><li>The eight lines: multimodal interaction, hardware and software integration, physical prototyping, interaction reasoning, technical implementation, product concept development, attention to detail, explaining both why and how.</li><li>Object one: a lighter, a kettle, a doorbell, a lamp switch, a mechanical watch crown. One control only.</li><li>For every interaction write three columns: what you do, what it does, how you know it did it.</li></ul></section><section class="blk"><div class="blkhead"><span class="n">03</span><span class="lbl">LOG</span><span class="min">5 min</span></div><p class="body">Close the day. The log is the only thing that unlocks tomorrow.</p></section>
+<div class="close">
+<div class="row"><span class="k">Done when</span><span class="v">The rubric card is on your desk and object one has at least six interactions written in three columns.</span></div>
+<div class="row"><span class="k">The log</span><span class="v">Which line of the rubric is furthest from where you are today, and what is the honest reason?</span>
+<div class="cmd">python3 bench/bench.py log --day 001 \
+  --did "..." --made "..." [--stuck "..."] [--link URL]</div></div>
+</div>
+<div class="obj"><span class="k">The object</span><h3>Nothing Phone Glyph interface</h3><p>A notification system built entirely from light on the back of a phone, where the interesting decision was not the LEDs but agreeing that the phone should be face down. <a href="https://nothing.tech/" target="_blank" rel="noopener">look &rarr;</a></p></div>
+<footer>
+<div class="stats"><div class="stat"><span class="k">streak</span><span class="v">0d</span></div><div class="stat"><span class="k">done</span><span class="v">0/168</span></div><div class="stat"><span class="k">drift</span><span class="v">none</span></div><div class="stat"><span class="k">today</span><span class="v">55m</span></div></div>
+<p class="ms">Phase milestone: <b>A Wizard-of-Oz device a stranger used, on video, plus the interaction studies behind it</b></p>
+<p class="links"><a href="../progress.html">build log</a><a href="../kit.html">kit list</a><a href="../../index.html">threads</a></p>
+</footer>
+</div></body></html>

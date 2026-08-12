@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bench — kit list</title><style>
+:root{--ground:#121214;--ink:#EDEBE5;--dim:#9A968C;--hair:#2A2A2E;--card:#1A1A1D;--accent:#FF4A00;--ok:#7FD1A4}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 80px}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+header{padding:32px 0 0}
+.brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+h1{font-size:clamp(26px,6vw,34px);letter-spacing:-.02em;margin-top:20px;line-height:1.16;font-weight:800}
+.sub{font-size:15px;color:var(--dim);margin-top:9px;max-width:46em;line-height:1.5}
+.tally{margin-top:22px;padding:16px 18px;background:var(--card);border-top:3px solid var(--accent);font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--dim)}
+.tally b{color:var(--ink);font-size:19px;font-weight:700}
+.wk{padding:26px 0;border-top:1px solid var(--hair)}
+.wk.past{opacity:.5}
+.wk.now{border-top:3px solid var(--accent)}
+.wkhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.wkhead .n{font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
+.wkhead .t{font-size:15px;color:var(--dim)}
+.wk ul{list-style:none;margin-top:14px}
+.wk li{padding:14px 0;border-top:1px solid var(--hair)}
+.wk li:first-child{border-top:none}
+.wk label{display:flex;gap:11px;align-items:flex-start;cursor:pointer}
+.wk input{appearance:none;-webkit-appearance:none;flex:0 0 17px;width:17px;height:17px;margin-top:3px;border:1px solid var(--dim);border-radius:2px;cursor:pointer;position:relative;background:transparent}
+.wk input:checked{background:var(--ok);border-color:var(--ok)}
+.wk input:checked::after{content:"";position:absolute;left:5px;top:1px;width:5px;height:10px;border:solid var(--ground);border-width:0 2px 2px 0;transform:rotate(45deg)}
+.wk input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wk .it{font-size:15px;font-weight:600;line-height:1.4}
+.wk input:checked+.it{color:var(--dim);text-decoration:line-through}
+.wk .why{display:block;font-size:13px;color:var(--dim);margin-top:6px;padding-left:28px;line-height:1.5}
+.wk .mt{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);margin-top:6px;padding-left:28px}
+.wk .mt b{color:var(--ink)}
+.wk .sh{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;margin-top:5px;padding-left:28px}
+.wk .sh a{color:var(--accent);text-decoration:none}.wk .sh a:hover{text-decoration:underline}
+.wk .sh span{color:var(--dim)}
+.shops{margin-top:14px;padding-top:26px;border-top:3px solid var(--ink)}
+.shops h2{font-size:17px;font-weight:800;letter-spacing:-.01em}
+.shops ul{list-style:none;margin-top:14px}
+.shops li{padding:13px 0;border-top:1px solid var(--hair)}
+.shops li:first-child{border-top:none}
+.shops .nm{font-size:15px;font-weight:700}
+.shops .nm a{color:var(--accent);text-decoration:none}.shops .nm a:hover{text-decoration:underline}
+.shops .ad{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);margin-top:3px}
+.shops .nt{display:block;font-size:13px;color:var(--dim);margin-top:5px;line-height:1.5}
+footer{margin-top:26px;padding-top:18px;border-top:1px solid var(--hair);font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);line-height:1.9}
+footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Bench<span class="d">.</span></div><div class="label">kit list</div></div>
+<h1>What to buy, and by when.</h1>
+<p class="sub">Every part the course needs, filed under the week the order has to be placed rather than the week it gets used. Prices are rough and in VND; check before you go. Ticks are saved in this browser.</p>
+<div class="tally"><b><span id="have">0</span> / <span id="all">0</span></b> in hand &nbsp;&middot;&nbsp; you are in week [[WEEK]]</div>
+</header>
+[[SECTIONS]]
+<section class="shops"><h2>Where to go</h2><ul>[[SHOPS]]</ul></section>
+<footer><a href="progress.html">build log</a><a href="../index.html">threads</a><br>
+Order early. A part that arrives the week after you needed it has already cost you the project.</footer>
+</div>
+<script>
+(function(){
+  var K="bench-kit",boxes=document.querySelectorAll('.wk input[type=checkbox]');
+  var have=document.getElementById("have"),all=document.getElementById("all");
+  var owned={};try{owned=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
+  function tally(){
+    var n=0;for(var i=0;i<boxes.length;i++){if(boxes[i].checked)n++}
+    have.textContent=n;all.textContent=boxes.length;
+  }
+  for(var i=0;i<boxes.length;i++){
+    var b=boxes[i];
+    b.checked=!!owned[b.getAttribute("data-k")];
+    b.addEventListener("change",function(){
+      owned[this.getAttribute("data-k")]=this.checked;
+      try{localStorage.setItem(K,JSON.stringify(owned))}catch(e){}
+      tally();
+    });
+  }
+  tally();
+})();
+</script>
+</body></html>

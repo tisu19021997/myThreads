@@ -1,0 +1,42 @@
+{
+  "thread": "bench",
+  "state": {
+    "today": "2026-08-13",
+    "current_day": 1,
+    "total_days": 168,
+    "completed": 0,
+    "authored": [
+      1
+    ],
+    "unlogged": [
+      1
+    ],
+    "streak": 0,
+    "drift": 0,
+    "elapsed": 0,
+    "silent_days": 0,
+    "re_entry": false,
+    "gated": false,
+    "started": null,
+    "last_log": null,
+    "finished": false
+  },
+  "days": [
+    {
+      "day": 1,
+      "kind": "build",
+      "phase": 1,
+      "week": 1,
+      "framing": "You are training for a job that already has a description.",
+      "source": "Nothing — Careers: Hardware Interaction Designer",
+      "url": "https://nothing.tech/pages/careers",
+      "object": "Nothing Phone Glyph interface",
+      "note": "Week 1 day 1. Frames the whole course against the target role. Rubric card is a physical artefact that recurs at weeks 21 and 24. Object one of three for the autopsy.",
+      "logged": false,
+      "log_date": "",
+      "made": "",
+      "stuck": "",
+      "link": ""
+    }
+  ]
+}

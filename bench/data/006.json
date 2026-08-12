@@ -1,0 +1,49 @@
+{
+  "day": 6,
+  "kind": "build",
+  "framing": "Touch is great. But what is the context.",
+  "blocks": [
+    {
+      "label": "Intake",
+      "minutes": 20,
+      "body": "Read the Nothing design team talking about their own work. The company you are training toward went backwards on purpose: a roller, a paddle and a button on the Headphone (1), at a moment when every competitor had settled on touch panels. Their stated reason is context, not nostalgia.",
+      "bold": ["went backwards on purpose"],
+      "detail": [
+        "Touch controls fail with gloves, in rain, while running, and when you cannot see the thing you are touching.",
+        "A roller has an edge, a stop and a rate. A swipe has none of those.",
+        "Note what they gave up to get it: cost, tooling, thickness, water sealing. Every physical control is paid for."
+      ]
+    },
+    {
+      "label": "Bench",
+      "minutes": 30,
+      "body": "Assemble the deliverable. Three A5 cards, one object each, redrawn cleanly enough that someone else could read them. Then, on the back of each, write the one interaction you believe is wrong and what it should have been instead. Photograph all six faces.",
+      "detail": [
+        "Redraw, do not tidy. A card you rewrote is a card you thought about twice.",
+        "The wrong one is the hard part. If nothing seems wrong, you have not looked at the inherited rows honestly.",
+        "Photograph on a plain surface in daylight. This is the first thing in your portfolio."
+      ]
+    },
+    {
+      "label": "Log",
+      "minutes": 5,
+      "body": "Link the photos. Tomorrow is the bench test and it needs them."
+    }
+  ],
+  "source": {
+    "site": "Wallpaper",
+    "title": "The Nothing design team on the company's evolving design language",
+    "url": "https://www.wallpaper.com/tech/nothing-design-team-interview",
+    "kind": "interview",
+    "length": "12 min",
+    "published": ""
+  },
+  "done_when": "Three finished cards, six photographed faces, each back naming one wrong interaction and its replacement.",
+  "question": "Of the three wrong interactions you named, which one are you least sure about?",
+  "object": {
+    "name": "Nothing Headphone (1) roller",
+    "why": "Volume as a knurled wheel you can find without looking, push to pause and hold to switch modes, which is three controls in the space a touch panel uses for one ambiguous one.",
+    "url": "https://www.soundguys.com/nothing-headphone-1-buttons-are-better-141188/"
+  },
+  "note": "Nothing's own reasoning on physical controls, which closes week 1 and sets up week 2's modality swap. Deliverable assembled today so the bench test has something to examine."
+}

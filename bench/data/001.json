@@ -1,0 +1,49 @@
+{
+  "day": 1,
+  "kind": "build",
+  "framing": "You are training for a job that already has a description.",
+  "blocks": [
+    {
+      "label": "Intake",
+      "minutes": 20,
+      "body": "Find the Hardware Interaction Designer posting on Nothing's careers page. If it has rotated out, take the nearest neighbour: Design Engineer, Interaction Designer, Product Experience. Read the whole thing twice. You are not applying today. You are reading it as a syllabus someone else already wrote for you.",
+      "bold": ["reading it as a syllabus"],
+      "detail": [
+        "Underline every noun that is a skill: buttons, screens, sound, voice, apps, light, motion, haptics.",
+        "Underline every verb that is a behaviour: conceive, prototype, communicate, iterate.",
+        "Note which ones you can already do today as a software engineer. It will be more than you expect, and fewer than you need."
+      ]
+    },
+    {
+      "label": "Bench",
+      "minutes": 30,
+      "body": "Hand-write the rubric on one card, eight lines, one per requirement. This card lives on your desk for 168 days. Then pick the first of your three autopsy objects, something with exactly one control, and write down every single thing it does.",
+      "detail": [
+        "The eight lines: multimodal interaction, hardware and software integration, physical prototyping, interaction reasoning, technical implementation, product concept development, attention to detail, explaining both why and how.",
+        "Object one: a lighter, a kettle, a doorbell, a lamp switch, a mechanical watch crown. One control only.",
+        "For every interaction write three columns: what you do, what it does, how you know it did it."
+      ]
+    },
+    {
+      "label": "Log",
+      "minutes": 5,
+      "body": "Close the day. The log is the only thing that unlocks tomorrow."
+    }
+  ],
+  "source": {
+    "site": "Nothing",
+    "title": "Careers: Hardware Interaction Designer",
+    "url": "https://nothing.tech/pages/careers",
+    "kind": "role description",
+    "length": "10 min",
+    "published": ""
+  },
+  "done_when": "The rubric card is on your desk and object one has at least six interactions written in three columns.",
+  "question": "Which line of the rubric is furthest from where you are today, and what is the honest reason?",
+  "object": {
+    "name": "Nothing Phone Glyph interface",
+    "why": "A notification system built entirely from light on the back of a phone, where the interesting decision was not the LEDs but agreeing that the phone should be face down.",
+    "url": "https://nothing.tech/"
+  },
+  "note": "Week 1 day 1. Frames the whole course against the target role. Rubric card is a physical artefact that recurs at weeks 21 and 24. Object one of three for the autopsy."
+}

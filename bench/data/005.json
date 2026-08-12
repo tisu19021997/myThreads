@@ -1,0 +1,49 @@
+{
+  "day": 5,
+  "kind": "build",
+  "framing": "The interaction starts before anyone touches anything.",
+  "blocks": [
+    {
+      "label": "Intake",
+      "minutes": 25,
+      "body": "Watch Apple's Design for spatial interaction. Designers who worked on AirTag, HomePod mini and Precision Finding explain interactions built on where you are rather than what you tapped. Watch for how much of the design work is deciding what happens at each distance.",
+      "bold": ["what happens at each distance"],
+      "detail": [
+        "Note the handling of uncertainty: the system often does not know precisely, and has to say so without alarming anyone.",
+        "Note how feedback changes character as you close in, rather than switching states abruptly.",
+        "Ask which of these interactions could survive being described in a manual. Most cannot, which is the point."
+      ]
+    },
+    {
+      "label": "Bench",
+      "minutes": 25,
+      "body": "Take the weakest of your three cards and redraw it as a distance diagram instead of a table. Across the room, arm's length, in hand, in use. Write what the object should communicate at each of those four distances, and what it actually does today.",
+      "detail": [
+        "Four bands, drawn as rings or as a strip. Crude is correct.",
+        "Most objects say the same thing at all four distances, which means three of them are wasted.",
+        "Keep this diagram. Week 3's status object is built directly on it."
+      ]
+    },
+    {
+      "label": "Log",
+      "minutes": 5,
+      "body": "One line, one photo if you have one."
+    }
+  ],
+  "source": {
+    "site": "Apple",
+    "title": "Design for spatial interaction (WWDC21)",
+    "url": "https://developer.apple.com/videos/play/wwdc2021/10245/",
+    "kind": "talk",
+    "length": "24 min",
+    "published": "2021-06-07"
+  },
+  "done_when": "One of your three objects has a four-band distance diagram showing what it says now versus what it should.",
+  "question": "At which distance is your object completely silent when it should not be?",
+  "object": {
+    "name": "AirTag Precision Finding",
+    "why": "The screen, the haptics and the sound all get more confident together as you close in, so the certainty of the system is something you feel rather than read.",
+    "url": "https://developer.apple.com/videos/play/wwdc2021/10245/"
+  },
+  "note": "Spatial interaction and distance bands. The distance diagram is deliberately reused as the input to week 3's status object project."
+}

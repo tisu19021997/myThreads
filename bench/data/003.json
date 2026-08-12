@@ -1,0 +1,49 @@
+{
+  "day": 3,
+  "kind": "build",
+  "framing": "Your hands can do more than swipe a sheet of glass.",
+  "blocks": [
+    {
+      "label": "Intake",
+      "minutes": 20,
+      "body": "Read Bret Victor's A Brief Rant on the Future of Interaction Design. It is short, it is angry, and it is the best argument you will read for why a touchscreen is a compromise rather than an achievement. Read the follow-up responses at the bottom too.",
+      "bold": ["a compromise rather than an achievement"],
+      "detail": [
+        "Do the experiment he asks for: pick up a glass of water and pay attention to everything your hand knows.",
+        "The core claim is capability, not nostalgia. He is not asking for buttons because buttons are charming.",
+        "Ask yourself where your own product instincts default to a rectangle."
+      ]
+    },
+    {
+      "label": "Bench",
+      "minutes": 30,
+      "body": "Object two: something with a screen. Same three columns, same chosen-or-inherited marking. But add a fourth column this time, one word wide: which sense tells you it worked. Sight, sound, touch, or nothing at all.",
+      "detail": [
+        "A phone, a microwave, a car dashboard, a coffee machine with a display.",
+        "Count how many rows answer sight and only sight.",
+        "Where the answer is nothing at all, write down how long you wait before you assume it failed."
+      ]
+    },
+    {
+      "label": "Log",
+      "minutes": 5,
+      "body": "Name the thing you made. Not the thing you read."
+    }
+  ],
+  "source": {
+    "site": "Bret Victor",
+    "title": "A Brief Rant on the Future of Interaction Design",
+    "url": "https://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/",
+    "kind": "essay",
+    "length": "12 min",
+    "published": "2011-11-08"
+  },
+  "done_when": "Object two is mapped with four columns, and you can say how many of its confirmations are visual only.",
+  "question": "On object two, which confirmation would still work with your eyes shut?",
+  "object": {
+    "name": "iPod click wheel",
+    "why": "A single continuous gesture that scales from one track to a thousand, because the speed of your thumb carried information nobody had thought to read.",
+    "url": ""
+  },
+  "note": "Bret Victor for the hands argument. Introduces the feedback-channel column, which sets up week 3 on state and feedback and phase 3 on haptics."
+}

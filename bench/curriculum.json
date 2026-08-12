@@ -1,0 +1,296 @@
+{
+  "title": "Bench",
+  "subtitle": "Software person to hardware interaction designer, one hour a day, 168 days.",
+  "total_days": 168,
+  "week_len": 7,
+  "rubric": [
+    "multimodal interaction",
+    "hardware and software integration",
+    "physical prototyping",
+    "interaction reasoning",
+    "technical implementation",
+    "product concept development",
+    "attention to detail",
+    "can explain both why and how"
+  ],
+  "shops": {
+    "Hshop": {"url": "https://hshop.vn/", "where": "40/12 Lu Gia, P.15, Q.11, HCMC", "note": "Maker favourite. Modules, sensors, dev boards. Ships nationwide in 1-3 days."},
+    "Nshop": {"url": "https://nshopvn.com/", "where": "1 Bui Xuan Phai, Tay Thanh, Tan Phu, HCMC", "note": "Same category as Hshop. Cross-check stock and price between the two."},
+    "TheGioiIC": {"url": "https://www.thegioiic.com/", "where": "Q.10, HCMC", "note": "Serious component distributor. Go here for discretes, passives, connectors, ICs by part number."},
+    "ICDayRoi": {"url": "https://icdayroi.com/", "where": "HCMC", "note": "Good for odd single components and ICs."},
+    "NhatTao": {"url": "", "where": "Cho Nhat Tao, Q.10, HCMC", "note": "The physical market. Go in person for tools, wire, connectors, salvage, and to handle parts before buying. Haggle."},
+    "Shopee": {"url": "https://shopee.vn/", "where": "online", "note": "Cheapest for generic tools, craft supplies, consumables. Check seller rating; 2-5 days."},
+    "JLCPCB": {"url": "https://jlcpcb.com/", "where": "online, ships to VN", "note": "PCB fab. 5 boards from about 2 USD plus shipping. DHL to VN is roughly 5-10 days."},
+    "SQFMI": {"url": "https://watchy.sqfmi.com/", "where": "online, ships from abroad", "note": "Watchy itself. Longest lead time of anything on this list. Order it early or plan a substitute."}
+  },
+  "kit": {
+    "craft": {"name": "Craft kit: corrugated card, foam board, craft knife, cutting mat, masking tape, glue stick, sticky notes", "why": "Phase 01 runs entirely on cardboard. Crude and fast beats neat and slow.", "where": ["Shopee", "NhatTao"], "vnd": "150k-300k", "lead": "same day locally"},
+    "notebook": {"name": "A5 plain notebook and a fine black pen", "why": "Every interaction study is drawn before it is built. Paper, not Figma.", "where": ["Shopee"], "vnd": "50k-120k", "lead": "same day"},
+    "esp32s3": {"name": "ESP32-S3 dev board (DevKitC-1 or equivalent) x2", "why": "The MCU for the whole course. Two, because you will brick one and because comparing is how you debug.", "where": ["Hshop", "Nshop", "TheGioiIC"], "vnd": "200k-400k each", "lead": "1-3 days"},
+    "breadboard": {"name": "Breadboard 830-point x2, jumper wire set (M-M, M-F, F-F), 22AWG solid hookup wire", "why": "Ugly wires are welcome guests. Two boards so a working circuit can survive while you build the next.", "where": ["Hshop", "Nshop"], "vnd": "100k-200k", "lead": "1-3 days"},
+    "passives": {"name": "Resistor assortment kit, ceramic and electrolytic cap assortment, LED assortment (3mm/5mm)", "why": "You will reach for a 10k pull-up at 22:00 and no shop is open.", "where": ["TheGioiIC", "Hshop"], "vnd": "100k-250k", "lead": "1-3 days"},
+    "inputs": {"name": "Tactile buttons (assorted heights), EC11 rotary encoder x2, 10k potentiometer x2, slide and toggle switches", "why": "Phase 01 taught you that feel is the design. These are the parts where feel lives.", "where": ["Hshop", "Nshop", "NhatTao"], "vnd": "100k-200k", "lead": "1-3 days"},
+    "multimeter": {"name": "Digital multimeter with continuity beep", "why": "Non-negotiable. Continuity and voltage are how you stop guessing.", "where": ["Hshop", "NhatTao", "Shopee"], "vnd": "150k-400k", "lead": "same day at Nhat Tao"},
+    "soldering": {"name": "Temperature-controlled soldering iron, leaded solder 0.6mm, flux pen, desoldering wick, stand, brass sponge", "why": "Breadboards lie about connections. From week 7 you need joints that hold.", "where": ["Hshop", "NhatTao", "Shopee"], "vnd": "400k-900k", "lead": "same day at Nhat Tao"},
+    "handtools": {"name": "Flush cutters, wire strippers, fine tweezers, helping-hands or small vice, hex/screwdriver set", "why": "The tools you resent buying until the first time you have them.", "where": ["NhatTao", "Shopee"], "vnd": "200k-400k", "lead": "same day"},
+    "oled": {"name": "SSD1306 0.96 inch OLED, I2C", "why": "Your first bus device. Small enough that you must decide what not to show.", "where": ["Hshop", "Nshop"], "vnd": "50k-100k", "lead": "1-3 days"},
+    "imu": {"name": "IMU: MPU6050 or LSM6DS3", "why": "Motion as an input. Wrist gestures, orientation, tap detect.", "where": ["Hshop", "Nshop"], "vnd": "50k-150k", "lead": "1-3 days"},
+    "haptic_basic": {"name": "Coin vibration motor (ERM) x3, NPN transistor (2N2222/S8050), flyback diodes", "why": "An MCU pin cannot drive a motor. Learning why is the point.", "where": ["Hshop", "TheGioiIC"], "vnd": "50k-120k", "lead": "1-3 days"},
+    "power": {"name": "LiPo 3.7V 500-1000mAh with JST-PH, TP4056 charging module x2, USB-C cables, 2-pin JST pigtails", "why": "A device that has to be plugged in is a desk ornament. Battery changes every decision.", "where": ["Hshop", "Nshop"], "vnd": "150k-300k", "lead": "1-3 days"},
+    "watchy": {"name": "Watchy v3 (SQFMI)", "why": "Your dissection specimen: open hardware, open firmware, real power-management behaviour. Longest lead time on the list.", "where": ["SQFMI"], "vnd": "about 2.0M-2.8M incl. shipping", "lead": "2-5 weeks to VN"},
+    "haptic_lra": {"name": "DRV2605L haptic driver breakout + LRA motor", "why": "ERM buzzes. LRA speaks. You cannot design a haptic language on a pager motor.", "where": ["Hshop", "Nshop"], "vnd": "200k-400k", "lead": "1-3 days, check stock early"},
+    "audio": {"name": "MAX98357A I2S amp + small 4-ohm speaker, plus INMP441 or SPH0645 I2S microphone", "why": "Sound and haptics are one system. You need to make both, and hear a room.", "where": ["Hshop", "Nshop"], "vnd": "200k-400k", "lead": "1-3 days"},
+    "sense": {"name": "APDS-9960 gesture/proximity/light sensor, VL53L0X time-of-flight sensor", "why": "Presence and approach: the inputs that let a device act before it is touched.", "where": ["Hshop", "Nshop"], "vnd": "150k-350k", "lead": "1-3 days"},
+    "leds": {"name": "WS2812B / SK6812 LED ring (12 or 16) and a short strip", "why": "Addressable light is a full expressive channel, not an indicator.", "where": ["Hshop", "Nshop"], "vnd": "80k-200k", "lead": "1-3 days"},
+    "caliper": {"name": "Digital caliper, 0.01mm, 150mm", "why": "CAD starts with measuring something real. Guessed dimensions print as garbage.", "where": ["Shopee", "NhatTao", "TheGioiIC"], "vnd": "150k-400k", "lead": "1-3 days"},
+    "printing": {"name": "3D printing budget: a local FDM/SLA service, or your own printer", "why": "Phase 04 is print-touch-revise. Budget for roughly 10-15 small parts across four weeks.", "where": ["Shopee", "NhatTao"], "vnd": "600k-1.5M for the phase via a service", "lead": "2-5 days per print locally"},
+    "finishing": {"name": "Sandpaper 200-1000 grit, needle files, superglue, 5-min epoxy, M2/M3 screw assortment, M2/M3 heat-set inserts", "why": "The difference between a print and an object is forty minutes of finishing.", "where": ["Shopee", "NhatTao"], "vnd": "200k-400k", "lead": "1-3 days"},
+    "smd": {"name": "0603/0805 resistor and capacitor books, USB-C receptacle x5, 3.3V LDO x5, ESP32-S3-WROOM-1 module x3", "why": "The parts that go on your own board. Buy spares of everything; you will lose one to the floor.", "where": ["TheGioiIC", "ICDayRoi", "Hshop"], "vnd": "400k-800k", "lead": "1-3 days"},
+    "rework": {"name": "Solder paste (Sn63Pb37 in a syringe), hot air rework station or a cheap hot plate, isopropyl alcohol, flux", "why": "Hand-soldering a WROOM module is possible and miserable. Reflow once and you will not go back.", "where": ["NhatTao", "Hshop", "Shopee"], "vnd": "600k-1.5M", "lead": "same day at Nhat Tao"},
+    "fab": {"name": "PCB fabrication order: 5 boards, 2-layer, plus a stencil if you are reflowing", "why": "The moment the spaghetti becomes a product.", "where": ["JLCPCB"], "vnd": "about 300k-800k incl. DHL", "lead": "5-10 days to VN"}
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "Interaction as a material",
+      "weeks": [1, 4],
+      "question": "How should a physical product behave?",
+      "milestone": "A Wizard-of-Oz device a stranger used, on video, plus the interaction studies behind it",
+      "brief": "Before a single wire. Learn to ask whether a thing should be a button, a gesture, a light, a sound, a haptic, an automatic behaviour, or nothing at all. Everything this phase is cardboard, paper and your phone. Crude on purpose."
+    },
+    {
+      "phase": 2,
+      "title": "Physical computing",
+      "weeks": [5, 8],
+      "question": "How do I make software touch the physical world?",
+      "milestone": "Watchy running firmware you wrote, plus your own breadboard device that sleeps, wakes and responds",
+      "brief": "Your software brain learns atoms. Skip the beginner programming entirely: go straight at voltage, GPIO, analog, PWM, I2C, SPI, interrupts, power and sleep. The parts arrive this phase, so they must be ordered in Phase 01."
+    },
+    {
+      "phase": 3,
+      "title": "Multimodal and intelligent interaction",
+      "weeks": [9, 12],
+      "question": "What happens beyond screens?",
+      "milestone": "A physical AI prototype using at least three modalities, tested on a real person",
+      "brief": "You already know how to make something intelligent. This phase is about how intelligence should behave physically: haptic primitives, audio-haptic choreography, when to stay silent, and faking the model convincingly enough to find out if the behaviour is even wanted."
+    },
+    {
+      "phase": 4,
+      "title": "Industrial design and CAD",
+      "weeks": [13, 16],
+      "question": "How does behaviour become an object?",
+      "milestone": "Three physical iterations of one enclosure, on a desk, in order, with the notes that drove each revision",
+      "brief": "CAD taught as construction, not as beautiful shapes. Sketch constraints, parametric dimensions, shells, components, joints, clearances. Then print, touch, find the problem, and go back. Renders are not the deliverable; objects are."
+    },
+    {
+      "phase": 5,
+      "title": "Electronics and PCB",
+      "weeks": [17, 20],
+      "question": "How does a prototype become real hardware?",
+      "milestone": "A deliberately boring first PCB, reviewed against the silicon vendor's own checklist, ordered and paid for",
+      "brief": "Deliberately late. By now you have met the physical reason for every component you are placing. Schematic, footprints, layout, DRC, gerbers, then power and Li-ion charging. Use a module for the radio; do not design an antenna in your first month."
+    },
+    {
+      "phase": 6,
+      "title": "Integrated product",
+      "weeks": [21, 24],
+      "question": "Can I make something portfolio-worthy?",
+      "milestone": "One finished physical-digital product, in five people's hands, documented well enough to explain both why and how",
+      "brief": "No new subject. The disciplines collapse together: form, interaction, electronics, software, intelligence. Return to the prototype loop and keep iterating with actual people until it holds together."
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1, "title": "Input, behaviour, feedback",
+      "arc": "Learn to see any object as a set of input-to-behaviour-to-feedback triples, and to notice which ones were chosen rather than inherited.",
+      "covers": ["the rubric you are training against", "holistic hardware-software design", "input taxonomy", "feedback channels", "affordance and discoverability"],
+      "project": {"name": "The Interaction Autopsy", "spec": "Pick three physical objects you own that could not be more different: something with a screen, something with none, something with exactly one control. Map every interaction each one supports as input to behaviour to feedback. Mark each triple as chosen or inherited.", "deliverable": "Three hand-drawn A5 cards, photographed, one object per card", "stretch": "Find one triple in each object you believe is wrong, and say what it should have been"},
+      "kit": ["craft", "notebook"], "order_now": ["craft", "notebook", "watchy"],
+      "sources": ["Nothing Hardware Interaction Designer role", "Apple Watch Design Tips and Tricks (WWDC15)", "IDEO Design Kit"]
+    },
+    {
+      "week": 2, "title": "Choosing the modality",
+      "arc": "Button, gesture, sound, light, haptic, automatic, or nothing. The choice is the design work; everything after is execution.",
+      "covers": ["modality trade-offs", "physical vs touch controls", "eyes-free interaction", "cost of an interruption", "the case for nothing"],
+      "project": {"name": "The Modality Swap", "spec": "Take one interaction from your autopsy and redesign it five ways: as a physical control, as a gesture, as sound, as light, and as an automatic behaviour with no input at all. Build a crude prototype of each.", "deliverable": "Five prototypes on one table, photographed, plus a written verdict naming the right one and why the other four lose", "stretch": "Make someone else pick before you tell them your answer"},
+      "kit": ["craft"], "order_now": ["esp32s3", "breadboard", "passives", "inputs", "multimeter"],
+      "sources": ["Nothing design team on returning to physical controls", "Google ATAP Soli"]
+    },
+    {
+      "week": 3, "title": "State, time and feedback",
+      "arc": "How a product tells you what it is doing, what it just did, and what it is about to do, without a paragraph of text.",
+      "covers": ["state legibility", "latency and perceived responsiveness", "progressive disclosure in physical form", "error and recovery", "the language of light"],
+      "project": {"name": "The Status Object", "spec": "Build a non-screen object that communicates one continuously changing state. Cardboard, paper dials, a phone used only as a light source. No words allowed anywhere on it.", "deliverable": "An object a stranger can read correctly within ten seconds with no instruction, proven on one actual stranger", "stretch": "Make it legible from across a room and from arm's length, differently"},
+      "kit": ["craft"], "order_now": ["soldering", "handtools", "oled", "imu", "haptic_basic", "power"],
+      "sources": ["Apple Design for spatial interaction (WWDC21)", "Google ambient computing"]
+    },
+    {
+      "week": 4, "title": "Crude prototypes and the Wizard",
+      "arc": "Make it tangible enough to learn something, put it in a hand, watch what actually happens. Fidelity is a cost, not a virtue.",
+      "covers": ["rapid prototyping method", "what to prototype and what to fake", "Wizard of Oz", "watching rather than asking", "iterating on evidence"],
+      "project": {"name": "The Puppet", "spec": "A cardboard device that you secretly operate while another person uses it. They believe it is autonomous. You are the intelligence behind the curtain.", "deliverable": "Video of one real person using it without knowing, plus the list of behaviours you found yourself improvising", "stretch": "Run it twice with two people and change one rule between runs"},
+      "kit": ["craft", "notebook"], "order_now": [],
+      "sources": ["IDEO Design Kit rapid prototyping", "IDEO Design Kit determine what to prototype", "Google UX Engineering on simulating intelligence"]
+    },
+    {
+      "week": 5, "title": "Current you can reason about",
+      "arc": "Voltage, current, resistance, GPIO, digital in and out. Enough electricity to stop being superstitious about it.",
+      "covers": ["Ohm's law in practice", "GPIO in and out", "pull-ups and pull-downs", "current limiting", "reading a multimeter", "power rails and grounds"],
+      "project": {"name": "First Light", "spec": "Blink, then a button, then a debounced button, then a PWM fade, then all four combined on one ESP32-S3. Draw the circuit by hand before you build it.", "deliverable": "Working circuit on video, plus your hand-drawn schematic photographed next to it", "stretch": "Measure the actual current through your LED and explain the difference from the value you calculated"},
+      "kit": ["esp32s3", "breadboard", "passives", "inputs", "multimeter"], "order_now": [],
+      "sources": ["Arduino official learn: electronics fundamentals", "Adafruit ESP32-S3 guides"]
+    },
+    {
+      "week": 6, "title": "Analog, timing and feel",
+      "arc": "The physical world is continuous and noisy. Sampling, smoothing and response curves are where feel is actually made.",
+      "covers": ["ADC and analog input", "PWM depth and frequency", "interrupts", "debouncing properly", "filtering and smoothing", "response curves"],
+      "project": {"name": "The Feel Rig", "spec": "A knob driving a light and a vibration motor, with three switchable response curves: linear, exponential, and one you tune by hand until it feels right.", "deliverable": "The rig, plus a written verdict on which curve feels right and a guess at why", "stretch": "Get two other people to rank the curves blind and see if they agree with you"},
+      "kit": ["inputs", "haptic_basic"], "order_now": [],
+      "sources": ["Arduino official learn: PWM and analog", "Adafruit sensor guides"]
+    },
+    {
+      "week": 7, "title": "Buses, parts and a panel",
+      "arc": "I2C and SPI, and the fact that a component is a datasheet plus a protocol, not a mystery.",
+      "covers": ["I2C addressing and pull-ups", "SPI basics", "reading a datasheet", "display drivers", "encoders", "driving inductive loads", "first soldered joints"],
+      "project": {"name": "The Panel", "spec": "OLED over I2C, an IMU, an encoder and a haptic motor on one breadboard, working together as one small coherent interface rather than four demos.", "deliverable": "A panel that does one thing well, on video, with the encoder-to-screen-to-haptic loop feeling like a single object", "stretch": "Solder the messiest sub-circuit onto perfboard so it survives being carried"},
+      "kit": ["oled", "imu", "soldering", "handtools"], "order_now": [],
+      "sources": ["Arduino official learn: I2C and SPI", "Adafruit Learning System component guides"]
+    },
+    {
+      "week": 8, "title": "Watchy, power, sleep and wake",
+      "arc": "Consumer hardware is defined by what it does while apparently doing nothing. Deep sleep is a design constraint, not an optimisation.",
+      "covers": ["reading open hardware as a document", "deep sleep and wake sources", "RTC-driven refresh", "e-paper behaviour", "battery budgets", "flashing real firmware"],
+      "project": {"name": "The Watch That Is Not a Watch", "spec": "Reflash Watchy so it does something that is not telling the time, using its real wake-and-sleep cycle. Then build your own module device that sleeps, wakes on an input, acts, and sleeps again.", "deliverable": "Watchy running your firmware, plus your own device measured drawing real sleep current", "stretch": "Get your own device under 1mA asleep and say what is still eating the difference"},
+      "kit": ["watchy", "power", "multimeter"], "order_now": ["haptic_lra", "audio", "sense", "leds"],
+      "sources": ["Watchy getting started", "Watchy hardware documentation", "Espressif deep sleep documentation"]
+    },
+    {
+      "week": 9, "title": "Haptics as a language",
+      "arc": "Haptic primitives, rhythm and texture. A vocabulary someone can learn without being taught.",
+      "covers": ["ERM vs LRA", "haptic primitives", "rhythm and duration", "intensity ramps", "distinguishability", "the deliberate use of silence"],
+      "project": {"name": "The Haptic Alphabet", "spec": "Design six haptic patterns intended to mean six different things. Then test whether a person, holding the device out of sight, can tell them apart.", "deliverable": "The six patterns plus a confusion matrix from one real test subject", "stretch": "Redesign the two that got confused most and retest"},
+      "kit": ["haptic_lra"], "order_now": [],
+      "sources": ["Google Sound and Touch: design beyond the screen", "Apple designing audio-haptic experiences", "Apple HIG playing haptics"]
+    },
+    {
+      "week": 10, "title": "Sound and choreography",
+      "arc": "Light, sound and haptic arriving as one event rather than three. Synchronisation is the whole trick.",
+      "covers": ["audio-haptic pairing", "timing and simultaneity", "earcons", "loudness and context", "when sound is the wrong channel"],
+      "project": {"name": "The Chord", "spec": "One single event, expressed as light plus sound plus haptic together. Build three versions with different timing relationships and tune until one of them stops feeling like three things.", "deliverable": "Three versions, A/B tested on a real person, and their answer recorded before you give yours", "stretch": "Make a version that works with the sound muted and loses nothing important"},
+      "kit": ["audio", "leds", "haptic_lra"], "order_now": [],
+      "sources": ["Apple designing audio-haptic experiences", "Google sound design for hardware"]
+    },
+    {
+      "week": 11, "title": "Ambient, calm and the interruption budget",
+      "arc": "When should a computer disappear into the environment instead of demanding attention? Every notification is a withdrawal from a finite account.",
+      "covers": ["calm technology", "ambient computing", "presence and approach sensing", "peripheral awareness", "earning an interruption"],
+      "project": {"name": "The Thing That Shuts Up", "spec": "A device that holds information but says almost nothing. It must sense presence or approach, and it must have explicit written rules for when it is allowed to speak.", "deliverable": "Working prototype plus your interruption budget written as rules a stranger could apply", "stretch": "Live with it for three days and count every time it was wrong"},
+      "kit": ["sense", "leds"], "order_now": [],
+      "sources": ["Google ambient computing", "Google Clips and human-centred AI"]
+    },
+    {
+      "week": 12, "title": "Simulating intelligence",
+      "arc": "Fake the model convincingly enough to find out whether the behaviour is wanted at all, before you build any of it.",
+      "covers": ["Wizard of Oz on real hardware", "designing model failure", "confidence and hedging in physical feedback", "lessons from shipping an ML consumer object"],
+      "project": {"name": "The Wizard", "spec": "Take your Phase 03 hardware and drive its intelligent behaviour yourself, live, from a laptop, while a real person uses it believing it is autonomous. At least three modalities must be involved.", "deliverable": "Video of a real user, plus a written spec of what the model would actually need to do, including how it should behave when unsure", "stretch": "Run it once where you deliberately get it wrong, and design the recovery"},
+      "kit": ["sense", "audio", "haptic_lra", "leds"], "order_now": ["caliper", "printing"],
+      "sources": ["Google UX Engineering simulating intelligence", "Google Clips and human-centred AI", "ProtoPie Connect"]
+    },
+    {
+      "week": 13, "title": "Parametric thinking",
+      "arc": "CAD as construction. Sketches, constraints and dimensions that hold a design together when you change your mind.",
+      "covers": ["sketch constraints", "parametric dimensions", "extrude and revolve", "the timeline", "measuring a real object properly"],
+      "project": {"name": "The Measured Copy", "spec": "Caliper an object you own that has at least one curve and one hole. Rebuild it in Fusion from your measurements alone, then print or mock it and compare.", "deliverable": "The CAD file plus a dimensional error report: where you were wrong and by how much", "stretch": "Make one parameter drive three features, then change it and watch nothing break"},
+      "kit": ["caliper"], "order_now": [],
+      "sources": ["Autodesk Fusion official learning", "Formlabs design guidance"]
+    },
+    {
+      "week": 14, "title": "Enclosure construction",
+      "arc": "Shells, bosses, ribs, components and joints. How a plastic thing is actually put together.",
+      "covers": ["shell and wall thickness", "boss posts and screw seats", "components and assemblies", "joints", "designing for the printer's orientation"],
+      "project": {"name": "The Two-Part Box", "spec": "A shelled two-part enclosure with a lid, boss posts for M2 screws, a hole a real button passes through, and a slot for a real cable.", "deliverable": "CAD plus the first physical print, with the electronics from Phase 02 actually inside it", "stretch": "Add heat-set inserts and have the lid close on screws that do not strip"},
+      "kit": ["printing", "finishing"], "order_now": [],
+      "sources": ["Autodesk Fusion assemblies and joints", "Formlabs snap-fit enclosure guide"]
+    },
+    {
+      "week": 15, "title": "Fit, tolerance and the snap",
+      "arc": "Nothing fits on the first print. Learn your own process's real clearance instead of trusting a number from a blog.",
+      "covers": ["clearance and interference", "printer and process tolerance", "snap-fit geometry", "living hinges", "post-processing"],
+      "project": {"name": "The Fit Ladder", "spec": "Print a tolerance ladder that steps clearance from 0.1mm to 0.6mm, find the value that actually works for your printer or print service, then design a snap-fit lid using it.", "deliverable": "The ladder with the working step marked, plus a lid that snaps, holds, and opens again without breaking", "stretch": "Make the snap audible and tune the click"},
+      "kit": ["printing", "finishing", "caliper"], "order_now": [],
+      "sources": ["Formlabs tolerances and clearances", "Formlabs snap-fit guide"]
+    },
+    {
+      "week": 16, "title": "Product anatomy",
+      "arc": "Open real products. Battery placement, flex cables, antennas, seals, stacked boards, speakers, motors. Packaging is a design discipline.",
+      "covers": ["teardown reading", "internal packaging", "battery and antenna placement", "assembly order", "serviceability", "prototype-to-production gap"],
+      "project": {"name": "The Enclosure, Mk I to III", "spec": "Three physical iterations of a real enclosure for your Phase 03 prototype, each driven by a specific problem you found by holding the previous one.", "deliverable": "Three prints on a desk in order, photographed, each with the one-line reason it was replaced", "stretch": "Have someone else hold Mk I and Mk III and say what changed without being told"},
+      "kit": ["printing", "finishing"], "order_now": [],
+      "sources": ["iFixit teardowns", "Nothing on prototyping earbuds", "Formlabs rapid prototyping"]
+    },
+    {
+      "week": 17, "title": "Schematic literacy",
+      "arc": "A schematic is a document you read, not art you produce. Learn to read one before drawing your own.",
+      "covers": ["symbols and nets", "power and ground conventions", "decoupling", "reading a reference design", "KiCad schematic capture"],
+      "project": {"name": "The Redraw", "spec": "Redraw one section of the Watchy schematic in KiCad from scratch without copying, then diff yours against the original.", "deliverable": "Your schematic plus a written list of everything you got wrong or omitted", "stretch": "Explain the purpose of every capacitor you left out"},
+      "kit": [], "order_now": ["smd"],
+      "sources": ["KiCad getting started", "Watchy hardware source files"]
+    },
+    {
+      "week": 18, "title": "Footprints and layout",
+      "arc": "Symbols connect to footprints, footprints become copper, copper has physics. DRC is the first honest reviewer you will meet.",
+      "covers": ["symbol-to-footprint mapping", "board outline and stackup", "routing and vias", "ground pours", "DRC", "gerber export"],
+      "project": {"name": "The Breakout", "spec": "Lay out a trivial two-layer board: an ESP32-S3 module footprint, USB-C, two buttons, one LED, and a header. It does not need to be clever. It needs to pass DRC.", "deliverable": "Clean DRC, exported gerbers, and a 3D render of the board", "stretch": "Route it twice, once badly on purpose, and say what makes the good one good"},
+      "kit": ["smd"], "order_now": [],
+      "sources": ["KiCad getting started: PCB layout", "KiCad DRC documentation"]
+    },
+    {
+      "week": 19, "title": "Vendor constraints and review",
+      "arc": "Switch from maker tutorials to silicon-vendor documentation. RF and layout constraints get real very quickly.",
+      "covers": ["ESP32-S3 hardware design guidelines", "antenna keep-out and clearance", "power supply requirements", "strapping pins", "design review as a practice"],
+      "project": {"name": "The Review", "spec": "Take your board through Espressif's own schematic and layout checklists line by line, then run a self-review as if you were signing off someone else's work.", "deliverable": "The annotated checklist with every item answered, plus a rev B that fixes what it found", "stretch": "Have one other engineer review it and count what you both missed"},
+      "kit": [], "order_now": [],
+      "sources": ["Espressif ESP32-S3 hardware design guidelines", "Espressif schematic checklist", "Espressif PCB layout guidelines"]
+    },
+    {
+      "week": 20, "title": "Power, battery and fab",
+      "arc": "Li-ion charging and power path from the semiconductor vendor, not from a blog diagram. Then you press order.",
+      "covers": ["Li-ion charge profiles", "power path management", "protection", "battery connector choice", "BOM and assembly files", "ordering from a fab"],
+      "project": {"name": "The Boring Board", "spec": "Add Li-ion charging and power path to your board, finish DRC, generate the fabrication package, and actually order five boards from JLCPCB.", "deliverable": "Order confirmation, the BOM, and a one-paragraph note on what you expect to have got wrong", "stretch": "Order a stencil and plan the reflow"},
+      "kit": ["fab", "rework", "smd"], "order_now": ["fab"],
+      "sources": ["Texas Instruments Li-ion charging fundamentals", "JLCPCB documentation", "KiCad fabrication outputs"]
+    },
+    {
+      "week": 21, "title": "Concept lock",
+      "arc": "Stop exploring. Name the product, the person, and the one interaction that justifies its existence.",
+      "covers": ["product intent", "writing a one-page spec", "scoping to what can ship in four weeks", "choosing what to cut"],
+      "project": {"name": "The One Sentence", "spec": "Lock the final product. One sentence of intent, one named user, one interaction that could not exist as an app. Then build a non-working physical mock of it at final size.", "deliverable": "A one-page spec plus a full-size mock you can carry in a pocket or set on a desk", "stretch": "Show the mock to someone and have them tell you what it does"},
+      "kit": ["craft", "printing"], "order_now": [],
+      "sources": ["Nothing Hardware Interaction Designer role, third reading", "IDEO Design Kit"]
+    },
+    {
+      "week": 22, "title": "Bring-up and integration",
+      "arc": "Assemble, flash, and get every subsystem alive one at a time. Bring-up is a discipline with an order.",
+      "covers": ["assembly and reflow", "power-on checks", "bringing up subsystems in order", "debugging a board rather than a breadboard", "firmware on your own hardware"],
+      "project": {"name": "Bring-Up", "spec": "Assemble your board, power it safely, and bring up each subsystem in order: power, USB, MCU, then each peripheral. Get it into the enclosure.", "deliverable": "Working hardware inside your Mk III enclosure, running your firmware, on video", "stretch": "Write the bring-up log as a document someone else could follow"},
+      "kit": ["rework", "finishing", "power"], "order_now": [],
+      "sources": ["Espressif ESP32-S3 documentation", "Adafruit debugging guides"]
+    },
+    {
+      "week": 23, "title": "Five hands",
+      "arc": "Put it in real hands and watch. Not a demo, not a pitch. Watch, shut up, and take notes.",
+      "covers": ["watching rather than explaining", "the first ten seconds", "recording without leading", "deciding what feedback to act on", "two revisions under time pressure"],
+      "project": {"name": "Five Hands", "spec": "Five people, no explanation, ten seconds of silence each before you say anything. Then two revisions driven by what you saw, not by what they said.", "deliverable": "Five sets of notes and two shipped revisions, with the reason for each change", "stretch": "Find the one thing all five did that you did not design for"},
+      "kit": [], "order_now": [],
+      "sources": ["IDEO Design Kit live prototyping", "Google UX Engineering process"]
+    },
+    {
+      "week": 24, "title": "The telling",
+      "arc": "A portfolio piece is not the object. It is the object plus the argument for it, in a form someone can absorb in ninety seconds.",
+      "covers": ["photographing hardware", "filming an interaction", "writing the why and the how", "the Nothing rubric as a final check", "what to leave out"],
+      "project": {"name": "The Piece", "spec": "Photograph it, film the interaction, and write it up so it answers both why and how. Then score yourself against all eight lines of the Nothing rubric.", "deliverable": "A published portfolio piece plus your honest rubric score with evidence for each line", "stretch": "Send it to one person in the industry who owes you nothing"},
+      "kit": [], "order_now": [],
+      "sources": ["Nothing Hardware Interaction Designer role, final reading", "Google UX Engineering portfolio guidance"]
+    }
+  ]
+}

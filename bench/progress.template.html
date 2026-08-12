@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bench — build log</title><style>
+:root{--ground:#121214;--ink:#EDEBE5;--dim:#9A968C;--hair:#2A2A2E;--card:#1A1A1D;--accent:#FF4A00}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 80px}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+header{padding:32px 0 0}
+.brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+h1{font-size:clamp(26px,6vw,36px);letter-spacing:-.02em;margin-top:20px;line-height:1.14;font-weight:800}
+.sub{font-size:15px;color:var(--dim);margin-top:9px;max-width:46em;line-height:1.5}
+.big{display:flex;gap:30px;flex-wrap:wrap;margin-top:26px;padding:20px 0;border-top:3px solid var(--ink);border-bottom:1px solid var(--hair)}
+.big .s .k{display:block;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.big .s .v{display:block;font-family:ui-monospace,Menlo,monospace;font-size:30px;font-weight:700;margin-top:4px;letter-spacing:-.02em}
+.big .s .v.a{color:var(--accent)}
+.ph{padding:28px 0;border-top:1px solid var(--hair)}
+.phhead{display:flex;align-items:baseline;gap:12px}
+.phhead .n{font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;color:var(--accent)}
+.phhead .t{font-size:17px;font-weight:700;flex:1;letter-spacing:-.01em}
+.phhead .c2{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--dim)}
+.qq{font-size:13px;color:var(--dim);margin-top:5px;font-style:italic}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-top:14px;max-width:340px}
+.grid .c,.grid a.c{display:block;aspect-ratio:1;background:transparent;border:1px solid var(--hair);border-radius:2px;text-decoration:none;position:relative}
+.grid .c.open{border-color:var(--dim)}
+.grid .c.done{background:var(--ink);border-color:var(--ink)}
+.grid .c.now{background:var(--accent);border-color:var(--accent)}
+.grid .c.bt{border-radius:50%}
+.grid a.c:hover{outline:2px solid var(--accent);outline-offset:1px}
+.grid .c span{position:absolute;inset:0}
+.ms{font-size:12px;color:var(--dim);margin-top:13px;line-height:1.55}
+.logs{padding-top:28px;border-top:3px solid var(--ink);margin-top:14px}
+.logs h2{font-size:17px;font-weight:800;letter-spacing:-.01em}
+.logs ul{list-style:none;margin-top:14px}
+.logs li{display:grid;grid-template-columns:44px 92px 1fr;gap:12px;align-items:baseline;padding:12px 0;border-top:1px solid var(--hair)}
+.logs li:first-child{border-top:none}
+.logs li.empty{display:block;color:var(--dim);font-size:14px}
+.logs .d{font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;color:var(--accent);text-decoration:none}
+.logs .d:hover{text-decoration:underline}
+.logs .dt{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim)}
+.logs .made{font-size:15px;line-height:1.45}
+.logs .made a{color:var(--accent);text-decoration:none;font-family:ui-monospace,Menlo,monospace;font-size:11px}
+.logs .made a:hover{text-decoration:underline}
+.logs .stuck{grid-column:3;font-size:13px;color:var(--dim);line-height:1.45}
+.key{margin-top:26px;padding-top:18px;border-top:1px solid var(--hair);display:flex;gap:20px;flex-wrap:wrap;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);align-items:center}
+.key i{display:inline-block;width:11px;height:11px;border:1px solid var(--hair);border-radius:2px;margin-right:6px;vertical-align:-1px}
+.key i.done{background:var(--ink);border-color:var(--ink)}
+.key i.now{background:var(--accent);border-color:var(--accent)}
+.key i.open{border-color:var(--dim)}
+.key i.bt{border-radius:50%}
+footer{margin-top:26px;padding-top:18px;border-top:1px solid var(--hair);font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);line-height:1.9}
+footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
+@media(max-width:520px){.logs li{grid-template-columns:38px 1fr;gap:8px}.logs .dt{grid-column:2}.logs .made{grid-column:2}.logs .stuck{grid-column:2}}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Bench<span class="d">.</span></div><div class="label">build log</div></div>
+<h1>168 days from software to hardware.</h1>
+<p class="sub">One hour a day. Six phases, twenty-four weekly projects, one finished physical-digital product at the end. A day counts when something exists that did not exist before. Started [[STARTED]].</p>
+<div class="big">
+<div class="s"><span class="k">days done</span><span class="v">[[DONE]]<span style="font-size:16px;color:var(--dim)">/[[TOTAL]]</span></span></div>
+<div class="s"><span class="k">streak</span><span class="v a">[[STREAK]]d</span></div>
+<div class="s"><span class="k">drift</span><span class="v">[[DRIFT]]d</span></div>
+<div class="s"><span class="k">up next</span><span class="v">[[CURRENT]]</span></div>
+<div class="s"><span class="k">complete</span><span class="v">[[PCT]]%</span></div>
+</div>
+</header>
+[[SECTIONS]]
+<div class="key"><span><i class="done"></i>logged</span><span><i class="now"></i>up next</span><span><i class="open"></i>delivered, not logged</span><span><i class="bt"></i>bench test</span></div>
+<section class="logs"><h2>Evidence</h2><ul>[[ROWS]]</ul></section>
+<footer><a href="kit.html">kit list</a><a href="../index.html">threads</a><br>
+Drift is reported, never charged. The curriculum waits for you; it does not hand out debt.</footer>
+</div></body></html>

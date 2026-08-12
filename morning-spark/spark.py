@@ -243,29 +243,14 @@ def rebuild_index(all_editions):
 def rebuild_home(entries):
     """The GitHub Pages front door: a plain list of links, deliberately unstyled.
 
-    The styling lives in the dated cards. This page only has to be a working
-    index of them, so it stays a bare list that never needs maintaining.
+    The repo now carries more than one thread, so the front door is built from every
+    thread's index.json rather than from this one alone. `entries` is written to
+    index.json before this runs, so site_index picks the new edition up from there.
     """
-    lines = [
-        "<!DOCTYPE html>",
-        '<html lang="en">',
-        '<meta charset="utf-8">',
-        '<meta name="viewport" content="width=device-width, initial-scale=1">',
-        "<title>Morning Spark</title>",
-        "<h1>Morning Spark</h1>",
-        f"<p>{len(entries)} edition{'' if len(entries) == 1 else 's'}.</p>",
-        "<ul>",
-    ]
-    for e in entries:
-        d = e["date"]
-        lines.append(
-            f'<li><a href="morning-spark/editions/{d}.html">{d} &mdash; Ed. {e["edition"]:02d}</a>'
-            f' (<a href="morning-spark/editions/{d}.txt">text</a>)</li>'
-        )
-    lines += ["</ul>", "</html>"]
-    HOME.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    NOJEKYLL.touch()
-    return HOME
+    sys.path.insert(0, str(SITE))
+    import site_index
+
+    return site_index.rebuild()
 
 
 # ------------------------------------------------------------------- commands
