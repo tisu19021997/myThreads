@@ -23,6 +23,9 @@ import sys
 import urllib.parse
 import zoneinfo
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import glyphs  # noqa: E402  (needs the path above)
+
 ROOT = pathlib.Path(__file__).resolve().parent
 DATA = ROOT / "data"
 LOGS = ROOT / "logs"
@@ -698,7 +701,7 @@ def buy_links(c, item_id, where):
     kit = c["kit"][item_id]
     searches = kit.get("search") or []
     if isinstance(searches, str):
-        searches = [searches]
+        searches = [{"q": searches, "icon": ""}]
     out = []
     for name in where:
         shop = c["shops"].get(name)
@@ -707,13 +710,15 @@ def buy_links(c, item_id, where):
         tpl = shop.get("search_url")
         if tpl and "{q}" in tpl and searches:
             chips = [
-                (t, tpl.replace("{q}", urllib.parse.quote_plus(t))) for t in searches
+                (s["q"], tpl.replace("{q}", urllib.parse.quote_plus(s["q"])),
+                 s.get("icon", ""))
+                for s in searches
             ]
         elif tpl:
             # A market, or a shop with no search: one link, labelled for what it is.
-            chips = [("open map" if "google.com/maps" in tpl else "visit", tpl)]
+            chips = [("open map" if "google.com/maps" in tpl else "visit", tpl, "")]
         elif shop.get("url"):
-            chips = [("visit", shop["url"])]
+            chips = [("visit", shop["url"], "")]
         else:
             continue
         out.append((name, shop.get("where", ""), chips))
@@ -742,9 +747,12 @@ def rebuild_kit(st):
             + (f'<span class="ad">{esc(addr)}</span>' if addr else "")
             + "</div><div class=\"chips\">"
             + "".join(
-                f'<a class="chip" href="{esc(url)}" target="_blank" rel="noopener">'
-                f"{esc(term)}</a>"
-                for term, url in chips
+                f'<a class="chip" href="{esc(url)}" target="_blank" rel="noopener"'
+                + (f' data-icon="{esc(icon)}"' if icon else "")
+                + ">"
+                + (glyphs.svg(icon) if icon else "")
+                + f"<span>{esc(term)}</span></a>"
+                for term, url, icon in chips
             )
             + "</div></div>"
             for name, addr, chips in buy_links(c, o["id"], o["where"])

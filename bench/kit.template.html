@@ -42,8 +42,21 @@ h1{font-size:clamp(26px,6vw,34px);letter-spacing:-.02em;margin-top:20px;line-hei
 .sh .nm{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
 .sh .ad{font-family:ui-monospace,Menlo,monospace;font-size:10px;color:var(--dim)}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.chip{display:inline-block;padding:7px 11px;border:1px solid var(--accent);color:var(--accent);text-decoration:none;font-family:ui-monospace,Menlo,monospace;font-size:12px;line-height:1.25}
+.chip{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;border:1px solid var(--accent);color:var(--accent);text-decoration:none;font-family:ui-monospace,Menlo,monospace;font-size:12px;line-height:1.25}
 .chip:hover,.chip:focus-visible{background:var(--accent);color:var(--ground)}
+.chip .ic{width:22px;height:15px;flex:0 0 22px;display:block}
+
+/* ---- part preview: the drawing of what you are actually looking for ---- */
+#peek{position:fixed;z-index:50;pointer-events:none;opacity:0;transform:translateY(4px);
+  transition:opacity .12s ease,transform .12s ease;background:var(--ground);
+  border:1px solid var(--accent);padding:14px 16px 12px;width:236px}
+#peek.on{opacity:1;transform:translateY(0)}
+#peek .big{width:100%;height:130px;color:var(--accent);display:block}
+#peek .cap{display:block;margin-top:10px;padding-top:9px;border-top:1px solid var(--hair);
+  font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--ink);line-height:1.35}
+#peek .sub2{display:block;margin-top:4px;font-family:ui-monospace,Menlo,monospace;
+  font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+@media(hover:none){#peek{display:none}}
 .own{display:flex;align-items:center;gap:10px;margin-top:16px;padding-top:15px;border-top:1px solid var(--hair);cursor:pointer;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
 .own input{appearance:none;-webkit-appearance:none;width:19px;height:19px;border:1px solid var(--dim);border-radius:2px;cursor:pointer;position:relative;background:transparent;flex:0 0 19px}
 .own input:checked{background:var(--ok);border-color:var(--ok)}
@@ -103,6 +116,7 @@ footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
   <p class="hint">Swipe, or use the arrow keys. Green means you already have it.</p>
 </section>
 
+<div id="peek" aria-hidden="true"><span class="big" id="peekimg"></span><span class="cap" id="peekcap"></span><span class="sub2">roughly what to look for</span></div>
 <section class="shops"><h2>Where to go</h2><ul>[[SHOPS]]</ul></section>
 <footer><a href="progress.html">build log</a><a href="../index.html">threads</a><br>
 Order early. A part that arrives the week after you needed it has already cost you the project.</footer>
@@ -171,6 +185,33 @@ Order early. A part that arrives the week after you needed it has already cost y
       mark(best);
     },90);
   },{passive:true});
+
+  // Hover preview. Desktop only -- on touch the chip already carries its drawing,
+  // and a popover you cannot dismiss without navigating would be worse than none.
+  var peek=document.getElementById("peek"),pimg=document.getElementById("peekimg"),
+      pcap=document.getElementById("peekcap"),hideT=null;
+  function show(chip){
+    var svg=chip.querySelector("svg");if(!svg)return;
+    if(hideT){clearTimeout(hideT);hideT=null}
+    pimg.innerHTML='<svg class="big" viewBox="0 0 120 80" fill="none" stroke="currentColor" '+
+      'stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+svg.innerHTML+'</svg>';
+    var t=chip.querySelector("span");pcap.textContent=t?t.textContent:"";
+    peek.classList.add("on");
+    var r=chip.getBoundingClientRect(),w=236,pad=10;
+    var left=Math.min(Math.max(pad,r.left+r.width/2-w/2),innerWidth-w-pad);
+    var h=peek.offsetHeight||210;
+    var top=r.top-h-10;
+    if(top<pad)top=Math.min(r.bottom+10,innerHeight-h-pad);
+    peek.style.left=left+"px";peek.style.top=top+"px";
+  }
+  function hide(){hideT=setTimeout(function(){peek.classList.remove("on")},60)}
+  [].slice.call(document.querySelectorAll(".chip[data-icon]")).forEach(function(ch){
+    ch.addEventListener("mouseenter",function(){show(this)});
+    ch.addEventListener("mouseleave",hide);
+    ch.addEventListener("focus",function(){show(this)});
+    ch.addEventListener("blur",hide);
+  });
+  rail.addEventListener("scroll",hide,{passive:true});
 
   tally();mark(0);
 })();

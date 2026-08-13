@@ -74,11 +74,26 @@
       "vnd": "150k-300k",
       "lead": "same day locally",
       "search": [
-        "bìa foam board",
-        "dao rọc giấy",
-        "bảng cắt A3",
-        "băng keo giấy",
-        "giấy note"
+        {
+          "q": "bìa foam board",
+          "icon": "foamsheet"
+        },
+        {
+          "q": "dao rọc giấy",
+          "icon": "craftknife"
+        },
+        {
+          "q": "bảng cắt A3",
+          "icon": "cuttingmat"
+        },
+        {
+          "q": "băng keo giấy",
+          "icon": "taperoll"
+        },
+        {
+          "q": "giấy note",
+          "icon": "stickynotes"
+        }
       ]
     },
     "notebook": {
@@ -90,8 +105,14 @@
       "vnd": "50k-120k",
       "lead": "same day",
       "search": [
-        "sổ tay A5 trơn",
-        "bút gel đen 0.5"
+        {
+          "q": "sổ tay A5 trơn",
+          "icon": "notebook"
+        },
+        {
+          "q": "bút gel đen 0.5",
+          "icon": "pen"
+        }
       ]
     },
     "esp32s3": {
@@ -105,7 +126,10 @@
       "vnd": "200k-400k each",
       "lead": "1-3 days",
       "search": [
-        "ESP32-S3 DevKitC"
+        {
+          "q": "ESP32-S3 DevKitC",
+          "icon": "devkit"
+        }
       ]
     },
     "breadboard": {
@@ -118,9 +142,18 @@
       "vnd": "100k-200k",
       "lead": "1-3 days",
       "search": [
-        "breadboard 830",
-        "dây cắm breadboard",
-        "dây điện 22AWG"
+        {
+          "q": "breadboard 830",
+          "icon": "breadboard"
+        },
+        {
+          "q": "dây cắm breadboard",
+          "icon": "jumpers"
+        },
+        {
+          "q": "dây điện 22AWG",
+          "icon": "wirespool"
+        }
       ]
     },
     "passives": {
@@ -133,9 +166,18 @@
       "vnd": "100k-250k",
       "lead": "1-3 days",
       "search": [
-        "bộ điện trở 1/4W",
-        "bộ tụ gốm",
-        "LED 5mm"
+        {
+          "q": "bộ điện trở 1/4W",
+          "icon": "resistor"
+        },
+        {
+          "q": "bộ tụ gốm",
+          "icon": "capacitor"
+        },
+        {
+          "q": "LED 5mm",
+          "icon": "led"
+        }
       ]
     },
     "inputs": {
@@ -149,10 +191,22 @@
       "vnd": "100k-200k",
       "lead": "1-3 days",
       "search": [
-        "nút nhấn 4 chân",
-        "encoder EC11",
-        "biến trở 10K",
-        "công tắc gạt"
+        {
+          "q": "nút nhấn 4 chân",
+          "icon": "button"
+        },
+        {
+          "q": "encoder EC11",
+          "icon": "encoder"
+        },
+        {
+          "q": "biến trở 10K",
+          "icon": "pot"
+        },
+        {
+          "q": "công tắc gạt",
+          "icon": "slideswitch"
+        }
       ]
     },
     "multimeter": {
@@ -166,7 +220,10 @@
       "vnd": "150k-400k",
       "lead": "same day at Nhat Tao",
       "search": [
-        "đồng hồ vạn năng"
+        {
+          "q": "đồng hồ vạn năng",
+          "icon": "multimeter"
+        }
       ]
     },
     "soldering": {
@@ -180,10 +237,22 @@
       "vnd": "400k-900k",
       "lead": "same day at Nhat Tao",
       "search": [
-        "máy hàn chỉnh nhiệt",
-        "thiếc hàn 0.6mm",
-        "nhựa thông flux",
-        "dây hút thiếc"
+        {
+          "q": "máy hàn chỉnh nhiệt",
+          "icon": "iron"
+        },
+        {
+          "q": "thiếc hàn 0.6mm",
+          "icon": "solderspool"
+        },
+        {
+          "q": "nhựa thông flux",
+          "icon": "fluxpen"
+        },
+        {
+          "q": "dây hút thiếc",
+          "icon": "wick"
+        }
       ]
     },
     "handtools": {
@@ -196,10 +265,22 @@
       "vnd": "200k-400k",
       "lead": "same day",
       "search": [
-        "kìm cắt linh kiện",
-        "kìm tuốt dây",
-        "nhíp gắp linh kiện",
-        "kẹp giữ mạch"
+        {
+          "q": "kìm cắt linh kiện",
+          "icon": "cutters"
+        },
+        {
+          "q": "kìm tuốt dây",
+          "icon": "strippers"
+        },
+        {
+          "q": "nhíp gắp linh kiện",
+          "icon": "tweezers"
+        },
+        {
+          "q": "kẹp giữ mạch",
+          "icon": "helpinghands"
+        }
       ]
     },
     "oled": {
@@ -212,7 +293,10 @@
       "vnd": "50k-100k",
       "lead": "1-3 days",
       "search": [
-        "OLED SSD1306 0.96 I2C"
+        {
+          "q": "OLED SSD1306 0.96 I2C",
+          "icon": "oled"
+        }
       ]
     },
     "imu": {
@@ -225,8 +309,14 @@
       "vnd": "50k-150k",
       "lead": "1-3 days",
       "search": [
-        "MPU6050",
-        "LSM6DS3"
+        {
+          "q": "MPU6050",
+          "icon": "mpu6050"
+        },
+        {
+          "q": "LSM6DS3",
+          "icon": "lsm6ds3"
+        }
       ]
     },
     "haptic_basic": {
@@ -239,9 +329,18 @@
       "vnd": "50k-120k",
       "lead": "1-3 days",
       "search": [
-        "motor rung coin",
-        "transistor S8050",
-        "diode 1N4148"
+        {
+          "q": "motor rung coin",
+          "icon": "coinmotor"
+        },
+        {
+          "q": "transistor S8050",
+          "icon": "transistor"
+        },
+        {
+          "q": "diode 1N4148",
+          "icon": "diode"
+        }
       ]
     },
     "power": {
@@ -254,9 +353,18 @@
       "vnd": "150k-300k",
       "lead": "1-3 days",
       "search": [
-        "pin lipo 3.7V 1000mAh",
-        "mạch sạc TP4056",
-        "dây JST PH 2.0"
+        {
+          "q": "pin lipo 3.7V 1000mAh",
+          "icon": "lipo"
+        },
+        {
+          "q": "mạch sạc TP4056",
+          "icon": "tp4056"
+        },
+        {
+          "q": "dây JST PH 2.0",
+          "icon": "jst"
+        }
       ]
     },
     "watchy": {
@@ -279,8 +387,14 @@
       "vnd": "200k-400k",
       "lead": "1-3 days, check stock early",
       "search": [
-        "DRV2605L",
-        "motor LRA"
+        {
+          "q": "DRV2605L",
+          "icon": "drv2605l"
+        },
+        {
+          "q": "motor LRA",
+          "icon": "lramotor"
+        }
       ]
     },
     "audio": {
@@ -293,9 +407,18 @@
       "vnd": "200k-400k",
       "lead": "1-3 days",
       "search": [
-        "MAX98357A",
-        "INMP441",
-        "loa 4 ohm 3W"
+        {
+          "q": "MAX98357A",
+          "icon": "max98357a"
+        },
+        {
+          "q": "INMP441",
+          "icon": "inmp441"
+        },
+        {
+          "q": "loa 4 ohm 3W",
+          "icon": "speaker"
+        }
       ]
     },
     "sense": {
@@ -308,8 +431,14 @@
       "vnd": "150k-350k",
       "lead": "1-3 days",
       "search": [
-        "APDS9960",
-        "VL53L0X"
+        {
+          "q": "APDS9960",
+          "icon": "apds9960"
+        },
+        {
+          "q": "VL53L0X",
+          "icon": "vl53l0x"
+        }
       ]
     },
     "leds": {
@@ -322,8 +451,14 @@
       "vnd": "80k-200k",
       "lead": "1-3 days",
       "search": [
-        "WS2812B ring 16",
-        "LED RGB WS2812B"
+        {
+          "q": "WS2812B ring 16",
+          "icon": "ledring"
+        },
+        {
+          "q": "LED RGB WS2812B",
+          "icon": "ledstrip"
+        }
       ]
     },
     "caliper": {
@@ -337,7 +472,10 @@
       "vnd": "150k-400k",
       "lead": "1-3 days",
       "search": [
-        "thước kẹp điện tử"
+        {
+          "q": "thước kẹp điện tử",
+          "icon": "caliper"
+        }
       ]
     },
     "printing": {
@@ -350,7 +488,10 @@
       "vnd": "600k-1.5M for the phase via a service",
       "lead": "2-5 days per print locally",
       "search": [
-        "dịch vụ in 3D"
+        {
+          "q": "dịch vụ in 3D",
+          "icon": "printedpart"
+        }
       ]
     },
     "finishing": {
@@ -363,10 +504,22 @@
       "vnd": "200k-400k",
       "lead": "1-3 days",
       "search": [
-        "giấy nhám",
-        "ốc vít M3",
-        "keo AB epoxy",
-        "tán ren M3 ép nhiệt"
+        {
+          "q": "giấy nhám",
+          "icon": "sandpaper"
+        },
+        {
+          "q": "ốc vít M3",
+          "icon": "screw"
+        },
+        {
+          "q": "keo AB epoxy",
+          "icon": "gluetube"
+        },
+        {
+          "q": "tán ren M3 ép nhiệt",
+          "icon": "insert"
+        }
       ]
     },
     "smd": {
@@ -380,10 +533,22 @@
       "vnd": "400k-800k",
       "lead": "1-3 days",
       "search": [
-        "ESP32-S3-WROOM-1",
-        "bộ điện trở 0603",
-        "bộ tụ 0603",
-        "cổng USB Type-C SMD"
+        {
+          "q": "ESP32-S3-WROOM-1",
+          "icon": "wroom"
+        },
+        {
+          "q": "bộ điện trở 0603",
+          "icon": "smdbook"
+        },
+        {
+          "q": "bộ tụ 0603",
+          "icon": "smdbook"
+        },
+        {
+          "q": "cổng USB Type-C SMD",
+          "icon": "usbc"
+        }
       ]
     },
     "rework": {
@@ -397,9 +562,18 @@
       "vnd": "600k-1.5M",
       "lead": "same day at Nhat Tao",
       "search": [
-        "máy khò nhiệt",
-        "kem hàn",
-        "cồn IPA"
+        {
+          "q": "máy khò nhiệt",
+          "icon": "hotair"
+        },
+        {
+          "q": "kem hàn",
+          "icon": "pastesyringe"
+        },
+        {
+          "q": "cồn IPA",
+          "icon": "bottle"
+        }
       ]
     },
     "fab": {
