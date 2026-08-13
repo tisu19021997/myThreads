@@ -337,6 +337,12 @@ If he reports a part is unavailable or too expensive, find the substitute and sa
 changes. Do not let a missing part stall a week; every project has a version that works
 with less.
 
+Both local shops publish their real catalogue as JSON -- `hshop.vn/products.json` and
+`nshopvn.com/api/products?limit=5000` -- so stock and price can be checked rather than
+guessed. Shopee cannot: it is client-rendered behind bot protection, and the headless
+browser in this environment has no outbound network, so never quote a Shopee price.
+Nshop lists far more than it stocks; when a run needs a real number, prefer Hshop.
+
 ## Pushing
 
 The scheduled run commits straight to `main` -- that is intended, and is the standing

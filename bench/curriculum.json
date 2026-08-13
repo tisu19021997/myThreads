@@ -61,6 +61,12 @@
       "where": "online, ships from abroad",
       "note": "Watchy itself. Longest lead time of anything on this list. Order it early or plan a substitute.",
       "search_url": "https://watchy.sqfmi.com/"
+    },
+    "AliExpress": {
+      "url": "https://vi.aliexpress.com/",
+      "where": "online, ships from abroad",
+      "note": "For parts no HCMC shop stocks. Cheap, but two to five weeks to Vietnam. Order in week 1 or not at all.",
+      "search_url": "https://vi.aliexpress.com/wholesale?SearchText={q}"
     }
   },
   "kit": {
@@ -123,7 +129,7 @@
         "Nshop",
         "TheGioiIC"
       ],
-      "vnd": "200k-400k each",
+      "vnd": "230k dev kit, or 135k bare WROOM-1 module",
       "lead": "1-3 days",
       "search": [
         {
@@ -139,7 +145,7 @@
         "Hshop",
         "Nshop"
       ],
-      "vnd": "100k-200k",
+      "vnd": "60k-120k",
       "lead": "1-3 days",
       "search": [
         {
@@ -186,7 +192,8 @@
       "where": [
         "Hshop",
         "Nshop",
-        "NhatTao"
+        "NhatTao",
+        "Shopee"
       ],
       "vnd": "100k-200k",
       "lead": "1-3 days",
@@ -206,6 +213,10 @@
         {
           "q": "công tắc gạt",
           "icon": "slideswitch"
+        },
+        {
+          "q": "KY-040 rotary encoder",
+          "icon": "encoder"
         }
       ]
     },
@@ -217,7 +228,7 @@
         "NhatTao",
         "Shopee"
       ],
-      "vnd": "150k-400k",
+      "vnd": "185k-285k",
       "lead": "same day at Nhat Tao",
       "search": [
         {
@@ -290,7 +301,7 @@
         "Hshop",
         "Nshop"
       ],
-      "vnd": "50k-100k",
+      "vnd": "65k-85k",
       "lead": "1-3 days",
       "search": [
         {
@@ -306,7 +317,7 @@
         "Hshop",
         "Nshop"
       ],
-      "vnd": "50k-150k",
+      "vnd": "67k-75k",
       "lead": "1-3 days",
       "search": [
         {
@@ -326,7 +337,7 @@
         "Hshop",
         "TheGioiIC"
       ],
-      "vnd": "50k-120k",
+      "vnd": "40k-90k",
       "lead": "1-3 days",
       "search": [
         {
@@ -379,13 +390,13 @@
     },
     "haptic_lra": {
       "name": "DRV2605L haptic driver breakout + LRA motor",
-      "why": "ERM buzzes. LRA speaks. You cannot design a haptic language on a pager motor.",
+      "why": "ERM buzzes. LRA speaks. You cannot design a haptic language on a pager motor. Neither Hshop nor Nshop carries this, so it is an import: order it in week 1 or week 9 runs on ERM with a narrower vocabulary.",
       "where": [
-        "Hshop",
-        "Nshop"
+        "AliExpress",
+        "Shopee"
       ],
-      "vnd": "200k-400k",
-      "lead": "1-3 days, check stock early",
+      "vnd": "150k-350k incl. shipping",
+      "lead": "2-5 weeks to VN",
       "search": [
         {
           "q": "DRV2605L",
@@ -404,7 +415,7 @@
         "Hshop",
         "Nshop"
       ],
-      "vnd": "200k-400k",
+      "vnd": "100k-150k",
       "lead": "1-3 days",
       "search": [
         {
@@ -428,7 +439,7 @@
         "Hshop",
         "Nshop"
       ],
-      "vnd": "150k-350k",
+      "vnd": "140k-180k",
       "lead": "1-3 days",
       "search": [
         {
@@ -448,7 +459,7 @@
         "Hshop",
         "Nshop"
       ],
-      "vnd": "80k-200k",
+      "vnd": "40k-90k",
       "lead": "1-3 days",
       "search": [
         {
@@ -469,7 +480,7 @@
         "NhatTao",
         "TheGioiIC"
       ],
-      "vnd": "150k-400k",
+      "vnd": "82k-320k",
       "lead": "1-3 days",
       "search": [
         {
@@ -680,7 +691,8 @@
       "order_now": [
         "craft",
         "notebook",
-        "watchy"
+        "watchy",
+        "haptic_lra"
       ],
       "sources": [
         "Nothing Hardware Interaction Designer role",
@@ -895,7 +907,6 @@
         "multimeter"
       ],
       "order_now": [
-        "haptic_lra",
         "audio",
         "sense",
         "leds"
