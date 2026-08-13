@@ -22,7 +22,7 @@ h1{font-size:clamp(26px,6vw,34px);letter-spacing:-.02em;margin-top:20px;line-hei
 .deck{position:relative;margin-top:22px}
 .rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding-bottom:4px}
 .rail::-webkit-scrollbar{display:none}
-.card{flex:0 0 100%;scroll-snap-align:center;background:var(--card);border:1px solid var(--hair);padding:22px;min-height:430px;display:flex;flex-direction:column}
+.card{flex:0 0 100%;scroll-snap-align:center;background:var(--card);border:1px solid var(--hair);padding:22px;min-height:0;display:flex;flex-direction:column}
 .card.now{border-color:var(--accent)}
 .card.past{opacity:.62}
 .chead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
@@ -35,13 +35,15 @@ h1{font-size:clamp(26px,6vw,34px);letter-spacing:-.02em;margin-top:20px;line-hei
 .spec dt{font-family:ui-monospace,Menlo,monospace;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
 .spec dd{font-family:ui-monospace,Menlo,monospace;font-size:13px;margin-top:3px;line-height:1.35}
 .spec dd.hi{color:var(--ink);font-weight:700;font-size:15px}
-.buys{margin-top:auto;padding-top:18px;display:flex;flex-wrap:wrap;gap:8px}
-.buy{display:block;flex:1 1 auto;min-width:132px;padding:10px 12px;border:1px solid var(--accent);text-decoration:none;background:transparent}
-.buy:hover,.buy:focus-visible{background:var(--accent)}
-.buy .s{display:block;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700}
-.buy .a{display:block;font-family:ui-monospace,Menlo,monospace;font-size:10px;color:var(--dim);margin-top:3px;line-height:1.35}
-.buy:hover .s,.buy:focus-visible .s{color:var(--ground)}
-.buy:hover .a,.buy:focus-visible .a{color:rgba(18,18,20,.75)}
+.buys{margin-top:18px;padding-top:4px}
+.shopgrp{padding:11px 0;border-top:1px solid var(--hair)}
+.shopgrp:first-child{border-top:none}
+.sh{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.sh .nm{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.sh .ad{font-family:ui-monospace,Menlo,monospace;font-size:10px;color:var(--dim)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{display:inline-block;padding:7px 11px;border:1px solid var(--accent);color:var(--accent);text-decoration:none;font-family:ui-monospace,Menlo,monospace;font-size:12px;line-height:1.25}
+.chip:hover,.chip:focus-visible{background:var(--accent);color:var(--ground)}
 .own{display:flex;align-items:center;gap:10px;margin-top:16px;padding-top:15px;border-top:1px solid var(--hair);cursor:pointer;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
 .own input{appearance:none;-webkit-appearance:none;width:19px;height:19px;border:1px solid var(--dim);border-radius:2px;cursor:pointer;position:relative;background:transparent;flex:0 0 19px}
 .own input:checked{background:var(--ok);border-color:var(--ok)}
@@ -77,7 +79,7 @@ h1{font-size:clamp(26px,6vw,34px);letter-spacing:-.02em;margin-top:20px;line-hei
 footer{margin-top:26px;padding-top:18px;border-top:1px solid var(--hair);font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);line-height:1.9}
 footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
 @media(min-width:640px){.card{padding:26px}.steps{grid-template-columns:repeat(24,1fr)}}
-@media(max-width:520px){header{padding-top:22px}h1{font-size:24px;margin-top:14px}.sub{font-size:13px;margin-top:7px}.readout{margin-top:18px;gap:20px;padding:13px 15px}.readout .r .v{font-size:23px}.card{min-height:400px;padding:18px}.chead .idx{font-size:30px}.card h2{font-size:18px}.deck{margin-top:16px}}
+@media(max-width:520px){header{padding-top:22px}h1{font-size:24px;margin-top:14px}.sub{font-size:13px;margin-top:7px}.readout{margin-top:18px;gap:20px;padding:13px 15px}.readout .r .v{font-size:23px}.card{padding:18px}.chead .idx{font-size:30px}.card h2{font-size:18px}.deck{margin-top:16px}}
 @media(prefers-reduced-motion:reduce){.rail{scroll-behavior:auto}}
 </style></head><body><div class="wrap">
 <header><div class="brandrow"><div class="brand">Bench<span class="d">.</span></div><div class="label">kit list</div></div>

@@ -687,23 +687,36 @@ def rebuild_progress(entries, st):
 
 
 def buy_links(c, item_id, where):
-    """One deep link per shop, built from that shop's verified search URL.
+    """Per shop, one link for each distinct product the item bundles.
 
     Never a product URL. Shopee listings are seller-specific and go dead constantly,
-    and a dead link is worse than a live search. Nhat Tao is a physical market, so
-    its link is a map.
+    and a dead link is worse than a live search. But one search per bundle does not
+    work either: a query naming six things at once matches none of them well, so a
+    craft-kit search comes back full of notebooks. One short query per real product.
+    Nhat Tao is a physical market, so its link is a map.
     """
     kit = c["kit"][item_id]
-    q = urllib.parse.quote_plus(kit.get("search", kit["name"]))
+    searches = kit.get("search") or []
+    if isinstance(searches, str):
+        searches = [searches]
     out = []
     for name in where:
         shop = c["shops"].get(name)
         if not shop:
             continue
-        tpl = shop.get("search_url") or shop.get("url")
-        if not tpl:
+        tpl = shop.get("search_url")
+        if tpl and "{q}" in tpl and searches:
+            chips = [
+                (t, tpl.replace("{q}", urllib.parse.quote_plus(t))) for t in searches
+            ]
+        elif tpl:
+            # A market, or a shop with no search: one link, labelled for what it is.
+            chips = [("open map" if "google.com/maps" in tpl else "visit", tpl)]
+        elif shop.get("url"):
+            chips = [("visit", shop["url"])]
+        else:
             continue
-        out.append((name, tpl.replace("{q}", q), shop.get("where", "")))
+        out.append((name, shop.get("where", ""), chips))
     return out
 
 
@@ -725,11 +738,16 @@ def rebuild_kit(st):
     cards, steps = [], []
     for i, (w, o) in enumerate(items, 1):
         links = "".join(
-            f'<a class="buy" href="{esc(url)}" target="_blank" rel="noopener">'
-            f'<span class="s">{esc(name)}</span>'
-            + (f'<span class="a">{esc(addr)}</span>' if addr else "")
-            + "</a>"
-            for name, url, addr in buy_links(c, o["id"], o["where"])
+            f'<div class="shopgrp"><div class="sh"><span class="nm">{esc(name)}</span>'
+            + (f'<span class="ad">{esc(addr)}</span>' if addr else "")
+            + "</div><div class=\"chips\">"
+            + "".join(
+                f'<a class="chip" href="{esc(url)}" target="_blank" rel="noopener">'
+                f"{esc(term)}</a>"
+                for term, url in chips
+            )
+            + "</div></div>"
+            for name, addr, chips in buy_links(c, o["id"], o["where"])
         )
         need = (
             f'week {o["needed_week"]} &middot; day {stem(o["needed_day"])}'
