@@ -380,13 +380,14 @@
     },
     "watchy": {
       "name": "Watchy v3 (SQFMI)",
-      "why": "Your dissection specimen: open hardware, open firmware, real power-management behaviour. Longest lead time on the list.",
+      "why": "Your dissection specimen: open hardware, open firmware, real power-management behaviour. Ships E-express to Vietnam in 7-14 business days, so it is not the long pole -- the DRV2605L is. Order it in week 1 anyway; it is the one part week 8 is built around.",
       "where": [
         "SQFMI"
       ],
-      "vnd": "about 2.0M-2.8M incl. shipping",
-      "lead": "2-5 weeks to VN",
-      "search": []
+      "vnd": "board price at checkout, plus 5.99 USD shipping",
+      "lead": "7-14 business days (E-express, 5.99 USD)",
+      "search": [],
+      "note_verified": "Shipping verified at SQFMI checkout 2026-08-13: E-express, 7-14 business days, 5.99 USD to Vietnam."
     },
     "haptic_lra": {
       "name": "DRV2605L haptic driver breakout + LRA motor",
