@@ -20,6 +20,7 @@ import json
 import pathlib
 import re
 import sys
+import urllib.parse
 import zoneinfo
 
 ROOT = pathlib.Path(__file__).resolve().parent
@@ -685,50 +686,76 @@ def rebuild_progress(entries, st):
     return PROGRESS
 
 
-def rebuild_kit(st):
-    """The supply list, whole course, ordered by the week the order has to be placed.
+def buy_links(c, item_id, where):
+    """One deep link per shop, built from that shop's verified search URL.
 
-    Checkboxes persist in localStorage, so this doubles as the thing you actually
-    shop from. Nothing here is a server; it is a static page that remembers.
+    Never a product URL. Shopee listings are seller-specific and go dead constantly,
+    and a dead link is worse than a live search. Nhat Tao is a physical market, so
+    its link is a map.
+    """
+    kit = c["kit"][item_id]
+    q = urllib.parse.quote_plus(kit.get("search", kit["name"]))
+    out = []
+    for name in where:
+        shop = c["shops"].get(name)
+        if not shop:
+            continue
+        tpl = shop.get("search_url") or shop.get("url")
+        if not tpl:
+            continue
+        out.append((name, tpl.replace("{q}", q), shop.get("where", "")))
+    return out
+
+
+def rebuild_kit(st):
+    """The supply list as a swipeable deck, one part per card.
+
+    Filed under the week the order has to be placed. Ticks persist in localStorage,
+    so this doubles as the thing you actually shop from on a phone. Nothing here is
+    a server; it is a static page that remembers.
     """
     c = curriculum()
     cur_week = week_of(st["current_day"])
-    placed = []
+
+    items = []
     for w in c["weeks"]:
-        orders = prep_for_week(w["week"])
-        if not orders:
-            continue
-        rows = []
-        for o in orders:
-            shops = " &middot; ".join(
-                f'<a href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(n)}</a>'
-                if s.get("url")
-                else f'<span title="{esc(s.get("where", ""))}">{esc(n)}</span>'
-                for n, s in zip(o["where"], o["shops"])
-            )
-            need = (
-                f'week {o["needed_week"]}, day {stem(o["needed_day"])}'
-                if o["needed_week"]
-                else "keep on hand"
-            )
-            rows.append(
-                f'<li><label><input type="checkbox" data-k="{esc(o["id"])}">'
-                f'<span class="it">{esc(o["name"])}</span></label>'
-                f'<span class="why">{esc(o["why"])}</span>'
-                f'<span class="mt"><b>{esc(o["vnd"])}</b> &middot; {esc(o["lead"])} '
-                f'&middot; needed {esc(need)}</span>'
-                f'<span class="sh">{shops}</span></li>'
-            )
-        cls = "wk"
-        if w["week"] < cur_week:
-            cls += " past"
-        elif w["week"] == cur_week:
-            cls += " now"
-        placed.append(
-            f'<section class="{cls}"><div class="wkhead">'
-            f'<span class="n">Order in week {w["week"]}</span>'
-            f'<span class="t">{esc(w["title"])}</span></div>'
-            f'<ul>{"".join(rows)}</ul></section>'
+        for o in prep_for_week(w["week"]):
+            items.append((w, o))
+
+    cards, steps = [], []
+    for i, (w, o) in enumerate(items, 1):
+        links = "".join(
+            f'<a class="buy" href="{esc(url)}" target="_blank" rel="noopener">'
+            f'<span class="s">{esc(name)}</span>'
+            + (f'<span class="a">{esc(addr)}</span>' if addr else "")
+            + "</a>"
+            for name, url, addr in buy_links(c, o["id"], o["where"])
+        )
+        need = (
+            f'week {o["needed_week"]} &middot; day {stem(o["needed_day"])}'
+            if o["needed_week"]
+            else "keep on hand"
+        )
+        state_cls = "past" if w["week"] < cur_week else ("now" if w["week"] == cur_week else "")
+        cards.append(
+            f'<article class="card {state_cls}" id="i{i}">'
+            f'<div class="chead"><span class="idx">{i:02d}<span class="of">/{len(items):02d}</span></span>'
+            f'<span class="wk">Order week {w["week"]}</span></div>'
+            f'<h2>{esc(o["name"])}</h2>'
+            f'<p class="why">{esc(o["why"])}</p>'
+            f'<dl class="spec">'
+            f'<div><dt>Price</dt><dd class="hi">{esc(o["vnd"])}</dd></div>'
+            f'<div><dt>Lead time</dt><dd>{esc(o["lead"])}</dd></div>'
+            f'<div><dt>Needed by</dt><dd>{need}</dd></div>'
+            f"</dl>"
+            f'<div class="buys">{links}</div>'
+            f'<label class="own"><input type="checkbox" data-k="{esc(o["id"])}">'
+            f"<span>In hand</span></label>"
+            "</article>"
+        )
+        steps.append(
+            f'<button type="button" class="step" data-i="{i}" '
+            f'data-k="{esc(o["id"])}" title="{esc(o["name"])}">{i:02d}</button>'
         )
 
     shops = "".join(
@@ -743,7 +770,13 @@ def rebuild_kit(st):
         for name, s in c["shops"].items()
     )
 
-    tokens = {"SECTIONS": "".join(placed), "SHOPS": shops, "WEEK": str(cur_week)}
+    tokens = {
+        "CARDS": "".join(cards),
+        "STEPS": "".join(steps),
+        "COUNT": f"{len(items):02d}",
+        "SHOPS": shops,
+        "WEEK": str(cur_week),
+    }
     out = (ROOT / "kit.template.html").read_text(encoding="utf-8")
     for k, v in tokens.items():
         out = out.replace(f"[[{k}]]", v)

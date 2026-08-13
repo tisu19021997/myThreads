@@ -1,39 +1,71 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bench — kit list</title><style>
 :root{--ground:#121214;--ink:#EDEBE5;--dim:#9A968C;--hair:#2A2A2E;--card:#1A1A1D;--accent:#FF4A00;--ok:#7FD1A4}
 *{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
-body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 80px}
+body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 70px}
 .wrap{max-width:720px;margin:0 auto;padding:0 24px}
-.label{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+.mono,.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace}
+.label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
 header{padding:32px 0 0}
 .brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 .brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
 h1{font-size:clamp(26px,6vw,34px);letter-spacing:-.02em;margin-top:20px;line-height:1.16;font-weight:800}
 .sub{font-size:15px;color:var(--dim);margin-top:9px;max-width:46em;line-height:1.5}
-.tally{margin-top:22px;padding:16px 18px;background:var(--card);border-top:3px solid var(--accent);font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--dim)}
-.tally b{color:var(--ink);font-size:19px;font-weight:700}
-.wk{padding:26px 0;border-top:1px solid var(--hair)}
-.wk.past{opacity:.5}
-.wk.now{border-top:3px solid var(--accent)}
-.wkhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
-.wkhead .n{font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
-.wkhead .t{font-size:15px;color:var(--dim)}
-.wk ul{list-style:none;margin-top:14px}
-.wk li{padding:14px 0;border-top:1px solid var(--hair)}
-.wk li:first-child{border-top:none}
-.wk label{display:flex;gap:11px;align-items:flex-start;cursor:pointer}
-.wk input{appearance:none;-webkit-appearance:none;flex:0 0 17px;width:17px;height:17px;margin-top:3px;border:1px solid var(--dim);border-radius:2px;cursor:pointer;position:relative;background:transparent}
-.wk input:checked{background:var(--ok);border-color:var(--ok)}
-.wk input:checked::after{content:"";position:absolute;left:5px;top:1px;width:5px;height:10px;border:solid var(--ground);border-width:0 2px 2px 0;transform:rotate(45deg)}
-.wk input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.wk .it{font-size:15px;font-weight:600;line-height:1.4}
-.wk input:checked+.it{color:var(--dim);text-decoration:line-through}
-.wk .why{display:block;font-size:13px;color:var(--dim);margin-top:6px;padding-left:28px;line-height:1.5}
-.wk .mt{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);margin-top:6px;padding-left:28px}
-.wk .mt b{color:var(--ink)}
-.wk .sh{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;margin-top:5px;padding-left:28px}
-.wk .sh a{color:var(--accent);text-decoration:none}.wk .sh a:hover{text-decoration:underline}
-.wk .sh span{color:var(--dim)}
-.shops{margin-top:14px;padding-top:26px;border-top:3px solid var(--ink)}
+
+/* ---- readout: the tally strip, big numerals like a device display ---- */
+.readout{display:flex;align-items:flex-end;gap:26px;flex-wrap:wrap;margin-top:24px;padding:16px 18px;background:var(--card);border-top:3px solid var(--accent)}
+.readout .r .k{display:block;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.readout .r .v{display:block;font-family:ui-monospace,Menlo,monospace;font-size:28px;font-weight:700;letter-spacing:-.02em;line-height:1.1;margin-top:3px}
+.readout .r .v small{font-size:15px;color:var(--dim);font-weight:400}
+.readout .r .v.a{color:var(--accent)}
+
+/* ---- the deck ---- */
+.deck{position:relative;margin-top:22px}
+.rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding-bottom:4px}
+.rail::-webkit-scrollbar{display:none}
+.card{flex:0 0 100%;scroll-snap-align:center;background:var(--card);border:1px solid var(--hair);padding:22px;min-height:430px;display:flex;flex-direction:column}
+.card.now{border-color:var(--accent)}
+.card.past{opacity:.62}
+.chead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.chead .idx{font-family:ui-monospace,Menlo,monospace;font-size:36px;font-weight:700;letter-spacing:-.03em;color:var(--accent);line-height:1}
+.chead .idx .of{font-size:15px;color:var(--dim);font-weight:400;letter-spacing:0}
+.chead .wk{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);text-align:right}
+.card h2{font-size:20px;font-weight:800;letter-spacing:-.01em;margin-top:16px;line-height:1.28}
+.card .why{font-size:14px;color:var(--dim);margin-top:9px;line-height:1.55}
+.spec{margin-top:16px;padding-top:14px;border-top:1px solid var(--hair);display:flex;gap:22px;flex-wrap:wrap}
+.spec dt{font-family:ui-monospace,Menlo,monospace;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.spec dd{font-family:ui-monospace,Menlo,monospace;font-size:13px;margin-top:3px;line-height:1.35}
+.spec dd.hi{color:var(--ink);font-weight:700;font-size:15px}
+.buys{margin-top:auto;padding-top:18px;display:flex;flex-wrap:wrap;gap:8px}
+.buy{display:block;flex:1 1 auto;min-width:132px;padding:10px 12px;border:1px solid var(--accent);text-decoration:none;background:transparent}
+.buy:hover,.buy:focus-visible{background:var(--accent)}
+.buy .s{display:block;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.buy .a{display:block;font-family:ui-monospace,Menlo,monospace;font-size:10px;color:var(--dim);margin-top:3px;line-height:1.35}
+.buy:hover .s,.buy:focus-visible .s{color:var(--ground)}
+.buy:hover .a,.buy:focus-visible .a{color:rgba(18,18,20,.75)}
+.own{display:flex;align-items:center;gap:10px;margin-top:16px;padding-top:15px;border-top:1px solid var(--hair);cursor:pointer;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.own input{appearance:none;-webkit-appearance:none;width:19px;height:19px;border:1px solid var(--dim);border-radius:2px;cursor:pointer;position:relative;background:transparent;flex:0 0 19px}
+.own input:checked{background:var(--ok);border-color:var(--ok)}
+.own input:checked::after{content:"";position:absolute;left:6px;top:2px;width:5px;height:11px;border:solid var(--ground);border-width:0 2px 2px 0;transform:rotate(45deg)}
+.own input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.own input:checked~span{color:var(--ok)}
+
+/* ---- transport: prev / next, and the step row that doubles as progress ---- */
+.transport{display:flex;align-items:center;gap:10px;margin-top:16px}
+.nav{width:42px;height:42px;flex:0 0 42px;border:1px solid var(--hair);background:transparent;color:var(--ink);font-size:17px;cursor:pointer;line-height:1}
+.nav:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.nav:disabled{opacity:.3;cursor:default}
+.nav:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.now-label{flex:1;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.steps{display:grid;grid-template-columns:repeat(12,1fr);gap:4px;margin-top:14px}
+.step{aspect-ratio:1;border:1px solid var(--hair);background:transparent;color:var(--dim);font-family:ui-monospace,Menlo,monospace;font-size:10px;cursor:pointer;padding:0;line-height:1}
+.step:hover{border-color:var(--accent);color:var(--accent)}
+.step:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.step[aria-current="true"]{background:var(--accent);border-color:var(--accent);color:var(--ground);font-weight:700}
+.step.have{background:var(--ok);border-color:var(--ok);color:var(--ground)}
+.step.have[aria-current="true"]{box-shadow:inset 0 0 0 2px var(--accent)}
+.hint{margin-top:12px;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:var(--dim);text-transform:uppercase}
+
+.shops{margin-top:34px;padding-top:26px;border-top:3px solid var(--ink)}
 .shops h2{font-size:17px;font-weight:800;letter-spacing:-.01em}
 .shops ul{list-style:none;margin-top:14px}
 .shops li{padding:13px 0;border-top:1px solid var(--hair)}
@@ -44,36 +76,101 @@ h1{font-size:clamp(26px,6vw,34px);letter-spacing:-.02em;margin-top:20px;line-hei
 .shops .nt{display:block;font-size:13px;color:var(--dim);margin-top:5px;line-height:1.5}
 footer{margin-top:26px;padding-top:18px;border-top:1px solid var(--hair);font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);line-height:1.9}
 footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
+@media(min-width:640px){.card{padding:26px}.steps{grid-template-columns:repeat(24,1fr)}}
+@media(max-width:520px){header{padding-top:22px}h1{font-size:24px;margin-top:14px}.sub{font-size:13px;margin-top:7px}.readout{margin-top:18px;gap:20px;padding:13px 15px}.readout .r .v{font-size:23px}.card{min-height:400px;padding:18px}.chead .idx{font-size:30px}.card h2{font-size:18px}.deck{margin-top:16px}}
+@media(prefers-reduced-motion:reduce){.rail{scroll-behavior:auto}}
 </style></head><body><div class="wrap">
 <header><div class="brandrow"><div class="brand">Bench<span class="d">.</span></div><div class="label">kit list</div></div>
 <h1>What to buy, and by when.</h1>
-<p class="sub">Every part the course needs, filed under the week the order has to be placed rather than the week it gets used. Prices are rough and in VND; check before you go. Ticks are saved in this browser.</p>
-<div class="tally"><b><span id="have">0</span> / <span id="all">0</span></b> in hand &nbsp;&middot;&nbsp; you are in week [[WEEK]]</div>
+<p class="sub">Every part the course needs, filed under the week the order must be placed. Links are searches, not product pages, so they keep working after a seller delists. Prices are rough, in VND. Ticks save in this browser.</p>
+<div class="readout">
+<div class="r"><span class="k">in hand</span><span class="v"><span id="have">0</span><small>/[[COUNT]]</small></span></div>
+<div class="r"><span class="k">viewing</span><span class="v a"><span id="cur">01</span><small>/[[COUNT]]</small></span></div>
+<div class="r"><span class="k">you are in</span><span class="v">W[[WEEK]]</span></div>
+</div>
 </header>
-[[SECTIONS]]
+
+<section class="deck">
+  <div class="rail" id="rail" tabindex="0" aria-label="Kit list, one part per card">[[CARDS]]</div>
+  <div class="transport">
+    <button type="button" class="nav" id="prev" aria-label="Previous part">&larr;</button>
+    <span class="now-label" id="nowlabel"></span>
+    <button type="button" class="nav" id="next" aria-label="Next part">&rarr;</button>
+  </div>
+  <div class="steps" id="steps" role="tablist" aria-label="Jump to part">[[STEPS]]</div>
+  <p class="hint">Swipe, or use the arrow keys. Green means you already have it.</p>
+</section>
+
 <section class="shops"><h2>Where to go</h2><ul>[[SHOPS]]</ul></section>
 <footer><a href="progress.html">build log</a><a href="../index.html">threads</a><br>
 Order early. A part that arrives the week after you needed it has already cost you the project.</footer>
 </div>
 <script>
 (function(){
-  var K="bench-kit",boxes=document.querySelectorAll('.wk input[type=checkbox]');
-  var have=document.getElementById("have"),all=document.getElementById("all");
-  var owned={};try{owned=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
+  var K="bench-kit",rail=document.getElementById("rail"),
+      cards=[].slice.call(rail.querySelectorAll(".card")),
+      steps=[].slice.call(document.querySelectorAll(".step")),
+      boxes=[].slice.call(rail.querySelectorAll('input[type=checkbox]')),
+      have=document.getElementById("have"),cur=document.getElementById("cur"),
+      label=document.getElementById("nowlabel"),
+      prev=document.getElementById("prev"),next=document.getElementById("next"),
+      owned={},at=0;
+  try{owned=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
+
+  function pad(n){return (n<10?"0":"")+n}
   function tally(){
-    var n=0;for(var i=0;i<boxes.length;i++){if(boxes[i].checked)n++}
-    have.textContent=n;all.textContent=boxes.length;
+    var n=0;
+    boxes.forEach(function(b){if(b.checked)n++});
+    have.textContent=n;
+    steps.forEach(function(s){
+      s.classList.toggle("have",!!owned[s.getAttribute("data-k")]);
+    });
   }
-  for(var i=0;i<boxes.length;i++){
-    var b=boxes[i];
+  function mark(i){
+    at=Math.max(0,Math.min(cards.length-1,i));
+    cur.textContent=pad(at+1);
+    var h=cards[at].querySelector("h2");
+    label.textContent=h?h.textContent:"";
+    steps.forEach(function(s,j){s.setAttribute("aria-current",j===at?"true":"false")});
+    prev.disabled=at===0;next.disabled=at===cards.length-1;
+  }
+  function go(i){
+    at=Math.max(0,Math.min(cards.length-1,i));
+    rail.scrollTo({left:cards[at].offsetLeft-rail.offsetLeft,behavior:"smooth"});
+    mark(at);
+  }
+
+  boxes.forEach(function(b){
     b.checked=!!owned[b.getAttribute("data-k")];
     b.addEventListener("change",function(){
       owned[this.getAttribute("data-k")]=this.checked;
       try{localStorage.setItem(K,JSON.stringify(owned))}catch(e){}
       tally();
     });
-  }
-  tally();
+  });
+  steps.forEach(function(s,j){s.addEventListener("click",function(){go(j)})});
+  prev.addEventListener("click",function(){go(at-1)});
+  next.addEventListener("click",function(){go(at+1)});
+  rail.addEventListener("keydown",function(e){
+    if(e.key==="ArrowRight"){e.preventDefault();go(at+1)}
+    if(e.key==="ArrowLeft"){e.preventDefault();go(at-1)}
+  });
+
+  // Follow real scrolling too, so a swipe updates the readout.
+  var t=null;
+  rail.addEventListener("scroll",function(){
+    if(t)clearTimeout(t);
+    t=setTimeout(function(){
+      var mid=rail.scrollLeft+rail.clientWidth/2,best=0,d=Infinity;
+      cards.forEach(function(cd,j){
+        var c2=cd.offsetLeft-rail.offsetLeft+cd.offsetWidth/2,dist=Math.abs(c2-mid);
+        if(dist<d){d=dist;best=j}
+      });
+      mark(best);
+    },90);
+  },{passive:true});
+
+  tally();mark(0);
 })();
 </script>
 </body></html>
