@@ -879,6 +879,26 @@ def cmd_plan(args):
             print(f"      {o['vnd']} · {o['lead']} · {need} · {', '.join(o['where'])}")
     if week.get("sources"):
         print(f"\nsuggested sources: {', '.join(week['sources'])}")
+
+    obj = curriculum().get("objects")
+    if obj:
+        # Rotated by day number rather than chosen at random, so a run is reproducible
+        # and consecutive nights never draw the same well twice.
+        pool = [s for s in obj["sources"] if phase["phase"] in s.get("phases", [])]
+        pool = pool or obj["sources"]
+        pick = [pool[(day * 3 + i) % len(pool)] for i in range(3)]
+        seen, uniq = set(), []
+        for s in pick:
+            if s["name"] not in seen:
+                seen.add(s["name"])
+                uniq.append(s)
+        print("\nTHE OBJECT -- hunt here tonight (never repeat one, check the ledger):")
+        for s in uniq:
+            print(f"  {s['name']}  {s['url']}")
+            print(f"      {s['lens']}")
+        veins = obj.get("veins", [])
+        if veins:
+            print(f"  off-web: {veins[day % len(veins)]}")
     return 0
 
 

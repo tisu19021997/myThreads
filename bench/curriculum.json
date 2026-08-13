@@ -1354,5 +1354,155 @@
         "Google UX Engineering portfolio guidance"
       ]
     }
-  ]
+  ],
+  "objects": {
+    "rule": "One real product or teardown per card, with one sentence on why its interaction is the way it is. Never repeat an object -- `bench.py ledger` lists every one already used. The object is not homework; it is the thing that makes the card worth opening.",
+    "sources": [
+      {
+        "name": "Crowd Supply",
+        "url": "https://www.crowdsupply.com/",
+        "lens": "small-batch open hardware made by someone with a point of view",
+        "phases": [
+          2,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "Hackaday",
+        "url": "https://hackaday.com/",
+        "lens": "daily hacks, teardowns, and failures worth studying",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "Tindie",
+        "url": "https://www.tindie.com/",
+        "lens": "one-person hardware shops, the weird end of the market",
+        "phases": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "name": "CNX Software",
+        "url": "https://www.cnx-software.com/",
+        "lens": "new modules and silicon, unglamorous and thorough",
+        "phases": [
+          2,
+          5
+        ]
+      },
+      {
+        "name": "Core77",
+        "url": "https://www.core77.com/",
+        "lens": "industrial design process, not electronics -- trains the eye",
+        "phases": [
+          1,
+          4,
+          6
+        ]
+      },
+      {
+        "name": "iFixit teardowns",
+        "url": "https://www.ifixit.com/Teardown",
+        "lens": "internal packaging, assembly order, what was sacrificed for what",
+        "phases": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "Teenage Engineering",
+        "url": "https://teenage.engineering/",
+        "lens": "the reference for this whole thread's register",
+        "phases": [
+          1,
+          4,
+          6
+        ]
+      },
+      {
+        "name": "Pimoroni",
+        "url": "https://shop.pimoroni.com/",
+        "lens": "the only breakout maker who treats a PCB as a designed object",
+        "phases": [
+          2,
+          5
+        ]
+      },
+      {
+        "name": "Adafruit",
+        "url": "https://www.adafruit.com/",
+        "lens": "component-level, with the best documentation in the industry",
+        "phases": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "Seeed Studio",
+        "url": "https://www.seeedstudio.com/",
+        "lens": "modules and XIAO form factors, good proportion at small scale",
+        "phases": [
+          2,
+          5
+        ]
+      },
+      {
+        "name": "Pine64",
+        "url": "https://pine64.com/",
+        "lens": "open devices carried by community firmware",
+        "phases": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "OSHWA certified list",
+        "url": "https://certification.oshwa.org/list.html",
+        "lens": "certified open hardware, browsable by category",
+        "phases": [
+          2,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "Olimex",
+        "url": "https://www.olimex.com/",
+        "lens": "open hardware that has survived twenty years of production",
+        "phases": [
+          5,
+          6
+        ]
+      },
+      {
+        "name": "Yanko Design",
+        "url": "https://www.yankodesign.com/",
+        "lens": "concept-heavy ID -- use sparingly, and prefer shipped products",
+        "phases": [
+          1,
+          4
+        ]
+      }
+    ],
+    "veins": [
+      "Something in his own house he has never opened. The best object is often on the desk.",
+      "Cho Nhat Tao: salvage, dead Vietnamese consumer electronics, things with worn buttons.",
+      "Vietnamese products specifically -- rice cookers, motorbike dashboards, karaoke remotes, ATM keypads. A curriculum built only on Californian objects teaches a narrow eye.",
+      "Objects that outlived their category: F-91W, Nokia 3310, Zippo, Bic Cristal, the 3.5mm jack.",
+      "A device someone else in the room uses differently than he does.",
+      "Deliberate failures: Juicero, Ouya, the Pixel 4 Soli gestures, touch-only headphone controls."
+    ]
+  }
 }

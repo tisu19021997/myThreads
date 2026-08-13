@@ -223,6 +223,14 @@ Every card also carries the week's project and its deadline, and `THE OBJECT`: o
 product or teardown with a single sentence on why its interaction is the way it is. The
 object is not homework. It is the thing that makes the card worth opening.
 
+`bench.py plan` names three places to hunt for tonight's object, filtered to the current
+phase and rotated by day number, plus one off-web vein. They live in `curriculum.json`
+under `objects`, so the run never has to reach into memory -- which is what makes the
+objects go stale around week twelve. Never repeat one: `ledger` lists every object
+already used. Prefer a shipped product over a concept, prefer something he could hold,
+and prefer a Vietnamese object whenever one fits, because a curriculum built only on
+Californian hardware teaches a narrow eye.
+
 ## The gate
 
 **Day N cannot be built until day N-1 has a log.** `bench.py build` refuses, and that
