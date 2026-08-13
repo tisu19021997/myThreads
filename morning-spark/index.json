@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-13",
+      "edition": 18,
+      "note": "Themes: the origin story as the one input that needs no market confirmation, a SaaS licence as rent on somebody else's finished cold start, the South star as an outcome metric pointed at harm. Sources: Lenny's Newsletter, SVPG, Product Talk. Pairings: Kristen Lowe x April Dunford, Marty Cagan x Andrew Chen, Teresa Torres x Melissa Perri.",
+      "sparks": [
+        {
+          "pair": "Kristen Lowe x April Dunford",
+          "headline": "Your why is the one input nobody can get wrong",
+          "source": "Lenny's Newsletter — How to make people care about your startup",
+          "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your"
+        },
+        {
+          "pair": "Marty Cagan x Andrew Chen",
+          "headline": "Vibe coding cut the cost of the app, not the rules",
+          "source": "SVPG — Build vs Buy in the Age of AI",
+          "url": "https://www.svpg.com/article-build-vs-buy-in-the-age-of-ai/"
+        },
+        {
+          "pair": "Teresa Torres x Melissa Perri",
+          "headline": "Some outcomes only show up as things that did not happen",
+          "source": "Product Talk — Is This Okay? How Override Labs Built a Safety-First AI Consent Coach for Teen Boys",
+          "url": "https://www.producttalk.org/is-this-okay-how-override-labs-built-a-safety-first-ai-consent-coach-for-teen-boys/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-12",
       "edition": 17,
       "note": "Themes: risk relocated to where nobody prices it, the yellow section as the window where a problem is still cheap, taste as the bet no metric can defend. Sources: Stratechery, Brian Balfour, A Smart Bear.",

@@ -1,0 +1,22 @@
+Morning Spark · Thursday, August 13 · Ed. 18
+Three stories about what you cannot fake, copy, or count.
+
+─────────────────
+01 · Your why is the one input nobody can get wrong
+Kristen Lowe × April Dunford
+Kristen Lowe says founder comms only needs one input: why you started. April Dunford says a story built on unchecked inputs is compelling and false. The gap between them is the point. Your why is the one input that does not need the market to confirm it.
+→ https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your
+
+─────────────────
+02 · Vibe coding cut the cost of the app, not the rules
+Marty Cagan × Andrew Chen
+Marty Cagan argues user-programming tools will not kill SaaS, because the value sits in thousands of undocumented business rules. Andrew Chen's cold start says the expensive part of any network is populating the first one. Buying software is buying a cold start you did not have to run.
+→ https://www.svpg.com/article-build-vs-buy-in-the-age-of-ai/
+
+─────────────────
+03 · Some outcomes only show up as things that did not happen
+Teresa Torres × Melissa Perri
+Override Labs defined a South star, the outcome it refuses to cause, and built backwards from there. Melissa Perri's build trap says measure outcomes, not output. Put them together and the hardest outcome to measure is the one you want never to happen, which means you have to instrument the near miss.
+→ https://www.producttalk.org/is-this-okay-how-override-labs-built-a-safety-first-ai-consent-coach-for-teen-boys/
+
+Full styled card → open the session.

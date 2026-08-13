@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-13",
+  "edition": 18,
+  "framing": "Three stories about what you cannot fake, copy, or count.",
+  "framing_vi": "Ba thứ bạn không fake được, không copy được, không đếm được.",
+  "note": "Themes: the origin story as the one input that needs no market confirmation, a SaaS licence as rent on somebody else's finished cold start, the South star as an outcome metric pointed at harm. Sources: Lenny's Newsletter, SVPG, Product Talk. Pairings: Kristen Lowe x April Dunford, Marty Cagan x Andrew Chen, Teresa Torres x Melissa Perri.",
+  "sparks": [
+    {
+      "title": "HONEST INPUT",
+      "title_vi": "INPUT THẬT",
+      "headline": "Your why is the one input nobody can get wrong",
+      "headline_vi": "Cái why của bạn là input duy nhất không thể sai",
+      "a": {
+        "who": "Kristen Lowe",
+        "what": "Founder-led comms needs one input: why you started the company. Three archetypes, three feelings you can build for. I identify with you, I trust you, I would follow you.",
+        "what_vi": "Founder-led comms chỉ cần một input: vì sao bạn mở công ty. Ba archetype, ba cảm giác bạn chọn xây. Tôi giống bạn, tôi tin bạn, tôi theo bạn."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Storytelling frameworks assume you already know the customer, the differentiated value and the real alternatives. Inputs brainstormed in a room produce a compelling story that is still false.",
+        "what_vi": "Framework kể chuyện mặc định bạn đã biết customer, value khác biệt và đối thủ thật. Input nghĩ ra trong phòng họp cho ra câu chuyện hay mà vẫn sai."
+      },
+      "result": "Positioning waits on a market that has not answered yet. Your why is already true. It is the one thing you can say honestly before you know who loves your stuff.",
+      "result_underline": "the one thing you can say honestly before you know who loves your stuff",
+      "result_vi": "Positioning còn phải chờ thị trường trả lời. Còn cái why thì đã đúng sẵn. Đó là thứ duy nhất bạn nói thật được khi chưa biết ai thích sản phẩm mình.",
+      "result_underline_vi": "thứ duy nhất bạn nói thật được khi chưa biết ai thích sản phẩm mình",
+      "tick": "What can you post today that stays true even if your positioning is wrong next month?",
+      "tick_bold": ["stays true even if your positioning is wrong"],
+      "tick_vi": "Hôm nay bạn post được gì mà tháng sau positioning sai vẫn còn đúng?",
+      "tick_bold_vi": ["tháng sau positioning sai vẫn còn đúng"],
+      "provocation": "Kristen Lowe says founder comms only needs one input: why you started. April Dunford says a story built on unchecked inputs is compelling and false. The gap between them is the point. Your why is the one input that does not need the market to confirm it.",
+      "provocation_vi": "Kristen Lowe nói founder comms chỉ cần một input: vì sao bạn bắt đầu. April Dunford nói câu chuyện dựng trên input chưa kiểm chứng thì hay mà sai. Khoảng cách giữa hai cái đó mới là điểm chính. Cái why là input duy nhất không cần thị trường xác nhận.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "How to make people care about your startup",
+        "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
+        "published": "2026-08-11"
+      }
+    },
+    {
+      "title": "FINISHED COLD START",
+      "title_vi": "COLD START ĐÃ XONG",
+      "headline": "Vibe coding cut the cost of the app, not the rules",
+      "headline_vi": "Vibe coding cắt chi phí làm app, không cắt chi phí luật",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "English became a programming language, but enterprise software survives on thousands of business rules nobody wrote down, and the people who set them left years ago.",
+        "what_vi": "Tiếng Anh thành ngôn ngữ lập trình, nhưng phần mềm doanh nghiệp sống nhờ hàng nghìn business rule không ai ghi lại, còn người đặt ra chúng thì nghỉ từ lâu."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "A network is worth nothing until one atomic network is populated. The expensive part was never the software, it was getting the first one to hold together.",
+        "what_vi": "Một network vô giá trị cho tới khi có atomic network đầu tiên đủ đông. Phần đắt chưa bao giờ là code, mà là làm cho nhóm đầu tiên dính lại với nhau."
+      },
+      "result": "The SaaS licence was never rent on code. It is rent on somebody else's finished cold start: rules already discovered, argued over, and paid for once.",
+      "result_underline": "somebody else's finished cold start",
+      "result_vi": "Tiền license SaaS chưa bao giờ là tiền thuê code. Đó là tiền thuê cái cold start người khác đã chạy xong: luật đã tìm ra, đã cãi nhau, đã trả giá một lần.",
+      "result_underline_vi": "cái cold start người khác đã chạy xong",
+      "tick": "Which rule in your product does nobody in the building still understand?",
+      "tick_bold": ["nobody in the building still understand"],
+      "tick_vi": "Luật nào trong sản phẩm của bạn mà cả công ty không ai còn hiểu nữa?",
+      "tick_bold_vi": ["cả công ty không ai còn hiểu nữa"],
+      "provocation": "Marty Cagan argues user-programming tools will not kill SaaS, because the value sits in thousands of undocumented business rules. Andrew Chen's cold start says the expensive part of any network is populating the first one. Buying software is buying a cold start you did not have to run.",
+      "provocation_vi": "Marty Cagan cho rằng công cụ user-programming không giết SaaS, vì giá trị nằm ở hàng nghìn business rule không ai ghi lại. Cold start của Andrew Chen nói phần đắt của mọi network là gom được nhóm đầu tiên. Mua phần mềm là mua một cold start bạn không phải tự chạy.",
+      "source": {
+        "site": "SVPG",
+        "title": "Build vs Buy in the Age of AI",
+        "url": "https://www.svpg.com/article-build-vs-buy-in-the-age-of-ai/",
+        "published": "2025-08-19"
+      }
+    },
+    {
+      "title": "SOUTH STAR",
+      "title_vi": "SOUTH STAR",
+      "headline": "Some outcomes only show up as things that did not happen",
+      "headline_vi": "Có outcome chỉ hiện ra dưới dạng chuyện đã không xảy ra",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "Override Labs named a South star, the worst outcome, and designed the whole product backwards from never causing it. Prevention is hard to measure because success is an absence.",
+        "what_vi": "Override Labs đặt ra South star, tức outcome tệ nhất, rồi dựng cả sản phẩm ngược từ việc không bao giờ gây ra nó. Phòng ngừa khó đo vì thành công là một sự vắng mặt."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "Escaping the build trap means measuring outcomes, the change in customer behaviour, instead of counting the output you shipped.",
+        "what_vi": "Thoát build trap là đo outcome, tức hành vi customer đổi, thay vì đếm output đã ship."
+      },
+      "result": "Outcome thinking stalls when the win is an absence. Name the harm precisely enough and the absence gets an instrument: point the metric at what you refuse to cause.",
+      "result_underline": "point the metric at what you refuse to cause",
+      "result_vi": "Tư duy outcome khựng lại khi chiến thắng là một sự vắng mặt. Gọi tên cái hại đủ chính xác thì sự vắng mặt đó cũng đo được: chĩa metric vào thứ bạn từ chối gây ra.",
+      "result_underline_vi": "chĩa metric vào thứ bạn từ chối gây ra",
+      "tick": "What is the one outcome your product must never produce, and who is watching for it?",
+      "tick_bold": ["must never produce"],
+      "tick_vi": "Outcome nào sản phẩm của bạn tuyệt đối không được tạo ra, và ai đang canh nó?",
+      "tick_bold_vi": ["tuyệt đối không được tạo ra"],
+      "provocation": "Override Labs defined a South star, the outcome it refuses to cause, and built backwards from there. Melissa Perri's build trap says measure outcomes, not output. Put them together and the hardest outcome to measure is the one you want never to happen, which means you have to instrument the near miss.",
+      "provocation_vi": "Override Labs đặt South star, tức outcome họ từ chối gây ra, rồi dựng ngược từ đó. Build trap của Melissa Perri nói hãy đo outcome, đừng đếm output. Ghép lại: outcome khó đo nhất là cái bạn muốn không bao giờ xảy ra, nên bạn phải đo được những lần suýt xảy ra.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Is This Okay? How Override Labs Built a Safety-First AI Consent Coach for Teen Boys",
+        "url": "https://www.producttalk.org/is-this-okay-how-override-labs-built-a-safety-first-ai-consent-coach-for-teen-boys/",
+        "published": "2026-06-25"
+      }
+    }
+  ]
+}
