@@ -210,11 +210,15 @@ def state(ref=None):
     ref = ref or today()
     logs = logs_on_disk()
     authored = {d for d, _ in delivered_days()}
-    done = sorted(logs)
+    # Showing up and finishing are different things. A partial log keeps the streak
+    # alive -- you sat down -- but it does not advance the day, so tomorrow hands you
+    # the same card again to finish. Being slow costs drift, never a broken streak.
+    done = sorted(d for d, e in logs.items() if not e.get("partial"))
+    partial = sorted(d for d, e in logs.items() if e.get("partial"))
     dates = log_dates(logs)
 
     current = (max(done) + 1) if done else 1
-    gated = current > 1 and (current - 1) not in logs  # cannot happen, kept as a guard
+    gated = current > 1 and (current - 1) not in done  # cannot happen, kept as a guard
     last = dates[-1] if dates else None
     silent = (ref - last).days if last else 0
     # Two consecutive missed calendar days: the way back in gets shorter, not longer.
@@ -227,6 +231,7 @@ def state(ref=None):
         "current_day": min(current, TOTAL_DAYS),
         "total_days": TOTAL_DAYS,
         "completed": len(done),
+        "in_progress": partial,
         "authored": sorted(authored),
         "unlogged": sorted(authored - set(done)),
         "streak": streak(logs, ref),
@@ -314,6 +319,16 @@ def validate(day, doc, prior_urls):
         raise Bad("a build day needs a source: the piece you actually read or watched")
     if src:
         check_source("source", src, prior_urls)
+        # A 39-minute talk does not fit in a 25-minute block. If only part of a long
+        # piece is wanted, say so in `length` ("28 min (stop at the SDK section)") so
+        # the number on the card is the time it actually takes.
+        hit = re.match(r"\s*(\d+)", src.get("length", ""))
+        if hit and int(hit.group(1)) > blocks[0]["minutes"]:
+            raise Bad(
+                f"source is {hit.group(1)} min but the intake block is only "
+                f"{blocks[0]['minutes']} min -- widen the block, or scope the excerpt "
+                "in source.length"
+            )
 
     obj = doc.get("object", {})
     check_text("object.name", obj.get("name", ""))
@@ -560,7 +575,8 @@ def rebuild_index(all_days, logs):
                 "url": doc.get("source", {}).get("url", ""),
                 "object": doc.get("object", {}).get("name", ""),
                 "note": doc.get("note", ""),
-                "logged": bool(lg),
+                "logged": bool(lg) and not lg.get("partial"),
+                "partial": bool(lg.get("partial")),
                 "log_date": lg.get("date", ""),
                 "made": lg.get("made", ""),
                 "stuck": lg.get("stuck", ""),
@@ -591,11 +607,14 @@ def rebuild_progress(entries, st):
     for p in c["phases"]:
         lo = (p["weeks"][0] - 1) * WEEK_LEN + 1
         hi = p["weeks"][1] * WEEK_LEN
-        done = sum(1 for d in range(lo, hi + 1) if d in logs)
+        done = sum(1 for d in range(lo, hi + 1) if d in logs and not logs[d].get("partial"))
         cells = []
         for d in range(lo, hi + 1):
             e = by_day.get(d)
-            if d in logs:
+            if d in logs and logs[d].get("partial"):
+                cls = "c part"
+                tip = f"Day {d:03d} — in progress: {logs[d].get('made', '')}"
+            elif d in logs:
                 cls = "c done"
                 tip = f"Day {d:03d} — {logs[d].get('made') or logs[d].get('did', 'logged')}"
             elif d == st["current_day"]:
@@ -879,10 +898,14 @@ def cmd_build(args):
     all_days = days_on_disk()
     logs = logs_on_disk()
 
-    if not args.force and day > 1 and (day - 1) not in logs:
+    prev_done = (day - 1) in logs and not logs[day - 1].get("partial")
+    if not args.force and day > 1 and not prev_done:
+        why = (
+            "is only part-logged" if (day - 1) in logs else "has no log"
+        )
         raise Bad(
-            f"day {stem(day - 1)} has no log, so day {stem(day)} is gated. "
-            "The curriculum waits. Log the previous day first, or pass --force."
+            f"day {stem(day - 1)} {why}, so day {stem(day)} is gated. "
+            "The curriculum waits. Finish and log the previous day first, or pass --force."
         )
 
     prior_urls = {}
@@ -925,6 +948,8 @@ def cmd_log(args):
         "did": check_text("did", args.did),
         "made": check_text("made", args.made),
     }
+    if args.partial:
+        entry["partial"] = True
     if args.stuck:
         entry["stuck"] = check_text("stuck", args.stuck)
     if args.link:
@@ -938,8 +963,12 @@ def cmd_log(args):
     path.write_text(json.dumps(entry, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     _, new = rebuild_all()
     print(f"ok  {path}")
-    print(f"    day {stem(day)} logged. streak {new['streak']}d, "
-          f"{new['completed']}/{TOTAL_DAYS} done. next up: {stem(new['current_day'])}")
+    if args.partial:
+        print(f"    day {stem(day)} part-logged. streak {new['streak']}d holds -- you sat down.")
+        print(f"    tomorrow hands you day {stem(day)} again to finish, not day {stem(day + 1)}.")
+    else:
+        print(f"    day {stem(day)} logged. streak {new['streak']}d, "
+              f"{new['completed']}/{TOTAL_DAYS} done. next up: {stem(new['current_day'])}")
     return 0
 
 
@@ -979,6 +1008,8 @@ def main(argv=None):
     p.add_argument("--stuck", help="where it snagged")
     p.add_argument("--link", help="photo, gist, commit -- the evidence")
     p.add_argument("--minutes", type=int, help="how long it really took")
+    p.add_argument("--partial", action="store_true",
+                   help="ran out of time: keeps the streak, does not advance the day")
     p.set_defaults(fn=cmd_log)
 
     args = ap.parse_args(argv)

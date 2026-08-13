@@ -22,6 +22,7 @@ h1{font-size:clamp(26px,6vw,36px);letter-spacing:-.02em;margin-top:20px;line-hei
 .grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-top:14px;max-width:340px}
 .grid .c,.grid a.c{display:block;aspect-ratio:1;background:transparent;border:1px solid var(--hair);border-radius:2px;text-decoration:none;position:relative}
 .grid .c.open{border-color:var(--dim)}
+.grid .c.part{background:repeating-linear-gradient(45deg,var(--dim),var(--dim) 2px,transparent 2px,transparent 5px);border-color:var(--dim)}
 .grid .c.done{background:var(--ink);border-color:var(--ink)}
 .grid .c.now{background:var(--accent);border-color:var(--accent)}
 .grid .c.bt{border-radius:50%}
@@ -45,6 +46,7 @@ h1{font-size:clamp(26px,6vw,36px);letter-spacing:-.02em;margin-top:20px;line-hei
 .key i{display:inline-block;width:11px;height:11px;border:1px solid var(--hair);border-radius:2px;margin-right:6px;vertical-align:-1px}
 .key i.done{background:var(--ink);border-color:var(--ink)}
 .key i.now{background:var(--accent);border-color:var(--accent)}
+.key i.part{background:repeating-linear-gradient(45deg,var(--dim),var(--dim) 2px,transparent 2px,transparent 5px);border-color:var(--dim)}
 .key i.open{border-color:var(--dim)}
 .key i.bt{border-radius:50%}
 footer{margin-top:26px;padding-top:18px;border-top:1px solid var(--hair);font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--dim);line-height:1.9}
@@ -63,7 +65,7 @@ footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
 </div>
 </header>
 [[SECTIONS]]
-<div class="key"><span><i class="done"></i>logged</span><span><i class="now"></i>up next</span><span><i class="open"></i>delivered, not logged</span><span><i class="bt"></i>bench test</span></div>
+<div class="key"><span><i class="done"></i>logged</span><span><i class="now"></i>up next</span><span><i class="part"></i>in progress</span><span><i class="open"></i>delivered, not logged</span><span><i class="bt"></i>bench test</span></div>
 <section class="logs"><h2>Evidence</h2><ul>[[ROWS]]</ul></section>
 <footer><a href="kit.html">kit list</a><a href="../index.html">threads</a><br>
 Drift is reported, never charged. The curriculum waits for you; it does not hand out debt.</footer>

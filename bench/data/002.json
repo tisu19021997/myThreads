@@ -5,18 +5,20 @@
   "blocks": [
     {
       "label": "Intake",
-      "minutes": 25,
-      "body": "Watch Apple's Apple Watch Design Tips and Tricks. Ignore every word about WatchKit. What you are after is the argument for holistic design: the claim that the crown, the case, the tap on your wrist and the pixels are one product, and that a phone app shrunk down is a different, worse thing.",
-      "bold": ["one product"],
+      "minutes": 30,
+      "body": "Watch Apple's Apple Watch Design Tips and Tricks, and stop when it turns into a WatchKit tutorial -- the design argument is in the front half. What you are after is the claim that the crown, the case, the tap on your wrist and the pixels are one product, and that a phone app shrunk down is a different, worse thing.",
+      "bold": [
+        "one product"
+      ],
       "detail": [
-        "Watch at 1.25x if you must, but do not skim the first third.",
+        "Roughly the first 28 minutes. When the API examples start, you are done.",
         "Write down every moment where a hardware decision forces a software decision, or the reverse.",
         "Notice how often the answer to a design problem is a physical control rather than a screen."
       ]
     },
     {
       "label": "Bench",
-      "minutes": 25,
+      "minutes": 20,
       "body": "Finish object one. Now go back through your three columns and mark each row: was this interaction chosen for this object, or inherited because that is how such things are done? Inherited is not an insult. It is a place someone stopped thinking.",
       "detail": [
         "Chosen: someone argued about it, and the object would be worse the other way.",
@@ -35,7 +37,7 @@
     "title": "Apple Watch Design Tips and Tricks (WWDC15)",
     "url": "https://developer.apple.com/videos/play/wwdc2015/805/",
     "kind": "talk",
-    "length": "39 min",
+    "length": "28 min (stop before the WatchKit section)",
     "published": "2015-06-01"
   },
   "done_when": "Object one card is complete and every row is marked chosen or inherited.",

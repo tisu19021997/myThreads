@@ -232,6 +232,12 @@ The curriculum waits for him. It never accumulates homework debt, because debt i
 makes people quit. What it does instead is report drift honestly: `day 023, calendar day
 031`. Missing a day costs a number on a page, nothing more.
 
+**Showing up and finishing are different things.** `bench.py log --partial` records a night
+where he sat down and ran out of time. It keeps the streak alive, because he did the work he
+had; it does not advance the day, so the next run hands him the same card again to finish.
+Only drift moves. A slow night is never a failed night, and he never has to fake a log to
+keep a number intact.
+
 After three silent days `status` reports `RE-ENTRY`. The next day authored must be short,
 25 minutes total, and the card says why. **After a break the work gets easier, not
 harder** -- that rule is load-bearing, and it is the difference between a curriculum that
@@ -293,7 +299,10 @@ survives a bad week and one that dies in week five.
 ```
 
 Exactly three blocks. Every `bold` entry must be a substring of that block's `body`. Total
-minutes must be 45 to 65 on a build day. `kind` is `build`, except on days divisible by 7
+minutes must be 45 to 65 on a build day, and **the intake block must be at least as long as
+`source.length`** -- a 39-minute talk does not fit in a 25-minute block. If only part of a
+long piece is wanted, scope it in `length` ("28 min (stop before the SDK section)") and say
+where to stop in the block detail. The number on the card must be the time it really takes. `kind` is `build`, except on days divisible by 7
 where it is `bench_test` and `source` becomes optional. Set `"revisit": true` inside
 `source` when a second pass at the same URL is deliberate -- the Nothing role description
 is read three times, at weeks 1, 21 and 24. No HTML in the JSON; the script escapes and
