@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-14",
+      "edition": 19,
+      "note": "Themes: the skill file as the first honest audit of your own craft, the materiality threshold as a moat you get by arithmetic, retention as the deadline attached to make something people want. Sources: Lenny's Newsletter, A Smart Bear, andrewchen. Pairings: Grace Clarke x John Cutler, Jason Cohen x Ben Thompson, Andrew Chen x Paul Graham.",
+      "sparks": [
+        {
+          "pair": "Grace Clarke x John Cutler",
+          "headline": "Automating yourself starts by admitting what you do",
+          "source": "Lenny's Newsletter — Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+          "url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills"
+        },
+        {
+          "pair": "Jason Cohen x Ben Thompson",
+          "headline": "The best moat is arithmetic, not strategy",
+          "source": "A Smart Bear — How startups beat incumbents",
+          "url": "https://longform.asmartbear.com/startup-beats-incumbent/"
+        },
+        {
+          "pair": "Andrew Chen x Paul Graham",
+          "headline": "Make something people want, and you have thirty days to find out",
+          "source": "andrewchen — Why retention is so hard for new tech products",
+          "url": "https://andrewchen.substack.com/p/lessons-learned-from-staring-at-thousands"
+        }
+      ]
+    },
+    {
       "date": "2026-08-13",
       "edition": 18,
       "note": "Themes: the origin story as the one input that needs no market confirmation, a SaaS licence as rent on somebody else's finished cold start, the South star as an outcome metric pointed at harm. Sources: Lenny's Newsletter, SVPG, Product Talk. Pairings: Kristen Lowe x April Dunford, Marty Cagan x Andrew Chen, Teresa Torres x Melissa Perri.",

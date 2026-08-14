@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-14",
+  "edition": 19,
+  "framing": "Say what you do. Stay too small. Read the curve.",
+  "framing_vi": "Nói rõ bạn làm gì. Ở lại đủ nhỏ. Đọc đường cong.",
+  "note": "Themes: the skill file as the first honest audit of your own craft, the materiality threshold as a moat you get by arithmetic, retention as the deadline attached to make something people want. Sources: Lenny's Newsletter, A Smart Bear, andrewchen. Pairings: Grace Clarke x John Cutler, Jason Cohen x Ben Thompson, Andrew Chen x Paul Graham.",
+  "sparks": [
+    {
+      "title": "WRITE IT DOWN",
+      "title_vi": "VIẾT RA TRƯỚC",
+      "headline": "Automating yourself starts by admitting what you do",
+      "headline_vi": "Tự động hóa chính mình bắt đầu bằng việc nói rõ mình làm gì",
+      "a": {
+        "who": "Grace Clarke",
+        "what": "She runs her whole service business on tools she built in Claude: an hourly pipeline operator, a proposal maker, a Gmail replacement. The piece that makes the output sound like her is a voice guide skill file, and she teaches intent engineering rather than prompt engineering.",
+        "what_vi": "Cả business dịch vụ của cô chạy trên tool cô tự build trong Claude: một pipeline chạy mỗi tiếng, máy làm proposal, một bản thay Gmail. Thứ làm output nghe ra giọng cô là một skill file voice guide, và cô dạy intent engineering thay vì prompt engineering."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "Every capability you hand to a tool is a capability you stop getting reps at. Unbundling work to software quietly unbundles the skill from the people who had it.",
+        "what_vi": "Mỗi capability bạn giao cho tool là một capability bạn thôi được tập. Đẩy việc sang phần mềm cũng là lặng lẽ tách kỹ năng khỏi người từng có nó."
+      },
+      "result": "A voice guide is not a shortcut around the craft, it is the craft finally written down. The model only takes the part of your judgment you were able to say out loud, which makes the handoff an audit before it is a saving.",
+      "result_vi": "Voice guide không phải đường tắt vòng qua tay nghề, nó là tay nghề cuối cùng cũng được viết ra. Model chỉ nhận được phần judgment bạn nói thành lời được, nên bàn giao là một cuộc kiểm kê trước khi là một khoản tiết kiệm.",
+      "result_underline": "an audit before it is a saving",
+      "result_underline_vi": "một cuộc kiểm kê trước khi là một khoản tiết kiệm",
+      "tick": "Which part of your work could you not write a voice guide for yet?",
+      "tick_vi": "Phần nào trong việc của bạn vẫn chưa viết nổi thành voice guide?",
+      "tick_bold": ["could you not write a voice guide for"],
+      "tick_bold_vi": ["chưa viết nổi thành voice guide"],
+      "provocation": "Grace Clarke rebuilt her business on tools she wrote herself, and the load-bearing file is a voice guide. Cutler's warning is that automating a capability costs you the reps. Both are true, and the reconciliation is that you can only automate the part you can articulate.",
+      "provocation_vi": "Grace Clarke dựng lại business trên tool tự viết, và file gánh lực là một voice guide. Cutler cảnh báo tự động hóa một capability thì mất lượt tập. Cả hai đều đúng: bạn chỉ tự động hóa được phần bạn diễn đạt được.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+        "url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
+        "published": "2026-08-10"
+      }
+    },
+    {
+      "title": "TOO SMALL TO HIT",
+      "title_vi": "NHỎ QUÁ ĐỂ BẮN",
+      "headline": "The best moat is arithmetic, not strategy",
+      "headline_vi": "Moat tốt nhất là phép tính, không phải chiến lược",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "Incumbents have a materiality threshold. A new line has to move overall revenue by roughly ten percent, and one loaded product team costing two million a year has to carry ten million in revenue. Anything smaller is correctly rejected, so the larger the incumbent, the less a startup has to worry about it.",
+        "what_vi": "Công ty lớn có ngưỡng materiality. Một dòng sản phẩm mới phải kéo revenue tổng lên chừng mười phần trăm, và một team sản phẩm tốn hai triệu đô một năm phải gánh mười triệu revenue. Nhỏ hơn thì họ từ chối, và từ chối vậy là đúng. Nên đối thủ càng lớn, startup càng ít phải lo."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregation theory: the winners own demand and serve it at zero marginal cost, which means their economics only work on the undifferentiated middle of a market.",
+        "what_vi": "Aggregation theory: kẻ thắng sở hữu demand và phục vụ với chi phí biên bằng không, nghĩa là kinh tế của họ chỉ chạy được ở khúc giữa không khác biệt của thị trường."
+      },
+      "result": "Zero marginal cost is also zero appetite for the customer who needs a phone call. The aggregator is not ignoring your niche, it is structurally forbidden from it, and what protects you is a number too small to appear on their spreadsheet.",
+      "result_vi": "Chi phí biên bằng không cũng là khẩu vị bằng không với khách hàng cần một cuộc gọi. Aggregator không phải đang bỏ qua niche của bạn, về cấu trúc nó bị cấm vào, và thứ bảo vệ bạn là một con số nhỏ đến mức không hiện lên trên spreadsheet của họ.",
+      "result_underline": "a number too small to appear on their spreadsheet",
+      "result_underline_vi": "một con số nhỏ đến mức không hiện lên trên spreadsheet của họ",
+      "tick": "What is the smallest market that would still pay you enough?",
+      "tick_vi": "Thị trường nhỏ nhất nào vẫn đủ trả cho bạn?",
+      "tick_bold": ["smallest market"],
+      "tick_bold_vi": ["nhỏ nhất"],
+      "provocation": "Cohen's materiality threshold says a big company must reject a one million dollar niche. Aggregation theory says the biggest companies are the ones with the least room to serve anyone unusual. Together they describe a protected space you get for free.",
+      "provocation_vi": "Ngưỡng materiality của Cohen nói công ty lớn buộc phải từ chối một niche một triệu đô. Aggregation theory nói càng lớn càng ít chỗ để phục vụ người khác thường. Ghép lại là một khoảng được bảo vệ mà bạn có miễn phí.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "How startups beat incumbents",
+        "url": "https://longform.asmartbear.com/startup-beats-incumbent/",
+        "published": "2024-02-25"
+      }
+    },
+    {
+      "title": "THE CURVE KNOWS",
+      "title_vi": "ĐƯỜNG CONG BIẾT HẾT",
+      "headline": "Make something people want, and you have thirty days to find out",
+      "headline_vi": "Làm thứ người ta muốn, và bạn có ba mươi ngày để biết",
+      "a": {
+        "who": "Andrew Chen",
+        "what": "After fifteen years of retention curves: you cannot fix bad retention, you cannot test your way to it, and the curve only decays. A day one number of ten percent means you built something nobody wants, and the only real fix is a pivot large enough to change the product.",
+        "what_vi": "Sau mười lăm năm nhìn đường cong retention: không sửa được retention tệ, không test ra được nó, và đường cong chỉ đi xuống. D1 mười phần trăm nghĩa là bạn đã làm thứ không ai muốn, và cách sửa thật sự là một cú pivot đủ lớn để đổi cả sản phẩm."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Make something people want. The whole job of an early company is finding the thing users would be upset to lose.",
+        "what_vi": "Làm thứ người ta muốn. Việc duy nhất của một công ty giai đoạn sớm là tìm ra thứ user sẽ tiếc nếu mất."
+      },
+      "result": "Retention is that advice with a deadline attached. The curve tells you inside a month whether you made something people want, and every week after that you are not improving the answer, you are waiting for it to change on its own.",
+      "result_vi": "Retention là lời khuyên đó kèm deadline. Trong một tháng đường cong đã nói bạn có làm thứ người ta muốn hay không, và mỗi tuần sau đó bạn không cải thiện câu trả lời, bạn đang chờ nó tự đổi.",
+      "result_underline": "you are waiting for it to change on its own",
+      "result_underline_vi": "bạn đang chờ nó tự đổi",
+      "tick": "Are you improving the product, or waiting for the curve to forgive it?",
+      "tick_vi": "Bạn đang cải thiện sản phẩm, hay đang chờ đường cong tha cho nó?",
+      "tick_bold": ["waiting for the curve to forgive it"],
+      "tick_bold_vi": ["chờ đường cong tha cho nó"],
+      "provocation": "Chen has watched thousands of retention curves and reports that they never bend upward from a bad start. Read next to make something people want, that is not a note about metrics, it is a schedule: the answer arrives early and iteration cannot appeal it.",
+      "provocation_vi": "Chen đã nhìn hàng nghìn đường cong retention và kết luận chúng không bao giờ bật lên từ một khởi đầu tệ. Đặt cạnh làm thứ người ta muốn thì đây không phải ghi chú về metric, mà là một lịch trình: câu trả lời đến sớm và iteration không kháng cáo được.",
+      "source": {
+        "site": "andrewchen",
+        "title": "Why retention is so hard for new tech products",
+        "url": "https://andrewchen.substack.com/p/lessons-learned-from-staring-at-thousands",
+        "published": "2025-09-08"
+      }
+    }
+  ]
+}
