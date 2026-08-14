@@ -31,6 +31,15 @@ header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;ali
 .tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
 .src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
 .src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
 footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
 [data-l]{display:none}
 :root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
@@ -57,6 +66,7 @@ footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .
 <div class="op">=</div><div class="result"><div class="r"><span data-l="en">The model is the rentable leg and everyone rents the same one. What is left that is hard to copy is the record of how your team actually works, so <u>decide whose loop it trains</u>.</span><span data-l="vi">Model là cái chân đi thuê được, và ai cũng thuê đúng cái đó. Thứ còn lại mà khó copy là bản ghi cách team bạn thật sự làm việc, nên tự quyết đi: <u>nó train cho loop của ai</u>.</span></div></div></div>
 <div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did your team learn last week that lives somewhere <b>only you can query</b>?</span><span data-l="vi">Tuần rồi team bạn học được gì mà nó nằm ở chỗ <b>chỉ mình bạn query được</b>?</span></p></div>
 <div class="src-link"><a href="https://stratechery.com/2026/anthropics-safety-superpower/" target="_blank" rel="noopener">Stratechery — Anthropic&#x27;s Safety Superpower &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-09.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-09</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><a class="pn next" href="2026-08-11.html"><span class="ar">&rarr;</span><span class="dt"><span data-l="en">Next</span><span data-l="vi">Hôm sau</span><br>2026-08-11</span></a></nav>
 <footer><div class="label"><span data-l="en">Today: Adam Ward / Brian Balfour / Marty Cagan / Andrew Chen / Ben Thompson / Gibson Biddle<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Adam Ward / Brian Balfour / Marty Cagan / Andrew Chen / Ben Thompson / Gibson Biddle<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
 </div>
 <script>

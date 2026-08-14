@@ -157,6 +157,36 @@ def wrap_all(text, phrases, tag):
     return out
 
 
+def ednav(date, all_dates):
+    """Previous and next edition, plus the way back to the front door.
+
+    Sits at the foot of the card rather than the head: a spark is read once, top to
+    bottom, and nobody wants navigation competing with the first collision. Only
+    dates that exist are linked, so nothing here can 404.
+    """
+    older = max((d for d in all_dates if d < date), default=None)
+    newer = min((d for d in all_dates if d > date), default=None)
+
+    def side(d, arrow, label_en, label_vi, cls):
+        if not d:
+            return f'<span class="pn off">{arrow}</span>'
+        return (
+            f'<a class="pn {cls}" href="{esc(d)}.html">'
+            f'<span class="ar">{arrow}</span>'
+            f'<span class="dt"><span data-l="en">{label_en}</span>'
+            f'<span data-l="vi">{label_vi}</span><br>{esc(d)}</span></a>'
+        )
+
+    return (
+        '<nav class="ednav">'
+        + side(older, "&larr;", "Previous", "Hôm trước", "prev")
+        + '<a class="all" href="../../index.html">'
+        '<span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a>'
+        + side(newer, "&rarr;", "Next", "Hôm sau", "next")
+        + "</nav>"
+    )
+
+
 def render_html(date, doc, sparks):
     d = dt.date.fromisoformat(date)
     tokens = {
@@ -185,6 +215,7 @@ def render_html(date, doc, sparks):
             if who not in people:
                 people.append(who)
     tokens["SOURCES_NAMES"] = esc(" / ".join(people))
+    tokens["EDNAV"] = ednav(date, [d for d, _ in editions_on_disk()])
 
     out = TEMPLATE.read_text(encoding="utf-8")
     for k, v in tokens.items():

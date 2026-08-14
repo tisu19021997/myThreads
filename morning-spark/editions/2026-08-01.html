@@ -31,6 +31,15 @@ header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;ali
 .tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
 .src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
 .src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
 footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
 [data-l]{display:none}
 :root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
@@ -57,6 +66,7 @@ footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .
 <div class="op">=</div><div class="result"><div class="r"><span data-l="en">Twenty prototypes a week is twenty answers to a question nobody wrote down. Dunford supplies the missing sentence, compared to what. <u>Test the alternative, not the artefact</u>.</span><span data-l="vi">Hai mươi prototype một tuần là hai mươi câu trả lời cho một câu hỏi chưa ai viết ra. Dunford đưa cho bạn cái câu còn thiếu, so với cái gì. <u>Test cái lựa chọn thay thế, đừng test cái bạn vừa dựng</u>.</span></div></div></div>
 <div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What would this user do tomorrow <b>if my prototype did not exist</b>?</span><span data-l="vi">Ngày mai người dùng này sẽ làm gì <b>nếu prototype của bạn không tồn tại</b>?</span></p></div>
 <div class="src-link"><a href="https://www.svpg.com/build-to-learn-vs-build-to-earn/" target="_blank" rel="noopener">SVPG — Build to Learn vs Build to Earn &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-07-31.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-07-31</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><a class="pn next" href="2026-08-02.html"><span class="ar">&rarr;</span><span class="dt"><span data-l="en">Next</span><span data-l="vi">Hôm sau</span><br>2026-08-02</span></a></nav>
 <footer><div class="label"><span data-l="en">Today: Jason Cohen / Teresa Torres / John Cutler / Brian Balfour / Marty Cagan / April Dunford<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Jason Cohen / Teresa Torres / John Cutler / Brian Balfour / Marty Cagan / April Dunford<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
 </div>
 <script>

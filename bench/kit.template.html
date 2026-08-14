@@ -6,13 +6,16 @@ body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helv
 .mono,.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace}
 .label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
 
-.nav{display:flex;gap:2px;margin-top:14px;flex-wrap:wrap}
-.nav a{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--dim);text-decoration:none;padding:8px 12px;
-  border:1px solid var(--hair);line-height:1}
-.nav a:hover{color:var(--accent);border-color:var(--accent)}
-.nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:var(--ground);font-weight:700}
-.nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.crumb{display:flex;align-items:center;gap:8px;margin-top:14px;white-space:nowrap;
+  overflow-x:auto;scrollbar-width:none;padding-bottom:2px;
+  font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase}
+.crumb::-webkit-scrollbar{display:none}
+.crumb a{color:var(--dim);text-decoration:none}
+.crumb a:hover,.crumb a:focus-visible{color:var(--accent)}
+.crumb .sep{color:var(--hair)}
+.crumb .here{color:var(--accent);font-weight:700}
+.crumb .sib{margin-left:auto;display:flex;gap:12px;padding-left:16px}
 header{padding:32px 0 0}
 .brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 .brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}

@@ -349,25 +349,34 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
-def nav(current, up, latest=None):
-    """The bar that appears on every Bench page, in the same place, always visible.
+def nav(current, up, latest=None, here=""):
+    """Breadcrumb plus sibling links, on one line that never wraps.
+
+    Class is `crumb`, not `nav`: the kit page's slider already owns `.nav` for its
+    42px transport buttons, and the collision collapsed this to 42px wide on a phone.
 
     `up` is the prefix back to the bench/ directory, so a day card passes "../" and
-    the hub pages pass "". Footer links were not navigation; nobody finds them.
+    the hub pages pass "".
     """
-    items = [
-        ("today", f"{up}editions/{stem(latest)}.html" if latest else None, "day"),
+    sibs = [
         ("build log", f"{up}progress.html", "progress"),
         ("kit", f"{up}kit.html", "kit"),
-        ("threads", f"{up}../index.html", "threads"),
     ]
-    out = []
-    for label, href, key in items:
-        if href is None:
-            continue
-        cur = ' aria-current="page"' if key == current else ""
-        out.append(f'<a href="{esc(href)}"{cur}>{label}</a>')
-    return f'<nav class="nav">{"".join(out)}</nav>'
+    if latest is not None and current != "day":
+        sibs.insert(0, ("today", f"{up}editions/{stem(latest)}.html", "day"))
+    rest = "".join(
+        f'<a href="{esc(href)}">{label}</a>' for label, href, key in sibs if key != current
+    )
+    return (
+        '<nav class="crumb" aria-label="Breadcrumb">'
+        f'<a href="{esc(up)}../index.html">myThreads</a>'
+        '<span class="sep">&rsaquo;</span>'
+        f'<a href="{esc(up)}progress.html">Bench</a>'
+        '<span class="sep">&rsaquo;</span>'
+        f'<span class="here">{esc(here)}</span>'
+        f'<span class="sib">{rest}</span>'
+        "</nav>"
+    )
 
 
 def wrap_all(text, phrases, tag):
@@ -533,7 +542,7 @@ def render_html(day, doc, blocks, total, st):
         "MILESTONE": esc(phase["milestone"]),
         "PROJECT": project,
         "PREP": prep,
-        "NAV": nav("day", "../", latest=max((d for d, _ in delivered_days()), default=day)),
+        "NAV": nav("day", "../", here=f"Day {stem(day)}"),
         "DAYNAV": daynav(day),
         "BANNER": (
             '<div class="banner">Two days quiet. This one is deliberately short. '
@@ -716,7 +725,7 @@ def rebuild_progress(entries, st):
 
     pct = round(st["completed"] / TOTAL_DAYS * 100)
     tokens = {
-        "NAV": nav("progress", "", latest=max((e["day"] for e in entries), default=None)),
+        "NAV": nav("progress", "", latest=max((e["day"] for e in entries), default=None), here="Build log"),
         "DONE": str(st["completed"]),
         "TOTAL": str(TOTAL_DAYS),
         "PCT": str(pct),
@@ -845,7 +854,7 @@ def rebuild_kit(st):
     )
 
     tokens = {
-        "NAV": nav("kit", "", latest=max((d for d, _ in delivered_days()), default=None)),
+        "NAV": nav("kit", "", latest=max((d for d, _ in delivered_days()), default=None), here="Kit"),
         "CARDS": "".join(cards),
         "STEPS": "".join(steps),
         "COUNT": f"{len(items):02d}",
