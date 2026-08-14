@@ -5,6 +5,14 @@ body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helv
 .wrap{max-width:640px;margin:0 auto;padding:0 24px}
 .label,.mono{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace}
 .label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+
+.nav{display:flex;gap:2px;margin-top:14px;flex-wrap:wrap}
+.nav a{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--dim);text-decoration:none;padding:8px 12px;
+  border:1px solid var(--hair);line-height:1}
+.nav a:hover{color:var(--accent);border-color:var(--accent)}
+.nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:var(--ground);font-weight:700}
+.nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 header{padding:32px 0 0}
 .brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 .brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
@@ -67,6 +75,12 @@ header{padding:32px 0 0}
 .obj p{font-size:14px;color:#C0BCB2;margin-top:6px;line-height:1.5}
 .obj a{color:var(--accent);text-decoration:none}.obj a:hover{text-decoration:underline}
 footer{margin-top:30px;padding-top:20px;border-top:1px solid var(--hair)}
+.daynav{display:flex;align-items:center;gap:10px;margin-top:20px;padding-top:16px;border-top:1px solid var(--hair)}
+.daynav .pn,.daynav .all{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.1em;
+  text-transform:uppercase;text-decoration:none;padding:9px 13px;border:1px solid var(--hair);color:var(--ink);line-height:1}
+.daynav .all{flex:1;text-align:center;color:var(--dim)}
+.daynav a:hover{border-color:var(--accent);color:var(--accent)}
+.daynav .off{opacity:.28;color:var(--dim)}
 .stats{display:flex;gap:26px;flex-wrap:wrap}
 .stat .k{display:block;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
 .stat .v{display:block;font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;margin-top:3px}
@@ -78,6 +92,7 @@ footer{margin-top:30px;padding-top:20px;border-top:1px solid var(--hair)}
 <header>
 <div class="brandrow"><div class="brand">Bench<span class="d">.</span></div>
 <div class="dayno">Day <b>[[DAY]]</b> / [[TOTAL]] &nbsp; [[KIND]]</div></div>
+[[NAV]]
 <div class="meta label">P[[PHASE_N]] [[PHASE]] &nbsp;/&nbsp; W[[WEEK]] [[WEEK_TITLE]] &nbsp;/&nbsp; day [[DAY_IN_WEEK]] of 7</div>
 <div class="rail">[[RAIL]]</div>
 </header>
@@ -98,6 +113,6 @@ out of time? add --partial: keeps the streak, finishes this day tomorrow</div></
 <footer>
 <div class="stats">[[STATS]]<div class="stat"><span class="k">today</span><span class="v">[[TOTAL_MIN]]m</span></div></div>
 <p class="ms">Phase milestone: <b>[[MILESTONE]]</b></p>
-<p class="links"><a href="../progress.html">build log</a><a href="../kit.html">kit list</a><a href="../../index.html">threads</a></p>
+[[DAYNAV]]
 </footer>
 </div></body></html>

@@ -5,6 +5,14 @@ body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helv
 .wrap{max-width:720px;margin:0 auto;padding:0 24px}
 .mono,.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace}
 .label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+
+.nav{display:flex;gap:2px;margin-top:14px;flex-wrap:wrap}
+.nav a{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--dim);text-decoration:none;padding:8px 12px;
+  border:1px solid var(--hair);line-height:1}
+.nav a:hover{color:var(--accent);border-color:var(--accent)}
+.nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:var(--ground);font-weight:700}
+.nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 header{padding:32px 0 0}
 .brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 .brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
@@ -96,6 +104,7 @@ footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
 @media(prefers-reduced-motion:reduce){.rail{scroll-behavior:auto}}
 </style></head><body><div class="wrap">
 <header><div class="brandrow"><div class="brand">Bench<span class="d">.</span></div><div class="label">kit list</div></div>
+<nav class="nav"><a href="editions/001.html">today</a><a href="progress.html">build log</a><a href="kit.html" aria-current="page">kit</a><a href="../index.html">threads</a></nav>
 <h1>What to buy, and by when.</h1>
 <p class="sub">Every part the course needs, filed under the week the order must be placed. Links are searches, not product pages, so they keep working after a seller delists. Prices are rough, in VND. Ticks save in this browser.</p>
 <div class="readout">
@@ -118,8 +127,7 @@ footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
 
 <div id="peek" aria-hidden="true"><span class="big" id="peekimg"></span><span class="cap" id="peekcap"></span><span class="sub2">roughly what to look for</span></div>
 <section class="shops"><h2>Where to go</h2><ul><li><span class="nm"><a href="https://hshop.vn/" target="_blank" rel="noopener">Hshop</a></span><span class="ad">40/12 Lu Gia, P.15, Q.11, HCMC</span><span class="nt">Maker favourite. Modules, sensors, dev boards. Ships nationwide in 1-3 days.</span></li><li><span class="nm"><a href="https://nshopvn.com/" target="_blank" rel="noopener">Nshop</a></span><span class="ad">1 Bui Xuan Phai, Tay Thanh, Tan Phu, HCMC</span><span class="nt">Same category as Hshop. Cross-check stock and price between the two.</span></li><li><span class="nm"><a href="https://www.thegioiic.com/" target="_blank" rel="noopener">TheGioiIC</a></span><span class="ad">Q.10, HCMC</span><span class="nt">Serious component distributor. Go here for discretes, passives, connectors, ICs by part number.</span></li><li><span class="nm"><a href="https://icdayroi.com/" target="_blank" rel="noopener">ICDayRoi</a></span><span class="ad">HCMC</span><span class="nt">Good for odd single components and ICs.</span></li><li><span class="nm">NhatTao</span><span class="ad">Cho Nhat Tao, Q.10, HCMC</span><span class="nt">The physical market. Go in person for tools, wire, connectors, salvage, and to handle parts before buying. Haggle.</span></li><li><span class="nm"><a href="https://shopee.vn/" target="_blank" rel="noopener">Shopee</a></span><span class="ad">online</span><span class="nt">Cheapest for generic tools, craft supplies, consumables. Check seller rating; 2-5 days.</span></li><li><span class="nm"><a href="https://jlcpcb.com/" target="_blank" rel="noopener">JLCPCB</a></span><span class="ad">online, ships to VN</span><span class="nt">PCB fab. 5 boards from about 2 USD plus shipping. DHL to VN is roughly 5-10 days.</span></li><li><span class="nm"><a href="https://watchy.sqfmi.com/" target="_blank" rel="noopener">SQFMI</a></span><span class="ad">online, ships from abroad</span><span class="nt">Watchy itself. Longest lead time of anything on this list. Order it early or plan a substitute.</span></li><li><span class="nm"><a href="https://vi.aliexpress.com/" target="_blank" rel="noopener">AliExpress</a></span><span class="ad">online, ships from abroad</span><span class="nt">For parts no HCMC shop stocks. Cheap, but two to five weeks to Vietnam. Order in week 1 or not at all.</span></li><li><span class="nm"><a href="https://www.crowdsupply.com/sqfmi/watchy" target="_blank" rel="noopener">CrowdSupply</a></span><span class="ad">online, fulfilled by Mouser Electronics (Texas)</span><span class="nt">Second channel for Watchy. Lists 59 USD, in stock, ships in 3 business days, but 18 USD worldwide shipping against SQFMI&#x27;s 5.99. Pricier, more reliable pipe.</span></li></ul></section>
-<footer><a href="progress.html">build log</a><a href="../index.html">threads</a><br>
-Order early. A part that arrives the week after you needed it has already cost you the project.</footer>
+<footer>Order early. A part that arrives the week after you needed it has already cost you the project.</footer>
 </div>
 <script>
 (function(){

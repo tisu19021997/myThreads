@@ -349,11 +349,56 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+def nav(current, up, latest=None):
+    """The bar that appears on every Bench page, in the same place, always visible.
+
+    `up` is the prefix back to the bench/ directory, so a day card passes "../" and
+    the hub pages pass "". Footer links were not navigation; nobody finds them.
+    """
+    items = [
+        ("today", f"{up}editions/{stem(latest)}.html" if latest else None, "day"),
+        ("build log", f"{up}progress.html", "progress"),
+        ("kit", f"{up}kit.html", "kit"),
+        ("threads", f"{up}../index.html", "threads"),
+    ]
+    out = []
+    for label, href, key in items:
+        if href is None:
+            continue
+        cur = ' aria-current="page"' if key == current else ""
+        out.append(f'<a href="{esc(href)}"{cur}>{label}</a>')
+    return f'<nav class="nav">{"".join(out)}</nav>'
+
+
 def wrap_all(text, phrases, tag):
     out = esc(text)
     for p in phrases:
         out = out.replace(esc(p), f"<{tag}>{esc(p)}</{tag}>", 1)
     return out
+
+
+def daynav(day):
+    """Previous and next day, so a card is not a dead end.
+
+    Only links days that were actually delivered; a stub pointing at an unwritten
+    day would 404 on Pages.
+    """
+    have = {d for d, _ in delivered_days()} | {day}
+    prev = max((d for d in have if d < day), default=None)
+    nxt = min((d for d in have if d > day), default=None)
+    left = (
+        f'<a class="pn" href="{stem(prev)}.html">&larr; {stem(prev)}</a>'
+        if prev else '<span class="pn off">&larr;</span>'
+    )
+    right = (
+        f'<a class="pn" href="{stem(nxt)}.html">{stem(nxt)} &rarr;</a>'
+        if nxt else '<span class="pn off">&rarr;</span>'
+    )
+    return (
+        f'<div class="daynav">{left}'
+        '<a class="all" href="../progress.html">all days</a>'
+        f"{right}</div>"
+    )
 
 
 def render_html(day, doc, blocks, total, st):
@@ -488,6 +533,8 @@ def render_html(day, doc, blocks, total, st):
         "MILESTONE": esc(phase["milestone"]),
         "PROJECT": project,
         "PREP": prep,
+        "NAV": nav("day", "../", latest=max((d for d, _ in delivered_days()), default=day)),
+        "DAYNAV": daynav(day),
         "BANNER": (
             '<div class="banner">Two days quiet. This one is deliberately short. '
             "Just get back on the bench.</div>"
@@ -669,6 +716,7 @@ def rebuild_progress(entries, st):
 
     pct = round(st["completed"] / TOTAL_DAYS * 100)
     tokens = {
+        "NAV": nav("progress", "", latest=max((e["day"] for e in entries), default=None)),
         "DONE": str(st["completed"]),
         "TOTAL": str(TOTAL_DAYS),
         "PCT": str(pct),
@@ -797,6 +845,7 @@ def rebuild_kit(st):
     )
 
     tokens = {
+        "NAV": nav("kit", "", latest=max((d for d, _ in delivered_days()), default=None)),
         "CARDS": "".join(cards),
         "STEPS": "".join(steps),
         "COUNT": f"{len(items):02d}",

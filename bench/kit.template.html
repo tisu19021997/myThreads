@@ -5,6 +5,14 @@ body{background:var(--ground);color:var(--ink);font-family:"Helvetica Neue",Helv
 .wrap{max-width:720px;margin:0 auto;padding:0 24px}
 .mono,.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace}
 .label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+
+.nav{display:flex;gap:2px;margin-top:14px;flex-wrap:wrap}
+.nav a{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--dim);text-decoration:none;padding:8px 12px;
+  border:1px solid var(--hair);line-height:1}
+.nav a:hover{color:var(--accent);border-color:var(--accent)}
+.nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:var(--ground);font-weight:700}
+.nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 header{padding:32px 0 0}
 .brandrow{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 .brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
@@ -96,6 +104,7 @@ footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
 @media(prefers-reduced-motion:reduce){.rail{scroll-behavior:auto}}
 </style></head><body><div class="wrap">
 <header><div class="brandrow"><div class="brand">Bench<span class="d">.</span></div><div class="label">kit list</div></div>
+[[NAV]]
 <h1>What to buy, and by when.</h1>
 <p class="sub">Every part the course needs, filed under the week the order must be placed. Links are searches, not product pages, so they keep working after a seller delists. Prices are rough, in VND. Ticks save in this browser.</p>
 <div class="readout">
@@ -118,8 +127,7 @@ footer a{color:var(--dim);text-decoration:underline;margin-right:14px}
 
 <div id="peek" aria-hidden="true"><span class="big" id="peekimg"></span><span class="cap" id="peekcap"></span><span class="sub2">roughly what to look for</span></div>
 <section class="shops"><h2>Where to go</h2><ul>[[SHOPS]]</ul></section>
-<footer><a href="progress.html">build log</a><a href="../index.html">threads</a><br>
-Order early. A part that arrives the week after you needed it has already cost you the project.</footer>
+<footer>Order early. A part that arrives the week after you needed it has already cost you the project.</footer>
 </div>
 <script>
 (function(){
