@@ -67,6 +67,12 @@
       "where": "online, ships from abroad",
       "note": "For parts no HCMC shop stocks. Cheap, but two to five weeks to Vietnam. Order in week 1 or not at all.",
       "search_url": "https://vi.aliexpress.com/wholesale?SearchText={q}"
+    },
+    "CrowdSupply": {
+      "url": "https://www.crowdsupply.com/sqfmi/watchy",
+      "where": "online, fulfilled by Mouser Electronics (Texas)",
+      "note": "Second channel for Watchy. Lists 59 USD, in stock, ships in 3 business days, but 18 USD worldwide shipping against SQFMI's 5.99. Pricier, more reliable pipe.",
+      "search_url": "https://www.crowdsupply.com/sqfmi/watchy"
     }
   },
   "kit": {
@@ -382,12 +388,13 @@
       "name": "Watchy v3 (SQFMI)",
       "why": "Your dissection specimen: open hardware, open firmware, real power-management behaviour. Ships E-express to Vietnam in 7-14 business days, so it is not the long pole -- the DRV2605L is. Order it in week 1 anyway; it is the one part week 8 is built around.",
       "where": [
-        "SQFMI"
+        "SQFMI",
+        "CrowdSupply"
       ],
-      "vnd": "board price at checkout, plus 5.99 USD shipping",
-      "lead": "7-14 business days (E-express, 5.99 USD)",
+      "vnd": "59 USD kit (Crowd Supply listed) + shipping: 5.99 direct from SQFMI, or 18 via Crowd Supply",
+      "lead": "7-14 business days direct, or 3 business days via Crowd Supply",
       "search": [],
-      "note_verified": "Shipping verified at SQFMI checkout 2026-08-13: E-express, 7-14 business days, 5.99 USD to Vietnam."
+      "note_verified": "Crowd Supply 2026-08-14: Watchy Kit 59 USD, in stock, 18 USD worldwide. SQFMI direct checkout: E-express 7-14 business days, 5.99 USD. Board price at SQFMI not fetchable -- their shop blocks scripted requests."
     },
     "haptic_lra": {
       "name": "DRV2605L haptic driver breakout + LRA motor",
