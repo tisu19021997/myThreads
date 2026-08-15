@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 15</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 20</div></div></div>
+<div class="meta label">Saturday, August 15, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE SAME ARGUMENT</span><span data-l="vi">CUỘC CÃI CŨ</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Prioritization has two halves: the judgement about what deserves investment, and what actually moves. Nobody ever retros the framework. They say they lacked the conviction to stop something, and the tensions that keep resurfacing are where the real decisions were hiding.</span><span data-l="vi">Prioritization có hai nửa: phán xét cái gì đáng đầu tư, và cái gì thật sự nhúc nhích. Chưa ai retro cái framework bao giờ. Họ chỉ nói là không đủ bản lĩnh để dừng một thứ lại, và những căng thẳng cứ quay lại mới là chỗ quyết định thật đang nằm.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">Pick a proxy metric you can move this quarter that predicts the outcome you actually want years out, because the real outcome reports back far too late to steer by.</span><span data-l="vi">Chọn một proxy metric bạn đẩy được trong quý này nhưng dự báo được outcome bạn thật sự muốn vài năm sau, vì outcome thật báo về quá trễ để mà lái.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The argument your team has had three quarters running is already a proxy metric, and a better one than the scorecard: it predicts which bets will quietly rot long before any number does. <u>You just never scored it.</u></span><span data-l="vi">Cuộc tranh cãi team bạn lặp lại ba quý liền đã là một proxy metric rồi, còn chuẩn hơn cả scorecard: nó dự báo được bet nào sẽ âm thầm mục ruỗng trước khi bất kỳ con số nào kịp lên tiếng. <u>Chỉ là bạn chưa bao giờ chấm điểm nó.</u></span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which argument has my team had <b>three times without deciding anything</b>?</span><span data-l="vi">Cuộc cãi nào team mình đã lặp lại <b>ba lần mà chưa quyết được gì</b>?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-436-tension-based-prioritization" target="_blank" rel="noopener">The Beautiful Mess — TBM 436: Tension-Based Prioritization (A Non-Framework) &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">WRITE TO FIND OUT</span><span data-l="vi">VIẾT ĐỂ NGHĨ RA</span></span></div>
+<div class="eq"><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">An essay is something you write to figure something out, and its impact is how much it changes the reader&#x27;s thinking multiplied by how much the topic matters. He is not aiming at any particular reader; he is trying to surprise himself.</span><span data-l="vi">Essay là thứ bạn viết để nghĩ ra một điều gì đó, và sức nặng của nó bằng mức độ nó làm người đọc đổi cách nghĩ nhân với độ quan trọng của chủ đề. Ông không nhắm vào lớp độc giả nào cả; ông đang cố làm chính mình bất ngờ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">The build trap is shipping output and calling it progress. Strategy is a set of decisions clear enough that people can act on them, and fuzzy strategy leaves everyone guessing while looking busy.</span><span data-l="vi">Build trap là ship output rồi gọi đó là tiến độ. Strategy là một chuỗi quyết định đủ rõ để người ta hành động được, còn strategy mờ thì để ai cũng đoán mò trong khi trông rất bận.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Score your strategy doc the way Graham scores an essay: how much did it change what someone does on Monday, times how much that thing matters. If it only ratifies a call already made in a room, it was <u>written to record, not to figure out</u>.</span><span data-l="vi">Chấm điểm strategy doc của bạn đúng cách Graham chấm một essay: nó đổi được bao nhiêu việc ai đó làm vào thứ Hai, nhân với độ quan trọng của việc đó. Nếu nó chỉ hợp thức hóa một quyết định đã chốt trong phòng họp, thì nó được viết <u>để ghi lại, chứ không phải để nghĩ ra</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Did my last strategy doc <b>surprise me while I was writing it</b>?</span><span data-l="vi">Cái strategy doc gần nhất có <b>làm mình bất ngờ lúc đang viết</b> không?</span></p></div>
+<div class="src-link"><a href="https://paulgraham.com/field.html" target="_blank" rel="noopener">Paul Graham — The Shape of the Essay Field &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">WHO PRICES YOUR REACH</span><span data-l="vi">AI ĐỊNH GIÁ ĐƯỜNG ĐẾN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Channels are determined by your model. Your revenue per user sets the acquisition cost you can afford, and the middle of that spectrum is a danger zone: too much friction for cheap channels, too little revenue for expensive ones.</span><span data-l="vi">Channel được quyết định bởi model của bạn. Doanh thu trên mỗi user định ra mức CAC bạn gồng được, và khúc giữa của phổ đó là vùng nguy hiểm: quá nhiều friction cho channel rẻ, quá ít doanh thu cho channel đắt.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Aggregators win by owning the demand side at zero marginal cost of distribution, which commoditizes everyone supplying through them and lets the aggregator set the terms of reach.</span><span data-l="vi">Aggregator thắng nhờ nắm phía demand với chi phí phân phối biên bằng không, khiến mọi bên cung ứng qua nó bị commodity hóa, và aggregator là bên đặt luật chơi cho đường đến khách.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Balfour&#x27;s rule assumed you owned the pricing lever that picked your channel. Once an agent does the buying, the aggregator&#x27;s cost of serving that request sets your acquisition cost, not your ARPU. The danger zone is still real, but <u>you no longer draw its edges</u>.</span><span data-l="vi">Quy tắc của Balfour giả định bạn nắm cái cần giá để chọn channel. Một khi agent là bên đi mua, chi phí phục vụ request của aggregator mới định ra CAC của bạn, chứ không phải ARPU. Vùng nguy hiểm vẫn còn đó, nhưng <u>bạn không còn là người vẽ đường biên của nó</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If an agent bought my product <b>on the user&#x27;s behalf</b>, <b>what would my CAC be</b>?</span><span data-l="vi">Nếu một agent mua sản phẩm mình <b>thay cho user</b>, <b>CAC của mình sẽ là bao nhiêu</b>?</span></p></div>
+<div class="src-link"><a href="https://brianbalfour.com/essays/channel-model-fit-for-user-acquisition" target="_blank" rel="noopener">Brian Balfour — Get Out of the ARPU-CAC Danger Zone with Channel Model Fit &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-14.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-14</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: John Cutler / Gibson Biddle / Paul Graham / Melissa Perri / Brian Balfour / Ben Thompson<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: John Cutler / Gibson Biddle / Paul Graham / Melissa Perri / Brian Balfour / Ben Thompson<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

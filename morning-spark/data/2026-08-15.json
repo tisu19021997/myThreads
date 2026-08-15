@@ -1,0 +1,119 @@
+{
+  "date": "2026-08-15",
+  "edition": 20,
+  "framing": "Three times the real decision sits outside the frame.",
+  "framing_vi": "Ba lần quyết định thật nằm ngoài cái khung bạn đang nhìn.",
+  "note": "Themes: the recurring argument as a leading indicator, the strategy doc judged as an essay, distribution priced by whoever owns demand. Sources: The Beautiful Mess, Paul Graham, Brian Balfour. Pairings: John Cutler x Gibson Biddle, Paul Graham x Melissa Perri, Brian Balfour x Ben Thompson.",
+  "sparks": [
+    {
+      "title": "THE SAME ARGUMENT",
+      "title_vi": "CUỘC CÃI CŨ",
+      "headline": "Your recurring fight is the honest metric",
+      "headline_vi": "Cuộc cãi lặp đi lặp lại mới là metric thật",
+      "a": {
+        "who": "John Cutler",
+        "what": "Prioritization has two halves: the judgement about what deserves investment, and what actually moves. Nobody ever retros the framework. They say they lacked the conviction to stop something, and the tensions that keep resurfacing are where the real decisions were hiding.",
+        "what_vi": "Prioritization có hai nửa: phán xét cái gì đáng đầu tư, và cái gì thật sự nhúc nhích. Chưa ai retro cái framework bao giờ. Họ chỉ nói là không đủ bản lĩnh để dừng một thứ lại, và những căng thẳng cứ quay lại mới là chỗ quyết định thật đang nằm."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "Pick a proxy metric you can move this quarter that predicts the outcome you actually want years out, because the real outcome reports back far too late to steer by.",
+        "what_vi": "Chọn một proxy metric bạn đẩy được trong quý này nhưng dự báo được outcome bạn thật sự muốn vài năm sau, vì outcome thật báo về quá trễ để mà lái."
+      },
+      "result": "The argument your team has had three quarters running is already a proxy metric, and a better one than the scorecard: it predicts which bets will quietly rot long before any number does. You just never scored it.",
+      "result_vi": "Cuộc tranh cãi team bạn lặp lại ba quý liền đã là một proxy metric rồi, còn chuẩn hơn cả scorecard: nó dự báo được bet nào sẽ âm thầm mục ruỗng trước khi bất kỳ con số nào kịp lên tiếng. Chỉ là bạn chưa bao giờ chấm điểm nó.",
+      "result_underline": "You just never scored it.",
+      "result_underline_vi": "Chỉ là bạn chưa bao giờ chấm điểm nó.",
+      "tick": "Which argument has my team had three times without deciding anything?",
+      "tick_vi": "Cuộc cãi nào team mình đã lặp lại ba lần mà chưa quyết được gì?",
+      "tick_bold": [
+        "three times without deciding anything"
+      ],
+      "tick_bold_vi": [
+        "ba lần mà chưa quyết được gì"
+      ],
+      "provocation": "Cutler argues teams prioritize better by watching the tensions they keep re-enacting than by scoring options. Biddle argues you steer by a proxy metric that reports back early. Put together: the fight you keep having reports back earliest of all, and it is free.",
+      "provocation_vi": "Cutler cho rằng team prioritize tốt hơn khi nhìn vào những căng thẳng cứ diễn lại, thay vì chấm điểm các lựa chọn. Biddle thì lái bằng một proxy metric báo về sớm. Ghép lại: cuộc cãi bạn cứ lặp lại chính là cái báo về sớm nhất, và nó miễn phí.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 436: Tension-Based Prioritization (A Non-Framework)",
+        "url": "https://cutlefish.substack.com/p/tbm-436-tension-based-prioritization",
+        "published": "2026-08-14"
+      }
+    },
+    {
+      "title": "WRITE TO FIND OUT",
+      "title_vi": "VIẾT ĐỂ NGHĨ RA",
+      "headline": "A strategy doc that surprises nobody is output",
+      "headline_vi": "Strategy doc không làm ai bất ngờ thì chỉ là output",
+      "a": {
+        "who": "Paul Graham",
+        "what": "An essay is something you write to figure something out, and its impact is how much it changes the reader's thinking multiplied by how much the topic matters. He is not aiming at any particular reader; he is trying to surprise himself.",
+        "what_vi": "Essay là thứ bạn viết để nghĩ ra một điều gì đó, và sức nặng của nó bằng mức độ nó làm người đọc đổi cách nghĩ nhân với độ quan trọng của chủ đề. Ông không nhắm vào lớp độc giả nào cả; ông đang cố làm chính mình bất ngờ."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "The build trap is shipping output and calling it progress. Strategy is a set of decisions clear enough that people can act on them, and fuzzy strategy leaves everyone guessing while looking busy.",
+        "what_vi": "Build trap là ship output rồi gọi đó là tiến độ. Strategy là một chuỗi quyết định đủ rõ để người ta hành động được, còn strategy mờ thì để ai cũng đoán mò trong khi trông rất bận."
+      },
+      "result": "Score your strategy doc the way Graham scores an essay: how much did it change what someone does on Monday, times how much that thing matters. If it only ratifies a call already made in a room, it was written to record, not to figure out.",
+      "result_vi": "Chấm điểm strategy doc của bạn đúng cách Graham chấm một essay: nó đổi được bao nhiêu việc ai đó làm vào thứ Hai, nhân với độ quan trọng của việc đó. Nếu nó chỉ hợp thức hóa một quyết định đã chốt trong phòng họp, thì nó được viết để ghi lại, chứ không phải để nghĩ ra.",
+      "result_underline": "written to record, not to figure out",
+      "result_underline_vi": "để ghi lại, chứ không phải để nghĩ ra",
+      "tick": "Did my last strategy doc surprise me while I was writing it?",
+      "tick_vi": "Cái strategy doc gần nhất có làm mình bất ngờ lúc đang viết không?",
+      "tick_bold": [
+        "surprise me while I was writing it"
+      ],
+      "tick_bold_vi": [
+        "làm mình bất ngờ lúc đang viết"
+      ],
+      "provocation": "Graham says an essay exists to change thinking, and the writer's own thinking first. Perri says strategy is only real when someone can act on it. Both point at the same test, and most strategy docs fail it: nothing in them was discovered by writing them.",
+      "provocation_vi": "Graham nói essay tồn tại để đổi cách nghĩ, và trước hết là cách nghĩ của chính người viết. Perri nói strategy chỉ thật khi có người hành động được theo nó. Cả hai chỉ về cùng một phép thử, và phần lớn strategy doc trượt: không có gì trong đó được tìm ra nhờ việc viết nó ra.",
+      "source": {
+        "site": "Paul Graham",
+        "title": "The Shape of the Essay Field",
+        "url": "https://paulgraham.com/field.html",
+        "published": "2025-06-01"
+      }
+    },
+    {
+      "title": "WHO PRICES YOUR REACH",
+      "title_vi": "AI ĐỊNH GIÁ ĐƯỜNG ĐẾN",
+      "headline": "The danger zone moved, and not by your hand",
+      "headline_vi": "Vùng nguy hiểm đã dịch chỗ, và không phải do bạn",
+      "a": {
+        "who": "Brian Balfour",
+        "what": "Channels are determined by your model. Your revenue per user sets the acquisition cost you can afford, and the middle of that spectrum is a danger zone: too much friction for cheap channels, too little revenue for expensive ones.",
+        "what_vi": "Channel được quyết định bởi model của bạn. Doanh thu trên mỗi user định ra mức CAC bạn gồng được, và khúc giữa của phổ đó là vùng nguy hiểm: quá nhiều friction cho channel rẻ, quá ít doanh thu cho channel đắt."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregators win by owning the demand side at zero marginal cost of distribution, which commoditizes everyone supplying through them and lets the aggregator set the terms of reach.",
+        "what_vi": "Aggregator thắng nhờ nắm phía demand với chi phí phân phối biên bằng không, khiến mọi bên cung ứng qua nó bị commodity hóa, và aggregator là bên đặt luật chơi cho đường đến khách."
+      },
+      "result": "Balfour's rule assumed you owned the pricing lever that picked your channel. Once an agent does the buying, the aggregator's cost of serving that request sets your acquisition cost, not your ARPU. The danger zone is still real, but you no longer draw its edges.",
+      "result_vi": "Quy tắc của Balfour giả định bạn nắm cái cần giá để chọn channel. Một khi agent là bên đi mua, chi phí phục vụ request của aggregator mới định ra CAC của bạn, chứ không phải ARPU. Vùng nguy hiểm vẫn còn đó, nhưng bạn không còn là người vẽ đường biên của nó.",
+      "result_underline": "you no longer draw its edges",
+      "result_underline_vi": "bạn không còn là người vẽ đường biên của nó",
+      "tick": "If an agent bought my product on the user's behalf, what would my CAC be?",
+      "tick_vi": "Nếu một agent mua sản phẩm mình thay cho user, CAC của mình sẽ là bao nhiêu?",
+      "tick_bold": [
+        "on the user's behalf",
+        "what would my CAC be"
+      ],
+      "tick_bold_vi": [
+        "thay cho user",
+        "CAC của mình sẽ là bao nhiêu"
+      ],
+      "provocation": "Balfour showed that your model picks your channel, and that the middle of the ARPU spectrum kills companies. Thompson showed that whoever owns demand sets the terms. When the channel becomes an agent, pricing stops being a growth decision you make and becomes one made about you.",
+      "provocation_vi": "Balfour chỉ ra rằng model chọn channel cho bạn, và khúc giữa của phổ ARPU giết công ty. Thompson chỉ ra rằng ai nắm demand thì bên đó đặt luật. Khi channel trở thành một agent, định giá không còn là quyết định growth bạn đưa ra, mà là quyết định người ta đưa ra về bạn.",
+      "source": {
+        "site": "Brian Balfour",
+        "title": "Get Out of the ARPU-CAC Danger Zone with Channel Model Fit",
+        "url": "https://brianbalfour.com/essays/channel-model-fit-for-user-acquisition",
+        "published": "2017-07-18"
+      }
+    }
+  ]
+}

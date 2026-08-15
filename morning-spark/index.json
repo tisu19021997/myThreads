@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-15",
+      "edition": 20,
+      "note": "Themes: the recurring argument as a leading indicator, the strategy doc judged as an essay, distribution priced by whoever owns demand. Sources: The Beautiful Mess, Paul Graham, Brian Balfour. Pairings: John Cutler x Gibson Biddle, Paul Graham x Melissa Perri, Brian Balfour x Ben Thompson.",
+      "sparks": [
+        {
+          "pair": "John Cutler x Gibson Biddle",
+          "headline": "Your recurring fight is the honest metric",
+          "source": "The Beautiful Mess — TBM 436: Tension-Based Prioritization (A Non-Framework)",
+          "url": "https://cutlefish.substack.com/p/tbm-436-tension-based-prioritization"
+        },
+        {
+          "pair": "Paul Graham x Melissa Perri",
+          "headline": "A strategy doc that surprises nobody is output",
+          "source": "Paul Graham — The Shape of the Essay Field",
+          "url": "https://paulgraham.com/field.html"
+        },
+        {
+          "pair": "Brian Balfour x Ben Thompson",
+          "headline": "The danger zone moved, and not by your hand",
+          "source": "Brian Balfour — Get Out of the ARPU-CAC Danger Zone with Channel Model Fit",
+          "url": "https://brianbalfour.com/essays/channel-model-fit-for-user-acquisition"
+        }
+      ]
+    },
+    {
       "date": "2026-08-14",
       "edition": 19,
       "note": "Themes: the skill file as the first honest audit of your own craft, the materiality threshold as a moat you get by arithmetic, retention as the deadline attached to make something people want. Sources: Lenny's Newsletter, A Smart Bear, andrewchen. Pairings: Grace Clarke x John Cutler, Jason Cohen x Ben Thompson, Andrew Chen x Paul Graham.",
