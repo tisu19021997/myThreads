@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 16</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 21</div></div></div>
+<div class="meta label">Sunday, August 16, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">ANTI-PITCH</span><span data-l="vi">CÂU DÌM HÀNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">Every category carries an anti-pitch: the one-line meme a skeptic uses to shut a new idea down. Isn&#x27;t this just a GPT wrapper. Dating apps churn as people pair off. Consumer hardware dies on the holiday cycle. You can ignore it, deny it, or accept it and answer it, and the last one only works if you have something genuinely new after the but.</span><span data-l="vi">Category nào cũng có sẵn một câu dìm hàng: câu meme dân hoài nghi ném ra để dập ý tưởng mới. Cái này chẳng phải chỉ là GPT wrapper à. App hẹn hò thì churn vì ghép xong là nghỉ. Hardware tiêu dùng thì chết ở mùa lễ. Bạn có thể lờ đi, chối, hoặc nhận rồi trả lời, và cách cuối chỉ ăn nếu sau chữ nhưng bạn có thứ gì thật sự mới.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Growth is a system, not a tactic. Price, retention and channel have to fit each other, and a product with the wrong model loses to a worse product whose model compounds.</span><span data-l="vi">Growth là một hệ thống, không phải một chiêu. Giá, retention và channel phải khớp nhau, và một sản phẩm có model sai sẽ thua một sản phẩm dở hơn nhưng model của nó cộng dồn được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The anti-pitch is not an opinion about your idea. It is the category&#x27;s post-mortem compressed into one line, and every line of it is about the model: churn, CAC, the holiday cycle, the wrapper margin. Which means a better pitch never answers it. <u>A different model does.</u></span><span data-l="vi">Câu dìm hàng không phải ý kiến về ý tưởng của bạn. Nó là bản post-mortem của cả category nén lại thành một câu, và câu nào cũng nói về model: churn, CAC, mùa lễ, biên lãi của một cái wrapper. Nghĩa là pitch hay hơn không bao giờ trả lời được nó. <u>Model khác thì có.</u></span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">The one-liner they use against me: <b>is it about my idea, or my model?</b></span><span data-l="vi">Câu họ hay ném ra để dìm ý tưởng mình: <b>nó nói về ý tưởng, hay về model?</b></span></p></div>
+<div class="src-link"><a href="https://andrewchen.substack.com/p/the-anti-pitch-one-liner-rebuttals" target="_blank" rel="noopener">andrewchen — The Anti-Pitch: When haters hate your startup idea &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">COST OF DELAY</span><span data-l="vi">GIÁ CỦA VIỆC TRỄ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">She told a CEO not to hire a VP of Product candidate whose prioritization was asking every stakeholder to score features one to five and averaging it. That is consensus, not prioritization, and it hands accountability back to the room. With a strategy and hard numbers, cost of delay in dollars, prioritizing stops being hard.</span><span data-l="vi">Bà bảo một CEO đừng tuyển ứng viên VP of Product mà cách prioritize là bắt mọi stakeholder chấm feature từ 1 đến 5 rồi lấy trung bình. Đó là consensus, không phải prioritization, và nó đẩy trách nhiệm ngược lại cho cả phòng. Có strategy và có số thật, cost of delay quy ra tiền, thì prioritize hết khó.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery: talk to customers every week, map what you hear as opportunities under one target outcome, and let the tree, not the loudest voice, say what gets worked on.</span><span data-l="vi">Continuous discovery: tuần nào cũng nói chuyện với khách, map những gì nghe được thành các opportunity dưới một outcome duy nhất, và để cái cây quyết định làm gì, thay vì để người nói to nhất quyết.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Discovery without a number stays anecdote, and a scorecard without discovery is just a vote with extra steps. Put a dollar on the delay behind each story and the same five interviews <u>stop needing anyone&#x27;s approval</u>.</span><span data-l="vi">Discovery mà không có con số thì mãi là chuyện kể, còn scorecard mà không có discovery thì chỉ là bỏ phiếu vòng vo. Gắn một con số tiền vào cái giá của việc trễ trong từng câu chuyện, thì đúng năm buổi phỏng vấn đó sẽ <u>không cần ai duyệt nữa</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">One more month of not shipping this: <b>what does it cost, in money?</b></span><span data-l="vi">Trễ thêm một tháng chưa ship cái này: <b>mất bao nhiêu, quy ra tiền?</b></span></p></div>
+<div class="src-link"><a href="https://melissaperri.com/blog/2019/10/31/prioritization" target="_blank" rel="noopener">Melissa Perri — Prioritization Shouldn&#x27;t Be Hard &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE HORIZON</span><span data-l="vi">XA TỚI ĐÂU</span></span></div>
+<div class="eq"><div class="term"><div class="who">Petra Wille</div><div class="what"><span data-l="en">You practice leadership before the title by giving directional clarity at a growing horizon: this sprint, then two, then the quarter. The further out you go the less concrete it gets, and that is a feature. Say no well enough, with evidence, and people answer their own asks before those asks reach you.</span><span data-l="vi">Bạn tập làm leader trước khi có title bằng cách đưa ra hướng đi rõ ràng cho một tầm ngày càng xa: sprint này, rồi hai sprint, rồi cả quý. Càng xa thì càng bớt cụ thể, và đó là cố ý. Từ chối cho khéo, có bằng chứng, thì người ta tự trả lời đề xuất của họ trước khi nó tới bàn bạn.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">Empowered teams are handed problems to solve, not features to build, and product strategy is what makes handing them over safe.</span><span data-l="vi">Team được trao quyền là team được giao vấn đề để giải, không phải feature để build, và product strategy là thứ làm cho việc giao đó an toàn.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A team is empowered exactly as far out as you can still be understood. Empowerment is not permission you hand over; it is the number of weeks your direction survives <u>without you in the room</u>.</span><span data-l="vi">Team được trao quyền tới đúng cái mốc mà bạn còn nói cho người ta hiểu được. Trao quyền không phải cái phép bạn ban phát; nó là số tuần hướng đi của bạn còn sống được <u>khi bạn không có mặt</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">How many weeks out can I state the direction <b>and still be understood?</b></span><span data-l="vi">Mình nói được hướng đi cho bao nhiêu tuần tới <b>mà người khác vẫn hiểu?</b></span></p></div>
+<div class="src-link"><a href="https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/" target="_blank" rel="noopener">Product Talk — Stepping Into Leadership - All Things Product Podcast with Teresa Torres &amp; Petra Wille &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-15.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-15</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Andrew Chen / Brian Balfour / Melissa Perri / Teresa Torres / Petra Wille / Marty Cagan<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Andrew Chen / Brian Balfour / Melissa Perri / Teresa Torres / Petra Wille / Marty Cagan<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

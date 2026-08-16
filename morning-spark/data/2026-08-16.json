@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-16",
+  "edition": 21,
+  "framing": "What you can defend, what you can price, what you can say early.",
+  "framing_vi": "Thứ bạn bảo vệ được, định giá được, và nói ra sớm được.",
+  "note": "Themes: the skeptic's one-liner read as a critique of the model rather than the idea, cost of delay turning discovery stories into a decision, empowerment bounded by how far out direction stays legible. Sources: andrewchen, Melissa Perri, Product Talk. Pairings: Andrew Chen x Brian Balfour, Melissa Perri x Teresa Torres, Petra Wille x Marty Cagan.",
+  "sparks": [
+    {
+      "title": "ANTI-PITCH",
+      "title_vi": "CÂU DÌM HÀNG",
+      "headline": "The hater's one-liner is a spec",
+      "headline_vi": "Câu dìm hàng của dân hoài nghi là một bản spec",
+      "a": {
+        "who": "Andrew Chen",
+        "what": "Every category carries an anti-pitch: the one-line meme a skeptic uses to shut a new idea down. Isn't this just a GPT wrapper. Dating apps churn as people pair off. Consumer hardware dies on the holiday cycle. You can ignore it, deny it, or accept it and answer it, and the last one only works if you have something genuinely new after the but.",
+        "what_vi": "Category nào cũng có sẵn một câu dìm hàng: câu meme dân hoài nghi ném ra để dập ý tưởng mới. Cái này chẳng phải chỉ là GPT wrapper à. App hẹn hò thì churn vì ghép xong là nghỉ. Hardware tiêu dùng thì chết ở mùa lễ. Bạn có thể lờ đi, chối, hoặc nhận rồi trả lời, và cách cuối chỉ ăn nếu sau chữ nhưng bạn có thứ gì thật sự mới."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Growth is a system, not a tactic. Price, retention and channel have to fit each other, and a product with the wrong model loses to a worse product whose model compounds.",
+        "what_vi": "Growth là một hệ thống, không phải một chiêu. Giá, retention và channel phải khớp nhau, và một sản phẩm có model sai sẽ thua một sản phẩm dở hơn nhưng model của nó cộng dồn được."
+      },
+      "result": "The anti-pitch is not an opinion about your idea. It is the category's post-mortem compressed into one line, and every line of it is about the model: churn, CAC, the holiday cycle, the wrapper margin. Which means a better pitch never answers it. A different model does.",
+      "result_vi": "Câu dìm hàng không phải ý kiến về ý tưởng của bạn. Nó là bản post-mortem của cả category nén lại thành một câu, và câu nào cũng nói về model: churn, CAC, mùa lễ, biên lãi của một cái wrapper. Nghĩa là pitch hay hơn không bao giờ trả lời được nó. Model khác thì có.",
+      "result_underline": "A different model does.",
+      "result_underline_vi": "Model khác thì có.",
+      "tick": "The one-liner they use against me: is it about my idea, or my model?",
+      "tick_vi": "Câu họ hay ném ra để dìm ý tưởng mình: nó nói về ý tưởng, hay về model?",
+      "tick_bold": [
+        "is it about my idea, or my model?"
+      ],
+      "tick_bold_vi": [
+        "nó nói về ý tưởng, hay về model?"
+      ],
+      "provocation": "Chen says every category has a skeptic's one-liner, and the real danger is quietly accepting it. Balfour says the model, meaning price, retention and channel, decides what a product can become. Put together: the anti-pitch is free research into the model that killed the last ten attempts.",
+      "provocation_vi": "Chen nói category nào cũng có một câu dìm hàng, và cái nguy thật sự là bạn âm thầm tin nó. Balfour nói model, tức giá, retention và channel, mới quyết định sản phẩm có thể thành cái gì. Ghép lại: câu dìm hàng là research miễn phí về đúng cái model đã giết chết mười lần thử trước.",
+      "source": {
+        "site": "andrewchen",
+        "title": "The Anti-Pitch: When haters hate your startup idea",
+        "url": "https://andrewchen.substack.com/p/the-anti-pitch-one-liner-rebuttals",
+        "published": "2025-09-10"
+      }
+    },
+    {
+      "title": "COST OF DELAY",
+      "title_vi": "GIÁ CỦA VIỆC TRỄ",
+      "headline": "Five stories become a decision once they cost money",
+      "headline_vi": "Năm câu chuyện thành một quyết định khi chúng có giá tiền",
+      "a": {
+        "who": "Melissa Perri",
+        "what": "She told a CEO not to hire a VP of Product candidate whose prioritization was asking every stakeholder to score features one to five and averaging it. That is consensus, not prioritization, and it hands accountability back to the room. With a strategy and hard numbers, cost of delay in dollars, prioritizing stops being hard.",
+        "what_vi": "Bà bảo một CEO đừng tuyển ứng viên VP of Product mà cách prioritize là bắt mọi stakeholder chấm feature từ 1 đến 5 rồi lấy trung bình. Đó là consensus, không phải prioritization, và nó đẩy trách nhiệm ngược lại cho cả phòng. Có strategy và có số thật, cost of delay quy ra tiền, thì prioritize hết khó."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery: talk to customers every week, map what you hear as opportunities under one target outcome, and let the tree, not the loudest voice, say what gets worked on.",
+        "what_vi": "Continuous discovery: tuần nào cũng nói chuyện với khách, map những gì nghe được thành các opportunity dưới một outcome duy nhất, và để cái cây quyết định làm gì, thay vì để người nói to nhất quyết."
+      },
+      "result": "Discovery without a number stays anecdote, and a scorecard without discovery is just a vote with extra steps. Put a dollar on the delay behind each story and the same five interviews stop needing anyone's approval.",
+      "result_vi": "Discovery mà không có con số thì mãi là chuyện kể, còn scorecard mà không có discovery thì chỉ là bỏ phiếu vòng vo. Gắn một con số tiền vào cái giá của việc trễ trong từng câu chuyện, thì đúng năm buổi phỏng vấn đó sẽ không cần ai duyệt nữa.",
+      "result_underline": "stop needing anyone's approval",
+      "result_underline_vi": "không cần ai duyệt nữa",
+      "tick": "One more month of not shipping this: what does it cost, in money?",
+      "tick_vi": "Trễ thêm một tháng chưa ship cái này: mất bao nhiêu, quy ra tiền?",
+      "tick_bold": [
+        "what does it cost, in money?"
+      ],
+      "tick_bold_vi": [
+        "mất bao nhiêu, quy ra tiền?"
+      ],
+      "provocation": "Perri argues that scoring frameworks are what a team reaches for when leadership has not set a strategy, and that real prioritization runs on dollars. Torres argues that evidence only reads clearly under one target outcome. Put together: discovery earns its keep the day you price the delay.",
+      "provocation_vi": "Perri cho rằng các framework chấm điểm là thứ team với lấy khi lãnh đạo chưa đặt strategy, và prioritization thật thì chạy bằng tiền. Torres cho rằng bằng chứng chỉ đọc ra được khi có một outcome duy nhất để gắn vào. Ghép lại: discovery bắt đầu có lãi vào đúng ngày bạn định giá được việc trễ.",
+      "source": {
+        "site": "Melissa Perri",
+        "title": "Prioritization Shouldn't Be Hard",
+        "url": "https://melissaperri.com/blog/2019/10/31/prioritization",
+        "published": "2019-10-31"
+      }
+    },
+    {
+      "title": "THE HORIZON",
+      "title_vi": "XA TỚI ĐÂU",
+      "headline": "Empowerment ends where your clarity stops",
+      "headline_vi": "Trao quyền dừng lại ở đúng chỗ bạn hết nói rõ được",
+      "a": {
+        "who": "Petra Wille",
+        "what": "You practice leadership before the title by giving directional clarity at a growing horizon: this sprint, then two, then the quarter. The further out you go the less concrete it gets, and that is a feature. Say no well enough, with evidence, and people answer their own asks before those asks reach you.",
+        "what_vi": "Bạn tập làm leader trước khi có title bằng cách đưa ra hướng đi rõ ràng cho một tầm ngày càng xa: sprint này, rồi hai sprint, rồi cả quý. Càng xa thì càng bớt cụ thể, và đó là cố ý. Từ chối cho khéo, có bằng chứng, thì người ta tự trả lời đề xuất của họ trước khi nó tới bàn bạn."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Empowered teams are handed problems to solve, not features to build, and product strategy is what makes handing them over safe.",
+        "what_vi": "Team được trao quyền là team được giao vấn đề để giải, không phải feature để build, và product strategy là thứ làm cho việc giao đó an toàn."
+      },
+      "result": "A team is empowered exactly as far out as you can still be understood. Empowerment is not permission you hand over; it is the number of weeks your direction survives without you in the room.",
+      "result_vi": "Team được trao quyền tới đúng cái mốc mà bạn còn nói cho người ta hiểu được. Trao quyền không phải cái phép bạn ban phát; nó là số tuần hướng đi của bạn còn sống được khi bạn không có mặt.",
+      "result_underline": "without you in the room",
+      "result_underline_vi": "khi bạn không có mặt",
+      "tick": "How many weeks out can I state the direction and still be understood?",
+      "tick_vi": "Mình nói được hướng đi cho bao nhiêu tuần tới mà người khác vẫn hiểu?",
+      "tick_bold": [
+        "and still be understood?"
+      ],
+      "tick_bold_vi": [
+        "mà người khác vẫn hiểu?"
+      ],
+      "provocation": "Wille says leadership is directional clarity practised at a longer and longer horizon, deliberately getting less concrete as it stretches. Cagan says empowered teams get problems rather than features. Put together: how far your team can run without you is not a matter of trust, it is the length of your horizon.",
+      "provocation_vi": "Wille nói leadership là khả năng đưa ra hướng đi rõ ràng cho một tầm ngày càng xa, và cố ý bớt cụ thể dần khi kéo dài ra. Cagan nói team được trao quyền thì nhận vấn đề chứ không nhận feature. Ghép lại: team chạy được bao xa khi không có bạn không phải chuyện tin tưởng, mà là độ dài của cái tầm nhìn đó.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Stepping Into Leadership - All Things Product Podcast with Teresa Torres & Petra Wille",
+        "url": "https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/",
+        "published": "2026-07-07"
+      }
+    }
+  ]
+}

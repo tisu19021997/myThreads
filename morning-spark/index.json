@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-16",
+      "edition": 21,
+      "note": "Themes: the skeptic's one-liner read as a critique of the model rather than the idea, cost of delay turning discovery stories into a decision, empowerment bounded by how far out direction stays legible. Sources: andrewchen, Melissa Perri, Product Talk. Pairings: Andrew Chen x Brian Balfour, Melissa Perri x Teresa Torres, Petra Wille x Marty Cagan.",
+      "sparks": [
+        {
+          "pair": "Andrew Chen x Brian Balfour",
+          "headline": "The hater's one-liner is a spec",
+          "source": "andrewchen — The Anti-Pitch: When haters hate your startup idea",
+          "url": "https://andrewchen.substack.com/p/the-anti-pitch-one-liner-rebuttals"
+        },
+        {
+          "pair": "Melissa Perri x Teresa Torres",
+          "headline": "Five stories become a decision once they cost money",
+          "source": "Melissa Perri — Prioritization Shouldn't Be Hard",
+          "url": "https://melissaperri.com/blog/2019/10/31/prioritization"
+        },
+        {
+          "pair": "Petra Wille x Marty Cagan",
+          "headline": "Empowerment ends where your clarity stops",
+          "source": "Product Talk — Stepping Into Leadership - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-15",
       "edition": 20,
       "note": "Themes: the recurring argument as a leading indicator, the strategy doc judged as an essay, distribution priced by whoever owns demand. Sources: The Beautiful Mess, Paul Graham, Brian Balfour. Pairings: John Cutler x Gibson Biddle, Paul Graham x Melissa Perri, Brian Balfour x Ben Thompson.",
