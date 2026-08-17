@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-17",
+      "edition": 22,
+      "note": "Themes: financing hands your deadline to whoever built the bridge, a proxy metric is worthless without the plumbing that makes it falsifiable, fit is measured in present tense but pitched in future tense. Sources: Stratechery, Melissa Perri, April Dunford. Pairings: Ben Thompson x Jason Cohen, Melissa Perri x Gibson Biddle, April Dunford x Lenny Rachitsky.",
+      "sparks": [
+        {
+          "pair": "Ben Thompson x Jason Cohen",
+          "headline": "A bridge to revenue is what you build when you cannot name the revenue",
+          "source": "Stratechery — 2026.33: The CapEx Train Keeps Rolling",
+          "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/"
+        },
+        {
+          "pair": "Melissa Perri x Gibson Biddle",
+          "headline": "A number you cannot trust is just a story you keep telling",
+          "source": "Melissa Perri — Building a Great Product Management Organization",
+          "url": "https://melissaperri.com/blog/2024/7/16/building-a-great-product-management-organization"
+        },
+        {
+          "pair": "April Dunford x Lenny Rachitsky",
+          "headline": "The pitch you rehearsed is not the pitch that sells",
+          "source": "April Dunford — Why Your Investor Pitch Is Ruining Your Sales Pitch",
+          "url": "https://www.aprildunford.com/post/why-your-investor-pitch-is-ruining-your-sales-pitch"
+        }
+      ]
+    },
+    {
       "date": "2026-08-16",
       "edition": 21,
       "note": "Themes: the skeptic's one-liner read as a critique of the model rather than the idea, cost of delay turning discovery stories into a decision, empowerment bounded by how far out direction stays legible. Sources: andrewchen, Melissa Perri, Product Talk. Pairings: Andrew Chen x Brian Balfour, Melissa Perri x Teresa Torres, Petra Wille x Marty Cagan.",

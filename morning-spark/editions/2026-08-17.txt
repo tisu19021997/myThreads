@@ -1,0 +1,22 @@
+Morning Spark · Monday, August 17 · Ed. 22
+Capital, process and story are cheap. The number underneath is not.
+
+─────────────────
+01 · A bridge to revenue is what you build when you cannot name the revenue
+Ben Thompson × Jason Cohen
+Compute and power get all the worry, but the constraint that ends a buildout is capital. A bridge to revenue is a promise that the revenue is somewhere ahead, and the promise is dated by the lender, not by you.
+→ https://stratechery.com/2026/the-capex-train-keeps-rolling/
+
+─────────────────
+02 · A number you cannot trust is just a story you keep telling
+Melissa Perri × Gibson Biddle
+Picking a proxy metric is the cheap half. The expensive half is the data plumbing that makes it falsifiable, and skipping it is how a metric quietly turns into a slide nobody can argue with.
+→ https://melissaperri.com/blog/2024/7/16/building-a-great-product-management-organization
+
+─────────────────
+03 · The pitch you rehearsed is not the pitch that sells
+April Dunford × Lenny Rachitsky
+Investors buy the market you will be in; customers buy the alternative you beat today. Write both stories down and see which one you can test this week. Only one of them can make anyone disappointed to lose you.
+→ https://www.aprildunford.com/post/why-your-investor-pitch-is-ruining-your-sales-pitch
+
+Full styled card → open the session.

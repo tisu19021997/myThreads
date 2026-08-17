@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-17",
+  "edition": 22,
+  "framing": "Capital, process and story are cheap. The number underneath is not.",
+  "framing_vi": "Vốn, quy trình và câu chuyện đều rẻ. Con số bên dưới thì không.",
+  "note": "Themes: financing hands your deadline to whoever built the bridge, a proxy metric is worthless without the plumbing that makes it falsifiable, fit is measured in present tense but pitched in future tense. Sources: Stratechery, Melissa Perri, April Dunford. Pairings: Ben Thompson x Jason Cohen, Melissa Perri x Gibson Biddle, April Dunford x Lenny Rachitsky.",
+  "sparks": [
+    {
+      "title": "THE BRIDGE",
+      "title_vi": "CÂY CẦU",
+      "headline": "A bridge to revenue is what you build when you cannot name the revenue",
+      "headline_vi": "Cây cầu bắc sang doanh thu là thứ bạn dựng khi chưa gọi được tên doanh thu",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "Everyone knows AI is short on compute and may soon be short on power. His question this week is whether it is short on capital: if AI were as valuable as it looks, it would be paying for itself by now, and it is not. Nvidia's new funding mechanism taps long-duration money to build a bridge to sustainable AI revenue, and in the same move widens the blast radius of a bubble in defence of Nvidia's own margins.",
+        "what_vi": "Ai cũng biết AI đang thiếu compute, và sắp tới có thể thiếu điện. Câu hỏi tuần này của ông là: liệu nó có đang thiếu vốn? Nếu AI đáng giá như vẻ ngoài, giờ này nó đã tự nuôi được mình, mà chưa. Cơ chế huy động vốn mới của Nvidia kéo dòng tiền dài hạn vào để bắc cầu sang doanh thu AI bền vững, và cùng động tác đó mở rộng bán kính vụ nổ của một cái bong bóng, để giữ margin cho chính Nvidia."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "His long-running bootstrapper's case: money you did not earn is never just money. It buys time, and it sells the right to decide what the time is for. A company funded by its own customers answers to a clock it set itself, which is why profitability reads as optionality rather than as caution.",
+        "what_vi": "Lập luận bootstrapper mà ông theo đuổi bao năm: tiền bạn không tự kiếm ra thì không bao giờ chỉ là tiền. Nó mua cho bạn thời gian, và bán đi cái quyền quyết định thời gian đó dùng để làm gì. Công ty sống bằng tiền khách hàng thì chạy theo cái đồng hồ do chính mình đặt, nên có lãi là có thêm lựa chọn, chứ không phải là dè dặt."
+      },
+      "result": "Every bridge to revenue hands the clock to whoever built the bridge. Nvidia is not only financing its customers, it is setting their deadline.",
+      "result_vi": "Mỗi cây cầu bắc sang doanh thu đều trao cái đồng hồ cho người dựng cầu. Nvidia không chỉ tài trợ cho khách hàng của mình, nó còn đặt luôn deadline cho họ.",
+      "result_underline": "it is setting their deadline",
+      "result_underline_vi": "nó còn đặt luôn deadline cho họ",
+      "tick": "Whose clock is your runway running on, and what does it cost you when it runs out?",
+      "tick_vi": "Runway của bạn đang chạy theo đồng hồ của ai, và bạn mất gì khi nó hết giờ?",
+      "tick_bold": ["Whose clock", "when it runs out"],
+      "tick_bold_vi": ["đồng hồ của ai", "khi nó hết giờ"],
+      "provocation": "Compute and power get all the worry, but the constraint that ends a buildout is capital. A bridge to revenue is a promise that the revenue is somewhere ahead, and the promise is dated by the lender, not by you.",
+      "provocation_vi": "Người ta lo compute và lo điện, nhưng thứ kết thúc một cuộc xây dựng lại là vốn. Cây cầu bắc sang doanh thu là lời hứa rằng doanh thu có thật ở phía trước, và ngày đáo hạn của lời hứa đó do bên cho vay đặt, không phải bạn.",
+      "source": {
+        "site": "Stratechery",
+        "title": "2026.33: The CapEx Train Keeps Rolling",
+        "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
+        "published": "2026-08-14"
+      }
+    },
+    {
+      "title": "THE PLUMBING",
+      "title_vi": "ĐƯỜNG ỐNG",
+      "headline": "A number you cannot trust is just a story you keep telling",
+      "headline_vi": "Con số bạn không tin nổi chỉ là câu chuyện bạn kể đi kể lại",
+      "a": {
+        "who": "Melissa Perri",
+        "what": "She reads a product organisation on four dimensions: org design, strategy, product operations and culture. Product operations is the one companies skip, because they are afraid of too much process, and she lists what skipping it looks like: data that is inaccurate or scattered across systems, no way to turn it into insight, market research that is stale or absent, status meetings where no decision is ever made, and leaders reduced to asking for ad-hoc reports.",
+        "what_vi": "Bà soi một tổ chức product qua bốn trục: thiết kế tổ chức, chiến lược, product operations và văn hoá. Product operations là thứ các công ty hay bỏ qua, vì sợ nhiều quy trình quá, và bà liệt kê ra bỏ qua nó thì trông như thế nào: dữ liệu sai hoặc nằm rải rác khắp các hệ thống, không có cách biến nó thành insight, research thị trường thì cũ hoặc không có, họp status mà chẳng chốt được gì, còn sếp thì rút xuống mức đi xin báo cáo ad-hoc."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: a strategy has to delight customers, in hard-to-copy, margin-enhancing ways. Because the real result lands years out, you steer by proxy metrics, the near-term numbers you believe predict the long-term one.",
+        "what_vi": "DHM: chiến lược phải làm khách hàng thích, theo cách khó sao chép và cải thiện biên lợi nhuận. Vì kết quả thật phải vài năm sau mới tới, bạn lái bằng proxy metric, những con số ngắn hạn mà bạn tin là dự báo được con số dài hạn."
+      },
+      "result": "A proxy metric is a bet on the future, and most teams cannot yet measure the present. Choose the metric second: first buy the plumbing that lets someone prove you wrong.",
+      "result_vi": "Proxy metric là một ván cược vào tương lai, mà phần lớn team còn chưa đo nổi hiện tại. Hãy chọn con số sau: trước hết mua cái đường ống cho phép người khác chứng minh bạn sai.",
+      "result_underline": "first buy the plumbing that lets someone prove you wrong",
+      "result_underline_vi": "trước hết mua cái đường ống cho phép người khác chứng minh bạn sai",
+      "tick": "Which number do you steer by, and who in the building could prove it wrong by Friday?",
+      "tick_vi": "Bạn đang lái theo con số nào, và ai trong công ty có thể chứng minh nó sai trước thứ Sáu?",
+      "tick_bold": ["steer by", "prove it wrong"],
+      "tick_bold_vi": ["lái theo con số nào", "chứng minh nó sai"],
+      "provocation": "Picking a proxy metric is the cheap half. The expensive half is the data plumbing that makes it falsifiable, and skipping it is how a metric quietly turns into a slide nobody can argue with.",
+      "provocation_vi": "Chọn proxy metric là nửa rẻ tiền. Nửa đắt tiền là hệ thống dữ liệu khiến nó có thể bị bác bỏ, và bỏ qua phần đó là cách một con số lặng lẽ biến thành cái slide không ai cãi lại được.",
+      "source": {
+        "site": "Melissa Perri",
+        "title": "Building a Great Product Management Organization",
+        "url": "https://melissaperri.com/blog/2024/7/16/building-a-great-product-management-organization",
+        "published": "2024-07-16"
+      }
+    },
+    {
+      "title": "TWO PITCHES",
+      "title_vi": "HAI BÀI PITCH",
+      "headline": "The pitch you rehearsed is not the pitch that sells",
+      "headline_vi": "Bài pitch bạn tập đi tập lại không phải bài pitch bán được hàng",
+      "a": {
+        "who": "April Dunford",
+        "what": "Accelerators train founders to pitch investors ten times more often than customers, and the two want opposite stories. Investor positioning places you inside a huge future market; customer positioning has to place you against the alternatives a buyer already understands today. Investors love disruption and customers hate it, because disruption means the thing they just bought gets thrown away. Her own startup sold investors an enterprise omni-channel retail platform and sold retailers a mobile tool for in-store sales associates.",
+        "what_vi": "Các chương trình accelerator luyện cho founder pitch nhà đầu tư nhiều gấp mười lần pitch khách hàng, mà hai bên lại muốn hai câu chuyện ngược nhau. Positioning cho nhà đầu tư đặt bạn vào một thị trường tương lai khổng lồ; positioning cho khách hàng phải đặt bạn cạnh những lựa chọn mà người mua đã hiểu sẵn hôm nay. Nhà đầu tư mê disruption còn khách hàng ghét nó, vì disruption nghĩa là thứ họ vừa mua sẽ bị vứt đi. Startup của chính bà bán cho nhà đầu tư một enterprise omni-channel retail platform, và bán cho nhà bán lẻ một công cụ mobile cho nhân viên bán hàng tại cửa hàng."
+      },
+      "b": {
+        "who": "Lenny Rachitsky",
+        "what": "The product-market fit test he keeps returning to is a present-tense question put to people already using the thing: how disappointed would you be if it disappeared tomorrow, with forty percent answering very disappointed as the rough bar.",
+        "what_vi": "Bài test product-market fit mà anh luôn quay lại là một câu hỏi ở thì hiện tại, đặt cho những người đang dùng sản phẩm: bạn sẽ hụt hẫng tới mức nào nếu mai nó biến mất, mốc tham chiếu là bốn mươi phần trăm trả lời rất hụt hẫng."
+      },
+      "result": "Fit is measured in the present tense and pitched in the future tense, and founders keep rehearsing the wrong one. Nobody is very disappointed to lose a product you described as arriving in five years.",
+      "result_vi": "Fit thì đo ở thì hiện tại, còn pitch lại kể ở thì tương lai, và founder cứ tập nhầm bài. Chẳng ai thấy hụt hẫng khi mất đi một sản phẩm mà bạn tả là năm năm nữa mới tới.",
+      "result_underline": "arriving in five years",
+      "result_underline_vi": "năm năm nữa mới tới",
+      "tick": "If your product vanished tonight, which sentence would your customers actually miss?",
+      "tick_vi": "Nếu tối nay sản phẩm của bạn biến mất, khách hàng sẽ thật sự nhớ câu nào?",
+      "tick_bold": ["vanished tonight", "which sentence"],
+      "tick_bold_vi": ["biến mất", "nhớ câu nào"],
+      "provocation": "Investors buy the market you will be in; customers buy the alternative you beat today. Write both stories down and see which one you can test this week. Only one of them can make anyone disappointed to lose you.",
+      "provocation_vi": "Nhà đầu tư mua cái thị trường bạn sẽ bước vào; khách hàng mua cái lựa chọn mà bạn đang thắng hôm nay. Viết cả hai câu chuyện ra và xem cái nào bạn kiểm chứng được ngay tuần này. Chỉ một trong hai làm được cho người ta thấy hụt hẫng khi mất bạn.",
+      "source": {
+        "site": "April Dunford",
+        "title": "Why Your Investor Pitch Is Ruining Your Sales Pitch",
+        "url": "https://www.aprildunford.com/post/why-your-investor-pitch-is-ruining-your-sales-pitch",
+        "published": "2019-09-12"
+      }
+    }
+  ]
+}
