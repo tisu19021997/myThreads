@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-18",
+  "edition": 23,
+  "framing": "Everything got faster to build and easier to bill. Nothing got clearer.",
+  "framing_vi": "Xây thì nhanh hơn, hoá đơn thì rõ hơn. Còn lại vẫn mù mờ.",
+  "note": "Themes: an exact meter on one input is not a causal model, speed only pays where it deletes the step that killed the idea, a product role defined by the backlog is the one that disappears. Sources: The Beautiful Mess, Lenny's Newsletter, Brian Balfour. Pairings: John Cutler x Jason Cohen, Yana Welinder x Marty Cagan, Brian Balfour x Melissa Perri.",
+  "sparks": [
+    {
+      "title": "THE METER",
+      "title_vi": "CÁI ĐỒNG HỒ ĐO",
+      "headline": "An exact invoice is not a model of anything",
+      "headline_vi": "Hoá đơn chính xác không phải là mô hình của bất cứ thứ gì",
+      "a": {
+        "who": "John Cutler",
+        "what": "Tokens are the newest entry in a long line of curious proxies: hours, story points, capacity. The failure is always the same shape. We spend more effort on the I than the R of ROI, we pick the returns that are easiest to attribute, and we gravitate to whatever is easiest to measure. Tokens are very easy to measure. They give you a beautiful meter and an invoice, an unusually precise number for one input sitting inside an unusually uncertain system, which creates the illusion that you finally have a denominator. His alternative is to keep the cost side deliberately broad, this team costs 1.5 million a year in salary plus a million in tokens, and put all the rigour into the causal model instead. Less what is the ROI, more what theory of the system are we betting on.",
+        "what_vi": "Token chỉ là cái mới nhất trong một dãy dài các proxy kỳ lạ: giờ công, story point, capacity. Kiểu thất bại thì lần nào cũng giống nhau. Ta dồn sức vào chữ I nhiều hơn chữ R trong ROI, ta chọn phần return nào dễ quy về mình nhất, và ta bám vào thứ gì dễ đo nhất. Token thì cực dễ đo. Nó cho bạn một cái đồng hồ đo đẹp đẽ và một tờ hoá đơn, một con số chính xác bất thường cho một input nằm giữa một hệ thống bất định bất thường, và thế là sinh ra ảo giác rằng bạn đã có mẫu số. Cách của ông ngược lại: để phần chi phí thật rộng, team này tốn 1.5 triệu đô lương một năm cộng một triệu tiền token, rồi dồn toàn bộ sự chặt chẽ vào mô hình nhân quả. Bớt hỏi ROI bao nhiêu, hỏi ta đang cược vào lý thuyết nào về hệ thống này."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "Max MRR: take the new revenue you add each month, divide it by your monthly cancellation rate, and you have the size at which growth stops, because churn scales with how big you already are while new revenue does not. Revenue itself is the lagging, wavy line that can hide a huge change in the business for a year. The ceiling your own inputs imply moves months earlier.",
+        "what_vi": "Max MRR: lấy doanh thu mới bạn thêm được mỗi tháng chia cho tỷ lệ huỷ hàng tháng, ra đúng cái mức mà tăng trưởng sẽ dừng, vì churn lớn dần theo quy mô còn doanh thu mới thì không. Bản thân doanh thu là đường trễ, lượn sóng, có thể che giấu cả một thay đổi lớn trong business suốt một năm. Cái trần mà chính các input của bạn hàm ý thì nhúc nhích sớm hơn nhiều tháng."
+      },
+      "result": "One number is easy to bill and impossible to interpret. The other is a division you can do on a napkin, and it moves first. Spend the quarter on the model, not the meter.",
+      "result_vi": "Một con số thì dễ xuất hoá đơn mà không cách nào diễn giải. Con số kia là phép chia làm được trên tờ giấy nháp, và nó nhúc nhích trước. Quý này hãy dồn vào mô hình, đừng dồn vào cái đồng hồ đo.",
+      "result_underline": "the model, not the meter",
+      "result_underline_vi": "mô hình, đừng dồn vào cái đồng hồ đo",
+      "tick": "Which number in your business moves first, and when did you last look at it?",
+      "tick_vi": "Con số nào trong việc của bạn nhúc nhích trước, và lần cuối bạn nhìn nó là khi nào?",
+      "tick_bold": [
+        "moves first"
+      ],
+      "tick_bold_vi": [
+        "nhúc nhích trước"
+      ],
+      "provocation": "AI spend is measured to the cent and understood not at all. Before the next invoice, write one sentence saying what the spend is betting on, and name the number that would move first if the bet were right.",
+      "provocation_vi": "Tiền chi cho AI được đo tới từng xu và không được hiểu chút nào. Trước hoá đơn kế tiếp, viết một câu nói rõ khoản chi đó đang cược vào điều gì, và gọi tên con số sẽ nhúc nhích đầu tiên nếu ván cược đó đúng.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 437: Tokens, Hours, Points, and Other Curious Proxies",
+        "url": "https://cutlefish.substack.com/p/tbm-437-tokens-hours-points-and-other",
+        "published": "2026-08-17"
+      }
+    },
+    {
+      "title": "THE MIDDLE STEP",
+      "title_vi": "BƯỚC Ở GIỮA",
+      "headline": "Speed is worth something only where it deletes the step that killed the idea",
+      "headline_vi": "Nhanh chỉ đáng giá ở chỗ nó xoá được cái bước đã giết ý tưởng",
+      "a": {
+        "who": "Yana Welinder",
+        "what": "A solo founder building a fashion brand with no engineers. She has Codex operate CLO, professional 3D garment software she never learned, to produce the CAD files behind 3D printed pieces, and every image starts from a written fashion prompt describing the silhouette, how the fabric moves, even the sound it makes. The prompt is the spec. Her sculptural Ruth Asawa inspired gown was not blocked by the printing, which existed. It was blocked by the mountain of CAD work in the middle, which made the idea not worth starting.",
+        "what_vi": "Một founder solo dựng thương hiệu thời trang mà không có kỹ sư nào. Cô để Codex điều khiển CLO, phần mềm dựng đồ 3D chuyên nghiệp mà cô chưa từng học, để xuất file CAD cho các chi tiết in 3D, và mỗi tấm hình đều bắt đầu từ một fashion prompt viết ra: dáng đồ, vải rơi và chuyển động thế nào, thậm chí nó kêu ra tiếng gì. Cái prompt chính là bản spec. Chiếc đầm lấy cảm hứng từ Ruth Asawa không bị chặn bởi khâu in, khâu đó có sẵn. Nó bị chặn bởi núi việc CAD nằm ở giữa, đủ để ý tưởng thành ra không đáng bắt đầu."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "The AI productivity paradox: teams are clearly delivering faster and their outcomes are not improving. Most are using AI to speed up the old project model, which was designed to produce output rather than outcomes, so the artifacts arrive quicker, business cases, roadmaps, PRDs, code, and the results do not follow. Leaders stay convinced the constraint is the time and cost of building. The evidence keeps saying the ideas were not worth building.",
+        "what_vi": "Nghịch lý năng suất AI: các team rõ ràng ship nhanh hơn mà outcome không nhích. Phần lớn đang dùng AI để tăng tốc cái project model cũ, vốn sinh ra để đẻ output chứ không phải outcome, nên artifact tới sớm hơn, business case, roadmap, PRD, code, còn kết quả thì không theo. Lãnh đạo vẫn đinh ninh nút thắt là thời gian và chi phí xây. Bằng chứng cứ nói mãi một điều: ý tưởng đó vốn không đáng xây."
+      },
+      "result": "Faster building changes something only where the slow step was the reason a good idea never got started. Everywhere else you are printing more of what you were already wrong about.",
+      "result_vi": "Xây nhanh hơn chỉ thay đổi được điều gì đó ở chỗ mà cái bước chậm chính là lý do một ý tưởng hay chưa bao giờ được bắt đầu. Còn lại thì bạn chỉ đang in ra nhiều hơn cái thứ mình vốn đã sai.",
+      "result_underline": "printing more of what you were already wrong about",
+      "result_underline_vi": "in ra nhiều hơn cái thứ mình vốn đã sai",
+      "tick": "Which idea did you drop because of the boring step in the middle?",
+      "tick_vi": "Ý tưởng nào bạn đã bỏ chỉ vì cái bước chán ngắt nằm ở giữa?",
+      "tick_bold": [
+        "the boring step in the middle"
+      ],
+      "tick_bold_vi": [
+        "cái bước chán ngắt nằm ở giữa"
+      ],
+      "provocation": "Go back to the ideas you killed on cost rather than on merit. One of them has a middle step a model can now do, and that one is the only place your new speed is worth anything.",
+      "provocation_vi": "Quay lại những ý tưởng bạn giết vì tốn kém, chứ không phải vì dở. Trong đó có một cái mà bước ở giữa giờ model làm được, và đúng chỗ đó mới là nơi tốc độ mới của bạn đáng giá.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
+        "published": "2026-08-17"
+      }
+    },
+    {
+      "title": "THE BACKLOG",
+      "title_vi": "CÁI BACKLOG",
+      "headline": "A role defined by what gets built is a role about the backlog",
+      "headline_vi": "Vai trò định nghĩa bằng thứ được xây ra là vai trò của cái backlog",
+      "a": {
+        "who": "Brian Balfour",
+        "what": "Growth is optional. Every company says it wants to grow, and few do the things growth requires. His list of failures reads like an inventory of what teams avoid: not taking a brutally honest look at retention first, the product is everything mantra that makes teams build more product when the work is refinement, hunting for the silver bullet, spreading thin across every channel when most scale comes from one, and under-investing in data because time on analytics does not feel like progress. That time is what lets you build the right things.",
+        "what_vi": "Tăng trưởng là tuỳ chọn. Công ty nào cũng nói mình muốn lớn, mà ít nơi chịu làm những việc tăng trưởng đòi hỏi. Danh sách thất bại của ông đọc như bản kiểm kê những thứ team hay né: không dám nhìn thẳng vào retention trước, cái khẩu hiệu product là tất cả khiến team đi xây thêm product trong khi việc cần làm là mài giũa, đi săn viên đạn bạc, rải mỏng khắp các kênh trong khi phần lớn quy mô đến từ một kênh, và đầu tư quá ít vào data vì thời gian cho analytics không có cảm giác là đang tiến lên. Chính khoảng thời gian đó mới giúp bạn xây đúng thứ cần xây."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "When Airbnb said it was getting rid of product managers, she read it as a merge rather than a deletion. Product management has always sat between business, tech and the customer, and in non-software companies the same act was performed by GMs with the tools of the day. As more companies become software companies, the PM and GM roles converge. Companies that treated the role as purely tech never saw its value in the first place, and the era of product owners who exist to feed developers tasks should be over.",
+        "what_vi": "Khi Airbnb nói sẽ bỏ vị trí product manager, bà đọc đó là một cuộc sáp nhập chứ không phải xoá sổ. Product management xưa nay vẫn nằm giữa business, tech và khách hàng, và ở các công ty không phải software thì chính GM làm việc đó bằng công cụ của thời họ. Càng nhiều công ty trở thành công ty phần mềm, vai trò PM và GM càng nhập lại. Nơi nào coi vai trò này thuần tech thì ngay từ đầu đã không thấy giá trị của nó, và cái thời product owner tồn tại để bón task cho dev thì nên hết."
+      },
+      "result": "Both are describing the same demotion from opposite sides: hours poured into producing more, and a role scoped to what comes out. The business question is the part nobody can hand off.",
+      "result_vi": "Cả hai đang tả cùng một sự tụt hạng từ hai phía: thời gian đổ vào việc làm ra nhiều hơn, và một vai trò bị bó vào thứ chạy ra cuối đường. Câu hỏi về business mới là phần không ai bàn giao được.",
+      "result_underline": "the part nobody can hand off",
+      "result_underline_vi": "phần không ai bàn giao được",
+      "tick": "Name one decision this week that was about the business, not the backlog.",
+      "tick_vi": "Kể ra một quyết định tuần này thuộc về business, không phải về backlog.",
+      "tick_bold": [
+        "about the business, not the backlog"
+      ],
+      "tick_bold_vi": [
+        "thuộc về business, không phải về backlog"
+      ],
+      "provocation": "Wanting growth is free. Doing the unglamorous half is not. Look at last week's calendar and count the hours that went to feeding a backlog against the hours that went to deciding what the business should be worth.",
+      "provocation_vi": "Muốn tăng trưởng thì miễn phí. Làm nửa phần không hào nhoáng thì không. Mở lịch tuần trước ra, đếm số giờ dành cho việc bón backlog so với số giờ dành cho việc quyết định business này nên đáng giá bao nhiêu.",
+      "source": {
+        "site": "Brian Balfour",
+        "title": "Growth Is Optional: 10 Reasons Why Companies Fail At Growth",
+        "url": "https://brianbalfour.com/essays/growth-is-optional",
+        "published": "2015-02-10"
+      }
+    }
+  ]
+}

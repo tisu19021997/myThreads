@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 18</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 23</div></div></div>
+<div class="meta label">Tuesday, August 18, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE METER</span><span data-l="vi">CÁI ĐỒNG HỒ ĐO</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Tokens are the newest entry in a long line of curious proxies: hours, story points, capacity. The failure is always the same shape. We spend more effort on the I than the R of ROI, we pick the returns that are easiest to attribute, and we gravitate to whatever is easiest to measure. Tokens are very easy to measure. They give you a beautiful meter and an invoice, an unusually precise number for one input sitting inside an unusually uncertain system, which creates the illusion that you finally have a denominator. His alternative is to keep the cost side deliberately broad, this team costs 1.5 million a year in salary plus a million in tokens, and put all the rigour into the causal model instead. Less what is the ROI, more what theory of the system are we betting on.</span><span data-l="vi">Token chỉ là cái mới nhất trong một dãy dài các proxy kỳ lạ: giờ công, story point, capacity. Kiểu thất bại thì lần nào cũng giống nhau. Ta dồn sức vào chữ I nhiều hơn chữ R trong ROI, ta chọn phần return nào dễ quy về mình nhất, và ta bám vào thứ gì dễ đo nhất. Token thì cực dễ đo. Nó cho bạn một cái đồng hồ đo đẹp đẽ và một tờ hoá đơn, một con số chính xác bất thường cho một input nằm giữa một hệ thống bất định bất thường, và thế là sinh ra ảo giác rằng bạn đã có mẫu số. Cách của ông ngược lại: để phần chi phí thật rộng, team này tốn 1.5 triệu đô lương một năm cộng một triệu tiền token, rồi dồn toàn bộ sự chặt chẽ vào mô hình nhân quả. Bớt hỏi ROI bao nhiêu, hỏi ta đang cược vào lý thuyết nào về hệ thống này.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">Max MRR: take the new revenue you add each month, divide it by your monthly cancellation rate, and you have the size at which growth stops, because churn scales with how big you already are while new revenue does not. Revenue itself is the lagging, wavy line that can hide a huge change in the business for a year. The ceiling your own inputs imply moves months earlier.</span><span data-l="vi">Max MRR: lấy doanh thu mới bạn thêm được mỗi tháng chia cho tỷ lệ huỷ hàng tháng, ra đúng cái mức mà tăng trưởng sẽ dừng, vì churn lớn dần theo quy mô còn doanh thu mới thì không. Bản thân doanh thu là đường trễ, lượn sóng, có thể che giấu cả một thay đổi lớn trong business suốt một năm. Cái trần mà chính các input của bạn hàm ý thì nhúc nhích sớm hơn nhiều tháng.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">One number is easy to bill and impossible to interpret. The other is a division you can do on a napkin, and it moves first. Spend the quarter on <u>the model, not the meter</u>.</span><span data-l="vi">Một con số thì dễ xuất hoá đơn mà không cách nào diễn giải. Con số kia là phép chia làm được trên tờ giấy nháp, và nó nhúc nhích trước. Quý này hãy dồn vào <u>mô hình, đừng dồn vào cái đồng hồ đo</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which number in your business <b>moves first</b>, and when did you last look at it?</span><span data-l="vi">Con số nào trong việc của bạn <b>nhúc nhích trước</b>, và lần cuối bạn nhìn nó là khi nào?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-437-tokens-hours-points-and-other" target="_blank" rel="noopener">The Beautiful Mess — TBM 437: Tokens, Hours, Points, and Other Curious Proxies &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE MIDDLE STEP</span><span data-l="vi">BƯỚC Ở GIỮA</span></span></div>
+<div class="eq"><div class="term"><div class="who">Yana Welinder</div><div class="what"><span data-l="en">A solo founder building a fashion brand with no engineers. She has Codex operate CLO, professional 3D garment software she never learned, to produce the CAD files behind 3D printed pieces, and every image starts from a written fashion prompt describing the silhouette, how the fabric moves, even the sound it makes. The prompt is the spec. Her sculptural Ruth Asawa inspired gown was not blocked by the printing, which existed. It was blocked by the mountain of CAD work in the middle, which made the idea not worth starting.</span><span data-l="vi">Một founder solo dựng thương hiệu thời trang mà không có kỹ sư nào. Cô để Codex điều khiển CLO, phần mềm dựng đồ 3D chuyên nghiệp mà cô chưa từng học, để xuất file CAD cho các chi tiết in 3D, và mỗi tấm hình đều bắt đầu từ một fashion prompt viết ra: dáng đồ, vải rơi và chuyển động thế nào, thậm chí nó kêu ra tiếng gì. Cái prompt chính là bản spec. Chiếc đầm lấy cảm hứng từ Ruth Asawa không bị chặn bởi khâu in, khâu đó có sẵn. Nó bị chặn bởi núi việc CAD nằm ở giữa, đủ để ý tưởng thành ra không đáng bắt đầu.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">The AI productivity paradox: teams are clearly delivering faster and their outcomes are not improving. Most are using AI to speed up the old project model, which was designed to produce output rather than outcomes, so the artifacts arrive quicker, business cases, roadmaps, PRDs, code, and the results do not follow. Leaders stay convinced the constraint is the time and cost of building. The evidence keeps saying the ideas were not worth building.</span><span data-l="vi">Nghịch lý năng suất AI: các team rõ ràng ship nhanh hơn mà outcome không nhích. Phần lớn đang dùng AI để tăng tốc cái project model cũ, vốn sinh ra để đẻ output chứ không phải outcome, nên artifact tới sớm hơn, business case, roadmap, PRD, code, còn kết quả thì không theo. Lãnh đạo vẫn đinh ninh nút thắt là thời gian và chi phí xây. Bằng chứng cứ nói mãi một điều: ý tưởng đó vốn không đáng xây.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Faster building changes something only where the slow step was the reason a good idea never got started. Everywhere else you are <u>printing more of what you were already wrong about</u>.</span><span data-l="vi">Xây nhanh hơn chỉ thay đổi được điều gì đó ở chỗ mà cái bước chậm chính là lý do một ý tưởng hay chưa bao giờ được bắt đầu. Còn lại thì bạn chỉ đang <u>in ra nhiều hơn cái thứ mình vốn đã sai</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which idea did you drop because of <b>the boring step in the middle</b>?</span><span data-l="vi">Ý tưởng nào bạn đã bỏ chỉ vì <b>cái bước chán ngắt nằm ở giữa</b>?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE BACKLOG</span><span data-l="vi">CÁI BACKLOG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Growth is optional. Every company says it wants to grow, and few do the things growth requires. His list of failures reads like an inventory of what teams avoid: not taking a brutally honest look at retention first, the product is everything mantra that makes teams build more product when the work is refinement, hunting for the silver bullet, spreading thin across every channel when most scale comes from one, and under-investing in data because time on analytics does not feel like progress. That time is what lets you build the right things.</span><span data-l="vi">Tăng trưởng là tuỳ chọn. Công ty nào cũng nói mình muốn lớn, mà ít nơi chịu làm những việc tăng trưởng đòi hỏi. Danh sách thất bại của ông đọc như bản kiểm kê những thứ team hay né: không dám nhìn thẳng vào retention trước, cái khẩu hiệu product là tất cả khiến team đi xây thêm product trong khi việc cần làm là mài giũa, đi săn viên đạn bạc, rải mỏng khắp các kênh trong khi phần lớn quy mô đến từ một kênh, và đầu tư quá ít vào data vì thời gian cho analytics không có cảm giác là đang tiến lên. Chính khoảng thời gian đó mới giúp bạn xây đúng thứ cần xây.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">When Airbnb said it was getting rid of product managers, she read it as a merge rather than a deletion. Product management has always sat between business, tech and the customer, and in non-software companies the same act was performed by GMs with the tools of the day. As more companies become software companies, the PM and GM roles converge. Companies that treated the role as purely tech never saw its value in the first place, and the era of product owners who exist to feed developers tasks should be over.</span><span data-l="vi">Khi Airbnb nói sẽ bỏ vị trí product manager, bà đọc đó là một cuộc sáp nhập chứ không phải xoá sổ. Product management xưa nay vẫn nằm giữa business, tech và khách hàng, và ở các công ty không phải software thì chính GM làm việc đó bằng công cụ của thời họ. Càng nhiều công ty trở thành công ty phần mềm, vai trò PM và GM càng nhập lại. Nơi nào coi vai trò này thuần tech thì ngay từ đầu đã không thấy giá trị của nó, và cái thời product owner tồn tại để bón task cho dev thì nên hết.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Both are describing the same demotion from opposite sides: hours poured into producing more, and a role scoped to what comes out. The business question is <u>the part nobody can hand off</u>.</span><span data-l="vi">Cả hai đang tả cùng một sự tụt hạng từ hai phía: thời gian đổ vào việc làm ra nhiều hơn, và một vai trò bị bó vào thứ chạy ra cuối đường. Câu hỏi về business mới là <u>phần không ai bàn giao được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Name one decision this week that was <b>about the business, not the backlog</b>.</span><span data-l="vi">Kể ra một quyết định tuần này <b>thuộc về business, không phải về backlog</b>.</span></p></div>
+<div class="src-link"><a href="https://brianbalfour.com/essays/growth-is-optional" target="_blank" rel="noopener">Brian Balfour — Growth Is Optional: 10 Reasons Why Companies Fail At Growth &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-17.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-17</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: John Cutler / Jason Cohen / Yana Welinder / Marty Cagan / Brian Balfour / Melissa Perri<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: John Cutler / Jason Cohen / Yana Welinder / Marty Cagan / Brian Balfour / Melissa Perri<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

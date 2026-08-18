@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-18",
+      "edition": 23,
+      "note": "Themes: an exact meter on one input is not a causal model, speed only pays where it deletes the step that killed the idea, a product role defined by the backlog is the one that disappears. Sources: The Beautiful Mess, Lenny's Newsletter, Brian Balfour. Pairings: John Cutler x Jason Cohen, Yana Welinder x Marty Cagan, Brian Balfour x Melissa Perri.",
+      "sparks": [
+        {
+          "pair": "John Cutler x Jason Cohen",
+          "headline": "An exact invoice is not a model of anything",
+          "source": "The Beautiful Mess — TBM 437: Tokens, Hours, Points, and Other Curious Proxies",
+          "url": "https://cutlefish.substack.com/p/tbm-437-tokens-hours-points-and-other"
+        },
+        {
+          "pair": "Yana Welinder x Marty Cagan",
+          "headline": "Speed is worth something only where it deletes the step that killed the idea",
+          "source": "Lenny's Newsletter — How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used"
+        },
+        {
+          "pair": "Brian Balfour x Melissa Perri",
+          "headline": "A role defined by what gets built is a role about the backlog",
+          "source": "Brian Balfour — Growth Is Optional: 10 Reasons Why Companies Fail At Growth",
+          "url": "https://brianbalfour.com/essays/growth-is-optional"
+        }
+      ]
+    },
+    {
       "date": "2026-08-17",
       "edition": 22,
       "note": "Themes: financing hands your deadline to whoever built the bridge, a proxy metric is worthless without the plumbing that makes it falsifiable, fit is measured in present tense but pitched in future tense. Sources: Stratechery, Melissa Perri, April Dunford. Pairings: Ben Thompson x Jason Cohen, Melissa Perri x Gibson Biddle, April Dunford x Lenny Rachitsky.",
