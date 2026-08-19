@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-19",
+  "edition": 24,
+  "framing": "Who holds the ruler, who holds the slot, who holds the outcome.",
+  "framing_vi": "Ai cầm thước đo, ai giữ chỗ, ai chịu phần kết quả.",
+  "note": "Themes: when models converge, the differentiator is whose measurement the buyer trusts; AI arbitrages the build but not the position that holds a user; the unit of delegation is the measure of success, not the feature. Sources: Product Talk, andrewchen, SVPG. Pairings: Nikki Marinsek x April Dunford, Andrew Chen x Ben Thompson, Marty Cagan x Gibson Biddle.",
+  "sparks": [
+    {
+      "title": "THE RULER",
+      "title_vi": "CÁI THƯỚC",
+      "headline": "Hand the buyer the ruler, not the score",
+      "headline_vi": "Đưa cho khách cái thước, đừng đưa con điểm",
+      "a": {
+        "who": "Nikki Marinsek",
+        "what": "Musubi builds trust and safety tooling for content platforms, and their starting point is that off-the-shelf moderation scores fail, because every platform's policy is its own. So they train custom models per customer, mixing traditional ML with LLMs depending on the task, and they benchmarked against human moderators, finding that the model sometimes caught what people missed. When AI and a human disagree, an LLM referees the disagreement and the gap usually turns out to be a hole in the written policy. The strategy choice is the interesting part: they push the eval tools out to customers rather than keeping them in house, and built a policy optimizer, an agentic flow that lets a trust and safety team iterate its own policy with no data scientist in the room. Golden sets and policy loops are the product surface, not the internal dashboard.",
+        "what_vi": "Musubi làm bộ công cụ trust and safety cho các nền tảng nội dung, và điểm xuất phát của họ là: điểm kiểm duyệt bán sẵn không dùng được, vì chính sách của mỗi nền tảng là của riêng nó. Nên họ train model riêng cho từng khách, trộn ML truyền thống với LLM tuỳ tác vụ, rồi đem benchmark với đội moderator người thật, và phát hiện model đôi khi bắt được thứ người bỏ sót. Khi AI và người bất đồng, một LLM đứng ra phân xử, và cái khoảng chênh đó hoá ra thường là một lỗ hổng trong chính sách viết ra. Phần thú vị nằm ở lựa chọn chiến lược: họ đẩy bộ công cụ eval ra tay khách hàng thay vì giữ trong nhà, và dựng policy optimizer, một agentic flow để đội trust and safety tự sửa chính sách của mình mà không cần data scientist ngồi kèm. Golden set và vòng lặp chính sách chính là bề mặt sản phẩm, không phải cái dashboard nội bộ."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is context: name the alternative the customer would otherwise use, then the one attribute that alternative lacks, then the value that attribute makes possible, then the segment that cares a lot about exactly that. A claim with no stated alternative has nothing to be measured against, so the buyer picks the comparison themselves, and they pick badly.",
+        "what_vi": "Positioning là ngữ cảnh: gọi tên thứ khách sẽ dùng nếu không có bạn, rồi cái điểm duy nhất thứ đó không có, rồi giá trị mà điểm đó mở ra, rồi nhóm khách quan tâm dữ dội đúng chuyện đó. Một lời khẳng định không nêu phương án thay thế thì không có gì để đem ra đo, nên khách tự chọn mốc so sánh, và họ chọn dở."
+      },
+      "result": "When every vendor's model lands in the same accuracy band, the differentiator stops being the number and becomes whose number the buyer trusts. Ship the ruler and the score is no longer your claim, it is their finding.",
+      "result_vi": "Khi model của nhà nào cũng rơi vào cùng một khoảng chính xác, thứ tạo khác biệt không còn là con số mà là con số đó do ai đo. Giao cái thước đi, và điểm số thôi là lời bạn nói, nó thành cái khách tự tìm ra.",
+      "result_underline": "it is their finding",
+      "result_underline_vi": "nó thành cái khách tự tìm ra",
+      "tick": "Could your buyer prove your product works without asking you?",
+      "tick_vi": "Khách của bạn có tự chứng minh được sản phẩm chạy tốt mà không cần hỏi bạn không?",
+      "tick_bold": [
+        "without asking you"
+      ],
+      "tick_bold_vi": [
+        "không cần hỏi bạn"
+      ],
+      "provocation": "Take your strongest performance claim and ask what a customer would need in order to reproduce it themselves next Tuesday. Build that before you say the number again.",
+      "provocation_vi": "Lấy lời khẳng định mạnh nhất về hiệu năng của bạn và hỏi khách cần gì để thứ Ba tuần sau tự dựng lại được kết quả đó. Làm cái đó trước khi nhắc lại con số.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Beyond Black Box Scores: How Musubi Trains Custom AI for Trust and Safety Teams",
+        "url": "https://www.producttalk.org/beyond-black-box-scores-how-musubi-trains-custom-ai-for-trust-and-safety-teams/",
+        "published": "2026-06-11"
+      }
+    },
+    {
+      "title": "THE HOME SCREEN",
+      "title_vi": "MÀN HÌNH CHÍNH",
+      "headline": "The build got cheap, the slot did not",
+      "headline_vi": "Xây thì rẻ đi, còn chỗ đứng thì không",
+      "a": {
+        "who": "Andrew Chen",
+        "what": "The Home Screen Test: look at your phone, count how many of those apps are AI native, then count how many were built with AI coding tools. For most people the answer is close to zero once you set aside the obvious LLM apps. Where is the AI native calendar, the AI native social network. He remembers how fast engagement moved in the web to mobile shift, and this is nothing like that yet. The other half of his argument is a warning: any software product AI can build within a few years gets arbitraged away, which leaves multiyear, CapEx heavy bets, and advantages that look more like direct to consumer, where brand and a timing insight about distribution are what you actually own.",
+        "what_vi": "Home Screen Test: mở điện thoại ra, đếm xem bao nhiêu app trên đó là AI native, rồi đếm bao nhiêu cái được dựng bằng công cụ code AI. Với đa số người, bỏ mấy app LLM hiển nhiên ra thì con số gần bằng không. App lịch AI native đâu, mạng xã hội AI native đâu. Ông nhớ hồi web chuyển sang mobile, engagement dời đi nhanh thế nào, và chuyện bây giờ chưa giống vậy chút nào. Nửa còn lại trong lập luận của ông là một lời cảnh báo: sản phẩm phần mềm nào AI dựng được trong vài năm tới thì sẽ bị arbitrage mất, chỉ còn lại những ván cược nhiều năm và nặng CapEx, và lợi thế trông giống hàng direct to consumer hơn, nơi thương hiệu và một nhận định đúng thời điểm về distribution mới là thứ bạn thật sự sở hữu."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregation theory: once supply is abundant and cheap to produce, value accrues to whoever owns the direct relationship with demand. The aggregator does not have to make the thing. It has to stand between the thing and the people who want it, and from there everyone upstream is an interchangeable supplier.",
+        "what_vi": "Aggregation theory: khi nguồn cung dư dả và làm ra thì rẻ, giá trị chảy về tay kẻ nắm quan hệ trực tiếp với nhu cầu. Kẻ gom không cần làm ra món đồ. Nó chỉ cần đứng giữa món đồ và người muốn món đồ đó, và từ chỗ đó, mọi bên phía trên đều thành nhà cung cấp thay thế được."
+      },
+      "result": "The AI native calendar was never blocked on being built. The slot is held by someone who already owns the demand for it. AI arbitrages the build, not the position.",
+      "result_vi": "App lịch AI native chưa bao giờ tắc ở khâu xây. Cái chỗ đó đang do một bên đã nắm sẵn nhu cầu giữ. AI arbitrage phần xây, không arbitrage được chỗ đứng.",
+      "result_underline": "AI arbitrages the build, not the position",
+      "result_underline_vi": "AI arbitrage phần xây, không arbitrage được chỗ đứng",
+      "tick": "If your product were free to rebuild tomorrow, what would still hold your customer in place?",
+      "tick_vi": "Nếu mai dựng lại sản phẩm của bạn không tốn gì, thứ gì còn giữ được khách ở lại?",
+      "tick_bold": [
+        "still hold your customer in place"
+      ],
+      "tick_bold_vi": [
+        "còn giữ được khách ở lại"
+      ],
+      "provocation": "Open your own home screen and count how many of those apps you would swap for a better version this week. That count, not the market report, is the size of the opening you are building into.",
+      "provocation_vi": "Mở màn hình chính của chính bạn và đếm xem tuần này bạn sẵn sàng đổi bao nhiêu app sang bản tốt hơn. Con số đó, chứ không phải báo cáo thị trường, mới là độ rộng của khe bạn đang chen vào.",
+      "source": {
+        "site": "andrewchen",
+        "title": "AI will change how we build startups",
+        "url": "https://andrewchen.substack.com/p/ai-will-change-how-we-build-startups",
+        "published": "2025-09-03"
+      }
+    },
+    {
+      "title": "THE HANDOFF",
+      "title_vi": "CÚ BÀN GIAO",
+      "headline": "A request with no measure is an order in disguise",
+      "headline_vi": "Một yêu cầu không kèm thước đo là một cái lệnh đội lốt",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "Writing with Chris Jones, he turns the product model on the stakeholders rather than the product org. If you own a part of the business and depend on product teams, you owe them three things. Business context and constraints, because a solution has to work for the company as well as the customer. Work framed as a problem to solve with a definition of success attached, rather than a feature request, because first ideas about how to solve something usually fail no matter how smart the person is. And direct, unencumbered access to customers, users and data. You are still free to bring your own idea of the solution. You are just not the one accountable for whether it produces the result.",
+        "what_vi": "Viết cùng Chris Jones, ông quay product model về phía stakeholder chứ không phải phía đội sản phẩm. Nếu bạn nắm một mảng business và phụ thuộc vào đội product, bạn nợ họ ba thứ. Bối cảnh và ràng buộc của business, vì một giải pháp phải chạy được cho công ty chứ không chỉ cho khách. Việc được đóng gói thành một vấn đề cần giải kèm định nghĩa thế nào là thành công, thay vì một đơn đặt tính năng, vì ý tưởng đầu tiên về cách giải thường sai, người thông minh cỡ nào cũng vậy. Và quyền tiếp cận trực tiếp, không rào cản, tới khách hàng, người dùng và dữ liệu. Bạn vẫn được mang ý tưởng giải pháp của mình tới. Chỉ là bạn không phải người chịu trách nhiệm xem nó có ra kết quả hay không."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "Proxy metrics: pick a number you can actually move this quarter that you believe predicts the long term outcome, then treat the link between them as the thing under test. The point is not the number. The point is that a bet with a proxy attached can be proven wrong inside a year, and a bet without one cannot.",
+        "what_vi": "Proxy metric: chọn một con số quý này bạn thật sự dịch chuyển được và tin rằng nó dự báo kết quả dài hạn, rồi coi mối liên hệ giữa hai thứ đó chính là cái đang được đem ra thử. Vấn đề không nằm ở con số. Vấn đề là một ván cược có proxy đi kèm thì trong vòng một năm có thể chứng minh là sai, còn ván cược không có thì không."
+      },
+      "result": "The unit of delegation is not the feature, it is the measure. If you cannot say how you would know it worked, you did not hand over a problem, you placed an order.",
+      "result_vi": "Đơn vị của việc giao quyền không phải là tính năng, mà là thước đo. Nếu bạn không nói được làm sao biết nó chạy đúng, thì bạn không giao một vấn đề, bạn đặt một cái lệnh.",
+      "result_underline": "you placed an order",
+      "result_underline_vi": "bạn đặt một cái lệnh",
+      "tick": "What did you ask for this week without saying how you would know it worked?",
+      "tick_vi": "Tuần này bạn đã yêu cầu thứ gì mà không nói làm sao biết nó chạy đúng?",
+      "tick_bold": [
+        "how you would know it worked"
+      ],
+      "tick_bold_vi": [
+        "làm sao biết nó chạy đúng"
+      ],
+      "provocation": "Take the last thing you asked someone to build and write the single number that would move if it worked. If nothing comes to mind, you wrote a spec, and the person building it owns none of the outcome.",
+      "provocation_vi": "Lấy thứ gần nhất bạn nhờ người khác xây và viết ra đúng một con số sẽ nhúc nhích nếu nó chạy đúng. Nếu không nghĩ ra gì, thì bạn đã viết một bản spec, và người xây nó không cầm phần kết quả nào cả.",
+      "source": {
+        "site": "SVPG",
+        "title": "Stakeholders and the Product Model",
+        "url": "https://www.svpg.com/stakeholders-and-the-product-model/",
+        "published": "2025-12-01"
+      }
+    }
+  ]
+}

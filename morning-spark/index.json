@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-19",
+      "edition": 24,
+      "note": "Themes: when models converge, the differentiator is whose measurement the buyer trusts; AI arbitrages the build but not the position that holds a user; the unit of delegation is the measure of success, not the feature. Sources: Product Talk, andrewchen, SVPG. Pairings: Nikki Marinsek x April Dunford, Andrew Chen x Ben Thompson, Marty Cagan x Gibson Biddle.",
+      "sparks": [
+        {
+          "pair": "Nikki Marinsek x April Dunford",
+          "headline": "Hand the buyer the ruler, not the score",
+          "source": "Product Talk — Beyond Black Box Scores: How Musubi Trains Custom AI for Trust and Safety Teams",
+          "url": "https://www.producttalk.org/beyond-black-box-scores-how-musubi-trains-custom-ai-for-trust-and-safety-teams/"
+        },
+        {
+          "pair": "Andrew Chen x Ben Thompson",
+          "headline": "The build got cheap, the slot did not",
+          "source": "andrewchen — AI will change how we build startups",
+          "url": "https://andrewchen.substack.com/p/ai-will-change-how-we-build-startups"
+        },
+        {
+          "pair": "Marty Cagan x Gibson Biddle",
+          "headline": "A request with no measure is an order in disguise",
+          "source": "SVPG — Stakeholders and the Product Model",
+          "url": "https://www.svpg.com/stakeholders-and-the-product-model/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-18",
       "edition": 23,
       "note": "Themes: an exact meter on one input is not a causal model, speed only pays where it deletes the step that killed the idea, a product role defined by the backlog is the one that disappears. Sources: The Beautiful Mess, Lenny's Newsletter, Brian Balfour. Pairings: John Cutler x Jason Cohen, Yana Welinder x Marty Cagan, Brian Balfour x Melissa Perri.",

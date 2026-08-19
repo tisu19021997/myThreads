@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, August 19 · Ed. 24
+Who holds the ruler, who holds the slot, who holds the outcome.
+
+─────────────────
+01 · Hand the buyer the ruler, not the score
+Nikki Marinsek × April Dunford
+Take your strongest performance claim and ask what a customer would need in order to reproduce it themselves next Tuesday. Build that before you say the number again.
+→ https://www.producttalk.org/beyond-black-box-scores-how-musubi-trains-custom-ai-for-trust-and-safety-teams/
+
+─────────────────
+02 · The build got cheap, the slot did not
+Andrew Chen × Ben Thompson
+Open your own home screen and count how many of those apps you would swap for a better version this week. That count, not the market report, is the size of the opening you are building into.
+→ https://andrewchen.substack.com/p/ai-will-change-how-we-build-startups
+
+─────────────────
+03 · A request with no measure is an order in disguise
+Marty Cagan × Gibson Biddle
+Take the last thing you asked someone to build and write the single number that would move if it worked. If nothing comes to mind, you wrote a spec, and the person building it owns none of the outcome.
+→ https://www.svpg.com/stakeholders-and-the-product-model/
+
+Full styled card → open the session.
