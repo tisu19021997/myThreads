@@ -1,0 +1,119 @@
+{
+  "date": "2026-08-20",
+  "edition": 25,
+  "framing": "Lever size, the frame you never chose, and the cut loop.",
+  "framing_vi": "Độ lớn đòn bẩy, cái khung bạn chưa từng chọn, và cái loop bị cắt.",
+  "note": "Themes: empowerment measured by the size of the number you may move, the frame of reference as the unnoticed strategy decision, the org chart as the list of places a growth loop gets cut. Sources: A Smart Bear, April Dunford, Paul Graham. Pairings: Jason Cohen x Marty Cagan, April Dunford x Andrew Chen, Paul Graham x Brian Balfour.",
+  "sparks": [
+    {
+      "title": "THE ONLY LEVER",
+      "title_vi": "ĐÒN BẨY DUY NHẤT",
+      "headline": "Empowerment has a size, and it is the number you may move",
+      "headline_vi": "Trao quyền có kích thước, và nó là con số bạn được phép nhích",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "A small company can chase exactly one metric, and only a change big enough to alter the business is worth chasing. Pulling cancellation rate from 3 percent to 2.5 percent buys nothing you would notice; doubling signups changes everything. The small optimisations are always still there later.",
+        "what_vi": "Một công ty nhỏ chỉ đuổi được đúng một metric, và chỉ thay đổi nào đủ lớn để đổi cả business mới đáng đuổi. Kéo cancellation rate từ 3 xuống 2,5 phần trăm chẳng mua được gì bạn nhận ra; nhân đôi signup thì đổi tất cả. Mấy chỗ tối ưu nhỏ lúc nào cũng còn đó."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "An empowered team is handed a problem to solve and an outcome to hit, not a list of features to build.",
+        "what_vi": "Một empowered team được giao vấn đề để giải và outcome để đạt, không phải một danh sách feature để build."
+      },
+      "result": "Most teams are handed an outcome they are allowed to move by two percent. That is not empowerment. That is a permission slip for small work.",
+      "result_vi": "Phần lớn team được giao một outcome mà họ chỉ được phép nhích hai phần trăm. Đó không phải trao quyền. Đó là cái giấy phép làm việc nhỏ.",
+      "result_underline": "a permission slip for small work",
+      "result_underline_vi": "cái giấy phép làm việc nhỏ",
+      "tick": "Which number where you work could double, and are you allowed to touch it?",
+      "tick_vi": "Con số nào ở chỗ bạn làm có thể nhân đôi, và bạn có được phép đụng vào không?",
+      "tick_bold": [
+        "could double",
+        "allowed to touch it"
+      ],
+      "tick_bold_vi": [
+        "có thể nhân đôi",
+        "được phép đụng vào"
+      ],
+      "provocation": "Cohen only stopped grinding on cancellation rate when someone asked what would actually be different if he won. Cagan says an empowered team owns an outcome rather than a backlog. Put them together and ownership gets a unit: the size of the swing you are allowed to attempt.",
+      "provocation_vi": "Cohen chỉ ngừng cày cancellation rate khi có người hỏi thắng rồi thì khác gì. Cagan nói empowered team sở hữu outcome chứ không sở hữu backlog. Ghép lại thì quyền sở hữu có đơn vị đo: độ lớn của cú swing bạn được phép thử.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "The full story of “the one important thing” for startups",
+        "url": "https://longform.asmartbear.com/one-priority/",
+        "published": "2011-10-03"
+      }
+    },
+    {
+      "title": "DEFAULT FRAME",
+      "title_vi": "KHUNG MẶC ĐỊNH",
+      "headline": "The frame you never chose is choosing your roadmap",
+      "headline_vi": "Cái khung bạn chưa từng chọn đang chọn roadmap cho bạn",
+      "a": {
+        "who": "April Dunford",
+        "what": "The same gadget can be in the ticket avoidance business or the driver safety business. The frame decides the target market, the price it can carry, and the next three features. Most companies take the default frame without noticing they chose anything at all.",
+        "what_vi": "Cùng một cái gadget có thể nằm trong ngành tránh bị phạt, hoặc nằm trong ngành lái xe an toàn. Cái khung quyết định target market, mức giá gánh được, và ba feature kế tiếp. Phần lớn công ty lấy luôn cái khung mặc định mà không nhận ra mình vừa chọn cái gì."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "New products die at the cold start. What matters early is not the size of the market but the smallest group the product is already useful for, and whether you can actually reach all of them.",
+        "what_vi": "Sản phẩm mới chết ở khúc cold start. Giai đoạn đầu cái quan trọng không phải market to cỡ nào, mà là nhóm nhỏ nhất mà sản phẩm đã có ích thật, và bạn có với tới hết nhóm đó không."
+      },
+      "result": "Two frames, two prices, two roadmaps, and two completely different first hundred users. So pick the frame that hands you the smallest room you can fill.",
+      "result_vi": "Hai cái khung, hai mức giá, hai roadmap, và hai nhóm một trăm user đầu tiên khác hẳn nhau. Nên chọn cái khung đưa cho bạn căn phòng nhỏ nhất mà bạn lấp đầy được.",
+      "result_underline": "the smallest room you can fill",
+      "result_underline_vi": "căn phòng nhỏ nhất mà bạn lấp đầy được",
+      "tick": "What business are you in, and who actually decided that?",
+      "tick_vi": "Bạn đang ở trong ngành nào, và thật ra ai đã quyết chuyện đó?",
+      "tick_bold": [
+        "who actually decided that"
+      ],
+      "tick_bold_vi": [
+        "ai đã quyết chuyện đó"
+      ],
+      "provocation": "Dunford's pitch contest story is a strategy story wearing marketing clothes: the frame of reference fixes price, market and roadmap long before anyone argues about a feature. Chen's cold start says the only market that counts at the beginning is the smallest one you can saturate. Together they turn positioning into a sizing question: not the biggest story you can tell, but the smallest room you can fill completely.",
+      "provocation_vi": "Câu chuyện chấm thi pitch của Dunford thật ra là chuyện strategy khoác áo marketing: cái khung tham chiếu chốt giá, chốt market, chốt roadmap từ trước khi ai kịp cãi nhau về một feature. Cold start của Chen nói market duy nhất có nghĩa lúc đầu là market nhỏ nhất bạn phủ kín được. Ghép lại, positioning thành bài toán chọn cỡ: không phải câu chuyện to nhất bạn kể được, mà căn phòng nhỏ nhất bạn lấp đầy được.",
+      "source": {
+        "site": "April Dunford",
+        "title": "What The Heck Is Your Product, Really?",
+        "url": "https://www.aprildunford.com/post/what-the-heck-is-your-product-really",
+        "published": "2017-06-12"
+      }
+    },
+    {
+      "title": "ORG CHART, CUT",
+      "title_vi": "ORG CHART, CẮT",
+      "headline": "Your org chart is a funnel wearing a suit",
+      "headline_vi": "Org chart của bạn là cái funnel mặc vest",
+      "a": {
+        "who": "Paul Graham",
+        "what": "Manager mode treats every subtree of the org chart as a black box you are not supposed to open: hire good people, give them room, do not get into the details. Founders who took that advice watched it damage their companies, and the way out started with skip-level contact becoming normal.",
+        "what_vi": "Manager mode coi mỗi nhánh org chart là một hộp đen không được mở: tuyển người giỏi, cho họ không gian, đừng chui vào chi tiết. Founder nào nghe theo đều thấy công ty mình hỏng, và đường ra bắt đầu từ chỗ nói chuyện thẳng xuống mấy tầng dưới thành chuyện bình thường."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Funnels split growth into functional silos, so each team hits its own layer at the next team's expense; loops compound because the output is fed back in as the input.",
+        "what_vi": "Funnel chẻ growth thành các silo theo phòng ban, nên team nào cũng đạt tầng của mình bằng cách đạp lên team kế; loop thì cộng dồn vì output được đẩy ngược lại làm input."
+      },
+      "result": "Nobody owns a loop, because every loop runs through three black boxes. Which makes the org chart a list of the places you decided to cut it.",
+      "result_vi": "Không ai sở hữu một cái loop, vì loop nào cũng chạy xuyên ba cái hộp đen. Thành ra org chart là danh sách những chỗ bạn đã quyết định cắt nó.",
+      "result_underline": "a list of the places you decided to cut it",
+      "result_underline_vi": "danh sách những chỗ bạn đã quyết định cắt nó",
+      "tick": "Draw how your product actually grows, then lay the org chart over it. Where does it break?",
+      "tick_vi": "Vẽ ra sản phẩm của bạn thật sự lớn lên bằng cách nào, rồi đặt org chart đè lên. Nó đứt ở đâu?",
+      "tick_bold": [
+        "Where does it break"
+      ],
+      "tick_bold_vi": [
+        "Nó đứt ở đâu"
+      ],
+      "provocation": "Graham says the modular org chart is what breaks founders' companies. Balfour says the funnel is what breaks growth, because it hands each layer to a different team with a different goal. They are the same mistake at two altitudes: a system that only works whole, managed as if it were parts.",
+      "provocation_vi": "Graham nói cái org chart chia hộp là thứ làm hỏng công ty của founder. Balfour nói cái funnel là thứ làm hỏng growth, vì nó giao mỗi tầng cho một team với một mục tiêu khác nhau. Cùng một lỗi ở hai độ cao: một hệ thống chỉ chạy khi còn nguyên, lại đem quản như thể nó là mấy mảnh rời.",
+      "source": {
+        "site": "Paul Graham",
+        "title": "Founder Mode",
+        "url": "https://paulgraham.com/foundermode.html",
+        "published": "2024-09-01"
+      }
+    }
+  ]
+}

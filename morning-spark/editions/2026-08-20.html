@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 20</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 25</div></div></div>
+<div class="meta label">Thursday, August 20, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE ONLY LEVER</span><span data-l="vi">ĐÒN BẨY DUY NHẤT</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">A small company can chase exactly one metric, and only a change big enough to alter the business is worth chasing. Pulling cancellation rate from 3 percent to 2.5 percent buys nothing you would notice; doubling signups changes everything. The small optimisations are always still there later.</span><span data-l="vi">Một công ty nhỏ chỉ đuổi được đúng một metric, và chỉ thay đổi nào đủ lớn để đổi cả business mới đáng đuổi. Kéo cancellation rate từ 3 xuống 2,5 phần trăm chẳng mua được gì bạn nhận ra; nhân đôi signup thì đổi tất cả. Mấy chỗ tối ưu nhỏ lúc nào cũng còn đó.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">An empowered team is handed a problem to solve and an outcome to hit, not a list of features to build.</span><span data-l="vi">Một empowered team được giao vấn đề để giải và outcome để đạt, không phải một danh sách feature để build.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Most teams are handed an outcome they are allowed to move by two percent. That is not empowerment. That is <u>a permission slip for small work</u>.</span><span data-l="vi">Phần lớn team được giao một outcome mà họ chỉ được phép nhích hai phần trăm. Đó không phải trao quyền. Đó là <u>cái giấy phép làm việc nhỏ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which number where you work <b>could double</b>, and are you <b>allowed to touch it</b>?</span><span data-l="vi">Con số nào ở chỗ bạn làm <b>có thể nhân đôi</b>, và bạn có <b>được phép đụng vào</b> không?</span></p></div>
+<div class="src-link"><a href="https://longform.asmartbear.com/one-priority/" target="_blank" rel="noopener">A Smart Bear — The full story of “the one important thing” for startups &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">DEFAULT FRAME</span><span data-l="vi">KHUNG MẶC ĐỊNH</span></span></div>
+<div class="eq"><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">The same gadget can be in the ticket avoidance business or the driver safety business. The frame decides the target market, the price it can carry, and the next three features. Most companies take the default frame without noticing they chose anything at all.</span><span data-l="vi">Cùng một cái gadget có thể nằm trong ngành tránh bị phạt, hoặc nằm trong ngành lái xe an toàn. Cái khung quyết định target market, mức giá gánh được, và ba feature kế tiếp. Phần lớn công ty lấy luôn cái khung mặc định mà không nhận ra mình vừa chọn cái gì.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">New products die at the cold start. What matters early is not the size of the market but the smallest group the product is already useful for, and whether you can actually reach all of them.</span><span data-l="vi">Sản phẩm mới chết ở khúc cold start. Giai đoạn đầu cái quan trọng không phải market to cỡ nào, mà là nhóm nhỏ nhất mà sản phẩm đã có ích thật, và bạn có với tới hết nhóm đó không.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Two frames, two prices, two roadmaps, and two completely different first hundred users. So pick the frame that hands you <u>the smallest room you can fill</u>.</span><span data-l="vi">Hai cái khung, hai mức giá, hai roadmap, và hai nhóm một trăm user đầu tiên khác hẳn nhau. Nên chọn cái khung đưa cho bạn <u>căn phòng nhỏ nhất mà bạn lấp đầy được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What business are you in, and <b>who actually decided that</b>?</span><span data-l="vi">Bạn đang ở trong ngành nào, và thật ra <b>ai đã quyết chuyện đó</b>?</span></p></div>
+<div class="src-link"><a href="https://www.aprildunford.com/post/what-the-heck-is-your-product-really" target="_blank" rel="noopener">April Dunford — What The Heck Is Your Product, Really? &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">ORG CHART, CUT</span><span data-l="vi">ORG CHART, CẮT</span></span></div>
+<div class="eq"><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">Manager mode treats every subtree of the org chart as a black box you are not supposed to open: hire good people, give them room, do not get into the details. Founders who took that advice watched it damage their companies, and the way out started with skip-level contact becoming normal.</span><span data-l="vi">Manager mode coi mỗi nhánh org chart là một hộp đen không được mở: tuyển người giỏi, cho họ không gian, đừng chui vào chi tiết. Founder nào nghe theo đều thấy công ty mình hỏng, và đường ra bắt đầu từ chỗ nói chuyện thẳng xuống mấy tầng dưới thành chuyện bình thường.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Funnels split growth into functional silos, so each team hits its own layer at the next team&#x27;s expense; loops compound because the output is fed back in as the input.</span><span data-l="vi">Funnel chẻ growth thành các silo theo phòng ban, nên team nào cũng đạt tầng của mình bằng cách đạp lên team kế; loop thì cộng dồn vì output được đẩy ngược lại làm input.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Nobody owns a loop, because every loop runs through three black boxes. Which makes the org chart <u>a list of the places you decided to cut it</u>.</span><span data-l="vi">Không ai sở hữu một cái loop, vì loop nào cũng chạy xuyên ba cái hộp đen. Thành ra org chart là <u>danh sách những chỗ bạn đã quyết định cắt nó</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Draw how your product actually grows, then lay the org chart over it. <b>Where does it break</b>?</span><span data-l="vi">Vẽ ra sản phẩm của bạn thật sự lớn lên bằng cách nào, rồi đặt org chart đè lên. <b>Nó đứt ở đâu</b>?</span></p></div>
+<div class="src-link"><a href="https://paulgraham.com/foundermode.html" target="_blank" rel="noopener">Paul Graham — Founder Mode &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-19.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-19</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Jason Cohen / Marty Cagan / April Dunford / Andrew Chen / Paul Graham / Brian Balfour<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Jason Cohen / Marty Cagan / April Dunford / Andrew Chen / Paul Graham / Brian Balfour<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

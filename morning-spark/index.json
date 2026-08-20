@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-20",
+      "edition": 25,
+      "note": "Themes: empowerment measured by the size of the number you may move, the frame of reference as the unnoticed strategy decision, the org chart as the list of places a growth loop gets cut. Sources: A Smart Bear, April Dunford, Paul Graham. Pairings: Jason Cohen x Marty Cagan, April Dunford x Andrew Chen, Paul Graham x Brian Balfour.",
+      "sparks": [
+        {
+          "pair": "Jason Cohen x Marty Cagan",
+          "headline": "Empowerment has a size, and it is the number you may move",
+          "source": "A Smart Bear — The full story of “the one important thing” for startups",
+          "url": "https://longform.asmartbear.com/one-priority/"
+        },
+        {
+          "pair": "April Dunford x Andrew Chen",
+          "headline": "The frame you never chose is choosing your roadmap",
+          "source": "April Dunford — What The Heck Is Your Product, Really?",
+          "url": "https://www.aprildunford.com/post/what-the-heck-is-your-product-really"
+        },
+        {
+          "pair": "Paul Graham x Brian Balfour",
+          "headline": "Your org chart is a funnel wearing a suit",
+          "source": "Paul Graham — Founder Mode",
+          "url": "https://paulgraham.com/foundermode.html"
+        }
+      ]
+    },
+    {
       "date": "2026-08-19",
       "edition": 24,
       "note": "Themes: when models converge, the differentiator is whose measurement the buyer trusts; AI arbitrages the build but not the position that holds a user; the unit of delegation is the measure of success, not the feature. Sources: Product Talk, andrewchen, SVPG. Pairings: Nikki Marinsek x April Dunford, Andrew Chen x Ben Thompson, Marty Cagan x Gibson Biddle.",
