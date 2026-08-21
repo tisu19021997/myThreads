@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-21",
+      "edition": 26,
+      "note": "Themes: what is left to design once the middle of the interaction goes invisible, delight as a positioning decision rather than a budget line, better beating different when a problem still has headroom. Sources: Lenny's Newsletter, Product Talk, SVPG. Pairings: Ian Silber x Ben Thompson, Petra Wille x April Dunford, Elias Lieberich x Jason Cohen.",
+      "sparks": [
+        {
+          "pair": "Ian Silber x Ben Thompson",
+          "headline": "AI gave engineers ten times the output and designers none",
+          "source": "Lenny's Newsletter — OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+          "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the"
+        },
+        {
+          "pair": "Petra Wille x April Dunford",
+          "headline": "The extravagant detail is positioning you can smell",
+          "source": "Product Talk — Creating Experiences - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/creating-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/"
+        },
+        {
+          "pair": "Elias Lieberich x Jason Cohen",
+          "headline": "Nine billion-user products, not one new category",
+          "source": "SVPG — The Product Model at Google",
+          "url": "https://www.svpg.com/the-product-model-at-google/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-20",
       "edition": 25,
       "note": "Themes: empowerment measured by the size of the number you may move, the frame of reference as the unnoticed strategy decision, the org chart as the list of places a growth loop gets cut. Sources: A Smart Bear, April Dunford, Paul Graham. Pairings: Jason Cohen x Marty Cagan, April Dunford x Andrew Chen, Paul Graham x Brian Balfour.",

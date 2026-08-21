@@ -1,0 +1,22 @@
+Morning Spark · Friday, August 21 · Ed. 26
+Point of view, a chosen guest, and a problem with room.
+
+─────────────────
+01 · AI gave engineers ten times the output and designers none
+Ian Silber × Ben Thompson
+Silber's explanation for why design did not get a ten times boost is that the multipliable part of design was never the hard part. Thompson has been arguing that agents push the interface toward a request and a result with nothing visible in between. Put together, the job that survives is not making the thing look right, it is knowing what should happen, which is the one part nobody has found a way to prompt.
+→ https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the
+
+─────────────────
+02 · The extravagant detail is positioning you can smell
+Petra Wille × April Dunford
+Wille spends real money on rosemary and a disco ball, and defends it with the observation that an experience everyone likes is an experience nobody remembers. Dunford says the same thing about markets: pick who you are for and accept that others walk away. The uncomfortable version for product people is that the delight features you can justify to everyone in the room are exactly the ones that will not be missed.
+→ https://www.producttalk.org/creating-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/
+
+─────────────────
+03 · Nine billion-user products, not one new category
+Elias Lieberich × Jason Cohen
+The story people tell about Google is invention. The record is closer to occupation: nine categories somebody else opened, entered late, and held by being better for a decade. Cohen's warning about competing on better is still right for most companies, because most companies pick a problem that is already solved well enough. The prior question is not whether to be different, it is how much room is left in the problem you chose.
+→ https://www.svpg.com/the-product-model-at-google/
+
+Full styled card → open the session.

@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-21",
+  "edition": 26,
+  "framing": "Point of view, a chosen guest, and a problem with room.",
+  "framing_vi": "Một point of view, một người khách được chọn, và một bài toán còn chỗ.",
+  "note": "Themes: what is left to design once the middle of the interaction goes invisible, delight as a positioning decision rather than a budget line, better beating different when a problem still has headroom. Sources: Lenny's Newsletter, Product Talk, SVPG. Pairings: Ian Silber x Ben Thompson, Petra Wille x April Dunford, Elias Lieberich x Jason Cohen.",
+  "sparks": [
+    {
+      "title": "LESS SCREEN",
+      "title_vi": "BỚT MÀN HÌNH",
+      "headline": "AI gave engineers ten times the output and designers none",
+      "headline_vi": "AI nhân output của engineer lên mười lần, còn designer thì không",
+      "a": {
+        "who": "Ian Silber",
+        "what": "OpenAI's head of product design says engineering teams got visibly multiplied by AI and design teams did not. What still belongs to humans is narrow and specific: understanding users, inventing, and holding a point of view. His standing advice to his own designers is to do less.",
+        "what_vi": "Head of product design của OpenAI nói team engineering được AI nhân lên thấy rõ, còn team design thì không. Phần còn lại của con người hẹp và cụ thể: hiểu user, nghĩ ra cái mới, và giữ một point of view. Lời khuyên ông nhắc đi nhắc lại cho designer của mình là làm ít lại."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "An agent is not there to operate the computer for you, it is there to finish the task, so everything between the request and the result should be invisible. The device stops being the product and becomes a portal to something running elsewhere.",
+        "what_vi": "Một agent không sinh ra để bấm máy hộ bạn, nó sinh ra để làm xong việc, nên mọi thứ nằm giữa yêu cầu và kết quả lẽ ra phải vô hình. Cái thiết bị thôi làm sản phẩm, nó thành cái cổng dẫn tới thứ đang chạy ở chỗ khác."
+      },
+      "result": "If the middle of the interaction goes invisible, there is less to draw and more to decide. The screens shrink and the point of view is the product.",
+      "result_vi": "Nếu khúc giữa của tương tác trở nên vô hình, thì phần để vẽ ít đi và phần để quyết nhiều lên. Màn hình co lại và point of view mới là sản phẩm.",
+      "result_underline": "the point of view is the product",
+      "result_underline_vi": "point of view mới là sản phẩm",
+      "tick": "If your product lost its screens tomorrow, what would be left of it?",
+      "tick_vi": "Mai sản phẩm của bạn mất hết màn hình, thì còn lại cái gì?",
+      "tick_bold": [
+        "lost its screens tomorrow",
+        "what would be left"
+      ],
+      "tick_bold_vi": [
+        "mất hết màn hình",
+        "còn lại cái gì"
+      ],
+      "provocation": "Silber's explanation for why design did not get a ten times boost is that the multipliable part of design was never the hard part. Thompson has been arguing that agents push the interface toward a request and a result with nothing visible in between. Put together, the job that survives is not making the thing look right, it is knowing what should happen, which is the one part nobody has found a way to prompt.",
+      "provocation_vi": "Silber giải thích chuyện design không được nhân mười bằng một câu đơn giản: phần nhân được của design chưa bao giờ là phần khó. Thompson thì lâu nay nói agent kéo giao diện về còn đúng một yêu cầu và một kết quả, ở giữa không thấy gì. Ghép lại, phần việc sống sót không phải làm cho nó đẹp, mà là biết cái gì nên xảy ra, đúng cái phần chưa ai prompt được.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+        "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
+        "published": "2026-08-16"
+      }
+    },
+    {
+      "title": "TWENTY SECONDS",
+      "title_vi": "HAI MƯƠI GIÂY",
+      "headline": "The extravagant detail is positioning you can smell",
+      "headline_vi": "Cái chi tiết xa xỉ đó là positioning mà bạn ngửi thấy được",
+      "a": {
+        "who": "Petra Wille",
+        "what": "She designs her conferences as experiences: a candlelit speakers' dinner in a greenhouse covered in rosemary, a three metre disco ball that appears for exactly twenty seconds. Her rule is that you cannot curate an experience that makes everyone happy, so she builds self-select paths and small rooms for narrow audiences, and aims for awe rather than novelty, because awe is what gets people out of their corporate armour.",
+        "what_vi": "Cô thiết kế hội thảo của mình như một trải nghiệm: bữa tối cho speaker thắp nến trong nhà kính phủ đầy hương thảo, một quả cầu disco ba mét xuất hiện đúng hai mươi giây. Nguyên tắc của cô là không thể làm một trải nghiệm khiến ai cũng vui, nên cô làm nhiều nhánh cho người ta tự chọn và những phòng nhỏ cho nhóm hẹp, và nhắm tới cảm giác choáng ngợp chứ không phải mới lạ, vì choáng ngợp mới cởi được bộ giáp công sở của người ta."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning starts by deciding who the product is for, which means deciding who it is not for. Strong positioning makes some buyers obviously wrong for you, and that is the point rather than a side effect.",
+        "what_vi": "Positioning bắt đầu bằng việc chọn sản phẩm dành cho ai, tức là chọn luôn nó không dành cho ai. Positioning mạnh làm một số người mua thành sai rõ ràng với bạn, và đó là mục đích chứ không phải tác dụng phụ."
+      },
+      "result": "Delight everybody likes is decoration and gets cut in the first budget review. Delight aimed at the person you chose is a positioning decision, and it survives.",
+      "result_vi": "Thứ delight ai cũng thích là đồ trang trí, và nó bị cắt ngay ở lần soát ngân sách đầu tiên. Thứ delight nhắm vào đúng người bạn đã chọn là một quyết định positioning, và nó sống.",
+      "result_underline": "Delight aimed at the person you chose is a positioning decision",
+      "result_underline_vi": "Thứ delight nhắm vào đúng người bạn đã chọn là một quyết định positioning",
+      "tick": "Which detail in your product would only land for the person you chose?",
+      "tick_vi": "Chi tiết nào trong sản phẩm của bạn chỉ trúng với đúng người bạn đã chọn?",
+      "tick_bold": [
+        "only land",
+        "the person you chose"
+      ],
+      "tick_bold_vi": [
+        "chỉ trúng",
+        "đúng người bạn đã chọn"
+      ],
+      "provocation": "Wille spends real money on rosemary and a disco ball, and defends it with the observation that an experience everyone likes is an experience nobody remembers. Dunford says the same thing about markets: pick who you are for and accept that others walk away. The uncomfortable version for product people is that the delight features you can justify to everyone in the room are exactly the ones that will not be missed.",
+      "provocation_vi": "Wille chi tiền thật cho hương thảo và quả cầu disco, và bảo vệ nó bằng một nhận xét: trải nghiệm ai cũng thích là trải nghiệm không ai nhớ. Dunford nói y hệt vậy về thị trường: chọn mình dành cho ai và chấp nhận người khác bỏ đi. Phiên bản khó chịu cho dân làm sản phẩm là mấy cái delight mà bạn giải thích được cho cả phòng lại đúng là mấy cái mất đi chẳng ai tiếc.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Creating Experiences - All Things Product Podcast with Teresa Torres & Petra Wille",
+        "url": "https://www.producttalk.org/creating-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/",
+        "published": "2026-06-23"
+      }
+    },
+    {
+      "title": "STILL ROOM",
+      "title_vi": "CÒN CHỖ",
+      "headline": "Nine billion-user products, not one new category",
+      "headline_vi": "Chín sản phẩm tỉ user, không cái nào mở ra một category mới",
+      "a": {
+        "who": "Elias Lieberich",
+        "what": "Google has nine products with over a billion monthly users and none of them invented a category. Search, maps, mail, photos, browsers all existed. It won by picking problems that were still badly solved and staying on them for years, with leaders broadcasting the hard problems rather than assigning them, and several teams often attacking the same one on purpose.",
+        "what_vi": "Google có chín sản phẩm trên một tỉ user hàng tháng và không cái nào mở ra category mới. Search, maps, mail, photos, browser đều có sẵn rồi. Nó thắng nhờ chọn đúng những bài toán vẫn đang được giải tệ và bám theo nhiều năm, với lãnh đạo phát bài toán khó ra cho cả công ty thay vì giao cho một team, và thường để vài team cùng đánh một bài toán một cách cố ý."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "A startup that competes on being better is competing on the axis the incumbent already funds. What works is being different in a way that matters so much to a specific customer that the incumbent cannot copy it without damaging its own business.",
+        "what_vi": "Startup nào đi thi xem ai tốt hơn là đang thi đúng trên cái trục mà ông lớn đã bỏ tiền vào. Cái ăn được là khác đi theo kiểu quan trọng tới mức với một nhóm khách cụ thể, ông lớn không copy được nếu không tự phá business của chính mình."
+      },
+      "result": "Google is the counterexample that proves the condition. Better still wins when a problem has headroom left, and headroom is the thing to check before you pick your axis.",
+      "result_vi": "Google là phản ví dụ nhưng lại chứng minh cái điều kiện. Tốt hơn vẫn thắng khi bài toán còn chỗ trống, và chỗ trống là thứ phải kiểm trước khi bạn chọn trục để đánh.",
+      "result_underline": "headroom is the thing to check before you pick your axis",
+      "result_underline_vi": "chỗ trống là thứ phải kiểm trước khi bạn chọn trục để đánh",
+      "tick": "Is the problem you are on solved badly enough that better is still a strategy?",
+      "tick_vi": "Bài toán bạn đang làm có đang được giải tệ đủ để tốt hơn vẫn là một chiến lược không?",
+      "tick_bold": [
+        "solved badly enough",
+        "better is still a strategy"
+      ],
+      "tick_bold_vi": [
+        "giải tệ đủ",
+        "tốt hơn vẫn là một chiến lược"
+      ],
+      "provocation": "The story people tell about Google is invention. The record is closer to occupation: nine categories somebody else opened, entered late, and held by being better for a decade. Cohen's warning about competing on better is still right for most companies, because most companies pick a problem that is already solved well enough. The prior question is not whether to be different, it is how much room is left in the problem you chose.",
+      "provocation_vi": "Câu chuyện người ta kể về Google là sáng tạo. Hồ sơ thật thì giống chiếm đóng hơn: chín category do người khác mở, vào sau, rồi giữ bằng cách tốt hơn suốt cả thập kỷ. Cảnh báo của Cohen về chuyện đua tốt hơn vẫn đúng với phần lớn công ty, vì phần lớn công ty chọn một bài toán đã được giải đủ tốt rồi. Câu hỏi có trước không phải là có nên khác đi không, mà là bài toán bạn chọn còn lại bao nhiêu chỗ.",
+      "source": {
+        "site": "SVPG",
+        "title": "The Product Model at Google",
+        "url": "https://www.svpg.com/the-product-model-at-google/",
+        "published": "2025-12-19"
+      }
+    }
+  ]
+}

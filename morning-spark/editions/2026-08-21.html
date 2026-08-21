@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 21</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 26</div></div></div>
+<div class="meta label">Friday, August 21, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">LESS SCREEN</span><span data-l="vi">BỚT MÀN HÌNH</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ian Silber</div><div class="what"><span data-l="en">OpenAI&#x27;s head of product design says engineering teams got visibly multiplied by AI and design teams did not. What still belongs to humans is narrow and specific: understanding users, inventing, and holding a point of view. His standing advice to his own designers is to do less.</span><span data-l="vi">Head of product design của OpenAI nói team engineering được AI nhân lên thấy rõ, còn team design thì không. Phần còn lại của con người hẹp và cụ thể: hiểu user, nghĩ ra cái mới, và giữ một point of view. Lời khuyên ông nhắc đi nhắc lại cho designer của mình là làm ít lại.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">An agent is not there to operate the computer for you, it is there to finish the task, so everything between the request and the result should be invisible. The device stops being the product and becomes a portal to something running elsewhere.</span><span data-l="vi">Một agent không sinh ra để bấm máy hộ bạn, nó sinh ra để làm xong việc, nên mọi thứ nằm giữa yêu cầu và kết quả lẽ ra phải vô hình. Cái thiết bị thôi làm sản phẩm, nó thành cái cổng dẫn tới thứ đang chạy ở chỗ khác.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">If the middle of the interaction goes invisible, there is less to draw and more to decide. The screens shrink and <u>the point of view is the product</u>.</span><span data-l="vi">Nếu khúc giữa của tương tác trở nên vô hình, thì phần để vẽ ít đi và phần để quyết nhiều lên. Màn hình co lại và <u>point of view mới là sản phẩm</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If your product <b>lost its screens tomorrow</b>, <b>what would be left</b> of it?</span><span data-l="vi">Mai sản phẩm của bạn <b>mất hết màn hình</b>, thì <b>còn lại cái gì</b>?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">TWENTY SECONDS</span><span data-l="vi">HAI MƯƠI GIÂY</span></span></div>
+<div class="eq"><div class="term"><div class="who">Petra Wille</div><div class="what"><span data-l="en">She designs her conferences as experiences: a candlelit speakers&#x27; dinner in a greenhouse covered in rosemary, a three metre disco ball that appears for exactly twenty seconds. Her rule is that you cannot curate an experience that makes everyone happy, so she builds self-select paths and small rooms for narrow audiences, and aims for awe rather than novelty, because awe is what gets people out of their corporate armour.</span><span data-l="vi">Cô thiết kế hội thảo của mình như một trải nghiệm: bữa tối cho speaker thắp nến trong nhà kính phủ đầy hương thảo, một quả cầu disco ba mét xuất hiện đúng hai mươi giây. Nguyên tắc của cô là không thể làm một trải nghiệm khiến ai cũng vui, nên cô làm nhiều nhánh cho người ta tự chọn và những phòng nhỏ cho nhóm hẹp, và nhắm tới cảm giác choáng ngợp chứ không phải mới lạ, vì choáng ngợp mới cởi được bộ giáp công sở của người ta.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning starts by deciding who the product is for, which means deciding who it is not for. Strong positioning makes some buyers obviously wrong for you, and that is the point rather than a side effect.</span><span data-l="vi">Positioning bắt đầu bằng việc chọn sản phẩm dành cho ai, tức là chọn luôn nó không dành cho ai. Positioning mạnh làm một số người mua thành sai rõ ràng với bạn, và đó là mục đích chứ không phải tác dụng phụ.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Delight everybody likes is decoration and gets cut in the first budget review. <u>Delight aimed at the person you chose is a positioning decision</u>, and it survives.</span><span data-l="vi">Thứ delight ai cũng thích là đồ trang trí, và nó bị cắt ngay ở lần soát ngân sách đầu tiên. <u>Thứ delight nhắm vào đúng người bạn đã chọn là một quyết định positioning</u>, và nó sống.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which detail in your product would <b>only land</b> for <b>the person you chose</b>?</span><span data-l="vi">Chi tiết nào trong sản phẩm của bạn <b>chỉ trúng</b> với <b>đúng người bạn đã chọn</b>?</span></p></div>
+<div class="src-link"><a href="https://www.producttalk.org/creating-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/" target="_blank" rel="noopener">Product Talk — Creating Experiences - All Things Product Podcast with Teresa Torres &amp; Petra Wille &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">STILL ROOM</span><span data-l="vi">CÒN CHỖ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Elias Lieberich</div><div class="what"><span data-l="en">Google has nine products with over a billion monthly users and none of them invented a category. Search, maps, mail, photos, browsers all existed. It won by picking problems that were still badly solved and staying on them for years, with leaders broadcasting the hard problems rather than assigning them, and several teams often attacking the same one on purpose.</span><span data-l="vi">Google có chín sản phẩm trên một tỉ user hàng tháng và không cái nào mở ra category mới. Search, maps, mail, photos, browser đều có sẵn rồi. Nó thắng nhờ chọn đúng những bài toán vẫn đang được giải tệ và bám theo nhiều năm, với lãnh đạo phát bài toán khó ra cho cả công ty thay vì giao cho một team, và thường để vài team cùng đánh một bài toán một cách cố ý.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">A startup that competes on being better is competing on the axis the incumbent already funds. What works is being different in a way that matters so much to a specific customer that the incumbent cannot copy it without damaging its own business.</span><span data-l="vi">Startup nào đi thi xem ai tốt hơn là đang thi đúng trên cái trục mà ông lớn đã bỏ tiền vào. Cái ăn được là khác đi theo kiểu quan trọng tới mức với một nhóm khách cụ thể, ông lớn không copy được nếu không tự phá business của chính mình.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Google is the counterexample that proves the condition. Better still wins when a problem has headroom left, and <u>headroom is the thing to check before you pick your axis</u>.</span><span data-l="vi">Google là phản ví dụ nhưng lại chứng minh cái điều kiện. Tốt hơn vẫn thắng khi bài toán còn chỗ trống, và <u>chỗ trống là thứ phải kiểm trước khi bạn chọn trục để đánh</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Is the problem you are on <b>solved badly enough</b> that <b>better is still a strategy</b>?</span><span data-l="vi">Bài toán bạn đang làm có đang được <b>giải tệ đủ</b> để <b>tốt hơn vẫn là một chiến lược</b> không?</span></p></div>
+<div class="src-link"><a href="https://www.svpg.com/the-product-model-at-google/" target="_blank" rel="noopener">SVPG — The Product Model at Google &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-20.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-20</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ian Silber / Ben Thompson / Petra Wille / April Dunford / Elias Lieberich / Jason Cohen<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ian Silber / Ben Thompson / Petra Wille / April Dunford / Elias Lieberich / Jason Cohen<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
