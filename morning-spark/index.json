@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-22",
+      "edition": 27,
+      "note": "Themes: a personal weighted index as the proxy metric for model choice, change preconditions deciding whether to argue or just show the work, cheap building splitting into a learning method and an avoidance habit. Sources: Lenny's Newsletter, Product Talk, A Smart Bear. Pairings: Claire Vo x Gibson Biddle, Petra Wille x John Cutler, Jason Cohen x Maddie Reese.",
+      "sparks": [
+        {
+          "pair": "Claire Vo x Gibson Biddle",
+          "headline": "A leaderboard is somebody else's proxy metric",
+          "source": "Lenny's Newsletter — I tested Grok Bot, Grok 4.6, and Cursor Origin - here's my honest take",
+          "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor"
+        },
+        {
+          "pair": "Petra Wille x John Cutler",
+          "headline": "Check whether change is possible before you spend credit arguing for it",
+          "source": "Product Talk — Organizational Change is Exhausting - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/organizational-change-is-exhausting-all-things-product-podcast-with-teresa-torres-petra-wille/"
+        },
+        {
+          "pair": "Jason Cohen x Maddie Reese",
+          "headline": "The same build is either a question or an excuse",
+          "source": "A Smart Bear — The Code is your Enemy",
+          "url": "https://longform.asmartbear.com/code-is-your-enemy/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-21",
       "edition": 26,
       "note": "Themes: what is left to design once the middle of the interaction goes invisible, delight as a positioning decision rather than a budget line, better beating different when a problem still has headroom. Sources: Lenny's Newsletter, Product Talk, SVPG. Pairings: Ian Silber x Ben Thompson, Petra Wille x April Dunford, Elias Lieberich x Jason Cohen.",

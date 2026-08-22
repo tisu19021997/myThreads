@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 22</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 27</div></div></div>
+<div class="meta label">Saturday, August 22, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">YOUR WEIGHTS</span><span data-l="vi">TRỌNG SỐ CỦA BẠN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Claire Vo</div><div class="what"><span data-l="en">Every time a new model or tool lands, Vo runs it through her own weighted index against the models she already uses, and reports where she is personally putting her time. She did it again this week with Grok 4.6, Grok Bot and Cursor Origin, and her verdict on the GitHub replacement was not yet.</span><span data-l="vi">Cứ có model hay tool mới ra, Vo đem chạy qua cái index có trọng số của riêng cô, so với mấy model cô đang dùng, rồi nói thẳng cô đang bỏ thời gian vào đâu. Tuần này cô làm lại đúng vậy với Grok 4.6, Grok Bot và Cursor Origin, và câu trả lời cho cái GitHub thay thế kia là chưa.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">A proxy metric is a near-term number you choose because you believe it predicts the long-term outcome you actually care about. The choosing is the work, and the belief has to be yours.</span><span data-l="vi">Proxy metric là con số ngắn hạn bạn chọn vì bạn tin nó dự báo được cái outcome dài hạn bạn thật sự quan tâm. Phần việc nằm ở chỗ chọn, và niềm tin đó phải là của bạn.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A public benchmark is a proxy metric with someone else&#x27;s weights on it. If you cannot name yours, <u>your model choice belongs to whoever tuned the leaderboard</u>.</span><span data-l="vi">Benchmark công khai là proxy metric gắn trọng số của người khác. Nếu bạn không gọi tên được trọng số của mình, thì <u>việc chọn model là của người tinh chỉnh bảng xếp hạng</u>, không phải của bạn.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What are <b>the weights in your own index</b>, and <b>who chose them</b>?</span><span data-l="vi">Index của riêng bạn đang có <b>trọng số nào</b>, và <b>ai đặt ra chúng</b>?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — I tested Grok Bot, Grok 4.6, and Cursor Origin - here&#x27;s my honest take &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THREE CONDITIONS</span><span data-l="vi">BA ĐIỀU KIỆN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Petra Wille</div><div class="what"><span data-l="en">Wille names three conditions before an organisation moves: pain that leadership itself feels, urgency because inaction now costs something, and awareness that a solution exists. Without all three, one person championing a better way is spending energy on a change that cannot happen. What works instead is showing your work rather than arguing your conclusion, and layering better habits inside the process you already have.</span><span data-l="vi">Wille đặt ra ba điều kiện trước khi một tổ chức chịu nhúc nhích: nỗi đau mà chính leadership thấy, tính cấp bách vì không làm gì bây giờ là mất tiền, và nhận thức rằng có cách giải. Thiếu một trong ba, một người đi vận động cho cách làm tốt hơn chỉ đang đốt sức cho một thay đổi không thể xảy ra. Cái chạy được là cho người ta xem cách bạn làm thay vì cãi cho ra kết luận, và cài thói quen tốt vào ngay trong quy trình đang có.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">In the room where the strategy is plainly not a strategy, the person who sees the gap and cannot let it go faces a choice: name it out loud, backchannel it, translate it locally for their own team, or conserve energy. Cutler&#x27;s warning is that trading the right to name it for influence ends with you defending the ambiguity you meant to fix.</span><span data-l="vi">Trong căn phòng mà cái gọi là strategy rõ ràng không phải strategy, người thấy chỗ vênh và không bỏ qua được sẽ phải chọn: nói thẳng ra, đi cửa sau, dịch lại cho team mình dùng, hay để dành sức. Cutler cảnh báo rằng đổi quyền gọi tên lấy chút ảnh hưởng thì kết cục là bạn đi bảo vệ đúng cái mập mờ bạn định sửa.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Cutler makes it a question of nerve. Wille makes it a question of preconditions. Run her three first, and on most days the honest move is to stop arguing and <u>make your team the demo</u>.</span><span data-l="vi">Cutler biến nó thành câu hỏi về gan. Wille biến nó thành câu hỏi về điều kiện đủ. Chạy ba điều kiện của bà trước, và phần lớn các ngày, nước đi thành thật là thôi cãi và <u>biến team mình thành bản demo</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of <b>pain, urgency and awareness</b> is missing <b>before you argue again</b>?</span><span data-l="vi">Trong ba thứ, <b>nỗi đau, cấp bách, nhận thức</b>, cái nào đang thiếu <b>trước khi bạn cãi tiếp</b>?</span></p></div>
+<div class="src-link"><a href="https://www.producttalk.org/organizational-change-is-exhausting-all-things-product-podcast-with-teresa-torres-petra-wille/" target="_blank" rel="noopener">Product Talk — Organizational Change is Exhausting - All Things Product Podcast with Teresa Torres &amp; Petra Wille &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">CHEAP HANDS</span><span data-l="vi">TAY NGHỀ RẺ ĐI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">Cohen told a room of builders that their strength is the weakness: you love making things, so you make things, and you open the editor before the to do list. Startups rarely die of bad code. They die because nobody showed up, nobody tried it, or nobody paid, and coding is the most comfortable way to not find that out.</span><span data-l="vi">Cohen nói với một phòng đầy builder rằng điểm mạnh chính là điểm yếu: bạn thích làm ra thứ gì đó, nên bạn cứ làm, và bạn mở editor trước khi mở to do list. Startup ít khi chết vì code dở. Nó chết vì không ai ghé, không ai thử, hoặc không ai trả tiền, mà ngồi code là cách dễ chịu nhất để khỏi phải biết điều đó.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Maddie Reese</div><div class="what"><span data-l="en">Reese builds physical things by dumping the idea into Cursor, letting it interview her, taking the shopping list, checking the parts, and building. A thermal printer anyone in the world can message, a pager on a Raspberry Pi. Her claim is that building for fun rather than for practicality is the fastest route to actually finishing hardware.</span><span data-l="vi">Reese làm đồ vật thật bằng cách quăng ý tưởng vào Cursor, để nó phỏng vấn ngược lại mình, cầm cái danh sách linh kiện, kiểm tra lại, rồi bắt tay làm. Một cái máy in nhiệt mà ai trên thế giới cũng nhắn tin vào được, một cái pager chạy trên Raspberry Pi. Cô nói làm vì vui chứ không vì hữu dụng mới là đường nhanh nhất để thật sự hoàn thành một món phần cứng.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Cheap building split Cohen&#x27;s warning in two. For a thing you are learning, the build is now the fastest question you can ask. For a thing you are selling, it is still <u>the most expensive way to avoid selling</u>.</span><span data-l="vi">Build rẻ đi làm lời cảnh báo của Cohen tách làm hai. Với thứ bạn đang học, bản build giờ là câu hỏi nhanh nhất bạn hỏi được. Với thứ bạn đang bán, nó vẫn là <u>cách đắt nhất để né việc đi bán</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Is tonight&#x27;s build <b>answering a question</b>, or <b>avoiding one</b>?</span><span data-l="vi">Bản build tối nay đang <b>trả lời một câu hỏi</b>, hay đang <b>né một câu hỏi</b>?</span></p></div>
+<div class="src-link"><a href="https://longform.asmartbear.com/code-is-your-enemy/" target="_blank" rel="noopener">A Smart Bear — The Code is your Enemy &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-21.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-21</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Claire Vo / Gibson Biddle / Petra Wille / John Cutler / Jason Cohen / Maddie Reese<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Claire Vo / Gibson Biddle / Petra Wille / John Cutler / Jason Cohen / Maddie Reese<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

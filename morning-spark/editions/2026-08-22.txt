@@ -1,0 +1,22 @@
+Morning Spark · Saturday, August 22 · Ed. 27
+Borrowed benchmarks, unfixable orgs, and builds that answer nothing.
+
+─────────────────
+01 · A leaderboard is somebody else's proxy metric
+Claire Vo × Gibson Biddle
+Vo does not ask which model is best, she asks which one is best at the work she actually does, weighted by how often she does it. Biddle would call that a proxy metric, and his point is that picking one is a decision about what you believe, not a lookup. Take your last twenty real tasks, weight them by how often they come round, and you have an index nobody can market to you.
+→ https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor
+
+─────────────────
+02 · Check whether change is possible before you spend credit arguing for it
+Petra Wille × John Cutler
+Wille's three conditions are a cheap test you can run in your head before the meeting, and they usually come back negative. Cutler's coherence checker keeps asking whether to speak, which assumes the room is ready to hear it. Put together, the answer is rarely braver arguing. It is picking the one team you can actually change and letting the result do the arguing for you.
+→ https://www.producttalk.org/organizational-change-is-exhausting-all-things-product-podcast-with-teresa-torres-petra-wille/
+
+─────────────────
+03 · The same build is either a question or an excuse
+Jason Cohen × Maddie Reese
+Cohen wrote that in 2013, when a weekend of building cost you a weekend. Reese shows what the same instinct looks like when the model writes the parts list and the build costs an evening: the making becomes a legitimate way to learn something you could not have read. The test has not changed, only got quicker to apply. Name the question before you start, and if there is not one, at least admit you are building because it is nicer than selling.
+→ https://longform.asmartbear.com/code-is-your-enemy/
+
+Full styled card → open the session.

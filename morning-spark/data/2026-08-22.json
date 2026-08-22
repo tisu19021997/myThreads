@@ -1,0 +1,106 @@
+{
+  "date": "2026-08-22",
+  "edition": 27,
+  "framing": "Borrowed benchmarks, unfixable orgs, and builds that answer nothing.",
+  "framing_vi": "Benchmark đi mượn, tổ chức không sửa nổi, và những bản build không trả lời gì.",
+  "note": "Themes: a personal weighted index as the proxy metric for model choice, change preconditions deciding whether to argue or just show the work, cheap building splitting into a learning method and an avoidance habit. Sources: Lenny's Newsletter, Product Talk, A Smart Bear. Pairings: Claire Vo x Gibson Biddle, Petra Wille x John Cutler, Jason Cohen x Maddie Reese.",
+  "sparks": [
+    {
+      "title": "YOUR WEIGHTS",
+      "title_vi": "TRỌNG SỐ CỦA BẠN",
+      "headline": "A leaderboard is somebody else's proxy metric",
+      "headline_vi": "Bảng xếp hạng là proxy metric của người khác",
+      "a": {
+        "who": "Claire Vo",
+        "what": "Every time a new model or tool lands, Vo runs it through her own weighted index against the models she already uses, and reports where she is personally putting her time. She did it again this week with Grok 4.6, Grok Bot and Cursor Origin, and her verdict on the GitHub replacement was not yet.",
+        "what_vi": "Cứ có model hay tool mới ra, Vo đem chạy qua cái index có trọng số của riêng cô, so với mấy model cô đang dùng, rồi nói thẳng cô đang bỏ thời gian vào đâu. Tuần này cô làm lại đúng vậy với Grok 4.6, Grok Bot và Cursor Origin, và câu trả lời cho cái GitHub thay thế kia là chưa."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "A proxy metric is a near-term number you choose because you believe it predicts the long-term outcome you actually care about. The choosing is the work, and the belief has to be yours.",
+        "what_vi": "Proxy metric là con số ngắn hạn bạn chọn vì bạn tin nó dự báo được cái outcome dài hạn bạn thật sự quan tâm. Phần việc nằm ở chỗ chọn, và niềm tin đó phải là của bạn."
+      },
+      "result": "A public benchmark is a proxy metric with someone else's weights on it. If you cannot name yours, your model choice belongs to whoever tuned the leaderboard.",
+      "result_vi": "Benchmark công khai là proxy metric gắn trọng số của người khác. Nếu bạn không gọi tên được trọng số của mình, thì việc chọn model là của người tinh chỉnh bảng xếp hạng, không phải của bạn.",
+      "result_underline": "your model choice belongs to whoever tuned the leaderboard",
+      "result_underline_vi": "việc chọn model là của người tinh chỉnh bảng xếp hạng",
+      "tick": "What are the weights in your own index, and who chose them?",
+      "tick_vi": "Index của riêng bạn đang có trọng số nào, và ai đặt ra chúng?",
+      "tick_bold": ["the weights in your own index", "who chose them"],
+      "tick_bold_vi": ["trọng số nào", "ai đặt ra chúng"],
+      "provocation": "Vo does not ask which model is best, she asks which one is best at the work she actually does, weighted by how often she does it. Biddle would call that a proxy metric, and his point is that picking one is a decision about what you believe, not a lookup. Take your last twenty real tasks, weight them by how often they come round, and you have an index nobody can market to you.",
+      "provocation_vi": "Vo không hỏi model nào mạnh nhất, cô hỏi model nào mạnh nhất ở đúng phần việc cô làm, có trọng số theo tần suất cô làm nó. Biddle sẽ gọi đó là proxy metric, và ý ông là chọn một cái là quyết định về thứ bạn tin, chứ không phải tra bảng. Lấy hai mươi task thật gần nhất của bạn, gán trọng số theo tần suất, bạn có một cái index không ai marketing vào được."
+      ,
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here's my honest take",
+        "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+        "published": "2026-08-18"
+      }
+    },
+    {
+      "title": "THREE CONDITIONS",
+      "title_vi": "BA ĐIỀU KIỆN",
+      "headline": "Check whether change is possible before you spend credit arguing for it",
+      "headline_vi": "Kiểm tra xem thay đổi có khả thi không, trước khi đốt uy tín đi cãi",
+      "a": {
+        "who": "Petra Wille",
+        "what": "Wille names three conditions before an organisation moves: pain that leadership itself feels, urgency because inaction now costs something, and awareness that a solution exists. Without all three, one person championing a better way is spending energy on a change that cannot happen. What works instead is showing your work rather than arguing your conclusion, and layering better habits inside the process you already have.",
+        "what_vi": "Wille đặt ra ba điều kiện trước khi một tổ chức chịu nhúc nhích: nỗi đau mà chính leadership thấy, tính cấp bách vì không làm gì bây giờ là mất tiền, và nhận thức rằng có cách giải. Thiếu một trong ba, một người đi vận động cho cách làm tốt hơn chỉ đang đốt sức cho một thay đổi không thể xảy ra. Cái chạy được là cho người ta xem cách bạn làm thay vì cãi cho ra kết luận, và cài thói quen tốt vào ngay trong quy trình đang có."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "In the room where the strategy is plainly not a strategy, the person who sees the gap and cannot let it go faces a choice: name it out loud, backchannel it, translate it locally for their own team, or conserve energy. Cutler's warning is that trading the right to name it for influence ends with you defending the ambiguity you meant to fix.",
+        "what_vi": "Trong căn phòng mà cái gọi là strategy rõ ràng không phải strategy, người thấy chỗ vênh và không bỏ qua được sẽ phải chọn: nói thẳng ra, đi cửa sau, dịch lại cho team mình dùng, hay để dành sức. Cutler cảnh báo rằng đổi quyền gọi tên lấy chút ảnh hưởng thì kết cục là bạn đi bảo vệ đúng cái mập mờ bạn định sửa."
+      },
+      "result": "Cutler makes it a question of nerve. Wille makes it a question of preconditions. Run her three first, and on most days the honest move is to stop arguing and make your team the demo.",
+      "result_vi": "Cutler biến nó thành câu hỏi về gan. Wille biến nó thành câu hỏi về điều kiện đủ. Chạy ba điều kiện của bà trước, và phần lớn các ngày, nước đi thành thật là thôi cãi và biến team mình thành bản demo.",
+      "result_underline": "make your team the demo",
+      "result_underline_vi": "biến team mình thành bản demo",
+      "tick": "Which of pain, urgency and awareness is missing before you argue again?",
+      "tick_vi": "Trong ba thứ, nỗi đau, cấp bách, nhận thức, cái nào đang thiếu trước khi bạn cãi tiếp?",
+      "tick_bold": ["pain, urgency and awareness", "before you argue again"],
+      "tick_bold_vi": ["nỗi đau, cấp bách, nhận thức", "trước khi bạn cãi tiếp"],
+      "provocation": "Wille's three conditions are a cheap test you can run in your head before the meeting, and they usually come back negative. Cutler's coherence checker keeps asking whether to speak, which assumes the room is ready to hear it. Put together, the answer is rarely braver arguing. It is picking the one team you can actually change and letting the result do the arguing for you.",
+      "provocation_vi": "Ba điều kiện của Wille là bài test rẻ tiền bạn chạy được trong đầu trước buổi họp, và thường là ra kết quả âm. Người soi mạch lạc của Cutler cứ hỏi có nên lên tiếng không, tức là mặc định căn phòng đã sẵn sàng nghe. Ghép lại, câu trả lời hiếm khi là cãi hăng hơn. Nó là chọn đúng một team bạn đổi được, rồi để kết quả đi cãi hộ.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Organizational Change is Exhausting - All Things Product Podcast with Teresa Torres & Petra Wille",
+        "url": "https://www.producttalk.org/organizational-change-is-exhausting-all-things-product-podcast-with-teresa-torres-petra-wille/",
+        "published": "2026-06-16"
+      }
+    },
+    {
+      "title": "CHEAP HANDS",
+      "title_vi": "TAY NGHỀ RẺ ĐI",
+      "headline": "The same build is either a question or an excuse",
+      "headline_vi": "Cùng một bản build, hoặc là câu hỏi, hoặc là cái cớ",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "Cohen told a room of builders that their strength is the weakness: you love making things, so you make things, and you open the editor before the to do list. Startups rarely die of bad code. They die because nobody showed up, nobody tried it, or nobody paid, and coding is the most comfortable way to not find that out.",
+        "what_vi": "Cohen nói với một phòng đầy builder rằng điểm mạnh chính là điểm yếu: bạn thích làm ra thứ gì đó, nên bạn cứ làm, và bạn mở editor trước khi mở to do list. Startup ít khi chết vì code dở. Nó chết vì không ai ghé, không ai thử, hoặc không ai trả tiền, mà ngồi code là cách dễ chịu nhất để khỏi phải biết điều đó."
+      },
+      "b": {
+        "who": "Maddie Reese",
+        "what": "Reese builds physical things by dumping the idea into Cursor, letting it interview her, taking the shopping list, checking the parts, and building. A thermal printer anyone in the world can message, a pager on a Raspberry Pi. Her claim is that building for fun rather than for practicality is the fastest route to actually finishing hardware.",
+        "what_vi": "Reese làm đồ vật thật bằng cách quăng ý tưởng vào Cursor, để nó phỏng vấn ngược lại mình, cầm cái danh sách linh kiện, kiểm tra lại, rồi bắt tay làm. Một cái máy in nhiệt mà ai trên thế giới cũng nhắn tin vào được, một cái pager chạy trên Raspberry Pi. Cô nói làm vì vui chứ không vì hữu dụng mới là đường nhanh nhất để thật sự hoàn thành một món phần cứng."
+      },
+      "result": "Cheap building split Cohen's warning in two. For a thing you are learning, the build is now the fastest question you can ask. For a thing you are selling, it is still the most expensive way to avoid selling.",
+      "result_vi": "Build rẻ đi làm lời cảnh báo của Cohen tách làm hai. Với thứ bạn đang học, bản build giờ là câu hỏi nhanh nhất bạn hỏi được. Với thứ bạn đang bán, nó vẫn là cách đắt nhất để né việc đi bán.",
+      "result_underline": "the most expensive way to avoid selling",
+      "result_underline_vi": "cách đắt nhất để né việc đi bán",
+      "tick": "Is tonight's build answering a question, or avoiding one?",
+      "tick_vi": "Bản build tối nay đang trả lời một câu hỏi, hay đang né một câu hỏi?",
+      "tick_bold": ["answering a question", "avoiding one"],
+      "tick_bold_vi": ["trả lời một câu hỏi", "né một câu hỏi"],
+      "provocation": "Cohen wrote that in 2013, when a weekend of building cost you a weekend. Reese shows what the same instinct looks like when the model writes the parts list and the build costs an evening: the making becomes a legitimate way to learn something you could not have read. The test has not changed, only got quicker to apply. Name the question before you start, and if there is not one, at least admit you are building because it is nicer than selling.",
+      "provocation_vi": "Cohen viết câu đó năm 2013, khi làm cuối tuần là mất nguyên cuối tuần. Reese cho thấy cũng bản năng đó trông ra sao khi model viết luôn danh sách linh kiện và một bản build chỉ tốn một buổi tối: việc làm ra thứ gì đó thành cách học tử tế, học được thứ đọc không ra. Bài test không đổi, chỉ nhanh hơn. Gọi tên câu hỏi trước khi bắt đầu, còn nếu không có câu hỏi nào thì ít nhất thừa nhận bạn build vì nó dễ chịu hơn đi bán.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "The Code is your Enemy",
+        "url": "https://longform.asmartbear.com/code-is-your-enemy/",
+        "published": "2013-11-05"
+      }
+    }
+  ]
+}
