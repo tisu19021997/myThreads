@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-23",
+  "edition": 28,
+  "framing": "A stale win, a flattering mirror, a rubber stamp.",
+  "framing_vi": "Một chiến thắng cũ, một tấm gương dễ nhìn, một cái đóng dấu.",
+  "note": "Themes: a remedy arriving after the demand relationship already moved, recognition and stewardship as the precondition for showing a hard number, risk routing so the reviewer can still say no. Sources: Stratechery, The Beautiful Mess, Lenny's Newsletter. Pairings: Andrew Sharp x Ben Thompson, John Cutler x Lenny Rachitsky, Claire Vo x Marty Cagan.",
+  "sparks": [
+    {
+      "title": "THE LAST WAR",
+      "title_vi": "CUỘC CHIẾN TRƯỚC",
+      "headline": "The remedy lands on the schedule of a market that already left",
+      "headline_vi": "Phán quyết tới theo lịch của một thị trường đã dọn đi",
+      "a": {
+        "who": "Andrew Sharp",
+        "what": "Sharp points out that Ben Thompson has been writing about App Store policy since Stratechery began, and that Apple has finally been forced to compromise: a settlement with the EU this week, plus adjusted ATT rules in Germany. What strikes him after all those years is how incidental and boring the whole thing reads next to everything else going on in tech right now.",
+        "what_vi": "Sharp nhắc rằng Ben Thompson viết về chính sách App Store từ những ngày đầu của Stratechery, và giờ Apple mới thật sự phải nhượng bộ: tuần này dàn xếp với EU, cộng thêm sửa luật ATT ở Đức. Sau ngần ấy năm, điều làm anh chú ý là chuyện đó đọc lên thấy nhạt và không còn quan trọng, so với mọi thứ đang diễn ra ở phần còn lại của tech."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregation theory says power sits with whoever owns the demand relationship, and that relationship moves. In the same week's roundup the live question is not App Store fees at all, but Stripe reportedly buying OpenRouter, an early bet on aggregating a future market of models.",
+        "what_vi": "Aggregation theory nói quyền lực nằm ở bên nắm quan hệ với nhu cầu, và quan hệ đó dịch chuyển. Cũng trong bản tổng hợp tuần đó, câu hỏi còn sống không phải là phí App Store, mà là chuyện Stripe được cho là mua OpenRouter, một cú đặt cược sớm vào việc aggregate thị trường model."
+      },
+      "result": "Remedies arrive on the timetable of the last platform war. Fight long enough and you win the rent just as the tenants move out.",
+      "result_vi": "Phán quyết luôn tới theo lịch của cuộc chiến nền tảng trước đó. Cãi đủ lâu thì bạn thắng được tiền thuê đúng lúc người thuê dọn đi.",
+      "result_underline": "you win the rent just as the tenants move out",
+      "result_underline_vi": "bạn thắng được tiền thuê đúng lúc người thuê dọn đi",
+      "tick": "Which fight are you still winning in a market that already moved?",
+      "tick_vi": "Bạn đang thắng cuộc chiến nào trong một thị trường đã dời đi chỗ khác?",
+      "tick_bold": [
+        "still winning",
+        "already moved"
+      ],
+      "tick_bold_vi": [
+        "thắng cuộc chiến nào",
+        "đã dời đi chỗ khác"
+      ],
+      "provocation": "Sharp's throwaway line is the whole point: a decade of App Store argument settles this week and it reads as boring. Thompson's own frame explains why. The rent was worth fighting over while the phone owned the demand relationship, and the settlement lands while that relationship is being rebuilt somewhere else entirely. Go down the list of things you are still defending and mark the ones priced by a market that has already moved.",
+      "provocation_vi": "Câu nói ngang của Sharp mới là điểm chính: mười năm cãi nhau về App Store xong trong tuần này, mà đọc lên thấy nhạt. Chính cái frame của Thompson giải thích được. Khoản tiền thuê đó đáng đánh nhau khi chiếc điện thoại còn nắm quan hệ với nhu cầu, còn dàn xếp thì tới đúng lúc quan hệ đó đang được dựng lại ở một chỗ hoàn toàn khác. Rà lại danh sách những thứ bạn đang bảo vệ, và đánh dấu cái nào được định giá bởi một thị trường đã dời đi.",
+      "source": {
+        "site": "Stratechery",
+        "title": "2026.34: App Snore",
+        "url": "https://stratechery.com/2026/app-snore/",
+        "published": "2026-08-21"
+      }
+    },
+    {
+      "title": "WHO HOLDS IT",
+      "title_vi": "AI ĐANG CẦM GƯƠNG",
+      "headline": "The mirror is not neutral, and neither is the person holding it",
+      "headline_vi": "Tấm gương không trung lập, người cầm gương cũng vậy",
+      "a": {
+        "who": "John Cutler",
+        "what": "Cutler used to believe that if a team could just see how it works, it would improve. Now he lists what that missed: mirrors are not neutral, every mirror has a frame and the frame is a choice, the person holding it has an agenda, and seeing clearly does not make you safe or empowered to act. Belief in organisational truth is positional, he argues. The top is arranging the lighting, the bottom stopped looking years ago, and it is the middle that builds an identity around seeing clearly.",
+        "what_vi": "Trước đây Cutler tin rằng chỉ cần một team nhìn thấy cách mình đang làm việc là mọi thứ sẽ khá lên. Giờ ông liệt kê chỗ đó bỏ sót gì: tấm gương không trung lập, gương nào cũng có cái khung và cái khung là một lựa chọn, người cầm gương cũng có ý đồ, và thấy rõ không làm bạn an toàn hay có quyền sửa. Ông nói niềm tin vào sự thật trong tổ chức là thứ tuỳ vị trí. Ở trên thì đang chỉnh đèn, ở dưới thì thôi nhìn từ lâu rồi, chỉ có tầng giữa xây cả bản sắc quanh chuyện nhìn cho rõ."
+      },
+      "b": {
+        "who": "Lenny Rachitsky",
+        "what": "Everything he publishes works by recognition first: an operator who stood exactly where you are standing, saying what they did, so the reader sees themselves before any advice arrives.",
+        "what_vi": "Mọi thứ anh xuất bản đều chạy bằng sự nhận ra trước đã: một người từng đứng đúng chỗ bạn đang đứng, kể họ đã làm gì, để người đọc thấy chính mình trước khi nghe bất kỳ lời khuyên nào."
+      },
+      "result": "A playbook lands where a dashboard does not, because one starts by recognising where you stand and the other starts by exposing what you missed. Show the number second, and only once you can say who is accountable for what it surfaces.",
+      "result_vi": "Playbook vào được chỗ mà dashboard không vào nổi, vì một bên bắt đầu bằng việc thừa nhận bạn đang đứng ở đâu, bên kia bắt đầu bằng việc phơi ra chỗ bạn bỏ sót. Con số để sau, và chỉ đưa khi bạn nói được ai chịu trách nhiệm với thứ nó lôi ra.",
+      "result_underline": "only once you can say who is accountable for what it surfaces",
+      "result_underline_vi": "chỉ đưa khi bạn nói được ai chịu trách nhiệm với thứ nó lôi ra",
+      "tick": "Which number does your team already know and quietly agree not to look at?",
+      "tick_vi": "Con số nào team bạn đã biết rồi mà ngầm đồng ý không nhìn tới?",
+      "tick_bold": [
+        "already know",
+        "agree not to look at"
+      ],
+      "tick_bold_vi": [
+        "đã biết rồi",
+        "ngầm đồng ý không nhìn tới"
+      ],
+      "provocation": "Cutler's own version is the gray hair he did not want to see on his birthday, and the messy closet he does not open. The work version is the dashboard everyone has already read and nobody mentions. Before your next honest conversation, answer his question first: will what surfaces be held with care, or will it just sit there, exposed, with nobody accountable for what happens next. If you cannot answer that, you are not ready to hold up the mirror, and asking for candour is a cost you are handing to someone else.",
+      "provocation_vi": "Bản của chính Cutler là sợi tóc bạc ông không muốn thấy sáng sinh nhật, và cái tủ bừa ông không mở. Bản đi làm là cái dashboard ai cũng đọc rồi mà không ai nhắc. Trước buổi nói chuyện thẳng thắn tiếp theo, trả lời câu hỏi của ông trước: thứ lòi ra sẽ được ai đó cầm cho tử tế, hay cứ nằm đó phơi ra và không ai chịu trách nhiệm phần sau. Chưa trả lời được thì bạn chưa sẵn sàng giơ gương, và đòi người ta thẳng thắn là bạn đang đẩy cái giá đó sang người khác.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 426: The Trouble With Mirrors",
+        "url": "https://cutlefish.substack.com/p/tbm-426-the-trouble-with-mirrors",
+        "published": "2026-06-16"
+      }
+    },
+    {
+      "title": "RUBBER STAMP",
+      "title_vi": "ĐÓNG DẤU CHO CÓ",
+      "headline": "Review everything and the review stops meaning anything",
+      "headline_vi": "Duyệt mọi thứ thì việc duyệt còn nghĩa gì nữa",
+      "a": {
+        "who": "Claire Vo",
+        "what": "In one Codex session Vo built an agent that waits for checks to pass, then scores every pull request across six dimensions: size of the change, blast radius, how easily it reverses, data and security implications, operational impact, and whether tests and CI actually completed. Under 24 points the agent approves it, over 64 it goes straight to a human in Slack. Her point is that the exact numbers matter less than turning a vague judgment call into a repeatable system. Intercom already runs this at scale, where AI-approved pull requests move five times faster with a lower revert rate.",
+        "what_vi": "Trong đúng một phiên Codex, Vo dựng một agent chờ CI chạy xong rồi chấm mỗi pull request theo sáu chiều: kích thước thay đổi, mức lan toả, revert lại dễ hay khó, đụng gì tới dữ liệu và bảo mật, ảnh hưởng vận hành, và test với CI đã chạy xong thật chưa. Dưới 24 điểm thì agent tự approve, trên 64 thì đẩy thẳng cho người trong Slack. Ý cô là con số cụ thể không quan trọng bằng việc biến một phán đoán mơ hồ thành hệ thống lặp lại được. Intercom đã chạy kiểu này ở quy mô lớn: PR do AI duyệt đi nhanh gấp năm lần mà tỷ lệ revert còn thấp hơn."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Empowerment is his test for whether a team is real or theatre. A team that only ratifies decisions taken somewhere else is performing the ceremony of product work, and you find out which one you have by whether it is ever allowed to decide differently.",
+        "what_vi": "Empowerment là bài test của ông để biết một team là thật hay diễn. Team chỉ đi hợp thức hoá quyết định đã chốt ở chỗ khác thì đang diễn lại nghi thức làm product, và bạn biết mình có loại nào bằng cách xem nó có bao giờ được phép quyết khác đi không."
+      },
+      "result": "Hand a reviewer everything and they approve everything. Route by risk instead, so a human only sees the calls where no is still a live answer, and the review starts meaning something again.",
+      "result_vi": "Đưa hết mọi thứ cho người review thì họ duyệt hết. Chia đường theo rủi ro đi, để người ta chỉ thấy những ca mà nói không vẫn còn là lựa chọn thật, và bước review mới có nghĩa trở lại.",
+      "result_underline": "the review starts meaning something again",
+      "result_underline_vi": "bước review mới có nghĩa trở lại",
+      "tick": "Which approval in your process could you delete today without anyone noticing?",
+      "tick_vi": "Bước duyệt nào trong quy trình của bạn bỏ đi hôm nay mà không ai nhận ra?",
+      "tick_bold": [
+        "delete today without anyone noticing"
+      ],
+      "tick_bold_vi": [
+        "bỏ đi hôm nay mà không ai nhận ra"
+      ],
+      "provocation": "The six dimensions are not the interesting part, the routing is. Vo turned an unwritten judgment call into a number, then used the number to decide who has to look. Cagan's question is the same one a level up: does the person at the end of your process have any real power to say no. Take your longest approval chain, write down what each step is actually checking, and delete every step that has never once changed an outcome.",
+      "provocation_vi": "Sáu chiều chấm điểm không phải chỗ hay, chỗ hay là cách chia đường. Vo biến một phán đoán không ai viết ra thành con số, rồi lấy con số đó quyết ai phải nhìn. Câu hỏi của Cagan cũng vậy nhưng cao hơn một tầng: người đứng cuối quy trình của bạn có quyền thật để nói không hay không. Lấy chuỗi duyệt dài nhất của bạn, ghi ra từng bước thật sự đang kiểm cái gì, rồi bỏ hết những bước chưa một lần nào làm đổi kết quả.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
+        "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
+        "published": "2026-08-05"
+      }
+    }
+  ]
+}

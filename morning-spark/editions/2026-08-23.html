@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 23</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 28</div></div></div>
+<div class="meta label">Sunday, August 23, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE LAST WAR</span><span data-l="vi">CUỘC CHIẾN TRƯỚC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Sharp</div><div class="what"><span data-l="en">Sharp points out that Ben Thompson has been writing about App Store policy since Stratechery began, and that Apple has finally been forced to compromise: a settlement with the EU this week, plus adjusted ATT rules in Germany. What strikes him after all those years is how incidental and boring the whole thing reads next to everything else going on in tech right now.</span><span data-l="vi">Sharp nhắc rằng Ben Thompson viết về chính sách App Store từ những ngày đầu của Stratechery, và giờ Apple mới thật sự phải nhượng bộ: tuần này dàn xếp với EU, cộng thêm sửa luật ATT ở Đức. Sau ngần ấy năm, điều làm anh chú ý là chuyện đó đọc lên thấy nhạt và không còn quan trọng, so với mọi thứ đang diễn ra ở phần còn lại của tech.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Aggregation theory says power sits with whoever owns the demand relationship, and that relationship moves. In the same week&#x27;s roundup the live question is not App Store fees at all, but Stripe reportedly buying OpenRouter, an early bet on aggregating a future market of models.</span><span data-l="vi">Aggregation theory nói quyền lực nằm ở bên nắm quan hệ với nhu cầu, và quan hệ đó dịch chuyển. Cũng trong bản tổng hợp tuần đó, câu hỏi còn sống không phải là phí App Store, mà là chuyện Stripe được cho là mua OpenRouter, một cú đặt cược sớm vào việc aggregate thị trường model.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Remedies arrive on the timetable of the last platform war. Fight long enough and <u>you win the rent just as the tenants move out</u>.</span><span data-l="vi">Phán quyết luôn tới theo lịch của cuộc chiến nền tảng trước đó. Cãi đủ lâu thì <u>bạn thắng được tiền thuê đúng lúc người thuê dọn đi</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which fight are you <b>still winning</b> in a market that <b>already moved</b>?</span><span data-l="vi">Bạn đang <b>thắng cuộc chiến nào</b> trong một thị trường <b>đã dời đi chỗ khác</b>?</span></p></div>
+<div class="src-link"><a href="https://stratechery.com/2026/app-snore/" target="_blank" rel="noopener">Stratechery — 2026.34: App Snore &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">WHO HOLDS IT</span><span data-l="vi">AI ĐANG CẦM GƯƠNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Cutler used to believe that if a team could just see how it works, it would improve. Now he lists what that missed: mirrors are not neutral, every mirror has a frame and the frame is a choice, the person holding it has an agenda, and seeing clearly does not make you safe or empowered to act. Belief in organisational truth is positional, he argues. The top is arranging the lighting, the bottom stopped looking years ago, and it is the middle that builds an identity around seeing clearly.</span><span data-l="vi">Trước đây Cutler tin rằng chỉ cần một team nhìn thấy cách mình đang làm việc là mọi thứ sẽ khá lên. Giờ ông liệt kê chỗ đó bỏ sót gì: tấm gương không trung lập, gương nào cũng có cái khung và cái khung là một lựa chọn, người cầm gương cũng có ý đồ, và thấy rõ không làm bạn an toàn hay có quyền sửa. Ông nói niềm tin vào sự thật trong tổ chức là thứ tuỳ vị trí. Ở trên thì đang chỉnh đèn, ở dưới thì thôi nhìn từ lâu rồi, chỉ có tầng giữa xây cả bản sắc quanh chuyện nhìn cho rõ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Lenny Rachitsky</div><div class="what"><span data-l="en">Everything he publishes works by recognition first: an operator who stood exactly where you are standing, saying what they did, so the reader sees themselves before any advice arrives.</span><span data-l="vi">Mọi thứ anh xuất bản đều chạy bằng sự nhận ra trước đã: một người từng đứng đúng chỗ bạn đang đứng, kể họ đã làm gì, để người đọc thấy chính mình trước khi nghe bất kỳ lời khuyên nào.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A playbook lands where a dashboard does not, because one starts by recognising where you stand and the other starts by exposing what you missed. Show the number second, and <u>only once you can say who is accountable for what it surfaces</u>.</span><span data-l="vi">Playbook vào được chỗ mà dashboard không vào nổi, vì một bên bắt đầu bằng việc thừa nhận bạn đang đứng ở đâu, bên kia bắt đầu bằng việc phơi ra chỗ bạn bỏ sót. Con số để sau, và <u>chỉ đưa khi bạn nói được ai chịu trách nhiệm với thứ nó lôi ra</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which number does your team <b>already know</b> and quietly <b>agree not to look at</b>?</span><span data-l="vi">Con số nào team bạn <b>đã biết rồi</b> mà <b>ngầm đồng ý không nhìn tới</b>?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-426-the-trouble-with-mirrors" target="_blank" rel="noopener">The Beautiful Mess — TBM 426: The Trouble With Mirrors &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">RUBBER STAMP</span><span data-l="vi">ĐÓNG DẤU CHO CÓ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Claire Vo</div><div class="what"><span data-l="en">In one Codex session Vo built an agent that waits for checks to pass, then scores every pull request across six dimensions: size of the change, blast radius, how easily it reverses, data and security implications, operational impact, and whether tests and CI actually completed. Under 24 points the agent approves it, over 64 it goes straight to a human in Slack. Her point is that the exact numbers matter less than turning a vague judgment call into a repeatable system. Intercom already runs this at scale, where AI-approved pull requests move five times faster with a lower revert rate.</span><span data-l="vi">Trong đúng một phiên Codex, Vo dựng một agent chờ CI chạy xong rồi chấm mỗi pull request theo sáu chiều: kích thước thay đổi, mức lan toả, revert lại dễ hay khó, đụng gì tới dữ liệu và bảo mật, ảnh hưởng vận hành, và test với CI đã chạy xong thật chưa. Dưới 24 điểm thì agent tự approve, trên 64 thì đẩy thẳng cho người trong Slack. Ý cô là con số cụ thể không quan trọng bằng việc biến một phán đoán mơ hồ thành hệ thống lặp lại được. Intercom đã chạy kiểu này ở quy mô lớn: PR do AI duyệt đi nhanh gấp năm lần mà tỷ lệ revert còn thấp hơn.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">Empowerment is his test for whether a team is real or theatre. A team that only ratifies decisions taken somewhere else is performing the ceremony of product work, and you find out which one you have by whether it is ever allowed to decide differently.</span><span data-l="vi">Empowerment là bài test của ông để biết một team là thật hay diễn. Team chỉ đi hợp thức hoá quyết định đã chốt ở chỗ khác thì đang diễn lại nghi thức làm product, và bạn biết mình có loại nào bằng cách xem nó có bao giờ được phép quyết khác đi không.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Hand a reviewer everything and they approve everything. Route by risk instead, so a human only sees the calls where no is still a live answer, and <u>the review starts meaning something again</u>.</span><span data-l="vi">Đưa hết mọi thứ cho người review thì họ duyệt hết. Chia đường theo rủi ro đi, để người ta chỉ thấy những ca mà nói không vẫn còn là lựa chọn thật, và <u>bước review mới có nghĩa trở lại</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which approval in your process could you <b>delete today without anyone noticing</b>?</span><span data-l="vi">Bước duyệt nào trong quy trình của bạn <b>bỏ đi hôm nay mà không ai nhận ra</b>?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — Build an AI code review bot in 30 minutes with Vercel Eve &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-22.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-22</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Andrew Sharp / Ben Thompson / John Cutler / Lenny Rachitsky / Claire Vo / Marty Cagan<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Andrew Sharp / Ben Thompson / John Cutler / Lenny Rachitsky / Claire Vo / Marty Cagan<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

@@ -1,0 +1,22 @@
+Morning Spark · Sunday, August 23 · Ed. 28
+A stale win, a flattering mirror, a rubber stamp.
+
+─────────────────
+01 · The remedy lands on the schedule of a market that already left
+Andrew Sharp × Ben Thompson
+Sharp's throwaway line is the whole point: a decade of App Store argument settles this week and it reads as boring. Thompson's own frame explains why. The rent was worth fighting over while the phone owned the demand relationship, and the settlement lands while that relationship is being rebuilt somewhere else entirely. Go down the list of things you are still defending and mark the ones priced by a market that has already moved.
+→ https://stratechery.com/2026/app-snore/
+
+─────────────────
+02 · The mirror is not neutral, and neither is the person holding it
+John Cutler × Lenny Rachitsky
+Cutler's own version is the gray hair he did not want to see on his birthday, and the messy closet he does not open. The work version is the dashboard everyone has already read and nobody mentions. Before your next honest conversation, answer his question first: will what surfaces be held with care, or will it just sit there, exposed, with nobody accountable for what happens next. If you cannot answer that, you are not ready to hold up the mirror, and asking for candour is a cost you are handing to someone else.
+→ https://cutlefish.substack.com/p/tbm-426-the-trouble-with-mirrors
+
+─────────────────
+03 · Review everything and the review stops meaning anything
+Claire Vo × Marty Cagan
+The six dimensions are not the interesting part, the routing is. Vo turned an unwritten judgment call into a number, then used the number to decide who has to look. Cagan's question is the same one a level up: does the person at the end of your process have any real power to say no. Take your longest approval chain, write down what each step is actually checking, and delete every step that has never once changed an outcome.
+→ https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30
+
+Full styled card → open the session.
