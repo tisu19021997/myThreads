@@ -1,0 +1,22 @@
+Morning Spark · Monday, August 24 · Ed. 29
+Whose timeline, the steps with no stage, the untested worry.
+
+─────────────────
+01 · A mandate turns an exploratory tool into a compliance exercise
+John Cutler × Paul Graham
+The sharpest moment is that 100x question. Adoption is easy to count and worth almost nothing by itself, which is why it is the number everyone reports. Graham's version of the same point is that the good work comes out of a project you picked. So pick one this week: take a problem you actually have, decide for yourself whether the model earns its place in it, and write down what you found either way. That note is worth more than a quarter of adoption dashboards.
+→ https://cutlefish.substack.com/p/tbm-425-ai-and-agency
+
+─────────────────
+02 · Your pipeline has five stages and the deal has fifteen
+Jen Abel × Gibson Biddle
+Take your last lost deal and write out what actually happened, in order, with dates. Then lay it against the five stages in the tool. The gaps are the steps nobody is coached on, nobody reviews and nobody is measured against, which is a strange way to treat the part where the money is decided. Abel's fifteen are one company's version. Yours will look different. The point is having one at all.
+→ https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by
+
+─────────────────
+03 · A worry is an assumption you re-run instead of testing
+Jason Cohen × Teresa Torres
+Cohen is talking about athletes and Torres about product teams, and the mechanism underneath is the same: an unnamed fear runs forever because nothing can ever close it. Write your three loudest worries as flat statements. Next to each, put the smallest thing that would tell you whether it is true, and the day you will do it. The ones where no test exists are the ones to put down, not the ones to keep turning over.
+→ https://longform.asmartbear.com/worry/
+
+Full styled card → open the session.

@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-24",
+  "edition": 29,
+  "framing": "Whose timeline, the steps with no stage, the untested worry.",
+  "framing_vi": "Lịch của bên nào, những bước không tên, nỗi lo chưa test.",
+  "note": "Themes: an AI mandate costing the agency that finds real uses, the real sales cycle having ten steps the CRM never named, a worry as an assumption you keep re-running instead of testing. Sources: The Beautiful Mess, Lenny's Newsletter, A Smart Bear. Pairings: John Cutler x Paul Graham, Jen Abel x Gibson Biddle, Jason Cohen x Teresa Torres.",
+  "sparks": [
+    {
+      "title": "WHOSE TIMELINE",
+      "title_vi": "LỊCH CỦA AI",
+      "headline": "A mandate turns an exploratory tool into a compliance exercise",
+      "headline_vi": "Ép dùng là biến một công cụ để thử thành thủ tục phải tuân",
+      "a": {
+        "who": "John Cutler",
+        "what": "Cutler's argument is that agency exists in an environment, and almost every AI adoption push treats it as a personal trait you either have or you do not. Resistance gets read as a lack of curiosity rather than a rational response. The language says this is for your growth; the structure says this is for our Q3 goals. He borrows Ursula Franklin's warning that prescriptive technologies eliminate the occasions for decision-making and judgment, and he tells of asking a CEO who claims to be 100x more effective whether demand for his product went up 100x. Crickets.",
+        "what_vi": "Cutler nói agency luôn nằm trong một môi trường, còn gần như mọi chiến dịch đẩy AI lại coi nó như tính cách cá nhân, ai có thì có ai không thì thôi. Người ngần ngại bị đọc thành thiếu tò mò, chứ không phải một phản ứng hợp lý. Lời thì nói cái này tốt cho sự phát triển của bạn; cấu trúc thì nói cái này phục vụ mục tiêu quý ba của chúng ta. Ông mượn cảnh báo của Ursula Franklin rằng công nghệ mang tính áp đặt xoá luôn những dịp để người ta cân nhắc và phán đoán. Rồi ông kể chuyện hỏi một CEO tự nhận hiệu quả gấp 100 lần, rằng nhu cầu cho sản phẩm của anh có tăng 100 lần không. Im lặng."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "His account of how good work happens keeps landing on the same two conditions: real curiosity, and a project you chose yourself rather than one handed to you.",
+        "what_vi": "Cách ông kể về việc làm ra thứ tử tế luôn quay về hai điều kiện: tò mò thật, và một dự án bạn tự chọn chứ không phải cái được giao xuống."
+      },
+      "result": "A mandate buys you adoption metrics and costs you the one mechanism that finds the uses worth having. The people asking whether the tool actually helps are doing the work; everyone else is filing paperwork faster.",
+      "result_vi": "Ép dùng thì mua được chỉ số adoption và mất đúng cái cơ chế tìm ra chỗ dùng đáng dùng. Người đang hỏi công cụ này có giúp thật không mới là người đang làm việc; số còn lại chỉ đang làm giấy tờ nhanh hơn.",
+      "result_underline": "everyone else is filing paperwork faster",
+      "result_underline_vi": "số còn lại chỉ đang làm giấy tờ nhanh hơn",
+      "tick": "Are you reaching for the model because it helps, or because someone is counting?",
+      "tick_vi": "Bạn mở model ra vì nó giúp được, hay vì có người đang đếm?",
+      "tick_bold": [
+        "because someone is counting"
+      ],
+      "tick_bold_vi": [
+        "vì có người đang đếm"
+      ],
+      "provocation": "The sharpest moment is that 100x question. Adoption is easy to count and worth almost nothing by itself, which is why it is the number everyone reports. Graham's version of the same point is that the good work comes out of a project you picked. So pick one this week: take a problem you actually have, decide for yourself whether the model earns its place in it, and write down what you found either way. That note is worth more than a quarter of adoption dashboards.",
+      "provocation_vi": "Chỗ sắc nhất là câu hỏi 100 lần đó. Adoption dễ đếm và tự nó gần như không đáng gì, nên nó mới là con số ai cũng đem đi báo cáo. Bản của Graham cũng vậy: việc tốt ra đời từ một dự án bạn tự chọn. Vậy tuần này chọn một cái: lấy một vấn đề bạn có thật, tự quyết xem model có xứng chỗ trong đó không, và ghi lại thứ bạn tìm ra dù kết quả thế nào. Ghi chú đó đáng giá hơn cả quý dashboard adoption.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 425: AI and Agency",
+        "url": "https://cutlefish.substack.com/p/tbm-425-ai-and-agency",
+        "published": "2026-06-07"
+      }
+    },
+    {
+      "title": "THE TEN STEPS",
+      "title_vi": "MƯỜI BƯỚC THIẾU",
+      "headline": "Your pipeline has five stages and the deal has fifteen",
+      "headline_vi": "Pipeline của bạn có năm bước, còn cái deal thì mười lăm",
+      "a": {
+        "who": "Jen Abel",
+        "what": "Abel walks the whole enterprise cycle step by step, and her opening move is that the five-stage pipeline in your CRM is a forecasting tool, not a sales process. The real cycle is closer to fifteen steps: a pincer that opens at the executive and the level below at the same time, a two or three sentence message built around handing them alpha rather than features, an intro call run to extract intelligence before any demo appears, a two to three day pilot with success defined jointly, then pricing, procurement and redlines without losing momentum.",
+        "what_vi": "Abel đi hết vòng bán enterprise theo từng bước, và câu mở đầu của cô là: cái pipeline năm stage trong CRM là công cụ để forecast, không phải quy trình bán hàng. Vòng thật gần mười lăm bước: một thế gọng kìm mở cùng lúc ở tầng sếp và tầng ngay dưới, một tin nhắn hai ba câu xoay quanh việc đưa cho họ một thứ họ chưa biết chứ không phải tính năng, một cuộc gọi đầu chạy để moi thông tin trước khi demo xuất hiện, một pilot hai ba ngày với tiêu chí thành công hai bên cùng chốt, rồi tới giá, procurement và redline mà không để mất đà."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "A proxy metric is a number you can move this week that stands in for the outcome you actually want, chosen because the real thing takes far too long to measure.",
+        "what_vi": "Proxy metric là con số bạn dịch được trong tuần này, đứng thay cho outcome bạn thật sự muốn, chọn vì thứ thật thì đo lâu quá."
+      },
+      "result": "Pipeline stages are a proxy your finance team picked, and no buyer has ever seen them. Ten of the fifteen real steps have no stage at all, which is precisely where the deal dies.",
+      "result_vi": "Các stage trong pipeline là proxy do bên tài chính chọn, và chưa khách nào nhìn thấy chúng. Mười trong mười lăm bước thật không có stage nào cả, mà deal thì chết đúng ở đó.",
+      "result_underline": "which is precisely where the deal dies",
+      "result_underline_vi": "deal thì chết đúng ở đó",
+      "tick": "Which step of your real sales cycle has no stage in the CRM?",
+      "tick_vi": "Bước nào trong vòng bán hàng thật của bạn không có stage nào trong CRM?",
+      "tick_bold": [
+        "no stage in the CRM"
+      ],
+      "tick_bold_vi": [
+        "không có stage nào trong CRM"
+      ],
+      "provocation": "Take your last lost deal and write out what actually happened, in order, with dates. Then lay it against the five stages in the tool. The gaps are the steps nobody is coached on, nobody reviews and nobody is measured against, which is a strange way to treat the part where the money is decided. Abel's fifteen are one company's version. Yours will look different. The point is having one at all.",
+      "provocation_vi": "Lấy cái deal thua gần nhất, viết ra thật sự đã xảy ra những gì, theo thứ tự, kèm ngày. Rồi đặt cạnh năm stage trong tool. Mấy khoảng trống chính là những bước không ai được huấn luyện, không ai review, không ai bị đo, mà tiền lại được quyết ở đó. Mười lăm bước của Abel là bản của một công ty. Bản của bạn sẽ khác. Vấn đề là có một bản.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "How to close $100K-$1M deals, step by step | Jen Abel",
+        "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+        "published": "2026-08-23"
+      }
+    },
+    {
+      "title": "WORRY LOOP",
+      "title_vi": "VÒNG LO",
+      "headline": "A worry is an assumption you re-run instead of testing",
+      "headline_vi": "Nỗi lo là một giả định bạn chạy lại hoài thay vì đem đi test",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "Cohen's claim is that worry causes the thing you are worried about. Second-guessing backstage puts the second-guessing into the performance. Thinking through the mechanics while you take the shot is how you miss it. Worry breaks things that were not broken and never produces a solution. The opposite of worry, he says, is not apathy but preparation: the boring repetition athletes do across a season, and the visualisation they do in the last seconds, after which they clear their heads and simply execute.",
+        "what_vi": "Cohen nói lo lắng chính là thứ gọi ra cái điều bạn đang lo. Đứng sau cánh gà tự nghi ngờ thì mang luôn sự nghi ngờ đó lên sân khấu. Vừa đánh vừa nghĩ lại các bước kỹ thuật thì trượt cú đó. Lo làm hỏng những thứ chưa hỏng và chưa bao giờ đẻ ra giải pháp. Ông nói ngược với lo không phải là mặc kệ, mà là chuẩn bị: kiểu tập đi tập lại đến chán mà vận động viên làm cả mùa, cộng với việc hình dung trong vài giây cuối, xong rồi thì dọn sạch đầu và cứ thế đánh."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery treats an untested assumption as not knowledge: you name it, design the smallest thing that could prove it wrong, and run that this week instead of arguing.",
+        "what_vi": "Continuous discovery coi một giả định chưa test thì chưa phải là biết: gọi tên nó, thiết kế thứ nhỏ nhất có thể chứng minh nó sai, rồi chạy ngay tuần này thay vì ngồi cãi."
+      },
+      "result": "Worry is the same loop discovery was invented to break, running with no test attached. Write it as a sentence that could be false, decide what would settle it, and the loop stops turning.",
+      "result_vi": "Nỗi lo chạy đúng cái vòng mà discovery sinh ra để cắt, chỉ khác là không gắn test nào. Viết nó thành một câu có thể sai, chốt xem cái gì sẽ kết luận được, và cái vòng đó ngừng quay.",
+      "result_underline": "the loop stops turning",
+      "result_underline_vi": "cái vòng đó ngừng quay",
+      "tick": "What are you worrying about that a two-hour test would settle?",
+      "tick_vi": "Bạn đang lo chuyện gì mà một bài test hai tiếng là xong?",
+      "tick_bold": [
+        "a two-hour test would settle"
+      ],
+      "tick_bold_vi": [
+        "một bài test hai tiếng là xong"
+      ],
+      "provocation": "Cohen is talking about athletes and Torres about product teams, and the mechanism underneath is the same: an unnamed fear runs forever because nothing can ever close it. Write your three loudest worries as flat statements. Next to each, put the smallest thing that would tell you whether it is true, and the day you will do it. The ones where no test exists are the ones to put down, not the ones to keep turning over.",
+      "provocation_vi": "Cohen nói về vận động viên, Torres nói về team product, cơ chế bên dưới thì giống nhau: một nỗi sợ không được gọi tên sẽ chạy mãi vì chẳng có gì đóng nó lại được. Viết ba nỗi lo to nhất thành câu khẳng định phẳng. Cạnh mỗi câu, ghi thứ nhỏ nhất cho bạn biết nó đúng hay sai, và ngày bạn sẽ làm. Cái nào không có test nào khả dĩ thì bỏ xuống, đừng lật qua lật lại.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "Worrying is self-fulfilling; what to do instead",
+        "url": "https://longform.asmartbear.com/worry/",
+        "published": "2026-05-24"
+      }
+    }
+  ]
+}

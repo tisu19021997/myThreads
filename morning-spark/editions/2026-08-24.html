@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 24</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 29</div></div></div>
+<div class="meta label">Monday, August 24, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">WHOSE TIMELINE</span><span data-l="vi">LỊCH CỦA AI</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Cutler&#x27;s argument is that agency exists in an environment, and almost every AI adoption push treats it as a personal trait you either have or you do not. Resistance gets read as a lack of curiosity rather than a rational response. The language says this is for your growth; the structure says this is for our Q3 goals. He borrows Ursula Franklin&#x27;s warning that prescriptive technologies eliminate the occasions for decision-making and judgment, and he tells of asking a CEO who claims to be 100x more effective whether demand for his product went up 100x. Crickets.</span><span data-l="vi">Cutler nói agency luôn nằm trong một môi trường, còn gần như mọi chiến dịch đẩy AI lại coi nó như tính cách cá nhân, ai có thì có ai không thì thôi. Người ngần ngại bị đọc thành thiếu tò mò, chứ không phải một phản ứng hợp lý. Lời thì nói cái này tốt cho sự phát triển của bạn; cấu trúc thì nói cái này phục vụ mục tiêu quý ba của chúng ta. Ông mượn cảnh báo của Ursula Franklin rằng công nghệ mang tính áp đặt xoá luôn những dịp để người ta cân nhắc và phán đoán. Rồi ông kể chuyện hỏi một CEO tự nhận hiệu quả gấp 100 lần, rằng nhu cầu cho sản phẩm của anh có tăng 100 lần không. Im lặng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">His account of how good work happens keeps landing on the same two conditions: real curiosity, and a project you chose yourself rather than one handed to you.</span><span data-l="vi">Cách ông kể về việc làm ra thứ tử tế luôn quay về hai điều kiện: tò mò thật, và một dự án bạn tự chọn chứ không phải cái được giao xuống.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A mandate buys you adoption metrics and costs you the one mechanism that finds the uses worth having. The people asking whether the tool actually helps are doing the work; <u>everyone else is filing paperwork faster</u>.</span><span data-l="vi">Ép dùng thì mua được chỉ số adoption và mất đúng cái cơ chế tìm ra chỗ dùng đáng dùng. Người đang hỏi công cụ này có giúp thật không mới là người đang làm việc; <u>số còn lại chỉ đang làm giấy tờ nhanh hơn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Are you reaching for the model because it helps, or <b>because someone is counting</b>?</span><span data-l="vi">Bạn mở model ra vì nó giúp được, hay <b>vì có người đang đếm</b>?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-425-ai-and-agency" target="_blank" rel="noopener">The Beautiful Mess — TBM 425: AI and Agency &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE TEN STEPS</span><span data-l="vi">MƯỜI BƯỚC THIẾU</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jen Abel</div><div class="what"><span data-l="en">Abel walks the whole enterprise cycle step by step, and her opening move is that the five-stage pipeline in your CRM is a forecasting tool, not a sales process. The real cycle is closer to fifteen steps: a pincer that opens at the executive and the level below at the same time, a two or three sentence message built around handing them alpha rather than features, an intro call run to extract intelligence before any demo appears, a two to three day pilot with success defined jointly, then pricing, procurement and redlines without losing momentum.</span><span data-l="vi">Abel đi hết vòng bán enterprise theo từng bước, và câu mở đầu của cô là: cái pipeline năm stage trong CRM là công cụ để forecast, không phải quy trình bán hàng. Vòng thật gần mười lăm bước: một thế gọng kìm mở cùng lúc ở tầng sếp và tầng ngay dưới, một tin nhắn hai ba câu xoay quanh việc đưa cho họ một thứ họ chưa biết chứ không phải tính năng, một cuộc gọi đầu chạy để moi thông tin trước khi demo xuất hiện, một pilot hai ba ngày với tiêu chí thành công hai bên cùng chốt, rồi tới giá, procurement và redline mà không để mất đà.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">A proxy metric is a number you can move this week that stands in for the outcome you actually want, chosen because the real thing takes far too long to measure.</span><span data-l="vi">Proxy metric là con số bạn dịch được trong tuần này, đứng thay cho outcome bạn thật sự muốn, chọn vì thứ thật thì đo lâu quá.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Pipeline stages are a proxy your finance team picked, and no buyer has ever seen them. Ten of the fifteen real steps have no stage at all, <u>which is precisely where the deal dies</u>.</span><span data-l="vi">Các stage trong pipeline là proxy do bên tài chính chọn, và chưa khách nào nhìn thấy chúng. Mười trong mười lăm bước thật không có stage nào cả, mà <u>deal thì chết đúng ở đó</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which step of your real sales cycle has <b>no stage in the CRM</b>?</span><span data-l="vi">Bước nào trong vòng bán hàng thật của bạn <b>không có stage nào trong CRM</b>?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — How to close $100K-$1M deals, step by step | Jen Abel &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">WORRY LOOP</span><span data-l="vi">VÒNG LO</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">Cohen&#x27;s claim is that worry causes the thing you are worried about. Second-guessing backstage puts the second-guessing into the performance. Thinking through the mechanics while you take the shot is how you miss it. Worry breaks things that were not broken and never produces a solution. The opposite of worry, he says, is not apathy but preparation: the boring repetition athletes do across a season, and the visualisation they do in the last seconds, after which they clear their heads and simply execute.</span><span data-l="vi">Cohen nói lo lắng chính là thứ gọi ra cái điều bạn đang lo. Đứng sau cánh gà tự nghi ngờ thì mang luôn sự nghi ngờ đó lên sân khấu. Vừa đánh vừa nghĩ lại các bước kỹ thuật thì trượt cú đó. Lo làm hỏng những thứ chưa hỏng và chưa bao giờ đẻ ra giải pháp. Ông nói ngược với lo không phải là mặc kệ, mà là chuẩn bị: kiểu tập đi tập lại đến chán mà vận động viên làm cả mùa, cộng với việc hình dung trong vài giây cuối, xong rồi thì dọn sạch đầu và cứ thế đánh.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery treats an untested assumption as not knowledge: you name it, design the smallest thing that could prove it wrong, and run that this week instead of arguing.</span><span data-l="vi">Continuous discovery coi một giả định chưa test thì chưa phải là biết: gọi tên nó, thiết kế thứ nhỏ nhất có thể chứng minh nó sai, rồi chạy ngay tuần này thay vì ngồi cãi.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Worry is the same loop discovery was invented to break, running with no test attached. Write it as a sentence that could be false, decide what would settle it, and <u>the loop stops turning</u>.</span><span data-l="vi">Nỗi lo chạy đúng cái vòng mà discovery sinh ra để cắt, chỉ khác là không gắn test nào. Viết nó thành một câu có thể sai, chốt xem cái gì sẽ kết luận được, và <u>cái vòng đó ngừng quay</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What are you worrying about that <b>a two-hour test would settle</b>?</span><span data-l="vi">Bạn đang lo chuyện gì mà <b>một bài test hai tiếng là xong</b>?</span></p></div>
+<div class="src-link"><a href="https://longform.asmartbear.com/worry/" target="_blank" rel="noopener">A Smart Bear — Worrying is self-fulfilling; what to do instead &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-23.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-23</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: John Cutler / Paul Graham / Jen Abel / Gibson Biddle / Jason Cohen / Teresa Torres<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: John Cutler / Paul Graham / Jen Abel / Gibson Biddle / Jason Cohen / Teresa Torres<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

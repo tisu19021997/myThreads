@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-24",
+      "edition": 29,
+      "note": "Themes: an AI mandate costing the agency that finds real uses, the real sales cycle having ten steps the CRM never named, a worry as an assumption you keep re-running instead of testing. Sources: The Beautiful Mess, Lenny's Newsletter, A Smart Bear. Pairings: John Cutler x Paul Graham, Jen Abel x Gibson Biddle, Jason Cohen x Teresa Torres.",
+      "sparks": [
+        {
+          "pair": "John Cutler x Paul Graham",
+          "headline": "A mandate turns an exploratory tool into a compliance exercise",
+          "source": "The Beautiful Mess — TBM 425: AI and Agency",
+          "url": "https://cutlefish.substack.com/p/tbm-425-ai-and-agency"
+        },
+        {
+          "pair": "Jen Abel x Gibson Biddle",
+          "headline": "Your pipeline has five stages and the deal has fifteen",
+          "source": "Lenny's Newsletter — How to close $100K-$1M deals, step by step | Jen Abel",
+          "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by"
+        },
+        {
+          "pair": "Jason Cohen x Teresa Torres",
+          "headline": "A worry is an assumption you re-run instead of testing",
+          "source": "A Smart Bear — Worrying is self-fulfilling; what to do instead",
+          "url": "https://longform.asmartbear.com/worry/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-23",
       "edition": 28,
       "note": "Themes: a remedy arriving after the demand relationship already moved, recognition and stewardship as the precondition for showing a hard number, risk routing so the reviewer can still say no. Sources: Stratechery, The Beautiful Mess, Lenny's Newsletter. Pairings: Andrew Sharp x Ben Thompson, John Cutler x Lenny Rachitsky, Claire Vo x Marty Cagan.",
