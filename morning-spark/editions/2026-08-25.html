@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 25</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 30</div></div></div>
+<div class="meta label">Tuesday, August 25, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">CHEAP MISTAKES</span><span data-l="vi">SAI MÀ RẺ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">An attacking agent only has to succeed once, so automating offence always carries positive expected value. A defending agent only has to fail once, because a bad patch breaks the software it was meant to protect. That asymmetry, not capability, is why defenders keep a human in the loop and lose the race.</span><span data-l="vi">Agent tấn công chỉ cần trúng một lần, nên tự động hoá tấn công luôn có expected value dương. Agent phòng thủ chỉ cần hỏng một lần, vì một bản vá sai là sập đúng cái phần mềm nó đang giữ. Chính sự bất đối xứng đó, chứ không phải model yếu hơn, mới là lý do bên phòng thủ vẫn giữ người trong vòng lặp và thua tốc độ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">Startups beat incumbents less by being smarter than by being able to afford to look wrong: do things that do not scale, ship the embarrassing version, because a mistake costs a small company almost nothing and costs a large one somebody&#x27;s career.</span><span data-l="vi">Startup thắng công ty lớn không phải vì thông minh hơn, mà vì dám sai công khai: làm những việc không scale được, ship bản còn quê, vì một cái sai với công ty nhỏ gần như không tốn gì, còn với công ty lớn là tốn sự nghiệp của ai đó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Capability is not what decides where you delegate. The price of a wrong answer is. Draw the map of where your mistakes are cheap and you have drawn, exactly, the list of work you will actually hand to an agent this year, <u>no matter who has the better model</u>.</span><span data-l="vi">Không phải năng lực của model quyết định bạn giao việc ở đâu. Cái giá của một câu trả lời sai mới quyết định. Vẽ ra chỗ nào sai mà rẻ, là bạn đã vẽ đúng danh sách việc mình thật sự dám giao cho agent năm nay, <u>bất kể ai đang cầm model xịn hơn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which part of your work <b>costs nothing when it is wrong</b>? That is the only part you will actually delegate.</span><span data-l="vi">Phần nào trong việc của bạn <b>sai mà không tốn gì</b>? Đó là phần duy nhất bạn sẽ thật sự giao đi.</span></p></div>
+<div class="src-link"><a href="https://stratechery.com/2026/autonomy-and-innovation/" target="_blank" rel="noopener">Stratechery — Autonomy and Innovation &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE COMPARISON</span><span data-l="vi">CÁI ĐEM RA SO</span></span></div>
+<div class="eq"><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">As the cost of delivery drops, the bottleneck and the competitive advantage move to discovery. But discovery is not there to confirm the problem is real, because leaders rarely prioritise a fake one. The hard part, by far, is finding a solution demonstrably better than the alternatives, or the customer simply does not switch.</span><span data-l="vi">Chi phí delivery càng giảm thì nút thắt và lợi thế cạnh tranh càng dồn về discovery. Nhưng discovery không phải để xác nhận vấn đề là có thật, vì hiếm khi sếp ưu tiên một vấn đề giả. Phần khó nhất, khó hơn hẳn, là tìm ra giải pháp tốt hơn hẳn mấy lựa chọn đang có, không thì khách hàng chẳng buồn chuyển.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">A customer never judges your product in the abstract. They judge it against the alternatives they already have in mind, including doing nothing, and positioning is the work of deciding which alternatives those will be.</span><span data-l="vi">Khách hàng không bao giờ đánh giá sản phẩm của bạn một cách trừu tượng. Họ đem nó so với mấy lựa chọn đã có sẵn trong đầu, kể cả lựa chọn không làm gì cả, và positioning chính là việc quyết định mấy lựa chọn đó sẽ là gì.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">So the bottleneck moved twice, not once. Past building, past learning, and onto the one thing neither speed nor evidence supplies: the comparison you agree to be judged against. That is a choice, and <u>no amount of building will make it for you</u>.</span><span data-l="vi">Vậy là nút thắt dịch hai lần chứ không phải một. Qua khỏi chuyện build, qua khỏi chuyện học, tới đúng cái thứ mà cả tốc độ lẫn bằng chứng đều không đưa cho bạn: cái đối chứng mà bạn chịu để người ta đem mình ra so. Đó là một lựa chọn, và <u>build bao nhiêu cũng không chọn thay bạn được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If you did nothing, <b>what would your customer use instead</b>? Name it before you build anything.</span><span data-l="vi">Nếu bạn không làm gì cả, <b>khách hàng sẽ xài cái gì thay thế</b>? Gọi tên nó ra trước khi build bất cứ thứ gì.</span></p></div>
+<div class="src-link"><a href="https://www.svpg.com/build-to-learn-faq/" target="_blank" rel="noopener">SVPG — Build To Learn FAQ &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">SAY IT OUT LOUD</span><span data-l="vi">NÓI THẲNG RA</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">Some of the most useful business metrics are homemade and slightly rude. Meetings per Decision tells you nobody owns the call. Time to First Excuse tells you how long a bad result survives before somebody blames seasonality. PowerPoints per Launch tells you consensus has replaced shipping.</span><span data-l="vi">Mấy metric hữu dụng nhất trong kinh doanh nhiều khi là loại tự chế và hơi xóc óc. Meetings per Decision cho biết chẳng ai đứng ra chốt. Time to First Excuse cho biết một kết quả tệ sống được bao lâu trước khi có người đổ tại mùa vụ. PowerPoints per Launch cho biết đồng thuận đã thay chỗ của việc ship.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">Do the arithmetic on your own business rather than the story you tell about it. A number is only worth carrying if some decision actually hangs on it; otherwise it is decoration with a decimal point.</span><span data-l="vi">Làm toán trên chính business của bạn, đừng làm toán trên cái câu chuyện bạn kể về nó. Một con số chỉ đáng mang theo nếu có quyết định nào đó thật sự treo vào nó; không thì nó chỉ là đồ trang trí có dấu thập phân.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">None of those ratios would survive a statistician. That is not the point. Each one makes a cost visible inside the room that is paying it, which is a thing no accurate dashboard has ever done. The metric that changes behaviour is the one <u>nobody wants said out loud in the meeting it describes</u>.</span><span data-l="vi">Mấy cái tỉ lệ đó đem cho dân thống kê là bị bác hết. Nhưng đó không phải điểm chính. Cái nào cũng làm lộ ra một khoản chi phí ngay trong cái phòng đang trả nó, việc mà chưa dashboard chính xác nào làm được. Metric thay đổi được hành vi là cái <u>không ai muốn nói ra ngay trong cuộc họp mà nó đang mô tả</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which number about how your team works <b>would be awkward on the wall</b>? Put it on the wall.</span><span data-l="vi">Con số nào về cách team bạn làm việc mà <b>dán lên tường thấy ngại</b>? Dán nó lên tường.</span></p></div>
+<div class="src-link"><a href="https://andrewchen.substack.com/p/lies-per-second-meetings-per-decision" target="_blank" rel="noopener">andrewchen — Lies per Second, Meetings per Decision Ratio, and other important biz metrics &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-24.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-24</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ben Thompson / Paul Graham / Marty Cagan / April Dunford / Andrew Chen / Jason Cohen<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ben Thompson / Paul Graham / Marty Cagan / April Dunford / Andrew Chen / Jason Cohen<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

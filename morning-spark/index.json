@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-25",
+      "edition": 30,
+      "note": "Themes: autonomy granted by the cost of being wrong rather than by capability, the comparison set as the decision neither speed nor evidence supplies, a homemade metric working because it is socially awkward rather than accurate. Sources: Stratechery, SVPG, andrewchen. Pairings: Ben Thompson x Paul Graham, Marty Cagan x April Dunford, Andrew Chen x Jason Cohen.",
+      "sparks": [
+        {
+          "pair": "Ben Thompson x Paul Graham",
+          "headline": "Autonomy follows the cost of being wrong",
+          "source": "Stratechery — Autonomy and Innovation",
+          "url": "https://stratechery.com/2026/autonomy-and-innovation/"
+        },
+        {
+          "pair": "Marty Cagan x April Dunford",
+          "headline": "Better is meaningless until you name the alternative",
+          "source": "SVPG — Build To Learn FAQ",
+          "url": "https://www.svpg.com/build-to-learn-faq/"
+        },
+        {
+          "pair": "Andrew Chen x Jason Cohen",
+          "headline": "The metric that works is the awkward one",
+          "source": "andrewchen — Lies per Second, Meetings per Decision Ratio, and other important biz metrics",
+          "url": "https://andrewchen.substack.com/p/lies-per-second-meetings-per-decision"
+        }
+      ]
+    },
+    {
       "date": "2026-08-24",
       "edition": 29,
       "note": "Themes: an AI mandate costing the agency that finds real uses, the real sales cycle having ten steps the CRM never named, a worry as an assumption you keep re-running instead of testing. Sources: The Beautiful Mess, Lenny's Newsletter, A Smart Bear. Pairings: John Cutler x Paul Graham, Jen Abel x Gibson Biddle, Jason Cohen x Teresa Torres.",

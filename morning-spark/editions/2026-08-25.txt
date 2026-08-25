@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, August 25 · Ed. 30
+What you delegate, who you are measured against, what you count.
+
+─────────────────
+01 · Autonomy follows the cost of being wrong
+Ben Thompson × Paul Graham
+Thompson's asymmetry is a general law, not a security one. Where being wrong is recoverable, autonomy arrives early. Where it is attributable, a human stays in the loop and the work stays human-speed.
+→ https://stratechery.com/2026/autonomy-and-innovation/
+
+─────────────────
+02 · Better is meaningless until you name the alternative
+Marty Cagan × April Dunford
+Cagan is blunt that discovery is not there to confirm the problem is real; leaders already know that. It is there to prove a solution wins. Dunford's point is that winning is scored against a field somebody had to pick.
+→ https://www.svpg.com/build-to-learn-faq/
+
+─────────────────
+03 · The metric that works is the awkward one
+Andrew Chen × Jason Cohen
+Chen's other one is the Decision to Rumination Ratio: months spent choosing a car, a week spent choosing a job. Stakes and thinking time are barely correlated, and nobody notices until the ratio has a name.
+→ https://andrewchen.substack.com/p/lies-per-second-meetings-per-decision
+
+Full styled card → open the session.
