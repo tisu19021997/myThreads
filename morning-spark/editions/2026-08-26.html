@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 26</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 31</div></div></div>
+<div class="meta label">Wednesday, August 26, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">FORTY MERGES</span><span data-l="vi">BỐN CHỤC CÁI MERGE</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ryan Carson</div><div class="what"><span data-l="en">A solo founder running fifteen concurrent Devin agents, coordinated on a handwritten sheet of paper, closing about forty pull requests a day through a review skill that records a walkthrough instead of a QA team. His own conclusion: more output does not make a better product, and what actually redirected the company was getting away from the computer to meet one real customer.</span><span data-l="vi">Một solo founder chạy mười lăm con agent Devin cùng lúc, điều phối bằng một tờ giấy viết tay, mỗi ngày đóng chừng bốn chục cái pull request bằng một cái skill tự quay walkthrough thay cho cả team QA. Kết luận của chính anh ta: output nhiều hơn không làm sản phẩm tốt hơn, và thứ thật sự bẻ lái công ty là rời khỏi máy tính đi gặp một khách hàng thật.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery is a weekly touchpoint with customers, run by the same people who build, mapped onto an opportunity solution tree so every piece of work has to name the assumption it is testing. Evidence that a thing works is never evidence that it should exist.</span><span data-l="vi">Continuous discovery là mỗi tuần chạm mặt khách hàng một lần, do đúng những người đang build làm, gắn lên opportunity solution tree để mỗi việc phải gọi tên cái giả định nó đang test. Bằng chứng một thứ chạy được không bao giờ là bằng chứng nó nên tồn tại.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The loop proves the agents built what he asked. It has no opinion on whether the ask was right. At forty merges a day the review queue is a solved problem, and the last thing standing between him and a beautifully shipped wrong product is <u>a conversation he had to leave the house for</u>.</span><span data-l="vi">Cái loop đó chứng minh được agent build đúng thứ anh ta yêu cầu. Nó không có ý kiến gì về chuyện yêu cầu đó có đúng không. Bốn chục cái merge một ngày thì hàng đợi review coi như xong, và thứ duy nhất còn đứng giữa anh ta và một sản phẩm sai được ship cực đẹp là <u>một cuộc nói chuyện phải ra khỏi nhà mới có</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did you verify this week that <b>nobody asked whether you should have built</b>?</span><span data-l="vi">Tuần này bạn nghiệm thu thứ gì mà <b>chẳng ai hỏi lẽ ra có nên build nó không</b>?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — I spent $20,000 on Devin in a month. Here&#x27;s what I learned | Ryan Carson &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">WHO WROTE THAT</span><span data-l="vi">AI VIẾT CÂU ĐÓ</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">He is tired of the slide announcing that engineering is no longer the bottleneck. Product development is not a pipe with one clog: it is sensing, deciding, learning, aligning, making, changing, supporting. Constraints are distributed and keep re-arranging each other, so a visible logjam is usually a symptom. And he names the actual driver: consultancies pitching a thirty percent headcount cut, five percent of revenue on tokens, the whole thing booked as AI productivity.</span><span data-l="vi">Ông chán cái slide tuyên bố engineering không còn là nút thắt nữa. Làm sản phẩm không phải cái ống nước có một chỗ nghẹt: nó là cảm nhận, quyết định, học, căn chỉnh, làm, đổi, hỗ trợ. Các ràng buộc nằm rải rác và cứ xô đẩy lẫn nhau, nên chỗ tắc nhìn thấy được thường chỉ là triệu chứng. Và ông gọi tên cái động cơ thật: mấy hãng tư vấn đi chào cắt ba mươi phần trăm nhân sự, chi năm phần trăm doanh thu cho token, rồi ghi sổ tất cả thành AI productivity.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Product-market fit alone explains nothing. Four fits have to hold at once, market to product, product to channel, channel to model, model to market, and moving one forces the others to move. A growth system stalls at the joint where two of them quietly disagree, which is why speeding up one stage relocates the stall instead of removing it.</span><span data-l="vi">Chỉ mỗi product-market fit thì chẳng giải thích được gì. Bốn cái fit phải đứng cùng lúc, market với product, product với channel, channel với model, model với market, đụng một cái là mấy cái kia phải đi theo. Hệ tăng trưởng tắc ngay chỗ nối mà hai trong số đó đang âm thầm cãi nhau, nên tăng tốc một khâu chỉ là dời chỗ tắc chứ không xoá được nó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">So the bottleneck has moved is not a finding. It is a sentence with a budget attached, and somebody wrote it before they looked. Speed up one stage of a system whose constraints keep re-arranging each other and the only thing you have reliably built is <u>a bigger pile in front of the next one</u>.</span><span data-l="vi">Vậy nên nút thắt đã dịch chuyển không phải là một phát hiện. Đó là một câu văn có gắn sẵn ngân sách, và ai đó đã viết nó ra trước khi nhìn. Tăng tốc một khâu trong cái hệ mà các ràng buộc cứ xô đẩy nhau, thứ duy nhất bạn chắc chắn tạo ra là <u>một đống to hơn nằm chờ trước khâu kế tiếp</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en"><b>Who benefits from the story</b> that your team&#x27;s bottleneck has moved?</span><span data-l="vi"><b>Ai được lợi từ cái câu chuyện</b> rằng nút thắt của team bạn đã dịch chỗ?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-427-the-bottleneck-strike-again" target="_blank" rel="noopener">The Beautiful Mess — TBM 427: The Bottleneck Strike Again! &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE RUNG</span><span data-l="vi">CÁI BẬC THANG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Cliff Maxwell</div><div class="what"><span data-l="en">Working with Bobby Moesta, he ran a thousand interviews with people changing jobs and applied Jobs to Be Done to careers: you are the customer, and the next move is the product. Progression is the ladder, IC to manager and up. Progress is contextual, autonomy or recognition or room to prepare for what is coming, and it can look sideways or backwards to everyone else and still be the right move.</span><span data-l="vi">Cùng Bobby Moesta, anh phỏng vấn cả ngàn người đang đổi việc và đem Jobs to Be Done áp vào chuyện nghề: bạn là khách hàng, còn bước đi kế tiếp là sản phẩm. Progression là cái thang, từ IC lên quản lý rồi lên nữa. Progress thì tuỳ hoàn cảnh, có thể là tự chủ, là được ghi nhận, là chỗ để chuẩn bị cho cái sắp tới, và nhìn từ ngoài vào có thể giống đi ngang hay đi lùi mà vẫn là nước đi đúng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">DHM: delight customers, in hard to copy, margin enhancing ways. The hard to copy leg is the one that decides whether an advantage survives contact with a competitor who has read your roadmap, and it is the leg most teams quietly skip.</span><span data-l="vi">DHM: làm khách hàng thích, theo cách khó sao chép, và cải thiện biên lợi nhuận. Cái chân khó sao chép mới quyết định một lợi thế có sống nổi khi đối thủ đã đọc hết roadmap của bạn hay không, và đó cũng là cái chân mà đa số team lặng lẽ bỏ qua.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A rung is a standard slot with a standard description, which is precisely why an army is applying for it. Ask Biddle&#x27;s question about yourself instead of your product: promotions are graded on the copyable half, and the only move that compounds is the room that grows <u>the half nobody can copy</u>.</span><span data-l="vi">Một bậc thang là cái ô tiêu chuẩn với bản mô tả tiêu chuẩn, đúng vì vậy mà cả đám người đang nộp đơn vào đó. Đem câu hỏi của Biddle soi vào chính mình thay vì soi sản phẩm: thăng chức chấm điểm cái nửa dễ sao chép, còn nước đi duy nhất cộng dồn được là cái môi trường nuôi lớn <u>cái nửa không ai chép được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What are you being promoted for that <b>anyone could be promoted for</b>?</span><span data-l="vi">Bạn đang được thăng chức nhờ cái gì mà <b>ai cũng có thể được thăng chức nhờ nó</b>?</span></p></div>
+<div class="src-link"><a href="https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career" target="_blank" rel="noopener">Lenny&#x27;s Newsletter — How to figure out your next career move &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-25.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-25</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ryan Carson / Teresa Torres / John Cutler / Brian Balfour / Cliff Maxwell / Gibson Biddle<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ryan Carson / Teresa Torres / John Cutler / Brian Balfour / Cliff Maxwell / Gibson Biddle<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-26",
+      "edition": 31,
+      "note": "Themes: a verification loop that proves the build but never questions the ask, the moved-bottleneck story as a budget decision wearing a systems diagram, a career rung as the most copyable thing you can be measured on. Sources: Lenny's Newsletter (twice, different authors -- rest Lenny's tomorrow), The Beautiful Mess. Pairings: Ryan Carson x Teresa Torres, John Cutler x Brian Balfour, Cliff Maxwell x Gibson Biddle.",
+      "sparks": [
+        {
+          "pair": "Ryan Carson x Teresa Torres",
+          "headline": "You automated the review, not the judgment",
+          "source": "Lenny's Newsletter — I spent $20,000 on Devin in a month. Here's what I learned | Ryan Carson",
+          "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month"
+        },
+        {
+          "pair": "John Cutler x Brian Balfour",
+          "headline": "Nobody moved the bottleneck, they moved the story",
+          "source": "The Beautiful Mess — TBM 427: The Bottleneck Strike Again!",
+          "url": "https://cutlefish.substack.com/p/tbm-427-the-bottleneck-strike-again"
+        },
+        {
+          "pair": "Cliff Maxwell x Gibson Biddle",
+          "headline": "A promotion is the most copyable thing about you",
+          "source": "Lenny's Newsletter — How to figure out your next career move",
+          "url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career"
+        }
+      ]
+    },
+    {
       "date": "2026-08-25",
       "edition": 30,
       "note": "Themes: autonomy granted by the cost of being wrong rather than by capability, the comparison set as the decision neither speed nor evidence supplies, a homemade metric working because it is socially awkward rather than accurate. Sources: Stratechery, SVPG, andrewchen. Pairings: Ben Thompson x Paul Graham, Marty Cagan x April Dunford, Andrew Chen x Jason Cohen.",

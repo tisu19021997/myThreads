@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-26",
+  "edition": 31,
+  "framing": "Verify the wrong thing, repeat the meme, climb somebody else's ladder.",
+  "framing_vi": "Nghiệm thu nhầm thứ, lặp lại cái meme, leo cái thang của người khác.",
+  "note": "Themes: a verification loop that proves the build but never questions the ask, the moved-bottleneck story as a budget decision wearing a systems diagram, a career rung as the most copyable thing you can be measured on. Sources: Lenny's Newsletter (twice, different authors -- rest Lenny's tomorrow), The Beautiful Mess. Pairings: Ryan Carson x Teresa Torres, John Cutler x Brian Balfour, Cliff Maxwell x Gibson Biddle.",
+  "sparks": [
+    {
+      "title": "FORTY MERGES",
+      "title_vi": "BỐN CHỤC CÁI MERGE",
+      "headline": "You automated the review, not the judgment",
+      "headline_vi": "Bạn tự động hoá khâu review, chứ không phải khâu quyết",
+      "a": {
+        "who": "Ryan Carson",
+        "what": "A solo founder running fifteen concurrent Devin agents, coordinated on a handwritten sheet of paper, closing about forty pull requests a day through a review skill that records a walkthrough instead of a QA team. His own conclusion: more output does not make a better product, and what actually redirected the company was getting away from the computer to meet one real customer.",
+        "what_vi": "Một solo founder chạy mười lăm con agent Devin cùng lúc, điều phối bằng một tờ giấy viết tay, mỗi ngày đóng chừng bốn chục cái pull request bằng một cái skill tự quay walkthrough thay cho cả team QA. Kết luận của chính anh ta: output nhiều hơn không làm sản phẩm tốt hơn, và thứ thật sự bẻ lái công ty là rời khỏi máy tính đi gặp một khách hàng thật."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery is a weekly touchpoint with customers, run by the same people who build, mapped onto an opportunity solution tree so every piece of work has to name the assumption it is testing. Evidence that a thing works is never evidence that it should exist.",
+        "what_vi": "Continuous discovery là mỗi tuần chạm mặt khách hàng một lần, do đúng những người đang build làm, gắn lên opportunity solution tree để mỗi việc phải gọi tên cái giả định nó đang test. Bằng chứng một thứ chạy được không bao giờ là bằng chứng nó nên tồn tại."
+      },
+      "result": "The loop proves the agents built what he asked. It has no opinion on whether the ask was right. At forty merges a day the review queue is a solved problem, and the last thing standing between him and a beautifully shipped wrong product is a conversation he had to leave the house for.",
+      "result_vi": "Cái loop đó chứng minh được agent build đúng thứ anh ta yêu cầu. Nó không có ý kiến gì về chuyện yêu cầu đó có đúng không. Bốn chục cái merge một ngày thì hàng đợi review coi như xong, và thứ duy nhất còn đứng giữa anh ta và một sản phẩm sai được ship cực đẹp là một cuộc nói chuyện phải ra khỏi nhà mới có.",
+      "result_underline": "a conversation he had to leave the house for",
+      "result_underline_vi": "một cuộc nói chuyện phải ra khỏi nhà mới có",
+      "tick": "What did you verify this week that nobody asked whether you should have built?",
+      "tick_vi": "Tuần này bạn nghiệm thu thứ gì mà chẳng ai hỏi lẽ ra có nên build nó không?",
+      "tick_bold": [
+        "nobody asked whether you should have built"
+      ],
+      "tick_bold_vi": [
+        "chẳng ai hỏi lẽ ra có nên build nó không"
+      ],
+      "provocation": "Carson automated the expensive half of shipping and kept the cheap half on paper. The paper is the interesting part. It is where the decisions live, and it did not get bigger when the agents did.",
+      "provocation_vi": "Carson tự động hoá nửa đắt tiền của việc ship, còn nửa rẻ tiền thì để trên giấy. Tờ giấy mới là chỗ đáng chú ý. Quyết định nằm ở đó, và nó không hề to ra khi số agent to ra.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "I spent $20,000 on Devin in a month. Here's what I learned | Ryan Carson",
+        "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month",
+        "published": "2026-08-24"
+      }
+    },
+    {
+      "title": "WHO WROTE THAT",
+      "title_vi": "AI VIẾT CÂU ĐÓ",
+      "headline": "Nobody moved the bottleneck, they moved the story",
+      "headline_vi": "Chẳng ai dời cái nút thắt, người ta dời cái câu chuyện",
+      "a": {
+        "who": "John Cutler",
+        "what": "He is tired of the slide announcing that engineering is no longer the bottleneck. Product development is not a pipe with one clog: it is sensing, deciding, learning, aligning, making, changing, supporting. Constraints are distributed and keep re-arranging each other, so a visible logjam is usually a symptom. And he names the actual driver: consultancies pitching a thirty percent headcount cut, five percent of revenue on tokens, the whole thing booked as AI productivity.",
+        "what_vi": "Ông chán cái slide tuyên bố engineering không còn là nút thắt nữa. Làm sản phẩm không phải cái ống nước có một chỗ nghẹt: nó là cảm nhận, quyết định, học, căn chỉnh, làm, đổi, hỗ trợ. Các ràng buộc nằm rải rác và cứ xô đẩy lẫn nhau, nên chỗ tắc nhìn thấy được thường chỉ là triệu chứng. Và ông gọi tên cái động cơ thật: mấy hãng tư vấn đi chào cắt ba mươi phần trăm nhân sự, chi năm phần trăm doanh thu cho token, rồi ghi sổ tất cả thành AI productivity."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Product-market fit alone explains nothing. Four fits have to hold at once, market to product, product to channel, channel to model, model to market, and moving one forces the others to move. A growth system stalls at the joint where two of them quietly disagree, which is why speeding up one stage relocates the stall instead of removing it.",
+        "what_vi": "Chỉ mỗi product-market fit thì chẳng giải thích được gì. Bốn cái fit phải đứng cùng lúc, market với product, product với channel, channel với model, model với market, đụng một cái là mấy cái kia phải đi theo. Hệ tăng trưởng tắc ngay chỗ nối mà hai trong số đó đang âm thầm cãi nhau, nên tăng tốc một khâu chỉ là dời chỗ tắc chứ không xoá được nó."
+      },
+      "result": "So the bottleneck has moved is not a finding. It is a sentence with a budget attached, and somebody wrote it before they looked. Speed up one stage of a system whose constraints keep re-arranging each other and the only thing you have reliably built is a bigger pile in front of the next one.",
+      "result_vi": "Vậy nên nút thắt đã dịch chuyển không phải là một phát hiện. Đó là một câu văn có gắn sẵn ngân sách, và ai đó đã viết nó ra trước khi nhìn. Tăng tốc một khâu trong cái hệ mà các ràng buộc cứ xô đẩy nhau, thứ duy nhất bạn chắc chắn tạo ra là một đống to hơn nằm chờ trước khâu kế tiếp.",
+      "result_underline": "a bigger pile in front of the next one",
+      "result_underline_vi": "một đống to hơn nằm chờ trước khâu kế tiếp",
+      "tick": "Who benefits from the story that your team's bottleneck has moved?",
+      "tick_vi": "Ai được lợi từ cái câu chuyện rằng nút thắt của team bạn đã dịch chỗ?",
+      "tick_bold": [
+        "Who benefits from the story"
+      ],
+      "tick_bold_vi": [
+        "Ai được lợi từ cái câu chuyện"
+      ],
+      "provocation": "Cutler's sharpest line is that the bottleneck has shifted to conversations about how the bottleneck has shifted. Test it on your own week: how much of it went to arguing about where the work is stuck, versus being stuck in it.",
+      "provocation_vi": "Câu sắc nhất của Cutler là nút thắt giờ đã dịch sang mấy cuộc bàn xem nút thắt dịch đi đâu. Thử soi lại tuần của bạn: bao nhiêu thời gian dành để cãi xem việc đang kẹt ở đâu, so với thời gian thật sự kẹt trong đó.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 427: The Bottleneck Strike Again!",
+        "url": "https://cutlefish.substack.com/p/tbm-427-the-bottleneck-strike-again",
+        "published": "2026-06-26"
+      }
+    },
+    {
+      "title": "THE RUNG",
+      "title_vi": "CÁI BẬC THANG",
+      "headline": "A promotion is the most copyable thing about you",
+      "headline_vi": "Cái chức mới là thứ dễ sao chép nhất ở bạn",
+      "a": {
+        "who": "Cliff Maxwell",
+        "what": "Working with Bobby Moesta, he ran a thousand interviews with people changing jobs and applied Jobs to Be Done to careers: you are the customer, and the next move is the product. Progression is the ladder, IC to manager and up. Progress is contextual, autonomy or recognition or room to prepare for what is coming, and it can look sideways or backwards to everyone else and still be the right move.",
+        "what_vi": "Cùng Bobby Moesta, anh phỏng vấn cả ngàn người đang đổi việc và đem Jobs to Be Done áp vào chuyện nghề: bạn là khách hàng, còn bước đi kế tiếp là sản phẩm. Progression là cái thang, từ IC lên quản lý rồi lên nữa. Progress thì tuỳ hoàn cảnh, có thể là tự chủ, là được ghi nhận, là chỗ để chuẩn bị cho cái sắp tới, và nhìn từ ngoài vào có thể giống đi ngang hay đi lùi mà vẫn là nước đi đúng."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: delight customers, in hard to copy, margin enhancing ways. The hard to copy leg is the one that decides whether an advantage survives contact with a competitor who has read your roadmap, and it is the leg most teams quietly skip.",
+        "what_vi": "DHM: làm khách hàng thích, theo cách khó sao chép, và cải thiện biên lợi nhuận. Cái chân khó sao chép mới quyết định một lợi thế có sống nổi khi đối thủ đã đọc hết roadmap của bạn hay không, và đó cũng là cái chân mà đa số team lặng lẽ bỏ qua."
+      },
+      "result": "A rung is a standard slot with a standard description, which is precisely why an army is applying for it. Ask Biddle's question about yourself instead of your product: promotions are graded on the copyable half, and the only move that compounds is the room that grows the half nobody can copy.",
+      "result_vi": "Một bậc thang là cái ô tiêu chuẩn với bản mô tả tiêu chuẩn, đúng vì vậy mà cả đám người đang nộp đơn vào đó. Đem câu hỏi của Biddle soi vào chính mình thay vì soi sản phẩm: thăng chức chấm điểm cái nửa dễ sao chép, còn nước đi duy nhất cộng dồn được là cái môi trường nuôi lớn cái nửa không ai chép được.",
+      "result_underline": "the half nobody can copy",
+      "result_underline_vi": "cái nửa không ai chép được",
+      "tick": "What are you being promoted for that anyone could be promoted for?",
+      "tick_vi": "Bạn đang được thăng chức nhờ cái gì mà ai cũng có thể được thăng chức nhờ nó?",
+      "tick_bold": [
+        "anyone could be promoted for"
+      ],
+      "tick_bold_vi": [
+        "ai cũng có thể được thăng chức nhờ nó"
+      ],
+      "provocation": "Maxwell's framing is blunt about timing: work may feel unstable now, and this is likely the most stable it will feel for a while. A ladder is a bet that the rungs above you will still be there. Progress is a bet on yourself instead.",
+      "provocation_vi": "Maxwell nói thẳng về thời điểm: giờ có thể thấy bấp bênh, nhưng đây nhiều khả năng là lúc ổn định nhất trong một thời gian dài tới. Leo thang là đặt cược rằng mấy bậc phía trên vẫn còn đó. Còn progress là đặt cược vào chính bạn.",
+      "source": {
+        "site": "Lenny's Newsletter",
+        "title": "How to figure out your next career move",
+        "url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
+        "published": "2026-08-25"
+      }
+    }
+  ]
+}
