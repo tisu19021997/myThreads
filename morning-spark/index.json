@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-27",
+      "edition": 32,
+      "note": "Themes: certainty as a measure of how much of the answer you authored, the pilot team's honest output being the list of constraints lifted, a training rollout failing the way a thin network fails. Sources: A Smart Bear, SVPG, Product Talk. Pairings: Jason Cohen x Paul Graham, Marty Cagan x John Cutler, Teresa Torres x Andrew Chen. Rested Lenny's Newsletter and Stratechery today; note that Product Talk and SVPG are getting heavy use, rest both tomorrow.",
+      "sparks": [
+        {
+          "pair": "Jason Cohen x Paul Graham",
+          "headline": "She skipped asking because she already knew. She was wrong.",
+          "source": "A Smart Bear — When being an \"expert\" is harmful",
+          "url": "https://longform.asmartbear.com/expert-harmful/"
+        },
+        {
+          "pair": "Marty Cagan x John Cutler",
+          "headline": "A hand-picked team proves the model works. It also proves what you removed.",
+          "source": "SVPG — The Politics of Pilot Teams",
+          "url": "https://www.svpg.com/the-politics-of-pilot-teams/"
+        },
+        {
+          "pair": "Teresa Torres x Andrew Chen",
+          "headline": "Training everyone at once fails the way a thin network fails.",
+          "source": "Product Talk — Learning Together - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/learning-together-all-things-product-podcast-with-teresa-torres-petra-wille/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-26",
       "edition": 31,
       "note": "Themes: a verification loop that proves the build but never questions the ask, the moved-bottleneck story as a budget decision wearing a systems diagram, a career rung as the most copyable thing you can be measured on. Sources: Lenny's Newsletter (twice, different authors -- rest Lenny's tomorrow), The Beautiful Mess. Pairings: Ryan Carson x Teresa Torres, John Cutler x Brian Balfour, Cliff Maxwell x Gibson Biddle.",

@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-27",
+  "edition": 32,
+  "framing": "Small and honest beats big and convincing, three times over.",
+  "framing_vi": "Nhỏ mà thật thắng to mà nghe xuôi tai, ba lần liền.",
+  "note": "Themes: certainty as a measure of how much of the answer you authored, the pilot team's honest output being the list of constraints lifted, a training rollout failing the way a thin network fails. Sources: A Smart Bear, SVPG, Product Talk. Pairings: Jason Cohen x Paul Graham, Marty Cagan x John Cutler, Teresa Torres x Andrew Chen. Rested Lenny's Newsletter and Stratechery today; note that Product Talk and SVPG are getting heavy use, rest both tomorrow.",
+  "sparks": [
+    {
+      "title": "CERTAINTY",
+      "title_vi": "SỰ CHẮC CHẮN",
+      "headline": "She skipped asking because she already knew. She was wrong.",
+      "headline_vi": "Chị ấy bỏ qua việc đi hỏi vì đã biết trước câu trả lời. Và sai.",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "A founder refused to test her pricing on customers because she knew her industry and knew what they would say. He talked her into asking anyway. She was wrong, and wrote back that a week of quick calls taught her more about the market than the previous year had.",
+        "what_vi": "Một founder không chịu đem giá đi hỏi khách vì chị tin mình rành ngành này và biết thừa họ sẽ nói gì. Anh dụ chị cứ hỏi thử. Chị sai, rồi viết lại rằng một tuần gọi nhanh cho chị hiểu thị trường hơn cả năm trước cộng lại."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Ideas you sit down and think up sound plausible because you built them to be plausible. The ones that hold come from a problem you were already living inside.",
+        "what_vi": "Ý tưởng bạn ngồi nghĩ ra nghe rất hợp lý, vì chính bạn dựng nó cho hợp lý. Ý tưởng trụ được đến từ vấn đề bạn vốn đã sống trong đó."
+      },
+      "result": "Expertise does not make you wrong. It makes you skip the asking, and asking is where being wrong gets found. Certainty measures how much of the answer you wrote yourself.",
+      "result_vi": "Kinh nghiệm không làm bạn sai. Nó làm bạn bỏ qua việc đi hỏi, mà hỏi mới là chỗ cái sai lộ ra. Sự chắc chắn chỉ đo được bạn đã tự viết bao nhiêu phần của câu trả lời.",
+      "result_underline": "how much of the answer you wrote yourself",
+      "result_underline_vi": "bạn đã tự viết bao nhiêu phần của câu trả lời",
+      "tick": "Which call did I skip this week because I already knew what they would say?",
+      "tick_vi": "Tuần này mình bỏ qua cuộc gọi nào vì đã biết thừa họ sẽ nói gì?",
+      "tick_bold": [
+        "because I already knew what they would say"
+      ],
+      "tick_bold_vi": [
+        "vì đã biết thừa họ sẽ nói gì"
+      ],
+      "provocation": "The expert is not less accurate than the novice. The expert simply stops checking, and stops earlier. If you can feel the answer before the question is out, that feeling is the reason to ask.",
+      "provocation_vi": "Người có kinh nghiệm không đoán tệ hơn người mới. Chỉ là họ ngừng kiểm chứng, và ngừng sớm hơn. Nếu bạn thấy câu trả lời hiện ra trước cả khi hỏi xong, chính cảm giác đó là lý do phải đi hỏi.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "When being an \"expert\" is harmful",
+        "url": "https://longform.asmartbear.com/expert-harmful/",
+        "published": "2011-08-29"
+      }
+    },
+    {
+      "title": "THE PILOT",
+      "title_vi": "ĐỘI THÍ ĐIỂM",
+      "headline": "A hand-picked team proves the model works. It also proves what you removed.",
+      "headline_vi": "Một đội chọn tay chứng minh được model chạy. Nó cũng cho thấy bạn đã dẹp đi những gì.",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "The pilot team is the MVP of a transformation: one or two hand-picked bar-raiser teams, a quarter or two, enough for the organisation and its stakeholders to finally see what good looks like without putting the revenue at risk.",
+        "what_vi": "Đội thí điểm là MVP của cả cuộc chuyển đổi: một hai đội được chọn tay để nâng chuẩn, chạy một hai quý, đủ để cả tổ chức và các stakeholder lần đầu thấy tận mắt cái tốt nó ra sao mà không đem doanh thu ra đánh cược."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "A map, a dashboard or a demo can hide the very problem it was drawn to expose, because everyone reads the clean picture and nobody reads the mess it was drawn on top of.",
+        "what_vi": "Một cái map, một cái dashboard hay một buổi demo có thể che mất đúng cái vấn đề nó sinh ra để phơi bày, vì ai cũng đọc bức tranh sạch sẽ và không ai đọc mớ bòng bong nằm dưới."
+      },
+      "result": "The pilot's real output is not the business result. It is the list of constraints you had to lift to get it, and that list is the transformation.",
+      "result_vi": "Sản phẩm thật của đội thí điểm không phải con số kinh doanh. Nó là danh sách những ràng buộc bạn phải gỡ đi mới có được con số đó, và chính danh sách đó mới là cuộc chuyển đổi.",
+      "result_underline": "that list is the transformation",
+      "result_underline_vi": "chính danh sách đó mới là cuộc chuyển đổi",
+      "tick": "What did we quietly remove for the pilot, and could we remove it for everyone?",
+      "tick_vi": "Mình đã lặng lẽ gỡ bỏ thứ gì cho đội thí điểm, và có gỡ được cho tất cả không?",
+      "tick_bold": [
+        "could we remove it for everyone"
+      ],
+      "tick_bold_vi": [
+        "có gỡ được cho tất cả không"
+      ],
+      "provocation": "Everyone treats the pilot's number as the finding. The number was never in doubt; you staffed it with your best people and cleared their path. The finding is the path-clearing itself, written down and priced.",
+      "provocation_vi": "Ai cũng coi con số của đội thí điểm là kết luận. Con số đó có gì phải nghi ngờ đâu: bạn xếp người giỏi nhất vào và dọn sạch đường cho họ. Kết luận nằm ở chính việc dọn đường, viết ra và tính thành giá.",
+      "source": {
+        "site": "SVPG",
+        "title": "The Politics of Pilot Teams",
+        "url": "https://www.svpg.com/the-politics-of-pilot-teams/",
+        "published": "2025-07-14"
+      }
+    },
+    {
+      "title": "DENSITY",
+      "title_vi": "MẬT ĐỘ",
+      "headline": "Training everyone at once fails the way a thin network fails.",
+      "headline_vi": "Train cả công ty một lượt hỏng đúng kiểu một cái network quá loãng.",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "Three ways to grow a team: train everyone at once, which builds shared language but catches most people at the wrong moment; let people self-direct, which works only for the already motivated; or small groups, where peer accountability and real work meet. Leaders rarely have peers to learn beside.",
+        "what_vi": "Ba cách để nâng trình một đội: train cả lượt, được cái ngôn ngữ chung nhưng rơi vào lúc phần lớn người ta chưa sẵn sàng; để mỗi người tự học, chỉ ăn với ai vốn đã có động lực; hoặc học theo nhóm nhỏ, chỗ mà trách nhiệm với nhau và công việc thật gặp nhau. Còn leader thì gần như không có đồng trang lứa để học cùng."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "Cold start: a network is worth nothing until one small group is dense enough to be genuinely useful to each other. You win an atomic network first, never the whole market at once.",
+        "what_vi": "Cold start: một network chẳng đáng gì cho tới khi có một nhóm nhỏ đủ dày để thật sự có ích cho nhau. Bạn thắng một atomic network trước, không bao giờ thắng cả thị trường cùng lúc."
+      },
+      "result": "A rollout is a network launch. Spread thin across the whole org, nobody has anyone to be accountable to. The trio is the atomic network, and density is the whole trick.",
+      "result_vi": "Một đợt rollout thực chất là một lần ra mắt network. Rải mỏng ra cả công ty thì chẳng ai có ai để chịu trách nhiệm cùng. Nhóm ba người mới là atomic network, và mật độ mới là toàn bộ mẹo.",
+      "result_underline": "density is the whole trick",
+      "result_underline_vi": "mật độ mới là toàn bộ mẹo",
+      "tick": "Who are the two people I would actually finish this course with?",
+      "tick_vi": "Hai người nào mà mình thật sự sẽ học hết khoá này cùng?",
+      "tick_bold": [
+        "the two people I would actually finish this course with"
+      ],
+      "tick_bold_vi": [
+        "thật sự sẽ học hết khoá này cùng"
+      ],
+      "provocation": "Company-wide training is bought because it is legible on a slide: everyone covered, one line item. Two people who agreed to meet on Thursday will outlast it, for the same reason a dense corner of a network outlasts a broad launch.",
+      "provocation_vi": "Người ta mua khoá train cho cả công ty vì nó dễ nhìn trên slide: ai cũng được phủ, gọn một dòng ngân sách. Hai người hẹn nhau thứ Năm sẽ sống lâu hơn thế, đúng như một góc network đủ dày sống lâu hơn một đợt ra mắt rải rộng.",
+      "source": {
+        "site": "Product Talk",
+        "title": "Learning Together - All Things Product Podcast with Teresa Torres & Petra Wille",
+        "url": "https://www.producttalk.org/learning-together-all-things-product-podcast-with-teresa-torres-petra-wille/",
+        "published": "2026-06-09"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 27</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 32</div></div></div>
+<div class="meta label">Thursday, August 27, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">CERTAINTY</span><span data-l="vi">SỰ CHẮC CHẮN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">A founder refused to test her pricing on customers because she knew her industry and knew what they would say. He talked her into asking anyway. She was wrong, and wrote back that a week of quick calls taught her more about the market than the previous year had.</span><span data-l="vi">Một founder không chịu đem giá đi hỏi khách vì chị tin mình rành ngành này và biết thừa họ sẽ nói gì. Anh dụ chị cứ hỏi thử. Chị sai, rồi viết lại rằng một tuần gọi nhanh cho chị hiểu thị trường hơn cả năm trước cộng lại.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">Ideas you sit down and think up sound plausible because you built them to be plausible. The ones that hold come from a problem you were already living inside.</span><span data-l="vi">Ý tưởng bạn ngồi nghĩ ra nghe rất hợp lý, vì chính bạn dựng nó cho hợp lý. Ý tưởng trụ được đến từ vấn đề bạn vốn đã sống trong đó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Expertise does not make you wrong. It makes you skip the asking, and asking is where being wrong gets found. Certainty measures <u>how much of the answer you wrote yourself</u>.</span><span data-l="vi">Kinh nghiệm không làm bạn sai. Nó làm bạn bỏ qua việc đi hỏi, mà hỏi mới là chỗ cái sai lộ ra. Sự chắc chắn chỉ đo được <u>bạn đã tự viết bao nhiêu phần của câu trả lời</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which call did I skip this week <b>because I already knew what they would say</b>?</span><span data-l="vi">Tuần này mình bỏ qua cuộc gọi nào <b>vì đã biết thừa họ sẽ nói gì</b>?</span></p></div>
+<div class="src-link"><a href="https://longform.asmartbear.com/expert-harmful/" target="_blank" rel="noopener">A Smart Bear — When being an &quot;expert&quot; is harmful &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE PILOT</span><span data-l="vi">ĐỘI THÍ ĐIỂM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">The pilot team is the MVP of a transformation: one or two hand-picked bar-raiser teams, a quarter or two, enough for the organisation and its stakeholders to finally see what good looks like without putting the revenue at risk.</span><span data-l="vi">Đội thí điểm là MVP của cả cuộc chuyển đổi: một hai đội được chọn tay để nâng chuẩn, chạy một hai quý, đủ để cả tổ chức và các stakeholder lần đầu thấy tận mắt cái tốt nó ra sao mà không đem doanh thu ra đánh cược.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">A map, a dashboard or a demo can hide the very problem it was drawn to expose, because everyone reads the clean picture and nobody reads the mess it was drawn on top of.</span><span data-l="vi">Một cái map, một cái dashboard hay một buổi demo có thể che mất đúng cái vấn đề nó sinh ra để phơi bày, vì ai cũng đọc bức tranh sạch sẽ và không ai đọc mớ bòng bong nằm dưới.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The pilot&#x27;s real output is not the business result. It is the list of constraints you had to lift to get it, and <u>that list is the transformation</u>.</span><span data-l="vi">Sản phẩm thật của đội thí điểm không phải con số kinh doanh. Nó là danh sách những ràng buộc bạn phải gỡ đi mới có được con số đó, và <u>chính danh sách đó mới là cuộc chuyển đổi</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did we quietly remove for the pilot, and <b>could we remove it for everyone</b>?</span><span data-l="vi">Mình đã lặng lẽ gỡ bỏ thứ gì cho đội thí điểm, và <b>có gỡ được cho tất cả không</b>?</span></p></div>
+<div class="src-link"><a href="https://www.svpg.com/the-politics-of-pilot-teams/" target="_blank" rel="noopener">SVPG — The Politics of Pilot Teams &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">DENSITY</span><span data-l="vi">MẬT ĐỘ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Three ways to grow a team: train everyone at once, which builds shared language but catches most people at the wrong moment; let people self-direct, which works only for the already motivated; or small groups, where peer accountability and real work meet. Leaders rarely have peers to learn beside.</span><span data-l="vi">Ba cách để nâng trình một đội: train cả lượt, được cái ngôn ngữ chung nhưng rơi vào lúc phần lớn người ta chưa sẵn sàng; để mỗi người tự học, chỉ ăn với ai vốn đã có động lực; hoặc học theo nhóm nhỏ, chỗ mà trách nhiệm với nhau và công việc thật gặp nhau. Còn leader thì gần như không có đồng trang lứa để học cùng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">Cold start: a network is worth nothing until one small group is dense enough to be genuinely useful to each other. You win an atomic network first, never the whole market at once.</span><span data-l="vi">Cold start: một network chẳng đáng gì cho tới khi có một nhóm nhỏ đủ dày để thật sự có ích cho nhau. Bạn thắng một atomic network trước, không bao giờ thắng cả thị trường cùng lúc.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A rollout is a network launch. Spread thin across the whole org, nobody has anyone to be accountable to. The trio is the atomic network, and <u>density is the whole trick</u>.</span><span data-l="vi">Một đợt rollout thực chất là một lần ra mắt network. Rải mỏng ra cả công ty thì chẳng ai có ai để chịu trách nhiệm cùng. Nhóm ba người mới là atomic network, và <u>mật độ mới là toàn bộ mẹo</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Who are <b>the two people I would actually finish this course with</b>?</span><span data-l="vi">Hai người nào mà mình <b>thật sự sẽ học hết khoá này cùng</b>?</span></p></div>
+<div class="src-link"><a href="https://www.producttalk.org/learning-together-all-things-product-podcast-with-teresa-torres-petra-wille/" target="_blank" rel="noopener">Product Talk — Learning Together - All Things Product Podcast with Teresa Torres &amp; Petra Wille &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-26.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-26</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Jason Cohen / Paul Graham / Marty Cagan / John Cutler / Teresa Torres / Andrew Chen<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Jason Cohen / Paul Graham / Marty Cagan / John Cutler / Teresa Torres / Andrew Chen<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
