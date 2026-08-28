@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-28",
+      "edition": 33,
+      "note": "Themes: agents deleting the observable session so discovery follows the context, brand collapsing back into a person no headcount can supply, the north star metric as positioning aimed inward that has to be arguable. Sources: Stratechery, andrewchen, Brian Balfour. Pairings: Ben Thompson x Teresa Torres, Andrew Chen x Lenny Rachitsky, Brian Balfour x April Dunford. Rested Lenny's Newsletter, SVPG, Product Talk, A Smart Bear and The Beautiful Mess. For tomorrow: the recent-post well is dry, everything published across the roster in the last three weeks is already used, so reach into unused back-catalogue rather than waiting for new posts.",
+      "sparks": [
+        {
+          "pair": "Ben Thompson x Teresa Torres",
+          "headline": "The agent works off-screen. Your research was watching the screen.",
+          "source": "Stratechery — The iPhone's Last Stand",
+          "url": "https://stratechery.com/2026/the-iphones-last-stand/"
+        },
+        {
+          "pair": "Andrew Chen x Lenny Rachitsky",
+          "headline": "We are delighted to announce that nobody believes this sentence.",
+          "source": "andrewchen — Corpospeak: Why you still sound like a faceless corporate entity",
+          "url": "https://andrewchen.substack.com/p/corpospeak-why-you-still-sound-like"
+        },
+        {
+          "pair": "Brian Balfour x April Dunford",
+          "headline": "One metric that matters, and nobody can argue with it.",
+          "source": "Brian Balfour — Don't Let Your North Star Metric Deceive You",
+          "url": "https://brianbalfour.com/essays/north-star-metric-growth"
+        }
+      ]
+    },
+    {
       "date": "2026-08-27",
       "edition": 32,
       "note": "Themes: certainty as a measure of how much of the answer you authored, the pilot team's honest output being the list of constraints lifted, a training rollout failing the way a thin network fails. Sources: A Smart Bear, SVPG, Product Talk. Pairings: Jason Cohen x Paul Graham, Marty Cagan x John Cutler, Teresa Torres x Andrew Chen. Rested Lenny's Newsletter and Stratechery today; note that Product Talk and SVPG are getting heavy use, rest both tomorrow.",

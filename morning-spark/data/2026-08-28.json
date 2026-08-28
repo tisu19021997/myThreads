@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-28",
+  "edition": 33,
+  "framing": "Three things nobody can delegate: context, voice, and the argument.",
+  "framing_vi": "Ba thứ không ủy quyền được: context, giọng văn, và chỗ để cãi.",
+  "note": "Themes: agents deleting the observable session so discovery follows the context, brand collapsing back into a person no headcount can supply, the north star metric as positioning aimed inward that has to be arguable. Sources: Stratechery, andrewchen, Brian Balfour. Pairings: Ben Thompson x Teresa Torres, Andrew Chen x Lenny Rachitsky, Brian Balfour x April Dunford. Rested Lenny's Newsletter, SVPG, Product Talk, A Smart Bear and The Beautiful Mess. For tomorrow: the recent-post well is dry, everything published across the roster in the last three weeks is already used, so reach into unused back-catalogue rather than waiting for new posts.",
+  "sparks": [
+    {
+      "title": "NOTHING TO WATCH",
+      "title_vi": "KHÔNG CÒN GÌ ĐỂ XEM",
+      "headline": "The agent works off-screen. Your research was watching the screen.",
+      "headline_vi": "Agent làm việc ngoài màn hình. Còn research của bạn thì đang nhìn màn hình.",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "For most of computing history, computing was indistinguishable from interacting, which is why every new input method reset the industry. Agents break that: they compute on your behalf with no interaction at all. He argues this is why agents are an enterprise story first, because the enterprise is the one that holds enough context about the work to make a long-running agent viable.",
+        "what_vi": "Gần như suốt lịch sử máy tính, dùng máy tính đồng nghĩa với tương tác, nên mỗi kiểu nhập liệu mới lại lật cả ngành. Agent phá vỡ điều đó: nó tính toán thay bạn, không cần tương tác gì. Ông cho rằng vì vậy agent là câu chuyện của doanh nghiệp trước, vì chỉ doanh nghiệp mới giữ đủ context về công việc để một agent chạy dài hạn."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery is built on observation: the evidence comes from what people actually do, week after week, not from what they tell you in a survey.",
+        "what_vi": "Continuous discovery dựa trên quan sát: evidence đến từ việc người ta thật sự làm gì, tuần này qua tuần khác, chứ không từ những gì họ khai trong survey."
+      },
+      "result": "Discovery has always watched the session: the clicks, the hesitation, the workaround. Agents delete the session. What is left to observe is the request and whether the result was kept, and only whoever holds the context can see either. The research moves to wherever the context lives.",
+      "result_vi": "Discovery xưa nay vẫn nhìn vào phiên làm việc: cú click, chỗ chần chừ, cái mẹo lách. Agent xóa luôn phiên đó. Còn lại để quan sát chỉ là lời yêu cầu và chuyện kết quả có được giữ lại hay không, mà chỉ ai nắm context mới thấy được cả hai. Research dời về đúng chỗ context đang nằm.",
+      "result_underline": "The research moves to wherever the context lives.",
+      "result_underline_vi": "Research dời về đúng chỗ context đang nằm.",
+      "tick": "If users stopped touching my interface tomorrow, what evidence would I still have?",
+      "tick_vi": "Nếu ngày mai user không chạm vào giao diện của mình nữa, mình còn evidence gì?",
+      "tick_bold": [
+        "what evidence would I still have"
+      ],
+      "tick_bold_vi": [
+        "mình còn evidence gì"
+      ],
+      "provocation": "Every discovery habit you have assumes a human stays in the loop long enough to be watched. Agents remove the loop, not the user. Decide now what your product records when nobody is looking at it.",
+      "provocation_vi": "Mọi thói quen discovery của bạn đều giả định có một con người ở trong vòng lặp đủ lâu để quan sát. Agent bỏ cái vòng lặp đó, chứ không bỏ user. Quyết bây giờ đi: sản phẩm của bạn ghi lại gì khi không ai nhìn nó.",
+      "source": {
+        "site": "Stratechery",
+        "title": "The iPhone's Last Stand",
+        "url": "https://stratechery.com/2026/the-iphones-last-stand/",
+        "published": "2026-06-09"
+      }
+    },
+    {
+      "title": "CORPOSPEAK",
+      "title_vi": "GIỌNG CÔNG TY",
+      "headline": "We are delighted to announce that nobody believes this sentence.",
+      "headline_vi": "Chúng tôi hân hạnh thông báo rằng không ai tin câu này.",
+      "a": {
+        "who": "Andrew Chen",
+        "what": "Corpospeak survives because a hundred years of mass channels built an ecosystem of marketers, gatekeepers and approvals around the voice. Now the channels have fractured into millions of microniches and the gatekeepers are in decline, so the voice of the builder beats the voice of the marketer. He points at the cruel part: the more people involved, the worse the writing gets.",
+        "what_vi": "Giọng công ty sống dai vì cả trăm năm kênh đại chúng đã dựng quanh cái giọng đó một hệ sinh thái marketer, người gác cổng và quy trình duyệt. Giờ kênh vỡ ra thành hàng triệu ngách nhỏ, người gác cổng thì đi xuống, nên giọng của người làm ra sản phẩm thắng giọng của marketer. Chỗ phũ nhất ông chỉ ra: càng nhiều người tham gia, chữ càng dở."
+      },
+      "b": {
+        "who": "Lenny Rachitsky",
+        "what": "His whole publication runs on the opposite unit: not a best practice, but a named person telling you exactly what they did and what it cost them. That is the reason the advice travels.",
+        "what_vi": "Cả tờ newsletter của anh chạy trên một đơn vị ngược lại: không phải best practice, mà một người có tên kể đúng những gì họ đã làm và cái giá phải trả. Chính vì vậy lời khuyên mới lan đi được."
+      },
+      "result": "When the channel fractures, the brand collapses back into a person, and a person is the one asset a company cannot staff. That is why more marketing headcount makes the copy worse, not better. Voice is not a role you fill, it is a person you stop editing.",
+      "result_vi": "Khi kênh vỡ ra, brand co lại thành một con người, mà con người là thứ duy nhất công ty không thể tuyển thêm để có. Vì vậy thêm headcount marketing thì chữ dở đi chứ không hay lên. Giọng không phải một vị trí để tuyển, nó là một người mà bạn thôi đừng sửa nữa.",
+      "result_underline": "it is a person you stop editing",
+      "result_underline_vi": "nó là một người mà bạn thôi đừng sửa nữa",
+      "tick": "Which sentence on my landing page would I be embarrassed to say to a friend?",
+      "tick_vi": "Câu nào trên landing page của mình mà mình ngại nói ra với bạn bè?",
+      "tick_bold": [
+        "would I be embarrassed to say to a friend"
+      ],
+      "tick_bold_vi": [
+        "mà mình ngại nói ra với bạn bè"
+      ],
+      "provocation": "Read your last product announcement out loud. If you would not say it in a bar, it was written for the approval chain, not the reader. Cut the approval chain before you hire another writer.",
+      "provocation_vi": "Đọc to cái thông báo sản phẩm gần nhất của bạn. Nếu ngồi quán bạn không nói vậy, thì nó được viết cho chuỗi duyệt chứ không cho người đọc. Bỏ chuỗi duyệt trước, rồi hẵng tuyển thêm người viết.",
+      "source": {
+        "site": "andrewchen",
+        "title": "Corpospeak: Why you still sound like a faceless corporate entity",
+        "url": "https://andrewchen.substack.com/p/corpospeak-why-you-still-sound-like",
+        "published": "2025-06-30"
+      }
+    },
+    {
+      "title": "THE INTERNAL TAGLINE",
+      "title_vi": "TAGLINE ĐỐI NỘI",
+      "headline": "One metric that matters, and nobody can argue with it.",
+      "headline_vi": "Một chỉ số duy nhất, và không ai cãi được nó.",
+      "a": {
+        "who": "Brian Balfour",
+        "what": "The one metric that matters is a fatal oversimplification. Good north stars are output metrics, which makes them lagging scoreboards: too broad to act on, and slow enough to hide a problem until the damage is done. The work happens on the input metrics you can actually move.",
+        "what_vi": "Cái kiểu một chỉ số duy nhất là một sự đơn giản hóa chết người. North star tốt là output metric, tức là bảng điểm chạy sau: quá rộng để hành động, và chậm đủ để giấu một vấn đề cho tới lúc hỏng thật. Việc thật nằm ở input metric mà bạn thực sự đẩy được."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is the context you choose so your strengths become obvious. Leave the frame of reference unstated and somebody else picks it for you.",
+        "what_vi": "Positioning là cái context bạn chọn để điểm mạnh của mình trở nên hiển nhiên. Không chọn khung quy chiếu thì người khác chọn giùm bạn."
+      },
+      "result": "A north star is positioning aimed at your own team: it declares which customer and which value count. Which is exactly why the safe ones are the dangerous ones. A metric nobody can argue with has not framed anything.",
+      "result_vi": "North star chính là positioning chĩa vào chính team mình: nó tuyên bố khách nào và giá trị nào được tính. Nên mấy chỉ số an toàn mới là chỉ số nguy hiểm. Một con số không ai cãi được thì chưa dựng được cái khung nào cả.",
+      "result_underline": "A metric nobody can argue with has not framed anything.",
+      "result_underline_vi": "Một con số không ai cãi được thì chưa dựng được cái khung nào cả.",
+      "tick": "Who on my team would lose an argument if we took our north star literally?",
+      "tick_vi": "Nếu team lấy north star của mình theo đúng nghĩa đen, ai sẽ là người thua cuộc tranh luận?",
+      "tick_bold": [
+        "if we took our north star literally"
+      ],
+      "tick_bold_vi": [
+        "lấy north star của mình theo đúng nghĩa đen"
+      ],
+      "provocation": "Pick the metric that makes part of your roadmap obviously wrong. If every project still qualifies, you have written a slogan and called it focus.",
+      "provocation_vi": "Chọn con số làm cho vài thứ trong roadmap sai rõ ràng. Nếu dự án nào cũng vẫn hợp lệ, bạn viết ra một khẩu hiệu rồi gọi nó là tập trung.",
+      "source": {
+        "site": "Brian Balfour",
+        "title": "Don't Let Your North Star Metric Deceive You",
+        "url": "https://brianbalfour.com/essays/north-star-metric-growth",
+        "published": "2018-01-11"
+      }
+    }
+  ]
+}

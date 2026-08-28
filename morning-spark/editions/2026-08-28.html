@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 28</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 33</div></div></div>
+<div class="meta label">Friday, August 28, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">NOTHING TO WATCH</span><span data-l="vi">KHÔNG CÒN GÌ ĐỂ XEM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">For most of computing history, computing was indistinguishable from interacting, which is why every new input method reset the industry. Agents break that: they compute on your behalf with no interaction at all. He argues this is why agents are an enterprise story first, because the enterprise is the one that holds enough context about the work to make a long-running agent viable.</span><span data-l="vi">Gần như suốt lịch sử máy tính, dùng máy tính đồng nghĩa với tương tác, nên mỗi kiểu nhập liệu mới lại lật cả ngành. Agent phá vỡ điều đó: nó tính toán thay bạn, không cần tương tác gì. Ông cho rằng vì vậy agent là câu chuyện của doanh nghiệp trước, vì chỉ doanh nghiệp mới giữ đủ context về công việc để một agent chạy dài hạn.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery is built on observation: the evidence comes from what people actually do, week after week, not from what they tell you in a survey.</span><span data-l="vi">Continuous discovery dựa trên quan sát: evidence đến từ việc người ta thật sự làm gì, tuần này qua tuần khác, chứ không từ những gì họ khai trong survey.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Discovery has always watched the session: the clicks, the hesitation, the workaround. Agents delete the session. What is left to observe is the request and whether the result was kept, and only whoever holds the context can see either. <u>The research moves to wherever the context lives.</u></span><span data-l="vi">Discovery xưa nay vẫn nhìn vào phiên làm việc: cú click, chỗ chần chừ, cái mẹo lách. Agent xóa luôn phiên đó. Còn lại để quan sát chỉ là lời yêu cầu và chuyện kết quả có được giữ lại hay không, mà chỉ ai nắm context mới thấy được cả hai. <u>Research dời về đúng chỗ context đang nằm.</u></span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If users stopped touching my interface tomorrow, <b>what evidence would I still have</b>?</span><span data-l="vi">Nếu ngày mai user không chạm vào giao diện của mình nữa, <b>mình còn evidence gì</b>?</span></p></div>
+<div class="src-link"><a href="https://stratechery.com/2026/the-iphones-last-stand/" target="_blank" rel="noopener">Stratechery — The iPhone&#x27;s Last Stand &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">CORPOSPEAK</span><span data-l="vi">GIỌNG CÔNG TY</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">Corpospeak survives because a hundred years of mass channels built an ecosystem of marketers, gatekeepers and approvals around the voice. Now the channels have fractured into millions of microniches and the gatekeepers are in decline, so the voice of the builder beats the voice of the marketer. He points at the cruel part: the more people involved, the worse the writing gets.</span><span data-l="vi">Giọng công ty sống dai vì cả trăm năm kênh đại chúng đã dựng quanh cái giọng đó một hệ sinh thái marketer, người gác cổng và quy trình duyệt. Giờ kênh vỡ ra thành hàng triệu ngách nhỏ, người gác cổng thì đi xuống, nên giọng của người làm ra sản phẩm thắng giọng của marketer. Chỗ phũ nhất ông chỉ ra: càng nhiều người tham gia, chữ càng dở.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Lenny Rachitsky</div><div class="what"><span data-l="en">His whole publication runs on the opposite unit: not a best practice, but a named person telling you exactly what they did and what it cost them. That is the reason the advice travels.</span><span data-l="vi">Cả tờ newsletter của anh chạy trên một đơn vị ngược lại: không phải best practice, mà một người có tên kể đúng những gì họ đã làm và cái giá phải trả. Chính vì vậy lời khuyên mới lan đi được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">When the channel fractures, the brand collapses back into a person, and a person is the one asset a company cannot staff. That is why more marketing headcount makes the copy worse, not better. Voice is not a role you fill, <u>it is a person you stop editing</u>.</span><span data-l="vi">Khi kênh vỡ ra, brand co lại thành một con người, mà con người là thứ duy nhất công ty không thể tuyển thêm để có. Vì vậy thêm headcount marketing thì chữ dở đi chứ không hay lên. Giọng không phải một vị trí để tuyển, <u>nó là một người mà bạn thôi đừng sửa nữa</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which sentence on my landing page <b>would I be embarrassed to say to a friend</b>?</span><span data-l="vi">Câu nào trên landing page của mình <b>mà mình ngại nói ra với bạn bè</b>?</span></p></div>
+<div class="src-link"><a href="https://andrewchen.substack.com/p/corpospeak-why-you-still-sound-like" target="_blank" rel="noopener">andrewchen — Corpospeak: Why you still sound like a faceless corporate entity &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE INTERNAL TAGLINE</span><span data-l="vi">TAGLINE ĐỐI NỘI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">The one metric that matters is a fatal oversimplification. Good north stars are output metrics, which makes them lagging scoreboards: too broad to act on, and slow enough to hide a problem until the damage is done. The work happens on the input metrics you can actually move.</span><span data-l="vi">Cái kiểu một chỉ số duy nhất là một sự đơn giản hóa chết người. North star tốt là output metric, tức là bảng điểm chạy sau: quá rộng để hành động, và chậm đủ để giấu một vấn đề cho tới lúc hỏng thật. Việc thật nằm ở input metric mà bạn thực sự đẩy được.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is the context you choose so your strengths become obvious. Leave the frame of reference unstated and somebody else picks it for you.</span><span data-l="vi">Positioning là cái context bạn chọn để điểm mạnh của mình trở nên hiển nhiên. Không chọn khung quy chiếu thì người khác chọn giùm bạn.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A north star is positioning aimed at your own team: it declares which customer and which value count. Which is exactly why the safe ones are the dangerous ones. <u>A metric nobody can argue with has not framed anything.</u></span><span data-l="vi">North star chính là positioning chĩa vào chính team mình: nó tuyên bố khách nào và giá trị nào được tính. Nên mấy chỉ số an toàn mới là chỉ số nguy hiểm. <u>Một con số không ai cãi được thì chưa dựng được cái khung nào cả.</u></span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Who on my team would lose an argument <b>if we took our north star literally</b>?</span><span data-l="vi">Nếu team <b>lấy north star của mình theo đúng nghĩa đen</b>, ai sẽ là người thua cuộc tranh luận?</span></p></div>
+<div class="src-link"><a href="https://brianbalfour.com/essays/north-star-metric-growth" target="_blank" rel="noopener">Brian Balfour — Don&#x27;t Let Your North Star Metric Deceive You &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-27.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-27</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ben Thompson / Teresa Torres / Andrew Chen / Lenny Rachitsky / Brian Balfour / April Dunford<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ben Thompson / Teresa Torres / Andrew Chen / Lenny Rachitsky / Brian Balfour / April Dunford<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

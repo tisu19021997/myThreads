@@ -1,0 +1,22 @@
+Morning Spark · Friday, August 28 · Ed. 33
+Three things nobody can delegate: context, voice, and the argument.
+
+─────────────────
+01 · The agent works off-screen. Your research was watching the screen.
+Ben Thompson × Teresa Torres
+Every discovery habit you have assumes a human stays in the loop long enough to be watched. Agents remove the loop, not the user. Decide now what your product records when nobody is looking at it.
+→ https://stratechery.com/2026/the-iphones-last-stand/
+
+─────────────────
+02 · We are delighted to announce that nobody believes this sentence.
+Andrew Chen × Lenny Rachitsky
+Read your last product announcement out loud. If you would not say it in a bar, it was written for the approval chain, not the reader. Cut the approval chain before you hire another writer.
+→ https://andrewchen.substack.com/p/corpospeak-why-you-still-sound-like
+
+─────────────────
+03 · One metric that matters, and nobody can argue with it.
+Brian Balfour × April Dunford
+Pick the metric that makes part of your roadmap obviously wrong. If every project still qualifies, you have written a slogan and called it focus.
+→ https://brianbalfour.com/essays/north-star-metric-growth
+
+Full styled card → open the session.
