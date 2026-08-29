@@ -1,0 +1,22 @@
+Morning Spark · Saturday, August 29 · Ed. 34
+The demo, the map, the category. Each one leaves something out.
+
+─────────────────
+01 · Everyone can show it now. Almost nobody can run it.
+Marty Cagan × Paul Graham
+Show the prototype, then say out loud what it does not do yet: the data, the permissions, the failure states. The people who trust you next quarter are the ones who heard that sentence this quarter.
+→ https://www.svpg.com/prototypes-vs-products/
+
+─────────────────
+02 · A route to the customer, drawn over a company that cannot agree who the customer is.
+Andrew Chen × John Cutler
+Before you go hunting for a channel, check that the audience on your map is one audience. A route drawn across incoherent ground is not a strategy, it is a guess with a diagram attached.
+→ https://andrewchen.substack.com/p/the-growth-maze-vs-the-idea-maze
+
+─────────────────
+03 · Same batter. Different aisle. Different company.
+April Dunford × Teresa Torres
+Write the frame you have assumed in one sentence, then write two rival frames for the exact same product. If the second and third feel absurd, you did not choose your market, you inherited it.
+→ https://www.aprildunford.com/post/product-framing-can-help-grow-your-startup-or-kill-it
+
+Full styled card → open the session.

@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-29",
+      "edition": 34,
+      "note": "Themes: the prototype as the cheap ninety-five-percent-shorter version of the work AI did not touch, distribution as a coherence problem before it is a channel problem, the frame deciding which customers discovery ever reaches. Sources: SVPG, andrewchen, April Dunford. Pairings: Marty Cagan x Paul Graham, Andrew Chen x John Cutler, April Dunford x Teresa Torres. Rested Stratechery, Lenny's Newsletter, A Smart Bear, Brian Balfour, The Beautiful Mess and Product Talk as sources. Warning for tomorrow: the ledger's default window hides older collisions, so read the full URL list before curating -- three candidates today were already used in late July. Genuinely unused wells left: Gibson Biddle (askgib.substack.com, never used as a source), Melissa Perri back-catalogue, cutlefish TBM 423/424/428, andrewchen's every-marketing-channel-sucks and doordash-v1 posts, April Dunford's storytelling-vs-positioning and market-segmentation.",
+      "sparks": [
+        {
+          "pair": "Marty Cagan x Paul Graham",
+          "headline": "Everyone can show it now. Almost nobody can run it.",
+          "source": "SVPG — Prototypes vs Products",
+          "url": "https://www.svpg.com/prototypes-vs-products/"
+        },
+        {
+          "pair": "Andrew Chen x John Cutler",
+          "headline": "A route to the customer, drawn over a company that cannot agree who the customer is.",
+          "source": "andrewchen — The Growth Maze vs The Idea Maze",
+          "url": "https://andrewchen.substack.com/p/the-growth-maze-vs-the-idea-maze"
+        },
+        {
+          "pair": "April Dunford x Teresa Torres",
+          "headline": "Same batter. Different aisle. Different company.",
+          "source": "April Dunford — Product Framing Can Help Grow Your Startup",
+          "url": "https://www.aprildunford.com/post/product-framing-can-help-grow-your-startup-or-kill-it"
+        }
+      ]
+    },
+    {
       "date": "2026-08-28",
       "edition": 33,
       "note": "Themes: agents deleting the observable session so discovery follows the context, brand collapsing back into a person no headcount can supply, the north star metric as positioning aimed inward that has to be arguable. Sources: Stratechery, andrewchen, Brian Balfour. Pairings: Ben Thompson x Teresa Torres, Andrew Chen x Lenny Rachitsky, Brian Balfour x April Dunford. Rested Lenny's Newsletter, SVPG, Product Talk, A Smart Bear and The Beautiful Mess. For tomorrow: the recent-post well is dry, everything published across the roster in the last three weeks is already used, so reach into unused back-catalogue rather than waiting for new posts.",

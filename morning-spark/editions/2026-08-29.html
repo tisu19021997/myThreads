@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 29</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 34</div></div></div>
+<div class="meta label">Saturday, August 29, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE OTHER NINETY-FIVE</span><span data-l="vi">CHÍN MƯƠI LĂM PHẦN CÒN LẠI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">Gen AI prototyping tools pulled product people into actually shaping the product, and he thinks that is good. The surprise was who ended up confused. Not customers, who have always mistaken prototypes for products, but product managers, who look at a high-fidelity live-data prototype and assume the leap to something sellable is short. Real products carry dozens or hundreds of use cases, the valuable ones carry thousands, plus every business rule and policy the prototype never had to meet.</span><span data-l="vi">Đám tool prototype chạy bằng gen AI kéo dân product vào việc thật sự nặn ra sản phẩm, và ông thấy vậy là tốt. Bất ngờ nằm ở chỗ ai mới là người bị lú. Không phải khách hàng, vốn xưa nay vẫn hay nhầm prototype với sản phẩm, mà chính mấy product manager: nhìn một cái prototype đẹp long lanh chạy dữ liệu thật rồi đinh ninh là từ đó tới chỗ bán được chỉ còn một bước ngắn. Sản phẩm thật gánh vài chục tới vài trăm use case, cái nào ra tiền thì gánh hàng ngàn, cộng thêm đủ thứ business rule và chính sách mà prototype chưa bao giờ phải đụng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">Do things that do not scale. The early work that decides everything is the manual, unglamorous part nobody can automate away: recruiting users by hand, carrying the load yourself, doing the delivery that no system does for you yet.</span><span data-l="vi">Làm những việc không scale được. Phần việc đầu tiên quyết định tất cả lại là phần thủ công, không hào nhoáng, không ai tự động hóa hộ được: đi kiếm từng user một, tự mình gánh việc, tự làm cái phần mà chưa hệ thống nào làm thay.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The prototype was always the cheap part of the job. AI just made it free. What it did not touch is the ninety-five percent that has to hold under real data, real policies and somebody&#x27;s real Tuesday. A demo is no longer evidence of anything <u>except that you can operate a tool</u>.</span><span data-l="vi">Prototype xưa nay vẫn là phần rẻ nhất của công việc. AI chỉ làm cho nó thành miễn phí. Thứ nó không đụng tới là chín mươi lăm phần trăm còn lại, phần phải trụ được với dữ liệu thật, chính sách thật, và một ngày thứ Ba thật của ai đó. Một bản demo giờ không còn chứng minh được gì <u>ngoài việc bạn biết xài tool</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of my working demos ever <b>survived a real customer&#x27;s edge case</b>?</span><span data-l="vi">Trong đám demo chạy được của mình, cái nào đã <b>sống sót qua một tình huống lạ của khách thật</b>?</span></p></div>
+<div class="src-link"><a href="https://www.svpg.com/prototypes-vs-products/" target="_blank" rel="noopener">SVPG — Prototypes vs Products &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">TWO MAZES</span><span data-l="vi">HAI MÊ CUNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">As AI makes building cheap and fast-following normal, the scarce skill moves from the Idea Maze, knowing which turn to take, to the Growth Maze: the first audience, the launch, then the long sequence of channel bets that eventually reach the mainstream. Late in an S-curve, good enough product with great distribution beats great product with none. What makes any maze solvable at all is a bird&#x27;s eye view of it.</span><span data-l="vi">Khi AI làm việc build rẻ đi và chuyện copy theo thành bình thường, kỹ năng khan hiếm dời từ Idea Maze, tức biết rẽ hướng nào, sang Growth Maze: tệp khách đầu tiên, cách ra mắt, rồi cả chuỗi cược kênh dài để tới được số đông. Về cuối đường cong S, sản phẩm tạm ổn mà phân phối giỏi sẽ thắng sản phẩm giỏi mà không có phân phối. Thứ làm cho một mê cung giải được là góc nhìn từ trên cao.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">When strategy, structure, technology and incentives are coherent, one map tells you about all the others: teams, goals, ownership and funding stack up like the layers of a city map. When they are not, what you learn from one map stops being true the moment you switch. And the usual remedies, translators and forums and fixers and tooling, lower the pain just enough that the incoherence never gets addressed.</span><span data-l="vi">Khi chiến lược, cấu trúc, công nghệ và incentive khớp nhau, nhìn một tấm bản đồ là đoán được mấy tấm còn lại: team, mục tiêu, quyền sở hữu, ngân sách chồng lên nhau như các lớp bản đồ của một thành phố. Khi không khớp, thứ bạn học từ bản đồ này hết đúng ngay lúc đổi sang bản đồ kia. Còn mấy cách chữa quen thuộc, người phiên dịch, forum liên phòng ban, mấy anh chuyên đi gỡ, thêm tool, chỉ làm dịu cơn đau vừa đủ để không ai đụng tới cái gốc.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Chen&#x27;s maze needs the bird&#x27;s eye view, and Cutler&#x27;s warning is that the view is only true if the ground agrees with it. Eight teams holding eight definitions of the customer do not have one growth maze, they have eight, and every channel bet gets scored on a different map. <u>Distribution is a coherence problem before it is a channel problem.</u></span><span data-l="vi">Mê cung của Chen cần góc nhìn từ trên cao, còn Cutler thì cảnh báo rằng góc nhìn đó chỉ đúng khi mặt đất chịu khớp với nó. Tám team giữ tám định nghĩa khách hàng thì không có một growth maze, mà có tám, và mỗi cược kênh lại được chấm trên một bản đồ khác nhau. <u>Phân phối là bài toán mạch lạc trước khi là bài toán kênh.</u></span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Ask three teammates who our next user is. <b>How many answers do I get back</b>?</span><span data-l="vi">Hỏi ba người trong team xem user tiếp theo của mình là ai. <b>Mình nhận về mấy câu trả lời</b>?</span></p></div>
+<div class="src-link"><a href="https://andrewchen.substack.com/p/the-growth-maze-vs-the-idea-maze" target="_blank" rel="noopener">andrewchen — The Growth Maze vs The Idea Maze &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">CAKE OR MUFFIN</span><span data-l="vi">BÁNH KEM HAY BÁNH MUFFIN</span></span></div>
+<div class="eq"><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Framing is the context you give people so they know what they are looking at. Bake the same chocolate caramel batter and call it a cake, and you have chosen your buyers, your channel, your competitors, your price and your roadmap. Call it a muffin and every one of those changes, without the recipe changing at all. Most startups never notice the choice was theirs to make, and inherit a frame that hides their strengths.</span><span data-l="vi">Framing là cái context bạn đưa ra để người ta biết mình đang nhìn cái gì. Cùng một mẻ bột chocolate caramel, gọi nó là bánh kem thì bạn đã chọn luôn khách, kênh bán, đối thủ, giá và cả roadmap. Gọi nó là muffin thì mọi thứ đó đổi hết, trong khi công thức không đổi một chữ. Phần lớn startup không hề nhận ra lựa chọn đó là của mình, nên đi thừa hưởng một cái khung che mất điểm mạnh của họ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery: interview customers every week, collect stories about what actually happened rather than opinions, and let that evidence shape the opportunity space.</span><span data-l="vi">Continuous discovery: tuần nào cũng phỏng vấn khách, gom chuyện thật đã xảy ra chứ không gom ý kiến, rồi để evidence đó định hình không gian cơ hội.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Discovery is rigorous inside the frame and completely silent about it. The frame picks who is even in your interview list, so a perfect weekly habit can run for a year on cake buyers and <u>never once tell you that you were a muffin</u>.</span><span data-l="vi">Discovery rất chặt chẽ ở bên trong cái khung, và im lặng tuyệt đối về chính cái khung. Khung quyết định ai lọt vào danh sách phỏng vấn, nên một thói quen hằng tuần hoàn hảo có thể chạy cả năm với dân mua bánh kem mà <u>không một lần cho bạn biết bạn vốn là cái muffin</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Who am I not interviewing <b>because of the category I assumed</b>?</span><span data-l="vi">Mình đang không phỏng vấn ai, chỉ <b>vì cái category mình mặc định</b>?</span></p></div>
+<div class="src-link"><a href="https://www.aprildunford.com/post/product-framing-can-help-grow-your-startup-or-kill-it" target="_blank" rel="noopener">April Dunford — Product Framing Can Help Grow Your Startup &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-28.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-28</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Marty Cagan / Paul Graham / Andrew Chen / John Cutler / April Dunford / Teresa Torres<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Marty Cagan / Paul Graham / Andrew Chen / John Cutler / April Dunford / Teresa Torres<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

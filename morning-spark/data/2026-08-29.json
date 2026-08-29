@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-29",
+  "edition": 34,
+  "framing": "The demo, the map, the category. Each one leaves something out.",
+  "framing_vi": "Bản demo, tấm bản đồ, cái category. Cái nào cũng bỏ sót gì đó.",
+  "note": "Themes: the prototype as the cheap ninety-five-percent-shorter version of the work AI did not touch, distribution as a coherence problem before it is a channel problem, the frame deciding which customers discovery ever reaches. Sources: SVPG, andrewchen, April Dunford. Pairings: Marty Cagan x Paul Graham, Andrew Chen x John Cutler, April Dunford x Teresa Torres. Rested Stratechery, Lenny's Newsletter, A Smart Bear, Brian Balfour, The Beautiful Mess and Product Talk as sources. Warning for tomorrow: the ledger's default window hides older collisions, so read the full URL list before curating -- three candidates today were already used in late July. Genuinely unused wells left: Gibson Biddle (askgib.substack.com, never used as a source), Melissa Perri back-catalogue, cutlefish TBM 423/424/428, andrewchen's every-marketing-channel-sucks and doordash-v1 posts, April Dunford's storytelling-vs-positioning and market-segmentation.",
+  "sparks": [
+    {
+      "title": "THE OTHER NINETY-FIVE",
+      "title_vi": "CHÍN MƯƠI LĂM PHẦN CÒN LẠI",
+      "headline": "Everyone can show it now. Almost nobody can run it.",
+      "headline_vi": "Giờ ai cũng demo được. Nhưng gần như không ai vận hành nổi.",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "Gen AI prototyping tools pulled product people into actually shaping the product, and he thinks that is good. The surprise was who ended up confused. Not customers, who have always mistaken prototypes for products, but product managers, who look at a high-fidelity live-data prototype and assume the leap to something sellable is short. Real products carry dozens or hundreds of use cases, the valuable ones carry thousands, plus every business rule and policy the prototype never had to meet.",
+        "what_vi": "Đám tool prototype chạy bằng gen AI kéo dân product vào việc thật sự nặn ra sản phẩm, và ông thấy vậy là tốt. Bất ngờ nằm ở chỗ ai mới là người bị lú. Không phải khách hàng, vốn xưa nay vẫn hay nhầm prototype với sản phẩm, mà chính mấy product manager: nhìn một cái prototype đẹp long lanh chạy dữ liệu thật rồi đinh ninh là từ đó tới chỗ bán được chỉ còn một bước ngắn. Sản phẩm thật gánh vài chục tới vài trăm use case, cái nào ra tiền thì gánh hàng ngàn, cộng thêm đủ thứ business rule và chính sách mà prototype chưa bao giờ phải đụng."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Do things that do not scale. The early work that decides everything is the manual, unglamorous part nobody can automate away: recruiting users by hand, carrying the load yourself, doing the delivery that no system does for you yet.",
+        "what_vi": "Làm những việc không scale được. Phần việc đầu tiên quyết định tất cả lại là phần thủ công, không hào nhoáng, không ai tự động hóa hộ được: đi kiếm từng user một, tự mình gánh việc, tự làm cái phần mà chưa hệ thống nào làm thay."
+      },
+      "result": "The prototype was always the cheap part of the job. AI just made it free. What it did not touch is the ninety-five percent that has to hold under real data, real policies and somebody's real Tuesday. A demo is no longer evidence of anything except that you can operate a tool.",
+      "result_vi": "Prototype xưa nay vẫn là phần rẻ nhất của công việc. AI chỉ làm cho nó thành miễn phí. Thứ nó không đụng tới là chín mươi lăm phần trăm còn lại, phần phải trụ được với dữ liệu thật, chính sách thật, và một ngày thứ Ba thật của ai đó. Một bản demo giờ không còn chứng minh được gì ngoài việc bạn biết xài tool.",
+      "result_underline": "except that you can operate a tool",
+      "result_underline_vi": "ngoài việc bạn biết xài tool",
+      "tick": "Which of my working demos ever survived a real customer's edge case?",
+      "tick_vi": "Trong đám demo chạy được của mình, cái nào đã sống sót qua một tình huống lạ của khách thật?",
+      "tick_bold": [
+        "survived a real customer's edge case"
+      ],
+      "tick_bold_vi": [
+        "sống sót qua một tình huống lạ của khách thật"
+      ],
+      "provocation": "Show the prototype, then say out loud what it does not do yet: the data, the permissions, the failure states. The people who trust you next quarter are the ones who heard that sentence this quarter.",
+      "provocation_vi": "Cứ demo đi, rồi nói thẳng ra nó chưa làm được gì: dữ liệu, phân quyền, mấy trạng thái lỗi. Quý sau ai còn tin bạn thì đó chính là những người quý này đã nghe câu đó.",
+      "source": {
+        "site": "SVPG",
+        "title": "Prototypes vs Products",
+        "url": "https://www.svpg.com/prototypes-vs-products/",
+        "published": "2025-11-07"
+      }
+    },
+    {
+      "title": "TWO MAZES",
+      "title_vi": "HAI MÊ CUNG",
+      "headline": "A route to the customer, drawn over a company that cannot agree who the customer is.",
+      "headline_vi": "Vẽ đường tới khách hàng, trên một công ty còn chưa thống nhất khách hàng là ai.",
+      "a": {
+        "who": "Andrew Chen",
+        "what": "As AI makes building cheap and fast-following normal, the scarce skill moves from the Idea Maze, knowing which turn to take, to the Growth Maze: the first audience, the launch, then the long sequence of channel bets that eventually reach the mainstream. Late in an S-curve, good enough product with great distribution beats great product with none. What makes any maze solvable at all is a bird's eye view of it.",
+        "what_vi": "Khi AI làm việc build rẻ đi và chuyện copy theo thành bình thường, kỹ năng khan hiếm dời từ Idea Maze, tức biết rẽ hướng nào, sang Growth Maze: tệp khách đầu tiên, cách ra mắt, rồi cả chuỗi cược kênh dài để tới được số đông. Về cuối đường cong S, sản phẩm tạm ổn mà phân phối giỏi sẽ thắng sản phẩm giỏi mà không có phân phối. Thứ làm cho một mê cung giải được là góc nhìn từ trên cao."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "When strategy, structure, technology and incentives are coherent, one map tells you about all the others: teams, goals, ownership and funding stack up like the layers of a city map. When they are not, what you learn from one map stops being true the moment you switch. And the usual remedies, translators and forums and fixers and tooling, lower the pain just enough that the incoherence never gets addressed.",
+        "what_vi": "Khi chiến lược, cấu trúc, công nghệ và incentive khớp nhau, nhìn một tấm bản đồ là đoán được mấy tấm còn lại: team, mục tiêu, quyền sở hữu, ngân sách chồng lên nhau như các lớp bản đồ của một thành phố. Khi không khớp, thứ bạn học từ bản đồ này hết đúng ngay lúc đổi sang bản đồ kia. Còn mấy cách chữa quen thuộc, người phiên dịch, forum liên phòng ban, mấy anh chuyên đi gỡ, thêm tool, chỉ làm dịu cơn đau vừa đủ để không ai đụng tới cái gốc."
+      },
+      "result": "Chen's maze needs the bird's eye view, and Cutler's warning is that the view is only true if the ground agrees with it. Eight teams holding eight definitions of the customer do not have one growth maze, they have eight, and every channel bet gets scored on a different map. Distribution is a coherence problem before it is a channel problem.",
+      "result_vi": "Mê cung của Chen cần góc nhìn từ trên cao, còn Cutler thì cảnh báo rằng góc nhìn đó chỉ đúng khi mặt đất chịu khớp với nó. Tám team giữ tám định nghĩa khách hàng thì không có một growth maze, mà có tám, và mỗi cược kênh lại được chấm trên một bản đồ khác nhau. Phân phối là bài toán mạch lạc trước khi là bài toán kênh.",
+      "result_underline": "Distribution is a coherence problem before it is a channel problem.",
+      "result_underline_vi": "Phân phối là bài toán mạch lạc trước khi là bài toán kênh.",
+      "tick": "Ask three teammates who our next user is. How many answers do I get back?",
+      "tick_vi": "Hỏi ba người trong team xem user tiếp theo của mình là ai. Mình nhận về mấy câu trả lời?",
+      "tick_bold": [
+        "How many answers do I get back"
+      ],
+      "tick_bold_vi": [
+        "Mình nhận về mấy câu trả lời"
+      ],
+      "provocation": "Before you go hunting for a channel, check that the audience on your map is one audience. A route drawn across incoherent ground is not a strategy, it is a guess with a diagram attached.",
+      "provocation_vi": "Trước khi đi săn kênh, kiểm tra xem cái tệp khách trên bản đồ của bạn có đúng là một tệp không. Một con đường vẽ ngang qua vùng đất không mạch lạc thì không phải chiến lược, nó là phỏng đoán có kèm sơ đồ.",
+      "source": {
+        "site": "andrewchen",
+        "title": "The Growth Maze vs The Idea Maze",
+        "url": "https://andrewchen.substack.com/p/the-growth-maze-vs-the-idea-maze",
+        "published": "2025-02-10"
+      }
+    },
+    {
+      "title": "CAKE OR MUFFIN",
+      "title_vi": "BÁNH KEM HAY BÁNH MUFFIN",
+      "headline": "Same batter. Different aisle. Different company.",
+      "headline_vi": "Cùng một mẻ bột. Khác quầy. Khác luôn cả công ty.",
+      "a": {
+        "who": "April Dunford",
+        "what": "Framing is the context you give people so they know what they are looking at. Bake the same chocolate caramel batter and call it a cake, and you have chosen your buyers, your channel, your competitors, your price and your roadmap. Call it a muffin and every one of those changes, without the recipe changing at all. Most startups never notice the choice was theirs to make, and inherit a frame that hides their strengths.",
+        "what_vi": "Framing là cái context bạn đưa ra để người ta biết mình đang nhìn cái gì. Cùng một mẻ bột chocolate caramel, gọi nó là bánh kem thì bạn đã chọn luôn khách, kênh bán, đối thủ, giá và cả roadmap. Gọi nó là muffin thì mọi thứ đó đổi hết, trong khi công thức không đổi một chữ. Phần lớn startup không hề nhận ra lựa chọn đó là của mình, nên đi thừa hưởng một cái khung che mất điểm mạnh của họ."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery: interview customers every week, collect stories about what actually happened rather than opinions, and let that evidence shape the opportunity space.",
+        "what_vi": "Continuous discovery: tuần nào cũng phỏng vấn khách, gom chuyện thật đã xảy ra chứ không gom ý kiến, rồi để evidence đó định hình không gian cơ hội."
+      },
+      "result": "Discovery is rigorous inside the frame and completely silent about it. The frame picks who is even in your interview list, so a perfect weekly habit can run for a year on cake buyers and never once tell you that you were a muffin.",
+      "result_vi": "Discovery rất chặt chẽ ở bên trong cái khung, và im lặng tuyệt đối về chính cái khung. Khung quyết định ai lọt vào danh sách phỏng vấn, nên một thói quen hằng tuần hoàn hảo có thể chạy cả năm với dân mua bánh kem mà không một lần cho bạn biết bạn vốn là cái muffin.",
+      "result_underline": "never once tell you that you were a muffin",
+      "result_underline_vi": "không một lần cho bạn biết bạn vốn là cái muffin",
+      "tick": "Who am I not interviewing because of the category I assumed?",
+      "tick_vi": "Mình đang không phỏng vấn ai, chỉ vì cái category mình mặc định?",
+      "tick_bold": [
+        "because of the category I assumed"
+      ],
+      "tick_bold_vi": [
+        "vì cái category mình mặc định"
+      ],
+      "provocation": "Write the frame you have assumed in one sentence, then write two rival frames for the exact same product. If the second and third feel absurd, you did not choose your market, you inherited it.",
+      "provocation_vi": "Viết ra một câu cái khung bạn đang mặc định, rồi viết thêm hai cái khung đối thủ cho đúng sản phẩm đó. Nếu cái thứ hai và thứ ba nghe vô lý, thì bạn không chọn thị trường, bạn thừa hưởng nó.",
+      "source": {
+        "site": "April Dunford",
+        "title": "Product Framing Can Help Grow Your Startup",
+        "url": "https://www.aprildunford.com/post/product-framing-can-help-grow-your-startup-or-kill-it",
+        "published": "2017-04-11"
+      }
+    }
+  ]
+}
