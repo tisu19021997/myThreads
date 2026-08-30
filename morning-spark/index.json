@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-30",
+      "edition": 35,
+      "note": "Themes: online volume as a measure of how cheap a sentence was to say, a hiring bar that the interview could already have broken, a strategy proposition somebody would rate low confidence. Sources: Stratechery, A Smart Bear, The Beautiful Mess -- all three rested yesterday. Pairings: Andrew Sharp x Teresa Torres, Jason Cohen x Mark Zuckerberg, John Cutler x Roger Martin. Rested SVPG, andrewchen and April Dunford (used yesterday), plus Lenny's Newsletter and Product Talk. IMPORTANT for tomorrow: the roster's internal pairing space is now exhausted -- the only unused roster-only pairings left are the seven that involve Lenny Rachitsky (with Ben Thompson, Brian Balfour, Jason Cohen, Marty Cagan, Melissa Perri, Paul Graham, Teresa Torres). Every other pair of the twelve has been spent. So from here on each edition must bring in a second half from outside the roster, grounded in a piece actually read: today that was Mark Zuckerberg (quoted verbatim inside the Cohen piece) and Roger Martin (Fixing Strategy, read in full via rogermartin.medium.com/feed -- the Medium HTML is Cloudflare-blocked but the RSS carries full post bodies). Other unused wells: Gibson Biddle's askgib.substack.com, Melissa Perri back-catalogue, cutlefish TBM 423/424/428, andrewchen's every-marketing-channel-sucks and doordash-v1, April Dunford's storytelling-vs-positioning and market-segmentation, SVPG's commercial-vs-internal-products (read today, unused). Caution: the producttalk.org RSS currently carries two off-topic items about package hacks that do not belong on a discovery blog -- treat that feed's contents with suspicion and do not source from those two.",
+      "sparks": [
+        {
+          "pair": "Andrew Sharp x Teresa Torres",
+          "headline": "The backlash is everywhere. Check whether anything moved.",
+          "source": "Stratechery — 2026.35: Internet Hype and Real World Change",
+          "url": "https://stratechery.com/2026/internet-hype-and-real-world-change/"
+        },
+        {
+          "pair": "Jason Cohen x Mark Zuckerberg",
+          "headline": "You cannot judge the skill. You can judge the hour.",
+          "source": "A Smart Bear — How to hire people who are better than you",
+          "url": "https://longform.asmartbear.com/hire-better-than-you/"
+        },
+        {
+          "pair": "John Cutler x Roger Martin",
+          "headline": "If nobody in the room would write a different sentence, it is not strategy.",
+          "source": "The Beautiful Mess — TBM 437: Transition Week (And Some Fun Links)",
+          "url": "https://cutlefish.substack.com/p/tbm-437-transition-week-and-some"
+        }
+      ]
+    },
+    {
       "date": "2026-08-29",
       "edition": 34,
       "note": "Themes: the prototype as the cheap ninety-five-percent-shorter version of the work AI did not touch, distribution as a coherence problem before it is a channel problem, the frame deciding which customers discovery ever reaches. Sources: SVPG, andrewchen, April Dunford. Pairings: Marty Cagan x Paul Graham, Andrew Chen x John Cutler, April Dunford x Teresa Torres. Rested Stratechery, Lenny's Newsletter, A Smart Bear, Brian Balfour, The Beautiful Mess and Product Talk as sources. Warning for tomorrow: the ledger's default window hides older collisions, so read the full URL list before curating -- three candidates today were already used in late July. Genuinely unused wells left: Gibson Biddle (askgib.substack.com, never used as a source), Melissa Perri back-catalogue, cutlefish TBM 423/424/428, andrewchen's every-marketing-channel-sucks and doordash-v1 posts, April Dunford's storytelling-vs-positioning and market-segmentation.",

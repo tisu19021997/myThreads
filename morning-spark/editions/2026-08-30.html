@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 30</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 35</div></div></div>
+<div class="meta label">Sunday, August 30, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">LOUD AND UNMOVED</span><span data-l="vi">ỒN MÀ ĐỨNG YÊN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Sharp</div><div class="what"><span data-l="en">In this week&#x27;s roundup he notes the backlash to the AI data center buildout has run all summer and now looks even more widespread than when Ben Thompson tackled it in May. But precisely because people in tech are finally worried, he wants to zag: he thinks it will ultimately be a non-issue, like so many other overwhelming Internet movements, and he would bet the under on the backlash lasting.</span><span data-l="vi">Trong bản tổng kết tuần, ông ghi nhận làn sóng phản đối chuyện xây data center cho AI đã kéo dài cả mùa hè, giờ còn lan rộng hơn hồi tháng Năm. Nhưng đúng lúc dân trong ngành bắt đầu lo thật thì ông chọn đi ngược: ông cho rằng rốt cuộc chuyện này sẽ chẳng thành vấn đề gì, y như bao làn sóng rầm rộ khác trên internet, và ông cược cửa dưới về độ bền của nó.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery: what customers say is not what customers do. Opinions collected at volume are still opinions. You get to evidence by asking for stories about what actually happened, and by running an assumption test small enough to run this week.</span><span data-l="vi">Continuous discovery: thứ khách nói không phải thứ khách làm. Gom một đống ý kiến thì vẫn chỉ là ý kiến. Muốn có bằng chứng thì phải lôi ra chuyện họ đã thật sự làm gì, rồi chạy một assumption test đủ nhỏ để chạy ngay tuần này.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">An internet movement and a feature request have the same shape: many people, saying the same thing, loudly, at no cost to themselves. Neither becomes evidence until some behaviour changes. Volume measures one thing only, which is <u>how cheap the sentence was to say</u>.</span><span data-l="vi">Một làn sóng trên mạng và một feature request có cùng một hình dạng: rất nhiều người, nói cùng một câu, rất to, mà chẳng mất gì. Cả hai chỉ thành bằng chứng khi có hành vi nào đó đổi. Độ ồn chỉ đo được đúng một thứ, là <u>nói câu đó rẻ tới mức nào</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What is the loudest thing on my roadmap that <b>no behaviour has ever confirmed</b>?</span><span data-l="vi">Thứ ồn nhất trong roadmap của mình, <b>đã có hành vi nào xác nhận chưa</b>?</span></p></div>
+<div class="src-link"><a href="https://stratechery.com/2026/internet-hype-and-real-world-change/" target="_blank" rel="noopener">Stratechery — 2026.35: Internet Hype and Real World Change &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">HIRE ABOVE YOU</span><span data-l="vi">TUYỂN NGƯỜI GIỎI HƠN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">You have to hire people better than you at jobs you do not understand, which means you cannot assess their domain expertise at all. It is like interviewing a pancreatic surgeon. So assess what is actually available: did you leave wanting to implement half of what they said, have you already learned something from them and gone off to check it, would they lift the whole company rather than their own function. Save reference checks for the conditions under which this person thrives or dies inside, not for expertise. You will never have the counterfactual.</span><span data-l="vi">Bạn buộc phải tuyển người giỏi hơn mình ở đúng những việc mình không hiểu, nghĩa là không có cách nào chấm chuyên môn của họ. Chẳng khác gì đi phỏng vấn một bác sĩ mổ tụy. Vậy thì chấm cái chấm được: rời cuộc nói chuyện, bạn có muốn đem một nửa số ý của họ về làm liền không; bạn đã học được gì từ họ rồi tự đi tra lại chưa; họ nâng cả công ty lên hay chỉ nâng phòng của họ. Reference check thì để hỏi người đó sống được trong môi trường nào và chết trong môi trường nào, đừng hỏi chuyên môn. Bạn sẽ không bao giờ có phương án đối chứng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Mark Zuckerberg</div><div class="what"><span data-l="en">His often-quoted rule for executive hiring, cited inside the same piece: you should only hire people to be on your team if you would be willing to work for them.</span><span data-l="vi">Quy tắc tuyển sếp mà ông hay nói, được trích ngay trong bài: chỉ nhận ai vào team nếu bạn sẵn sàng đi làm dưới quyền người đó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Zuckerberg&#x27;s rule cannot be failed by the man who wrote it, since he has never worked for anyone, and that is exactly why it is so comfortable to repeat. Cohen&#x27;s version can be failed: either you learned something from this candidate in the last hour and went and checked it, or you did not. A bar is only a bar <u>if the interview could already have broken it</u>.</span><span data-l="vi">Quy tắc của Zuckerberg thì chính người đặt ra nó không bao giờ trượt được, vì ông chưa từng đi làm dưới quyền ai, và đó đúng là lý do nó dễ nhắc lại tới vậy. Phiên bản của Cohen thì trượt được: hoặc tiếng vừa rồi bạn đã học được gì đó từ ứng viên rồi đi tra lại, hoặc không. Một cái thước chỉ là thước <u>khi buổi phỏng vấn đã có thể làm nó gãy</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">After the last interview I ran, <b>what did I go and look up</b>?</span><span data-l="vi">Buổi phỏng vấn gần nhất, xong rồi mình đã <b>đi tra lại cái gì</b>?</span></p></div>
+<div class="src-link"><a href="https://longform.asmartbear.com/hire-better-than-you/" target="_blank" rel="noopener">A Smart Bear — How to hire people who are better than you &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">FILL IN THE BLANK</span><span data-l="vi">ĐIỀN VÀO CHỖ TRỐNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">A short transition-week post, and inside it a small tool: fifty strategy prompts, each a fill-in-the-blank proposition. Until we change this condition, more investment in that activity is unlikely to move this outcome. We are near a local maximum unless we challenge our assumption that something. Each one carries an optional confidence rating, not confident through very confident. His rule: a real strategy should contain propositions that challenge something we would otherwise take for granted, and the real test is running it in multiplayer mode.</span><span data-l="vi">Một post ngắn tuần chuyển giao, và bên trong là một tool nhỏ: năm mươi câu chiến lược dạng điền vào chỗ trống. Chừng nào chưa đổi được điều kiện này thì đổ thêm tiền vào việc kia khó mà cải thiện outcome nọ. Ta đang gần một đỉnh cục bộ, trừ khi dám thách thức giả định rằng một thứ gì đó. Mỗi câu kèm một thanh tự chấm độ chắc chắn, từ không chắc tới rất chắc. Luật của ông: một chiến lược thật phải chứa những mệnh đề thách thức thứ mà bình thường ta mặc nhiên coi là đúng, và phép thử thật là chơi nhiều người.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Roger Martin</div><div class="what"><span data-l="en">In Fixing Strategy he argues the practice is broken because it inherited the technocratic conceit of the 1960s: that a large enough brain can analyse its way to the answer. But business sits in the part of the world that can be other than it is, so analysis only ever affirms the past. Strategy is imagining future possibilities and choosing the one for which the most compelling argument can be made.</span><span data-l="vi">Trong Fixing Strategy, ông cho rằng nghề chiến lược hỏng vì thừa hưởng ảo tưởng kỹ trị của thập niên 1960: cứ đủ thông minh, phân tích đủ giỏi là ra đáp án. Nhưng kinh doanh nằm ở phần thế giới có thể khác đi, nên phân tích chỉ xác nhận quá khứ. Chiến lược là tưởng tượng ra các khả năng rồi chọn cái mà bạn dựng được lập luận thuyết phục nhất.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Martin says you argue your way to a strategy rather than analyse your way there, and Cutler hands you the argument&#x27;s shape: one sentence, with blanks, that somebody could rate low confidence. Run it multiplayer and the disagreement is the finding. A proposition the whole room rates very confident is not a strategy, it is <u>a description of what you already do</u>.</span><span data-l="vi">Martin nói bạn lập luận để tới chiến lược chứ không phân tích để tới, còn Cutler đưa luôn cái khuôn của lập luận: một câu, có chỗ trống, mà ai đó dám chấm là ít chắc chắn. Chơi nhiều người thì chỗ bất đồng chính là kết quả. Một mệnh đề mà cả phòng đều chấm rất chắc thì không phải chiến lược, đó là <u>bản mô tả những việc bạn đang làm</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Can I write one sentence about my work that a sharp colleague <b>would rate low confidence</b>?</span><span data-l="vi">Mình có viết nổi một câu về việc của mình mà đồng nghiệp giỏi sẽ <b>chấm là ít chắc chắn</b> không?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-437-transition-week-and-some" target="_blank" rel="noopener">The Beautiful Mess — TBM 437: Transition Week (And Some Fun Links) &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-29.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-29</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Andrew Sharp / Teresa Torres / Jason Cohen / Mark Zuckerberg / John Cutler / Roger Martin<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Andrew Sharp / Teresa Torres / Jason Cohen / Mark Zuckerberg / John Cutler / Roger Martin<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

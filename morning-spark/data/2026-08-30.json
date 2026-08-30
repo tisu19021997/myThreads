@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-30",
+  "edition": 35,
+  "framing": "Three claims that cannot fail. None of them is evidence.",
+  "framing_vi": "Ba mệnh đề không thể sai. Không cái nào là bằng chứng.",
+  "note": "Themes: online volume as a measure of how cheap a sentence was to say, a hiring bar that the interview could already have broken, a strategy proposition somebody would rate low confidence. Sources: Stratechery, A Smart Bear, The Beautiful Mess -- all three rested yesterday. Pairings: Andrew Sharp x Teresa Torres, Jason Cohen x Mark Zuckerberg, John Cutler x Roger Martin. Rested SVPG, andrewchen and April Dunford (used yesterday), plus Lenny's Newsletter and Product Talk. IMPORTANT for tomorrow: the roster's internal pairing space is now exhausted -- the only unused roster-only pairings left are the seven that involve Lenny Rachitsky (with Ben Thompson, Brian Balfour, Jason Cohen, Marty Cagan, Melissa Perri, Paul Graham, Teresa Torres). Every other pair of the twelve has been spent. So from here on each edition must bring in a second half from outside the roster, grounded in a piece actually read: today that was Mark Zuckerberg (quoted verbatim inside the Cohen piece) and Roger Martin (Fixing Strategy, read in full via rogermartin.medium.com/feed -- the Medium HTML is Cloudflare-blocked but the RSS carries full post bodies). Other unused wells: Gibson Biddle's askgib.substack.com, Melissa Perri back-catalogue, cutlefish TBM 423/424/428, andrewchen's every-marketing-channel-sucks and doordash-v1, April Dunford's storytelling-vs-positioning and market-segmentation, SVPG's commercial-vs-internal-products (read today, unused). Caution: the producttalk.org RSS currently carries two off-topic items about package hacks that do not belong on a discovery blog -- treat that feed's contents with suspicion and do not source from those two.",
+  "sparks": [
+    {
+      "title": "LOUD AND UNMOVED",
+      "title_vi": "ỒN MÀ ĐỨNG YÊN",
+      "headline": "The backlash is everywhere. Check whether anything moved.",
+      "headline_vi": "Phản đối khắp nơi. Thử coi có gì nhúc nhích chưa.",
+      "a": {
+        "who": "Andrew Sharp",
+        "what": "In this week's roundup he notes the backlash to the AI data center buildout has run all summer and now looks even more widespread than when Ben Thompson tackled it in May. But precisely because people in tech are finally worried, he wants to zag: he thinks it will ultimately be a non-issue, like so many other overwhelming Internet movements, and he would bet the under on the backlash lasting.",
+        "what_vi": "Trong bản tổng kết tuần, ông ghi nhận làn sóng phản đối chuyện xây data center cho AI đã kéo dài cả mùa hè, giờ còn lan rộng hơn hồi tháng Năm. Nhưng đúng lúc dân trong ngành bắt đầu lo thật thì ông chọn đi ngược: ông cho rằng rốt cuộc chuyện này sẽ chẳng thành vấn đề gì, y như bao làn sóng rầm rộ khác trên internet, và ông cược cửa dưới về độ bền của nó."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery: what customers say is not what customers do. Opinions collected at volume are still opinions. You get to evidence by asking for stories about what actually happened, and by running an assumption test small enough to run this week.",
+        "what_vi": "Continuous discovery: thứ khách nói không phải thứ khách làm. Gom một đống ý kiến thì vẫn chỉ là ý kiến. Muốn có bằng chứng thì phải lôi ra chuyện họ đã thật sự làm gì, rồi chạy một assumption test đủ nhỏ để chạy ngay tuần này."
+      },
+      "result": "An internet movement and a feature request have the same shape: many people, saying the same thing, loudly, at no cost to themselves. Neither becomes evidence until some behaviour changes. Volume measures one thing only, which is how cheap the sentence was to say.",
+      "result_vi": "Một làn sóng trên mạng và một feature request có cùng một hình dạng: rất nhiều người, nói cùng một câu, rất to, mà chẳng mất gì. Cả hai chỉ thành bằng chứng khi có hành vi nào đó đổi. Độ ồn chỉ đo được đúng một thứ, là nói câu đó rẻ tới mức nào.",
+      "result_underline": "how cheap the sentence was to say",
+      "result_underline_vi": "nói câu đó rẻ tới mức nào",
+      "tick": "What is the loudest thing on my roadmap that no behaviour has ever confirmed?",
+      "tick_vi": "Thứ ồn nhất trong roadmap của mình, đã có hành vi nào xác nhận chưa?",
+      "tick_bold": [
+        "no behaviour has ever confirmed"
+      ],
+      "tick_bold_vi": [
+        "đã có hành vi nào xác nhận chưa"
+      ],
+      "provocation": "Take the loudest request you have heard this month and go looking for the behaviour behind it. If nobody ever worked around its absence, you are holding an opinion, not demand.",
+      "provocation_vi": "Lấy cái request ồn nhất tháng này rồi đi tìm hành vi đằng sau nó. Nếu chưa ai từng phải tự xoay khi thiếu nó, thì bạn đang cầm ý kiến, không phải nhu cầu.",
+      "source": {
+        "site": "Stratechery",
+        "title": "2026.35: Internet Hype and Real World Change",
+        "url": "https://stratechery.com/2026/internet-hype-and-real-world-change/",
+        "published": "2026-08-28"
+      }
+    },
+    {
+      "title": "HIRE ABOVE YOU",
+      "title_vi": "TUYỂN NGƯỜI GIỎI HƠN",
+      "headline": "You cannot judge the skill. You can judge the hour.",
+      "headline_vi": "Bạn không chấm nổi chuyên môn. Nhưng chấm được một tiếng vừa rồi.",
+      "a": {
+        "who": "Jason Cohen",
+        "what": "You have to hire people better than you at jobs you do not understand, which means you cannot assess their domain expertise at all. It is like interviewing a pancreatic surgeon. So assess what is actually available: did you leave wanting to implement half of what they said, have you already learned something from them and gone off to check it, would they lift the whole company rather than their own function. Save reference checks for the conditions under which this person thrives or dies inside, not for expertise. You will never have the counterfactual.",
+        "what_vi": "Bạn buộc phải tuyển người giỏi hơn mình ở đúng những việc mình không hiểu, nghĩa là không có cách nào chấm chuyên môn của họ. Chẳng khác gì đi phỏng vấn một bác sĩ mổ tụy. Vậy thì chấm cái chấm được: rời cuộc nói chuyện, bạn có muốn đem một nửa số ý của họ về làm liền không; bạn đã học được gì từ họ rồi tự đi tra lại chưa; họ nâng cả công ty lên hay chỉ nâng phòng của họ. Reference check thì để hỏi người đó sống được trong môi trường nào và chết trong môi trường nào, đừng hỏi chuyên môn. Bạn sẽ không bao giờ có phương án đối chứng."
+      },
+      "b": {
+        "who": "Mark Zuckerberg",
+        "what": "His often-quoted rule for executive hiring, cited inside the same piece: you should only hire people to be on your team if you would be willing to work for them.",
+        "what_vi": "Quy tắc tuyển sếp mà ông hay nói, được trích ngay trong bài: chỉ nhận ai vào team nếu bạn sẵn sàng đi làm dưới quyền người đó."
+      },
+      "result": "Zuckerberg's rule cannot be failed by the man who wrote it, since he has never worked for anyone, and that is exactly why it is so comfortable to repeat. Cohen's version can be failed: either you learned something from this candidate in the last hour and went and checked it, or you did not. A bar is only a bar if the interview could already have broken it.",
+      "result_vi": "Quy tắc của Zuckerberg thì chính người đặt ra nó không bao giờ trượt được, vì ông chưa từng đi làm dưới quyền ai, và đó đúng là lý do nó dễ nhắc lại tới vậy. Phiên bản của Cohen thì trượt được: hoặc tiếng vừa rồi bạn đã học được gì đó từ ứng viên rồi đi tra lại, hoặc không. Một cái thước chỉ là thước khi buổi phỏng vấn đã có thể làm nó gãy.",
+      "result_underline": "if the interview could already have broken it",
+      "result_underline_vi": "khi buổi phỏng vấn đã có thể làm nó gãy",
+      "tick": "After the last interview I ran, what did I go and look up?",
+      "tick_vi": "Buổi phỏng vấn gần nhất, xong rồi mình đã đi tra lại cái gì?",
+      "tick_bold": [
+        "what did I go and look up"
+      ],
+      "tick_bold_vi": [
+        "đi tra lại cái gì"
+      ],
+      "provocation": "After the next interview, write down the one thing you did not know before it started. If the page is blank, you were not evaluating them. You were being pitched.",
+      "provocation_vi": "Phỏng vấn xong lần tới, ghi ra một thứ bạn chưa biết trước khi vào phòng. Nếu tờ giấy trắng, bạn không đang đánh giá họ. Bạn đang bị pitch.",
+      "source": {
+        "site": "A Smart Bear",
+        "title": "How to hire people who are better than you",
+        "url": "https://longform.asmartbear.com/hire-better-than-you/",
+        "published": "2026-04-19"
+      }
+    },
+    {
+      "title": "FILL IN THE BLANK",
+      "title_vi": "ĐIỀN VÀO CHỖ TRỐNG",
+      "headline": "If nobody in the room would write a different sentence, it is not strategy.",
+      "headline_vi": "Cả phòng không ai viết ra câu khác thì chưa phải chiến lược.",
+      "a": {
+        "who": "John Cutler",
+        "what": "A short transition-week post, and inside it a small tool: fifty strategy prompts, each a fill-in-the-blank proposition. Until we change this condition, more investment in that activity is unlikely to move this outcome. We are near a local maximum unless we challenge our assumption that something. Each one carries an optional confidence rating, not confident through very confident. His rule: a real strategy should contain propositions that challenge something we would otherwise take for granted, and the real test is running it in multiplayer mode.",
+        "what_vi": "Một post ngắn tuần chuyển giao, và bên trong là một tool nhỏ: năm mươi câu chiến lược dạng điền vào chỗ trống. Chừng nào chưa đổi được điều kiện này thì đổ thêm tiền vào việc kia khó mà cải thiện outcome nọ. Ta đang gần một đỉnh cục bộ, trừ khi dám thách thức giả định rằng một thứ gì đó. Mỗi câu kèm một thanh tự chấm độ chắc chắn, từ không chắc tới rất chắc. Luật của ông: một chiến lược thật phải chứa những mệnh đề thách thức thứ mà bình thường ta mặc nhiên coi là đúng, và phép thử thật là chơi nhiều người."
+      },
+      "b": {
+        "who": "Roger Martin",
+        "what": "In Fixing Strategy he argues the practice is broken because it inherited the technocratic conceit of the 1960s: that a large enough brain can analyse its way to the answer. But business sits in the part of the world that can be other than it is, so analysis only ever affirms the past. Strategy is imagining future possibilities and choosing the one for which the most compelling argument can be made.",
+        "what_vi": "Trong Fixing Strategy, ông cho rằng nghề chiến lược hỏng vì thừa hưởng ảo tưởng kỹ trị của thập niên 1960: cứ đủ thông minh, phân tích đủ giỏi là ra đáp án. Nhưng kinh doanh nằm ở phần thế giới có thể khác đi, nên phân tích chỉ xác nhận quá khứ. Chiến lược là tưởng tượng ra các khả năng rồi chọn cái mà bạn dựng được lập luận thuyết phục nhất."
+      },
+      "result": "Martin says you argue your way to a strategy rather than analyse your way there, and Cutler hands you the argument's shape: one sentence, with blanks, that somebody could rate low confidence. Run it multiplayer and the disagreement is the finding. A proposition the whole room rates very confident is not a strategy, it is a description of what you already do.",
+      "result_vi": "Martin nói bạn lập luận để tới chiến lược chứ không phân tích để tới, còn Cutler đưa luôn cái khuôn của lập luận: một câu, có chỗ trống, mà ai đó dám chấm là ít chắc chắn. Chơi nhiều người thì chỗ bất đồng chính là kết quả. Một mệnh đề mà cả phòng đều chấm rất chắc thì không phải chiến lược, đó là bản mô tả những việc bạn đang làm.",
+      "result_underline": "a description of what you already do",
+      "result_underline_vi": "bản mô tả những việc bạn đang làm",
+      "tick": "Can I write one sentence about my work that a sharp colleague would rate low confidence?",
+      "tick_vi": "Mình có viết nổi một câu về việc của mình mà đồng nghiệp giỏi sẽ chấm là ít chắc chắn không?",
+      "tick_bold": [
+        "would rate low confidence"
+      ],
+      "tick_bold_vi": [
+        "chấm là ít chắc chắn"
+      ],
+      "provocation": "Write the biggest bet you are running as one sentence somebody could disagree with, then ask two people to rate their confidence in it. If both say very confident, you have not made a choice yet.",
+      "provocation_vi": "Viết canh bạc lớn nhất bạn đang chạy thành một câu người khác cãi được, rồi nhờ hai người chấm độ chắc chắn. Cả hai đều rất chắc thì bạn chưa chọn gì cả.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 437: Transition Week (And Some Fun Links)",
+        "url": "https://cutlefish.substack.com/p/tbm-437-transition-week-and-some",
+        "published": "2026-08-26"
+      }
+    }
+  ]
+}
