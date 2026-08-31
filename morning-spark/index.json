@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-08-31",
+      "edition": 36,
+      "note": "Themes: the tedious work as the place judgment is built, documentation as the surface an agent judges your product on, a dated guess as the only forecast that can be graded. Sources: One Useful Thing (Mollick, published today), Tomasz Tunguz, Ask Gib (Gibson Biddle, never used as a source before). Pairings: Ethan Mollick x Julie Zhuo, Tomasz Tunguz x April Dunford, Gibson Biddle x Benedict Evans. Rested Stratechery, cutlefish, A Smart Bear, SVPG, Lenny's, Product Talk and andrewchen entirely. Note for tomorrow: roster-internal pairings stay exhausted except the seven involving Lenny Rachitsky, so keep sourcing outside pieces read in full. Fresh outside wells opened today and only half spent: Ethan Mollick (oneusefulthing.org), Tomasz Tunguz (tomtunguz.com, full bodies in RSS, many unused AI-economics posts), Julie Zhuo (lg.substack.com back catalogue), Benedict Evans (ben-evans.com). Unused roster material still on the shelf: cutlefish TBM 438 The Right But Early Club (strong, deliberately rested today because cutlefish ran yesterday), askgib's other 19 posts, SVPG commercial-vs-internal-products, April Dunford's market-segmentation. Warning: Lenny's Newsletter podcast posts are now paywalled past the show notes, and aprildunford.com/blog?format=rss returns an empty feed, so fetch her posts by direct URL.",
+      "sparks": [
+        {
+          "pair": "Ethan Mollick x Julie Zhuo",
+          "headline": "Automate the boring half, lose the eye",
+          "source": "One Useful Thing — Agency and Agents",
+          "url": "https://www.oneusefulthing.org/p/agency-and-agents"
+        },
+        {
+          "pair": "Tomasz Tunguz x April Dunford",
+          "headline": "The agent reads your docs, not your homepage",
+          "source": "Tomasz Tunguz — Previously Unmanufacturable",
+          "url": "https://tomtunguz.com/previously-unmanufacturable/"
+        },
+        {
+          "pair": "Gibson Biddle x Benedict Evans",
+          "headline": "Nobody can forecast the market. Forecast your quarter.",
+          "source": "Ask Gib — Ask Gib: A Summary of my Product Strategy Frameworks",
+          "url": "https://askgib.substack.com/p/ask-gib-a-summary-of-my-product-strategy"
+        }
+      ]
+    },
+    {
       "date": "2026-08-30",
       "edition": 35,
       "note": "Themes: online volume as a measure of how cheap a sentence was to say, a hiring bar that the interview could already have broken, a strategy proposition somebody would rate low confidence. Sources: Stratechery, A Smart Bear, The Beautiful Mess -- all three rested yesterday. Pairings: Andrew Sharp x Teresa Torres, Jason Cohen x Mark Zuckerberg, John Cutler x Roger Martin. Rested SVPG, andrewchen and April Dunford (used yesterday), plus Lenny's Newsletter and Product Talk. IMPORTANT for tomorrow: the roster's internal pairing space is now exhausted -- the only unused roster-only pairings left are the seven that involve Lenny Rachitsky (with Ben Thompson, Brian Balfour, Jason Cohen, Marty Cagan, Melissa Perri, Paul Graham, Teresa Torres). Every other pair of the twelve has been spent. So from here on each edition must bring in a second half from outside the roster, grounded in a piece actually read: today that was Mark Zuckerberg (quoted verbatim inside the Cohen piece) and Roger Martin (Fixing Strategy, read in full via rogermartin.medium.com/feed -- the Medium HTML is Cloudflare-blocked but the RSS carries full post bodies). Other unused wells: Gibson Biddle's askgib.substack.com, Melissa Perri back-catalogue, cutlefish TBM 423/424/428, andrewchen's every-marketing-channel-sucks and doordash-v1, April Dunford's storytelling-vs-positioning and market-segmentation, SVPG's commercial-vs-internal-products (read today, unused). Caution: the producttalk.org RSS currently carries two off-topic items about package hacks that do not belong on a discovery blog -- treat that feed's contents with suspicion and do not source from those two.",

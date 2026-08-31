@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Aug 31</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 36</div></div></div>
+<div class="meta label">Monday, August 31, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE CROOKED SEAM</span><span data-l="vi">ĐƯỜNG CHỈ VỤNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ethan Mollick</div><div class="what"><span data-l="en">Agents now plan, coordinate and act without being asked. His answer is not full automation but a factory where the agent calls a human back in: for approval, for expertise, for a different idea, and because a decision is interesting.</span><span data-l="vi">Agent giờ tự lên kế hoạch, tự phối hợp, tự làm mà không ai bảo. Câu trả lời của ông không phải tự động hoá hết, mà là một cái xưởng nơi agent gọi người quay lại: để duyệt, để lấy chuyên môn, để có một ý khác, và vì quyết định đó thú vị.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Julie Zhuo</div><div class="what"><span data-l="en">Your eye sees excellence years before your hand can make it, and the hand never outruns the eye. What grows the eye is the clumsy work itself: the crooked seam, the shaky line, the sentence you cringe at later.</span><span data-l="vi">Con mắt thấy cái xuất sắc trước khi tay làm được nhiều năm, và tay không bao giờ vượt qua mắt. Thứ nuôi con mắt lại chính là mấy việc làm vụng: đường chỉ lệch, nét vẽ run, câu văn đọc lại thấy quê.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Mollick hands the tedium to the machine and keeps the interesting calls. Zhuo says the tedium is where the judgment came from. So the order you automate in quietly picks <u>what you will never be good enough to judge</u>.</span><span data-l="vi">Mollick đưa phần lặt vặt cho máy và giữ lại mấy quyết định thú vị. Zhuo nói chính phần lặt vặt đó mới đẻ ra khả năng phán đoán. Vậy là thứ tự bạn tự động hoá đang âm thầm chọn <u>cái bạn sẽ không bao giờ đủ giỏi để đánh giá</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which <b>boring step</b> taught you the <b>taste</b> you now get paid for?</span><span data-l="vi"><b>Bước lặt vặt</b> nào đã dạy bạn <b>cái gu</b> mà giờ bạn được trả tiền?</span></p></div>
+<div class="src-link"><a href="https://www.oneusefulthing.org/p/agency-and-agents" target="_blank" rel="noopener">One Useful Thing — Agency and Agents &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">ENGLISH AS API</span><span data-l="vi">TIẾNG ANH LÀM API</span></span></div>
+<div class="eq"><div class="term"><div class="who">Tomasz Tunguz</div><div class="what"><span data-l="en">Every product made the user learn its grammar: frames and components, accounts and opportunities, splines and constraints. Agents translate plain English into that grammar, so the work moves from designing screens to exposing a schema an agent can operate and documenting it well enough to be trusted.</span><span data-l="vi">Sản phẩm nào cũng bắt người dùng học ngữ pháp của nó: frame và component, account và opportunity, spline và constraint. Agent dịch tiếng Anh thường sang cái ngữ pháp đó, nên việc chuyển từ thiết kế từng màn hình sang phơi ra một schema mà agent vận hành được, và viết docs đủ tốt để nó dám tin.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is the input to your story, not the output of it. Get the competitive alternatives wrong and a perfectly structured narrative is still, in her words, absolute bullcrap.</span><span data-l="vi">Positioning là input của câu chuyện, không phải output. Sai cái danh sách competitive alternative thì một narrative dựng chuẩn từng khớp vẫn chỉ là, đúng chữ của bà, xạo hết.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">If the buyer sends an agent instead, your positioning gets read off your schema and your docs before anyone hears the story. The competitive alternative stops being what your buyer has heard of and becomes <u>whatever an agent can drive tonight</u>.</span><span data-l="vi">Nếu khách cử agent đi thay, positioning của bạn bị đọc thẳng từ schema và docs trước khi có ai nghe câu chuyện. Competitive alternative không còn là thứ khách từng nghe tên, mà là <u>bất cứ thứ gì agent lái được ngay tối nay</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Could an agent tell what you are <b>better at</b> from your <b>docs alone</b>?</span><span data-l="vi"><b>Chỉ đọc docs thôi</b>, agent có nhận ra bạn <b>giỏi hơn ở chỗ nào</b> không?</span></p></div>
+<div class="src-link"><a href="https://tomtunguz.com/previously-unmanufacturable/" target="_blank" rel="noopener">Tomasz Tunguz — Previously Unmanufacturable &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE DATED GUESS</span><span data-l="vi">CÚ ĐOÁN CÓ HẠN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">A product strategy starts as a stupid wild-ass guess and earns its way to a scientific one. His GEM model forces a named proxy metric for growth, engagement and monetization; DHM asks for delight that is hard to copy and margin-enhancing.</span><span data-l="vi">Product strategy bắt đầu là một cú đoán liều, rồi tự kiếm đường thành cú đoán có cơ sở. GEM bắt bạn gọi tên proxy metric cho growth, engagement, monetization; DHM đòi thứ delight mà đối thủ khó copy và còn nới được margin.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Benedict Evans</div><div class="what"><span data-l="en">On token prices every variable is in play: supply, demand, marginal cost, buyer ROI. Model it bottom-up and you get a very pretty spreadsheet and a useless forecast, and anyone naming one of the ten visible futures is just guessing.</span><span data-l="vi">Về giá token thì biến nào cũng đang chạy: cung, cầu, chi phí biên, ROI của người mua. Dựng model từ dưới lên thì được một cái spreadsheet rất đẹp và một dự báo vô dụng, còn ai chỉ tay vào một trong mười tương lai nhìn thấy được thì cũng chỉ là đoán.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Evans saying we do not know and Biddle writing the guess down are the same discipline in two moods. You cannot be graded on a forecast about the market, so bet on the thing that stays hard to copy across most of those futures, and <u>put a date on the guess you can be graded on</u>.</span><span data-l="vi">Evans nói mình không biết, Biddle thì cứ viết cú đoán ra giấy, hai người đang cùng một kỷ luật ở hai tâm trạng. Không ai chấm điểm bạn được trên một dự báo về thị trường, nên hãy cược vào thứ vẫn khó copy trong phần lớn các tương lai đó, và <u>gắn hạn cho cú đoán mà bạn chấm được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your bets <b>still pays</b> if a token costs a tenth of today&#x27;s price?</span><span data-l="vi">Cược nào của bạn <b>vẫn có lời</b> nếu token rẻ đi mười lần?</span></p></div>
+<div class="src-link"><a href="https://askgib.substack.com/p/ask-gib-a-summary-of-my-product-strategy" target="_blank" rel="noopener">Ask Gib — Ask Gib: A Summary of my Product Strategy Frameworks &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-30.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-30</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ethan Mollick / Julie Zhuo / Tomasz Tunguz / April Dunford / Gibson Biddle / Benedict Evans<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ethan Mollick / Julie Zhuo / Tomasz Tunguz / April Dunford / Gibson Biddle / Benedict Evans<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-31",
+  "edition": 36,
+  "framing": "Machines take the work. You still choose which half you keep.",
+  "framing_vi": "Máy nhận phần việc. Bạn vẫn phải chọn giữ lại nửa nào.",
+  "note": "Themes: the tedious work as the place judgment is built, documentation as the surface an agent judges your product on, a dated guess as the only forecast that can be graded. Sources: One Useful Thing (Mollick, published today), Tomasz Tunguz, Ask Gib (Gibson Biddle, never used as a source before). Pairings: Ethan Mollick x Julie Zhuo, Tomasz Tunguz x April Dunford, Gibson Biddle x Benedict Evans. Rested Stratechery, cutlefish, A Smart Bear, SVPG, Lenny's, Product Talk and andrewchen entirely. Note for tomorrow: roster-internal pairings stay exhausted except the seven involving Lenny Rachitsky, so keep sourcing outside pieces read in full. Fresh outside wells opened today and only half spent: Ethan Mollick (oneusefulthing.org), Tomasz Tunguz (tomtunguz.com, full bodies in RSS, many unused AI-economics posts), Julie Zhuo (lg.substack.com back catalogue), Benedict Evans (ben-evans.com). Unused roster material still on the shelf: cutlefish TBM 438 The Right But Early Club (strong, deliberately rested today because cutlefish ran yesterday), askgib's other 19 posts, SVPG commercial-vs-internal-products, April Dunford's market-segmentation. Warning: Lenny's Newsletter podcast posts are now paywalled past the show notes, and aprildunford.com/blog?format=rss returns an empty feed, so fetch her posts by direct URL.",
+  "sparks": [
+    {
+      "title": "THE CROOKED SEAM",
+      "title_vi": "ĐƯỜNG CHỈ VỤNG",
+      "headline": "Automate the boring half, lose the eye",
+      "headline_vi": "Tự động hoá nửa chán, mất luôn con mắt",
+      "a": {
+        "who": "Ethan Mollick",
+        "what": "Agents now plan, coordinate and act without being asked. His answer is not full automation but a factory where the agent calls a human back in: for approval, for expertise, for a different idea, and because a decision is interesting.",
+        "what_vi": "Agent giờ tự lên kế hoạch, tự phối hợp, tự làm mà không ai bảo. Câu trả lời của ông không phải tự động hoá hết, mà là một cái xưởng nơi agent gọi người quay lại: để duyệt, để lấy chuyên môn, để có một ý khác, và vì quyết định đó thú vị."
+      },
+      "b": {
+        "who": "Julie Zhuo",
+        "what": "Your eye sees excellence years before your hand can make it, and the hand never outruns the eye. What grows the eye is the clumsy work itself: the crooked seam, the shaky line, the sentence you cringe at later.",
+        "what_vi": "Con mắt thấy cái xuất sắc trước khi tay làm được nhiều năm, và tay không bao giờ vượt qua mắt. Thứ nuôi con mắt lại chính là mấy việc làm vụng: đường chỉ lệch, nét vẽ run, câu văn đọc lại thấy quê."
+      },
+      "result": "Mollick hands the tedium to the machine and keeps the interesting calls. Zhuo says the tedium is where the judgment came from. So the order you automate in quietly picks what you will never be good enough to judge.",
+      "result_vi": "Mollick đưa phần lặt vặt cho máy và giữ lại mấy quyết định thú vị. Zhuo nói chính phần lặt vặt đó mới đẻ ra khả năng phán đoán. Vậy là thứ tự bạn tự động hoá đang âm thầm chọn cái bạn sẽ không bao giờ đủ giỏi để đánh giá.",
+      "result_underline": "what you will never be good enough to judge",
+      "result_underline_vi": "cái bạn sẽ không bao giờ đủ giỏi để đánh giá",
+      "tick": "Which boring step taught you the taste you now get paid for?",
+      "tick_vi": "Bước lặt vặt nào đã dạy bạn cái gu mà giờ bạn được trả tiền?",
+      "tick_bold": [
+        "boring step",
+        "taste"
+      ],
+      "tick_bold_vi": [
+        "Bước lặt vặt",
+        "cái gu"
+      ],
+      "provocation": "Mollick wants agents to hand the interesting decisions back to people. Zhuo points out that taste is built by the unglamorous repetitions, not the interesting decisions. Automate in the wrong order and you keep the judgment seat without the judgment.",
+      "provocation_vi": "Mollick muốn agent trả lại cho người những quyết định thú vị. Zhuo chỉ ra rằng cái gu được xây từ mấy lần lặp không hào nhoáng, chứ không phải từ quyết định thú vị. Tự động hoá sai thứ tự thì bạn giữ được cái ghế phán quyết mà không còn khả năng phán quyết.",
+      "source": {
+        "site": "One Useful Thing",
+        "title": "Agency and Agents",
+        "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+        "published": "2026-08-31"
+      }
+    },
+    {
+      "title": "ENGLISH AS API",
+      "title_vi": "TIẾNG ANH LÀM API",
+      "headline": "The agent reads your docs, not your homepage",
+      "headline_vi": "Agent đọc docs của bạn, không đọc homepage",
+      "a": {
+        "who": "Tomasz Tunguz",
+        "what": "Every product made the user learn its grammar: frames and components, accounts and opportunities, splines and constraints. Agents translate plain English into that grammar, so the work moves from designing screens to exposing a schema an agent can operate and documenting it well enough to be trusted.",
+        "what_vi": "Sản phẩm nào cũng bắt người dùng học ngữ pháp của nó: frame và component, account và opportunity, spline và constraint. Agent dịch tiếng Anh thường sang cái ngữ pháp đó, nên việc chuyển từ thiết kế từng màn hình sang phơi ra một schema mà agent vận hành được, và viết docs đủ tốt để nó dám tin."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is the input to your story, not the output of it. Get the competitive alternatives wrong and a perfectly structured narrative is still, in her words, absolute bullcrap.",
+        "what_vi": "Positioning là input của câu chuyện, không phải output. Sai cái danh sách competitive alternative thì một narrative dựng chuẩn từng khớp vẫn chỉ là, đúng chữ của bà, xạo hết."
+      },
+      "result": "If the buyer sends an agent instead, your positioning gets read off your schema and your docs before anyone hears the story. The competitive alternative stops being what your buyer has heard of and becomes whatever an agent can drive tonight.",
+      "result_vi": "Nếu khách cử agent đi thay, positioning của bạn bị đọc thẳng từ schema và docs trước khi có ai nghe câu chuyện. Competitive alternative không còn là thứ khách từng nghe tên, mà là bất cứ thứ gì agent lái được ngay tối nay.",
+      "result_underline": "whatever an agent can drive tonight",
+      "result_underline_vi": "bất cứ thứ gì agent lái được ngay tối nay",
+      "tick": "Could an agent tell what you are better at from your docs alone?",
+      "tick_vi": "Chỉ đọc docs thôi, agent có nhận ra bạn giỏi hơn ở chỗ nào không?",
+      "tick_bold": [
+        "better at",
+        "docs alone"
+      ],
+      "tick_bold_vi": [
+        "Chỉ đọc docs thôi",
+        "giỏi hơn ở chỗ nào"
+      ],
+      "provocation": "Tunguz argues the interface is becoming English, so the real product surface is the schema and the documentation an agent reads. Dunford says positioning lives or dies on the competitive alternatives you name. Put together: the agent now assembles that list for your buyer, from your docs.",
+      "provocation_vi": "Tunguz nói giao diện đang trở thành tiếng Anh, nên bề mặt sản phẩm thật sự là schema và docs mà agent đọc. Dunford nói positioning sống chết ở danh sách competitive alternative bạn gọi tên. Ghép lại: giờ chính agent lập cái danh sách đó thay cho khách, dựa trên docs của bạn.",
+      "source": {
+        "site": "Tomasz Tunguz",
+        "title": "Previously Unmanufacturable",
+        "url": "https://tomtunguz.com/previously-unmanufacturable/",
+        "published": "2026-08-19"
+      }
+    },
+    {
+      "title": "THE DATED GUESS",
+      "title_vi": "CÚ ĐOÁN CÓ HẠN",
+      "headline": "Nobody can forecast the market. Forecast your quarter.",
+      "headline_vi": "Không ai đoán nổi thị trường. Đoán cái quý của bạn thôi.",
+      "a": {
+        "who": "Gibson Biddle",
+        "what": "A product strategy starts as a stupid wild-ass guess and earns its way to a scientific one. His GEM model forces a named proxy metric for growth, engagement and monetization; DHM asks for delight that is hard to copy and margin-enhancing.",
+        "what_vi": "Product strategy bắt đầu là một cú đoán liều, rồi tự kiếm đường thành cú đoán có cơ sở. GEM bắt bạn gọi tên proxy metric cho growth, engagement, monetization; DHM đòi thứ delight mà đối thủ khó copy và còn nới được margin."
+      },
+      "b": {
+        "who": "Benedict Evans",
+        "what": "On token prices every variable is in play: supply, demand, marginal cost, buyer ROI. Model it bottom-up and you get a very pretty spreadsheet and a useless forecast, and anyone naming one of the ten visible futures is just guessing.",
+        "what_vi": "Về giá token thì biến nào cũng đang chạy: cung, cầu, chi phí biên, ROI của người mua. Dựng model từ dưới lên thì được một cái spreadsheet rất đẹp và một dự báo vô dụng, còn ai chỉ tay vào một trong mười tương lai nhìn thấy được thì cũng chỉ là đoán."
+      },
+      "result": "Evans saying we do not know and Biddle writing the guess down are the same discipline in two moods. You cannot be graded on a forecast about the market, so bet on the thing that stays hard to copy across most of those futures, and put a date on the guess you can be graded on.",
+      "result_vi": "Evans nói mình không biết, Biddle thì cứ viết cú đoán ra giấy, hai người đang cùng một kỷ luật ở hai tâm trạng. Không ai chấm điểm bạn được trên một dự báo về thị trường, nên hãy cược vào thứ vẫn khó copy trong phần lớn các tương lai đó, và gắn hạn cho cú đoán mà bạn chấm được.",
+      "result_underline": "put a date on the guess you can be graded on",
+      "result_underline_vi": "gắn hạn cho cú đoán mà bạn chấm được",
+      "tick": "Which of your bets still pays if a token costs a tenth of today's price?",
+      "tick_vi": "Cược nào của bạn vẫn có lời nếu token rẻ đi mười lần?",
+      "tick_bold": [
+        "still pays"
+      ],
+      "tick_bold_vi": [
+        "vẫn có lời"
+      ],
+      "provocation": "Evans is honest that the token market has too many moving variables to forecast. Biddle's answer to not knowing is to write the guess down with a proxy metric attached, so it can get smarter. Uncertainty is an argument for a dated guess, not for waiting.",
+      "provocation_vi": "Evans thẳng thắn rằng thị trường token có quá nhiều biến đang chạy để mà dự báo. Cách Biddle xử lý chuyện không biết là viết cú đoán ra kèm một proxy metric, để nó còn khôn lên được. Không chắc chắn là lý do để đặt một cú đoán có hạn, không phải lý do để ngồi chờ.",
+      "source": {
+        "site": "Ask Gib",
+        "title": "Ask Gib: A Summary of my Product Strategy Frameworks",
+        "url": "https://askgib.substack.com/p/ask-gib-a-summary-of-my-product-strategy",
+        "published": "2025-03-05"
+      }
+    }
+  ]
+}

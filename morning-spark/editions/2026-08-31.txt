@@ -1,0 +1,22 @@
+Morning Spark · Monday, August 31 · Ed. 36
+Machines take the work. You still choose which half you keep.
+
+─────────────────
+01 · Automate the boring half, lose the eye
+Ethan Mollick × Julie Zhuo
+Mollick wants agents to hand the interesting decisions back to people. Zhuo points out that taste is built by the unglamorous repetitions, not the interesting decisions. Automate in the wrong order and you keep the judgment seat without the judgment.
+→ https://www.oneusefulthing.org/p/agency-and-agents
+
+─────────────────
+02 · The agent reads your docs, not your homepage
+Tomasz Tunguz × April Dunford
+Tunguz argues the interface is becoming English, so the real product surface is the schema and the documentation an agent reads. Dunford says positioning lives or dies on the competitive alternatives you name. Put together: the agent now assembles that list for your buyer, from your docs.
+→ https://tomtunguz.com/previously-unmanufacturable/
+
+─────────────────
+03 · Nobody can forecast the market. Forecast your quarter.
+Gibson Biddle × Benedict Evans
+Evans is honest that the token market has too many moving variables to forecast. Biddle's answer to not knowing is to write the guess down with a proxy metric attached, so it can get smarter. Uncertainty is an argument for a dated guess, not for waiting.
+→ https://askgib.substack.com/p/ask-gib-a-summary-of-my-product-strategy
+
+Full styled card → open the session.
