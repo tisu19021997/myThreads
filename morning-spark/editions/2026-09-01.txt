@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, September 1 · Ed. 37
+What nobody is forced to do is the only honest signal.
+
+─────────────────
+01 · An early warning is an unscheduled decision
+John Cutler × Will Larson
+Cutler describes people who are right too early and have nowhere to put it, so every observation turns into a fight about acting now. Larson finds his real bottleneck is not engineering weeks but a dozen decisions nobody scheduled. Build the queue and both problems get smaller.
+→ https://cutlefish.substack.com/p/tbm-438-the-right-but-early-club
+
+─────────────────
+02 · OpenAI could not say what its own product is
+Simon Willison × April Dunford
+OpenAI's own answer for when to use Work instead of Chat told Willison nothing, so he worked out the difference himself and published it. Dunford would say the frame was sitting there to be chosen and the vendor declined. The most-read description of your product may not be the one you wrote.
+→ https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/
+
+─────────────────
+03 · Adoption you mandated is not evidence
+Marty Cagan × Lenny Rachitsky
+Cagan's internal-product user has no alternative, so adoption numbers say nothing about value. Lenny's fit question does not care about the mandate: it asks who would be very disappointed if the thing vanished. Run it on your internal tools and you get the first honest number in a captive market.
+→ https://www.svpg.com/commercial-vs-internal-products/
+
+Full styled card → open the session.

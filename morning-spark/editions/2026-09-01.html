@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 1</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 37</div></div></div>
+<div class="meta label">Tuesday, September 1, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">RIGHT BUT EARLY</span><span data-l="vi">ĐÚNG NHƯNG SỚM</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Inside one company there is a quiet group calling itself the Right But Early Club: people who see the problem months before anyone acts. His point is not that they are ignored. It is that raising something early and demanding action today get treated as the same move, so a weak signal becomes expensive for everyone.</span><span data-l="vi">Trong một công ty có một nhóm lặng lẽ tự gọi mình là Right But Early Club: những người thấy vấn đề trước cả tháng trời. Ý anh không phải là họ bị phớt lờ. Mà là nêu sớm một chuyện và đòi làm ngay hôm nay bị coi như một, nên một tín hiệu mờ thành tốn kém cho tất cả.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Will Larson</div><div class="what"><span data-l="en">A change his team scoped at two weeks of work was being planned as two months. The gap was not engineering time. It was a dozen ambiguous decisions nobody had made, with decision speed quietly treated as a constant you cannot move.</span><span data-l="vi">Một thay đổi team anh ước lượng hai tuần lại được lên kế hoạch thành hai tháng. Khoảng chênh đó không phải thời gian code. Đó là cả tá quyết định mập mờ chưa ai chốt, còn tốc độ ra quyết định thì mặc định bị coi là hằng số không nhúc nhích được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Cutler&#x27;s club has nowhere to file an observation. Larson&#x27;s roadmap has nowhere to file a decision. It is the same missing furniture: <u>a queue for things that are true but not yet due</u>.</span><span data-l="vi">Câu lạc bộ của Cutler không có chỗ nào để cất một quan sát. Roadmap của Larson không có chỗ nào để cất một quyết định. Cùng thiếu đúng một món đồ: <u>một hàng đợi cho những thứ đã đúng nhưng chưa tới hạn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did someone tell you <b>six months early</b> that you filed as <b>an argument</b>?</span><span data-l="vi">Ai đã nói với bạn <b>trước sáu tháng</b>, và bạn xếp nó vào <b>ngăn tranh cãi</b>?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-438-the-right-but-early-club" target="_blank" rel="noopener">The Beautiful Mess — TBM 438: The Right But Early Club &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE STRANGER&#x27;S DOC</span><span data-l="vi">TÀI LIỆU CỦA NGƯỜI LẠ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Simon Willison</div><div class="what"><span data-l="en">OpenAI&#x27;s advice on when to use ChatGPT Work rather than Chat is that Work completes a task with a clear outcome. He calls that almost entirely useless, since he has been doing exactly that in Chat for years. So he found the real answer himself: code execution with internet access, a headless browser, a filesystem that persists between sessions, sub-agents.</span><span data-l="vi">Lời khuyên của OpenAI về khi nào dùng ChatGPT Work thay vì Chat là Work làm xong một task có kết quả rõ ràng. Anh nói cái đó gần như vô dụng, vì anh làm đúng mấy thứ đó trong Chat mấy năm nay rồi. Thế là anh tự tìm ra câu trả lời thật: chạy code có internet, một trình duyệt headless, một filesystem giữ lại giữa các phiên, và sub-agent.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is context. The buyer decides what your product is by the alternatives they set it against, and if you do not pick that frame for them, somebody else picks a worse one.</span><span data-l="vi">Positioning là ngữ cảnh. Người mua quyết định sản phẩm của bạn là gì dựa trên những lựa chọn họ đem ra so sánh, và nếu bạn không chọn cái khung đó giúp họ, người khác sẽ chọn một cái khung tệ hơn.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The vendor shipped a tab and a sentence. A stranger shipped the positioning. When you cannot name the alternative you beat, <u>the market writes your pitch as a feature list</u>.</span><span data-l="vi">Bên bán ship ra một cái tab và một câu mô tả. Một người lạ ship ra positioning. Khi bạn không gọi tên nổi cái mình thắng được, <u>thị trường sẽ viết pitch giùm bạn bằng một danh sách tính năng</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If <b>a stranger</b> wrote your positioning from the feature list, would it <b>beat yours</b>?</span><span data-l="vi">Nếu <b>một người lạ</b> viết positioning cho bạn từ danh sách tính năng, bản đó <b>có hơn bản của bạn</b> không?</span></p></div>
+<div class="src-link"><a href="https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/" target="_blank" rel="noopener">Simon Willison&#x27;s Weblog — Understanding ChatGPT Work &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE CAPTIVE NUMBER</span><span data-l="vi">CON SỐ BỊ NHỐT</span></span></div>
+<div class="eq"><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">The bar for an internal product is lower for one reason: the user cannot pick a competitor, the company is literally paying them to use it. A commercial product has to be so much better than the alternatives that someone switches. He adds a footnote: internal users can now vibe-code their own tools, and that is a form of competition.</span><span data-l="vi">Cái bar của sản phẩm nội bộ thấp hơn vì đúng một lý do: người dùng không thể chọn đối thủ, công ty trả tiền để họ xài nó. Sản phẩm thương mại thì phải hơn các lựa chọn khác đủ nhiều để có người chịu chuyển sang. Ông thêm một cái footnote: người dùng nội bộ giờ có thể tự vibe-code tool của họ, và đó cũng là một dạng cạnh tranh.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Lenny Rachitsky</div><div class="what"><span data-l="en">The fit test he keeps pointing people back to is Sean Ellis&#x27;s survey question: what share of your users would be very disappointed if the product disappeared tomorrow, with roughly forty percent as the rough bar.</span><span data-l="vi">Cái test về fit mà anh cứ kéo mọi người quay lại là câu hỏi khảo sát của Sean Ellis: bao nhiêu phần trăm người dùng sẽ thấy hụt hẫng thật sự nếu ngày mai sản phẩm biến mất, với khoảng bốn mươi phần trăm là cái mốc.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Usage from a captive user measures the mandate, not the product. The disappointment question still works, because <u>nobody can be ordered to miss you</u>.</span><span data-l="vi">Số liệu usage trên một người dùng bị nhốt chỉ đo cái lệnh, không đo sản phẩm. Câu hỏi về sự hụt hẫng thì vẫn chạy, vì <u>không ai bị bắt phải thấy nhớ bạn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which internal tool would anyone be <b>very disappointed</b> to lose tomorrow?</span><span data-l="vi">Cái tool nội bộ nào mà mất ngày mai sẽ có người thấy <b>hụt hẫng thật sự</b>?</span></p></div>
+<div class="src-link"><a href="https://www.svpg.com/commercial-vs-internal-products/" target="_blank" rel="noopener">SVPG — Commercial vs Internal Products &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-08-31.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-08-31</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: John Cutler / Will Larson / Simon Willison / April Dunford / Marty Cagan / Lenny Rachitsky<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: John Cutler / Will Larson / Simon Willison / April Dunford / Marty Cagan / Lenny Rachitsky<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

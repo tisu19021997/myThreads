@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-01",
+      "edition": 37,
+      "note": "Themes: an early signal with nowhere to go is an unscheduled decision, a vendor declining to pick its own frame so a reader writes the positioning, mandated adoption measuring the mandate rather than the product. Sources: The Beautiful Mess (TBM 438, published two days ago), Simon Willison's Weblog (brand new source, never used before, fully readable and posts often), SVPG. Pairings: John Cutler x Will Larson, Simon Willison x April Dunford, Marty Cagan x Lenny Rachitsky -- that last one spends one of the seven remaining roster-only pairs, so six are left (Lenny with Ben Thompson, Brian Balfour, Jason Cohen, Melissa Perri, Paul Graham, Teresa Torres). Rested Stratechery, Lenny's, Product Talk, A Smart Bear, andrewchen, April Dunford, Brian Balfour, One Useful Thing and Tomasz Tunguz as sources. IMPORTANT for tomorrow: stratechery.com daily updates are paywalled to a one-line summary, only the Friday free weekly is readable, so do not plan a spark on a Stratechery Update. elenaverna.com and lennysnewsletter.com truncate at 'Read more' in the feed and are not readable in full. New outside wells opened and barely spent: Simon Willison (simonwillison.net/atom/entries/, full bodies), Will Larson (lethain.com/feeds/, full bodies, many unused: middle-management-roles-were-also-a-trap, generated-demand, make-no-assumptions, agents-as-scaffolding). Unused roster material still on the shelf: April Dunford's storytelling-vs-positioning, andrewchen's every-marketing-channel-sucks and doordash-v1, Melissa Perri back catalogue, askgib's other posts, Paul Graham unused essays.",
+      "sparks": [
+        {
+          "pair": "John Cutler x Will Larson",
+          "headline": "An early warning is an unscheduled decision",
+          "source": "The Beautiful Mess — TBM 438: The Right But Early Club",
+          "url": "https://cutlefish.substack.com/p/tbm-438-the-right-but-early-club"
+        },
+        {
+          "pair": "Simon Willison x April Dunford",
+          "headline": "OpenAI could not say what its own product is",
+          "source": "Simon Willison's Weblog — Understanding ChatGPT Work",
+          "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+        },
+        {
+          "pair": "Marty Cagan x Lenny Rachitsky",
+          "headline": "Adoption you mandated is not evidence",
+          "source": "SVPG — Commercial vs Internal Products",
+          "url": "https://www.svpg.com/commercial-vs-internal-products/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-31",
       "edition": 36,
       "note": "Themes: the tedious work as the place judgment is built, documentation as the surface an agent judges your product on, a dated guess as the only forecast that can be graded. Sources: One Useful Thing (Mollick, published today), Tomasz Tunguz, Ask Gib (Gibson Biddle, never used as a source before). Pairings: Ethan Mollick x Julie Zhuo, Tomasz Tunguz x April Dunford, Gibson Biddle x Benedict Evans. Rested Stratechery, cutlefish, A Smart Bear, SVPG, Lenny's, Product Talk and andrewchen entirely. Note for tomorrow: roster-internal pairings stay exhausted except the seven involving Lenny Rachitsky, so keep sourcing outside pieces read in full. Fresh outside wells opened today and only half spent: Ethan Mollick (oneusefulthing.org), Tomasz Tunguz (tomtunguz.com, full bodies in RSS, many unused AI-economics posts), Julie Zhuo (lg.substack.com back catalogue), Benedict Evans (ben-evans.com). Unused roster material still on the shelf: cutlefish TBM 438 The Right But Early Club (strong, deliberately rested today because cutlefish ran yesterday), askgib's other 19 posts, SVPG commercial-vs-internal-products, April Dunford's market-segmentation. Warning: Lenny's Newsletter podcast posts are now paywalled past the show notes, and aprildunford.com/blog?format=rss returns an empty feed, so fetch her posts by direct URL.",
