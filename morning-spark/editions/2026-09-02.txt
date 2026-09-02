@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, September 2 · Ed. 38
+One live question, a visible trail, a page nobody reads.
+
+─────────────────
+01 · A walk only works if you brought a question
+Benn Stancil × Jason Cohen
+Stancil argues ideas come from banging one unfinished thought against random input, which is why wandering works and staring does not. Cohen says a startup gets one metric and should ignore the rest. Both need the same thing before anything else: something fixed for the world to strike.
+→ https://benn.substack.com/p/how-to-have-ideas
+
+─────────────────
+02 · Hard to eval means hard to trust
+Hamel Husain × Teresa Torres
+Husain says a product that is hard to eval is hard for its users to check, and the fix is provenance in the interface: show where each part came from, in units small enough to accept or reject. Torres has been asking teams for exactly that evidence for a decade. Verification is not QA arriving late, it is the design.
+→ https://hamel.dev/blog/posts/eval-smell/
+
+─────────────────
+03 · Fewer visits, the same influence
+Rand Fishkin × Brian Balfour
+Fishkin kept investing in a website that gets fewer visits every year, because the crawlers answering for him quote whatever is on it, and stale pages were producing wrong answers about his own product. Balfour's frameworks price channels by what a customer costs to acquire. When the click disappears and the influence does not, the page is not a channel any more, it is the record.
+→ https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/
+
+Full styled card → open the session.

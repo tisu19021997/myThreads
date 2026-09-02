@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 2</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 38</div></div></div>
+<div class="meta label">Wednesday, September 2, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">MANUFACTURED COLLISIONS</span><span data-l="vi">VA CHẠM CÓ CHỦ Ý</span></span></div>
+<div class="eq"><div class="term"><div class="who">Benn Stancil</div><div class="what"><span data-l="en">He describes a model as an enormous Codenames board. Ask it about asparagus and it never wanders, because it already knows too much nearby to have to reach. Our heads are the opposite, sparse and slightly random, which is why the walk beats the staring. But the walk only pays if you carry one half-finished thought for the world to strike itself against.</span><span data-l="vi">Anh ví một model như một bàn Codenames khổng lồ. Hỏi nó về măng tây thì nó không bao giờ đi lạc, vì quanh đó nó đã biết quá nhiều, đâu cần với xa. Đầu mình thì ngược lại, thưa và hơi lộn xộn, nên đi dạo ăn đứt ngồi nhìn chằm chằm vào việc. Nhưng đi dạo chỉ có giá khi bạn mang theo một ý nghĩ còn dang dở để thế giới va vào.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">A startup can focus on only one metric, so pick it and ignore everything else. Small tweaks spread across many things add up to nothing; the only moves worth making are the ones big enough to show up in that single number.</span><span data-l="vi">Một startup chỉ tập trung được vào đúng một metric, nên chọn lấy một cái rồi bỏ qua hết phần còn lại. Chỉnh vặt rải khắp nơi thì cộng lại bằng không; chỉ những nước đi đủ lớn để hiện ra trong đúng con số đó mới đáng làm.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Focus is sold as a way to finish more. Read it Stancil&#x27;s way and it is an input to invention: one live question is the only thing a random morning can stick to. Carry ten and every new thing gets matched to its nearest neighbour, <u>which is exactly what the machine does</u>.</span><span data-l="vi">Focus hay được bán như cách làm xong nhiều việc hơn. Đọc theo kiểu Stancil thì nó là nguyên liệu để nghĩ ra cái mới: một câu hỏi đang mở là thứ duy nhất mà một buổi sáng ngẫu nhiên có thể bám vào. Ôm mười câu thì thứ gì mới cũng bị ghép với cái gần nhất, <u>đúng y cái máy vẫn làm</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which <b>single unfinished question</b> are you carrying into today&#x27;s noise?</span><span data-l="vi">Hôm nay bạn mang <b>đúng một câu hỏi chưa xong</b> nào vào giữa mớ ồn ào?</span></p></div>
+<div class="src-link"><a href="https://benn.substack.com/p/how-to-have-ideas" target="_blank" rel="noopener">benn.substack.com — How to have ideas &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">PRODUCT SMELL</span><span data-l="vi">MÙI CỦA SẢN PHẨM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Hamel Husain</div><div class="what"><span data-l="en">Three years inside AI evals, and the objection he hears most is that our product is hard to eval. He calls that a product smell: an artifact you cannot verify is one your user cannot verify either, so they either redo the work or trust it blind. Before AI, checking happened by itself while you did the job. Now checking is the bottleneck, and it has to be designed.</span><span data-l="vi">Ba năm làm AI evals, câu phản đối anh nghe nhiều nhất là sản phẩm của tụi mình khó eval lắm. Anh gọi đó là mùi của sản phẩm: thứ bạn không kiểm được thì user cũng không kiểm được, nên họ hoặc làm lại từ đầu hoặc tin đại. Trước AI, việc kiểm tự diễn ra trong lúc mình làm. Giờ kiểm mới là nút thắt, và phải thiết kế nó ra.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery: a team decides on evidence it can point at, assumption tests scoped small enough to come back this week, and the reasoning left visible so anyone can argue with it.</span><span data-l="vi">Continuous discovery: team ra quyết định dựa trên bằng chứng chỉ tay vào được, assumption test nhỏ đủ để tuần này có kết quả, và cách suy luận để lộ ra ngoài cho ai cũng cãi được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Torres made the evidence a thing you could point at. An agent hands over the conclusion with the evidence deleted, and then we wonder why nobody trusts it. <u>Put the trail in the interface and the eval writes itself</u>.</span><span data-l="vi">Torres biến bằng chứng thành thứ chỉ tay vào được. Agent thì đưa ra kết luận rồi xoá sạch bằng chứng, xong mình ngồi thắc mắc sao chẳng ai tin. <u>Đưa cái dấu vết vào thẳng giao diện thì eval tự nó viết ra</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">To check your product&#x27;s last answer, what would a user <b>have to redo</b>?</span><span data-l="vi">Muốn kiểm câu trả lời gần nhất của sản phẩm, user <b>phải làm lại những gì</b>?</span></p></div>
+<div class="src-link"><a href="https://hamel.dev/blog/posts/eval-smell/" target="_blank" rel="noopener">hamel.dev — &quot;It&#x27;s Hard to Eval&quot; Is a Product Smell &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">ZERO CLICK</span><span data-l="vi">KHÔNG CÒN CÚ CLICK</span></span></div>
+<div class="eq"><div class="term"><div class="who">Rand Fishkin</div><div class="what"><span data-l="en">Search, social and AI tools have all stopped sending traffic, and he still spent months rebuilding SparkToro&#x27;s site from scratch. The reason is that those tools answer from what they crawl. He found the AI answers about his own company were wrong because they were quoting old pages nobody had updated, and the site is still the one place a purchase actually happens.</span><span data-l="vi">Search, social và mấy con AI đều đã ngừng đẩy traffic về, vậy mà anh vẫn bỏ mấy tháng làm lại website SparkToro từ đầu. Lý do: mấy công cụ đó trả lời dựa trên thứ chúng crawl được. Anh phát hiện câu trả lời AI về chính công ty mình bị sai, vì chúng đang trích mấy trang cũ không ai cập nhật, và website vẫn là chỗ duy nhất người ta thật sự xuống tiền.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Channel model fit: channels are decided by your model. How you charge and your average revenue per user set the CAC you can afford, and a channel that does not fit that arithmetic will never carry the business.</span><span data-l="vi">Channel model fit: kênh do model của bạn quyết định. Cách bạn thu tiền và doanh thu trung bình trên mỗi user định ra mức CAC bạn gánh nổi, và kênh nào không khớp phép tính đó thì không bao giờ nuôi nổi công ty.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Balfour&#x27;s arithmetic prices a visit. Zero-click deletes the visit and keeps the influence, so the page stops being acquisition spend and becomes inventory the machines quote from. The cheapest channel left is <u>a correct page nobody reads</u>.</span><span data-l="vi">Phép tính của Balfour định giá một lượt ghé. Zero-click xoá luôn lượt ghé mà giữ nguyên ảnh hưởng, nên cái trang không còn là tiền acquisition nữa mà thành kho hàng để máy trích ra. Kênh rẻ nhất còn lại là <u>một trang đúng mà không ai đọc</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What do the AI answers say you do, and <b>when was that page last edited</b>?</span><span data-l="vi">Mấy con AI đang nói bạn làm gì, và <b>trang đó sửa lần cuối bao giờ</b>?</span></p></div>
+<div class="src-link"><a href="https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/" target="_blank" rel="noopener">SparkToro — Does Your Website Still Matter in the Zero-Click Era? &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-01.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-01</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Benn Stancil / Jason Cohen / Hamel Husain / Teresa Torres / Rand Fishkin / Brian Balfour<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Benn Stancil / Jason Cohen / Hamel Husain / Teresa Torres / Rand Fishkin / Brian Balfour<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

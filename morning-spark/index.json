@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-02",
+      "edition": 38,
+      "note": "Themes: a single unfinished question as the precondition for a useful random input, verification designed into the interface rather than bolted on as eval, the website as the record machines quote instead of a channel that delivers visits. Sources: benn.substack.com (Benn Stancil, brand new well, full bodies in the RSS, weekly, data-world writer), hamel.dev (Hamel Husain, brand new well, full posts on the site, AI evals), SparkToro (Rand Fishkin, brand new well, 5-Minute Whiteboard posts carry a full transcript). Pairings: Benn Stancil x Jason Cohen, Hamel Husain x Teresa Torres, Rand Fishkin x Brian Balfour. Rested every source used in the last three days: cutlefish, Simon Willison, SVPG, One Useful Thing, Tomasz Tunguz, askgib, Stratechery, Lenny's, Product Talk, andrewchen, April Dunford. Also deliberately rested Will Larson and Julie Zhuo, both spent within the last two days -- Zhuo's 'You Cannot Mandate an AI Transformation' (Sep 1) is strong but collides with Ed. 37's mandated-adoption spark, so it stays on the shelf. Roster-only pairings left: six involving Lenny Rachitsky (Ben Thompson, Brian Balfour, Jason Cohen, Melissa Perri, Paul Graham, Teresa Torres). New wells with plenty unspent: benn.substack.com (the-model-is-man-made, so-thats-what-alignment-means, brute-intelligence), hamel.dev (eval-smell used, revenge-of-the-data-scientist and evals-skills unused), eugeneyan.com (212 posts, none used), SparkToro. Confirmed again: stratechery.com dailies are paywalled, lennysnewsletter.com truncates in the feed, producttalk.org/feed/ 301s so use producttalk.org/feed.",
+      "sparks": [
+        {
+          "pair": "Benn Stancil x Jason Cohen",
+          "headline": "A walk only works if you brought a question",
+          "source": "benn.substack.com — How to have ideas",
+          "url": "https://benn.substack.com/p/how-to-have-ideas"
+        },
+        {
+          "pair": "Hamel Husain x Teresa Torres",
+          "headline": "Hard to eval means hard to trust",
+          "source": "hamel.dev — \"It's Hard to Eval\" Is a Product Smell",
+          "url": "https://hamel.dev/blog/posts/eval-smell/"
+        },
+        {
+          "pair": "Rand Fishkin x Brian Balfour",
+          "headline": "Fewer visits, the same influence",
+          "source": "SparkToro — Does Your Website Still Matter in the Zero-Click Era?",
+          "url": "https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-01",
       "edition": 37,
       "note": "Themes: an early signal with nowhere to go is an unscheduled decision, a vendor declining to pick its own frame so a reader writes the positioning, mandated adoption measuring the mandate rather than the product. Sources: The Beautiful Mess (TBM 438, published two days ago), Simon Willison's Weblog (brand new source, never used before, fully readable and posts often), SVPG. Pairings: John Cutler x Will Larson, Simon Willison x April Dunford, Marty Cagan x Lenny Rachitsky -- that last one spends one of the seven remaining roster-only pairs, so six are left (Lenny with Ben Thompson, Brian Balfour, Jason Cohen, Melissa Perri, Paul Graham, Teresa Torres). Rested Stratechery, Lenny's, Product Talk, A Smart Bear, andrewchen, April Dunford, Brian Balfour, One Useful Thing and Tomasz Tunguz as sources. IMPORTANT for tomorrow: stratechery.com daily updates are paywalled to a one-line summary, only the Friday free weekly is readable, so do not plan a spark on a Stratechery Update. elenaverna.com and lennysnewsletter.com truncate at 'Read more' in the feed and are not readable in full. New outside wells opened and barely spent: Simon Willison (simonwillison.net/atom/entries/, full bodies), Will Larson (lethain.com/feeds/, full bodies, many unused: middle-management-roles-were-also-a-trap, generated-demand, make-no-assumptions, agents-as-scaffolding). Unused roster material still on the shelf: April Dunford's storytelling-vs-positioning, andrewchen's every-marketing-channel-sucks and doordash-v1, Melissa Perri back catalogue, askgib's other posts, Paul Graham unused essays.",

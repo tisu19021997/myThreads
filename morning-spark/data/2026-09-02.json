@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-02",
+  "edition": 38,
+  "framing": "One live question, a visible trail, a page nobody reads.",
+  "framing_vi": "Một câu hỏi đang mở, một dấu vết nhìn được, một trang không ai đọc.",
+  "note": "Themes: a single unfinished question as the precondition for a useful random input, verification designed into the interface rather than bolted on as eval, the website as the record machines quote instead of a channel that delivers visits. Sources: benn.substack.com (Benn Stancil, brand new well, full bodies in the RSS, weekly, data-world writer), hamel.dev (Hamel Husain, brand new well, full posts on the site, AI evals), SparkToro (Rand Fishkin, brand new well, 5-Minute Whiteboard posts carry a full transcript). Pairings: Benn Stancil x Jason Cohen, Hamel Husain x Teresa Torres, Rand Fishkin x Brian Balfour. Rested every source used in the last three days: cutlefish, Simon Willison, SVPG, One Useful Thing, Tomasz Tunguz, askgib, Stratechery, Lenny's, Product Talk, andrewchen, April Dunford. Also deliberately rested Will Larson and Julie Zhuo, both spent within the last two days -- Zhuo's 'You Cannot Mandate an AI Transformation' (Sep 1) is strong but collides with Ed. 37's mandated-adoption spark, so it stays on the shelf. Roster-only pairings left: six involving Lenny Rachitsky (Ben Thompson, Brian Balfour, Jason Cohen, Melissa Perri, Paul Graham, Teresa Torres). New wells with plenty unspent: benn.substack.com (the-model-is-man-made, so-thats-what-alignment-means, brute-intelligence), hamel.dev (eval-smell used, revenge-of-the-data-scientist and evals-skills unused), eugeneyan.com (212 posts, none used), SparkToro. Confirmed again: stratechery.com dailies are paywalled, lennysnewsletter.com truncates in the feed, producttalk.org/feed/ 301s so use producttalk.org/feed.",
+  "sparks": [
+    {
+      "title": "MANUFACTURED COLLISIONS",
+      "title_vi": "VA CHẠM CÓ CHỦ Ý",
+      "headline": "A walk only works if you brought a question",
+      "headline_vi": "Đi dạo chỉ ăn thua khi bạn mang theo một câu hỏi",
+      "a": {
+        "who": "Benn Stancil",
+        "what": "He describes a model as an enormous Codenames board. Ask it about asparagus and it never wanders, because it already knows too much nearby to have to reach. Our heads are the opposite, sparse and slightly random, which is why the walk beats the staring. But the walk only pays if you carry one half-finished thought for the world to strike itself against.",
+        "what_vi": "Anh ví một model như một bàn Codenames khổng lồ. Hỏi nó về măng tây thì nó không bao giờ đi lạc, vì quanh đó nó đã biết quá nhiều, đâu cần với xa. Đầu mình thì ngược lại, thưa và hơi lộn xộn, nên đi dạo ăn đứt ngồi nhìn chằm chằm vào việc. Nhưng đi dạo chỉ có giá khi bạn mang theo một ý nghĩ còn dang dở để thế giới va vào."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "A startup can focus on only one metric, so pick it and ignore everything else. Small tweaks spread across many things add up to nothing; the only moves worth making are the ones big enough to show up in that single number.",
+        "what_vi": "Một startup chỉ tập trung được vào đúng một metric, nên chọn lấy một cái rồi bỏ qua hết phần còn lại. Chỉnh vặt rải khắp nơi thì cộng lại bằng không; chỉ những nước đi đủ lớn để hiện ra trong đúng con số đó mới đáng làm."
+      },
+      "result": "Focus is sold as a way to finish more. Read it Stancil's way and it is an input to invention: one live question is the only thing a random morning can stick to. Carry ten and every new thing gets matched to its nearest neighbour, which is exactly what the machine does.",
+      "result_vi": "Focus hay được bán như cách làm xong nhiều việc hơn. Đọc theo kiểu Stancil thì nó là nguyên liệu để nghĩ ra cái mới: một câu hỏi đang mở là thứ duy nhất mà một buổi sáng ngẫu nhiên có thể bám vào. Ôm mười câu thì thứ gì mới cũng bị ghép với cái gần nhất, đúng y cái máy vẫn làm.",
+      "result_underline": "which is exactly what the machine does",
+      "result_underline_vi": "đúng y cái máy vẫn làm",
+      "tick": "Which single unfinished question are you carrying into today's noise?",
+      "tick_vi": "Hôm nay bạn mang đúng một câu hỏi chưa xong nào vào giữa mớ ồn ào?",
+      "tick_bold": ["single unfinished question"],
+      "tick_bold_vi": ["đúng một câu hỏi chưa xong"],
+      "provocation": "Stancil argues ideas come from banging one unfinished thought against random input, which is why wandering works and staring does not. Cohen says a startup gets one metric and should ignore the rest. Both need the same thing before anything else: something fixed for the world to strike.",
+      "provocation_vi": "Stancil cho rằng ý tưởng đến từ việc đem một ý nghĩ dang dở va vào những thứ ngẫu nhiên, nên đi lang thang có tác dụng còn ngồi nhìn thì không. Cohen thì bảo startup chỉ có một metric, còn lại bỏ hết. Cả hai đều cần đúng một thứ trước tiên: một điểm cố định để thế giới va vào.",
+      "source": {
+        "site": "benn.substack.com",
+        "title": "How to have ideas",
+        "url": "https://benn.substack.com/p/how-to-have-ideas",
+        "published": "2026-08-28"
+      }
+    },
+    {
+      "title": "PRODUCT SMELL",
+      "title_vi": "MÙI CỦA SẢN PHẨM",
+      "headline": "Hard to eval means hard to trust",
+      "headline_vi": "Khó eval nghĩa là khó tin",
+      "a": {
+        "who": "Hamel Husain",
+        "what": "Three years inside AI evals, and the objection he hears most is that our product is hard to eval. He calls that a product smell: an artifact you cannot verify is one your user cannot verify either, so they either redo the work or trust it blind. Before AI, checking happened by itself while you did the job. Now checking is the bottleneck, and it has to be designed.",
+        "what_vi": "Ba năm làm AI evals, câu phản đối anh nghe nhiều nhất là sản phẩm của tụi mình khó eval lắm. Anh gọi đó là mùi của sản phẩm: thứ bạn không kiểm được thì user cũng không kiểm được, nên họ hoặc làm lại từ đầu hoặc tin đại. Trước AI, việc kiểm tự diễn ra trong lúc mình làm. Giờ kiểm mới là nút thắt, và phải thiết kế nó ra."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery: a team decides on evidence it can point at, assumption tests scoped small enough to come back this week, and the reasoning left visible so anyone can argue with it.",
+        "what_vi": "Continuous discovery: team ra quyết định dựa trên bằng chứng chỉ tay vào được, assumption test nhỏ đủ để tuần này có kết quả, và cách suy luận để lộ ra ngoài cho ai cũng cãi được."
+      },
+      "result": "Torres made the evidence a thing you could point at. An agent hands over the conclusion with the evidence deleted, and then we wonder why nobody trusts it. Put the trail in the interface and the eval writes itself.",
+      "result_vi": "Torres biến bằng chứng thành thứ chỉ tay vào được. Agent thì đưa ra kết luận rồi xoá sạch bằng chứng, xong mình ngồi thắc mắc sao chẳng ai tin. Đưa cái dấu vết vào thẳng giao diện thì eval tự nó viết ra.",
+      "result_underline": "Put the trail in the interface and the eval writes itself",
+      "result_underline_vi": "Đưa cái dấu vết vào thẳng giao diện thì eval tự nó viết ra",
+      "tick": "To check your product's last answer, what would a user have to redo?",
+      "tick_vi": "Muốn kiểm câu trả lời gần nhất của sản phẩm, user phải làm lại những gì?",
+      "tick_bold": ["have to redo"],
+      "tick_bold_vi": ["phải làm lại những gì"],
+      "provocation": "Husain says a product that is hard to eval is hard for its users to check, and the fix is provenance in the interface: show where each part came from, in units small enough to accept or reject. Torres has been asking teams for exactly that evidence for a decade. Verification is not QA arriving late, it is the design.",
+      "provocation_vi": "Husain nói sản phẩm khó eval thì user cũng khó kiểm, và cách sửa là để nguồn gốc ngay trong giao diện: chỉ rõ từng phần đến từ đâu, chia nhỏ đủ để nhận hoặc bỏ. Torres thì đòi team đúng loại bằng chứng đó cả chục năm nay. Kiểm chứng không phải QA đến muộn, nó là phần thiết kế.",
+      "source": {
+        "site": "hamel.dev",
+        "title": "\"It's Hard to Eval\" Is a Product Smell",
+        "url": "https://hamel.dev/blog/posts/eval-smell/",
+        "published": "2026-06-29"
+      }
+    },
+    {
+      "title": "ZERO CLICK",
+      "title_vi": "KHÔNG CÒN CÚ CLICK",
+      "headline": "Fewer visits, the same influence",
+      "headline_vi": "Ít lượt ghé hơn, ảnh hưởng vẫn nguyên",
+      "a": {
+        "who": "Rand Fishkin",
+        "what": "Search, social and AI tools have all stopped sending traffic, and he still spent months rebuilding SparkToro's site from scratch. The reason is that those tools answer from what they crawl. He found the AI answers about his own company were wrong because they were quoting old pages nobody had updated, and the site is still the one place a purchase actually happens.",
+        "what_vi": "Search, social và mấy con AI đều đã ngừng đẩy traffic về, vậy mà anh vẫn bỏ mấy tháng làm lại website SparkToro từ đầu. Lý do: mấy công cụ đó trả lời dựa trên thứ chúng crawl được. Anh phát hiện câu trả lời AI về chính công ty mình bị sai, vì chúng đang trích mấy trang cũ không ai cập nhật, và website vẫn là chỗ duy nhất người ta thật sự xuống tiền."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Channel model fit: channels are decided by your model. How you charge and your average revenue per user set the CAC you can afford, and a channel that does not fit that arithmetic will never carry the business.",
+        "what_vi": "Channel model fit: kênh do model của bạn quyết định. Cách bạn thu tiền và doanh thu trung bình trên mỗi user định ra mức CAC bạn gánh nổi, và kênh nào không khớp phép tính đó thì không bao giờ nuôi nổi công ty."
+      },
+      "result": "Balfour's arithmetic prices a visit. Zero-click deletes the visit and keeps the influence, so the page stops being acquisition spend and becomes inventory the machines quote from. The cheapest channel left is a correct page nobody reads.",
+      "result_vi": "Phép tính của Balfour định giá một lượt ghé. Zero-click xoá luôn lượt ghé mà giữ nguyên ảnh hưởng, nên cái trang không còn là tiền acquisition nữa mà thành kho hàng để máy trích ra. Kênh rẻ nhất còn lại là một trang đúng mà không ai đọc.",
+      "result_underline": "a correct page nobody reads",
+      "result_underline_vi": "một trang đúng mà không ai đọc",
+      "tick": "What do the AI answers say you do, and when was that page last edited?",
+      "tick_vi": "Mấy con AI đang nói bạn làm gì, và trang đó sửa lần cuối bao giờ?",
+      "tick_bold": ["when was that page last edited"],
+      "tick_bold_vi": ["trang đó sửa lần cuối bao giờ"],
+      "provocation": "Fishkin kept investing in a website that gets fewer visits every year, because the crawlers answering for him quote whatever is on it, and stale pages were producing wrong answers about his own product. Balfour's frameworks price channels by what a customer costs to acquire. When the click disappears and the influence does not, the page is not a channel any more, it is the record.",
+      "provocation_vi": "Fishkin vẫn đổ tiền vào một website mỗi năm một ít khách, vì đám crawler đang trả lời thay anh trích đúng những gì nằm trên đó, và mấy trang cũ đang tạo ra câu trả lời sai về chính sản phẩm của anh. Khung của Balfour định giá kênh theo chi phí kiếm một khách. Khi cú click biến mất mà ảnh hưởng thì không, cái trang đó hết là một kênh, nó là hồ sơ gốc.",
+      "source": {
+        "site": "SparkToro",
+        "title": "Does Your Website Still Matter in the Zero-Click Era?",
+        "url": "https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/",
+        "published": "2026-08-14"
+      }
+    }
+  ]
+}
