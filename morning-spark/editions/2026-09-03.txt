@@ -1,0 +1,22 @@
+Morning Spark · Thursday, September 3 · Ed. 39
+Judge without the story. Write the correction down. Decide, then build.
+
+─────────────────
+01 · Your best reviewer is the one you starve of context
+Anshu Chimala × Paul Graham
+Show one screen to someone who has no idea what it cost you. Whatever they do not react to, you were defending, not designing.
+→ https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world
+
+─────────────────
+02 · Most AI use is acquisition. Almost none of it is retention.
+Eugene Yan × Andrew Chen
+Open yesterday's session and count the times you typed a version of 'no, again'. That count is your leak rate.
+→ https://eugeneyan.com/writing/working-with-ai/
+
+─────────────────
+03 · Two weeks of work was scheduled as two months
+Will Larson × Melissa Perri
+Take the project you keep re-estimating and list the decisions still open. If that list is longer than the task list, the estimate was never the problem.
+→ https://lethain.com/decisions-not-dates/
+
+Full styled card → open the session.

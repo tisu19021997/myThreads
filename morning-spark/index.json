@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-03",
+      "edition": 39,
+      "note": "Themes: taste as whatever survives a reviewer denied the effort, an unwritten correction as an acquisition cost paid twice, the schedule gap as a stack of unmade decisions. Sources: Lenny's Newsletter (Anshu Chimala guest post, Sep 1, full body in the RSS), eugeneyan.com (brand new well, 212 posts, none used before today), lethain.com (Will Larson, full bodies in the feed). Pairings: Anshu Chimala x Paul Graham, Eugene Yan x Andrew Chen, Will Larson x Melissa Perri -- second halves picked deliberately from the best-rested roster members, since Ed 36/37/38 between them spent Teresa Torres, Jason Cohen, Brian Balfour, April Dunford, Marty Cagan, Lenny Rachitsky, John Cutler, Gibson Biddle and Benedict Evans. Rested every source used in the last three days: benn.substack.com, hamel.dev, SparkToro, cutlefish, simonwillison.net, SVPG, One Useful Thing, tomtunguz.com, askgib. Deliberately skipped Teresa Torres's 'AI Evals: A Hands-On Guide for Product Teams' (Sep 2, strong) because Ed 38 already ran an evals spark -- it stays on the shelf and is the obvious pick once a week has passed. Also skipped Tomasz Tunguz's 'AI Productivity Doesn't Mean What I Thought It Means' (Sep 2, quantified and good) only because Tunguz was the source on Aug 31; worth taking in a couple of days. Feed notes for tomorrow: brianbalfour.com/feed.xml now 404s, aprildunford.com/blog-feed.xml 404s too, melissaperri.com/blog?format=rss has an undefined-entity XML error so parse it leniently, and kellblog.com truncates post bodies in the feed since it added subscriptions. New wells opened and barely spent: eugeneyan.com (working-with-ai used, product-evals, principal, semantic-ids, cybersecurity-evals all unused), newsletter.pragmaticengineer.com (Gergely Orosz, never used, full bodies, why-ramp-built-inspect and the Casey Muratori performance piece are both strong), kellblog.com (Dave Kellogg, never used, but paywalled past ~350 words). Still on the shelf: lethain.com middle-management-roles-were-also-a-trap and generated-demand, Julie Zhuo's Eye Hand AI letter, Benedict Evans on token pricing, Lenny's persistent-AI-coworkers.",
+      "sparks": [
+        {
+          "pair": "Anshu Chimala x Paul Graham",
+          "headline": "Your best reviewer is the one you starve of context",
+          "source": "Lenny's Newsletter — How to turn your AI into a world-class designer",
+          "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world"
+        },
+        {
+          "pair": "Eugene Yan x Andrew Chen",
+          "headline": "Most AI use is acquisition. Almost none of it is retention.",
+          "source": "Eugene Yan — How to Work and Compound with AI",
+          "url": "https://eugeneyan.com/writing/working-with-ai/"
+        },
+        {
+          "pair": "Will Larson x Melissa Perri",
+          "headline": "Two weeks of work was scheduled as two months",
+          "source": "Irrational Exuberance — Roadmap decisions rather than dates.",
+          "url": "https://lethain.com/decisions-not-dates/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-02",
       "edition": 38,
       "note": "Themes: a single unfinished question as the precondition for a useful random input, verification designed into the interface rather than bolted on as eval, the website as the record machines quote instead of a channel that delivers visits. Sources: benn.substack.com (Benn Stancil, brand new well, full bodies in the RSS, weekly, data-world writer), hamel.dev (Hamel Husain, brand new well, full posts on the site, AI evals), SparkToro (Rand Fishkin, brand new well, 5-Minute Whiteboard posts carry a full transcript). Pairings: Benn Stancil x Jason Cohen, Hamel Husain x Teresa Torres, Rand Fishkin x Brian Balfour. Rested every source used in the last three days: cutlefish, Simon Willison, SVPG, One Useful Thing, Tomasz Tunguz, askgib, Stratechery, Lenny's, Product Talk, andrewchen, April Dunford. Also deliberately rested Will Larson and Julie Zhuo, both spent within the last two days -- Zhuo's 'You Cannot Mandate an AI Transformation' (Sep 1) is strong but collides with Ed. 37's mandated-adoption spark, so it stays on the shelf. Roster-only pairings left: six involving Lenny Rachitsky (Ben Thompson, Brian Balfour, Jason Cohen, Melissa Perri, Paul Graham, Teresa Torres). New wells with plenty unspent: benn.substack.com (the-model-is-man-made, so-thats-what-alignment-means, brute-intelligence), hamel.dev (eval-smell used, revenge-of-the-data-scientist and evals-skills unused), eugeneyan.com (212 posts, none used), SparkToro. Confirmed again: stratechery.com dailies are paywalled, lennysnewsletter.com truncates in the feed, producttalk.org/feed/ 301s so use producttalk.org/feed.",
