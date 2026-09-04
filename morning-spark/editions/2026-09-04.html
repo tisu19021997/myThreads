@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 4</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 40</div></div></div>
+<div class="meta label">Friday, September 4, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">DESIRE PATH</span><span data-l="vi">LỐI MÒN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Benedict Evans</div><div class="what"><span data-l="en">A big company runs hundreds of apps and is still full of repetitive work. AI makes the tool cheap, but most people are not tool builders: the task sits in plain sight and the person doing it cannot see it. And once you do see it, the workflow touches 500 people across five departments, so it is still a purchase and an eighteen-month decision.</span><span data-l="vi">Một công ty lớn chạy hàng trăm app mà vẫn đầy việc lặp đi lặp lại. AI làm tool rẻ đi, nhưng đa số người không phải dân build tool: việc cần tự động hoá nằm ngay trước mặt mà chính người đang làm nó không thấy. Mà thấy rồi thì workflow đó vẫn dính tới 500 người ở năm phòng ban, nên vẫn là một cái quyết định mua kéo dài mười tám tháng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">Empowered teams are given problems to solve, not features to build. The work that matters is discovering the right solution to a problem worth solving.</span><span data-l="vi">Empowered team được giao vấn đề để giải, không phải danh sách feature để build. Phần đáng giá là tìm ra giải pháp đúng cho một vấn đề đáng giải.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">When the build is free, a team&#x27;s ceiling is the number of problems it can see. Giving everyone a model is not a strategy. <u>It is Lotus 1-2-3 in 1983</u>.</span><span data-l="vi">Khi build gần như miễn phí, trần của một team là số vấn đề nó nhìn ra được. Phát model cho cả công ty không phải là chiến lược. <u>Đó là Lotus 1-2-3 năm 1983</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which repeated hour of your week have you <b>stopped noticing</b>?</span><span data-l="vi">Giờ nào lặp lại mỗi tuần mà bạn đã quen tới mức <b>không còn thấy</b>?</span></p></div>
+<div class="src-link"><a href="https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation" target="_blank" rel="noopener">Benedict Evans — AI, tools and transformation &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">ACCESS CEILING</span><span data-l="vi">TRẦN LÀ ACCESS</span></span></div>
+<div class="eq"><div class="term"><div class="who">Gergely Orosz</div><div class="what"><span data-l="en">Ramp built its own background coding agent, Inspect, and 75 percent of merged pull requests now come from it. Not a better model: remote sandboxes carrying the same access a Ramp engineer has, so the agent closes its own loop with tests, telemetry, feature flags, a read-only prod replica and screenshots. Their framing is that the only constraint left on the agent is model intelligence, not missing tools or access.</span><span data-l="vi">Ramp tự build agent code chạy nền riêng, tên Inspect, và 75 phần trăm pull request được merge giờ đến từ nó. Không phải nhờ model xịn hơn: nó chạy trên sandbox từ xa mang đúng quyền của một engineer Ramp, nên tự đóng được vòng lặp bằng test, telemetry, feature flag, bản replica read-only của prod và screenshot. Đội Ramp nói thẳng: thứ duy nhất còn giới hạn agent là độ thông minh của model, chứ không phải thiếu tool hay thiếu quyền.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Integration wins while a product is not yet good enough on the dimension customers care about. The modular vendor only takes over once it is.</span><span data-l="vi">Tích hợp thắng khi sản phẩm chưa đủ tốt ở đúng cái chiều khách hàng quan tâm. Bên bán module rời chỉ chiếm chỗ sau khi nó đã đủ tốt.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The lab sells you the intelligence. Nobody can sell you your own plumbing. <u>An agent&#x27;s ceiling is your internal API surface</u>.</span><span data-l="vi">Lab bán cho bạn phần thông minh. Không ai bán cho bạn được đường ống nội bộ của chính bạn. <u>Trần của một agent là bề mặt API bên trong công ty bạn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What could an agent not check for you today, because it <b>cannot log in</b>?</span><span data-l="vi">Hôm nay agent không tự kiểm được việc gì, chỉ vì nó <b>không đăng nhập được</b>?</span></p></div>
+<div class="src-link"><a href="https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect" target="_blank" rel="noopener">The Pragmatic Engineer — Why Ramp built its own in-house coding agent, Inspect &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE SPREAD</span><span data-l="vi">KHOẢNG CHÊNH</span></span></div>
+<div class="eq"><div class="term"><div class="who">Tomasz Tunguz</div><div class="what"><span data-l="en">Meta now sells the same model at two prices: $1.25 and $4.25 per million tokens if your prompts are never trained on, $0.10 and $0.20 if they are. He reads the 92 percent spread as a clearing price, roughly $1.24 per million tokens, for your prompt data. An enterprise running a billion tokens a day is paying about $454,000 a year to keep its own words.</span><span data-l="vi">Meta giờ bán cùng một model ở hai giá: 1,25 và 4,25 đô mỗi triệu token nếu prompt của bạn không bị đem đi train, 0,10 và 0,20 đô nếu bị. Anh đọc khoảng chênh 92 phần trăm đó như một mức giá thị trường, tầm 1,24 đô mỗi triệu token, cho chính dữ liệu prompt của bạn. Doanh nghiệp chạy một tỉ token mỗi ngày đang trả khoảng 454 nghìn đô một năm chỉ để giữ lại lời của mình.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">A proxy metric is the number you can actually move standing in for the thing you truly care about, and it is only worth anything once you can prove the link.</span><span data-l="vi">Proxy metric là con số bạn thật sự dịch chuyển được, đứng thay cho thứ bạn thật sự quan tâm, và nó chỉ có giá trị khi bạn chứng minh được mối liên hệ.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Privacy stayed a values question right up until somebody published the number. A principle with a price is a line item, and <u>line items get reviewed every quarter</u>.</span><span data-l="vi">Privacy còn là chuyện nguyên tắc cho tới lúc có người công bố con số. Nguyên tắc mà có giá thì thành một dòng chi phí, mà dòng chi phí thì <u>quý nào cũng bị lôi ra xem lại</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What would you <b>pay per million tokens</b> to keep your prompts out of somebody&#x27;s model?</span><span data-l="vi">Bạn chịu <b>trả bao nhiêu mỗi triệu token</b> để prompt của mình không chui vào model của người ta?</span></p></div>
+<div class="src-link"><a href="https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/" target="_blank" rel="noopener">Tomasz Tunguz — The Ads Model for Prompts Vertically Integrates AI &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-03.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-03</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Benedict Evans / Marty Cagan / Gergely Orosz / Ben Thompson / Tomasz Tunguz / Gibson Biddle<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Benedict Evans / Marty Cagan / Gergely Orosz / Ben Thompson / Tomasz Tunguz / Gibson Biddle<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

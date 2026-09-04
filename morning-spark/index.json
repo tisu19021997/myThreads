@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-04",
+      "edition": 40,
+      "note": "Themes: the scarce skill being problem-noticing once building is free, an agent's ceiling being internal access rather than model intelligence, a published two-tier price turning privacy from a principle into a budget line. Sources: ben-evans.com (Benedict Evans, brand new well as a source, full bodies in the Squarespace RSS, Sep 3 post), newsletter.pragmaticengineer.com (Gergely Orosz, brand new well, deepdives give roughly 12k readable characters before the paywall so the Ramp piece was read through section 3), tomtunguz.com (Sep 3, full body on the page). Pairings: Benedict Evans x Marty Cagan, Gergely Orosz x Ben Thompson, Tomasz Tunguz x Gibson Biddle -- second halves chosen from the roster members rested longest, since Ed 37/38/39 spent April Dunford, Lenny Rachitsky, Will Larson, Teresa Torres, Jason Cohen, Brian Balfour, Paul Graham, Andrew Chen and Melissa Perri. Rested every source used in the last three days: Lenny's, eugeneyan, lethain, benn.substack, hamel.dev, SparkToro, cutlefish, simonwillison, SVPG. Deliberately skipped: cutlefish TBM 437 'AI and the Recontextualization Tax' (Sep 3, strong, but cutlefish ran Sep 1 and is the second most used source on file); Teresa Torres's AI Evals pair (Sep 2, still inside the week's rest after Ed 38's evals spark, take it around Sep 9); Stratechery's Sep 2 daily (paywalled as always). Feed notes: longform.asmartbear.com/rss.xml 404s but /index.xml works, aprildunford.com/blog-feed.xml returns malformed XML, newsletter.pragmaticengineer.com Pulse posts are paywalled after two paragraphs so use the deepdives instead. New wells opened and barely spent: ben-evans.com (token-pricing and AI-job-exposure both unused), newsletter.pragmaticengineer.com (Casey Muratori performance interview, Addy Osmani, the engineering-leader career break piece), lg.substack.com (Julie Zhuo, never used as a source: Eye Hand AI and the sales piece), elenaverna.com (never used as a source, truncates in feed so fetch direct). Still on the shelf: A Smart Bear value-time (read in full today, unused), Benn Stancil the-model-is-man-made, lethain generated-demand.",
+      "sparks": [
+        {
+          "pair": "Benedict Evans x Marty Cagan",
+          "headline": "Making the tool got free. Seeing it did not.",
+          "source": "Benedict Evans — AI, tools and transformation",
+          "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"
+        },
+        {
+          "pair": "Gergely Orosz x Ben Thompson",
+          "headline": "Ramp's agent beats the labs' because it can log in",
+          "source": "The Pragmatic Engineer — Why Ramp built its own in-house coding agent, Inspect",
+          "url": "https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect"
+        },
+        {
+          "pair": "Tomasz Tunguz x Gibson Biddle",
+          "headline": "Your privacy policy now has a price: $1.24 per million tokens",
+          "source": "Tomasz Tunguz — The Ads Model for Prompts Vertically Integrates AI",
+          "url": "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-03",
       "edition": 39,
       "note": "Themes: taste as whatever survives a reviewer denied the effort, an unwritten correction as an acquisition cost paid twice, the schedule gap as a stack of unmade decisions. Sources: Lenny's Newsletter (Anshu Chimala guest post, Sep 1, full body in the RSS), eugeneyan.com (brand new well, 212 posts, none used before today), lethain.com (Will Larson, full bodies in the feed). Pairings: Anshu Chimala x Paul Graham, Eugene Yan x Andrew Chen, Will Larson x Melissa Perri -- second halves picked deliberately from the best-rested roster members, since Ed 36/37/38 between them spent Teresa Torres, Jason Cohen, Brian Balfour, April Dunford, Marty Cagan, Lenny Rachitsky, John Cutler, Gibson Biddle and Benedict Evans. Rested every source used in the last three days: benn.substack.com, hamel.dev, SparkToro, cutlefish, simonwillison.net, SVPG, One Useful Thing, tomtunguz.com, askgib. Deliberately skipped Teresa Torres's 'AI Evals: A Hands-On Guide for Product Teams' (Sep 2, strong) because Ed 38 already ran an evals spark -- it stays on the shelf and is the obvious pick once a week has passed. Also skipped Tomasz Tunguz's 'AI Productivity Doesn't Mean What I Thought It Means' (Sep 2, quantified and good) only because Tunguz was the source on Aug 31; worth taking in a couple of days. Feed notes for tomorrow: brianbalfour.com/feed.xml now 404s, aprildunford.com/blog-feed.xml 404s too, melissaperri.com/blog?format=rss has an undefined-entity XML error so parse it leniently, and kellblog.com truncates post bodies in the feed since it added subscriptions. New wells opened and barely spent: eugeneyan.com (working-with-ai used, product-evals, principal, semantic-ids, cybersecurity-evals all unused), newsletter.pragmaticengineer.com (Gergely Orosz, never used, full bodies, why-ramp-built-inspect and the Casey Muratori performance piece are both strong), kellblog.com (Dave Kellogg, never used, but paywalled past ~350 words). Still on the shelf: lethain.com middle-management-roles-were-also-a-trap and generated-demand, Julie Zhuo's Eye Hand AI letter, Benedict Evans on token pricing, Lenny's persistent-AI-coworkers.",

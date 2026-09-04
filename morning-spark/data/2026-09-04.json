@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-04",
+  "edition": 40,
+  "framing": "Notice the task. Hand over the keys. Price the principle.",
+  "framing_vi": "Nhìn ra việc lặp. Trao chìa khoá. Định giá nguyên tắc.",
+  "note": "Themes: the scarce skill being problem-noticing once building is free, an agent's ceiling being internal access rather than model intelligence, a published two-tier price turning privacy from a principle into a budget line. Sources: ben-evans.com (Benedict Evans, brand new well as a source, full bodies in the Squarespace RSS, Sep 3 post), newsletter.pragmaticengineer.com (Gergely Orosz, brand new well, deepdives give roughly 12k readable characters before the paywall so the Ramp piece was read through section 3), tomtunguz.com (Sep 3, full body on the page). Pairings: Benedict Evans x Marty Cagan, Gergely Orosz x Ben Thompson, Tomasz Tunguz x Gibson Biddle -- second halves chosen from the roster members rested longest, since Ed 37/38/39 spent April Dunford, Lenny Rachitsky, Will Larson, Teresa Torres, Jason Cohen, Brian Balfour, Paul Graham, Andrew Chen and Melissa Perri. Rested every source used in the last three days: Lenny's, eugeneyan, lethain, benn.substack, hamel.dev, SparkToro, cutlefish, simonwillison, SVPG. Deliberately skipped: cutlefish TBM 437 'AI and the Recontextualization Tax' (Sep 3, strong, but cutlefish ran Sep 1 and is the second most used source on file); Teresa Torres's AI Evals pair (Sep 2, still inside the week's rest after Ed 38's evals spark, take it around Sep 9); Stratechery's Sep 2 daily (paywalled as always). Feed notes: longform.asmartbear.com/rss.xml 404s but /index.xml works, aprildunford.com/blog-feed.xml returns malformed XML, newsletter.pragmaticengineer.com Pulse posts are paywalled after two paragraphs so use the deepdives instead. New wells opened and barely spent: ben-evans.com (token-pricing and AI-job-exposure both unused), newsletter.pragmaticengineer.com (Casey Muratori performance interview, Addy Osmani, the engineering-leader career break piece), lg.substack.com (Julie Zhuo, never used as a source: Eye Hand AI and the sales piece), elenaverna.com (never used as a source, truncates in feed so fetch direct). Still on the shelf: A Smart Bear value-time (read in full today, unused), Benn Stancil the-model-is-man-made, lethain generated-demand.",
+  "sparks": [
+    {
+      "title": "DESIRE PATH",
+      "title_vi": "LỐI MÒN",
+      "headline": "Making the tool got free. Seeing it did not.",
+      "headline_vi": "Làm ra tool giờ gần như miễn phí. Nhìn ra nó thì không.",
+      "a": {
+        "who": "Benedict Evans",
+        "what": "A big company runs hundreds of apps and is still full of repetitive work. AI makes the tool cheap, but most people are not tool builders: the task sits in plain sight and the person doing it cannot see it. And once you do see it, the workflow touches 500 people across five departments, so it is still a purchase and an eighteen-month decision.",
+        "what_vi": "Một công ty lớn chạy hàng trăm app mà vẫn đầy việc lặp đi lặp lại. AI làm tool rẻ đi, nhưng đa số người không phải dân build tool: việc cần tự động hoá nằm ngay trước mặt mà chính người đang làm nó không thấy. Mà thấy rồi thì workflow đó vẫn dính tới 500 người ở năm phòng ban, nên vẫn là một cái quyết định mua kéo dài mười tám tháng."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Empowered teams are given problems to solve, not features to build. The work that matters is discovering the right solution to a problem worth solving.",
+        "what_vi": "Empowered team được giao vấn đề để giải, không phải danh sách feature để build. Phần đáng giá là tìm ra giải pháp đúng cho một vấn đề đáng giải."
+      },
+      "result": "When the build is free, a team's ceiling is the number of problems it can see. Giving everyone a model is not a strategy. It is Lotus 1-2-3 in 1983.",
+      "result_vi": "Khi build gần như miễn phí, trần của một team là số vấn đề nó nhìn ra được. Phát model cho cả công ty không phải là chiến lược. Đó là Lotus 1-2-3 năm 1983.",
+      "result_underline": "It is Lotus 1-2-3 in 1983",
+      "result_underline_vi": "Đó là Lotus 1-2-3 năm 1983",
+      "tick": "Which repeated hour of your week have you stopped noticing?",
+      "tick_vi": "Giờ nào lặp lại mỗi tuần mà bạn đã quen tới mức không còn thấy?",
+      "tick_bold": [
+        "stopped noticing"
+      ],
+      "tick_bold_vi": [
+        "không còn thấy"
+      ],
+      "provocation": "List three things you did twice this week without thinking about them. That list, not the model, is your AI plan.",
+      "provocation_vi": "Liệt kê ba việc tuần này bạn làm hai lần mà không cần nghĩ. Danh sách đó, chứ không phải model, mới là kế hoạch AI của bạn.",
+      "source": {
+        "site": "Benedict Evans",
+        "title": "AI, tools and transformation",
+        "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+        "published": "2026-09-03"
+      }
+    },
+    {
+      "title": "ACCESS CEILING",
+      "title_vi": "TRẦN LÀ ACCESS",
+      "headline": "Ramp's agent beats the labs' because it can log in",
+      "headline_vi": "Agent của Ramp thắng agent của các lab vì nó đăng nhập được",
+      "a": {
+        "who": "Gergely Orosz",
+        "what": "Ramp built its own background coding agent, Inspect, and 75 percent of merged pull requests now come from it. Not a better model: remote sandboxes carrying the same access a Ramp engineer has, so the agent closes its own loop with tests, telemetry, feature flags, a read-only prod replica and screenshots. Their framing is that the only constraint left on the agent is model intelligence, not missing tools or access.",
+        "what_vi": "Ramp tự build agent code chạy nền riêng, tên Inspect, và 75 phần trăm pull request được merge giờ đến từ nó. Không phải nhờ model xịn hơn: nó chạy trên sandbox từ xa mang đúng quyền của một engineer Ramp, nên tự đóng được vòng lặp bằng test, telemetry, feature flag, bản replica read-only của prod và screenshot. Đội Ramp nói thẳng: thứ duy nhất còn giới hạn agent là độ thông minh của model, chứ không phải thiếu tool hay thiếu quyền."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Integration wins while a product is not yet good enough on the dimension customers care about. The modular vendor only takes over once it is.",
+        "what_vi": "Tích hợp thắng khi sản phẩm chưa đủ tốt ở đúng cái chiều khách hàng quan tâm. Bên bán module rời chỉ chiếm chỗ sau khi nó đã đủ tốt."
+      },
+      "result": "The lab sells you the intelligence. Nobody can sell you your own plumbing. An agent's ceiling is your internal API surface.",
+      "result_vi": "Lab bán cho bạn phần thông minh. Không ai bán cho bạn được đường ống nội bộ của chính bạn. Trần của một agent là bề mặt API bên trong công ty bạn.",
+      "result_underline": "An agent's ceiling is your internal API surface",
+      "result_underline_vi": "Trần của một agent là bề mặt API bên trong công ty bạn",
+      "tick": "What could an agent not check for you today, because it cannot log in?",
+      "tick_vi": "Hôm nay agent không tự kiểm được việc gì, chỉ vì nó không đăng nhập được?",
+      "tick_bold": [
+        "cannot log in"
+      ],
+      "tick_bold_vi": [
+        "không đăng nhập được"
+      ],
+      "provocation": "Take the last bug you fixed and count the systems you opened to confirm it was really fixed. That count is what your agent does not have.",
+      "provocation_vi": "Lấy con bug gần nhất bạn fix và đếm xem bạn phải mở bao nhiêu hệ thống mới dám chắc nó hết. Con số đó chính là thứ agent của bạn đang thiếu.",
+      "source": {
+        "site": "The Pragmatic Engineer",
+        "title": "Why Ramp built its own in-house coding agent, Inspect",
+        "url": "https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect",
+        "published": "2026-08-25"
+      }
+    },
+    {
+      "title": "THE SPREAD",
+      "title_vi": "KHOẢNG CHÊNH",
+      "headline": "Your privacy policy now has a price: $1.24 per million tokens",
+      "headline_vi": "Chính sách privacy của bạn giờ có giá: 1,24 đô mỗi triệu token",
+      "a": {
+        "who": "Tomasz Tunguz",
+        "what": "Meta now sells the same model at two prices: $1.25 and $4.25 per million tokens if your prompts are never trained on, $0.10 and $0.20 if they are. He reads the 92 percent spread as a clearing price, roughly $1.24 per million tokens, for your prompt data. An enterprise running a billion tokens a day is paying about $454,000 a year to keep its own words.",
+        "what_vi": "Meta giờ bán cùng một model ở hai giá: 1,25 và 4,25 đô mỗi triệu token nếu prompt của bạn không bị đem đi train, 0,10 và 0,20 đô nếu bị. Anh đọc khoảng chênh 92 phần trăm đó như một mức giá thị trường, tầm 1,24 đô mỗi triệu token, cho chính dữ liệu prompt của bạn. Doanh nghiệp chạy một tỉ token mỗi ngày đang trả khoảng 454 nghìn đô một năm chỉ để giữ lại lời của mình."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "A proxy metric is the number you can actually move standing in for the thing you truly care about, and it is only worth anything once you can prove the link.",
+        "what_vi": "Proxy metric là con số bạn thật sự dịch chuyển được, đứng thay cho thứ bạn thật sự quan tâm, và nó chỉ có giá trị khi bạn chứng minh được mối liên hệ."
+      },
+      "result": "Privacy stayed a values question right up until somebody published the number. A principle with a price is a line item, and line items get reviewed every quarter.",
+      "result_vi": "Privacy còn là chuyện nguyên tắc cho tới lúc có người công bố con số. Nguyên tắc mà có giá thì thành một dòng chi phí, mà dòng chi phí thì quý nào cũng bị lôi ra xem lại.",
+      "result_underline": "line items get reviewed every quarter",
+      "result_underline_vi": "quý nào cũng bị lôi ra xem lại",
+      "tick": "What would you pay per million tokens to keep your prompts out of somebody's model?",
+      "tick_vi": "Bạn chịu trả bao nhiêu mỗi triệu token để prompt của mình không chui vào model của người ta?",
+      "tick_bold": [
+        "pay per million tokens"
+      ],
+      "tick_bold_vi": [
+        "trả bao nhiêu mỗi triệu token"
+      ],
+      "provocation": "Multiply your monthly token volume by that spread. If the number surprises you, your position on data was assumed, never priced.",
+      "provocation_vi": "Lấy lượng token mỗi tháng của bạn nhân với khoảng chênh đó. Nếu con số làm bạn giật mình, thì lập trường của bạn về dữ liệu xưa nay chỉ là mặc định, chưa từng được định giá.",
+      "source": {
+        "site": "Tomasz Tunguz",
+        "title": "The Ads Model for Prompts Vertically Integrates AI",
+        "url": "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
+        "published": "2026-09-03"
+      }
+    }
+  ]
+}

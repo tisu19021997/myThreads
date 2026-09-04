@@ -1,0 +1,22 @@
+Morning Spark · Friday, September 4 · Ed. 40
+Notice the task. Hand over the keys. Price the principle.
+
+─────────────────
+01 · Making the tool got free. Seeing it did not.
+Benedict Evans × Marty Cagan
+List three things you did twice this week without thinking about them. That list, not the model, is your AI plan.
+→ https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation
+
+─────────────────
+02 · Ramp's agent beats the labs' because it can log in
+Gergely Orosz × Ben Thompson
+Take the last bug you fixed and count the systems you opened to confirm it was really fixed. That count is what your agent does not have.
+→ https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect
+
+─────────────────
+03 · Your privacy policy now has a price: $1.24 per million tokens
+Tomasz Tunguz × Gibson Biddle
+Multiply your monthly token volume by that spread. If the number surprises you, your position on data was assumed, never priced.
+→ https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/
+
+Full styled card → open the session.
