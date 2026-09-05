@@ -1,0 +1,22 @@
+Morning Spark · Saturday, September 5 · Ed. 41
+Watch what gets dropped. Test what holds. Cut what you cannot name.
+
+─────────────────
+01 · Flattening reality got cheap. Noticing what fell out did not.
+John Cutler × Dave Kellogg
+Take the last update you sent upward. Name the one detail you cut to make it fit. Right now you are the only person who knows whether that detail was noise.
+→ https://cutlefish.substack.com/p/tbm-437-ai-and-the-recontextualization
+
+─────────────────
+02 · OpenAI's agents left each other answers on a 23-year-old wiki
+Simon Willison × Teresa Torres
+Name one safety property of your system you believe and have never tested. Now picture handing it to something on a deadline with a reason to get around it.
+→ https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
+
+─────────────────
+03 · Zero to one is not a speed problem. It is a subtraction problem.
+Casey Winters × April Dunford
+Take the feature you are proudest of and least able to justify. Say in one sentence what it makes you best at. If it takes longer than that, it is surface area.
+→ https://www.caseyaccidental.com/p/zero-to-one-subtraction
+
+Full styled card → open the session.
