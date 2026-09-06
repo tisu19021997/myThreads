@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-06",
+  "edition": 42,
+  "framing": "Copyable beats polished. Density beats scale. Questions beat frameworks.",
+  "framing_vi": "Copy được thắng bóng bẩy. Dày đặc thắng to. Câu hỏi thắng framework.",
+  "note": "Themes: the agent as a distribution channel that will not log in, supplier density as a pricing sense before it is a cost advantage, expertise transferred as fragments in use rather than as a framework. Sources: benn.substack.com (Benn Stancil, Sep 4, full body in the RSS), notboring.co (Packy McCormick's publication, brand new well, field notes written under the pseudonym Matthew, Aug 25 -- roughly the first third is above the paywall and that part carries the Shenzhen material used here), commoncog.com (Cedric Chin, brand new well, Aug 25, full bodies in the RSS at commoncog.com/blog/rss/). Pairings: Benn Stancil x Brian Balfour, Matthew (Not Boring) x Andrew Chen, Cedric Chin x Melissa Perri -- second halves taken from the roster members rested longest, since Ed 39/40/41 spent Paul Graham, Andrew Chen, Melissa Perri, Marty Cagan, Ben Thompson, Gibson Biddle, Teresa Torres and April Dunford. Rested every source used in the last three days: cutlefish, simonwillison, caseyaccidental, ben-evans, newsletter.pragmaticengineer, tomtunguz, Lenny's, eugeneyan, lethain, kellblog. On Benn: Ed 41 deliberately skipped 'How to find insights' as a same-week sequel to Ed 38's 'How to have ideas', but four days have passed and the argument taken here (the 95-percent-answered/10-20x-more-questions arithmetic, and the file as the shape agents need) does not touch Ed 38's unfinished-question theme, so it was safe to take. Deliberately skipped: Stratechery's Greg Brockman interview (Sep 4, paywalled as all dailies are); Not Boring's Weekly Dose of Optimism #209 (Sep 4, a link roundup with no argument of its own, same rule as the Stratechery weeklies); Julie Zhuo's 'You Cannot Mandate an AI Transformation' (still collides with Ed 37). Feed notes: sparktoro.com/blog/feed 301s to /blog/feed/, longform.asmartbear.com/index.xml works and its newest post is Jul 19, every.to/feed.xml and growthunhinged.com/feed return nothing usable (403 on the latter), bringthedonuts.com is alive but slow-moving. New wells opened and barely spent: commoncog.com (Cedric Chin, deep expertise-acceleration material -- 'How Moats are Built', 'What Does It Look Like When You Handle Disruption Well', the Quartz Crisis piece all unused, some posts are member-only so check the body length), notboring.co (the China field notes are a running series so #2 onward will keep arriving, plus 'Base Power Company: Chapter 3'). Still on the shelf: A Smart Bear value-time, Benn Stancil the-model-is-man-made, lethain generated-demand, April Dunford's dont-let-customers-decide-what-your-product-is, Hamel's 'AI Product Engineering Notes', SparkToro's Black Friday teardown, Teresa Torres's AI Evals pair (now due, held since Sep 2).",
+  "sparks": [
+    {
+      "title": "FILE, NOT APP",
+      "title_vi": "FILE, KHÔNG PHẢI APP",
+      "headline": "AI answers ninety-five percent of the questions. The analyst still answers five.",
+      "headline_vi": "AI trả lời chín mươi lăm phần trăm câu hỏi. Analyst vẫn trả lời năm cái.",
+      "a": {
+        "who": "Benn Stancil",
+        "what": "Internal data agents at OpenAI, Ramp and Anthropic now answer most analytics questions, which was supposed to free analysts for strategic work. It does not: answering ninety-five percent of queries drives a ten to twenty times rise in questions asked, so five a day stays five a day. And the substrate agents need to accumulate findings -- a computational sandbox, easy to snapshot, copy, share, store and read -- describes something that already exists. A file.",
+        "what_vi": "Agent nội bộ ở OpenAI, Ramp và Anthropic giờ trả được phần lớn câu hỏi analytics, đáng lẽ để analyst rảnh tay làm việc chiến lược. Không rảnh: trả được chín mươi lăm phần trăm query thì số câu hỏi người ta hỏi tăng mười tới hai mươi lần, nên năm câu một ngày vẫn là năm câu một ngày. Còn cái nền mà agent cần để tích luỹ phát hiện -- một sandbox tính toán, snapshot dễ, copy dễ, gửi dễ, cất dễ, mở ra là đọc được -- thì mô tả đúng một thứ đã có sẵn. Cái file."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Product-channel fit says channels set the terms. You build the product to fit the channel, never the other way round, and a product shaped for a channel that moves on does not get to negotiate.",
+        "what_vi": "Product-channel fit nói kênh mới là bên ra điều kiện. Bạn build sản phẩm cho vừa kênh, không bao giờ ngược lại, và sản phẩm đóng khuôn theo một kênh đã đi qua thì không có cửa thương lượng."
+      },
+      "result": "The agent is the new channel, and it will not log in. It copies, runs, writes back, and hands the folder to the next one. So the question is not whether your product has AI in it. It is whether an agent can copy it.",
+      "result_vi": "Agent là kênh mới, và nó không đăng nhập. Nó copy, chạy, ghi lại, rồi đưa nguyên thư mục cho con kế tiếp. Nên câu hỏi không phải sản phẩm của bạn đã có AI chưa. Mà là agent có copy được nó không.",
+      "result_underline": "whether an agent can copy it",
+      "result_underline_vi": "agent có copy được nó không",
+      "tick": "Can an agent use your product without a login?",
+      "tick_vi": "Agent có dùng được sản phẩm của bạn mà không cần đăng nhập không?",
+      "tick_bold": [
+        "without a login"
+      ],
+      "tick_bold_vi": [
+        "không cần đăng nhập"
+      ],
+      "provocation": "Take the thing you built this year. Ask what an agent would have to do to use it, keep what it learned, and hand that to the next agent. If the honest answer is a screenshot, you built for the old channel.",
+      "provocation_vi": "Lấy thứ bạn build năm nay. Hỏi xem một con agent phải làm gì để dùng nó, giữ lại cái nó học được, rồi đưa cho con agent kế tiếp. Nếu câu trả lời thật lòng là chụp màn hình, bạn đang build cho kênh cũ.",
+      "source": {
+        "site": "benn.substack.com",
+        "title": "How to find insights",
+        "url": "https://benn.substack.com/p/how-to-find-insights",
+        "published": "2026-09-04"
+      }
+    },
+    {
+      "title": "PROCESS KNOWLEDGE",
+      "title_vi": "BIẾT CẢ QUY TRÌNH",
+      "headline": "A machine worth twenty thousand quoted at two hundred. Both numbers are real.",
+      "headline_vi": "Cái máy đáng hai mươi nghìn được báo giá hai trăm nghìn. Cả hai con số đều thật.",
+      "a": {
+        "who": "Matthew (Not Boring)",
+        "what": "Eleven days of factory visits in Hong Kong and Shenzhen. Tier-one manufacturing exists in plenty of countries, he is told; what makes Shenzhen unmatched is the density of suppliers packed together. The warning that comes with it: do not reason about cost from inputs and outputs. Without full process knowledge you cannot see the limiting factor, and he has watched suppliers charge two hundred thousand dollars for a machine that should have cost twenty.",
+        "what_vi": "Mười một ngày đi nhà máy ở Hong Kong và Thâm Quyến. Người ta bảo anh rằng sản xuất tier-one thì nước nào cũng có; thứ khiến Thâm Quyến không ai bằng là mật độ nhà cung cấp nằm sát nhau. Kèm theo đó là một lời cảnh báo: đừng suy ra chi phí từ đầu vào và đầu ra. Không nắm cả quy trình thì bạn không thấy được đâu là chỗ nghẽn, và anh đã chứng kiến nhà cung cấp hét hai trăm nghìn đô cho cái máy đáng lẽ hai mươi nghìn."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "The cold start problem says a network is worthless until one small atomic network is dense enough to work on its own. Density inside a narrow slice beats size spread thin, every time.",
+        "what_vi": "Cold start problem nói một network vô giá trị cho tới khi có một atomic network đủ dày để tự sống. Dày trong một lát cắt hẹp luôn thắng rộng mà mỏng."
+      },
+      "result": "Density is a pricing sense before it is a cost advantage. Standing among a thousand suppliers is what teaches you what a thing should cost. Move the work far enough away and you do not lose speed first. You lose the ability to know when you are being robbed.",
+      "result_vi": "Mật độ là khả năng đọc giá trước khi là lợi thế chi phí. Đứng giữa cả nghìn nhà cung cấp mới dạy bạn một thứ đáng giá bao nhiêu. Đẩy việc đi đủ xa thì cái mất đầu tiên không phải tốc độ. Là khả năng biết khi nào mình đang bị chặt.",
+      "result_underline": "know when you are being robbed",
+      "result_underline_vi": "biết khi nào mình đang bị chặt",
+      "tick": "What do you buy without knowing what it should cost?",
+      "tick_vi": "Bạn đang mua cái gì mà không biết nó đáng giá bao nhiêu?",
+      "tick_bold": [
+        "what it should cost"
+      ],
+      "tick_bold_vi": [
+        "đáng giá bao nhiêu"
+      ],
+      "provocation": "Pick the biggest line item you outsource: a vendor, a contractor, a model API. Write down what it should cost and how you know. If the reason is that this is what they quoted, you have no process knowledge, only a receipt.",
+      "provocation_vi": "Chọn khoản chi lớn nhất bạn thuê ngoài: một vendor, một contractor, một model API. Viết ra nó đáng giá bao nhiêu và vì sao bạn biết. Nếu lý do là họ báo giá vậy, bạn không nắm quy trình, bạn chỉ có tờ hoá đơn.",
+      "source": {
+        "site": "Not Boring",
+        "title": "An American Engineer in China",
+        "url": "https://www.notboring.co/p/an-american-engineer-in-china",
+        "published": "2026-08-25"
+      }
+    },
+    {
+      "title": "THE QUESTION PHASE",
+      "title_vi": "PHÚT ĐẶT CÂU HỎI",
+      "headline": "Frameworks got free. The reps that tell you when to break them did not.",
+      "headline_vi": "Framework giờ miễn phí. Số lần lăn lộn để biết khi nào nên phá nó thì không.",
+      "a": {
+        "who": "Cedric Chin",
+        "what": "A Tactical Decision Game, the method the Marines have used for thirty years, reads a scenario aloud once, then opens a question phase, then calls on people for orders under time pressure while everyone reframes everyone else. What you ask reveals what you are noticing. It builds adaptive expertise because it hands you fragments in use, in a real situation, rather than rules on a slide, and rules on a slide never tell you which situation they apply to.",
+        "what_vi": "Tactical Decision Game, phương pháp lính thuỷ đánh bộ Mỹ dùng ba mươi năm nay, đọc to tình huống đúng một lần, rồi mở phần hỏi đáp, rồi gọi tên từng người ra lệnh dưới sức ép thời gian, trong lúc ai cũng đang bẻ lại khung nhìn của người khác. Bạn hỏi gì lộ ra bạn đang để ý cái gì. Nó tạo ra thứ chuyên môn biết thích ứng vì nó đưa cho bạn từng mảnh kiến thức đang được dùng trong một tình huống thật, thay vì mấy cái luật nằm trên slide, mà luật trên slide thì không bao giờ nói cho bạn biết nó áp vào tình huống nào."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "The Product Kata builds capability the same way: short cycles against a real outcome, where the coach asks what the current condition is, what obstacle is in the way, what the next step is, and what you learned. Rolling out a framework is not the same as building the people who can use it.",
+        "what_vi": "Product Kata xây năng lực đúng kiểu đó: những vòng lặp ngắn nhắm vào một outcome thật, coach hỏi hiện trạng ra sao, vướng cái gì, bước tiếp theo là gì, học được gì. Triển khai một framework không phải là xây được đội ngũ dùng được nó."
+      },
+      "result": "AI hands anyone the framework in a second. What it cannot hand you is the situation that tells you when the framework does not apply. Which means your team's real skill shows in the questions asked before a call, not the decision logged after.",
+      "result_vi": "AI đưa framework cho bất kỳ ai trong một giây. Thứ nó không đưa được là cái tình huống cho bạn biết khi nào framework đó không áp được. Nghĩa là trình của team lộ ra ở những câu hỏi trước khi chốt, chứ không phải ở quyết định ghi lại sau đó.",
+      "result_underline": "not the decision logged after",
+      "result_underline_vi": "không phải ở quyết định ghi lại sau đó",
+      "tick": "What did you ask before you decided?",
+      "tick_vi": "Bạn đã hỏi gì trước khi chốt?",
+      "tick_bold": [
+        "before you decided"
+      ],
+      "tick_bold_vi": [
+        "trước khi chốt"
+      ],
+      "provocation": "Take a hard call your team made last month and reconstruct the questions asked before it, in order. If there were none worth writing down, the team did not decide. It applied something.",
+      "provocation_vi": "Lấy một quyết định khó team bạn chốt tháng trước, dựng lại theo thứ tự những câu hỏi đặt ra trước đó. Nếu không có câu nào đáng ghi lại, team đã không quyết. Team chỉ áp công thức.",
+      "source": {
+        "site": "Commoncog",
+        "title": "Why Tactical Decision Games Work",
+        "url": "https://commoncog.com/why-tactical-decision-games-work/",
+        "published": "2026-08-25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Morning Spark · Sunday, September 6 · Ed. 42
+Copyable beats polished. Density beats scale. Questions beat frameworks.
+
+─────────────────
+01 · AI answers ninety-five percent of the questions. The analyst still answers five.
+Benn Stancil × Brian Balfour
+Take the thing you built this year. Ask what an agent would have to do to use it, keep what it learned, and hand that to the next agent. If the honest answer is a screenshot, you built for the old channel.
+→ https://benn.substack.com/p/how-to-find-insights
+
+─────────────────
+02 · A machine worth twenty thousand quoted at two hundred. Both numbers are real.
+Matthew (Not Boring) × Andrew Chen
+Pick the biggest line item you outsource: a vendor, a contractor, a model API. Write down what it should cost and how you know. If the reason is that this is what they quoted, you have no process knowledge, only a receipt.
+→ https://www.notboring.co/p/an-american-engineer-in-china
+
+─────────────────
+03 · Frameworks got free. The reps that tell you when to break them did not.
+Cedric Chin × Melissa Perri
+Take a hard call your team made last month and reconstruct the questions asked before it, in order. If there were none worth writing down, the team did not decide. It applied something.
+→ https://commoncog.com/why-tactical-decision-games-work/
+
+Full styled card → open the session.

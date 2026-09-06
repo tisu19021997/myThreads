@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 6</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 42</div></div></div>
+<div class="meta label">Sunday, September 6, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">FILE, NOT APP</span><span data-l="vi">FILE, KHÔNG PHẢI APP</span></span></div>
+<div class="eq"><div class="term"><div class="who">Benn Stancil</div><div class="what"><span data-l="en">Internal data agents at OpenAI, Ramp and Anthropic now answer most analytics questions, which was supposed to free analysts for strategic work. It does not: answering ninety-five percent of queries drives a ten to twenty times rise in questions asked, so five a day stays five a day. And the substrate agents need to accumulate findings -- a computational sandbox, easy to snapshot, copy, share, store and read -- describes something that already exists. A file.</span><span data-l="vi">Agent nội bộ ở OpenAI, Ramp và Anthropic giờ trả được phần lớn câu hỏi analytics, đáng lẽ để analyst rảnh tay làm việc chiến lược. Không rảnh: trả được chín mươi lăm phần trăm query thì số câu hỏi người ta hỏi tăng mười tới hai mươi lần, nên năm câu một ngày vẫn là năm câu một ngày. Còn cái nền mà agent cần để tích luỹ phát hiện -- một sandbox tính toán, snapshot dễ, copy dễ, gửi dễ, cất dễ, mở ra là đọc được -- thì mô tả đúng một thứ đã có sẵn. Cái file.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Product-channel fit says channels set the terms. You build the product to fit the channel, never the other way round, and a product shaped for a channel that moves on does not get to negotiate.</span><span data-l="vi">Product-channel fit nói kênh mới là bên ra điều kiện. Bạn build sản phẩm cho vừa kênh, không bao giờ ngược lại, và sản phẩm đóng khuôn theo một kênh đã đi qua thì không có cửa thương lượng.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The agent is the new channel, and it will not log in. It copies, runs, writes back, and hands the folder to the next one. So the question is not whether your product has AI in it. It is <u>whether an agent can copy it</u>.</span><span data-l="vi">Agent là kênh mới, và nó không đăng nhập. Nó copy, chạy, ghi lại, rồi đưa nguyên thư mục cho con kế tiếp. Nên câu hỏi không phải sản phẩm của bạn đã có AI chưa. Mà là <u>agent có copy được nó không</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Can an agent use your product <b>without a login</b>?</span><span data-l="vi">Agent có dùng được sản phẩm của bạn mà <b>không cần đăng nhập</b> không?</span></p></div>
+<div class="src-link"><a href="https://benn.substack.com/p/how-to-find-insights" target="_blank" rel="noopener">benn.substack.com — How to find insights &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">PROCESS KNOWLEDGE</span><span data-l="vi">BIẾT CẢ QUY TRÌNH</span></span></div>
+<div class="eq"><div class="term"><div class="who">Matthew (Not Boring)</div><div class="what"><span data-l="en">Eleven days of factory visits in Hong Kong and Shenzhen. Tier-one manufacturing exists in plenty of countries, he is told; what makes Shenzhen unmatched is the density of suppliers packed together. The warning that comes with it: do not reason about cost from inputs and outputs. Without full process knowledge you cannot see the limiting factor, and he has watched suppliers charge two hundred thousand dollars for a machine that should have cost twenty.</span><span data-l="vi">Mười một ngày đi nhà máy ở Hong Kong và Thâm Quyến. Người ta bảo anh rằng sản xuất tier-one thì nước nào cũng có; thứ khiến Thâm Quyến không ai bằng là mật độ nhà cung cấp nằm sát nhau. Kèm theo đó là một lời cảnh báo: đừng suy ra chi phí từ đầu vào và đầu ra. Không nắm cả quy trình thì bạn không thấy được đâu là chỗ nghẽn, và anh đã chứng kiến nhà cung cấp hét hai trăm nghìn đô cho cái máy đáng lẽ hai mươi nghìn.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">The cold start problem says a network is worthless until one small atomic network is dense enough to work on its own. Density inside a narrow slice beats size spread thin, every time.</span><span data-l="vi">Cold start problem nói một network vô giá trị cho tới khi có một atomic network đủ dày để tự sống. Dày trong một lát cắt hẹp luôn thắng rộng mà mỏng.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Density is a pricing sense before it is a cost advantage. Standing among a thousand suppliers is what teaches you what a thing should cost. Move the work far enough away and you do not lose speed first. You lose the ability to <u>know when you are being robbed</u>.</span><span data-l="vi">Mật độ là khả năng đọc giá trước khi là lợi thế chi phí. Đứng giữa cả nghìn nhà cung cấp mới dạy bạn một thứ đáng giá bao nhiêu. Đẩy việc đi đủ xa thì cái mất đầu tiên không phải tốc độ. Là khả năng <u>biết khi nào mình đang bị chặt</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What do you buy without knowing <b>what it should cost</b>?</span><span data-l="vi">Bạn đang mua cái gì mà không biết nó <b>đáng giá bao nhiêu</b>?</span></p></div>
+<div class="src-link"><a href="https://www.notboring.co/p/an-american-engineer-in-china" target="_blank" rel="noopener">Not Boring — An American Engineer in China &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE QUESTION PHASE</span><span data-l="vi">PHÚT ĐẶT CÂU HỎI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Cedric Chin</div><div class="what"><span data-l="en">A Tactical Decision Game, the method the Marines have used for thirty years, reads a scenario aloud once, then opens a question phase, then calls on people for orders under time pressure while everyone reframes everyone else. What you ask reveals what you are noticing. It builds adaptive expertise because it hands you fragments in use, in a real situation, rather than rules on a slide, and rules on a slide never tell you which situation they apply to.</span><span data-l="vi">Tactical Decision Game, phương pháp lính thuỷ đánh bộ Mỹ dùng ba mươi năm nay, đọc to tình huống đúng một lần, rồi mở phần hỏi đáp, rồi gọi tên từng người ra lệnh dưới sức ép thời gian, trong lúc ai cũng đang bẻ lại khung nhìn của người khác. Bạn hỏi gì lộ ra bạn đang để ý cái gì. Nó tạo ra thứ chuyên môn biết thích ứng vì nó đưa cho bạn từng mảnh kiến thức đang được dùng trong một tình huống thật, thay vì mấy cái luật nằm trên slide, mà luật trên slide thì không bao giờ nói cho bạn biết nó áp vào tình huống nào.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">The Product Kata builds capability the same way: short cycles against a real outcome, where the coach asks what the current condition is, what obstacle is in the way, what the next step is, and what you learned. Rolling out a framework is not the same as building the people who can use it.</span><span data-l="vi">Product Kata xây năng lực đúng kiểu đó: những vòng lặp ngắn nhắm vào một outcome thật, coach hỏi hiện trạng ra sao, vướng cái gì, bước tiếp theo là gì, học được gì. Triển khai một framework không phải là xây được đội ngũ dùng được nó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">AI hands anyone the framework in a second. What it cannot hand you is the situation that tells you when the framework does not apply. Which means your team&#x27;s real skill shows in the questions asked before a call, <u>not the decision logged after</u>.</span><span data-l="vi">AI đưa framework cho bất kỳ ai trong một giây. Thứ nó không đưa được là cái tình huống cho bạn biết khi nào framework đó không áp được. Nghĩa là trình của team lộ ra ở những câu hỏi trước khi chốt, chứ <u>không phải ở quyết định ghi lại sau đó</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did you ask <b>before you decided</b>?</span><span data-l="vi">Bạn đã hỏi gì <b>trước khi chốt</b>?</span></p></div>
+<div class="src-link"><a href="https://commoncog.com/why-tactical-decision-games-work/" target="_blank" rel="noopener">Commoncog — Why Tactical Decision Games Work &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-05.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-05</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Benn Stancil / Brian Balfour / Matthew (Not Boring) / Andrew Chen / Cedric Chin / Melissa Perri<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Benn Stancil / Brian Balfour / Matthew (Not Boring) / Andrew Chen / Cedric Chin / Melissa Perri<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
