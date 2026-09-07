@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-07",
+  "edition": 43,
+  "framing": "Define good yourself. Stop guarding the gate. Price your hour.",
+  "framing_vi": "Tự định nghĩa cái tốt. Bỏ gác cổng. Định giá giờ của bạn.",
+  "note": "Themes: the definition of correctness as the one thing you cannot borrow, a ritual carrying six unowned jobs, attention as the resource an unpriced message spends. Sources: producttalk.org (Teresa Torres, Sep 2, the AI Evals guide -- held on the shelf since Sep 2 by Ed 39/40/41 to clear a week from Ed 38's Hamel evals spark, taken today; full body on the page, the companion piece ai-evals-test-harness is still unused), martinfowler.com/rachels-ramblings (Rachel Laycock, CTO of Thoughtworks, brand new well, Sep 2, full body on the page), seangoedecke.com (Sean Goedecke, brand new well, Sep 2, full bodies in rss.xml at www.seangoedecke.com/rss.xml, posts two or three times a week). Pairings: Teresa Torres x Lenny Rachitsky -- one of the six roster-only pairings that were left, all of which involve Lenny; five remain (Lenny with Ben Thompson, Brian Balfour, Jason Cohen, Melissa Perri, Paul Graham); Rachel Laycock x Marty Cagan; Sean Goedecke x Jason Cohen (his value-time piece, read in full today, finally off the shelf). Second halves picked from the roster members rested longest: Lenny Sep 1, Cohen Sep 2, Cagan Sep 4. Rested every source used in the last three days: benn.substack, notboring.co, commoncog, cutlefish, simonwillison, caseyaccidental, ben-evans, newsletter.pragmaticengineer, tomtunguz. Deliberately skipped: Lenny's Anish Acharya episode (Sep 6, the freshest thing on the roster but it is a Paid podcast post -- show notes and a link list only, no transcript, so there is no argument to read; Lenny's podcast posts stay unusable); Lenny's Community Wisdom 200 (Sep 5, a Q-and-A roundup, same rule as the Stratechery weeklies); Kellblog's 'too busy to worry about winning' (Aug 18, good, but Dave Kellogg was the second half on Sep 5); Hamel's 'AI Product Engineering Notes' (would have made two eval sparks in one edition). Feed notes: aprildunford.com/blog-feed.xml now returns a Not Found page, so use sitemap.xml; andrewchen.substack.com has published nothing since Nov 2025, treat andrewchen as a framework source only; interconnects.ai has gone quiet since Aug 17; elenaverna.com still paywalled. New wells opened today and barely spent: seangoedecke.com (workslop used; 'You have to beat the models at something', 'Radical responsibility means treating people like tools', 'In defense of not understanding your codebase' all unused and all strong), martinfowler.com (Rachel Laycock's 'Citizens Build, Agents Execute, Experts Govern', the Bliki 'Paracelsus Maxim', 'An Accidental Blackboard', 'Making Your Data Ready for Agentic AI', 'TDD in the agent loop' -- a deep well with a working atom feed), dbreunig.com (Drew Breunig, 'Who Taught the Models to Do That?' Aug 30, 'Harnesses are Situated Agents'). Still on the shelf: Teresa Torres's ai-evals-test-harness, Benn Stancil the-model-is-man-made, lethain generated-demand, April Dunford's dont-let-customers-decide-what-your-product-is, Hamel's AI Product Engineering Notes, SparkToro's Black Friday teardown, SVPG's 'A Fresh Definition of The Product Role'.",
+  "sparks": [
+    {
+      "title": "BORROWED RULER",
+      "title_vi": "THƯỚC ĐI MƯỢN",
+      "headline": "A benchmark tells you where everyone landed. Not whether you are right.",
+      "headline_vi": "Benchmark cho biết người ta đang ở đâu. Không cho biết bạn đúng hay sai.",
+      "a": {
+        "who": "Teresa Torres",
+        "what": "An eval is just a metric that counts how often a specific error happens. But you cannot start with the eval. You start by reading one full output against its source yourself, logging exactly what the model got wrong, and only then do the categories of error tell you which evals to build. She did this with one interview transcript out of seventeen and found two errors worth guarding. Her warning is about the shortcut: correctness is context dependent, so a vendor's built-in helpfulness score ships with someone else's definition of good already inside it.",
+        "what_vi": "Eval chỉ là một metric đếm xem một lỗi cụ thể xảy ra bao nhiêu lần. Nhưng bạn không bắt đầu từ eval. Bạn bắt đầu bằng cách tự đọc một output đầy đủ, đối chiếu với nguồn, ghi lại chính xác model sai chỗ nào, rồi các nhóm lỗi đó mới nói cho bạn biết cần dựng eval nào. Chị làm vậy với một transcript trong mười bảy cái và tìm ra hai lỗi đáng chặn. Cảnh báo của chị nằm ở chỗ đi tắt: thế nào là đúng phụ thuộc ngữ cảnh, nên cái điểm helpfulness có sẵn của vendor đã gói định nghĩa tốt của người khác vào bên trong rồi."
+      },
+      "b": {
+        "who": "Lenny Rachitsky",
+        "what": "His newsletter runs on benchmarks: what retention, conversion and growth look like across hundreds of companies. The caveat is always attached, and it is the whole point. The numbers swing wildly by business model and stage, so they orient you. They do not grade you.",
+        "what_vi": "Newsletter của anh sống bằng benchmark: retention, conversion, growth ở hàng trăm công ty trông như thế nào. Lời lưu ý luôn đi kèm, và đó mới là điểm chính. Con số nhảy loạn theo business model và giai đoạn, nên nó để định vị. Không phải để chấm điểm bạn."
+      },
+      "result": "Two ends of the same sentence: you can borrow the number, never the definition. The hour Torres spends reading one transcript line by line is not overhead. It is the only place your definition of good ever gets written down.",
+      "result_vi": "Hai đầu của cùng một câu: con số thì mượn được, định nghĩa thì không. Cái giờ đồng hồ Torres bỏ ra đọc từng dòng một transcript không phải chi phí thừa. Đó là chỗ duy nhất mà định nghĩa tốt của bạn được viết ra.",
+      "result_underline": "the only place your definition of good ever gets written down",
+      "result_underline_vi": "chỗ duy nhất mà định nghĩa tốt của bạn được viết ra",
+      "tick": "Which number on your dashboard did you define, and which did you inherit?",
+      "tick_vi": "Con số nào trên dashboard là do bạn định nghĩa, con số nào bạn nhận lại từ người khác?",
+      "tick_bold": [
+        "define",
+        "inherit"
+      ],
+      "tick_bold_vi": [
+        "do bạn định nghĩa",
+        "nhận lại từ người khác"
+      ],
+      "provocation": "Open the dashboard you check every morning. For each number, say out loud who decided what counts as good. If the answer is a vendor, a template or a blog post, that number is orientation, not evidence.",
+      "provocation_vi": "Mở cái dashboard bạn xem mỗi sáng. Với từng con số, nói to xem ai là người quyết định thế nào là tốt. Nếu câu trả lời là một vendor, một template hay một bài blog, con số đó chỉ để định vị, không phải bằng chứng.",
+      "source": {
+        "site": "Product Talk",
+        "title": "AI Evals: A Hands-On Guide for Product Teams",
+        "url": "https://www.producttalk.org/ai-evals/",
+        "published": "2026-09-02"
+      }
+    },
+    {
+      "title": "SIX JOBS",
+      "title_vi": "SÁU VIỆC",
+      "headline": "Code review was never one job. AI just removed the slack that hid it.",
+      "headline_vi": "Code review chưa bao giờ là một việc. AI chỉ lấy đi cái khoảng chùng che nó lại.",
+      "a": {
+        "who": "Rachel Laycock",
+        "what": "Agents now write more code than humans can read; median pull request size is up sixty-four percent. Her answer is not a faster review. Code review has quietly been carrying six jobs at once -- quality gate, security check, architecture review, mentoring, knowledge sharing, ownership -- and every one of them belongs earlier: pair, design as a team, encode the constraints as fitness functions, automate whatever is deterministic, then review by exception. Engineers need to understand systems, not diffs.",
+        "what_vi": "Agent giờ viết code nhiều hơn mức người đọc nổi; pull request trung vị đã to hơn sáu mươi tư phần trăm. Cách chị trả lời không phải là review nhanh hơn. Code review lâu nay âm thầm gánh sáu việc cùng lúc -- cổng chất lượng, kiểm bảo mật, soát kiến trúc, kèm người mới, chia sẻ hiểu biết, quyền sở hữu chung -- và việc nào cũng thuộc về giai đoạn sớm hơn: pair với nhau, thiết kế cả nhóm, mã hoá ràng buộc thành fitness function, tự động hoá mọi thứ máy quyết được, rồi chỉ review những ca ngoại lệ. Kỹ sư cần hiểu hệ thống, không phải hiểu diff."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "The product model swaps stage gates for empowered teams held to outcomes. A gate is what a company installs when nobody is personally accountable for the decision the gate exists to catch.",
+        "what_vi": "Product model đổi các stage gate lấy empowered team chịu trách nhiệm trên outcome. Cái gate là thứ công ty dựng lên khi không ai đứng tên chịu trách nhiệm cho quyết định mà cái gate đó sinh ra để bắt."
+      },
+      "result": "A ritual asked to do six jobs is a ritual where none of the six has a name attached. It held while humans were the throttle. Now the queue in front of your senior engineer is not a review problem. It is your org chart, printed.",
+      "result_vi": "Một nghi thức gánh sáu việc là nghi thức mà không việc nào có tên người đứng sau. Nó còn trụ được khi con người là chỗ nghẽn. Giờ cái hàng chờ trước mặt senior engineer của bạn không phải vấn đề review. Nó là sơ đồ tổ chức của bạn, in ra giấy.",
+      "result_underline": "your org chart, printed",
+      "result_underline_vi": "sơ đồ tổ chức của bạn, in ra giấy",
+      "tick": "Which of your rituals is doing a job nobody has agreed to own?",
+      "tick_vi": "Nghi thức nào của nhóm bạn đang làm một việc mà không ai nhận đứng tên?",
+      "tick_bold": [
+        "nobody has agreed to own"
+      ],
+      "tick_bold_vi": [
+        "không ai nhận đứng tên"
+      ],
+      "provocation": "List what your pull request process actually delivers: quality, security, mentoring, alignment. For each one, name the person accountable if it stops happening tomorrow. The items with no name are the reason the queue exists.",
+      "provocation_vi": "Liệt kê những gì quy trình pull request của bạn thật sự mang lại: chất lượng, bảo mật, kèm người, thống nhất hướng đi. Với từng cái, gọi tên người chịu trách nhiệm nếu ngày mai nó biến mất. Những cái không gọi được tên ai chính là lý do cái hàng chờ tồn tại.",
+      "source": {
+        "site": "martinfowler.com",
+        "title": "Maybe We Shouldn't Be Reviewing All This Code",
+        "url": "https://martinfowler.com/rachels-ramblings/code-review.html",
+        "published": "2026-09-02"
+      }
+    },
+    {
+      "title": "UNPRICED HOUR",
+      "title_vi": "GIỜ KHÔNG AI ĐỊNH GIÁ",
+      "headline": "Ten seconds to write. Ten minutes to read. Someone is paying that.",
+      "headline_vi": "Mười giây để viết. Mười phút để đọc. Có người đang trả cái đó.",
+      "a": {
+        "who": "Sean Goedecke",
+        "what": "Workslop is a colleague pasting a wall of AI text at you. The problem is not the style, it is the asymmetry: generating it costs nothing, reading it still costs you. So he treats it as a denial-of-service and answers in kind. Say stop where you have the standing. Summarise it with a model of your own. Move it to a call, because effort becomes symmetric again the moment someone has to talk. Or skim it and wait for whatever mattered to arrive in someone's own words.",
+        "what_vi": "Workslop là khi đồng nghiệp dán cho bạn một bức tường chữ do AI viết. Vấn đề không nằm ở văn phong, nằm ở sự bất cân xứng: tạo ra thì gần như không tốn gì, đọc thì vẫn tốn của bạn. Nên anh coi nó như một đợt tấn công từ chối dịch vụ và đáp lại đúng kiểu. Ai đủ vị thế thì nói thẳng đừng làm vậy. Không thì quăng vào model của mình lấy ý chính. Hoặc kéo sang một cuộc gọi, vì hễ phải mở miệng nói là công sức hai bên cân lại. Hoặc lướt qua, rồi chờ cái gì thật sự quan trọng được nói bằng lời của chính họ."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "Price a founder's hour at a thousand dollars. Not because anyone pays it, but because you are working on deferred terms with a one-in-four chance of ever being paid, and a price that high is what makes refusing small-upside work automatic.",
+        "what_vi": "Định giá một giờ của founder là một nghìn đô. Không phải vì có ai trả, mà vì bạn đang làm với điều kiện trả sau và xác suất được trả chỉ một phần tư, và cái giá cao như vậy mới khiến việc từ chối những thứ lợi ích lặt vặt thành phản xạ."
+      },
+      "result": "Workslop is a transfer nobody quoted: their cheapest ten seconds, spent against your most expensive hour. Put a price on the hour and the defence stops being rude. Skimming is not impatience. It is accounting.",
+      "result_vi": "Workslop là một khoản chuyển giao không ai báo giá: mười giây rẻ nhất của họ, tiêu vào giờ đắt nhất của bạn. Gắn giá vào cái giờ đó thì việc tự vệ thôi mang tiếng bất lịch sự. Lướt không phải là thiếu kiên nhẫn. Là tính sổ.",
+      "result_underline": "It is accounting",
+      "result_underline_vi": "Là tính sổ",
+      "tick": "What did you read this week that nobody spent a minute writing?",
+      "tick_vi": "Tuần này bạn đã đọc thứ gì mà không ai bỏ ra một phút để viết?",
+      "tick_bold": [
+        "nobody spent a minute writing"
+      ],
+      "tick_bold_vi": [
+        "không ai bỏ ra một phút để viết"
+      ],
+      "provocation": "Think of the last long message you had to read twice to find the point. Guess what your hour is worth, then what theirs cost. If the ratio is a hundred to one, replying with let us take five minutes on a call is not rude. It is a correction.",
+      "provocation_vi": "Nghĩ tới tin nhắn dài gần nhất bạn phải đọc hai lần mới thấy ý chính. Ước xem giờ của bạn đáng bao nhiêu, rồi tới giờ của họ. Nếu tỉ lệ là một trăm ăn một, trả lời rằng mình gọi nhau năm phút đi không phải bất lịch sự. Là chỉnh lại cho đúng.",
+      "source": {
+        "site": "seangoedecke.com",
+        "title": "How to protect yourself from workslop",
+        "url": "https://seangoedecke.com/how-to-protect-yourself-from-workslop/",
+        "published": "2026-09-02"
+      }
+    }
+  ]
+}

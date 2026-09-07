@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 7</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 43</div></div></div>
+<div class="meta label">Monday, September 7, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">BORROWED RULER</span><span data-l="vi">THƯỚC ĐI MƯỢN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">An eval is just a metric that counts how often a specific error happens. But you cannot start with the eval. You start by reading one full output against its source yourself, logging exactly what the model got wrong, and only then do the categories of error tell you which evals to build. She did this with one interview transcript out of seventeen and found two errors worth guarding. Her warning is about the shortcut: correctness is context dependent, so a vendor&#x27;s built-in helpfulness score ships with someone else&#x27;s definition of good already inside it.</span><span data-l="vi">Eval chỉ là một metric đếm xem một lỗi cụ thể xảy ra bao nhiêu lần. Nhưng bạn không bắt đầu từ eval. Bạn bắt đầu bằng cách tự đọc một output đầy đủ, đối chiếu với nguồn, ghi lại chính xác model sai chỗ nào, rồi các nhóm lỗi đó mới nói cho bạn biết cần dựng eval nào. Chị làm vậy với một transcript trong mười bảy cái và tìm ra hai lỗi đáng chặn. Cảnh báo của chị nằm ở chỗ đi tắt: thế nào là đúng phụ thuộc ngữ cảnh, nên cái điểm helpfulness có sẵn của vendor đã gói định nghĩa tốt của người khác vào bên trong rồi.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Lenny Rachitsky</div><div class="what"><span data-l="en">His newsletter runs on benchmarks: what retention, conversion and growth look like across hundreds of companies. The caveat is always attached, and it is the whole point. The numbers swing wildly by business model and stage, so they orient you. They do not grade you.</span><span data-l="vi">Newsletter của anh sống bằng benchmark: retention, conversion, growth ở hàng trăm công ty trông như thế nào. Lời lưu ý luôn đi kèm, và đó mới là điểm chính. Con số nhảy loạn theo business model và giai đoạn, nên nó để định vị. Không phải để chấm điểm bạn.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Two ends of the same sentence: you can borrow the number, never the definition. The hour Torres spends reading one transcript line by line is not overhead. It is <u>the only place your definition of good ever gets written down</u>.</span><span data-l="vi">Hai đầu của cùng một câu: con số thì mượn được, định nghĩa thì không. Cái giờ đồng hồ Torres bỏ ra đọc từng dòng một transcript không phải chi phí thừa. Đó là <u>chỗ duy nhất mà định nghĩa tốt của bạn được viết ra</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which number on your dashboard did you <b>define</b>, and which did you <b>inherit</b>?</span><span data-l="vi">Con số nào trên dashboard là <b>do bạn định nghĩa</b>, con số nào bạn <b>nhận lại từ người khác</b>?</span></p></div>
+<div class="src-link"><a href="https://www.producttalk.org/ai-evals/" target="_blank" rel="noopener">Product Talk — AI Evals: A Hands-On Guide for Product Teams &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">SIX JOBS</span><span data-l="vi">SÁU VIỆC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Rachel Laycock</div><div class="what"><span data-l="en">Agents now write more code than humans can read; median pull request size is up sixty-four percent. Her answer is not a faster review. Code review has quietly been carrying six jobs at once -- quality gate, security check, architecture review, mentoring, knowledge sharing, ownership -- and every one of them belongs earlier: pair, design as a team, encode the constraints as fitness functions, automate whatever is deterministic, then review by exception. Engineers need to understand systems, not diffs.</span><span data-l="vi">Agent giờ viết code nhiều hơn mức người đọc nổi; pull request trung vị đã to hơn sáu mươi tư phần trăm. Cách chị trả lời không phải là review nhanh hơn. Code review lâu nay âm thầm gánh sáu việc cùng lúc -- cổng chất lượng, kiểm bảo mật, soát kiến trúc, kèm người mới, chia sẻ hiểu biết, quyền sở hữu chung -- và việc nào cũng thuộc về giai đoạn sớm hơn: pair với nhau, thiết kế cả nhóm, mã hoá ràng buộc thành fitness function, tự động hoá mọi thứ máy quyết được, rồi chỉ review những ca ngoại lệ. Kỹ sư cần hiểu hệ thống, không phải hiểu diff.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">The product model swaps stage gates for empowered teams held to outcomes. A gate is what a company installs when nobody is personally accountable for the decision the gate exists to catch.</span><span data-l="vi">Product model đổi các stage gate lấy empowered team chịu trách nhiệm trên outcome. Cái gate là thứ công ty dựng lên khi không ai đứng tên chịu trách nhiệm cho quyết định mà cái gate đó sinh ra để bắt.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A ritual asked to do six jobs is a ritual where none of the six has a name attached. It held while humans were the throttle. Now the queue in front of your senior engineer is not a review problem. It is <u>your org chart, printed</u>.</span><span data-l="vi">Một nghi thức gánh sáu việc là nghi thức mà không việc nào có tên người đứng sau. Nó còn trụ được khi con người là chỗ nghẽn. Giờ cái hàng chờ trước mặt senior engineer của bạn không phải vấn đề review. Nó là <u>sơ đồ tổ chức của bạn, in ra giấy</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your rituals is doing a job <b>nobody has agreed to own</b>?</span><span data-l="vi">Nghi thức nào của nhóm bạn đang làm một việc mà <b>không ai nhận đứng tên</b>?</span></p></div>
+<div class="src-link"><a href="https://martinfowler.com/rachels-ramblings/code-review.html" target="_blank" rel="noopener">martinfowler.com — Maybe We Shouldn&#x27;t Be Reviewing All This Code &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">UNPRICED HOUR</span><span data-l="vi">GIỜ KHÔNG AI ĐỊNH GIÁ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Sean Goedecke</div><div class="what"><span data-l="en">Workslop is a colleague pasting a wall of AI text at you. The problem is not the style, it is the asymmetry: generating it costs nothing, reading it still costs you. So he treats it as a denial-of-service and answers in kind. Say stop where you have the standing. Summarise it with a model of your own. Move it to a call, because effort becomes symmetric again the moment someone has to talk. Or skim it and wait for whatever mattered to arrive in someone&#x27;s own words.</span><span data-l="vi">Workslop là khi đồng nghiệp dán cho bạn một bức tường chữ do AI viết. Vấn đề không nằm ở văn phong, nằm ở sự bất cân xứng: tạo ra thì gần như không tốn gì, đọc thì vẫn tốn của bạn. Nên anh coi nó như một đợt tấn công từ chối dịch vụ và đáp lại đúng kiểu. Ai đủ vị thế thì nói thẳng đừng làm vậy. Không thì quăng vào model của mình lấy ý chính. Hoặc kéo sang một cuộc gọi, vì hễ phải mở miệng nói là công sức hai bên cân lại. Hoặc lướt qua, rồi chờ cái gì thật sự quan trọng được nói bằng lời của chính họ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">Price a founder&#x27;s hour at a thousand dollars. Not because anyone pays it, but because you are working on deferred terms with a one-in-four chance of ever being paid, and a price that high is what makes refusing small-upside work automatic.</span><span data-l="vi">Định giá một giờ của founder là một nghìn đô. Không phải vì có ai trả, mà vì bạn đang làm với điều kiện trả sau và xác suất được trả chỉ một phần tư, và cái giá cao như vậy mới khiến việc từ chối những thứ lợi ích lặt vặt thành phản xạ.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Workslop is a transfer nobody quoted: their cheapest ten seconds, spent against your most expensive hour. Put a price on the hour and the defence stops being rude. Skimming is not impatience. <u>It is accounting</u>.</span><span data-l="vi">Workslop là một khoản chuyển giao không ai báo giá: mười giây rẻ nhất của họ, tiêu vào giờ đắt nhất của bạn. Gắn giá vào cái giờ đó thì việc tự vệ thôi mang tiếng bất lịch sự. Lướt không phải là thiếu kiên nhẫn. <u>Là tính sổ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did you read this week that <b>nobody spent a minute writing</b>?</span><span data-l="vi">Tuần này bạn đã đọc thứ gì mà <b>không ai bỏ ra một phút để viết</b>?</span></p></div>
+<div class="src-link"><a href="https://seangoedecke.com/how-to-protect-yourself-from-workslop/" target="_blank" rel="noopener">seangoedecke.com — How to protect yourself from workslop &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-06.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-06</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Teresa Torres / Lenny Rachitsky / Rachel Laycock / Marty Cagan / Sean Goedecke / Jason Cohen<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Teresa Torres / Lenny Rachitsky / Rachel Laycock / Marty Cagan / Sean Goedecke / Jason Cohen<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

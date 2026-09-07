@@ -1,0 +1,22 @@
+Morning Spark · Monday, September 7 · Ed. 43
+Define good yourself. Stop guarding the gate. Price your hour.
+
+─────────────────
+01 · A benchmark tells you where everyone landed. Not whether you are right.
+Teresa Torres × Lenny Rachitsky
+Open the dashboard you check every morning. For each number, say out loud who decided what counts as good. If the answer is a vendor, a template or a blog post, that number is orientation, not evidence.
+→ https://www.producttalk.org/ai-evals/
+
+─────────────────
+02 · Code review was never one job. AI just removed the slack that hid it.
+Rachel Laycock × Marty Cagan
+List what your pull request process actually delivers: quality, security, mentoring, alignment. For each one, name the person accountable if it stops happening tomorrow. The items with no name are the reason the queue exists.
+→ https://martinfowler.com/rachels-ramblings/code-review.html
+
+─────────────────
+03 · Ten seconds to write. Ten minutes to read. Someone is paying that.
+Sean Goedecke × Jason Cohen
+Think of the last long message you had to read twice to find the point. Guess what your hour is worth, then what theirs cost. If the ratio is a hundred to one, replying with let us take five minutes on a call is not rude. It is a correction.
+→ https://seangoedecke.com/how-to-protect-yourself-from-workslop/
+
+Full styled card → open the session.
