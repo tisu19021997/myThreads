@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-08",
+  "edition": 44,
+  "framing": "Rules you patched, trust you borrowed, requests that stopped arriving.",
+  "framing_vi": "Luật vá tạm, niềm tin đi mượn, những yêu cầu đã ngừng tới.",
+  "note": "Themes: an explicit rule as a fix made at the wrong layer, the considered purchase decided months earlier on somebody else's page, a backlog as a measure of belief rather than work. Sources: dbreunig.com (Drew Breunig, Sep 7, brand new well as a source, full body on the page, an atom feed at /feed.xml), sparktoro.com (Amanda Natividad -- note the byline, SparkToro's second use but a different author from Ed 38's Rand Fishkin piece, Aug 26, the Black Friday teardown finally off the shelf), lethain.com (Will Larson, Jul 11, generated-demand off the shelf). Pairings: Drew Breunig x John Cutler, Amanda Natividad x Gibson Biddle, Will Larson x Ben Thompson -- second halves taken from the roster members rested longest (Cutler last ran Sep 5 as a source, Biddle and Thompson Sep 4), since Ed 41 through 43 spent Teresa Torres, April Dunford, Melissa Perri, Andrew Chen, Brian Balfour, Lenny, Marty Cagan and Jason Cohen. Rested every source used in the last three days: producttalk, martinfowler, seangoedecke, benn.substack, notboring, commoncog, cutlefish, simonwillison, caseyaccidental. Deliberately skipped: Lenny's 'Build your own company brain' and 'Why companies are becoming a series of...' (Sep 6-7, freshest on the roster, but Lenny's truncates at Read more in the feed and Lenny was the second half yesterday); tomtunguz 'Concrete, Silicon and Leverage' (Sep 4, good, but Tunguz was the source Sep 4); SVPG 'A Fresh Definition of The Product Role' (still on the shelf, Cagan was the second half yesterday). Feed notes: tomtunguz.com/feed.xml now 404s, use /index.xml; sparktoro.com/blog/feed 301s to /blog/feed/ and works; askgib has published nothing since Mar 2025, treat Gibson Biddle as a framework source only; oneusefulthing has published nothing since Aug 31. New well opened and barely spent: dbreunig.com (system-prompt and context-engineering material -- 'Who Taught the Models to Do That?', 'Harnesses are Situated Agents', 'The Problem is Prompt Debt', 'Overfitting the Harness', 'The Spec-Driven Development Triangle' all unused). Still on the shelf: Teresa Torres ai-evals-test-harness, Benn Stancil the-model-is-man-made, April Dunford dont-let-customers-decide-what-your-product-is, Hamel 'AI Product Engineering Notes', SVPG 'A Fresh Definition of The Product Role', seangoedecke's three unused posts, martinfowler's Laycock and Bliki pieces, lethain make-no-assumptions and agents-as-scaffolding.",
+  "sparks": [
+    {
+      "title": "SAID TWICE",
+      "title_vi": "NÓI HAI LẦN",
+      "headline": "Every rule you write down is a fix you could not make at the source.",
+      "headline_vi": "Mỗi luật bạn viết ra là một chỗ bạn không sửa được tận gốc.",
+      "a": {
+        "who": "Drew Breunig",
+        "what": "He diffed Claude's Fable 5.1 system prompt against the 5.0 one and read every change as a product decision. A line telling the model to stop saying honestly is a hot fix, filed in context because training did not catch it. The formatting rules came back with a reason attached and an exception carved out. The search rule lost its numbers entirely, from one call for a fact and five to ten for research down to use as many as needed and no more, because a better instruction follower took the count literally. His warning is that models are a moving target, so you need a way to measure what a new one does to your instructions or you sit on prompt debt.",
+        "what_vi": "Anh đem system prompt Fable 5.1 của Claude diff với bản 5.0 và đọc từng thay đổi như một quyết định sản phẩm. Dòng bảo model đừng nói honestly là một bản vá nóng, nhét vào context vì training không xử được. Mấy luật về format quay lại kèm lý do và chừa một ngoại lệ. Luật search thì bị bỏ sạch con số, từ một lần gọi cho câu hỏi đơn và năm tới mười cho nghiên cứu xuống còn dùng đủ là được, không hơn, vì một model nghe lời tốt hơn lại làm đúng y con số. Cảnh báo của anh: model là mục tiêu di động, nên phải có cách đo xem model mới làm gì với đống hướng dẫn của bạn, không thì ôm prompt debt."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "His running argument about process is that most of it is sediment. A rule gets added the week after something went wrong, the condition that caused it passes, and the rule stays because removing it needs somebody willing to own the risk. So the artifact, the doc, the checklist, the ritual, is the honest record of what a team could not solve any other way.",
+        "what_vi": "Lập luận quen thuộc của anh về process: phần lớn nó là trầm tích. Một cái luật được thêm vào ngay tuần sau khi có sự cố, hoàn cảnh đẻ ra nó qua lâu rồi, mà luật vẫn nằm đó vì gỡ ra thì phải có người đứng ra chịu rủi ro. Nên cái artifact, cái doc, cái checklist, cái ritual, mới là bản ghi thật thà nhất về những gì một team không giải quyết được theo cách nào khác."
+      },
+      "result": "Both are reading the same artifact: a rulebook is a list of fixes made at the wrong layer. What you had to say twice is everything the system never learned, and the rule you can finally delete is the only proof that something did.",
+      "result_vi": "Cả hai đang đọc cùng một thứ: một cuốn luật là danh sách những chỗ được vá sai tầng. Cái gì bạn phải nói hai lần là cái hệ thống chưa bao giờ học được, còn luật mà bạn xóa được mới là bằng chứng duy nhất rằng có thứ gì đó đã học.",
+      "result_underline": "the rule you can finally delete is the only proof that something did",
+      "result_underline_vi": "luật mà bạn xóa được mới là bằng chứng duy nhất rằng có thứ gì đó đã học",
+      "tick": "Which rule in your team's doc is a hot fix nobody went back and fixed properly?",
+      "tick_vi": "Luật nào trong doc của team bạn là bản vá nóng mà không ai quay lại sửa tới nơi tới chốn?",
+      "tick_bold": [
+        "hot fix",
+        "went back"
+      ],
+      "tick_bold_vi": [
+        "bản vá nóng",
+        "quay lại sửa"
+      ],
+      "provocation": "Open your team's working agreement, or the longest prompt you maintain. For each line, name the incident that put it there and ask whether that condition still holds. The lines you cannot trace are debt. The lines you can safely delete are your only evidence of progress.",
+      "provocation_vi": "Mở working agreement của team, hoặc cái prompt dài nhất bạn đang xài. Với từng dòng, gọi tên sự cố đã đẻ ra nó và hỏi hoàn cảnh đó còn đúng không. Dòng nào bạn không truy được là nợ. Dòng nào xóa đi mà không sao mới là bằng chứng bạn có tiến.",
+      "source": {
+        "site": "dbreunig.com",
+        "title": "What We Can Learn from Claude's Fable 5.1 System Prompt",
+        "url": "https://www.dbreunig.com/2026/09/07/what-we-can-learn-from-claude-s-fable-5-1-system-prompt.html",
+        "published": "2026-09-07"
+      }
+    },
+    {
+      "title": "OTHER PEOPLE'S PAGES",
+      "title_vi": "TRANG CỦA NGƯỜI KHÁC",
+      "headline": "The considered purchase is decided somewhere you do not own, months early.",
+      "headline_vi": "Món hàng phải cân nhắc được chốt ở chỗ bạn không sở hữu, từ mấy tháng trước.",
+      "a": {
+        "who": "Amanda Natividad",
+        "what": "She ran an audience report on American women shopping for at-home LED face masks, a 470 dollar purchase people research for weeks, and the obvious plan came out wrong. The audience uses YouTube, Facebook, Instagram, Reddit and TikTok heavily and under-indexes on every one of them against the average US web user. It over-indexes on Claude by 221 percent. Its searches are all comparison and evidence: does this work, which one is best, what do dermatologists say, CurrentBody or Omnilux. So her plan spends August to October getting into Allure, dermatologists, review channels and the skincare subreddits, and only sells in November. Reach says whether a channel matters. Indexing says whether this audience is concentrated there. They answer different questions.",
+        "what_vi": "Chị chạy một audience report về phụ nữ Mỹ đang tìm mua mặt nạ LED dùng tại nhà, món 470 đô mà người ta nghiên cứu cả tuần, và cái kế hoạch hiển nhiên hóa ra sai. Nhóm này xài YouTube, Facebook, Instagram, Reddit, TikTok rất nhiều, và so với người dùng web trung bình ở Mỹ thì đều dưới mức trung bình, cả năm nền tảng. Riêng Claude thì trên mức trung bình 221 phần trăm. Từ khóa họ search toàn là so sánh và bằng chứng: có tác dụng không, cái nào tốt nhất, bác sĩ da liễu nói gì, CurrentBody hay Omnilux. Nên kế hoạch của chị dành tháng Tám tới tháng Mười để có mặt trên Allure, trong miệng bác sĩ da liễu, trên các kênh review và các sub skincare, tới tháng Mười Một mới bán. Reach nói cho bạn biết một kênh có đáng không. Index nói nhóm này có tập trung ở đó không. Hai câu hỏi khác nhau."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "His proxy metric idea: the outcome you actually want takes years to observe, so you pick something measurable now to stand in for it, and the entire skill is picking one that does not lie. A proxy that is easy to move and only loosely attached to the outcome will get moved, enthusiastically, in the wrong direction.",
+        "what_vi": "Ý proxy metric của anh: cái outcome bạn thực sự muốn phải vài năm mới thấy, nên bạn chọn một thứ đo được ngay để thay thế, và toàn bộ tay nghề nằm ở chỗ chọn được cái không nói dối. Một proxy dễ đẩy mà dính lỏng lẻo với outcome thì kiểu gì cũng bị đẩy, đẩy rất hăng, và đẩy sai hướng."
+      },
+      "result": "Put the two together and platform reach is the easy proxy: measured on your own property, in the week you spend the money. What actually decides a considered purchase is whether you were inside somebody else's answer three months earlier, which is harder to count and is the real metric.",
+      "result_vi": "Ghép lại thì reach trên platform là cái proxy dễ: đo trên sân nhà, đúng cái tuần bạn tiêu tiền. Còn thứ thực sự quyết định một món hàng phải cân nhắc là bạn có nằm trong câu trả lời của người khác từ ba tháng trước hay không, cái đó khó đếm hơn và mới là metric thật.",
+      "result_underline": "harder to count and is the real metric",
+      "result_underline_vi": "khó đếm hơn và mới là metric thật",
+      "tick": "What does your buyer read three weeks before they ever type your name?",
+      "tick_vi": "Ba tuần trước khi gõ tên bạn, khách của bạn đọc cái gì?",
+      "tick_bold": [
+        "three weeks before",
+        "type your name"
+      ],
+      "tick_bold_vi": [
+        "Ba tuần trước",
+        "gõ tên bạn"
+      ],
+      "provocation": "Take your last five customers and reconstruct the week before they contacted you. Name the pages, the threads and the people who formed the opinion. Whatever shows up there is your channel plan. The dashboard is only the part that was countable.",
+      "provocation_vi": "Lấy năm khách gần nhất và dựng lại cái tuần trước khi họ liên hệ. Gọi tên những trang, những thread, những người đã tạo ra ý kiến đó. Cái gì xuất hiện ở đó mới là channel plan của bạn. Dashboard chỉ là phần đếm được.",
+      "source": {
+        "site": "SparkToro",
+        "title": "How We'd Market a $400 Skincare Device Before Black Friday",
+        "url": "https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/",
+        "published": "2026-08-26"
+      }
+    },
+    {
+      "title": "SILENT QUEUE",
+      "title_vi": "HÀNG ĐỢI IM LẶNG",
+      "headline": "A backlog measures how much people trust you. Not how much work exists.",
+      "headline_vi": "Hàng đợi đo bao nhiêu người tin bạn. Không đo có bao nhiêu việc.",
+      "a": {
+        "who": "Will Larson",
+        "what": "Suppressed demand is work that never arrives because people stopped asking you for help. Fix the team and it converts into real requests, so a team that did everything right can be further underwater a year later than when it was shipping almost nothing. His customer operations engineering team did exactly that: split out, shipped well, and ended up deeper in requests than before. The only move is running the recovery cycle again, and maybe twice more, until the hidden backlog is surfaced. Narrow-interface teams run out of it quickly. Broad ones, like developer experience, are sitting on an enormous invisible queue.",
+        "what_vi": "Suppressed demand là việc lẽ ra tới nhưng không tới, vì người ta thôi không nhờ bạn nữa. Sửa được team thì nó biến thành yêu cầu thật, nên một team làm đúng hết mọi thứ vẫn có thể ngập sâu hơn sau một năm so với lúc gần như chưa ship được gì. Team customer operations engineering của anh đúng y vậy: tách ra, làm tốt, rồi ngập yêu cầu hơn trước. Cách duy nhất là chạy lại vòng phục hồi, rồi có thể thêm hai lần nữa, cho tới khi moi hết cái backlog đang ẩn. Team có bề mặt hẹp thì hết nhanh. Team bề mặt rộng như developer experience thì đang ngồi trên một hàng đợi vô hình khổng lồ."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregation theory reads the same asymmetry from the market side. When friction and distribution cost fall toward zero, the demand that was quietly doing without shows up, and the party that owns the relationship with that demand, rather than the one that owns supply, takes the market.",
+        "what_vi": "Aggregation theory nhìn đúng sự bất đối xứng đó từ phía thị trường. Khi ma sát và chi phí phân phối về gần không, cái nhu cầu vốn đang lặng lẽ nhịn sẽ hiện ra, và bên nắm quan hệ với nhu cầu đó, chứ không phải bên nắm nguồn cung, mới là bên ăn thị trường."
+      },
+      "result": "Same shape at two scales: demand is not created by the fix, it was there all along, held down by friction or by disbelief. Which means the backlog that grows right after you get good is the receipt for getting good.",
+      "result_vi": "Cùng một hình dạng ở hai quy mô: nhu cầu không phải do bạn sửa mà sinh ra, nó ở đó sẵn rồi, bị ma sát hoặc bị sự không tin đè xuống. Nghĩa là cái backlog phình ra ngay sau khi bạn làm tốt lên chính là biên nhận cho việc bạn làm tốt lên.",
+      "result_underline": "the backlog that grows right after you get good is the receipt for getting good",
+      "result_underline_vi": "cái backlog phình ra ngay sau khi bạn làm tốt lên chính là biên nhận",
+      "tick": "Who stopped asking you for things, and how long ago did they stop?",
+      "tick_vi": "Ai đã thôi không nhờ bạn nữa, và họ thôi từ bao giờ?",
+      "tick_bold": [
+        "stopped asking",
+        "how long ago"
+      ],
+      "tick_bold_vi": [
+        "thôi không nhờ bạn",
+        "từ bao giờ"
+      ],
+      "provocation": "List the three people or teams who used to bring you requests and no longer do. Do not assume the need went away; assume they routed around you. The size of that silence is the size of the work you have not seen yet.",
+      "provocation_vi": "Liệt kê ba người hay ba team từng đem việc tới cho bạn mà giờ không đem nữa. Đừng cho rằng nhu cầu của họ biến mất; cứ cho là họ đi vòng qua bạn. Khoảng im lặng đó lớn cỡ nào thì phần việc bạn chưa nhìn thấy lớn cỡ đó.",
+      "source": {
+        "site": "Irrational Exuberance",
+        "title": "Generated and suppressed demand.",
+        "url": "https://lethain.com/generated-demand/",
+        "published": "2026-07-11"
+      }
+    }
+  ]
+}

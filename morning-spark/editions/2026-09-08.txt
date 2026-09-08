@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, September 8 · Ed. 44
+Rules you patched, trust you borrowed, requests that stopped arriving.
+
+─────────────────
+01 · Every rule you write down is a fix you could not make at the source.
+Drew Breunig × John Cutler
+Open your team's working agreement, or the longest prompt you maintain. For each line, name the incident that put it there and ask whether that condition still holds. The lines you cannot trace are debt. The lines you can safely delete are your only evidence of progress.
+→ https://www.dbreunig.com/2026/09/07/what-we-can-learn-from-claude-s-fable-5-1-system-prompt.html
+
+─────────────────
+02 · The considered purchase is decided somewhere you do not own, months early.
+Amanda Natividad × Gibson Biddle
+Take your last five customers and reconstruct the week before they contacted you. Name the pages, the threads and the people who formed the opinion. Whatever shows up there is your channel plan. The dashboard is only the part that was countable.
+→ https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/
+
+─────────────────
+03 · A backlog measures how much people trust you. Not how much work exists.
+Will Larson × Ben Thompson
+List the three people or teams who used to bring you requests and no longer do. Do not assume the need went away; assume they routed around you. The size of that silence is the size of the work you have not seen yet.
+→ https://lethain.com/generated-demand/
+
+Full styled card → open the session.
