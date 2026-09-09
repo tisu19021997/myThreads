@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, September 9 · Ed. 45
+Shifts you supervise, systems you skip, customers who never used it.
+
+─────────────────
+01 · Nobody got three times smarter. The factory just stopped closing.
+Tomasz Tunguz × Paul Graham
+Count tomorrow morning in two buckets: time spent making something, and time spent inspecting output that arrived while you slept. If the second bucket is winning, you have not become three times more productive. You have been promoted into middle management without the title, and your reports do not get better.
+→ https://tomtunguz.com/openai-research-acceleration-agentic-productivity/
+
+─────────────────
+02 · The method was never the scarce part. Running it was.
+Ben Thompson × David Allen
+You do not need a better tool and you have not needed one for a while. Pick the one open loop you have re-thought more than three times this week, write it into whatever bucket you already have, and close it today. Thompson's closing line is the whole point: having systems to do things will always matter less than doing the things.
+→ https://stratechery.com/2026/write-things-down/
+
+─────────────────
+03 · Your most reasonable customer is the one teaching you nothing.
+Casey Winters × Andrew Chen
+Take the last three things you built off customer feedback and look up whether those customers opened the feature. If they did not, you were not doing discovery, you were taking dictation from someone who was never going to show up. Find the users who tolerate the rough edges and build for them until the receipt exists.
+→ https://www.caseyaccidental.com/p/every-product-starts-in-oklahoma
+
+Full styled card → open the session.

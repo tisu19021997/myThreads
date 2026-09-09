@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-09",
+  "edition": 45,
+  "framing": "Shifts you supervise, systems you skip, customers who never used it.",
+  "framing_vi": "Ca máy bạn ngồi trông, hệ thống bạn bỏ, khách chưa từng xài.",
+  "note": "Themes: the 3x productivity number as three machine shifts rather than three brains, a method going free while the willingness to run it stays scarce, the reasonable customer's gap list as an invoice you have not earned. Sources: tomtunguz.com (Sep 8, brand new post, full body on the page, Tunguz rested since Sep 4), stratechery.com (Sep 8, 'Write Things Down' is a free Article not a paywalled daily or a numbered weekly roundup, read in full, Stratechery rested since Aug 30), caseyaccidental.com (Casey Winters, Mar 3 back-catalogue, full body in the feed; the well ran Sep 5 with zero-to-one-subtraction but the Sooners/Missourians argument does not touch that pruning theme, so taking it at four days is safe). Pairings: Tomasz Tunguz x Paul Graham, Ben Thompson x David Allen, Casey Winters x Andrew Chen -- all three unused, checked against the full 44-edition history, not the ledger's default 21-edition window. David Allen is an outside second half quoted at length inside the Thompson piece, same precedent as Ed 35's Mark Zuckerberg. Second halves picked from the roster members rested longest: Paul Graham Sep 3, Andrew Chen Sep 6. Rested every source used in the last three days: dbreunig, sparktoro, lethain, producttalk, martinfowler, seangoedecke, benn.substack, notboring, commoncog, cutlefish, simonwillison. Deliberately skipped: SVPG 'A Fresh Definition of The Product Role' (finally read in full, but it is Cagan writing about Benedict Evans and its thesis -- the hard part is knowing the tool should exist -- is Ed 40's Benedict Evans x Marty Cagan spark almost exactly, so drop it from the shelf rather than keep re-listing it); pragmaticengineer 'What is happening with code reviews?' (Sep 8, fresh and strong, but Ed 43 ran Rachel Laycock on code review two days ago); A Smart Bear 'Lost confidence' (read in full today, then found longform.asmartbear.com/confidence/ already used in a pre-Ed-25 edition -- exactly the trap Ed 34 warned about, so check the full URL list, not the ledger window); Lenny's 'How we built Grok Bot in a month' (Sep 8, freshest on the roster, but it is a Paid podcast post with show notes only, confirming again that Lenny's podcast posts are unusable); cutlefish TBM 438 (Sep 5, but cutlefish is the most-used well on file and ran Sep 5). Framework note: Teresa Torres's 'stories not opinions' has now been the second half three times (Aug 3, Aug 29, Aug 30) -- it is spent, so pair her on a different framework or rest her. Feed notes: tomtunguz.com/index.xml works (/feed.xml still 404s), stratechery.com/feed/ carries Articles and Updates together so check the URL slug -- numbered weeklies and Interviews are roundups or paywalled, kellblog.com/feed/ works and is not paywalled, aprildunford.com/sitemap.xml lists only top-level pages so post URLs must come from elsewhere, askgib and oneusefulthing still quiet. Wells barely spent: caseyaccidental (AI Signal to Noise Curve, Why Management Advice Breaks for Founders, magic-tricks-moats), kellblog (notetaker, category-design, too-busy-to-worry-about-winning), eugeneyan (principal, product-evals, cybersecurity-evals), ben-evans (token pricing, AI job exposure), pragmaticengineer (Casey Muratori, Addy Osmani). Still on the shelf: Teresa Torres ai-evals-test-harness, Benn Stancil the-model-is-man-made, April Dunford dont-let-customers-decide-what-your-product-is, Hamel 'AI Product Engineering Notes', seangoedecke's three unused posts, martinfowler's Bliki pieces, dbreunig's context-engineering set.",
+  "sparks": [
+    {
+      "title": "THIRD SHIFT",
+      "title_vi": "CA BA",
+      "headline": "Nobody got three times smarter. The factory just stopped closing.",
+      "headline_vi": "Không ai giỏi lên gấp ba. Chỉ là nhà máy thôi đóng cửa.",
+      "a": {
+        "who": "Tomasz Tunguz",
+        "what": "He took OpenAI's own disclosure and did the arithmetic. In mid-August its researchers logged 3.14 agent-workdays for every eight-hour human shift, the typical one running four agents in parallel. The median researcher's inference bill went from 14 dollars a day in March to over 600 by August, a fortyfold jump in five months, with the ninetieth percentile burning 7,000 a day. But inference is metered OPEX, not a welding robot bought with capex, so there is no idle machinery to amortize and no graveyard-shift wages, and therefore no reason to ever switch it off. Meanwhile more than half of the successful four-to-eight-hour tasks still needed a human to step in. Two overnight shifts at roughly half yield add up to about one extra shift of finished work, which is why the morning is spent clearing jams rather than designing anything.",
+        "what_vi": "Anh lấy đúng số liệu OpenAI công bố rồi làm phép tính. Giữa tháng Tám, researcher của họ ghi nhận 3,14 agent-workday cho mỗi ca người tám tiếng, người bình thường chạy bốn agent song song. Hóa đơn inference của researcher trung vị nhảy từ 14 đô một ngày hồi tháng Ba lên hơn 600 đô vào tháng Tám, gấp bốn mươi lần trong năm tháng, còn nhóm top mười phần trăm đốt 7.000 đô một ngày. Nhưng inference là OPEX tính theo đồng hồ, không phải con robot hàn mua bằng capex, nên chẳng có máy móc nằm không để khấu hao, chẳng có tiền ca đêm, và do đó chẳng có lý do gì để tắt. Trong khi đó hơn một nửa số task bốn tới tám tiếng chạy thành công vẫn phải có người nhảy vào. Hai ca đêm với hiệu suất cỡ một nửa cộng lại chỉ ra thêm khoảng một ca thành phẩm, nên buổi sáng là đi gỡ kẹt chứ không thiết kế gì cả."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "His split between the maker's schedule and the manager's schedule. A manager's day comes pre-cut into hours and any one of them can be traded away cheaply. A maker needs half a day as the minimum indivisible unit, because the work only starts once the whole problem is loaded and held in your head. That is why a single meeting priced at one hour can cost an entire afternoon: it does not take an hour out of the day, it breaks the block the work needed.",
+        "what_vi": "Sự phân đôi của anh giữa maker's schedule và manager's schedule. Ngày của manager được cắt sẵn theo giờ, và đổi đi một giờ bất kỳ thì rẻ. Maker cần nửa ngày làm đơn vị nhỏ nhất không chia được, vì công việc chỉ bắt đầu khi cả bài toán đã nạp xong và giữ được trong đầu. Nên một cuộc họp ghi giá một tiếng có thể ăn nguyên buổi chiều: nó không lấy đi một tiếng, nó làm vỡ cái khối mà công việc cần."
+      },
+      "result": "The 3x was not bought with intelligence. It was bought by moving one person off the maker's schedule onto the manager's, permanently, with four reports who file overnight and never learn. You did not get three of you; you got one of you, interrupted.",
+      "result_vi": "Con số 3x đó không mua bằng trí tuệ. Nó mua bằng cách đẩy một người ra khỏi maker's schedule sang manager's schedule, vĩnh viễn, với bốn cái report nộp bài lúc nửa đêm và không bao giờ học được gì. Bạn không có ba bạn; bạn có một bạn, bị cắt ngang.",
+      "result_underline": "you got one of you, interrupted",
+      "result_underline_vi": "bạn có một bạn, bị cắt ngang",
+      "tick": "How much of your morning goes to reviewing work you did not do?",
+      "tick_vi": "Buổi sáng của bạn mất bao nhiêu cho việc review công việc bạn không làm?",
+      "tick_bold": [
+        "reviewing work",
+        "did not do"
+      ],
+      "tick_bold_vi": [
+        "review công việc",
+        "bạn không làm"
+      ],
+      "provocation": "Count tomorrow morning in two buckets: time spent making something, and time spent inspecting output that arrived while you slept. If the second bucket is winning, you have not become three times more productive. You have been promoted into middle management without the title, and your reports do not get better.",
+      "provocation_vi": "Sáng mai chia thời gian làm hai rổ: thời gian bạn làm ra thứ gì đó, và thời gian bạn đi soi output đổ về lúc bạn ngủ. Nếu rổ thứ hai thắng thì bạn không năng suất gấp ba. Bạn vừa bị đôn lên làm quản lý cấp trung mà không có cái chức, còn nhân viên của bạn thì không khá lên.",
+      "source": {
+        "site": "Tomasz Tunguz",
+        "title": "Is the 3x AI Productivity Gain just a Computer that Never Sleeps?",
+        "url": "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
+        "published": "2026-09-08"
+      }
+    },
+    {
+      "title": "OPEN LOOPS",
+      "title_vi": "VÒNG BỎ NGỎ",
+      "headline": "The method was never the scarce part. Running it was.",
+      "headline_vi": "Phương pháp chưa bao giờ là thứ khan hiếm. Chịu chạy nó mới là.",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "He admits he was never the sort of person who could run Getting Things Done, so his fix was to hire an assistant and make reading the book his first job. This year he built the thing instead: an agent that tracked what he had in flight, what was waiting on him, and a queue that kept growing, then a status board when that got unwieldy. He gave his second assistant the same setup through a bot, and watched him derive the tickler file, the daily briefing and the next-action dialog from first principles without ever reading Allen. He reads the rogue-agent incident the same way. Writing things down is not evidence of a civilization, it is the only mode a model has, since every token is generated by reading the whole context again.",
+        "what_vi": "Anh thừa nhận mình chưa bao giờ thuộc dạng chạy nổi Getting Things Done, nên cách chữa là thuê trợ lý và giao việc đầu tiên là đọc cuốn sách đó. Năm nay anh dựng luôn cái hệ thống: một agent theo dõi anh đang làm dở gì, đang chờ ai, cộng một hàng đợi cứ dài ra, rồi thêm cái status board khi đống đó rối quá. Anh đưa cho trợ lý thứ hai đúng bộ đó qua một con bot, rồi nhìn anh ta tự nghĩ ra tickler file, bản brief mỗi sáng và cái next-action dialog từ số không, chưa đọc Allen dòng nào. Vụ agent chạy loạn anh cũng đọc y vậy. Viết ra không phải bằng chứng của một nền văn minh, nó là cách duy nhất model vận hành, vì mỗi token sinh ra đều phải đọc lại toàn bộ context."
+      },
+      "b": {
+        "who": "David Allen",
+        "what": "His premise in Getting Things Done, which Thompson quotes at length. The conscious mind is a focusing tool, not a storage place, and it holds maybe two or three things at once while the rest sit in short-term memory yelling. Worse, that part of the mind has no scheduling sense at all: it reminds you about the dead batteries when you are holding the dead ones, never when you walk past live ones in a shop. So the loop has to leave your head and go into a bucket you actually trust and actually review.",
+        "what_vi": "Tiền đề của anh trong Getting Things Done, đoạn Thompson trích khá dài. Phần ý thức của đầu óc là công cụ để tập trung, không phải chỗ chứa, và nó ôm được cỡ hai ba thứ một lúc, còn lại nằm trong bộ nhớ ngắn hạn la ó. Tệ hơn, phần đó không có khái niệm về thời điểm: nó nhắc bạn hết pin đúng lúc bạn đang cầm cục pin hết, không bao giờ nhắc lúc bạn đi ngang kệ pin trong tiệm. Nên cái vòng đó phải rời khỏi đầu, vào một cái giỏ mà bạn thật sự tin và thật sự mở ra xem."
+      },
+      "result": "Allen's method was right the whole time and almost nobody ran it, because the tax was maintenance. That tax is now close to zero: Thompson's assistant rebuilt the entire method without ever opening the book. What was scarce was never the system. It was being the person who decides the loop matters.",
+      "result_vi": "Phương pháp của Allen đúng từ đầu mà gần như không ai chạy nổi, vì cái giá phải trả là bảo trì. Giờ giá đó gần bằng không: trợ lý của Thompson dựng lại nguyên bộ mà chưa từng mở cuốn sách. Thứ khan hiếm chưa bao giờ là hệ thống. Nó là việc làm người quyết định cái vòng đó đáng bận tâm.",
+      "result_underline": "It was being the person who decides the loop matters",
+      "result_underline_vi": "Nó là việc làm người quyết định cái vòng đó đáng bận tâm",
+      "tick": "Which system have you already been handed that you still refuse to run?",
+      "tick_vi": "Hệ thống nào đã được đưa tận tay mà bạn vẫn không chịu chạy?",
+      "tick_bold": [
+        "already been handed",
+        "refuse to run"
+      ],
+      "tick_bold_vi": [
+        "đưa tận tay",
+        "không chịu chạy"
+      ],
+      "provocation": "You do not need a better tool and you have not needed one for a while. Pick the one open loop you have re-thought more than three times this week, write it into whatever bucket you already have, and close it today. Thompson's closing line is the whole point: having systems to do things will always matter less than doing the things.",
+      "provocation_vi": "Bạn không cần công cụ tốt hơn, và lâu rồi bạn không cần. Chọn một cái vòng bỏ ngỏ mà tuần này bạn nghĩ đi nghĩ lại hơn ba lần, viết nó vào cái giỏ bạn đang có sẵn, và đóng nó hôm nay. Câu kết của Thompson mới là điểm chính: có hệ thống để làm việc luôn nhẹ ký hơn việc thật sự bắt tay vào làm.",
+      "source": {
+        "site": "Stratechery",
+        "title": "Write Things Down",
+        "url": "https://stratechery.com/2026/write-things-down/",
+        "published": "2026-09-08"
+      }
+    },
+    {
+      "title": "SHOW ME",
+      "title_vi": "CHO TÔI XEM",
+      "headline": "Your most reasonable customer is the one teaching you nothing.",
+      "headline_vi": "Ông khách hợp lý nhất của bạn là ông không dạy bạn được gì.",
+      "a": {
+        "who": "Casey Winters",
+        "what": "He splits early users into Sooners and Missourians, after the two states. Sooners want to be early, see themselves as in the know, tolerate rough edges, and are paid in status and play. Missourians are skeptical, risk-averse, financially grounded and need proof before they commit. On paper and on the same demo call they look identical. His warning is that Missourian feedback is rational, articulate and close to useless early on: they name the gaps, you close the gaps, and nothing moves, because what they were actually waiting for was evidence that other people got value. Crossing the chasm is therefore not a distribution problem, it is rearchitecting the motivation, turning social capital into financial capital.",
+        "what_vi": "Anh chia người dùng sớm thành Sooner và Missourian, đặt theo tên hai bang. Sooner muốn đi trước, tự thấy mình thuộc nhóm biết chuyện, chịu được sản phẩm còn thô, và được trả công bằng status với sự vui. Missourian thì hoài nghi, ngại rủi ro, tính bằng tiền, và cần bằng chứng trước khi xuống tay. Trên giấy và trong cùng một buổi demo, hai bên trông y hệt nhau. Cảnh báo của anh: feedback của Missourian rất hợp lý, rất mạch lạc, và gần như vô dụng ở giai đoạn sớm. Họ chỉ ra chỗ thiếu, bạn lấp chỗ thiếu, rồi chẳng có gì nhúc nhích, vì thứ họ chờ thật ra là bằng chứng người khác đã thấy giá trị. Nên vượt qua cái vực không phải bài toán phân phối, mà là dựng lại động cơ, biến social capital thành financial capital."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "His cold start problem. A network does not begin as a small version of the big one, it begins as a single atomic network held together by a motivation that will not survive scale. The early users show up for reasons that stop applying once the thing is crowded and legible, which means the mechanic that got you the first thousand is usually the one you have to take apart to get the next million.",
+        "what_vi": "Bài toán cold start của anh. Một network không khởi đầu như bản thu nhỏ của cái lớn, nó khởi đầu như một atomic network duy nhất được gắn lại bằng một động cơ sẽ không sống sót qua quy mô. Người dùng sớm tới vì những lý do hết hiệu lực khi mọi thứ đã đông và đã rõ ràng, nghĩa là cái cơ chế mang về nghìn người đầu thường chính là cái bạn phải tháo ra để lấy triệu người sau."
+      },
+      "result": "The gap list from your most reasonable customer is an invoice for a product you have not earned the right to build yet. Sooners buy a story, Missourians buy a receipt, and you cannot print the receipt until the story worked. Serve both at once and you build for neither.",
+      "result_vi": "Cái danh sách thiếu sót từ ông khách hợp lý nhất của bạn thật ra là hóa đơn cho một sản phẩm bạn chưa giành được quyền làm. Sooner mua câu chuyện, Missourian mua tờ biên lai, mà bạn không in nổi biên lai trước khi câu chuyện chạy được. Phục vụ cả hai cùng lúc là không phục vụ ai.",
+      "result_underline": "Serve both at once and you build for neither",
+      "result_underline_vi": "Phục vụ cả hai cùng lúc là không phục vụ ai",
+      "tick": "Whose feedback are you shipping against, and have they ever actually used it?",
+      "tick_vi": "Bạn đang ship theo feedback của ai, và họ đã thực sự xài nó chưa?",
+      "tick_bold": [
+        "shipping against",
+        "actually used it"
+      ],
+      "tick_bold_vi": [
+        "ship theo feedback của ai",
+        "thực sự xài"
+      ],
+      "provocation": "Take the last three things you built off customer feedback and look up whether those customers opened the feature. If they did not, you were not doing discovery, you were taking dictation from someone who was never going to show up. Find the users who tolerate the rough edges and build for them until the receipt exists.",
+      "provocation_vi": "Lấy ba thứ gần nhất bạn làm theo feedback của khách và tra xem mấy khách đó có mở cái tính năng ấy ra không. Nếu không, bạn đâu có làm discovery, bạn đang chép chính tả từ người không bao giờ có ý định xuất hiện. Đi tìm những người chịu được phần còn thô và làm cho họ, cho tới khi có tờ biên lai.",
+      "source": {
+        "site": "Casey Accidental",
+        "title": "Every Product Starts in Oklahoma",
+        "url": "https://www.caseyaccidental.com/p/every-product-starts-in-oklahoma",
+        "published": "2026-03-03"
+      }
+    }
+  ]
+}
