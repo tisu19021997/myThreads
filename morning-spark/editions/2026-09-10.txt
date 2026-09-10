@@ -1,0 +1,22 @@
+Morning Spark · Thursday, September 10 · Ed. 46
+What you are compared to, what you record, what you cannot forecast.
+
+─────────────────
+01 · Your product stopped competing with products a while ago.
+Andrew Chen × April Dunford
+Open your own product the way a stranger does: from a feed, with a thumb, mid-scroll. Whatever they were looking at one second earlier is your real competitor, not the tools in your comparison table. If your first screen was built to win a feature bake-off, it is answering a question nobody in that moment is asking.
+→ https://andrewchen.substack.com/p/adversarial-creativity-and-the-coming
+
+─────────────────
+02 · The minutes leave things out on purpose. The bot never does.
+Dave Kellogg × Melissa Perri
+Pick the one meeting where people actually change their minds. Turn the recording off and see whether anything is lost. If the transcript was the only evidence that the hour was productive, you were grading the artifact, not the decision, and the hour was already theatre.
+→ https://www.kellblog.com/board-meetings-your-notetaker-is-not-welcome-here/
+
+─────────────────
+03 · You cannot price your main input. Buy revision speed instead.
+Benedict Evans × Teresa Torres
+Write down the number your plan quietly depends on: cost per user, margin per query, price per token. Then write down when you next find out whether it is right. If the answer is the quarterly review, you are running a 1998 broadband spreadsheet with better fonts. Find the one check you could run on Friday and run it.
+→ https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing
+
+Full styled card → open the session.
