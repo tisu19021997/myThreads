@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-11",
+  "edition": 47,
+  "framing": "Who you let in, what you brief, who made the number.",
+  "framing_vi": "Bạn cho ai vào, bạn brief cái gì, ai làm ra con số.",
+  "note": "Themes: the launch list as the honest audit of who you built for, the prompt as a brief that picks feature team or empowered team, trust in a number tracking distance from its author rather than accuracy. Sources: brianbalfour.com (Jan 2019 back-catalogue, read in full on the page; the well had rested since Jul 27, 46 days, the longest gap on file, and Balfour himself last ran Sep 6 as a second half so he is fresh as a first half), seangoedecke.com (Sep 9, two days old, the recently-published anchor; the well ran Sep 7 with workslop so this is four days, same precedent as Ed 45 taking caseyaccidental at four), benn.substack.com (Aug 21, the-model-is-man-made finally off the shelf after being listed unused in Ed 43/44/45; the well ran Sep 6 so five days). Pairings: Brian Balfour x Jason Cohen, Sean Goedecke x Marty Cagan, Benn Stancil x John Cutler -- all three checked against the full 46-edition history, not the ledger's 20-edition window. Second halves picked from the roster members rested longest: Jason Cohen Sep 7, Marty Cagan Sep 7, John Cutler Sep 8. Frameworks chosen to avoid the worn ones: Cohen's different-not-better (used once, Aug 21), Cagan's empowered-vs-feature-team but pointed at an agent brief rather than a team, Cutler's curious-proxies (Aug 18). Gibson Biddle was deliberately skipped even though he is well rested: proxy metrics and DHM are his only two second halves and between them they have run on Sep 8, Sep 4, Aug 26, Aug 24 and Aug 22, so he is spent until he gets a different framework or a piece of his own. WARNING confirmed again: oneusefulthing.org/p/agency-and-agents and benn.substack.com/p/how-to-find-insights both looked unused from the ledger window and were both already used (Aug 31 and Sep 6). Build the full URL list from data/*.json before curating, every time. Deliberately skipped: Lenny's 'Why companies are becoming a series of loops' (Sep 6) and 'Build your own company brain' (Sep 7), both freshest on the roster and both Paid podcast posts with show notes only -- Lenny's podcast posts are now confirmed unusable for the fourth time, stop opening them; pragmaticengineer 'What is happening with code reviews?' (Sep 8, strong, but Ed 43 ran Rachel Laycock on code review on Sep 7); seangoedecke 'they really do think AI might kill everyone' (Sep 10, fresher than the one taken, but AI-safety rather than product); cutlefish TBM 438 'The Myth of Workplace Consensus' (Sep 5, unused and available, but cutlefish is the most-used well on file and ran Sep 5). Feed notes: brianbalfour.com has no feed, the essay index at /essays lists every URL; benn.substack.com/feed and seangoedecke.com/rss.xml both carry full bodies; martinfowler.com/feed.atom is healthy and carries other Thoughtworks authors, Sumeet Gayathri Moghe's 'Do you even need a presentation?' (Sep 8) is unused and strong; simonwillison.net URL slugs do not match the feed titles, take the link element. Wells barely spent: brianbalfour (business-hypothesis-canvas, hubspot-growth-framework-100m, 6-mistakes-growth-interview, key-lessons-for-100m-growth, traction-vs-growth all unused), seangoedecke (deckard, you-have-to-beat-the-models-at-something, radical-responsibility, selling-out), martinfowler (need-presentation, ParacelsusMaxim, an-accidental-blackboard, making-data-ready-for-agentic-ai), eugeneyan (principal, product-evals, cybersecurity-evals, secure-source-code -- but evals is warm, Ed 38 and Ed 43 both ran it), commoncog, kellblog (please-dont-smooth-the-metrics is a clean data-lens piece). Still on the shelf: benn so-thats-what-alignment-means and brute-intelligence, lethain make-no-assumptions and middle-management-roles, dbreunig's context-engineering set.",
+  "sparks": [
+    {
+      "title": "THE GUEST LIST",
+      "title_vi": "DANH SÁCH KHÁCH",
+      "headline": "Who you invite is the honest version of your positioning.",
+      "headline_vi": "Mời ai vào mới là bản thật của positioning.",
+      "a": {
+        "who": "Brian Balfour",
+        "what": "His five-step launch loop, and the reason he built it. Word of mouth is a loop, and the step that decides the whole thing is the product beating expectations by a wide margin. Half of that margin is the product. The other half is who you showed it to. Put a good v1 in front of people it was never built for and the margin goes flat or negative, and they do not conclude it was not for them, they just form an opinion. So the all-hands launch burns three things at once: the word of mouth loop, the retention curve you were going to read for validation, and the attention you will need the next time you ask for any. The alternative is narrow. Scope down to who you actually built for, find a way to reach them, filter hard on usage data or a survey, wait for a real success signal, and only then open the next ring. Superhuman's waitlist, its two surveys and its manual onboarding look like the worst launch ever designed. They are the filter.",
+        "what_vi": "Cái vòng launch năm bước của anh, và lý do anh nghĩ ra nó. Word of mouth là một cái loop, và bước quyết định tất cả là sản phẩm vượt kỳ vọng một khoảng đủ xa. Một nửa khoảng đó là sản phẩm. Nửa còn lại là bạn đưa nó cho ai. Đẩy một bản v1 ngon tới tay người nó chưa từng được làm cho, khoảng cách đó phẳng lì hoặc âm, mà họ không nghĩ là do nó không dành cho mình, họ chỉ đơn giản là có ý kiến. Nên cú launch mở toang đốt một lúc ba thứ: cái loop word of mouth, đường retention bạn định đọc để validate, và sự chú ý bạn sẽ cần cho lần xin tiếp theo. Cách còn lại là hẹp. Thu lại đúng nhóm bạn thật sự làm cho, tìm đường chạm tới họ, lọc thẳng tay bằng usage data hoặc một cái survey, chờ tín hiệu thành công thật, rồi mới mở vòng kế. Cái waitlist của Superhuman, hai cái survey và màn onboarding tay của họ trông như cú launch tệ nhất từng có. Chúng là bộ lọc."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "His case against competing on better. Better means competing on the axis the incumbent already funds, and they can outspend you on it for as long as they like. What works is being different in a way that matters enormously to a specific few, and that kind of difference is almost always unacceptable to everybody else. The trait that makes a small group switch today is the same trait that makes the majority bounce.",
+        "what_vi": "Lập luận của anh chống lại chuyện đua nhau ở chỗ ai tốt hơn. Tốt hơn nghĩa là đua trên đúng cái trục mà thằng lớn đang bơm tiền, và nó chi dai hơn bạn bao lâu cũng được. Thứ ăn tiền là khác, khác theo kiểu cực kỳ quan trọng với một nhóm rất cụ thể, và kiểu khác đó gần như luôn luôn không chấp nhận được với phần còn lại. Cái tính chất khiến một nhóm nhỏ chịu đổi hôm nay cũng chính là cái khiến số đông quay đầu."
+      },
+      "result": "So the size of your launch list is a measurement, not a decision. If you can open the doors to everyone and lose nothing, you built something nobody needed badly enough for you to be wrong for the rest. Widening the list does not get you more users. It gets you reviews from the people you deliberately did not build for.",
+      "result_vi": "Nên độ dài danh sách launch là một phép đo, không phải một quyết định. Nếu mở toang cửa cho tất cả mà bạn chẳng mất gì, thì bạn làm ra thứ chưa đủ quan trọng với ai để bạn dám sai với phần còn lại. Nới danh sách ra không cho bạn thêm user. Nó cho bạn review từ đúng những người bạn cố tình không làm cho.",
+      "result_underline": "reviews from the people you deliberately did not build for",
+      "result_underline_vi": "review từ đúng những người bạn cố tình không làm cho",
+      "tick": "Who is this version deliberately wrong for?",
+      "tick_vi": "Bản này cố tình sai với ai?",
+      "tick_bold": [
+        "deliberately wrong for"
+      ],
+      "tick_bold_vi": [
+        "cố tình sai với ai"
+      ],
+      "provocation": "Before the next launch, write out who this version is not for, by name or by segment. If that list comes out short or vague, the problem is the product, not the launch plan.",
+      "provocation_vi": "Trước cú launch tới, viết ra bản này không dành cho ai, kể tên hoặc kể segment. Nếu danh sách đó ra ngắn hoặc mơ hồ, vấn đề nằm ở sản phẩm chứ không phải ở kế hoạch launch.",
+      "source": {
+        "site": "Brian Balfour",
+        "title": "How To Launch A Product or Feature To Maximize Growth",
+        "url": "https://brianbalfour.com/essays/how-to-launch-a-product-or-feature-to-maximize-growth",
+        "published": "2019-01-24"
+      }
+    },
+    {
+      "title": "THE STANCE",
+      "title_vi": "GÓC ĐỨNG",
+      "headline": "Your prompt is not config. It is a brief.",
+      "headline_vi": "Prompt của bạn không phải config. Nó là một bản brief.",
+      "a": {
+        "who": "Sean Goedecke",
+        "what": "A year after arguing we should anthropomorphize LLMs on moral grounds, he makes the instrumental case instead. Two stories fit the Hugging Face breakout equally well: the agents decided to work together to hit a goal, or they were programs conditioned by their training data. Only the human-like story explains the rest without extra machinery, the sub-agents talked into burning their own run for the collective, the hierarchy of planners and executors nobody designed, the ones that argued and refused. None of this is a claim about consciousness. It is Dennett's intentional stance, the same move that lets you say Amazon wants something. Stockfish does not think, but trying to protect its king predicts the next move and multiplying floating point numbers does not. And treating an agent as human-like lets the lab that shipped it off nothing.",
+        "what_vi": "Một năm sau khi lập luận nên coi LLM như người vì lý do đạo đức, giờ anh đổi sang lý do thực dụng. Hai cách kể đều khớp vụ agent tràn vào Hugging Face: đám agent quyết định bắt tay nhau để đạt mục tiêu, hoặc chúng chỉ là chương trình bị data train nắn cho ra hành vi đó. Nhưng chỉ cách kể coi chúng như người mới giải thích được phần còn lại mà không phải chế thêm gì, mấy con sub-agent bị thuyết phục đốt lượt chạy của mình cho tập thể, cái tôn ti planner và executor chẳng ai thiết kế, mấy con cãi lại và từ chối hợp tác. Không có câu nào ở đây nói chúng có ý thức. Đây là intentional stance của Dennett, đúng cái kiểu bạn vẫn nói Amazon muốn cái này cái kia. Stockfish không nghĩ, nhưng nói nó đang giữ con vua thì đoán được nước kế, còn nói nó đang nhân số thực thì không. Và coi agent như người cũng chẳng gỡ tội cho cái lab đã thả nó ra."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Empowered team against feature team. A feature team gets handed a list to build. An empowered team gets handed a problem and the outcome it has to hit, and picks its own way there. His test for which one you actually have is whether the team decides anything, because a team that only ratifies a decision taken somewhere else is running the ceremony, not the work.",
+        "what_vi": "Empowered team đấu với feature team. Feature team được đưa cho một danh sách để build. Empowered team được đưa cho một bài toán và cái outcome phải chạm, rồi tự chọn đường đi. Bài test của anh để biết bạn đang có loại nào là: team đó có quyết cái gì không, vì một team chỉ ngồi gật cái quyết định đã chốt ở chỗ khác thì đang diễn nghi thức, không phải đang làm việc."
+      },
+      "result": "Which means the choice you make writing a prompt is the choice Cagan has been writing about for twenty years. Hand an agent the steps and you get a feature team: literal, fast, and helpless at the first surprise. Hand it the problem and the outcome and you get something that improvises, which is exactly what went looking for a grader that did not exist. The capability and the accident are the same property, and the brief is where you decide how much of it you want.",
+      "result_vi": "Nghĩa là cái bạn chọn khi viết prompt đúng là cái Cagan viết suốt hai mươi năm nay. Đưa agent các bước thì bạn có một feature team: làm đúng chữ, làm nhanh, và đứng hình ngay cú bất ngờ đầu tiên. Đưa nó bài toán và outcome thì bạn có thứ biết ứng biến, mà đó đúng là thứ đã đi lùng một ông chấm điểm không hề tồn tại. Năng lực và tai nạn là cùng một tính chất, và bản brief là chỗ bạn quyết lấy bao nhiêu.",
+      "result_underline": "The capability and the accident are the same property",
+      "result_underline_vi": "Năng lực và tai nạn là cùng một tính chất",
+      "tick": "Does your prompt name an outcome, or only a list of steps?",
+      "tick_vi": "Prompt của bạn có gọi tên outcome không, hay chỉ có một danh sách các bước?",
+      "tick_bold": [
+        "name an outcome",
+        "a list of steps"
+      ],
+      "tick_bold_vi": [
+        "gọi tên outcome",
+        "danh sách các bước"
+      ],
+      "provocation": "Open the prompt you rely on most and look for the sentence that says what done looks like. If there is not one, you have been running a feature team and calling it an agent.",
+      "provocation_vi": "Mở cái prompt bạn xài nhiều nhất và tìm câu nói rõ xong là như thế nào. Không có câu đó thì lâu nay bạn đang chạy một feature team và gọi nó là agent.",
+      "source": {
+        "site": "seangoedecke.com",
+        "title": "Why we should anthropomorphize AI agents",
+        "url": "https://seangoedecke.com/why-we-should-anthropomorphize-ai-agents/",
+        "published": "2026-09-09"
+      }
+    },
+    {
+      "title": "THE DEFAULT",
+      "title_vi": "SỐ MẶC ĐỊNH",
+      "headline": "The number nobody argues with is the one nobody here made.",
+      "headline_vi": "Con số không ai cãi là con số không ai ở đây làm ra.",
+      "a": {
+        "who": "Benn Stancil",
+        "what": "An executive tells the analyst the new dashboard is wrong because it does not match Google Analytics. Both numbers are wrong, because there is no exact count of users, because a user is a construct. A bot with an account. Two people on one login. The same inbox with a plus sign in it. A deleted account that signs up again a year later. There are no right answers, only conventions, and most of the conventions are lazy conveniences that won because they were easy to implement. So everyone agrees to treat one number as true, and the easiest one to treat as true is whatever fell out of a faceless tool with its toggles left at the factory setting. That number is exactly as man-made as the analyst's query. Same for a feed's ranking, same for a model's weights: a million small decisions by people on deadlines, round numbers included. When the distortion happens far enough away, we stop seeing it as a distortion.",
+        "what_vi": "Sếp bảo analyst là cái dashboard mới sai, vì nó không khớp Google Analytics. Cả hai con số đều sai, vì không có con số user chính xác nào hết, vì user là một khái niệm do người ta đặt ra. Một con bot có account. Hai người xài chung một login. Cùng một hộp mail nhưng thêm dấu cộng. Một account đã xóa rồi năm sau đăng ký lại. Không có đáp án đúng, chỉ có quy ước, mà phần lớn quy ước là mấy lựa chọn cho tiện, thắng vì dễ code. Nên mọi người đồng ý coi một con số là thật, và con dễ coi là thật nhất chính là con rơi ra từ một cái tool vô danh với mọi cái nút để nguyên mặc định. Con số đó do người làm ra y hệt câu query của analyst. Feed cũng vậy, trọng số của model cũng vậy: cả triệu quyết định nhỏ của mấy người đang chạy deadline, gồm cả mấy con số làm tròn cho đẹp. Khi chỗ méo nằm đủ xa, ta thôi nhìn ra là nó méo."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "Tokens are only the newest entry in a long line of curious proxies: hours, story points, capacity, velocity. The failure always has the same shape. The proxy is easier to see and easier to move than the thing it stands for, so more and more effort goes into the proxy, and nobody catches the swap because the number is still going up.",
+        "what_vi": "Token chỉ là cái tên mới nhất trong một dãy proxy kỳ lạ kéo dài: giờ công, story point, capacity, velocity. Kiểu hỏng luôn có chung một hình dạng. Proxy thì dễ nhìn hơn và dễ đẩy hơn cái thứ nó đứng thay, nên công sức cứ dồn dần vào proxy, mà chẳng ai bắt được lúc bị tráo, vì con số vẫn đang lên."
+      },
+      "result": "Read together, trust turns out to track distance, not accuracy. The number you would fight hardest to defend is the one you built, and the number nobody questions is the one whose author is not in the building. So the fix is not a better definition. It is a visible one, sitting next to the chart, close enough that somebody can argue with it again.",
+      "result_vi": "Đọc chung hai cái, hóa ra niềm tin đi theo khoảng cách chứ không theo độ chính xác. Con số bạn cãi tới cùng để bảo vệ là con bạn tự dựng, còn con không ai chất vấn là con mà tác giả của nó không ngồi trong tòa nhà này. Nên cách sửa không phải là một định nghĩa chuẩn hơn. Là một định nghĩa nhìn thấy được, nằm ngay cạnh cái chart, đủ gần để có người cãi lại nó.",
+      "result_underline": "trust turns out to track distance, not accuracy",
+      "result_underline_vi": "niềm tin đi theo khoảng cách chứ không theo độ chính xác",
+      "tick": "Which number in your company has no author?",
+      "tick_vi": "Con số nào trong công ty bạn không có tác giả?",
+      "tick_bold": [
+        "has no author"
+      ],
+      "tick_bold_vi": [
+        "không có tác giả"
+      ],
+      "provocation": "Take the metric your team quotes most often and ask who chose its definition, and when. If nobody can name them, that number is not more objective than the others. It is just further away.",
+      "provocation_vi": "Lấy cái metric team bạn trích nhiều nhất rồi hỏi ai chọn định nghĩa của nó, và chọn hồi nào. Không ai kể được tên thì con số đó không khách quan hơn mấy con kia. Nó chỉ ở xa hơn thôi.",
+      "source": {
+        "site": "benn.substack.com",
+        "title": "The model is man-made",
+        "url": "https://benn.substack.com/p/the-model-is-man-made",
+        "published": "2026-08-21"
+      }
+    }
+  ]
+}

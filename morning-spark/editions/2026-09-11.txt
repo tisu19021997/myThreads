@@ -1,0 +1,22 @@
+Morning Spark · Friday, September 11 · Ed. 47
+Who you let in, what you brief, who made the number.
+
+─────────────────
+01 · Who you invite is the honest version of your positioning.
+Brian Balfour × Jason Cohen
+Before the next launch, write out who this version is not for, by name or by segment. If that list comes out short or vague, the problem is the product, not the launch plan.
+→ https://brianbalfour.com/essays/how-to-launch-a-product-or-feature-to-maximize-growth
+
+─────────────────
+02 · Your prompt is not config. It is a brief.
+Sean Goedecke × Marty Cagan
+Open the prompt you rely on most and look for the sentence that says what done looks like. If there is not one, you have been running a feature team and calling it an agent.
+→ https://seangoedecke.com/why-we-should-anthropomorphize-ai-agents/
+
+─────────────────
+03 · The number nobody argues with is the one nobody here made.
+Benn Stancil × John Cutler
+Take the metric your team quotes most often and ask who chose its definition, and when. If nobody can name them, that number is not more objective than the others. It is just further away.
+→ https://benn.substack.com/p/the-model-is-man-made
+
+Full styled card → open the session.
