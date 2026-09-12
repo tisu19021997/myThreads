@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-12",
+      "edition": 48,
+      "note": "Themes: reclassifying revenue between columns and calling it growth, the reward function as the real product spec, a feature's retention curve as the thing that decides whether it is deleted. Sources: elenaverna.com (Sep 11, one day old, the recently-published anchor; a completely fresh well never used on file, read in full on the page and NOT paywalled), lucumr.pocoo.org (Armin Ronacher, Sep 7, fresh well never used, read in full), vickiboykis.com (Sep 1, fresh well never used, short post read in full). All three first halves are people never used on file, which is the point: the roster second halves were getting crowded. Second halves picked from the roster members rested longest: Ben Thompson Sep 9, Paul Graham Sep 9, Lenny Rachitsky Sep 7. Frameworks chosen to avoid the worn ones: Thompson's aggregation theory pointed at a company's internal market rather than a platform, Graham's make-something-people-want (last run Aug 14, 29 days), Rachitsky's retention-curve-must-flatten rather than the Sean Ellis test (Sep 1) or the cross-company benchmarks (Sep 7). Gibson Biddle still skipped for the reason Ed 47 gave. Melissa Perri's build trap deliberately avoided even though it fit spark 1: nine uses on file, most recently Sep 10. Marty Cagan, John Cutler, Jason Cohen and Brian Balfour all ran Sep 11 so none were eligible. Do not repeat: PLG-to-enterprise revenue migration, reward hacking in coding agents, code deletion as a discipline.",
+      "sparks": [
+        {
+          "pair": "Elena Verna x Ben Thompson",
+          "headline": "Enterprise grew 50K and nobody bought anything.",
+          "source": "Elena's Growth Scoop — Congrats, your sales problems in PLG are completely unoriginal",
+          "url": "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg"
+        },
+        {
+          "pair": "Armin Ronacher x Paul Graham",
+          "headline": "35 hours, 75,000 lines, nothing anyone wanted.",
+          "source": "Armin Ronacher — Astra for Coding: Why Are We Doing This Again?",
+          "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/"
+        },
+        {
+          "pair": "Vicki Boykis x Lenny Rachitsky",
+          "headline": "Every feature has a retention curve. Almost nobody plots it.",
+          "source": "Vicki Boykis — Bad code is kudzu",
+          "url": "https://vickiboykis.com/2026/09/01/bad-code-is-kudzu/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-11",
       "edition": 47,
       "note": "Themes: the launch list as the honest audit of who you built for, the prompt as a brief that picks feature team or empowered team, trust in a number tracking distance from its author rather than accuracy. Sources: brianbalfour.com (Jan 2019 back-catalogue, read in full on the page; the well had rested since Jul 27, 46 days, the longest gap on file, and Balfour himself last ran Sep 6 as a second half so he is fresh as a first half), seangoedecke.com (Sep 9, two days old, the recently-published anchor; the well ran Sep 7 with workslop so this is four days, same precedent as Ed 45 taking caseyaccidental at four), benn.substack.com (Aug 21, the-model-is-man-made finally off the shelf after being listed unused in Ed 43/44/45; the well ran Sep 6 so five days). Pairings: Brian Balfour x Jason Cohen, Sean Goedecke x Marty Cagan, Benn Stancil x John Cutler -- all three checked against the full 46-edition history, not the ledger's 20-edition window. Second halves picked from the roster members rested longest: Jason Cohen Sep 7, Marty Cagan Sep 7, John Cutler Sep 8. Frameworks chosen to avoid the worn ones: Cohen's different-not-better (used once, Aug 21), Cagan's empowered-vs-feature-team but pointed at an agent brief rather than a team, Cutler's curious-proxies (Aug 18). Gibson Biddle was deliberately skipped even though he is well rested: proxy metrics and DHM are his only two second halves and between them they have run on Sep 8, Sep 4, Aug 26, Aug 24 and Aug 22, so he is spent until he gets a different framework or a piece of his own. WARNING confirmed again: oneusefulthing.org/p/agency-and-agents and benn.substack.com/p/how-to-find-insights both looked unused from the ledger window and were both already used (Aug 31 and Sep 6). Build the full URL list from data/*.json before curating, every time. Deliberately skipped: Lenny's 'Why companies are becoming a series of loops' (Sep 6) and 'Build your own company brain' (Sep 7), both freshest on the roster and both Paid podcast posts with show notes only -- Lenny's podcast posts are now confirmed unusable for the fourth time, stop opening them; pragmaticengineer 'What is happening with code reviews?' (Sep 8, strong, but Ed 43 ran Rachel Laycock on code review on Sep 7); seangoedecke 'they really do think AI might kill everyone' (Sep 10, fresher than the one taken, but AI-safety rather than product); cutlefish TBM 438 'The Myth of Workplace Consensus' (Sep 5, unused and available, but cutlefish is the most-used well on file and ran Sep 5). Feed notes: brianbalfour.com has no feed, the essay index at /essays lists every URL; benn.substack.com/feed and seangoedecke.com/rss.xml both carry full bodies; martinfowler.com/feed.atom is healthy and carries other Thoughtworks authors, Sumeet Gayathri Moghe's 'Do you even need a presentation?' (Sep 8) is unused and strong; simonwillison.net URL slugs do not match the feed titles, take the link element. Wells barely spent: brianbalfour (business-hypothesis-canvas, hubspot-growth-framework-100m, 6-mistakes-growth-interview, key-lessons-for-100m-growth, traction-vs-growth all unused), seangoedecke (deckard, you-have-to-beat-the-models-at-something, radical-responsibility, selling-out), martinfowler (need-presentation, ParacelsusMaxim, an-accidental-blackboard, making-data-ready-for-agentic-ai), eugeneyan (principal, product-evals, cybersecurity-evals, secure-source-code -- but evals is warm, Ed 38 and Ed 43 both ran it), commoncog, kellblog (please-dont-smooth-the-metrics is a clean data-lens piece). Still on the shelf: benn so-thats-what-alignment-means and brute-intelligence, lethain make-no-assumptions and middle-management-roles, dbreunig's context-engineering set.",

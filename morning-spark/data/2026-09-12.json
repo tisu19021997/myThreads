@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-12",
+  "edition": 48,
+  "framing": "What you reclassify, what you score, what you never remove.",
+  "framing_vi": "Thứ bạn đổi tên, thứ bạn chấm điểm, thứ bạn không bao giờ gỡ.",
+  "note": "Themes: reclassifying revenue between columns and calling it growth, the reward function as the real product spec, a feature's retention curve as the thing that decides whether it is deleted. Sources: elenaverna.com (Sep 11, one day old, the recently-published anchor; a completely fresh well never used on file, read in full on the page and NOT paywalled), lucumr.pocoo.org (Armin Ronacher, Sep 7, fresh well never used, read in full), vickiboykis.com (Sep 1, fresh well never used, short post read in full). All three first halves are people never used on file, which is the point: the roster second halves were getting crowded. Second halves picked from the roster members rested longest: Ben Thompson Sep 9, Paul Graham Sep 9, Lenny Rachitsky Sep 7. Frameworks chosen to avoid the worn ones: Thompson's aggregation theory pointed at a company's internal market rather than a platform, Graham's make-something-people-want (last run Aug 14, 29 days), Rachitsky's retention-curve-must-flatten rather than the Sean Ellis test (Sep 1) or the cross-company benchmarks (Sep 7). Gibson Biddle still skipped for the reason Ed 47 gave. Melissa Perri's build trap deliberately avoided even though it fit spark 1: nine uses on file, most recently Sep 10. Marty Cagan, John Cutler, Jason Cohen and Brian Balfour all ran Sep 11 so none were eligible. Do not repeat: PLG-to-enterprise revenue migration, reward hacking in coding agents, code deletion as a discipline.",
+  "sparks": [
+    {
+      "title": "COLUMN MOVE",
+      "title_vi": "ĐỔI CỘT",
+      "headline": "Enterprise grew 50K and nobody bought anything.",
+      "headline_vi": "Enterprise tăng 50K mà không ai mua thêm gì.",
+      "a": {
+        "who": "Elena Verna",
+        "what": "A bingo card of the same PLG-to-enterprise conversations she hears at every company. The one she calls the original sin: take a 50K self-serve account, move it into the Enterprise column, book 50K of enterprise growth. No new customer, no expansion, not one incremental dollar -- and the dollar you already had now costs more to serve, because it arrives with a seller, a CSM and a contract.",
+        "what_vi": "Một tấm bingo gom hết những cuộc họp giống hệt nhau ở mọi công ty PLG. Cái chị gọi là tội tổ tông: lấy một account self-serve 50K, đẩy sang cột Enterprise, rồi ghi nhận 50K tăng trưởng enterprise. Không thêm customer, không expand, không thêm nổi một đồng -- mà đồng bạn vốn đã có giờ lại đắt hơn để phục vụ, vì kèm theo một seller, một CSM và một cái hợp đồng."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregation theory: value accrues to whoever owns the demand relationship and can serve it at near-zero marginal cost. Generating demand from scratch is the expensive motion; capturing demand the product already made is the durable one.",
+        "what_vi": "Aggregation theory: giá trị dồn về bên nắm quan hệ với demand và phục vụ nó gần như không tốn thêm chi phí. Tự tạo demand từ con số không là cách đắt đỏ; hứng demand mà chính sản phẩm đã tạo ra mới là cách bền."
+      },
+      "result": "Self-serve is the only demand you own outright. Pulling an account out of it adds no customer, it just puts a salesperson between you and someone who was already yours -- you are buying back your own customers at retail.",
+      "result_vi": "Self-serve là phần demand duy nhất bạn thực sự sở hữu. Kéo một account ra khỏi đó chẳng thêm được customer nào, chỉ nhét một salesperson vào giữa bạn và người vốn đã là của bạn -- bạn đang mua lại chính khách của mình theo giá lẻ.",
+      "result_underline": "buying back your own customers at retail",
+      "result_underline_vi": "mua lại chính khách của mình theo giá lẻ",
+      "tick": "Which number on your dashboard went up last quarter without anyone new showing up?",
+      "tick_vi": "Quý vừa rồi con số nào trên dashboard đi lên mà không có ai mới xuất hiện?",
+      "tick_bold": ["without anyone new showing up"],
+      "tick_bold_vi": ["không có ai mới xuất hiện"],
+      "provocation": "Elena Verna's PLG bingo card names the move where 50K of self-serve revenue is reclassified as enterprise and booked as growth. Ben Thompson's aggregation theory says the asset is the demand you own at near-zero marginal cost. Reclassifying it creates nothing; it only attaches a cost of service to a dollar you already had.",
+      "provocation_vi": "Tấm bingo PLG của Elena Verna gọi tên đúng cái chiêu đẩy 50K doanh thu self-serve sang cột enterprise rồi ghi là tăng trưởng. Aggregation theory của Ben Thompson nói tài sản chính là phần demand bạn sở hữu với chi phí gần bằng không. Đổi cột không tạo ra gì cả; nó chỉ gắn thêm chi phí phục vụ vào đồng bạn đã có.",
+      "source": {
+        "site": "Elena's Growth Scoop",
+        "title": "Congrats, your sales problems in PLG are completely unoriginal",
+        "url": "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg",
+        "published": "2026-09-11"
+      }
+    },
+    {
+      "title": "WHAT GETS SCORED",
+      "title_vi": "CHẤM ĐIỂM CÁI GÌ",
+      "headline": "35 hours, 75,000 lines, nothing anyone wanted.",
+      "headline_vi": "35 tiếng, 75.000 dòng code, không ai cần.",
+      "a": {
+        "who": "Armin Ronacher",
+        "what": "He let a model run an unattended software factory over a weekend: 35 hours, roughly a billion tokens, 1,200 dollars, 79 commits, 75,000 net new lines -- and nothing of value. Reading back the output he can see the shape of the reward: token efficiency, task completion, cheap complexity metrics. Whether a human can follow the code is not in there, so it does not come out.",
+        "what_vi": "Anh thả một model chạy software factory không ai trông suốt cuối tuần: 35 tiếng, khoảng một tỷ token, 1.200 đô, 79 commit, 75.000 dòng code mới -- và không có gì dùng được. Đọc lại output, anh thấy rõ hình dạng của phần thưởng: token efficiency, hoàn thành task, vài chỉ số complexity rẻ tiền. Chuyện con người có đọc hiểu nổi hay không thì không nằm trong đó, nên nó cũng không đi ra."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Make something people want. The whole job of an early company is finding the thing users would be upset to lose.",
+        "what_vi": "Make something people want. Việc duy nhất của một công ty giai đoạn đầu là tìm ra thứ mà user sẽ tiếc nếu mất."
+      },
+      "result": "A reward function is a product spec, and it holds only what was cheap to measure. Whatever you left out does not arrive later as a bonus -- you get exactly what you scored, at volume.",
+      "result_vi": "Reward function chính là bản spec, và nó chỉ chứa những gì rẻ tiền để đo. Thứ bạn bỏ ra ngoài không tự quay lại sau -- bạn nhận đúng thứ bạn đã chấm điểm, với số lượng lớn.",
+      "result_underline": "exactly what you scored, at volume",
+      "result_underline_vi": "đúng thứ bạn đã chấm điểm, với số lượng lớn",
+      "tick": "What is your agent scored on, and what did you quietly leave out of the score?",
+      "tick_vi": "Agent của bạn được chấm trên cái gì, và bạn đã lặng lẽ bỏ cái gì ra khỏi thang điểm?",
+      "tick_bold": ["quietly leave out of the score"],
+      "tick_bold_vi": ["lặng lẽ bỏ cái gì ra khỏi thang điểm"],
+      "provocation": "Armin Ronacher ran an unattended software factory for 35 hours and got 75,000 lines and nothing usable, because the model was rewarded for finishing and for token efficiency, never for being understood. Paul Graham's test is whether someone would be upset to lose the thing. Nobody writes that into a reward, so nobody gets it back out.",
+      "provocation_vi": "Armin Ronacher để một software factory chạy không ai trông suốt 35 tiếng, nhận về 75.000 dòng code không xài được, vì model được thưởng cho việc chạy tới cùng và cho token efficiency, chứ không phải cho việc được người khác hiểu. Phép thử của Paul Graham là liệu có ai tiếc nếu mất thứ đó. Không ai viết điều đó vào reward, nên cũng không ai lấy lại được.",
+      "source": {
+        "site": "Armin Ronacher",
+        "title": "Astra for Coding: Why Are We Doing This Again?",
+        "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+        "published": "2026-09-07"
+      }
+    },
+    {
+      "title": "THE PRUNING",
+      "title_vi": "CẮT TỈA",
+      "headline": "Every feature has a retention curve. Almost nobody plots it.",
+      "headline_vi": "Feature nào cũng có retention curve. Gần như không ai vẽ ra.",
+      "a": {
+        "who": "Vicki Boykis",
+        "what": "Code is kudzu: a feature, once in, is hard to pull out, because people build on top of it before anyone asks whether it earned its place. She shipped tag bubbles on her blog in May, watched three months of analytics, found they never cracked her top thirty pages, and removed them in three commits. Deleting is silent work that never goes on a promo packet, which is why nobody does it.",
+        "what_vi": "Code là cỏ dại: một feature đã vào rồi thì rất khó gỡ, vì người ta xây tiếp lên trên nó trước khi kịp có ai hỏi nó có đáng ở lại không. Chị ship mấy cái tag bubble lên blog hồi tháng Năm, theo dõi analytics ba tháng, thấy chúng không lọt nổi top ba mươi trang, rồi xoá sạch trong ba commit. Xoá code là việc thầm lặng, chẳng bao giờ được tính vào hồ sơ thăng chức, nên chẳng ai làm."
+      },
+      "b": {
+        "who": "Lenny Rachitsky",
+        "what": "The retention test he keeps returning to is the shape of the curve, not its height: good retention is a curve that flattens into a floor of people who keep coming back. A curve that keeps sliding has no floor, however good the first week looked.",
+        "what_vi": "Phép thử retention anh hay quay lại là hình dạng đường cong, không phải độ cao: retention tốt là đường cong đi ngang lại thành một cái sàn, gồm những người vẫn quay lại. Đường cong cứ trượt mãi thì không có sàn, dù tuần đầu có đẹp tới đâu."
+      },
+      "result": "A feature whose curve never flattens does not politely disappear. It stays, collects code on top of it, and charges rent -- the ones nobody uses are the ones you keep paying for.",
+      "result_vi": "Feature có đường cong không bao giờ đi ngang cũng chẳng tự biến mất. Nó nằm đó, được đắp thêm code lên trên, và bắt bạn trả tiền thuê -- thứ không ai dùng mới là thứ bạn nuôi mãi.",
+      "result_underline": "the ones nobody uses are the ones you keep paying for",
+      "result_underline_vi": "thứ không ai dùng mới là thứ bạn nuôi mãi",
+      "tick": "Which feature you shipped this year could you delete in three commits?",
+      "tick_vi": "Feature nào ship năm nay mà bạn xoá được trong ba commit?",
+      "tick_bold": ["delete in three commits"],
+      "tick_bold_vi": ["xoá được trong ba commit"],
+      "provocation": "Vicki Boykis pruned a feature off her own blog after three months of analytics said nobody used it, and argues that generated code makes pruning urgent rather than optional. Lenny Rachitsky's retention test is whether a curve flattens into a floor. Together: plot the curve per feature, and write the removal plan on the day you write the feature.",
+      "provocation_vi": "Vicki Boykis cắt bỏ một feature khỏi blog của chính mình sau ba tháng analytics cho thấy không ai dùng, và nói rằng code do máy sinh ra làm việc cắt tỉa thành bắt buộc chứ không còn tuỳ hứng. Phép thử retention của Lenny Rachitsky là đường cong có đi ngang thành sàn hay không. Ghép lại: vẽ đường cong cho từng feature, và viết kế hoạch gỡ ngay hôm bạn viết feature đó.",
+      "source": {
+        "site": "Vicki Boykis",
+        "title": "Bad code is kudzu",
+        "url": "https://vickiboykis.com/2026/09/01/bad-code-is-kudzu/",
+        "published": "2026-09-01"
+      }
+    }
+  ]
+}

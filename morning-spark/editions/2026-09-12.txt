@@ -1,0 +1,22 @@
+Morning Spark · Saturday, September 12 · Ed. 48
+What you reclassify, what you score, what you never remove.
+
+─────────────────
+01 · Enterprise grew 50K and nobody bought anything.
+Elena Verna × Ben Thompson
+Elena Verna's PLG bingo card names the move where 50K of self-serve revenue is reclassified as enterprise and booked as growth. Ben Thompson's aggregation theory says the asset is the demand you own at near-zero marginal cost. Reclassifying it creates nothing; it only attaches a cost of service to a dollar you already had.
+→ https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg
+
+─────────────────
+02 · 35 hours, 75,000 lines, nothing anyone wanted.
+Armin Ronacher × Paul Graham
+Armin Ronacher ran an unattended software factory for 35 hours and got 75,000 lines and nothing usable, because the model was rewarded for finishing and for token efficiency, never for being understood. Paul Graham's test is whether someone would be upset to lose the thing. Nobody writes that into a reward, so nobody gets it back out.
+→ https://lucumr.pocoo.org/2026/9/7/astra-why/
+
+─────────────────
+03 · Every feature has a retention curve. Almost nobody plots it.
+Vicki Boykis × Lenny Rachitsky
+Vicki Boykis pruned a feature off her own blog after three months of analytics said nobody used it, and argues that generated code makes pruning urgent rather than optional. Lenny Rachitsky's retention test is whether a curve flattens into a floor. Together: plot the curve per feature, and write the removal plan on the day you write the feature.
+→ https://vickiboykis.com/2026/09/01/bad-code-is-kudzu/
+
+Full styled card → open the session.

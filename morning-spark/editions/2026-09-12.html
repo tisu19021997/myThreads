@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 12</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 48</div></div></div>
+<div class="meta label">Saturday, September 12, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">COLUMN MOVE</span><span data-l="vi">ĐỔI CỘT</span></span></div>
+<div class="eq"><div class="term"><div class="who">Elena Verna</div><div class="what"><span data-l="en">A bingo card of the same PLG-to-enterprise conversations she hears at every company. The one she calls the original sin: take a 50K self-serve account, move it into the Enterprise column, book 50K of enterprise growth. No new customer, no expansion, not one incremental dollar -- and the dollar you already had now costs more to serve, because it arrives with a seller, a CSM and a contract.</span><span data-l="vi">Một tấm bingo gom hết những cuộc họp giống hệt nhau ở mọi công ty PLG. Cái chị gọi là tội tổ tông: lấy một account self-serve 50K, đẩy sang cột Enterprise, rồi ghi nhận 50K tăng trưởng enterprise. Không thêm customer, không expand, không thêm nổi một đồng -- mà đồng bạn vốn đã có giờ lại đắt hơn để phục vụ, vì kèm theo một seller, một CSM và một cái hợp đồng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Aggregation theory: value accrues to whoever owns the demand relationship and can serve it at near-zero marginal cost. Generating demand from scratch is the expensive motion; capturing demand the product already made is the durable one.</span><span data-l="vi">Aggregation theory: giá trị dồn về bên nắm quan hệ với demand và phục vụ nó gần như không tốn thêm chi phí. Tự tạo demand từ con số không là cách đắt đỏ; hứng demand mà chính sản phẩm đã tạo ra mới là cách bền.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Self-serve is the only demand you own outright. Pulling an account out of it adds no customer, it just puts a salesperson between you and someone who was already yours -- you are <u>buying back your own customers at retail</u>.</span><span data-l="vi">Self-serve là phần demand duy nhất bạn thực sự sở hữu. Kéo một account ra khỏi đó chẳng thêm được customer nào, chỉ nhét một salesperson vào giữa bạn và người vốn đã là của bạn -- bạn đang <u>mua lại chính khách của mình theo giá lẻ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which number on your dashboard went up last quarter <b>without anyone new showing up</b>?</span><span data-l="vi">Quý vừa rồi con số nào trên dashboard đi lên mà <b>không có ai mới xuất hiện</b>?</span></p></div>
+<div class="src-link"><a href="https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg" target="_blank" rel="noopener">Elena&#x27;s Growth Scoop — Congrats, your sales problems in PLG are completely unoriginal &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">WHAT GETS SCORED</span><span data-l="vi">CHẤM ĐIỂM CÁI GÌ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Armin Ronacher</div><div class="what"><span data-l="en">He let a model run an unattended software factory over a weekend: 35 hours, roughly a billion tokens, 1,200 dollars, 79 commits, 75,000 net new lines -- and nothing of value. Reading back the output he can see the shape of the reward: token efficiency, task completion, cheap complexity metrics. Whether a human can follow the code is not in there, so it does not come out.</span><span data-l="vi">Anh thả một model chạy software factory không ai trông suốt cuối tuần: 35 tiếng, khoảng một tỷ token, 1.200 đô, 79 commit, 75.000 dòng code mới -- và không có gì dùng được. Đọc lại output, anh thấy rõ hình dạng của phần thưởng: token efficiency, hoàn thành task, vài chỉ số complexity rẻ tiền. Chuyện con người có đọc hiểu nổi hay không thì không nằm trong đó, nên nó cũng không đi ra.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">Make something people want. The whole job of an early company is finding the thing users would be upset to lose.</span><span data-l="vi">Make something people want. Việc duy nhất của một công ty giai đoạn đầu là tìm ra thứ mà user sẽ tiếc nếu mất.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A reward function is a product spec, and it holds only what was cheap to measure. Whatever you left out does not arrive later as a bonus -- you get <u>exactly what you scored, at volume</u>.</span><span data-l="vi">Reward function chính là bản spec, và nó chỉ chứa những gì rẻ tiền để đo. Thứ bạn bỏ ra ngoài không tự quay lại sau -- bạn nhận <u>đúng thứ bạn đã chấm điểm, với số lượng lớn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What is your agent scored on, and what did you <b>quietly leave out of the score</b>?</span><span data-l="vi">Agent của bạn được chấm trên cái gì, và bạn đã <b>lặng lẽ bỏ cái gì ra khỏi thang điểm</b>?</span></p></div>
+<div class="src-link"><a href="https://lucumr.pocoo.org/2026/9/7/astra-why/" target="_blank" rel="noopener">Armin Ronacher — Astra for Coding: Why Are We Doing This Again? &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE PRUNING</span><span data-l="vi">CẮT TỈA</span></span></div>
+<div class="eq"><div class="term"><div class="who">Vicki Boykis</div><div class="what"><span data-l="en">Code is kudzu: a feature, once in, is hard to pull out, because people build on top of it before anyone asks whether it earned its place. She shipped tag bubbles on her blog in May, watched three months of analytics, found they never cracked her top thirty pages, and removed them in three commits. Deleting is silent work that never goes on a promo packet, which is why nobody does it.</span><span data-l="vi">Code là cỏ dại: một feature đã vào rồi thì rất khó gỡ, vì người ta xây tiếp lên trên nó trước khi kịp có ai hỏi nó có đáng ở lại không. Chị ship mấy cái tag bubble lên blog hồi tháng Năm, theo dõi analytics ba tháng, thấy chúng không lọt nổi top ba mươi trang, rồi xoá sạch trong ba commit. Xoá code là việc thầm lặng, chẳng bao giờ được tính vào hồ sơ thăng chức, nên chẳng ai làm.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Lenny Rachitsky</div><div class="what"><span data-l="en">The retention test he keeps returning to is the shape of the curve, not its height: good retention is a curve that flattens into a floor of people who keep coming back. A curve that keeps sliding has no floor, however good the first week looked.</span><span data-l="vi">Phép thử retention anh hay quay lại là hình dạng đường cong, không phải độ cao: retention tốt là đường cong đi ngang lại thành một cái sàn, gồm những người vẫn quay lại. Đường cong cứ trượt mãi thì không có sàn, dù tuần đầu có đẹp tới đâu.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A feature whose curve never flattens does not politely disappear. It stays, collects code on top of it, and charges rent -- <u>the ones nobody uses are the ones you keep paying for</u>.</span><span data-l="vi">Feature có đường cong không bao giờ đi ngang cũng chẳng tự biến mất. Nó nằm đó, được đắp thêm code lên trên, và bắt bạn trả tiền thuê -- <u>thứ không ai dùng mới là thứ bạn nuôi mãi</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which feature you shipped this year could you <b>delete in three commits</b>?</span><span data-l="vi">Feature nào ship năm nay mà bạn <b>xoá được trong ba commit</b>?</span></p></div>
+<div class="src-link"><a href="https://vickiboykis.com/2026/09/01/bad-code-is-kudzu/" target="_blank" rel="noopener">Vicki Boykis — Bad code is kudzu &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-11.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-11</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Elena Verna / Ben Thompson / Armin Ronacher / Paul Graham / Vicki Boykis / Lenny Rachitsky<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Elena Verna / Ben Thompson / Armin Ronacher / Paul Graham / Vicki Boykis / Lenny Rachitsky<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
