@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-13",
+      "edition": 49,
+      "note": "Themes: churn as the interview nobody schedules, the customer's own weekend build as a competitive alternative, context files decaying because the model outgrew them. Sources: svpg.com (Marty Cagan, Sep 11, two days old, the recently-published anchor; the well has run four times but this piece is brand new and is his ten-regrets keynote, read in full on the page and not gated), lg.substack.com (Julie Zhuo, Sep 9, a completely fresh well never used as a source though listed as a candidate in the Ed 39 and Ed 42 notes; the essay body i-viii is free and was read in full, only the paid appendix on how she built the apps is gated), newsletter.posthog.com (Jina Yoon, Aug 31, a completely fresh well never used on file, read in full, not paywalled). IMPORTANT: Marty Cagan is now exhausted against every single roster member -- Cagan x Torres, Perri, Biddle, Balfour, Cohen, Cutler, Lenny, Thompson, Graham, Dunford and Chen are ALL used. He can only take an outside second half from here, same precedent as Ben Thompson x David Allen and John Cutler x Roger Martin. Clayton Christensen is that outside half here and had never appeared on file at all. Second halves picked from the roster members rested longest: Andrew Chen Sep 9, April Dunford Sep 10. Frameworks chosen to avoid the worn ones: Chen's law-of-shitty-clickthroughs, never used on file, taken precisely because cold start ran Sep 6 and Sep 9 and the leaky bucket ran Sep 3; Dunford's competitive-alternatives step rather than positioning-as-context. Deliberately skipped: seangoedecke 'Don't build tools for AI agents' (Sep 12, one day old, the freshest thing found today and a genuinely strong collision with Chen's cold start on training data as a moat -- but the well ran Sep 11 and Sep 7, two days is tighter than the four-day precedent Ed 45 and Ed 47 set, so it stays on the shelf and should be first pick tomorrow); cutlefish TBM 439 'Day At The Gig' (Sep 11, but cutlefish is the most-used well on file at five); pragmaticengineer 'What is happening with code reviews?' (Sep 8, now skipped for the third edition running, either take it or drop it); thezvi and platformer (both fresh wells with Sep 11-12 posts, but AI-safety news rather than product ideas). Feed notes: seangoedecke.com/rss.xml needs -L, the apex 301s to www; svpg.com/articles/feed/ works and carries full bodies; lg.substack.com/feed works and the body is in the feed; newsletter.posthog.com/feed works; producttalk.org/feed/ returned empty again, third day running; tidyfirst.substack.com, mindtheproduct.com, honeycomb.io/blog/feed, every.to and reforge.com all returned empty. New wells opened and barely spent: lg.substack.com (You Cannot Mandate an AI Transformation, Eye Hand AI, the early-Internet piece all unused), newsletter.posthog.com (You need to find product-market fit again, This post will save you tokens, Can software factories actually work), news.aakashg.com and staysaasy.com both scanned and unused. Do not repeat: churn interviews as discovery, self-built software as a competitive alternative, context rot and AGENTS.md expiry.",
+      "sparks": [
+        {
+          "pair": "Marty Cagan x Clayton Christensen",
+          "headline": "Nobody interviews the customer who left",
+          "source": "SVPG — Strong Opinions, Loosely Held",
+          "url": "https://www.svpg.com/strong-opinions-loosely-held/"
+        },
+        {
+          "pair": "Julie Zhuo x April Dunford",
+          "headline": "Your new competitor is a free Sunday",
+          "source": "The Looking Glass — How to Stop Complaining About Your Software",
+          "url": "https://lg.substack.com/p/i-never-want-to-use-third-party-software"
+        },
+        {
+          "pair": "Jina Yoon x Andrew Chen",
+          "headline": "The line that saved you in March is the bug in September",
+          "source": "PostHog Newsletter — Read this before deleting your AGENTS.md",
+          "url": "https://newsletter.posthog.com/p/your-agentsmd-is-holding-you-back"
+        }
+      ]
+    },
+    {
       "date": "2026-09-12",
       "edition": 48,
       "note": "Themes: reclassifying revenue between columns and calling it growth, the reward function as the real product spec, a feature's retention curve as the thing that decides whether it is deleted. Sources: elenaverna.com (Sep 11, one day old, the recently-published anchor; a completely fresh well never used on file, read in full on the page and NOT paywalled), lucumr.pocoo.org (Armin Ronacher, Sep 7, fresh well never used, read in full), vickiboykis.com (Sep 1, fresh well never used, short post read in full). All three first halves are people never used on file, which is the point: the roster second halves were getting crowded. Second halves picked from the roster members rested longest: Ben Thompson Sep 9, Paul Graham Sep 9, Lenny Rachitsky Sep 7. Frameworks chosen to avoid the worn ones: Thompson's aggregation theory pointed at a company's internal market rather than a platform, Graham's make-something-people-want (last run Aug 14, 29 days), Rachitsky's retention-curve-must-flatten rather than the Sean Ellis test (Sep 1) or the cross-company benchmarks (Sep 7). Gibson Biddle still skipped for the reason Ed 47 gave. Melissa Perri's build trap deliberately avoided even though it fit spark 1: nine uses on file, most recently Sep 10. Marty Cagan, John Cutler, Jason Cohen and Brian Balfour all ran Sep 11 so none were eligible. Do not repeat: PLG-to-enterprise revenue migration, reward hacking in coding agents, code deletion as a discipline.",

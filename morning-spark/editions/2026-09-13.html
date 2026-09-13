@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 13</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 49</div></div></div>
+<div class="meta label">Sunday, September 13, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">EXIT INTERVIEW</span><span data-l="vi">NGƯỜI ĐÃ RỜI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">In a new list of the ten things he now believes he got wrong, he says he taught the wrong why. The one that matters is not why the work is worth doing, it is why people use, or stop using, the product. He churns from new products constantly and is amazed how few companies ever ask him why.</span><span data-l="vi">Trong danh sách mười điều ông thấy mình đã dạy sai, Cagan nói cái why ông nhấn mạnh bao năm là cái why phụ. Cái đáng hỏi không phải tại sao việc này đáng làm, mà tại sao người ta dùng, hoặc thôi dùng, sản phẩm của bạn. Ông churn khỏi sản phẩm mới liên tục, và gần như không công ty nào hỏi ông vì sao.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Clayton Christensen</div><div class="what"><span data-l="en">Jobs to be done: a product is hired to do a job and fired the moment something does that job better. The firing is what tells you what the job actually was.</span><span data-l="vi">Jobs to be done: sản phẩm được thuê để làm một việc, và bị sa thải ngay khi có thứ khác làm việc đó tốt hơn. Chính lúc bị sa thải mới nói cho bạn biết cái việc đó thực ra là gì.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Discovery books interviews with people who might buy. Churn is the one interview your customer volunteers for, and it is <u>the only one you never schedule</u>.</span><span data-l="vi">Discovery thì xếp lịch phỏng vấn những người có thể mua. Còn churn là cuộc phỏng vấn duy nhất khách tự nguyện ngồi xuống, và là <u>cuộc duy nhất bạn không bao giờ xếp lịch</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Who cancelled on you this month, and <b>what did they hire instead</b>?</span><span data-l="vi">Tháng này ai đã huỷ, và <b>họ thuê gì thay bạn</b>?</span></p></div>
+<div class="src-link"><a href="https://www.svpg.com/strong-opinions-loosely-held/" target="_blank" rel="noopener">SVPG — Strong Opinions, Loosely Held &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">HALF AN HOUR</span><span data-l="vi">NỬA TIẾNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Julie Zhuo</div><div class="what"><span data-l="en">She envied her husband&#x27;s polished remote agent app, then wondered whether she could just build the thing she was envying. Half an hour later she had a working version. Now she says she never wants to use third-party software again, not because hers is better, but because it fits her.</span><span data-l="vi">Zhuo thèm cái app điều khiển agent từ xa của chồng, rồi nghĩ hay là tự làm cái mình đang thèm. Nửa tiếng sau bà có bản chạy được. Giờ bà nói không muốn xài phần mềm của người khác nữa, không phải vì bản của bà ngon hơn, mà vì nó vừa với bà.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning starts by listing the competitive alternatives: what the customer would actually use if you did not exist. Usually a rival, a spreadsheet, or nothing at all.</span><span data-l="vi">Positioning bắt đầu bằng việc liệt kê competitive alternatives: nếu không có bạn thì khách sẽ xài gì. Thường là một đối thủ, một file Excel, hoặc không gì cả.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">That list just grew a row, and it is the row nobody prices against: <u>the version your customer builds for themselves on a Sunday</u>.</span><span data-l="vi">Danh sách đó vừa mọc thêm một dòng, và là dòng không ai định giá: <u>bản mà chính khách tự dựng lấy trong một chiều chủ nhật</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which part of your product is now <b>a Sunday afternoon</b>?</span><span data-l="vi">Phần nào trong sản phẩm của bạn giờ chỉ còn là <b>một chiều chủ nhật</b>?</span></p></div>
+<div class="src-link"><a href="https://lg.substack.com/p/i-never-want-to-use-third-party-software" target="_blank" rel="noopener">The Looking Glass — How to Stop Complaining About Your Software &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">CONTEXT ROT</span><span data-l="vi">CONTEXT HẾT HẠN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jina Yoon</div><div class="what"><span data-l="en">At PostHog the context files now hurt more than they help, because the models got good at inferring what the files used to spell out. One forgotten line about a paused merge queue had agents running on wrong instructions for 21 hours. Her test: for each line, if you cannot name the failure it prevents, delete it.</span><span data-l="vi">Ở PostHog, mấy file context giờ hại nhiều hơn lợi, vì model đã đủ giỏi để tự suy ra những thứ file đó từng phải nói rõ. Một dòng về merge queue để quên khiến agent chạy sai chỉ dẫn suốt 21 tiếng. Phép thử của Yoon: đọc từng dòng, nếu không gọi được tên cái lỗi mà nó chặn, thì xoá.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">The law of shitty clickthroughs: every channel decays. The first banner ad ever run got a 78 percent clickthrough rate. Whatever is working is already on its way to not working.</span><span data-l="vi">Law of shitty clickthroughs: kênh nào rồi cũng tã. Cái banner đầu tiên trên đời có click rate 78 phần trăm. Thứ đang chạy tốt luôn đang trên đường thôi chạy tốt.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Context decays the same way, except the cause is not saturation, it is the model outgrowing your instruction. So write the file with <u>an expiry date, not a changelog</u>.</span><span data-l="vi">Context cũng tã y hệt vậy, chỉ khác nguyên nhân: không phải kênh bão hoà, mà là model đã lớn hơn cái chỉ dẫn của bạn. Nên viết file đó <u>kèm hạn dùng, đừng kèm changelog</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which line in your AGENTS.md is protecting you from <b>a model that no longer exists</b>?</span><span data-l="vi">Dòng nào trong AGENTS.md của bạn đang bảo vệ bạn khỏi <b>một model không còn tồn tại</b>?</span></p></div>
+<div class="src-link"><a href="https://newsletter.posthog.com/p/your-agentsmd-is-holding-you-back" target="_blank" rel="noopener">PostHog Newsletter — Read this before deleting your AGENTS.md &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-12.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-12</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Marty Cagan / Clayton Christensen / Julie Zhuo / April Dunford / Jina Yoon / Andrew Chen<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Marty Cagan / Clayton Christensen / Julie Zhuo / April Dunford / Jina Yoon / Andrew Chen<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

@@ -1,0 +1,22 @@
+Morning Spark · Sunday, September 13 · Ed. 49
+What you stopped checking is what stopped working.
+
+─────────────────
+01 · Nobody interviews the customer who left
+Marty Cagan × Clayton Christensen
+Cagan says the why that matters is why people leave, not why the work matters. Christensen says the firing tells you what the job was. Churn is the only interview your customer volunteers for, and nobody schedules it.
+→ https://www.svpg.com/strong-opinions-loosely-held/
+
+─────────────────
+02 · Your new competitor is a free Sunday
+Julie Zhuo × April Dunford
+Zhuo rebuilt the app she envied in half an hour and now prefers it. Dunford says positioning begins with what the customer would use instead of you. There is a new alternative on that list and nobody prices against it.
+→ https://lg.substack.com/p/i-never-want-to-use-third-party-software
+
+─────────────────
+03 · The line that saved you in March is the bug in September
+Jina Yoon × Andrew Chen
+PostHog found their agent instructions had become the problem, and lost 21 hours to one stale line. Chen's law of shitty clickthroughs says every channel decays. Context decays too, and the better the model gets the faster it goes.
+→ https://newsletter.posthog.com/p/your-agentsmd-is-holding-you-back
+
+Full styled card → open the session.

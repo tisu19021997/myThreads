@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-13",
+  "edition": 49,
+  "framing": "What you stopped checking is what stopped working.",
+  "framing_vi": "Thứ bạn ngừng kiểm tra chính là thứ ngừng chạy.",
+  "note": "Themes: churn as the interview nobody schedules, the customer's own weekend build as a competitive alternative, context files decaying because the model outgrew them. Sources: svpg.com (Marty Cagan, Sep 11, two days old, the recently-published anchor; the well has run four times but this piece is brand new and is his ten-regrets keynote, read in full on the page and not gated), lg.substack.com (Julie Zhuo, Sep 9, a completely fresh well never used as a source though listed as a candidate in the Ed 39 and Ed 42 notes; the essay body i-viii is free and was read in full, only the paid appendix on how she built the apps is gated), newsletter.posthog.com (Jina Yoon, Aug 31, a completely fresh well never used on file, read in full, not paywalled). IMPORTANT: Marty Cagan is now exhausted against every single roster member -- Cagan x Torres, Perri, Biddle, Balfour, Cohen, Cutler, Lenny, Thompson, Graham, Dunford and Chen are ALL used. He can only take an outside second half from here, same precedent as Ben Thompson x David Allen and John Cutler x Roger Martin. Clayton Christensen is that outside half here and had never appeared on file at all. Second halves picked from the roster members rested longest: Andrew Chen Sep 9, April Dunford Sep 10. Frameworks chosen to avoid the worn ones: Chen's law-of-shitty-clickthroughs, never used on file, taken precisely because cold start ran Sep 6 and Sep 9 and the leaky bucket ran Sep 3; Dunford's competitive-alternatives step rather than positioning-as-context. Deliberately skipped: seangoedecke 'Don't build tools for AI agents' (Sep 12, one day old, the freshest thing found today and a genuinely strong collision with Chen's cold start on training data as a moat -- but the well ran Sep 11 and Sep 7, two days is tighter than the four-day precedent Ed 45 and Ed 47 set, so it stays on the shelf and should be first pick tomorrow); cutlefish TBM 439 'Day At The Gig' (Sep 11, but cutlefish is the most-used well on file at five); pragmaticengineer 'What is happening with code reviews?' (Sep 8, now skipped for the third edition running, either take it or drop it); thezvi and platformer (both fresh wells with Sep 11-12 posts, but AI-safety news rather than product ideas). Feed notes: seangoedecke.com/rss.xml needs -L, the apex 301s to www; svpg.com/articles/feed/ works and carries full bodies; lg.substack.com/feed works and the body is in the feed; newsletter.posthog.com/feed works; producttalk.org/feed/ returned empty again, third day running; tidyfirst.substack.com, mindtheproduct.com, honeycomb.io/blog/feed, every.to and reforge.com all returned empty. New wells opened and barely spent: lg.substack.com (You Cannot Mandate an AI Transformation, Eye Hand AI, the early-Internet piece all unused), newsletter.posthog.com (You need to find product-market fit again, This post will save you tokens, Can software factories actually work), news.aakashg.com and staysaasy.com both scanned and unused. Do not repeat: churn interviews as discovery, self-built software as a competitive alternative, context rot and AGENTS.md expiry.",
+  "sparks": [
+    {
+      "title": "EXIT INTERVIEW",
+      "title_vi": "NGƯỜI ĐÃ RỜI",
+      "headline": "Nobody interviews the customer who left",
+      "headline_vi": "Không ai hỏi người vừa rời đi",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "In a new list of the ten things he now believes he got wrong, he says he taught the wrong why. The one that matters is not why the work is worth doing, it is why people use, or stop using, the product. He churns from new products constantly and is amazed how few companies ever ask him why.",
+        "what_vi": "Trong danh sách mười điều ông thấy mình đã dạy sai, Cagan nói cái why ông nhấn mạnh bao năm là cái why phụ. Cái đáng hỏi không phải tại sao việc này đáng làm, mà tại sao người ta dùng, hoặc thôi dùng, sản phẩm của bạn. Ông churn khỏi sản phẩm mới liên tục, và gần như không công ty nào hỏi ông vì sao."
+      },
+      "b": {
+        "who": "Clayton Christensen",
+        "what": "Jobs to be done: a product is hired to do a job and fired the moment something does that job better. The firing is what tells you what the job actually was.",
+        "what_vi": "Jobs to be done: sản phẩm được thuê để làm một việc, và bị sa thải ngay khi có thứ khác làm việc đó tốt hơn. Chính lúc bị sa thải mới nói cho bạn biết cái việc đó thực ra là gì."
+      },
+      "result": "Discovery books interviews with people who might buy. Churn is the one interview your customer volunteers for, and it is the only one you never schedule.",
+      "result_vi": "Discovery thì xếp lịch phỏng vấn những người có thể mua. Còn churn là cuộc phỏng vấn duy nhất khách tự nguyện ngồi xuống, và là cuộc duy nhất bạn không bao giờ xếp lịch.",
+      "result_underline": "the only one you never schedule",
+      "result_underline_vi": "cuộc duy nhất bạn không bao giờ xếp lịch",
+      "tick": "Who cancelled on you this month, and what did they hire instead?",
+      "tick_vi": "Tháng này ai đã huỷ, và họ thuê gì thay bạn?",
+      "tick_bold": [
+        "what did they hire instead"
+      ],
+      "tick_bold_vi": [
+        "họ thuê gì thay bạn"
+      ],
+      "provocation": "Cagan says the why that matters is why people leave, not why the work matters. Christensen says the firing tells you what the job was. Churn is the only interview your customer volunteers for, and nobody schedules it.",
+      "provocation_vi": "Cagan nói cái why đáng giá là tại sao người ta bỏ đi, không phải tại sao việc này đáng làm. Christensen nói lúc bị sa thải mới lộ ra cái job thật. Churn là cuộc phỏng vấn duy nhất khách tự nguyện ngồi xuống, và không ai xếp lịch cho nó.",
+      "source": {
+        "site": "SVPG",
+        "title": "Strong Opinions, Loosely Held",
+        "url": "https://www.svpg.com/strong-opinions-loosely-held/",
+        "published": "2026-09-11"
+      }
+    },
+    {
+      "title": "HALF AN HOUR",
+      "title_vi": "NỬA TIẾNG",
+      "headline": "Your new competitor is a free Sunday",
+      "headline_vi": "Đối thủ mới của bạn là một chiều chủ nhật rảnh",
+      "a": {
+        "who": "Julie Zhuo",
+        "what": "She envied her husband's polished remote agent app, then wondered whether she could just build the thing she was envying. Half an hour later she had a working version. Now she says she never wants to use third-party software again, not because hers is better, but because it fits her.",
+        "what_vi": "Zhuo thèm cái app điều khiển agent từ xa của chồng, rồi nghĩ hay là tự làm cái mình đang thèm. Nửa tiếng sau bà có bản chạy được. Giờ bà nói không muốn xài phần mềm của người khác nữa, không phải vì bản của bà ngon hơn, mà vì nó vừa với bà."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning starts by listing the competitive alternatives: what the customer would actually use if you did not exist. Usually a rival, a spreadsheet, or nothing at all.",
+        "what_vi": "Positioning bắt đầu bằng việc liệt kê competitive alternatives: nếu không có bạn thì khách sẽ xài gì. Thường là một đối thủ, một file Excel, hoặc không gì cả."
+      },
+      "result": "That list just grew a row, and it is the row nobody prices against: the version your customer builds for themselves on a Sunday.",
+      "result_vi": "Danh sách đó vừa mọc thêm một dòng, và là dòng không ai định giá: bản mà chính khách tự dựng lấy trong một chiều chủ nhật.",
+      "result_underline": "the version your customer builds for themselves on a Sunday",
+      "result_underline_vi": "bản mà chính khách tự dựng lấy trong một chiều chủ nhật",
+      "tick": "Which part of your product is now a Sunday afternoon?",
+      "tick_vi": "Phần nào trong sản phẩm của bạn giờ chỉ còn là một chiều chủ nhật?",
+      "tick_bold": [
+        "a Sunday afternoon"
+      ],
+      "tick_bold_vi": [
+        "một chiều chủ nhật"
+      ],
+      "provocation": "Zhuo rebuilt the app she envied in half an hour and now prefers it. Dunford says positioning begins with what the customer would use instead of you. There is a new alternative on that list and nobody prices against it.",
+      "provocation_vi": "Zhuo dựng lại cái app mình thèm trong nửa tiếng và giờ thích bản của mình hơn. Dunford nói positioning bắt đầu từ câu hỏi khách sẽ xài gì nếu không có bạn. Danh sách đó vừa có thêm một lựa chọn, và không ai định giá với nó.",
+      "source": {
+        "site": "The Looking Glass",
+        "title": "How to Stop Complaining About Your Software",
+        "url": "https://lg.substack.com/p/i-never-want-to-use-third-party-software",
+        "published": "2026-09-09"
+      }
+    },
+    {
+      "title": "CONTEXT ROT",
+      "title_vi": "CONTEXT HẾT HẠN",
+      "headline": "The line that saved you in March is the bug in September",
+      "headline_vi": "Dòng cứu bạn hồi tháng Ba giờ là con bug",
+      "a": {
+        "who": "Jina Yoon",
+        "what": "At PostHog the context files now hurt more than they help, because the models got good at inferring what the files used to spell out. One forgotten line about a paused merge queue had agents running on wrong instructions for 21 hours. Her test: for each line, if you cannot name the failure it prevents, delete it.",
+        "what_vi": "Ở PostHog, mấy file context giờ hại nhiều hơn lợi, vì model đã đủ giỏi để tự suy ra những thứ file đó từng phải nói rõ. Một dòng về merge queue để quên khiến agent chạy sai chỉ dẫn suốt 21 tiếng. Phép thử của Yoon: đọc từng dòng, nếu không gọi được tên cái lỗi mà nó chặn, thì xoá."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "The law of shitty clickthroughs: every channel decays. The first banner ad ever run got a 78 percent clickthrough rate. Whatever is working is already on its way to not working.",
+        "what_vi": "Law of shitty clickthroughs: kênh nào rồi cũng tã. Cái banner đầu tiên trên đời có click rate 78 phần trăm. Thứ đang chạy tốt luôn đang trên đường thôi chạy tốt."
+      },
+      "result": "Context decays the same way, except the cause is not saturation, it is the model outgrowing your instruction. So write the file with an expiry date, not a changelog.",
+      "result_vi": "Context cũng tã y hệt vậy, chỉ khác nguyên nhân: không phải kênh bão hoà, mà là model đã lớn hơn cái chỉ dẫn của bạn. Nên viết file đó kèm hạn dùng, đừng kèm changelog.",
+      "result_underline": "an expiry date, not a changelog",
+      "result_underline_vi": "kèm hạn dùng, đừng kèm changelog",
+      "tick": "Which line in your AGENTS.md is protecting you from a model that no longer exists?",
+      "tick_vi": "Dòng nào trong AGENTS.md của bạn đang bảo vệ bạn khỏi một model không còn tồn tại?",
+      "tick_bold": [
+        "a model that no longer exists"
+      ],
+      "tick_bold_vi": [
+        "một model không còn tồn tại"
+      ],
+      "provocation": "PostHog found their agent instructions had become the problem, and lost 21 hours to one stale line. Chen's law of shitty clickthroughs says every channel decays. Context decays too, and the better the model gets the faster it goes.",
+      "provocation_vi": "PostHog phát hiện chính chỉ dẫn cho agent đã thành vấn đề, và mất 21 tiếng vì một dòng cũ. Law of shitty clickthroughs của Chen nói kênh nào rồi cũng tã. Context cũng tã, và model càng giỏi thì nó tã càng nhanh.",
+      "source": {
+        "site": "PostHog Newsletter",
+        "title": "Read this before deleting your AGENTS.md",
+        "url": "https://newsletter.posthog.com/p/your-agentsmd-is-holding-you-back",
+        "published": "2026-08-31"
+      }
+    }
+  ]
+}
