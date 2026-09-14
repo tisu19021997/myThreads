@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-14",
+  "edition": 50,
+  "framing": "What you can count is not what is doing the work.",
+  "framing_vi": "Thứ đếm được không phải thứ đang làm nên chuyện.",
+  "note": "Themes: the credential as a report on work nobody watched, the incumbent's own P&L as the only free moat, the measured channel as the small one. Sources: seangoedecke.com (Sep 13, one day old, the recently-published anchor, read in full on the page; the well ran Sep 11 and Sep 7, so three days -- tighter than the four-day precedent of Ed 45 and Ed 47, taken because Ed 49 earmarked this well as first pick today and because the Sep 13 piece is fresher and a better product collision than the Sep 12 one Ed 49 named), notboring.co (Packy McCormick, Sep 10, the well ran Sep 6 so four days; the counter-positioning essay is FULLY readable in the RSS body, no paywall, unlike the China field notes which cut off a third of the way), martinfowler.com (Martin Fowler himself, Sep 9, read on the page; the well ran Sep 7 with Rachel Laycock so seven days, and Fowler had never been a who on file). Pairings: Sean Goedecke x Teresa Torres, Packy McCormick x John Cutler, Martin Fowler x Brian Balfour -- all three checked against the full 49-edition URL and pairing list built from data/*.json, not the ledger window. Packy McCormick and Martin Fowler are both new names on file (Ed 42 used the same publication under the byline 'Matthew (Not Boring)', so check bylines, not just hosts). Second halves picked from the roster members rested longest: Brian Balfour Sep 6 (8 days, the best rested), Teresa Torres Sep 10, John Cutler Sep 11. Frameworks chosen to avoid the worn ones: Torres's product trio rather than stories-not-opinions (spent per Ed 45), assumption tests (Aug 24, Sep 5) or the weekly touchpoint (Aug 26, Sep 10); Balfour's funnels-vs-loops, last run Aug 20, rather than product-channel fit (Sep 6, Sep 2) or the launch loop (Sep 11); Cutler's coherence argument (last Aug 29) and explicitly NOT his curious-proxies framing, which ran Sep 11 on a proxy spark and would have collided head-on with spark 1. Jason Cohen's different-not-better was the obvious second half for counter-positioning and was deliberately refused: it ran Sep 11, and Packy quotes Porter on being different inside the piece, so the collision would have been the source's own point. Gibson Biddle's proxy metrics was the obvious second half for spark 1 and was refused for the same reason Ed 47 gave, plus it would have echoed Ed 47's spark 3. Deliberately skipped: seangoedecke 'Slow devex will bottleneck fast models' (Sep 14, published today, the freshest thing found, but it is an infrastructure prediction with no product lens and one seangoedecke piece is the limit) and 'Don't build tools for AI agents' (Sep 12, Ed 49's earmark, still unused and still strong); benn.substack 'How to lose your mind' (Sep 13, fresh, but it is a nine-hour narrative from a Knicks bar with no argument to collide, and the well ran Sep 11); pragmaticengineer 'What is happening with code reviews?' (Sep 8, now skipped for the fourth edition running -- DROP IT, Ed 43 ran Rachel Laycock on code review and the window has closed); commoncog 'How Moats are Built' (would have been two moat sparks in one edition); martinfowler 'Do you even need a presentation?' (Sep 8, free and unused, but Ed 45 ran Write Things Down); kellblog's two newest (both paywalled, confirmed again). Feed notes: news.aakashg.com/feed fails TLS handshake through the proxy, drop it; oneusefulthing has published nothing since Aug 31 and staysaasy nothing since Aug 16, both quiet; vickiboykis.com/index.xml works and is unused since Sep 12; notboring.co/feed carries full bodies for essays but its Weekly Dose posts are link roundups, same rule as the Stratechery weeklies; martinfowler.com/feed.atom is healthy. Wells barely spent: seangoedecke (slow-devex, dont-build-tools, deckard, radical-responsibility, you-have-to-beat-the-models all unused), notboring (Everyone is Reading Lonesome Dove, Base Power Chapter 3), martinfowler (ParacelsusMaxim, an-accidental-blackboard, making-data-ready-for-agentic-ai, need-presentation), dbreunig (who-taught-the-models, harnesses-are-situated-agents), caseyaccidental (AI Signal to Noise Curve, Why Management Advice Breaks for Founders), commoncog, eugeneyan, lethain (make-no-assumptions, middle-management-roles). Do not repeat: credentials as unwatched work, counter-positioning and the incumbent's cost structure, attributed channels versus the compounding archive.",
+  "sparks": [
+    {
+      "title": "PROOF OF WORK",
+      "title_vi": "BẰNG CHỨNG",
+      "headline": "Your GitHub stopped proving anything",
+      "headline_vi": "GitHub của bạn hết chứng minh được gì",
+      "a": {
+        "who": "Sean Goedecke",
+        "what": "Nearly five thousand mathematicians, twenty-five of them Fields medalists, signed a declaration against AI in mathematics. His reading: solving a famous problem was the legible, ungameable proxy that let outsiders reward the illegible work of inventing ideas. AI now hits the proxy without inventing anything. Software is the same: a hand-built emulator on your GitHub used to prove you were good, and now everyone assumes it was vibe-coded.",
+        "what_vi": "Gần năm nghìn nhà toán học, hai mươi lăm người trong đó có Fields, ký một tuyên bố phản đối AI trong toán. Cách Goedecke đọc: giải được một bài toán nổi tiếng là cái proxy dễ thấy và không gian lận được, nhờ nó người ngoài mới thưởng được cho phần việc thật là nghĩ ra ý tưởng mới. Giờ AI chạm tới proxy đó mà không nghĩ ra gì cả. Phần mềm y hệt: con emulator tự viết trên GitHub từng chứng minh bạn giỏi, giờ ai cũng mặc định nó vibe-code ra."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery puts the product trio, product and design and engineering, in the customer conversation at the same time, because the write-up of an interview is not the interview. The person who builds it has to have heard it.",
+        "what_vi": "Continuous discovery bắt product trio, tức product, design và engineering, cùng ngồi trong buổi nói chuyện với khách, vì bản tóm tắt một buổi phỏng vấn không phải là buổi phỏng vấn. Người sẽ build phải là người đã nghe."
+      },
+      "result": "Discovery met a broken proxy first, and the fix was never a better summary, it was putting the builder in the room. Every credential you trust is a report on work you never watched.",
+      "result_vi": "Discovery gặp cái proxy hỏng này trước, và cách chữa chưa bao giờ là viết tóm tắt hay hơn, mà là kéo người build vào phòng. Mọi credential bạn đang tin đều là một bản báo cáo về phần việc bạn chưa từng ngồi xem.",
+      "result_underline": "a report on work you never watched",
+      "result_underline_vi": "một bản báo cáo về phần việc bạn chưa từng ngồi xem",
+      "tick": "Whose skill do you trust on paper, and when did you last watch them work?",
+      "tick_vi": "Bạn tin tay nghề của ai qua giấy tờ, và lần cuối bạn ngồi xem họ làm là khi nào?",
+      "tick_bold": [
+        "watch them work"
+      ],
+      "tick_bold_vi": [
+        "ngồi xem họ làm"
+      ],
+      "provocation": "Goedecke says AI broke the proxy that let outsiders reward expert work: the puzzle now gets solved without the idea. Torres already faced a lossy proxy in discovery and did not answer it with a better summary, she put the builder in the room. Credentials need the same fix.",
+      "provocation_vi": "Goedecke nói AI đã làm hỏng cái proxy giúp người ngoài thưởng cho phần việc chuyên môn: bài toán được giải mà không cần ý tưởng nào mới. Torres từng gặp đúng kiểu proxy hao hụt đó trong discovery và không chữa bằng bản tóm tắt hay hơn, bà kéo người build vào phòng. Credential giờ cũng cần đúng cách chữa đó.",
+      "source": {
+        "site": "Sean Goedecke",
+        "title": "AI is breaking our proxies for expertise",
+        "url": "https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/",
+        "published": "2026-09-13"
+      }
+    },
+    {
+      "title": "COST TO COPY",
+      "title_vi": "GIÁ ĐỂ COPY",
+      "headline": "Better is not a moat",
+      "headline_vi": "Ngon hơn không phải là moat",
+      "a": {
+        "who": "Packy McCormick",
+        "what": "Counter-positioning is the one power a startup gets before it has earned any of the others, and it is not being better. It exists when the incumbent sees exactly what you are doing and still cannot copy it without damaging the business it already has. Ramp sold spending less into a market whose incumbents earned on spend. Microsoft wanted hardware commoditized; IBM needed it expensive. And it expires, so it only buys time to dig the real moats.",
+        "what_vi": "Counter-positioning là thứ power duy nhất một startup có trước khi kịp đào được moat nào khác, và nó không phải là ngon hơn. Nó chỉ tồn tại khi ông lớn nhìn rõ bạn đang làm gì mà vẫn không copy nổi, vì copy là tự cắn vào phần đang nuôi họ. Ramp bán chuyện xài ít tiền đi cho một thị trường mà các ông lớn ăn trên số tiền khách xài. Microsoft muốn phần cứng rẻ mạt, IBM cần nó đắt. Và nó có hạn, nên chỉ mua thời gian để bạn kịp đào moat thật."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "His coherence argument: strategy, structure, technology and incentives line up inside a company, so reading one of them tells you about the others. A company can only do what its incentives already permit.",
+        "what_vi": "Lập luận coherence của Cutler: chiến lược, cơ cấu, công nghệ và incentive trong một công ty ăn khớp với nhau, nên đọc một cái là đoán được mấy cái còn lại. Công ty chỉ làm được đúng những gì incentive của nó cho phép."
+      },
+      "result": "So read the incumbent's comp plan, not their roadmap. The move they cannot make is already written there, and it is the only part of your strategy a competitor wrote for you.",
+      "result_vi": "Nên đọc comp plan của ông lớn, đừng đọc roadmap. Nước đi họ không thể đi đã nằm sẵn ở đó, và đó là phần duy nhất trong chiến lược của bạn do chính đối thủ viết hộ.",
+      "result_underline": "the only part of your strategy a competitor wrote for you",
+      "result_underline_vi": "phần duy nhất trong chiến lược của bạn do chính đối thủ viết hộ",
+      "tick": "Which of your advantages would cost a competitor revenue, not effort, to copy?",
+      "tick_vi": "Lợi thế nào của bạn mà đối thủ copy thì mất doanh thu, chứ không phải mất công?",
+      "tick_bold": [
+        "revenue, not effort"
+      ],
+      "tick_bold_vi": [
+        "mất doanh thu, chứ không phải mất công"
+      ],
+      "provocation": "McCormick says counter-positioning is the only moat a young company can hold: the incumbent can see you and still cannot follow without eating its own revenue. Cutler says a company can only do what its incentives permit. So the move your competitor cannot make is already written down, in their comp plan rather than yours.",
+      "provocation_vi": "McCormick nói counter-positioning là moat duy nhất một công ty non có thể giữ: ông lớn nhìn thấy bạn mà vẫn không đi theo được, vì đi theo là ăn vào doanh thu của chính họ. Cutler nói công ty chỉ làm được những gì incentive cho phép. Vậy nước đi đối thủ không thể đi đã được viết sẵn, trong comp plan của họ chứ không phải của bạn.",
+      "source": {
+        "site": "Not Boring",
+        "title": "An Ode To Counter-Positioning",
+        "url": "https://www.notboring.co/p/an-ode-to-counter-positioning",
+        "published": "2026-09-10"
+      }
+    },
+    {
+      "title": "UNATTRIBUTED",
+      "title_vi": "KHÔNG RÕ NGUỒN",
+      "headline": "The channel you can measure is the small one",
+      "headline_vi": "Kênh bạn đo được là kênh nhỏ nhất",
+      "a": {
+        "who": "Martin Fowler",
+        "what": "He announces every article on LinkedIn, X, Mastodon and Bluesky, then plotted nineteen posts. LinkedIn wins engagement by a distance, and LinkedIn is the one feed he refuses to read. Then the traffic numbers: all of social is thin next to Google's three hundred thousand visits, and Google is a small slice of the 1.7 million the site took in ninety days.",
+        "what_vi": "Fowler đăng mọi bài lên LinkedIn, X, Mastodon và Bluesky, rồi vẽ lại mười chín bài gần nhất. LinkedIn thắng engagement cách biệt, và LinkedIn đúng là cái feed ông từ chối đọc. Rồi tới số traffic: toàn bộ social cộng lại vẫn mỏng so với ba trăm nghìn lượt từ Google, mà Google cũng chỉ là một lát nhỏ trong 1,7 triệu lượt site nhận trong chín mươi ngày."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Funnels are linear: you push at the top, the push is spent, you push again next week. Loops compound, because the output of one turn is the input of the next.",
+        "what_vi": "Funnel thì tuyến tính: bạn đẩy ở đầu phễu, đẩy xong là hết, tuần sau đẩy tiếp. Loop thì cộng dồn, vì đầu ra của vòng này là đầu vào của vòng sau."
+      },
+      "result": "The four accounts are the funnel, and he works it by hand every week. The million-odd visits nobody can attribute are two decades of pages still answering questions: the loop he never had to post to.",
+      "result_vi": "Bốn cái tài khoản kia là funnel, và tuần nào ông cũng đẩy tay. Còn hơn một triệu lượt không ai gán được nguồn là hai thập kỷ trang cũ vẫn đang trả lời câu hỏi cho người ta: cái loop ông chưa từng phải đăng bài.",
+      "result_underline": "the loop he never had to post to",
+      "result_underline_vi": "cái loop ông chưa từng phải đăng bài",
+      "tick": "Which of your channels is work every week, and which one compounds?",
+      "tick_vi": "Kênh nào của bạn tuần nào cũng phải đẩy tay, và kênh nào tự cộng dồn?",
+      "tick_bold": [
+        "compounds"
+      ],
+      "tick_bold_vi": [
+        "tự cộng dồn"
+      ],
+      "provocation": "Fowler measured four social accounts and found the winner is the feed he will not read, and that all of them together are thin against an archive nobody can attribute. Balfour's distinction explains it: the accounts are a funnel you pay for every week, the archive is a loop. One is work, the other is interest.",
+      "provocation_vi": "Fowler đo bốn tài khoản social và thấy cái thắng lại là feed ông không chịu đọc, và cả bốn cộng lại vẫn mỏng so với kho bài cũ mà không ai gán được nguồn. Phân biệt của Balfour giải thích chuyện đó: mấy tài khoản kia là funnel, tuần nào cũng phải trả công; kho bài cũ là loop. Một bên là việc, một bên là lãi.",
+      "source": {
+        "site": "martinfowler.com",
+        "title": "Social Media Engagement: summer 2026",
+        "url": "https://martinfowler.com/articles/2026-social-traffic.html",
+        "published": "2026-09-09"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Morning Spark · Monday, September 14 · Ed. 50
+What you can count is not what is doing the work.
+
+─────────────────
+01 · Your GitHub stopped proving anything
+Sean Goedecke × Teresa Torres
+Goedecke says AI broke the proxy that let outsiders reward expert work: the puzzle now gets solved without the idea. Torres already faced a lossy proxy in discovery and did not answer it with a better summary, she put the builder in the room. Credentials need the same fix.
+→ https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/
+
+─────────────────
+02 · Better is not a moat
+Packy McCormick × John Cutler
+McCormick says counter-positioning is the only moat a young company can hold: the incumbent can see you and still cannot follow without eating its own revenue. Cutler says a company can only do what its incentives permit. So the move your competitor cannot make is already written down, in their comp plan rather than yours.
+→ https://www.notboring.co/p/an-ode-to-counter-positioning
+
+─────────────────
+03 · The channel you can measure is the small one
+Martin Fowler × Brian Balfour
+Fowler measured four social accounts and found the winner is the feed he will not read, and that all of them together are thin against an archive nobody can attribute. Balfour's distinction explains it: the accounts are a funnel you pay for every week, the archive is a loop. One is work, the other is interest.
+→ https://martinfowler.com/articles/2026-social-traffic.html
+
+Full styled card → open the session.

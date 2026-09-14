@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 14</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 50</div></div></div>
+<div class="meta label">Monday, September 14, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">PROOF OF WORK</span><span data-l="vi">BẰNG CHỨNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Sean Goedecke</div><div class="what"><span data-l="en">Nearly five thousand mathematicians, twenty-five of them Fields medalists, signed a declaration against AI in mathematics. His reading: solving a famous problem was the legible, ungameable proxy that let outsiders reward the illegible work of inventing ideas. AI now hits the proxy without inventing anything. Software is the same: a hand-built emulator on your GitHub used to prove you were good, and now everyone assumes it was vibe-coded.</span><span data-l="vi">Gần năm nghìn nhà toán học, hai mươi lăm người trong đó có Fields, ký một tuyên bố phản đối AI trong toán. Cách Goedecke đọc: giải được một bài toán nổi tiếng là cái proxy dễ thấy và không gian lận được, nhờ nó người ngoài mới thưởng được cho phần việc thật là nghĩ ra ý tưởng mới. Giờ AI chạm tới proxy đó mà không nghĩ ra gì cả. Phần mềm y hệt: con emulator tự viết trên GitHub từng chứng minh bạn giỏi, giờ ai cũng mặc định nó vibe-code ra.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery puts the product trio, product and design and engineering, in the customer conversation at the same time, because the write-up of an interview is not the interview. The person who builds it has to have heard it.</span><span data-l="vi">Continuous discovery bắt product trio, tức product, design và engineering, cùng ngồi trong buổi nói chuyện với khách, vì bản tóm tắt một buổi phỏng vấn không phải là buổi phỏng vấn. Người sẽ build phải là người đã nghe.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Discovery met a broken proxy first, and the fix was never a better summary, it was putting the builder in the room. Every credential you trust is <u>a report on work you never watched</u>.</span><span data-l="vi">Discovery gặp cái proxy hỏng này trước, và cách chữa chưa bao giờ là viết tóm tắt hay hơn, mà là kéo người build vào phòng. Mọi credential bạn đang tin đều là <u>một bản báo cáo về phần việc bạn chưa từng ngồi xem</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Whose skill do you trust on paper, and when did you last <b>watch them work</b>?</span><span data-l="vi">Bạn tin tay nghề của ai qua giấy tờ, và lần cuối bạn <b>ngồi xem họ làm</b> là khi nào?</span></p></div>
+<div class="src-link"><a href="https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/" target="_blank" rel="noopener">Sean Goedecke — AI is breaking our proxies for expertise &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">COST TO COPY</span><span data-l="vi">GIÁ ĐỂ COPY</span></span></div>
+<div class="eq"><div class="term"><div class="who">Packy McCormick</div><div class="what"><span data-l="en">Counter-positioning is the one power a startup gets before it has earned any of the others, and it is not being better. It exists when the incumbent sees exactly what you are doing and still cannot copy it without damaging the business it already has. Ramp sold spending less into a market whose incumbents earned on spend. Microsoft wanted hardware commoditized; IBM needed it expensive. And it expires, so it only buys time to dig the real moats.</span><span data-l="vi">Counter-positioning là thứ power duy nhất một startup có trước khi kịp đào được moat nào khác, và nó không phải là ngon hơn. Nó chỉ tồn tại khi ông lớn nhìn rõ bạn đang làm gì mà vẫn không copy nổi, vì copy là tự cắn vào phần đang nuôi họ. Ramp bán chuyện xài ít tiền đi cho một thị trường mà các ông lớn ăn trên số tiền khách xài. Microsoft muốn phần cứng rẻ mạt, IBM cần nó đắt. Và nó có hạn, nên chỉ mua thời gian để bạn kịp đào moat thật.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">His coherence argument: strategy, structure, technology and incentives line up inside a company, so reading one of them tells you about the others. A company can only do what its incentives already permit.</span><span data-l="vi">Lập luận coherence của Cutler: chiến lược, cơ cấu, công nghệ và incentive trong một công ty ăn khớp với nhau, nên đọc một cái là đoán được mấy cái còn lại. Công ty chỉ làm được đúng những gì incentive của nó cho phép.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">So read the incumbent&#x27;s comp plan, not their roadmap. The move they cannot make is already written there, and it is <u>the only part of your strategy a competitor wrote for you</u>.</span><span data-l="vi">Nên đọc comp plan của ông lớn, đừng đọc roadmap. Nước đi họ không thể đi đã nằm sẵn ở đó, và đó là <u>phần duy nhất trong chiến lược của bạn do chính đối thủ viết hộ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your advantages would cost a competitor <b>revenue, not effort</b>, to copy?</span><span data-l="vi">Lợi thế nào của bạn mà đối thủ copy thì <b>mất doanh thu, chứ không phải mất công</b>?</span></p></div>
+<div class="src-link"><a href="https://www.notboring.co/p/an-ode-to-counter-positioning" target="_blank" rel="noopener">Not Boring — An Ode To Counter-Positioning &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">UNATTRIBUTED</span><span data-l="vi">KHÔNG RÕ NGUỒN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Martin Fowler</div><div class="what"><span data-l="en">He announces every article on LinkedIn, X, Mastodon and Bluesky, then plotted nineteen posts. LinkedIn wins engagement by a distance, and LinkedIn is the one feed he refuses to read. Then the traffic numbers: all of social is thin next to Google&#x27;s three hundred thousand visits, and Google is a small slice of the 1.7 million the site took in ninety days.</span><span data-l="vi">Fowler đăng mọi bài lên LinkedIn, X, Mastodon và Bluesky, rồi vẽ lại mười chín bài gần nhất. LinkedIn thắng engagement cách biệt, và LinkedIn đúng là cái feed ông từ chối đọc. Rồi tới số traffic: toàn bộ social cộng lại vẫn mỏng so với ba trăm nghìn lượt từ Google, mà Google cũng chỉ là một lát nhỏ trong 1,7 triệu lượt site nhận trong chín mươi ngày.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Funnels are linear: you push at the top, the push is spent, you push again next week. Loops compound, because the output of one turn is the input of the next.</span><span data-l="vi">Funnel thì tuyến tính: bạn đẩy ở đầu phễu, đẩy xong là hết, tuần sau đẩy tiếp. Loop thì cộng dồn, vì đầu ra của vòng này là đầu vào của vòng sau.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The four accounts are the funnel, and he works it by hand every week. The million-odd visits nobody can attribute are two decades of pages still answering questions: <u>the loop he never had to post to</u>.</span><span data-l="vi">Bốn cái tài khoản kia là funnel, và tuần nào ông cũng đẩy tay. Còn hơn một triệu lượt không ai gán được nguồn là hai thập kỷ trang cũ vẫn đang trả lời câu hỏi cho người ta: <u>cái loop ông chưa từng phải đăng bài</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your channels is work every week, and which one <b>compounds</b>?</span><span data-l="vi">Kênh nào của bạn tuần nào cũng phải đẩy tay, và kênh nào <b>tự cộng dồn</b>?</span></p></div>
+<div class="src-link"><a href="https://martinfowler.com/articles/2026-social-traffic.html" target="_blank" rel="noopener">martinfowler.com — Social Media Engagement: summer 2026 &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-13.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-13</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Sean Goedecke / Teresa Torres / Packy McCormick / John Cutler / Martin Fowler / Brian Balfour<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Sean Goedecke / Teresa Torres / Packy McCormick / John Cutler / Martin Fowler / Brian Balfour<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
