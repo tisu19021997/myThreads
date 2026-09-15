@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-15",
+  "edition": 51,
+  "framing": "What you leave out does not disappear, it comes back later.",
+  "framing_vi": "Thứ bạn bỏ bớt không biến mất, nó quay lại sau.",
+  "note": "Themes: the claim that omits its mechanism, the cheap rep spent on throughput, the smoothing window as a choice about when you find out. Sources: simonwillison.net (Sep 14, one day old, the fresh anchor, link post read in full on the page; well last ran Sep 5, nine days), newsletter.pragmaticengineer.com (Gergely Orosz, Sep 8, well last ran Sep 4, eleven days, deepdive body readable on the page despite the Paid tag), kellblog.com (Dave Kellogg, Jul 26, well last ran Sep 10, five days, the oldest piece of the three and taken for the data lens because no fresher data-side well was rested). Pairings: Simon Willison x Gibson Biddle, Gergely Orosz x Cedric Chin, Dave Kellogg x Paul Graham, all three checked against the full 50-edition pairing set built from data/*.json. Second halves picked from the rested end: Gibson Biddle Sep 8, Cedric Chin Sep 6, Paul Graham Sep 12 (three days, the tightest here, taken because Startup equals Growth is the exact counterweight to smoothing and the better-rested roster names were either already used today or in a used pairing with Kellogg). Dave Kellogg x Melissa Perri was the first choice for spark three and is already on file, hence Graham. Avoid tomorrow: metrics cadence, code review, AI risk discourse. Rested and unused wells worth a look: aprildunford.com, paulgraham.com, melissaperri.com, longform.asmartbear.com, commoncog.com, andrewchen.com.",
+  "sparks": [
+    {
+      "title": "THE UNSAID PART",
+      "title_vi": "PHẦN KHÔNG NÓI",
+      "headline": "Your unexplained claim is not neutral",
+      "headline_vi": "Lời tuyên bố bỏ lửng không hề trung tính",
+      "a": {
+        "who": "Simon Willison",
+        "what": "His link post relays Bryan Cantrill: experts who raise an alarm without explaining the mechanism spend the trust their expertise bought, and the space they leave is filled with fear.",
+        "what_vi": "Bài link của anh dẫn lại Bryan Cantrill: chuyên gia hô hoán mà không giải thích cơ chế là đang xài lạm lòng tin mà chuyên môn mang lại, và chỗ trống đó bị nỗi sợ lấp vào."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "A strategy is not real until every bet carries a proxy metric: the measurable path from the thing you build to the outcome you claim.",
+        "what_vi": "Một chiến lược chưa có thật cho tới khi từng bet gắn được proxy metric: đường đi đo được từ thứ bạn build tới outcome bạn nói."
+      },
+      "result": "Both are enforcing one rule: a claim ships with the mechanism that lets someone else check it. Leave the mechanism out and the gap still gets filled, by fear in public and by the loudest voice in the room at work.",
+      "result_vi": "Cả hai đang siết cùng một luật: đã tuyên bố thì phải kèm cơ chế để người khác kiểm lại được. Bỏ cơ chế đi thì chỗ trống vẫn bị lấp, ngoài kia là nỗi sợ, còn trong công ty là người nói to nhất.",
+      "result_underline": "by fear in public and by the loudest voice in the room at work",
+      "result_underline_vi": "ngoài kia là nỗi sợ, còn trong công ty là người nói to nhất",
+      "tick": "What did you assert this week without saying how anyone could check it?",
+      "tick_vi": "Tuần này bạn khẳng định điều gì mà không nói ai kiểm lại được bằng cách nào?",
+      "tick_bold": [
+        "how anyone could check it"
+      ],
+      "tick_bold_vi": [
+        "ai kiểm lại được bằng cách nào"
+      ],
+      "provocation": "Cantrill's complaint, relayed by Willison, is that experts cite bioweapons and infrastructure hacks without elaboration, and imagination fills that space with fear. Biddle's proxy metric is the same discipline pointed at a roadmap: name the measurable path or the bet is a slogan. Alarm and strategy both need their mechanism attached.",
+      "provocation_vi": "Cantrill, qua bài của Willison, phàn nàn rằng chuyên gia nhắc bioweapon với hack hạ tầng mà không giải thích thêm, rồi trí tưởng tượng lấp chỗ đó bằng nỗi sợ. Proxy metric của Biddle là đúng kỷ luật đó chĩa vào roadmap: chỉ ra đường đo được, không thì cái bet chỉ là khẩu hiệu. Lời cảnh báo và chiến lược đều phải đính kèm cơ chế.",
+      "source": {
+        "site": "Simon Willison's Weblog",
+        "title": "The contagion of fear",
+        "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+        "published": "2026-09-14"
+      }
+    },
+    {
+      "title": "THE CHEAP REPS",
+      "title_vi": "NHỮNG LẦN TẬP RẺ",
+      "headline": "You automated the training set",
+      "headline_vi": "Bạn vừa tự động hoá mất chỗ tập nghề",
+      "a": {
+        "who": "Gergely Orosz",
+        "what": "Pull requests on GitHub grew fivefold in three years, so teams triage by blast radius: low-risk changes ship on an agent's review alone, high-risk ones still get a human.",
+        "what_vi": "PR trên GitHub tăng gấp năm trong ba năm, nên các team phân loại theo blast radius: thay đổi rủi ro thấp thì agent review xong là ship, còn rủi ro cao mới tới tay người."
+      },
+      "b": {
+        "who": "Cedric Chin",
+        "what": "Tactical decision games build expert intuition through many low-stakes decisions under time pressure, each one debriefed, until a situation you have never seen feels like common sense.",
+        "what_vi": "Tactical decision game xây trực giác chuyên gia bằng rất nhiều quyết định nhỏ ít rủi ro dưới áp lực thời gian, mỗi lần đều có debrief, tới lúc tình huống chưa gặp bao giờ cũng thành chuyện thường."
+      },
+      "result": "The low-risk pull request was never only throughput. It was the cheap rep that grew the judgment the high-risk review runs on, and blast radius now sorts those reps straight to the machine.",
+      "result_vi": "Cái PR rủi ro thấp chưa bao giờ chỉ là throughput. Nó là lần tập rẻ nuôi ra cái phán đoán mà review rủi ro cao đang sống nhờ, và blast radius giờ đẩy thẳng mấy lần tập đó cho máy.",
+      "result_underline": "blast radius now sorts those reps straight to the machine",
+      "result_underline_vi": "blast radius giờ đẩy thẳng mấy lần tập đó cho máy",
+      "tick": "Who on your team is still getting reps on the code nobody reads any more?",
+      "tick_vi": "Trong team bạn, ai còn được tập tay trên đống code không ai đọc nữa?",
+      "tick_bold": [
+        "still getting reps"
+      ],
+      "tick_bold_vi": [
+        "còn được tập tay"
+      ],
+      "provocation": "Orosz found the common answer to AI code volume is triage by blast radius, with humans kept for risky changes. Chin's work on tactical decision games says expertise comes from the volume of cheap decisions with feedback, not from the rare hard one. Triage protects this quarter's throughput by spending the reps that make next year's reviewer.",
+      "provocation_vi": "Orosz thấy cách phổ biến để chịu nổi lượng code AI sinh ra là phân loại theo blast radius, người chỉ giữ phần rủi ro. Chin thì nói chuyên môn tới từ số lượng quyết định rẻ có feedback, chứ không từ vài ca khó hiếm hoi. Phân loại kiểu đó giữ được throughput quý này bằng cách tiêu mất mấy lần tập tạo ra người review năm sau.",
+      "source": {
+        "site": "The Pragmatic Engineer",
+        "title": "What is happening with code reviews?",
+        "url": "https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews",
+        "published": "2026-09-08"
+      }
+    },
+    {
+      "title": "SMOOTH OPERATOR",
+      "title_vi": "LÀM MƯỢT SỐ",
+      "headline": "The break hides under the average",
+      "headline_vi": "Chỗ số vỡ nằm ngay dưới cái trung bình",
+      "a": {
+        "who": "Dave Kellogg",
+        "what": "Smoothing is right for an investor reading trends and wrong for an operator: churn broke in 3Q25 and the smoothed rate said nothing until the April 2026 board meeting.",
+        "what_vi": "Làm mượt thì hợp với investor đọc xu hướng, sai với người vận hành: churn vỡ từ 3Q25 mà con số đã làm mượt tới tận board meeting tháng 4 năm 2026 mới kêu."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "A startup is a company built to grow fast, so it picks one growth number and reads it weekly, because a rate you only see by the quarter is a rate you cannot steer by.",
+        "what_vi": "Startup là công ty sinh ra để lớn nhanh, nên nó chọn một con số tăng trưởng và đọc theo tuần, vì cái rate chỉ nhìn theo quý là cái rate không lái được."
+      },
+      "result": "Cadence is not reporting hygiene, it is reflex speed. Smoothing does not make the number calmer, it decides how many quarters you run on a problem before you are allowed to feel it.",
+      "result_vi": "Nhịp đọc số không phải chuyện báo cáo cho gọn, nó là tốc độ phản xạ. Làm mượt không khiến con số hiền đi, nó quyết định bạn chạy tiếp bao nhiêu quý trên một vấn đề trước khi được phép thấy nó.",
+      "result_underline": "how many quarters you run on a problem before you are allowed to feel it",
+      "result_underline_vi": "bạn chạy tiếp bao nhiêu quý trên một vấn đề trước khi được phép thấy nó",
+      "tick": "Which number on your dashboard is smoothed, and what does it look like raw?",
+      "tick_vi": "Con số nào trên dashboard của bạn đang được làm mượt, và để thô thì nó trông ra sao?",
+      "tick_bold": [
+        "what does it look like raw"
+      ],
+      "tick_bold_vi": [
+        "để thô thì nó trông ra sao"
+      ],
+      "provocation": "Kellogg shows a company whose churn hit 200% of plan in 3Q25 while the smoothed rate stayed quiet for three quarters, long enough for the cause, a widened ICP, to become ancient history. Graham's rule for startups is the opposite reflex: one number, read weekly, because you steer on the derivative. Choosing the window is choosing when you find out.",
+      "provocation_vi": "Kellogg đưa ra một công ty có churn vọt lên 200% plan từ 3Q25 mà con số làm mượt im re suốt ba quý, đủ lâu để nguyên nhân, là cái ICP bị nới rộng, thành chuyện cũ rích. Luật của Graham cho startup là phản xạ ngược lại: một con số, đọc hàng tuần, vì bạn lái bằng đạo hàm. Chọn cửa sổ thời gian chính là chọn lúc mình biết chuyện.",
+      "source": {
+        "site": "Kellblog",
+        "title": "Please Don't Smooth the Metrics",
+        "url": "https://kellblog.com/2026/07/26/please-dont-smooth-the-metrics/",
+        "published": "2026-07-26"
+      }
+    }
+  ]
+}

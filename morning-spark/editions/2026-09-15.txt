@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, September 15 · Ed. 51
+What you leave out does not disappear, it comes back later.
+
+─────────────────
+01 · Your unexplained claim is not neutral
+Simon Willison × Gibson Biddle
+Cantrill's complaint, relayed by Willison, is that experts cite bioweapons and infrastructure hacks without elaboration, and imagination fills that space with fear. Biddle's proxy metric is the same discipline pointed at a roadmap: name the measurable path or the bet is a slogan. Alarm and strategy both need their mechanism attached.
+→ https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/
+
+─────────────────
+02 · You automated the training set
+Gergely Orosz × Cedric Chin
+Orosz found the common answer to AI code volume is triage by blast radius, with humans kept for risky changes. Chin's work on tactical decision games says expertise comes from the volume of cheap decisions with feedback, not from the rare hard one. Triage protects this quarter's throughput by spending the reps that make next year's reviewer.
+→ https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews
+
+─────────────────
+03 · The break hides under the average
+Dave Kellogg × Paul Graham
+Kellogg shows a company whose churn hit 200% of plan in 3Q25 while the smoothed rate stayed quiet for three quarters, long enough for the cause, a widened ICP, to become ancient history. Graham's rule for startups is the opposite reflex: one number, read weekly, because you steer on the derivative. Choosing the window is choosing when you find out.
+→ https://kellblog.com/2026/07/26/please-dont-smooth-the-metrics/
+
+Full styled card → open the session.
