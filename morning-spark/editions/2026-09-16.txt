@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, September 16 · Ed. 52
+Cheap building moved the hard part, it did not remove it.
+
+─────────────────
+01 · The moat moved to the back of the build
+Teresa Torres × Cedric Chin
+Torres says delivery got cheaper, not free, and that the last thirty percent is where the real work lives. Chin says advantages are easy to name and brutally hard to build. Put together: cheap delivery does not erase moats, it relocates them to the part of the build that stays hard.
+→ https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/
+
+─────────────────
+02 · Dead context now speaks in a confident voice
+John Cutler × Martin Fowler
+Cutler finds the code is the only definitive artifact because it is what runs. Fowler has argued that for years. The new part is that AI does not just inherit your stale docs, it launders them, handing back eroded understanding in the same confident register as the live stuff.
+→ https://cutlefish.substack.com/p/tbm-439-day-at-the-gig
+
+─────────────────
+03 · The agent ate the workflow you had already written down
+Tomasz Tunguz × Melissa Perri
+Tunguz reports a ten-to-one compression and points at the codified workflow, not the model, as the binding constraint. Perri spent a decade saying orgs only scale the decisions they have made explicit. The payout for writing things down used to be onboarding speed. Now it is leverage.
+→ https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/
+
+Full styled card → open the session.

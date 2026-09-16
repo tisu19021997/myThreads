@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 16</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 52</div></div></div>
+<div class="meta label">Wednesday, September 16, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE LAST THIRTY</span><span data-l="vi">BA MƯƠI PHẦN TRĂM CUỐI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Delivery got dramatically cheaper but never free. The first sixty to seventy percent is a prototype; closing the last thirty is months to years, and treating agents as free buys you a Frankenstein data model instead.</span><span data-l="vi">Delivery rẻ đi thật, nhưng không bao giờ free. Sáu bảy chục phần trăm đầu chỉ là prototype; đóng ba mươi phần trăm cuối mất hàng tháng tới hàng năm. Coi agent là free thì thứ bạn nhận lại là một data model chắp vá.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Cedric Chin</div><div class="what"><span data-l="en">Every real competitive advantage maps neatly onto Helmer&#x27;s 7 Powers after the fact, and naming one is easy. Building one is go-to-Mars hard: the problems you will hit are ones you cannot imagine yet.</span><span data-l="vi">Mọi lợi thế cạnh tranh thật sự đều khớp gọn vào 7 Powers của Helmer khi nhìn lại, và gọi tên nó thì dễ. Xây được một cái mới là loại khó kiểu bay lên sao Hỏa: vấn đề bạn sẽ gặp là loại giờ còn chưa tưởng tượng nổi.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">When everyone gets the first seventy percent for free, shipping stops being the advantage. What is left is <u>the thirty percent nobody can shortcut</u>.</span><span data-l="vi">Khi ai cũng có bảy mươi phần trăm đầu miễn phí, ship không còn là lợi thế nữa. Cái còn lại là <u>ba mươi phần trăm không ai đi tắt được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which part of what you are building <b>stays expensive</b> even with an agent holding the pen?</span><span data-l="vi">Phần nào trong thứ bạn đang build <b>vẫn đắt</b>, kể cả khi agent cầm bút?</span></p></div>
+<div class="src-link"><a href="https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/" target="_blank" rel="noopener">Product Talk — Delivery Isn&#x27;t Free - All Things Product Podcast with Teresa Torres &amp; Petra Wille &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">CAVE DRAWINGS</span><span data-l="vi">HÌNH VẼ TRONG HANG</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Starting a new job, he does archaeology across docs, transcripts and boards, and the hard part is telling live context from relics. AI answers point him somewhere without ever saying which artifacts are still true.</span><span data-l="vi">Mới vào chỗ làm mới, anh đào bới đống doc, transcript, board, và phần khó là phân biệt context còn sống với di tích. AI trả lời thì chỉ hướng cho anh, nhưng không bao giờ nói artifact nào còn đúng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Martin Fowler</div><div class="what"><span data-l="en">Documents nothing executes drift away from the system they describe. Only self-testing code and documentation tied to what actually runs stay honest, because a lie there breaks the build.</span><span data-l="vi">Doc mà không có gì chạy qua thì trôi dần khỏi cái hệ thống nó mô tả. Chỉ code tự test và tài liệu gắn với thứ đang thật sự chạy mới còn trung thực, vì nói dối ở đó là gãy build.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Stale docs used to look stale. Now they come back summarized in the same fluent voice as the true ones, and <u>the rot reads as consensus</u>.</span><span data-l="vi">Doc cũ ngày xưa nhìn là biết cũ. Giờ nó quay lại dưới dạng tóm tắt, giọng trôi chảy y hệt mấy doc còn đúng, và <u>cái mục ruỗng đọc lên nghe như đồng thuận</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If nothing in your team&#x27;s context <b>has a date on it</b>, how would anyone know what died?</span><span data-l="vi">Nếu không có gì trong đống context của team <b>gắn ngày</b>, ai biết được cái nào đã chết?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-439-day-at-the-gig" target="_blank" rel="noopener">The Beautiful Mess — TBM 439: Day At The Gig... &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">TEN TO ONE</span><span data-l="vi">MƯỜI CÒN MỘT</span></span></div>
+<div class="eq"><div class="term"><div class="who">Tomasz Tunguz</div><div class="what"><span data-l="en">Vercel took inbound sales development from ten people to one and a quarter, at thirty-two times ROI, on an annual infrastructure bill in the single-digit thousands. His read: the bottleneck is not the model, it is the codified workflow.</span><span data-l="vi">Vercel kéo team inbound sales development từ mười người xuống một phẩy hai lăm, ROI ba mươi hai lần, hóa đơn infra cả năm chỉ vài nghìn đô. Anh chốt: bottleneck không phải model, mà là workflow đã được viết thành quy trình.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">The build trap is measuring output while nobody has made the decisions explicit. Product ops exists to codify how choices get made and fed with data, so strategy can actually scale past the people holding it in their heads.</span><span data-l="vi">Build trap là đo output trong khi chẳng ai viết rõ các quyết định ra. Product ops sinh ra để codify cách ra quyết định và nuôi nó bằng data, để strategy scale được vượt qua mấy người đang giữ nó trong đầu.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Automation does not reward the team with the best model. It rewards the team that <u>had already written down how the work is done</u>.</span><span data-l="vi">Automation không thưởng cho team có model xịn nhất. Nó thưởng cho team <u>đã viết sẵn ra cách công việc được làm</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your workflows <b>only exists in someone&#x27;s head</b>, and what is that costing you now?</span><span data-l="vi">Workflow nào của bạn <b>chỉ tồn tại trong đầu một người</b>, và cái đó đang tốn của bạn bao nhiêu?</span></p></div>
+<div class="src-link"><a href="https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/" target="_blank" rel="noopener">Tomasz Tunguz — When Inbound Sells Itself &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-15.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-15</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Teresa Torres / Cedric Chin / John Cutler / Martin Fowler / Tomasz Tunguz / Melissa Perri<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Teresa Torres / Cedric Chin / John Cutler / Martin Fowler / Tomasz Tunguz / Melissa Perri<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
