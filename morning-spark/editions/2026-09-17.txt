@@ -1,0 +1,22 @@
+Morning Spark · Thursday, September 17 · Ed. 53
+Say the trade-off out loud, or the default decides for you.
+
+─────────────────
+01 · The spreadsheet reports your incentives, not your demand
+Ankur Gupta × Ethan Mollick
+Gupta found teams who knew their traffic exactly and their machine count not at all, so every one of them padded, and the padding stacked into a number finance could not trace. Mollick's secret cyborgs hide their AI gains because disclosure reads as cheating. Together: a number is a report on what people thought was safe to tell you.
+→ https://leaddev.com/technical-direction/stop-asking-engineers-how-many-machines-they-need
+
+─────────────────
+02 · A prompt with no trade-offs is not a brief
+Sean Goedecke × April Dunford
+Goedecke says the useful half of a prompt is your priorities, including the ones you are willing to give up. Dunford says positioning is context you choose or the market chooses for you. Together: a spec with no stated trade-offs hands the framing to whoever reads it.
+→ https://seangoedecke.com/tell-agents-the-why/
+
+─────────────────
+03 · Advocacy is produced, not detected
+Jason Lemkin × Jason Cohen
+Lemkin's 214 free articles have no line item: they came from two people shipping real software on Replit and writing up what broke. Cohen would call that love rather than satisfaction, and love is the only part that travels. Together: advocacy is not a channel you detect, it is a customer you decided to make win.
+→ https://www.saastr.com/we-mentioned-replit-in-214-articles-last-year-for-free-most-vendors-have-no-plan-for-customers-like-that/
+
+Full styled card → open the session.

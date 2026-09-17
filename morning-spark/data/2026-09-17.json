@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-17",
+  "edition": 53,
+  "framing": "Say the trade-off out loud, or the default decides for you.",
+  "framing_vi": "Nói trade-off ra, không thì default quyết thay bạn.",
+  "note": "Themes: a plan that reports what felt safe to say, a prompt as a positioning statement, advocacy as a customer you decided to make win. Sources: leaddev.com (Ankur Gupta, Sep 16, one day old, a completely fresh well never used on file, read in full on the page before the register-wall), seangoedecke.com (Sep 15, two days, read in full; well last ran Sep 14 so three days, same precedent as Ed 50), saastr.com (Jason Lemkin, Sep 16, one day old, another completely fresh well, read in full and not gated). Second halves: Ethan Mollick on secret cyborgs (rested since Aug 31, seventeen days, one prior use), April Dunford on positioning as chosen context and competitive alternatives (Sep 13), Jason Cohen on customer love rather than satisfaction, grounded in longform.asmartbear.com/value-time which was read today and turned out to be already used on Aug 7. Pairings: Ankur Gupta x Ethan Mollick, Sean Goedecke x April Dunford, Jason Lemkin x Jason Cohen, all three checked against the full 52-edition pairing set built from data/*.json; Ankur Gupta and Jason Lemkin are new names on file. WARNING repeated from Ed 47: build the full URL list from data/*.json before curating. Two picks died on it today. lethain.com/generated-demand was going to be Gupta's second half and it was the SOURCE on Sep 8, and longform.asmartbear.com/value-time was going to be spark 3 and ran on Aug 7 -- the asmartbear front page is now fully mined (focus, confidence, strategic-choices, value-time, compass, creativity-over-optimization, startup-beats-incumbent, one-priority, code-is-your-enemy, worry, expert-harmful, hire-better-than-you all used), so that well needs its archive pages or a long rest. Deliberately skipped: commoncog 'How to Handle Disruptive Change' (Sep 16, excellent, well eleven days rested, but Cedric Chin ran yesterday -- take it in a few days, the balance-sheet-buys-time-to-find-a-frame argument is unused and strong); leaddev 'We built the platform. Nobody used it' (Sandeep Bharadwaj Mannapur, Sep 15, trust-not-adoption, unused and strong, but its competitive-alternatives reading duplicates Ed 49 spark 2 and one leaddev piece is the limit per edition); kellblog 'The Market Segment Analysis Chart' and producttalk '4 New Evals and 16 Experiment Variants' (both Sep 16, both wells ran within two days); lennysnewsletter Muse review (Sep 16, podcast show notes only, confirmed unusable for the fifth time -- stop opening Lenny podcast posts); stratechery Sep 16 (paywalled Daily Update). Spark 3 was deliberately steered away from the attribution angle in the Lemkin piece, because 'the measured channel is the small one' ran as Ed 50 spark 3; the facet used here is production, not detection. Feed notes: leaddev.com/rss.xml and saastr.com/feed are healthy and carry full bodies, both are genuinely new wells; melissaperri.com has published nothing since Oct 2024 and askgib.substack.com nothing since Mar 2025, both dead, drop them from the rested list; aprildunford.com has no working RSS, scrape the blog index; thezvi and platformer are fresh but AI-safety news. Wells barely spent: leaddev (we-built-the-platform, how-to-lead-a-technical-discussion), saastr (independent Slack, 21 AI agents, Harvey), commoncog, oneusefulthing, lethain (make-no-assumptions, middle-management-roles), andrewchen.substack (adversarial-creativity), jim-nielsen, seangoedecke (jev-structured-output, slow-devex, dont-build-tools, deckard). Avoid tomorrow: capacity planning, prompt structure, word of mouth.",
+  "sparks": [
+    {
+      "title": "SAFE ANSWERS",
+      "title_vi": "CÂU TRẢ LỜI AN TOÀN",
+      "headline": "The spreadsheet reports your incentives, not your demand",
+      "headline_vi": "Cái spreadsheet báo cáo incentive của bạn, không phải nhu cầu",
+      "a": {
+        "who": "Ankur Gupta",
+        "what": "Product teams knew their traffic and launches exactly, and had no idea what that was in machines, so every team padded for uncertainty. Hundreds of reasonable buffers stacked into a number finance could not trace. The fix was to stop asking for hardware and ask for traffic, ingestion and retention instead, then convert it automatically.",
+        "what_vi": "Product team nắm rất rõ traffic và launch của họ, nhưng không biết chỗ đó quy ra bao nhiêu máy, nên ai cũng cộng thêm một khoản đệm cho chắc. Hàng trăm khoản đệm hợp lý cộng lại thành con số không ai truy ra nổi. Cách chữa: thôi hỏi phần cứng, hỏi traffic, ingestion, retention, rồi để hệ thống tự quy ra."
+      },
+      "b": {
+        "who": "Ethan Mollick",
+        "what": "Workers who get real gains out of AI tend to hide them. Saying so looks like cheating, or like volunteering for your own redundancy, so the company sees nothing and learns nothing. The productivity is real and invisible at the same time.",
+        "what_vi": "Người dùng AI hiệu quả thật thường giấu. Nói ra thì bị nhìn như gian lận, hoặc như tự khai mình dư thừa, nên công ty không thấy gì và cũng không học được gì. Năng suất vừa có thật vừa vô hình."
+      },
+      "result": "Ask people a question they cannot answer safely and they answer the safe one instead. What lands on the plan is not demand, it is the sum of what felt safe to say.",
+      "result_vi": "Hỏi người ta một câu mà họ không thể trả lời an toàn thì họ sẽ trả lời câu an toàn. Thứ nằm trên kế hoạch không phải nhu cầu, nó là tổng của những gì mọi người thấy nói ra là an toàn.",
+      "result_underline": "the sum of what felt safe to say",
+      "result_underline_vi": "tổng của những gì mọi người thấy nói ra là an toàn",
+      "tick": "Which number on your plan is really somebody's insurance policy?",
+      "tick_vi": "Con số nào trong kế hoạch của bạn thực ra là một cái bảo hiểm của ai đó?",
+      "tick_bold": [
+        "somebody's insurance policy"
+      ],
+      "tick_bold_vi": [
+        "một cái bảo hiểm của ai đó"
+      ],
+      "provocation": "Gupta found teams who knew their traffic exactly and their machine count not at all, so every one of them padded, and the padding stacked into a number finance could not trace. Mollick's secret cyborgs hide their AI gains because disclosure reads as cheating. Together: a number is a report on what people thought was safe to tell you.",
+      "provocation_vi": "Gupta thấy các team nắm rõ traffic của mình và mù tịt về số máy, nên ai cũng cộng đệm, và đệm chồng lên nhau thành con số finance không truy nổi. Mollick nói mấy secret cyborg giấu phần AI làm giúp vì nói ra nghe như gian lận. Ghép lại: một con số là bản báo cáo về những gì người ta thấy an toàn để nói với bạn.",
+      "source": {
+        "site": "LeadDev",
+        "title": "Stop asking engineers how many machines they need",
+        "url": "https://leaddev.com/technical-direction/stop-asking-engineers-how-many-machines-they-need",
+        "published": "2026-09-16"
+      }
+    },
+    {
+      "title": "SAY THE TRADE",
+      "title_vi": "NÓI PHẦN ĐÁNH ĐỔI",
+      "headline": "A prompt with no trade-offs is not a brief",
+      "headline_vi": "Prompt không có trade-off thì chưa phải cái brief",
+      "a": {
+        "who": "Sean Goedecke",
+        "what": "Good models no longer go wrong because they are confused. They go wrong because they guessed at your priorities. Give them the context on what you care about and say plainly which of those you will trade away, rather than handing over a spec. Leave out that humans will read the code and you get minified code.",
+        "what_vi": "Model bây giờ làm sai không phải vì nó rối, mà vì nó đoán sai thứ bạn ưu tiên. Đưa cho nó bối cảnh về thứ bạn quan tâm, và nói thẳng cái nào chịu được đánh đổi, thay vì quăng cho nó cái spec. Không nói là người sẽ đọc code thì nó minify cho gọn."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is context you choose on purpose: what customers are comparing you against, the few things only you do, and the segment that cares most. Skip it and the customer picks the frame instead, usually the wrong one, and your best feature reads as noise.",
+        "what_vi": "Positioning là bối cảnh bạn chủ động chọn: khách đang so bạn với cái gì, vài thứ chỉ mình bạn làm được, và nhóm nào quan tâm nhất. Bỏ qua thì khách tự chọn khung giùm bạn, thường là chọn sai, và feature xịn nhất của bạn thành ra vô nghĩa."
+      },
+      "result": "Your prompt is a positioning statement. Leave the context out and the model, like any customer, supplies its own, and the default frame is never yours.",
+      "result_vi": "Prompt của bạn chính là một câu positioning. Bỏ trống bối cảnh thì model, y như khách hàng, tự điền vào, và cái khung mặc định không bao giờ là của bạn.",
+      "result_underline": "the default frame is never yours",
+      "result_underline_vi": "cái khung mặc định không bao giờ là của bạn",
+      "tick": "What are you willing to have done worse today, and have you said it out loud?",
+      "tick_vi": "Hôm nay bạn chịu để thứ gì bị làm dở hơn, và bạn đã nói ra chưa?",
+      "tick_bold": [
+        "willing to have done worse"
+      ],
+      "tick_bold_vi": [
+        "chịu để thứ gì bị làm dở hơn"
+      ],
+      "provocation": "Goedecke says the useful half of a prompt is your priorities, including the ones you are willing to give up. Dunford says positioning is context you choose or the market chooses for you. Together: a spec with no stated trade-offs hands the framing to whoever reads it.",
+      "provocation_vi": "Goedecke nói nửa hữu ích của một prompt là ưu tiên của bạn, gồm cả thứ bạn sẵn sàng bỏ. Dunford nói positioning là bối cảnh: bạn chọn, hoặc thị trường chọn thay. Ghép lại: spec không nói trade-off là spec giao quyền định khung cho người đọc.",
+      "source": {
+        "site": "Sean Goedecke",
+        "title": "Tell agents the why, not just the how",
+        "url": "https://seangoedecke.com/tell-agents-the-why/",
+        "published": "2026-09-15"
+      }
+    },
+    {
+      "title": "WHO GETS TO WIN",
+      "title_vi": "AI ĐƯỢC THẮNG",
+      "headline": "Advocacy is produced, not detected",
+      "headline_vi": "Advocacy là thứ được tạo ra, không phải thứ đi dò",
+      "a": {
+        "who": "Jason Lemkin",
+        "what": "SaaStr mentioned Replit in 214 articles and 40-plus podcasts last year, roughly 5.9 million impressions, and Replit paid nothing for it. It came from two people using the thing daily on real production work and writing up what shipped and what broke, an agent deleting 2,400 records included. There is no line item for that and no agency that sells it.",
+        "what_vi": "Năm ngoái SaaStr nhắc Replit trong 214 bài và hơn 40 podcast, tầm 5,9 triệu impression, và Replit trả 0 đồng. Nó tới từ hai người xài sản phẩm mỗi ngày cho việc production thật rồi viết lại cái gì ship được, cái gì vỡ, kể cả vụ agent xóa mất 2.400 bản ghi. Không có line item nào cho thứ đó, cũng không agency nào bán."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "Optimise for love, not satisfaction. A smaller group who genuinely love the product beats a larger group who find it fine, because love is the part that travels: it is what makes someone tell other people without being asked.",
+        "what_vi": "Tối ưu cho love, đừng tối ưu cho hài lòng. Một nhóm nhỏ thật sự mê sản phẩm ăn đứt một nhóm to thấy nó cũng ổn, vì love mới là phần biết đi xa: nó là thứ khiến người ta kể cho người khác mà không ai phải nhờ."
+      },
+      "result": "You do not go and find advocates, you make one. Pick the person whose hardest week you can take off their hands, and the talking takes care of itself.",
+      "result_vi": "Bạn không đi tìm advocate, bạn tạo ra một người. Chọn đúng người mà bạn gỡ được cho họ cái tuần khó nhất, phần kể lể sẽ tự lo.",
+      "result_underline": "the talking takes care of itself",
+      "result_underline_vi": "phần kể lể sẽ tự lo",
+      "tick": "Which customer could you make absurdly successful this month, by name?",
+      "tick_vi": "Tháng này bạn có thể làm khách nào thành công tới mức vô lý, gọi tên ra được không?",
+      "tick_bold": [
+        "by name"
+      ],
+      "tick_bold_vi": [
+        "gọi tên ra được không"
+      ],
+      "provocation": "Lemkin's 214 free articles have no line item: they came from two people shipping real software on Replit and writing up what broke. Cohen would call that love rather than satisfaction, and love is the only part that travels. Together: advocacy is not a channel you detect, it is a customer you decided to make win.",
+      "provocation_vi": "214 bài miễn phí của Lemkin không có line item nào: nó tới từ hai người ship phần mềm thật trên Replit rồi viết lại chỗ vỡ. Cohen sẽ gọi đó là love chứ không phải hài lòng, và love mới là phần biết đi xa. Ghép lại: advocacy không phải cái kênh bạn đi dò, nó là một khách hàng mà bạn quyết cho thắng.",
+      "source": {
+        "site": "SaaStr",
+        "title": "We Mentioned Replit in 214 Articles Last Year. For Free. Most Vendors Have No Plan for Customers Like That.",
+        "url": "https://www.saastr.com/we-mentioned-replit-in-214-articles-last-year-for-free-most-vendors-have-no-plan-for-customers-like-that/",
+        "published": "2026-09-16"
+      }
+    }
+  ]
+}

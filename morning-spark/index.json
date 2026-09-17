@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-17",
+      "edition": 53,
+      "note": "Themes: a plan that reports what felt safe to say, a prompt as a positioning statement, advocacy as a customer you decided to make win. Sources: leaddev.com (Ankur Gupta, Sep 16, one day old, a completely fresh well never used on file, read in full on the page before the register-wall), seangoedecke.com (Sep 15, two days, read in full; well last ran Sep 14 so three days, same precedent as Ed 50), saastr.com (Jason Lemkin, Sep 16, one day old, another completely fresh well, read in full and not gated). Second halves: Ethan Mollick on secret cyborgs (rested since Aug 31, seventeen days, one prior use), April Dunford on positioning as chosen context and competitive alternatives (Sep 13), Jason Cohen on customer love rather than satisfaction, grounded in longform.asmartbear.com/value-time which was read today and turned out to be already used on Aug 7. Pairings: Ankur Gupta x Ethan Mollick, Sean Goedecke x April Dunford, Jason Lemkin x Jason Cohen, all three checked against the full 52-edition pairing set built from data/*.json; Ankur Gupta and Jason Lemkin are new names on file. WARNING repeated from Ed 47: build the full URL list from data/*.json before curating. Two picks died on it today. lethain.com/generated-demand was going to be Gupta's second half and it was the SOURCE on Sep 8, and longform.asmartbear.com/value-time was going to be spark 3 and ran on Aug 7 -- the asmartbear front page is now fully mined (focus, confidence, strategic-choices, value-time, compass, creativity-over-optimization, startup-beats-incumbent, one-priority, code-is-your-enemy, worry, expert-harmful, hire-better-than-you all used), so that well needs its archive pages or a long rest. Deliberately skipped: commoncog 'How to Handle Disruptive Change' (Sep 16, excellent, well eleven days rested, but Cedric Chin ran yesterday -- take it in a few days, the balance-sheet-buys-time-to-find-a-frame argument is unused and strong); leaddev 'We built the platform. Nobody used it' (Sandeep Bharadwaj Mannapur, Sep 15, trust-not-adoption, unused and strong, but its competitive-alternatives reading duplicates Ed 49 spark 2 and one leaddev piece is the limit per edition); kellblog 'The Market Segment Analysis Chart' and producttalk '4 New Evals and 16 Experiment Variants' (both Sep 16, both wells ran within two days); lennysnewsletter Muse review (Sep 16, podcast show notes only, confirmed unusable for the fifth time -- stop opening Lenny podcast posts); stratechery Sep 16 (paywalled Daily Update). Spark 3 was deliberately steered away from the attribution angle in the Lemkin piece, because 'the measured channel is the small one' ran as Ed 50 spark 3; the facet used here is production, not detection. Feed notes: leaddev.com/rss.xml and saastr.com/feed are healthy and carry full bodies, both are genuinely new wells; melissaperri.com has published nothing since Oct 2024 and askgib.substack.com nothing since Mar 2025, both dead, drop them from the rested list; aprildunford.com has no working RSS, scrape the blog index; thezvi and platformer are fresh but AI-safety news. Wells barely spent: leaddev (we-built-the-platform, how-to-lead-a-technical-discussion), saastr (independent Slack, 21 AI agents, Harvey), commoncog, oneusefulthing, lethain (make-no-assumptions, middle-management-roles), andrewchen.substack (adversarial-creativity), jim-nielsen, seangoedecke (jev-structured-output, slow-devex, dont-build-tools, deckard). Avoid tomorrow: capacity planning, prompt structure, word of mouth.",
+      "sparks": [
+        {
+          "pair": "Ankur Gupta x Ethan Mollick",
+          "headline": "The spreadsheet reports your incentives, not your demand",
+          "source": "LeadDev — Stop asking engineers how many machines they need",
+          "url": "https://leaddev.com/technical-direction/stop-asking-engineers-how-many-machines-they-need"
+        },
+        {
+          "pair": "Sean Goedecke x April Dunford",
+          "headline": "A prompt with no trade-offs is not a brief",
+          "source": "Sean Goedecke — Tell agents the why, not just the how",
+          "url": "https://seangoedecke.com/tell-agents-the-why/"
+        },
+        {
+          "pair": "Jason Lemkin x Jason Cohen",
+          "headline": "Advocacy is produced, not detected",
+          "source": "SaaStr — We Mentioned Replit in 214 Articles Last Year. For Free. Most Vendors Have No Plan for Customers Like That.",
+          "url": "https://www.saastr.com/we-mentioned-replit-in-214-articles-last-year-for-free-most-vendors-have-no-plan-for-customers-like-that/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-16",
       "edition": 52,
       "note": "Themes: the last thirty percent as the durable advantage, AI laundering dead context into confident answers, automation paying out only where the workflow was already explicit. Sources: producttalk.org (Teresa Torres, Sep 15, one day old, the fresh anchor, show notes and pull quotes read in full on the page, transcript paywalled; well last ran Sep 7, nine days), cutlefish.substack.com (John Cutler, Sep 11, five days, read in full; well last ran Sep 5, eleven days), tomtunguz.com (Sep 15, one day old, read in full; well last ran Sep 9, seven days). Second halves: Cedric Chin read at commoncog.com/how-moats-are-built (Jul 20, well rested Sep 6), Martin Fowler on living documentation and self-testing code, Melissa Perri on the build trap and product ops. Pairings: Teresa Torres x Cedric Chin, John Cutler x Martin Fowler, Melissa Perri x Tomasz Tunguz, all three checked against the full 51-edition pairing set and unused; no person appears twice today. Deliberately skipped tomtunguz.com/what-does-the-pause-mean (AI risk discourse, on yesterday's avoid list) and benn.substack.com (last ran Sep 11, too fresh). Avoid tomorrow: AI coding economics, context rot, sales automation. Rested and unused wells worth a look: aprildunford.com, paulgraham.com, melissaperri.com, longform.asmartbear.com, andrewchen.com, lethain.com, oneusefulthing.org.",

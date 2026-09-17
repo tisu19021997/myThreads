@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 17</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 53</div></div></div>
+<div class="meta label">Thursday, September 17, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">SAFE ANSWERS</span><span data-l="vi">CÂU TRẢ LỜI AN TOÀN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ankur Gupta</div><div class="what"><span data-l="en">Product teams knew their traffic and launches exactly, and had no idea what that was in machines, so every team padded for uncertainty. Hundreds of reasonable buffers stacked into a number finance could not trace. The fix was to stop asking for hardware and ask for traffic, ingestion and retention instead, then convert it automatically.</span><span data-l="vi">Product team nắm rất rõ traffic và launch của họ, nhưng không biết chỗ đó quy ra bao nhiêu máy, nên ai cũng cộng thêm một khoản đệm cho chắc. Hàng trăm khoản đệm hợp lý cộng lại thành con số không ai truy ra nổi. Cách chữa: thôi hỏi phần cứng, hỏi traffic, ingestion, retention, rồi để hệ thống tự quy ra.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ethan Mollick</div><div class="what"><span data-l="en">Workers who get real gains out of AI tend to hide them. Saying so looks like cheating, or like volunteering for your own redundancy, so the company sees nothing and learns nothing. The productivity is real and invisible at the same time.</span><span data-l="vi">Người dùng AI hiệu quả thật thường giấu. Nói ra thì bị nhìn như gian lận, hoặc như tự khai mình dư thừa, nên công ty không thấy gì và cũng không học được gì. Năng suất vừa có thật vừa vô hình.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Ask people a question they cannot answer safely and they answer the safe one instead. What lands on the plan is not demand, it is <u>the sum of what felt safe to say</u>.</span><span data-l="vi">Hỏi người ta một câu mà họ không thể trả lời an toàn thì họ sẽ trả lời câu an toàn. Thứ nằm trên kế hoạch không phải nhu cầu, nó là <u>tổng của những gì mọi người thấy nói ra là an toàn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which number on your plan is really <b>somebody&#x27;s insurance policy</b>?</span><span data-l="vi">Con số nào trong kế hoạch của bạn thực ra là <b>một cái bảo hiểm của ai đó</b>?</span></p></div>
+<div class="src-link"><a href="https://leaddev.com/technical-direction/stop-asking-engineers-how-many-machines-they-need" target="_blank" rel="noopener">LeadDev — Stop asking engineers how many machines they need &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">SAY THE TRADE</span><span data-l="vi">NÓI PHẦN ĐÁNH ĐỔI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Sean Goedecke</div><div class="what"><span data-l="en">Good models no longer go wrong because they are confused. They go wrong because they guessed at your priorities. Give them the context on what you care about and say plainly which of those you will trade away, rather than handing over a spec. Leave out that humans will read the code and you get minified code.</span><span data-l="vi">Model bây giờ làm sai không phải vì nó rối, mà vì nó đoán sai thứ bạn ưu tiên. Đưa cho nó bối cảnh về thứ bạn quan tâm, và nói thẳng cái nào chịu được đánh đổi, thay vì quăng cho nó cái spec. Không nói là người sẽ đọc code thì nó minify cho gọn.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is context you choose on purpose: what customers are comparing you against, the few things only you do, and the segment that cares most. Skip it and the customer picks the frame instead, usually the wrong one, and your best feature reads as noise.</span><span data-l="vi">Positioning là bối cảnh bạn chủ động chọn: khách đang so bạn với cái gì, vài thứ chỉ mình bạn làm được, và nhóm nào quan tâm nhất. Bỏ qua thì khách tự chọn khung giùm bạn, thường là chọn sai, và feature xịn nhất của bạn thành ra vô nghĩa.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Your prompt is a positioning statement. Leave the context out and the model, like any customer, supplies its own, and <u>the default frame is never yours</u>.</span><span data-l="vi">Prompt của bạn chính là một câu positioning. Bỏ trống bối cảnh thì model, y như khách hàng, tự điền vào, và <u>cái khung mặc định không bao giờ là của bạn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What are you <b>willing to have done worse</b> today, and have you said it out loud?</span><span data-l="vi">Hôm nay bạn <b>chịu để thứ gì bị làm dở hơn</b>, và bạn đã nói ra chưa?</span></p></div>
+<div class="src-link"><a href="https://seangoedecke.com/tell-agents-the-why/" target="_blank" rel="noopener">Sean Goedecke — Tell agents the why, not just the how &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">WHO GETS TO WIN</span><span data-l="vi">AI ĐƯỢC THẮNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jason Lemkin</div><div class="what"><span data-l="en">SaaStr mentioned Replit in 214 articles and 40-plus podcasts last year, roughly 5.9 million impressions, and Replit paid nothing for it. It came from two people using the thing daily on real production work and writing up what shipped and what broke, an agent deleting 2,400 records included. There is no line item for that and no agency that sells it.</span><span data-l="vi">Năm ngoái SaaStr nhắc Replit trong 214 bài và hơn 40 podcast, tầm 5,9 triệu impression, và Replit trả 0 đồng. Nó tới từ hai người xài sản phẩm mỗi ngày cho việc production thật rồi viết lại cái gì ship được, cái gì vỡ, kể cả vụ agent xóa mất 2.400 bản ghi. Không có line item nào cho thứ đó, cũng không agency nào bán.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">Optimise for love, not satisfaction. A smaller group who genuinely love the product beats a larger group who find it fine, because love is the part that travels: it is what makes someone tell other people without being asked.</span><span data-l="vi">Tối ưu cho love, đừng tối ưu cho hài lòng. Một nhóm nhỏ thật sự mê sản phẩm ăn đứt một nhóm to thấy nó cũng ổn, vì love mới là phần biết đi xa: nó là thứ khiến người ta kể cho người khác mà không ai phải nhờ.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">You do not go and find advocates, you make one. Pick the person whose hardest week you can take off their hands, and <u>the talking takes care of itself</u>.</span><span data-l="vi">Bạn không đi tìm advocate, bạn tạo ra một người. Chọn đúng người mà bạn gỡ được cho họ cái tuần khó nhất, <u>phần kể lể sẽ tự lo</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which customer could you make absurdly successful this month, <b>by name</b>?</span><span data-l="vi">Tháng này bạn có thể làm khách nào thành công tới mức vô lý, <b>gọi tên ra được không</b>?</span></p></div>
+<div class="src-link"><a href="https://www.saastr.com/we-mentioned-replit-in-214-articles-last-year-for-free-most-vendors-have-no-plan-for-customers-like-that/" target="_blank" rel="noopener">SaaStr — We Mentioned Replit in 214 Articles Last Year. For Free. Most Vendors Have No Plan for Customers Like That. &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-16.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-16</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ankur Gupta / Ethan Mollick / Sean Goedecke / April Dunford / Jason Lemkin / Jason Cohen<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ankur Gupta / Ethan Mollick / Sean Goedecke / April Dunford / Jason Lemkin / Jason Cohen<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
