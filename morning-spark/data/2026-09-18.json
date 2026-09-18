@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-18",
+  "edition": 54,
+  "framing": "Nobody counted the hours, drew the fence, or watched it work.",
+  "framing_vi": "Không ai tính giờ, vẽ cái rào, hay thật sự thấy nó chạy.",
+  "note": "Themes: the build nobody costed as a PMF signal, a fence as the thing that lets people use the whole playground, a prompt rule as an imported tactic. Sources: lg.substack.com (Julie Zhuo, Sep 17, one day old, the fresh anchor; well last ran Sep 13, five days; marked Paid but the whole argument plus buckets one and two are free on the page and were read there), refactoring.fm (Luca Rossi, Sep 16, two days, a completely fresh well and a new name on file; paid after the four-things-to-govern section but the playground study, the freeze-or-go-underground argument and the Google Cloud 46/25/12 adoption numbers are all above the wall and were read there), danluu.com (Sep 7, eleven days, another completely fresh well and a new name, fully free, read in full: 26 prompt conditions, 80 runs each, Default above average, TDD and the popular skills underperforming). Second halves: Lenny Rachitsky on the Sean Ellis very-disappointed PMF survey (rested since Sep 12, six days, and at seven uses he is by far the least-used core name -- keep rotating him in), Marty Cagan on empowered teams needing stated strategic context and guardrails (Sep 13), Brian Balfour on tactics being downstream of product-channel-model fit (Sep 14). Pairings Julie Zhuo x Lenny Rachitsky, Luca Rossi x Marty Cagan, Dan Luu x Brian Balfour, all three checked against the full 53-edition pairing set built from data/*.json. Deliberately skipped: commoncog 'How to Handle Disruptive Change' (Sep 16, still excellent, still unused, read in full today, balance-sheet-buys-time-to-find-a-frame -- Ed 53 earmarked it but Cedric Chin ran Sep 15 AND Sep 16, so two days is tighter than any person gap on file; take it around Sep 20 and pair it with Ben Thompson, who has rested since Sep 12); newsletter.kentbeck.com 'Formal Methods Pay Off' (Sep 17, brand new well, hard paywall after three sentences, unusable); lennysnewsletter Muse review (Sep 16, Claire Vo podcast show notes only -- Ed 53 said stop opening Lenny podcast posts and it was right, now confirmed a sixth time); tomtunguz 'The Harness Margin Opportunity' and producttalk 'Creating Aha Builder' (both Sep 17, both wells ran within two days). Feed notes: refactoring.fm/feed, danluu.com/atom.xml, commoncog.com/blog/rss/ and newsletter.kentbeck.com are all healthy; www.dbreunig.com/feed and feed.xml both return empty, drop it; larahogan.me, matthewstrom.com and staysaasy.com feeds are 404; andrewchen.com self-hosted stopped in Feb 2024 (the live well is andrewchen.substack.com); melissaperri.com and askgib.substack.com confirmed dead again; eugeneyan, hamel.dev, caseyaccidental, sparktoro and bitsaboutmoney all last posted more than a month ago. Wells barely spent: commoncog (how-to-handle-disruptive-change), refactoring (my-agents-are-moving-to-the-cloud), danluu (zitron, bug-blind), interconnects.ai (new, Nathan Lambert, Sep 10-11), newsletter.eng-leadership.com (new, Sep 17), aakashg.com (new, Sep 9), lethain (make-no-assumptions, middle-management-roles), andrewchen.substack (adversarial-creativity), benn.substack (how-to-lose-your-mind, Sep 13). Avoid tomorrow: leisure builds, guardrails, prompt files.",
+  "sparks": [
+    {
+      "title": "NO GOOD REASON",
+      "title_vi": "CHẲNG VÌ LÝ DO GÌ",
+      "headline": "The most honest demand signal is the build nobody costed",
+      "headline_vi": "Tín hiệu nhu cầu thật nhất nằm ở thứ không ai tính công",
+      "a": {
+        "who": "Julie Zhuo",
+        "what": "The interesting things people make with AI right now are useless on purpose: a talking rotary phone wired to a split-flap display, a Pokemon Go for real neighbourhood cats, an interactive eight-cylinder engine. She argues leisure is the best reason of all, because agency is the drive to create that comes from freedom rather than from a brief.",
+        "what_vi": "Mấy thứ hay ho người ta làm bằng AI lúc này vô dụng một cách có chủ đích: cái điện thoại quay số biết nói nối với bảng lật cơ khí, một kiểu Pokemon Go cho mèo hoang trong xóm, một cỗ máy tám xi-lanh chạy tương tác được. Cô nói leisure mới là lý do xịn nhất, vì agency là cái động lực sáng tạo đến từ tự do, không phải từ một cái brief."
+      },
+      "b": {
+        "who": "Lenny Rachitsky",
+        "what": "His product-market-fit test is the Sean Ellis survey, and the number that counts is how many users would be very disappointed if the product vanished tomorrow. Anything else people say about a product is politeness.",
+        "what_vi": "Bài test product-market-fit của anh là survey Sean Ellis, và con số đáng tin là bao nhiêu user sẽ rất thất vọng nếu sản phẩm biến mất ngày mai. Mọi lời khác người ta nói về sản phẩm chỉ là phép lịch sự."
+      },
+      "result": "Disappointment is a number you go and collect from users. Zhuo hands you a version you can run on yourself tonight: which feature would you rebuild on a Saturday, for free, with nobody counting the hours.",
+      "result_vi": "Thất vọng là con số bạn phải đi thu từ user. Zhuo đưa cho bạn một phiên bản tối nay tự chạy được: feature nào bạn sẽ ngồi làm lại vào thứ Bảy, miễn phí, không ai tính giờ.",
+      "result_underline": "with nobody counting the hours",
+      "result_underline_vi": "không ai tính giờ",
+      "tick": "Which line on your roadmap survives if nobody is paying you to ship it?",
+      "tick_vi": "Dòng nào trên roadmap của bạn sống sót nếu không ai trả tiền để bạn ship nó?",
+      "tick_bold": [
+        "nobody is paying you to ship it"
+      ],
+      "tick_bold_vi": [
+        "không ai trả tiền để bạn ship nó"
+      ],
+      "provocation": "Julie Zhuo spent a whole essay on things people built with AI for no reason at all, and made the case that leisure is where agency actually shows up. Lenny's PMF survey asks users how disappointed they would be without you. Point that question at your own backlog and see how much of it is still standing.",
+      "provocation_vi": "Julie Zhuo viết nguyên một bài về những thứ người ta làm bằng AI chẳng vì lý do gì, và lập luận rằng leisure mới là chỗ agency thật sự lộ ra. Survey PMF của Lenny hỏi user sẽ thất vọng tới đâu nếu không còn bạn. Thử chĩa câu đó vào chính cái backlog của bạn, xem còn đứng được bao nhiêu.",
+      "source": {
+        "site": "The Looking Glass",
+        "title": "AI for No Good Reason",
+        "url": "https://lg.substack.com/p/a-bird-wall-a-talking-rotary-phone",
+        "published": "2026-09-17"
+      }
+    },
+    {
+      "title": "FENCE FIRST",
+      "title_vi": "RÀO TRƯỚC ĐÃ",
+      "headline": "Children use more of the playground when it has a fence",
+      "headline_vi": "Có rào, bọn trẻ mới dám chạy hết cái sân",
+      "a": {
+        "who": "Luca Rossi",
+        "what": "He opens on a 2006 playground study: with no fence the children huddled around the teacher, with a fence they used the whole space. Ungoverned AI does the same thing to a team. People either freeze, or go underground and copy-paste into ChatGPT on a personal phone. Teams with full governance reached 46 percent agent adoption; teams still drafting the rules reached 12.",
+        "what_vi": "Anh mở bài bằng một nghiên cứu sân chơi năm 2006: không có rào thì lũ trẻ bu quanh cô giáo, có rào thì chạy khắp sân. AI không có governance cũng làm y hệt với một cái team. Người ta hoặc đứng im, hoặc đi đường vòng, copy-paste sang ChatGPT trên điện thoại cá nhân. Team có governance đầy đủ đạt 46 phần trăm adoption agent; team còn đang soạn luật thì được 12."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "An empowered team is not a team left alone. It gets strategic context: the problem, the constraints, the guardrails. The autonomy works precisely because somebody said out loud where the edge is.",
+        "what_vi": "Empowered team không phải là team bị bỏ mặc. Họ được cho strategic context: vấn đề, ràng buộc, guardrail. Autonomy chạy được chính vì đã có người nói rõ cái mép nằm ở đâu."
+      },
+      "result": "So the cautious team in front of you is usually not a cautious team. It is an unbriefed one, drawing its own fence out of fear, and drawing it much tighter than you ever would have.",
+      "result_vi": "Nên cái team trông có vẻ thận trọng trước mặt bạn thường không phải team thận trọng. Đó là team không được brief, tự vẽ rào bằng nỗi sợ, và vẽ chặt hơn nhiều so với cái bạn sẽ vẽ.",
+      "result_underline": "much tighter than you ever would have",
+      "result_underline_vi": "chặt hơn nhiều so với cái bạn sẽ vẽ",
+      "tick": "Where has your team drawn a line you never asked for?",
+      "tick_vi": "Team của bạn đang tự vẽ cái lằn ranh nào mà bạn chưa hề yêu cầu?",
+      "tick_bold": [
+        "a line you never asked for"
+      ],
+      "tick_bold_vi": [
+        "lằn ranh nào mà bạn chưa hề yêu cầu"
+      ],
+      "provocation": "Rossi argues governance is an accelerant rather than a brake, and brings adoption numbers that are hard to wave away. Cagan has said for a decade that autonomy only works once the boundary is stated. Put together: the team that looks careful is usually just guessing where the edge is, and guessing low.",
+      "provocation_vi": "Rossi nói governance là bàn đạp chứ không phải cái phanh, và đem theo mấy con số adoption khó mà gạt đi. Cagan thì nói cả chục năm nay rằng autonomy chỉ chạy khi ranh giới được nói ra. Ghép lại: team trông cẩn thận thường chỉ đang đoán cái mép nằm ở đâu, và đoán thấp.",
+      "source": {
+        "site": "Refactoring",
+        "title": "Getting started with AI governance",
+        "url": "https://refactoring.fm/p/getting-started-with-ai-governance",
+        "published": "2026-09-16"
+      }
+    },
+    {
+      "title": "NAME ONLY",
+      "title_vi": "CHỈ CÓ CÁI TÊN",
+      "headline": "Telling an agent to use TDD does not hand it TDD",
+      "headline_vi": "Bảo agent dùng TDD không có nghĩa nó biết TDD",
+      "a": {
+        "who": "Dan Luu",
+        "what": "He ran 26 prompt conditions against the same Rust task, 80 runs each: TDD, fuzzing, property testing, TLA+, Lean 4, SMT solvers, plus four popular skills. Default, with no extra instruction at all, landed well above average. The famous skills underperformed, and the one thing that helped was written to nudge agents off their defaults rather than to teach them a method.",
+        "what_vi": "Anh chạy 26 điều kiện prompt trên cùng một bài Rust, mỗi cái 80 lượt: TDD, fuzzing, property testing, TLA+, Lean 4, SMT solver, cộng bốn skill đang hot. Default, không thêm chỉ dẫn gì hết, lại nằm trên mức trung bình khá xa. Mấy skill nổi tiếng thì tệ hơn, và thứ duy nhất có tác dụng là cái viết ra để đẩy agent lệch khỏi default, chứ không phải để dạy nó một phương pháp."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "A tactic sits downstream of fit. Copying the referral program that printed money for somebody else fails because you imported the move without the product, the channel and the model it was shaped around.",
+        "what_vi": "Tactic nằm ở hạ nguồn của fit. Copy cái referral program từng in ra tiền cho người khác thì trượt, vì bạn bê nguyên cái chiêu mà không bê theo product, channel và model đã nặn ra nó."
+      },
+      "result": "A prompt rule is a tactic. Use property-based testing is somebody else's move pasted into your context, and it lands the way tactics always land: the word turns up, the judgment that made it work does not.",
+      "result_vi": "Một dòng luật trong prompt cũng là một tactic. Dùng property-based testing là chiêu của người khác dán vào context của bạn, và nó tới đúng kiểu tactic vẫn tới: cái chữ thì tới, còn cái phán đoán làm nó chạy được thì không.",
+      "result_underline": "the judgment that made it work does not",
+      "result_underline_vi": "cái phán đoán làm nó chạy được thì không",
+      "tick": "Which rule in your agent file is just somebody else's tactic?",
+      "tick_vi": "Dòng nào trong file agent của bạn thực ra chỉ là tactic của người khác?",
+      "tick_bold": [
+        "somebody else's tactic"
+      ],
+      "tick_bold_vi": [
+        "tactic của người khác"
+      ],
+      "provocation": "Dan Luu tested 26 ways of telling a coding agent how to verify its own work, 80 runs each, and giving it no instruction at all beat most of them. Balfour's rule is that tactics do not travel without their fit. Read your agent file as a list of imported tactics, and ask which one you have ever actually watched work.",
+      "provocation_vi": "Dan Luu thử 26 cách bảo một coding agent tự kiểm chứng việc của nó, mỗi cách 80 lượt, và không chỉ dẫn gì cả vẫn thắng phần lớn. Luật của Balfour: tactic không đi xa được nếu thiếu cái fit của nó. Đọc lại file agent của bạn như một danh sách tactic đi mượn, rồi hỏi cái nào bạn từng thật sự thấy nó chạy.",
+      "source": {
+        "site": "Dan Luu",
+        "title": "How well do agents use test/verification techniques?",
+        "url": "https://danluu.com/agentic-testing/",
+        "published": "2026-09-07"
+      }
+    }
+  ]
+}

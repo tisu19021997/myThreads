@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 18</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 54</div></div></div>
+<div class="meta label">Friday, September 18, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">NO GOOD REASON</span><span data-l="vi">CHẲNG VÌ LÝ DO GÌ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Julie Zhuo</div><div class="what"><span data-l="en">The interesting things people make with AI right now are useless on purpose: a talking rotary phone wired to a split-flap display, a Pokemon Go for real neighbourhood cats, an interactive eight-cylinder engine. She argues leisure is the best reason of all, because agency is the drive to create that comes from freedom rather than from a brief.</span><span data-l="vi">Mấy thứ hay ho người ta làm bằng AI lúc này vô dụng một cách có chủ đích: cái điện thoại quay số biết nói nối với bảng lật cơ khí, một kiểu Pokemon Go cho mèo hoang trong xóm, một cỗ máy tám xi-lanh chạy tương tác được. Cô nói leisure mới là lý do xịn nhất, vì agency là cái động lực sáng tạo đến từ tự do, không phải từ một cái brief.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Lenny Rachitsky</div><div class="what"><span data-l="en">His product-market-fit test is the Sean Ellis survey, and the number that counts is how many users would be very disappointed if the product vanished tomorrow. Anything else people say about a product is politeness.</span><span data-l="vi">Bài test product-market-fit của anh là survey Sean Ellis, và con số đáng tin là bao nhiêu user sẽ rất thất vọng nếu sản phẩm biến mất ngày mai. Mọi lời khác người ta nói về sản phẩm chỉ là phép lịch sự.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Disappointment is a number you go and collect from users. Zhuo hands you a version you can run on yourself tonight: which feature would you rebuild on a Saturday, for free, <u>with nobody counting the hours</u>.</span><span data-l="vi">Thất vọng là con số bạn phải đi thu từ user. Zhuo đưa cho bạn một phiên bản tối nay tự chạy được: feature nào bạn sẽ ngồi làm lại vào thứ Bảy, miễn phí, <u>không ai tính giờ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which line on your roadmap survives if <b>nobody is paying you to ship it</b>?</span><span data-l="vi">Dòng nào trên roadmap của bạn sống sót nếu <b>không ai trả tiền để bạn ship nó</b>?</span></p></div>
+<div class="src-link"><a href="https://lg.substack.com/p/a-bird-wall-a-talking-rotary-phone" target="_blank" rel="noopener">The Looking Glass — AI for No Good Reason &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">FENCE FIRST</span><span data-l="vi">RÀO TRƯỚC ĐÃ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Luca Rossi</div><div class="what"><span data-l="en">He opens on a 2006 playground study: with no fence the children huddled around the teacher, with a fence they used the whole space. Ungoverned AI does the same thing to a team. People either freeze, or go underground and copy-paste into ChatGPT on a personal phone. Teams with full governance reached 46 percent agent adoption; teams still drafting the rules reached 12.</span><span data-l="vi">Anh mở bài bằng một nghiên cứu sân chơi năm 2006: không có rào thì lũ trẻ bu quanh cô giáo, có rào thì chạy khắp sân. AI không có governance cũng làm y hệt với một cái team. Người ta hoặc đứng im, hoặc đi đường vòng, copy-paste sang ChatGPT trên điện thoại cá nhân. Team có governance đầy đủ đạt 46 phần trăm adoption agent; team còn đang soạn luật thì được 12.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">An empowered team is not a team left alone. It gets strategic context: the problem, the constraints, the guardrails. The autonomy works precisely because somebody said out loud where the edge is.</span><span data-l="vi">Empowered team không phải là team bị bỏ mặc. Họ được cho strategic context: vấn đề, ràng buộc, guardrail. Autonomy chạy được chính vì đã có người nói rõ cái mép nằm ở đâu.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">So the cautious team in front of you is usually not a cautious team. It is an unbriefed one, drawing its own fence out of fear, and drawing it <u>much tighter than you ever would have</u>.</span><span data-l="vi">Nên cái team trông có vẻ thận trọng trước mặt bạn thường không phải team thận trọng. Đó là team không được brief, tự vẽ rào bằng nỗi sợ, và vẽ <u>chặt hơn nhiều so với cái bạn sẽ vẽ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Where has your team drawn <b>a line you never asked for</b>?</span><span data-l="vi">Team của bạn đang tự vẽ cái <b>lằn ranh nào mà bạn chưa hề yêu cầu</b>?</span></p></div>
+<div class="src-link"><a href="https://refactoring.fm/p/getting-started-with-ai-governance" target="_blank" rel="noopener">Refactoring — Getting started with AI governance &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">NAME ONLY</span><span data-l="vi">CHỈ CÓ CÁI TÊN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Dan Luu</div><div class="what"><span data-l="en">He ran 26 prompt conditions against the same Rust task, 80 runs each: TDD, fuzzing, property testing, TLA+, Lean 4, SMT solvers, plus four popular skills. Default, with no extra instruction at all, landed well above average. The famous skills underperformed, and the one thing that helped was written to nudge agents off their defaults rather than to teach them a method.</span><span data-l="vi">Anh chạy 26 điều kiện prompt trên cùng một bài Rust, mỗi cái 80 lượt: TDD, fuzzing, property testing, TLA+, Lean 4, SMT solver, cộng bốn skill đang hot. Default, không thêm chỉ dẫn gì hết, lại nằm trên mức trung bình khá xa. Mấy skill nổi tiếng thì tệ hơn, và thứ duy nhất có tác dụng là cái viết ra để đẩy agent lệch khỏi default, chứ không phải để dạy nó một phương pháp.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">A tactic sits downstream of fit. Copying the referral program that printed money for somebody else fails because you imported the move without the product, the channel and the model it was shaped around.</span><span data-l="vi">Tactic nằm ở hạ nguồn của fit. Copy cái referral program từng in ra tiền cho người khác thì trượt, vì bạn bê nguyên cái chiêu mà không bê theo product, channel và model đã nặn ra nó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A prompt rule is a tactic. Use property-based testing is somebody else&#x27;s move pasted into your context, and it lands the way tactics always land: the word turns up, <u>the judgment that made it work does not</u>.</span><span data-l="vi">Một dòng luật trong prompt cũng là một tactic. Dùng property-based testing là chiêu của người khác dán vào context của bạn, và nó tới đúng kiểu tactic vẫn tới: cái chữ thì tới, còn <u>cái phán đoán làm nó chạy được thì không</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which rule in your agent file is just <b>somebody else&#x27;s tactic</b>?</span><span data-l="vi">Dòng nào trong file agent của bạn thực ra chỉ là <b>tactic của người khác</b>?</span></p></div>
+<div class="src-link"><a href="https://danluu.com/agentic-testing/" target="_blank" rel="noopener">Dan Luu — How well do agents use test/verification techniques? &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-17.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-17</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Julie Zhuo / Lenny Rachitsky / Luca Rossi / Marty Cagan / Dan Luu / Brian Balfour<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Julie Zhuo / Lenny Rachitsky / Luca Rossi / Marty Cagan / Dan Luu / Brian Balfour<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

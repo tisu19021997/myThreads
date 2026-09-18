@@ -1,0 +1,22 @@
+Morning Spark · Friday, September 18 · Ed. 54
+Nobody counted the hours, drew the fence, or watched it work.
+
+─────────────────
+01 · The most honest demand signal is the build nobody costed
+Julie Zhuo × Lenny Rachitsky
+Julie Zhuo spent a whole essay on things people built with AI for no reason at all, and made the case that leisure is where agency actually shows up. Lenny's PMF survey asks users how disappointed they would be without you. Point that question at your own backlog and see how much of it is still standing.
+→ https://lg.substack.com/p/a-bird-wall-a-talking-rotary-phone
+
+─────────────────
+02 · Children use more of the playground when it has a fence
+Luca Rossi × Marty Cagan
+Rossi argues governance is an accelerant rather than a brake, and brings adoption numbers that are hard to wave away. Cagan has said for a decade that autonomy only works once the boundary is stated. Put together: the team that looks careful is usually just guessing where the edge is, and guessing low.
+→ https://refactoring.fm/p/getting-started-with-ai-governance
+
+─────────────────
+03 · Telling an agent to use TDD does not hand it TDD
+Dan Luu × Brian Balfour
+Dan Luu tested 26 ways of telling a coding agent how to verify its own work, 80 runs each, and giving it no instruction at all beat most of them. Balfour's rule is that tactics do not travel without their fit. Read your agent file as a list of imported tactics, and ask which one you have ever actually watched work.
+→ https://danluu.com/agentic-testing/
+
+Full styled card → open the session.
