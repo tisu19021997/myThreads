@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 19</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 55</div></div></div>
+<div class="meta label">Saturday, September 19, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">PICK, DO NOT MAKE</span><span data-l="vi">CHỌN, ĐỪNG LÀM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ethan Mollick</div><div class="what"><span data-l="en">He calls it the capability overhang: the gap between what today&#x27;s models can already do and what almost anyone is doing with them. One model turned the 1977 text game Zork into a 3D action-adventure; another reconstructed Umberto Eco&#x27;s Milan library from a dozen videos and two catalogues, reading spines frame by frame. Weeks of human work each. His point is that making is now fast and cheap, so the scarce resource is your taste in choosing what to keep.</span><span data-l="vi">Ông gọi đó là capability overhang: khoảng cách giữa thứ model hôm nay đã làm được và thứ gần như chẳng ai xài tới. Một model biến game chữ Zork năm 1977 thành game 3D; một model khác dựng lại thư viện của Umberto Eco ở Milan từ chục cái video và hai cuốn catalogue, đọc gáy sách từng khung hình một. Mỗi thứ đều là mấy tuần công người. Ý ông: làm giờ nhanh và rẻ, nên thứ khan hiếm là cái taste để biết giữ lại cái gì.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Aggregation theory: once distribution costs nothing, supply is commoditised, and value moves to whoever owns discovery and the demand side. In a world of infinite shelves, the filter is the business.</span><span data-l="vi">Aggregation theory: khi phân phối không còn tốn gì, supply thành hàng chợ, và giá trị chạy về phía ai nắm discovery và nắm phía cầu. Trong một thế giới kệ hàng vô tận, cái bộ lọc mới là business.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">That law used to be about platforms. Mollick just moved it inside one person: your own output is now zero marginal cost, so the only part of your work that still compounds is <u>the part where you say no</u>.</span><span data-l="vi">Luật đó trước giờ nói về mấy cái platform. Mollick vừa dời nó vào bên trong một con người: output của chính bạn giờ có zero marginal cost, nên phần duy nhất còn cộng dồn là <u>chỗ bạn nói không</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did you ship this week that you <b>could not defend, only explain</b>?</span><span data-l="vi">Tuần này bạn ship cái gì mà bạn <b>không bảo vệ nổi, chỉ giải thích được</b>?</span></p></div>
+<div class="src-link"><a href="https://www.oneusefulthing.org/p/the-overhang" target="_blank" rel="noopener">One Useful Thing — The Overhang &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">FIVE EXPERTS</span><span data-l="vi">NĂM CHUYÊN GIA</span></span></div>
+<div class="eq"><div class="term"><div class="who">Hamel Husain</div><div class="what"><span data-l="en">From his evals FAQ: skip eval-driven development, because you cannot imagine how an LLM will fail. Do error analysis instead -- read real traces, write open notes on the first failure you see, then group them into a failure taxonomy and count. Score pass or fail, never one to five, because a scale lets an annotator hide in the middle. And appoint one domain expert as benevolent dictator: if you need five experts to judge a single interaction, your product scope is too broad.</span><span data-l="vi">Từ cái FAQ về evals của anh: bỏ eval-driven development đi, vì bạn không tưởng tượng nổi một con LLM sẽ hỏng kiểu gì. Làm error analysis thay vào đó -- đọc trace thật, ghi chú mở về lỗi đầu tiên bạn thấy, rồi gom thành một cái taxonomy lỗi và đếm. Chấm pass hoặc fail, đừng chấm một tới năm, vì cái thang điểm cho người chấm trốn vào khúc giữa. Và cử một domain expert làm benevolent dictator: nếu cần năm chuyên gia mới chấm nổi một lượt tương tác, tức là scope sản phẩm của bạn rộng quá.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is context. What you are for, who you are for, and which alternative you beat is what tells anyone whether a thing is good. Leave that unstated and every person quietly scores you against a different product.</span><span data-l="vi">Positioning là context. Bạn dùng để làm gì, cho ai, thắng cái lựa chọn nào -- đó mới là thứ cho người ta biết một thứ có tốt hay không. Không nói ra thì mỗi người sẽ âm thầm chấm bạn theo một sản phẩm khác nhau.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">So the argument about the rubric is never really about the rubric. Five people scoring one trace five ways are five people holding <u>five different products in their heads</u>.</span><span data-l="vi">Nên cái cuộc cãi nhau về rubric chưa bao giờ là chuyện rubric. Năm người chấm một trace ra năm kiểu là năm người đang giữ <u>năm sản phẩm khác nhau trong đầu</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Ask two teammates what a good output looks like. Are they describing <b>the same product</b>?</span><span data-l="vi">Hỏi hai người trong team xem output tốt là như thế nào. Họ có đang tả <b>cùng một sản phẩm</b> không?</span></p></div>
+<div class="src-link"><a href="https://hamel.dev/blog/posts/evals-faq/" target="_blank" rel="noopener">Hamel Husain — AI Evals: Everything You Need to Know &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">TEAM OF ONE</span><span data-l="vi">ĐỘI MỘT NGƯỜI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Wes Kao</div><div class="what"><span data-l="en">Two marketers want a video series. The first has the idea and waits for a boss or a specialist to fill in the details. The second drafts the script, films it on an iPhone, cuts it in iMovie, mocks up the post and shows leadership what it would look like. The second one gets the green light. Her advice is not to master every craft, but to learn enough of the adjacent ones to write the spec and carry the thing to something visible.</span><span data-l="vi">Hai người làm marketing cùng muốn làm một series video. Người thứ nhất có ý tưởng rồi ngồi chờ sếp hoặc chuyên gia điền nốt phần còn lại. Người thứ hai tự viết script, quay bằng iPhone, cắt bằng iMovie, dựng thử cái post và đưa cho ban lãnh đạo xem nó sẽ trông ra sao. Người thứ hai được duyệt. Lời khuyên của cô không phải là giỏi hết mọi nghề, mà là biết đủ mấy nghề kế bên để viết được cái spec và đẩy thứ đó tới chỗ nhìn thấy được.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Look at where a piece of work actually spends its life and almost none of it is being worked on. It is waiting: for a review, a specialist, a slot on someone else&#x27;s week. Handoffs, not effort, are what set the calendar.</span><span data-l="vi">Nhìn kỹ một đầu việc xem nó sống ở đâu thì gần như chẳng có mấy lúc nó được làm. Nó đang chờ: chờ review, chờ chuyên gia, chờ một chỗ trống trong tuần của người khác. Handoff mới quyết cái lịch, chứ không phải công sức.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Marketer number two did not out-work anyone. She deleted four handoffs, and what she really shipped that week was <u>a shorter queue</u>.</span><span data-l="vi">Người marketing thứ hai không cày khỏe hơn ai. Cô xóa bốn cái handoff, và thứ cô ship trong tuần đó thật ra là <u>một hàng chờ ngắn hơn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What are you waiting on that you could <b>learn to do badly yourself</b> by Friday?</span><span data-l="vi">Bạn đang chờ cái gì mà tới thứ Sáu bạn có thể <b>tự học làm dở dở cũng được</b>?</span></p></div>
+<div class="src-link"><a href="https://newsletter.weskao.com/p/end-to-end-operator" target="_blank" rel="noopener">Wes Kao — The rise of the end-to-end operator &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-18.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-18</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ethan Mollick / Ben Thompson / Hamel Husain / April Dunford / Wes Kao / John Cutler<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ethan Mollick / Ben Thompson / Hamel Husain / April Dunford / Wes Kao / John Cutler<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

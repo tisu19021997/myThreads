@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-19",
+  "edition": 55,
+  "framing": "Cheap to make, slow to choose: the bottleneck moved.",
+  "framing_vi": "Làm thì rẻ, chọn thì chậm: nút thắt đã dời chỗ.",
+  "note": "Themes: selection as the scarce layer once output is free, annotator disagreement as a positioning bug, the end-to-end operator as queue removal. Sources: oneusefulthing.org (Ethan Mollick, 'The Overhang', Sep 18, one day old, free, read in full -- Zork-to-3D and the Umberto Eco library reconstruction, then the four advantages: deep knowledge, wide knowledge, taste, agency; well last ran Aug 31, nineteen days), hamel.dev (Hamel Husain, 'AI Evals: Everything You Need to Know', Sep 18, one day old, free, read the error-analysis, binary-vs-Likert and how-many-annotators answers in full -- open coding, axial coding, benevolent dictator, 'if you need five SMEs to judge a single interaction your scope is too broad', and eval-driven development is a no; well last ran Sep 2 with eval-smell, seventeen days), newsletter.weskao.com (Wes Kao, 'The rise of the end-to-end operator', Sep 2, seventeen days but a completely fresh well and a new name on file, free, read in full -- marketer #1 versus marketer #2 with the iPhone and iMovie). Second halves: Ben Thompson on aggregation theory, value moving to whoever owns discovery once supply is commoditised (he had rested since Sep 12, the longest gap of any core name); April Dunford on positioning as context and the alternatives deciding what counts as good (Sep 17); John Cutler on flow, wait time and handoffs dominating a project's calendar (Sep 16). Pairings Ethan Mollick x Ben Thompson, Hamel Husain x April Dunford, Wes Kao x John Cutler, all three checked against the full 54-edition pairing set built from data/*.json; note Hamel x Teresa Torres was already used on Sep 2, hence Dunford. Deliberately skipped: commoncog 'How to Handle Disruptive Change' (Sep 16, still unused, Ed 54 earmarked it for around Sep 20 paired with Ben Thompson -- Thompson is spent today, so take it tomorrow with someone else); stratechery '2026.38: Doomforce' (Sep 18, free but it is only the weekly roundup, no argument of its own; the substantive Salesforce agents-as-UI and race-to-headless pieces are paid Updates); benn.substack 'How to lose your mind' (Sep 13, free, read most of it, but it is a nine-hour Knicks bar diary, not a collision); seangoedecke (Sep 18, well ran Sep 14 and Sep 17, too hot); martinfowler 'I don't like LLMs' (Sep 17, but Fowler ran Sep 14 and Sep 16); kellblog, leaddev, tomtunguz, producttalk all posted this week but every one of those wells ran within four days. Feed notes: hamel.dev is alive again after a month quiet, oneusefulthing posts every couple of weeks, newsletter.weskao.com posts fortnightly and is worth keeping; growthunhinged, every.to, figma and linear feeds all return empty; erikbern, huyenchip, eugeneyan and samaltman have not posted in months. Wells barely spent: commoncog (how-to-handle-disruptive-change), newsletter.posthog.com (if-ai-writes-all-the-code, Sep 14), refactoring (building-tools-for-defenders, Sep 18), lethain, vickiboykis (bad-code-is-kudzu), benn.substack. Avoid tomorrow: taste, evals, handoffs.",
+  "sparks": [
+    {
+      "title": "PICK, DO NOT MAKE",
+      "title_vi": "CHỌN, ĐỪNG LÀM",
+      "headline": "Making went to zero, so choosing became the job",
+      "headline_vi": "Làm đã về không, nên chọn mới thành việc chính",
+      "a": {
+        "who": "Ethan Mollick",
+        "what": "He calls it the capability overhang: the gap between what today's models can already do and what almost anyone is doing with them. One model turned the 1977 text game Zork into a 3D action-adventure; another reconstructed Umberto Eco's Milan library from a dozen videos and two catalogues, reading spines frame by frame. Weeks of human work each. His point is that making is now fast and cheap, so the scarce resource is your taste in choosing what to keep.",
+        "what_vi": "Ông gọi đó là capability overhang: khoảng cách giữa thứ model hôm nay đã làm được và thứ gần như chẳng ai xài tới. Một model biến game chữ Zork năm 1977 thành game 3D; một model khác dựng lại thư viện của Umberto Eco ở Milan từ chục cái video và hai cuốn catalogue, đọc gáy sách từng khung hình một. Mỗi thứ đều là mấy tuần công người. Ý ông: làm giờ nhanh và rẻ, nên thứ khan hiếm là cái taste để biết giữ lại cái gì."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregation theory: once distribution costs nothing, supply is commoditised, and value moves to whoever owns discovery and the demand side. In a world of infinite shelves, the filter is the business.",
+        "what_vi": "Aggregation theory: khi phân phối không còn tốn gì, supply thành hàng chợ, và giá trị chạy về phía ai nắm discovery và nắm phía cầu. Trong một thế giới kệ hàng vô tận, cái bộ lọc mới là business."
+      },
+      "result": "That law used to be about platforms. Mollick just moved it inside one person: your own output is now zero marginal cost, so the only part of your work that still compounds is the part where you say no.",
+      "result_vi": "Luật đó trước giờ nói về mấy cái platform. Mollick vừa dời nó vào bên trong một con người: output của chính bạn giờ có zero marginal cost, nên phần duy nhất còn cộng dồn là chỗ bạn nói không.",
+      "result_underline": "the part where you say no",
+      "result_underline_vi": "chỗ bạn nói không",
+      "tick": "What did you ship this week that you could not defend, only explain?",
+      "tick_vi": "Tuần này bạn ship cái gì mà bạn không bảo vệ nổi, chỉ giải thích được?",
+      "tick_bold": [
+        "could not defend, only explain"
+      ],
+      "tick_bold_vi": [
+        "không bảo vệ nổi, chỉ giải thích được"
+      ],
+      "provocation": "Mollick argues the overhang is not in the models, it is in us: making is cheap now, and taste is what separates a flood of output from work worth keeping. Thompson has spent a decade showing that when supply is commoditised, the filter takes the value. Run that on yourself and your backlog stops being a plan and starts being a confession.",
+      "provocation_vi": "Mollick nói cái overhang không nằm ở model mà nằm ở chúng ta: làm giờ rẻ, và taste mới là thứ phân biệt một đống output với thứ đáng giữ. Thompson thì cả chục năm nay chứng minh rằng khi supply thành hàng chợ, bộ lọc ăn hết giá trị. Chĩa điều đó vào chính mình, cái backlog của bạn thôi làm kế hoạch, nó thành một lời thú nhận.",
+      "source": {
+        "site": "One Useful Thing",
+        "title": "The Overhang",
+        "url": "https://www.oneusefulthing.org/p/the-overhang",
+        "published": "2026-09-18"
+      }
+    },
+    {
+      "title": "FIVE EXPERTS",
+      "title_vi": "NĂM CHUYÊN GIA",
+      "headline": "Nobody agrees what good looks like, and that is not a rubric problem",
+      "headline_vi": "Không ai thống nhất được thế nào là tốt, và đó không phải lỗi của cái rubric",
+      "a": {
+        "who": "Hamel Husain",
+        "what": "From his evals FAQ: skip eval-driven development, because you cannot imagine how an LLM will fail. Do error analysis instead -- read real traces, write open notes on the first failure you see, then group them into a failure taxonomy and count. Score pass or fail, never one to five, because a scale lets an annotator hide in the middle. And appoint one domain expert as benevolent dictator: if you need five experts to judge a single interaction, your product scope is too broad.",
+        "what_vi": "Từ cái FAQ về evals của anh: bỏ eval-driven development đi, vì bạn không tưởng tượng nổi một con LLM sẽ hỏng kiểu gì. Làm error analysis thay vào đó -- đọc trace thật, ghi chú mở về lỗi đầu tiên bạn thấy, rồi gom thành một cái taxonomy lỗi và đếm. Chấm pass hoặc fail, đừng chấm một tới năm, vì cái thang điểm cho người chấm trốn vào khúc giữa. Và cử một domain expert làm benevolent dictator: nếu cần năm chuyên gia mới chấm nổi một lượt tương tác, tức là scope sản phẩm của bạn rộng quá."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is context. What you are for, who you are for, and which alternative you beat is what tells anyone whether a thing is good. Leave that unstated and every person quietly scores you against a different product.",
+        "what_vi": "Positioning là context. Bạn dùng để làm gì, cho ai, thắng cái lựa chọn nào -- đó mới là thứ cho người ta biết một thứ có tốt hay không. Không nói ra thì mỗi người sẽ âm thầm chấm bạn theo một sản phẩm khác nhau."
+      },
+      "result": "So the argument about the rubric is never really about the rubric. Five people scoring one trace five ways are five people holding five different products in their heads.",
+      "result_vi": "Nên cái cuộc cãi nhau về rubric chưa bao giờ là chuyện rubric. Năm người chấm một trace ra năm kiểu là năm người đang giữ năm sản phẩm khác nhau trong đầu.",
+      "result_underline": "five different products in their heads",
+      "result_underline_vi": "năm sản phẩm khác nhau trong đầu",
+      "tick": "Ask two teammates what a good output looks like. Are they describing the same product?",
+      "tick_vi": "Hỏi hai người trong team xem output tốt là như thế nào. Họ có đang tả cùng một sản phẩm không?",
+      "tick_bold": [
+        "the same product"
+      ],
+      "tick_bold_vi": [
+        "cùng một sản phẩm"
+      ],
+      "provocation": "Husain says evals begin by reading traces, not by imagining failures, and that needing a committee to grade one interaction is a scoping smell. Dunford says nothing can be judged good until the context is stated. Together they turn annotator disagreement into a diagnostic: your labels are not drifting, your positioning is.",
+      "provocation_vi": "Husain nói evals bắt đầu bằng việc đọc trace, không phải bằng việc tưởng tượng ra lỗi, và cần cả hội đồng để chấm một lượt tương tác là mùi của scope rộng quá. Dunford nói chưa nói rõ context thì không ai phán được cái gì là tốt. Ghép lại, chuyện người chấm lệch nhau thành một phép chẩn đoán: label của bạn không trôi, positioning của bạn mới trôi.",
+      "source": {
+        "site": "Hamel Husain",
+        "title": "AI Evals: Everything You Need to Know",
+        "url": "https://hamel.dev/blog/posts/evals-faq/",
+        "published": "2026-09-18"
+      }
+    },
+    {
+      "title": "TEAM OF ONE",
+      "title_vi": "ĐỘI MỘT NGƯỜI",
+      "headline": "The end-to-end operator is not more talented, just less queued",
+      "headline_vi": "Người làm end-to-end không giỏi hơn, chỉ là ít phải xếp hàng hơn",
+      "a": {
+        "who": "Wes Kao",
+        "what": "Two marketers want a video series. The first has the idea and waits for a boss or a specialist to fill in the details. The second drafts the script, films it on an iPhone, cuts it in iMovie, mocks up the post and shows leadership what it would look like. The second one gets the green light. Her advice is not to master every craft, but to learn enough of the adjacent ones to write the spec and carry the thing to something visible.",
+        "what_vi": "Hai người làm marketing cùng muốn làm một series video. Người thứ nhất có ý tưởng rồi ngồi chờ sếp hoặc chuyên gia điền nốt phần còn lại. Người thứ hai tự viết script, quay bằng iPhone, cắt bằng iMovie, dựng thử cái post và đưa cho ban lãnh đạo xem nó sẽ trông ra sao. Người thứ hai được duyệt. Lời khuyên của cô không phải là giỏi hết mọi nghề, mà là biết đủ mấy nghề kế bên để viết được cái spec và đẩy thứ đó tới chỗ nhìn thấy được."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "Look at where a piece of work actually spends its life and almost none of it is being worked on. It is waiting: for a review, a specialist, a slot on someone else's week. Handoffs, not effort, are what set the calendar.",
+        "what_vi": "Nhìn kỹ một đầu việc xem nó sống ở đâu thì gần như chẳng có mấy lúc nó được làm. Nó đang chờ: chờ review, chờ chuyên gia, chờ một chỗ trống trong tuần của người khác. Handoff mới quyết cái lịch, chứ không phải công sức."
+      },
+      "result": "Marketer number two did not out-work anyone. She deleted four handoffs, and what she really shipped that week was a shorter queue.",
+      "result_vi": "Người marketing thứ hai không cày khỏe hơn ai. Cô xóa bốn cái handoff, và thứ cô ship trong tuần đó thật ra là một hàng chờ ngắn hơn.",
+      "result_underline": "a shorter queue",
+      "result_underline_vi": "một hàng chờ ngắn hơn",
+      "tick": "What are you waiting on that you could learn to do badly yourself by Friday?",
+      "tick_vi": "Bạn đang chờ cái gì mà tới thứ Sáu bạn có thể tự học làm dở dở cũng được?",
+      "tick_bold": [
+        "learn to do badly yourself"
+      ],
+      "tick_bold_vi": [
+        "tự học làm dở dở cũng được"
+      ],
+      "provocation": "Kao's end-to-end operator wins because she can show the thing instead of describing it. Cutler's reading of flow explains why that wins: work spends its life in queues, not in effort. Doing the adjacent craft badly yourself is often faster than doing it well through three other people.",
+      "provocation_vi": "Người làm end-to-end của Kao thắng vì cô đưa ra được cái thứ đó chứ không phải mô tả nó. Cách Cutler đọc flow giải thích vì sao kiểu đó thắng: việc sống phần lớn đời nó trong hàng chờ, không phải trong lúc được làm. Tự làm cái nghề kế bên một cách dở dở thường vẫn nhanh hơn làm cho ngon qua tay ba người khác.",
+      "source": {
+        "site": "Wes Kao",
+        "title": "The rise of the end-to-end operator",
+        "url": "https://newsletter.weskao.com/p/end-to-end-operator",
+        "published": "2026-09-02"
+      }
+    }
+  ]
+}

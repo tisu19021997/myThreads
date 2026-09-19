@@ -1,0 +1,22 @@
+Morning Spark · Saturday, September 19 · Ed. 55
+Cheap to make, slow to choose: the bottleneck moved.
+
+─────────────────
+01 · Making went to zero, so choosing became the job
+Ethan Mollick × Ben Thompson
+Mollick argues the overhang is not in the models, it is in us: making is cheap now, and taste is what separates a flood of output from work worth keeping. Thompson has spent a decade showing that when supply is commoditised, the filter takes the value. Run that on yourself and your backlog stops being a plan and starts being a confession.
+→ https://www.oneusefulthing.org/p/the-overhang
+
+─────────────────
+02 · Nobody agrees what good looks like, and that is not a rubric problem
+Hamel Husain × April Dunford
+Husain says evals begin by reading traces, not by imagining failures, and that needing a committee to grade one interaction is a scoping smell. Dunford says nothing can be judged good until the context is stated. Together they turn annotator disagreement into a diagnostic: your labels are not drifting, your positioning is.
+→ https://hamel.dev/blog/posts/evals-faq/
+
+─────────────────
+03 · The end-to-end operator is not more talented, just less queued
+Wes Kao × John Cutler
+Kao's end-to-end operator wins because she can show the thing instead of describing it. Cutler's reading of flow explains why that wins: work spends its life in queues, not in effort. Doing the adjacent craft badly yourself is often faster than doing it well through three other people.
+→ https://newsletter.weskao.com/p/end-to-end-operator
+
+Full styled card → open the session.
