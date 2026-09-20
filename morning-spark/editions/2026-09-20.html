@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 20</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 56</div></div></div>
+<div class="meta label">Sunday, September 20, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE LEGIBLE TEAM</span><span data-l="vi">ĐỘI DỄ ĐỌC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Camille Fournier</div><div class="what"><span data-l="en">Ask an internal AI what one person did last week and you get a workable starting point. Ask about anything spanning more than one person and the corrections cost more than asking the humans would have. Summaries strip out the signals you would have caught yourself.</span><span data-l="vi">Hỏi con AI nội bộ tuần rồi một người làm gì, bạn được một cái mở đầu dùng được. Hỏi thứ gì dính từ hai người trở lên, công đi đính chính còn tốn hơn là hỏi thẳng người ta. Bản tóm tắt cắt mất đúng những tín hiệu mà tự bạn sẽ bắt được.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">A proxy metric is a measurable stand-in for an outcome that takes too long to show up. The whole game is picking one that moves with the real thing, because the team will optimise the stand-in either way.</span><span data-l="vi">Proxy metric là cái đo được, đứng thay cho một outcome quá lâu mới hiện ra. Cả trò chơi nằm ở chỗ chọn được cái chạy cùng chiều với thứ thật, vì đằng nào team cũng sẽ tối ưu cho cái đứng thay.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">An AI read of your org is a proxy metric you never chose. It scores whoever leaves the cleanest trail, so the quietest engineer on the hardest problem <u>reads as idle</u>.</span><span data-l="vi">Bản AI tóm tắt tổ chức của bạn là một proxy metric bạn chưa từng chọn. Nó chấm điểm ai để lại dấu vết gọn nhất, nên người kỹ sư im lặng nhất đang gỡ bài khó nhất lại <u>trông như đang rảnh</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Who on my team is doing work that <b>leaves no artifact</b>?</span><span data-l="vi">Ai trong team mình đang làm thứ <b>không để lại artifact nào</b>?</span></p></div>
+<div class="src-link"><a href="https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66" target="_blank" rel="noopener">Medium — The Manager&#x27;s Path in the Age of AI &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">SATURATED SWARM</span><span data-l="vi">BẦY AGENT BÃO HÒA</span></span></div>
+<div class="eq"><div class="term"><div class="who">Nathan Lambert</div><div class="what"><span data-l="en">His case against fast recursive self-improvement: the research that can be automated is too narrow to outrun the exponential cost of scaling, running more agents in parallel has real diminishing returns, and compute and politics are the bottleneck agents cannot clear.</span><span data-l="vi">Lý lẽ của anh về chuyện recursive self-improvement chưa tới: phần research tự động hóa được thì quá hẹp để chạy đua với chi phí scaling tăng theo cấp số nhân, chạy thêm agent song song thì diminishing returns là có thật, còn compute và chính trị nội bộ mới là nút thắt mà agent không gỡ nổi.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">Every acquisition channel decays. The banner ad that pulled double-digit clickthrough in the nineties now pulls a rounding error, and the channel that carried you last quarter returns less this quarter because everyone else showed up.</span><span data-l="vi">Channel nào rồi cũng tụt. Cái banner hồi thập niên chín mươi từng có clickthrough hai chữ số giờ chỉ còn số lẻ làm tròn, và cái channel gánh bạn quý trước quý này trả về ít hơn, đơn giản vì ai cũng nhảy vào.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Agent headcount is a channel, and channels saturate. The second hundred agents buy less than the first ten, and the constraint slides to <u>the one thing you cannot run in parallel</u>.</span><span data-l="vi">Số lượng agent cũng là một channel, mà channel thì bão hòa. Một trăm agent tiếp theo mua được ít hơn mười agent đầu tiên, và nút thắt trượt sang <u>đúng thứ bạn không chạy song song được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What part of my week gets <b>no faster with ten more agents</b>?</span><span data-l="vi">Phần nào trong tuần của mình <b>thêm mười con agent cũng không nhanh hơn</b>?</span></p></div>
+<div class="src-link"><a href="https://www.interconnects.ai/p/where-i-stand-on-rsi" target="_blank" rel="noopener">Interconnects — Why I still haven&#x27;t bought into true RSI &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">SPINE COUNT</span><span data-l="vi">ĐẾM CHỮ SPINE</span></span></div>
+<div class="eq"><div class="term"><div class="who">Hillel Wayne</div><div class="what"><span data-l="en">He counted pull request titles on GitHub. In nine months, titles carrying the word spine rose about twentyfold while pull requests overall grew roughly 1.5x, and gate now shows up in one title out of every three hundred. Nobody decided on those words.</span><span data-l="vi">Anh đi đếm title của pull request trên GitHub. Trong chín tháng, title có chữ spine tăng khoảng hai mươi lần trong khi tổng số PR chỉ tăng cỡ 1,5 lần, còn chữ gate giờ xuất hiện ở một trên ba trăm title. Không ai quyết mấy chữ đó cả.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery is a habit, not a phase: weekly contact with customers, and assumptions written down before they get tested, because a team only hears what its own framing lets it hear.</span><span data-l="vi">Continuous discovery là một thói quen chứ không phải một giai đoạn: tuần nào cũng chạm khách hàng, và viết giả định ra trước khi đi test, vì team chỉ nghe được đúng những gì cái framing của chính nó cho phép nghe.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Vocabulary is the cheapest audit in the building. If words walked into your codebase twentyfold without a decision, the model&#x27;s framing walked into your product thinking the same way, and <u>nobody logged that one either</u>.</span><span data-l="vi">Từ vựng là cuộc audit rẻ nhất bạn có. Nếu chữ nghĩa đi vào codebase gấp hai mươi lần mà không qua quyết định nào, thì cái framing của model cũng đi vào tư duy sản phẩm y hệt vậy, và <u>cái đó cũng chẳng ai ghi lại</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which word in our last ten pull requests <b>did none of us choose</b>?</span><span data-l="vi">Chữ nào trong mười pull request gần nhất mà <b>không ai trong tụi mình chọn</b>?</span></p></div>
+<div class="src-link"><a href="https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/" target="_blank" rel="noopener">Hillel Wayne — The LLMs yearn for the spines &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-19.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-19</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Camille Fournier / Gibson Biddle / Nathan Lambert / Andrew Chen / Hillel Wayne / Teresa Torres<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Camille Fournier / Gibson Biddle / Nathan Lambert / Andrew Chen / Hillel Wayne / Teresa Torres<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

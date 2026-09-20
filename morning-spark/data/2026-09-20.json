@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-20",
+  "edition": 56,
+  "framing": "Three defaults nobody chose, already shipped.",
+  "framing_vi": "Ba cái default không ai chọn, mà đã ship rồi.",
+  "note": "Themes: the AI org summary as an unchosen proxy metric, agent headcount as a saturating channel, vocabulary drift as evidence of decisions nobody made. Sources: skamille.medium.com (Camille Fournier, 'The Manager's Path in the Age of AI', Sep 19, one day old, a completely fresh well and a new name on file; medium.com returns 403 to this datacenter IP behind Cloudflare, so it was read in full from her own Medium RSS feed, which carried the whole 21KB body with no member-only marker and her closing book plug -- it is a free post, not gated), interconnects.ai (Nathan Lambert, 'Why I still haven't bought into true RSI', Sep 19, one day old, fresh well and new name, read on the page above the subscribe wall: lossy self-improvement, the Richard Ngo quote on being directionally correct but factually wrong), buttondown.com/hillelwayne (Hillel Wayne, 'The LLMs yearn for the spines', Sep 16, four days, fresh well and new name, fully free, read in full including the gate and ladder counts). All three first halves are people never used on file, same move as Ed 48, because the roster second halves had crowded up again. Second halves picked from the rested end of the roster: Gibson Biddle (Sep 15, five days), Andrew Chen (Sep 13, seven days, the longest-rested name), Teresa Torres (Sep 14, six days). Pairings Camille Fournier x Gibson Biddle, Nathan Lambert x Andrew Chen, Hillel Wayne x Teresa Torres, all three checked against the full 55-edition pairing set and all three brand new. Chen's banner-ad clickthrough number was deliberately left vague ('double-digit in the nineties') because the exact figure is quoted inconsistently. Avoid tomorrow: proxy metrics, parallel agents, LLM vocabulary tics. Rested wells worth a look next: stratechery.com (one use ever), lethain.com, notboring.co, benn.substack.com ('How to lose your mind', Sep 13, still unused), newsletter.kentbeck.com (fresh well but paywalled after the intro, skip), charity.wtf ('Confessions of an Unrepentant Slop Snob', Sep 14, fresh well, read and unused), martinfowler.com ('I don't like LLMs', Sep 17, read in full and unused, but Fowler ran Sep 14 and Sep 16 so rest him first).",
+  "sparks": [
+    {
+      "title": "THE LEGIBLE TEAM",
+      "title_vi": "ĐỘI DỄ ĐỌC",
+      "headline": "An AI read of your team scores the paper trail",
+      "headline_vi": "AI đọc team bạn qua dấu vết để lại, không qua việc",
+      "a": {
+        "who": "Camille Fournier",
+        "what": "Ask an internal AI what one person did last week and you get a workable starting point. Ask about anything spanning more than one person and the corrections cost more than asking the humans would have. Summaries strip out the signals you would have caught yourself.",
+        "what_vi": "Hỏi con AI nội bộ tuần rồi một người làm gì, bạn được một cái mở đầu dùng được. Hỏi thứ gì dính từ hai người trở lên, công đi đính chính còn tốn hơn là hỏi thẳng người ta. Bản tóm tắt cắt mất đúng những tín hiệu mà tự bạn sẽ bắt được."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "A proxy metric is a measurable stand-in for an outcome that takes too long to show up. The whole game is picking one that moves with the real thing, because the team will optimise the stand-in either way.",
+        "what_vi": "Proxy metric là cái đo được, đứng thay cho một outcome quá lâu mới hiện ra. Cả trò chơi nằm ở chỗ chọn được cái chạy cùng chiều với thứ thật, vì đằng nào team cũng sẽ tối ưu cho cái đứng thay."
+      },
+      "result": "An AI read of your org is a proxy metric you never chose. It scores whoever leaves the cleanest trail, so the quietest engineer on the hardest problem reads as idle.",
+      "result_vi": "Bản AI tóm tắt tổ chức của bạn là một proxy metric bạn chưa từng chọn. Nó chấm điểm ai để lại dấu vết gọn nhất, nên người kỹ sư im lặng nhất đang gỡ bài khó nhất lại trông như đang rảnh.",
+      "result_underline": "reads as idle",
+      "result_underline_vi": "trông như đang rảnh",
+      "tick": "Who on my team is doing work that leaves no artifact?",
+      "tick_vi": "Ai trong team mình đang làm thứ không để lại artifact nào?",
+      "tick_bold": [
+        "leaves no artifact"
+      ],
+      "tick_bold_vi": [
+        "không để lại artifact nào"
+      ],
+      "provocation": "Fournier's warning is that a summary quietly removes the signal you would have picked up in the room. Biddle's is that a proxy you did not choose is still one your team is managing to. Together they turn the AI digest into a performance review nobody sat down to write.",
+      "provocation_vi": "Fournier cảnh báo rằng bản tóm tắt lặng lẽ bỏ đi đúng tín hiệu mà bạn sẽ bắt được nếu ngồi trong phòng. Biddle thì nói proxy bạn không chọn vẫn là proxy mà team đang chạy theo. Ghép lại, bản digest của AI thành một bản performance review không ai ngồi xuống viết.",
+      "source": {
+        "site": "Medium",
+        "title": "The Manager's Path in the Age of AI",
+        "url": "https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66",
+        "published": "2026-09-19"
+      }
+    },
+    {
+      "title": "SATURATED SWARM",
+      "title_vi": "BẦY AGENT BÃO HÒA",
+      "headline": "Agent capacity decays like an acquisition channel",
+      "headline_vi": "Thêm agent cũng bão hòa y như một acquisition channel",
+      "a": {
+        "who": "Nathan Lambert",
+        "what": "His case against fast recursive self-improvement: the research that can be automated is too narrow to outrun the exponential cost of scaling, running more agents in parallel has real diminishing returns, and compute and politics are the bottleneck agents cannot clear.",
+        "what_vi": "Lý lẽ của anh về chuyện recursive self-improvement chưa tới: phần research tự động hóa được thì quá hẹp để chạy đua với chi phí scaling tăng theo cấp số nhân, chạy thêm agent song song thì diminishing returns là có thật, còn compute và chính trị nội bộ mới là nút thắt mà agent không gỡ nổi."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "Every acquisition channel decays. The banner ad that pulled double-digit clickthrough in the nineties now pulls a rounding error, and the channel that carried you last quarter returns less this quarter because everyone else showed up.",
+        "what_vi": "Channel nào rồi cũng tụt. Cái banner hồi thập niên chín mươi từng có clickthrough hai chữ số giờ chỉ còn số lẻ làm tròn, và cái channel gánh bạn quý trước quý này trả về ít hơn, đơn giản vì ai cũng nhảy vào."
+      },
+      "result": "Agent headcount is a channel, and channels saturate. The second hundred agents buy less than the first ten, and the constraint slides to the one thing you cannot run in parallel.",
+      "result_vi": "Số lượng agent cũng là một channel, mà channel thì bão hòa. Một trăm agent tiếp theo mua được ít hơn mười agent đầu tiên, và nút thắt trượt sang đúng thứ bạn không chạy song song được.",
+      "result_underline": "the one thing you cannot run in parallel",
+      "result_underline_vi": "đúng thứ bạn không chạy song song được",
+      "tick": "What part of my week gets no faster with ten more agents?",
+      "tick_vi": "Phần nào trong tuần của mình thêm mười con agent cũng không nhanh hơn?",
+      "tick_bold": [
+        "no faster with ten more agents"
+      ],
+      "tick_bold_vi": [
+        "thêm mười con agent cũng không nhanh hơn"
+      ],
+      "provocation": "Lambert's argument is mostly about bottlenecks: narrow automatable research, diminishing returns from parallelism, and resource limits that do not care how many agents you run. Chen has been making the same shape of argument about growth channels for over a decade. Budget your agents like a channel and the honest question stops being how many, and starts being what they are waiting on.",
+      "provocation_vi": "Lập luận của Lambert thực ra là chuyện nút thắt: phần research tự động hóa được quá hẹp, chạy song song thì lợi ích giảm dần, và giới hạn tài nguyên chẳng quan tâm bạn bật bao nhiêu agent. Chen nói đúng cái dạng đó về growth channel hơn mười năm nay rồi. Cứ coi ngân sách agent như một channel, thì câu hỏi thật không còn là bao nhiêu con, mà là tụi nó đang chờ cái gì.",
+      "source": {
+        "site": "Interconnects",
+        "title": "Why I still haven't bought into true RSI",
+        "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+        "published": "2026-09-19"
+      }
+    },
+    {
+      "title": "SPINE COUNT",
+      "title_vi": "ĐẾM CHỮ SPINE",
+      "headline": "Your repo's vocabulary drifted and nobody voted",
+      "headline_vi": "Từ vựng trong repo đã trôi, mà không ai bỏ phiếu",
+      "a": {
+        "who": "Hillel Wayne",
+        "what": "He counted pull request titles on GitHub. In nine months, titles carrying the word spine rose about twentyfold while pull requests overall grew roughly 1.5x, and gate now shows up in one title out of every three hundred. Nobody decided on those words.",
+        "what_vi": "Anh đi đếm title của pull request trên GitHub. Trong chín tháng, title có chữ spine tăng khoảng hai mươi lần trong khi tổng số PR chỉ tăng cỡ 1,5 lần, còn chữ gate giờ xuất hiện ở một trên ba trăm title. Không ai quyết mấy chữ đó cả."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery is a habit, not a phase: weekly contact with customers, and assumptions written down before they get tested, because a team only hears what its own framing lets it hear.",
+        "what_vi": "Continuous discovery là một thói quen chứ không phải một giai đoạn: tuần nào cũng chạm khách hàng, và viết giả định ra trước khi đi test, vì team chỉ nghe được đúng những gì cái framing của chính nó cho phép nghe."
+      },
+      "result": "Vocabulary is the cheapest audit in the building. If words walked into your codebase twentyfold without a decision, the model's framing walked into your product thinking the same way, and nobody logged that one either.",
+      "result_vi": "Từ vựng là cuộc audit rẻ nhất bạn có. Nếu chữ nghĩa đi vào codebase gấp hai mươi lần mà không qua quyết định nào, thì cái framing của model cũng đi vào tư duy sản phẩm y hệt vậy, và cái đó cũng chẳng ai ghi lại.",
+      "result_underline": "nobody logged that one either",
+      "result_underline_vi": "cái đó cũng chẳng ai ghi lại",
+      "tick": "Which word in our last ten pull requests did none of us choose?",
+      "tick_vi": "Chữ nào trong mười pull request gần nhất mà không ai trong tụi mình chọn?",
+      "tick_bold": [
+        "did none of us choose"
+      ],
+      "tick_bold_vi": [
+        "không ai trong tụi mình chọn"
+      ],
+      "provocation": "Wayne went looking for a verbal tic and came back with a measurement: spine up roughly twentyfold in pull request titles against overall growth near 1.5x. Torres's discipline is writing the assumption down before you test it. The join is uncomfortable, because a default you never noticed is still a default you shipped.",
+      "provocation_vi": "Wayne đi tìm một cái tật nói năng và mang về một phép đo: chữ spine tăng cỡ hai mươi lần trong title pull request, trong khi tổng số chỉ tăng gần 1,5 lần. Kỷ luật của Torres là viết giả định ra trước khi đi test. Chỗ ghép lại thấy nhột, vì một cái default bạn không để ý vẫn là một cái default bạn đã ship.",
+      "source": {
+        "site": "Hillel Wayne",
+        "title": "The LLMs yearn for the spines",
+        "url": "https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/",
+        "published": "2026-09-16"
+      }
+    }
+  ]
+}

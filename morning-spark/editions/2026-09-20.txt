@@ -1,0 +1,22 @@
+Morning Spark · Sunday, September 20 · Ed. 56
+Three defaults nobody chose, already shipped.
+
+─────────────────
+01 · An AI read of your team scores the paper trail
+Camille Fournier × Gibson Biddle
+Fournier's warning is that a summary quietly removes the signal you would have picked up in the room. Biddle's is that a proxy you did not choose is still one your team is managing to. Together they turn the AI digest into a performance review nobody sat down to write.
+→ https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66
+
+─────────────────
+02 · Agent capacity decays like an acquisition channel
+Nathan Lambert × Andrew Chen
+Lambert's argument is mostly about bottlenecks: narrow automatable research, diminishing returns from parallelism, and resource limits that do not care how many agents you run. Chen has been making the same shape of argument about growth channels for over a decade. Budget your agents like a channel and the honest question stops being how many, and starts being what they are waiting on.
+→ https://www.interconnects.ai/p/where-i-stand-on-rsi
+
+─────────────────
+03 · Your repo's vocabulary drifted and nobody voted
+Hillel Wayne × Teresa Torres
+Wayne went looking for a verbal tic and came back with a measurement: spine up roughly twentyfold in pull request titles against overall growth near 1.5x. Torres's discipline is writing the assumption down before you test it. The join is uncomfortable, because a default you never noticed is still a default you shipped.
+→ https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/
+
+Full styled card → open the session.

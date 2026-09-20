@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-20",
+      "edition": 56,
+      "note": "Themes: the AI org summary as an unchosen proxy metric, agent headcount as a saturating channel, vocabulary drift as evidence of decisions nobody made. Sources: skamille.medium.com (Camille Fournier, 'The Manager's Path in the Age of AI', Sep 19, one day old, a completely fresh well and a new name on file; medium.com returns 403 to this datacenter IP behind Cloudflare, so it was read in full from her own Medium RSS feed, which carried the whole 21KB body with no member-only marker and her closing book plug -- it is a free post, not gated), interconnects.ai (Nathan Lambert, 'Why I still haven't bought into true RSI', Sep 19, one day old, fresh well and new name, read on the page above the subscribe wall: lossy self-improvement, the Richard Ngo quote on being directionally correct but factually wrong), buttondown.com/hillelwayne (Hillel Wayne, 'The LLMs yearn for the spines', Sep 16, four days, fresh well and new name, fully free, read in full including the gate and ladder counts). All three first halves are people never used on file, same move as Ed 48, because the roster second halves had crowded up again. Second halves picked from the rested end of the roster: Gibson Biddle (Sep 15, five days), Andrew Chen (Sep 13, seven days, the longest-rested name), Teresa Torres (Sep 14, six days). Pairings Camille Fournier x Gibson Biddle, Nathan Lambert x Andrew Chen, Hillel Wayne x Teresa Torres, all three checked against the full 55-edition pairing set and all three brand new. Chen's banner-ad clickthrough number was deliberately left vague ('double-digit in the nineties') because the exact figure is quoted inconsistently. Avoid tomorrow: proxy metrics, parallel agents, LLM vocabulary tics. Rested wells worth a look next: stratechery.com (one use ever), lethain.com, notboring.co, benn.substack.com ('How to lose your mind', Sep 13, still unused), newsletter.kentbeck.com (fresh well but paywalled after the intro, skip), charity.wtf ('Confessions of an Unrepentant Slop Snob', Sep 14, fresh well, read and unused), martinfowler.com ('I don't like LLMs', Sep 17, read in full and unused, but Fowler ran Sep 14 and Sep 16 so rest him first).",
+      "sparks": [
+        {
+          "pair": "Camille Fournier x Gibson Biddle",
+          "headline": "An AI read of your team scores the paper trail",
+          "source": "Medium — The Manager's Path in the Age of AI",
+          "url": "https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66"
+        },
+        {
+          "pair": "Nathan Lambert x Andrew Chen",
+          "headline": "Agent capacity decays like an acquisition channel",
+          "source": "Interconnects — Why I still haven't bought into true RSI",
+          "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi"
+        },
+        {
+          "pair": "Hillel Wayne x Teresa Torres",
+          "headline": "Your repo's vocabulary drifted and nobody voted",
+          "source": "Hillel Wayne — The LLMs yearn for the spines",
+          "url": "https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-19",
       "edition": 55,
       "note": "Themes: selection as the scarce layer once output is free, annotator disagreement as a positioning bug, the end-to-end operator as queue removal. Sources: oneusefulthing.org (Ethan Mollick, 'The Overhang', Sep 18, one day old, free, read in full -- Zork-to-3D and the Umberto Eco library reconstruction, then the four advantages: deep knowledge, wide knowledge, taste, agency; well last ran Aug 31, nineteen days), hamel.dev (Hamel Husain, 'AI Evals: Everything You Need to Know', Sep 18, one day old, free, read the error-analysis, binary-vs-Likert and how-many-annotators answers in full -- open coding, axial coding, benevolent dictator, 'if you need five SMEs to judge a single interaction your scope is too broad', and eval-driven development is a no; well last ran Sep 2 with eval-smell, seventeen days), newsletter.weskao.com (Wes Kao, 'The rise of the end-to-end operator', Sep 2, seventeen days but a completely fresh well and a new name on file, free, read in full -- marketer #1 versus marketer #2 with the iPhone and iMovie). Second halves: Ben Thompson on aggregation theory, value moving to whoever owns discovery once supply is commoditised (he had rested since Sep 12, the longest gap of any core name); April Dunford on positioning as context and the alternatives deciding what counts as good (Sep 17); John Cutler on flow, wait time and handoffs dominating a project's calendar (Sep 16). Pairings Ethan Mollick x Ben Thompson, Hamel Husain x April Dunford, Wes Kao x John Cutler, all three checked against the full 54-edition pairing set built from data/*.json; note Hamel x Teresa Torres was already used on Sep 2, hence Dunford. Deliberately skipped: commoncog 'How to Handle Disruptive Change' (Sep 16, still unused, Ed 54 earmarked it for around Sep 20 paired with Ben Thompson -- Thompson is spent today, so take it tomorrow with someone else); stratechery '2026.38: Doomforce' (Sep 18, free but it is only the weekly roundup, no argument of its own; the substantive Salesforce agents-as-UI and race-to-headless pieces are paid Updates); benn.substack 'How to lose your mind' (Sep 13, free, read most of it, but it is a nine-hour Knicks bar diary, not a collision); seangoedecke (Sep 18, well ran Sep 14 and Sep 17, too hot); martinfowler 'I don't like LLMs' (Sep 17, but Fowler ran Sep 14 and Sep 16); kellblog, leaddev, tomtunguz, producttalk all posted this week but every one of those wells ran within four days. Feed notes: hamel.dev is alive again after a month quiet, oneusefulthing posts every couple of weeks, newsletter.weskao.com posts fortnightly and is worth keeping; growthunhinged, every.to, figma and linear feeds all return empty; erikbern, huyenchip, eugeneyan and samaltman have not posted in months. Wells barely spent: commoncog (how-to-handle-disruptive-change), newsletter.posthog.com (if-ai-writes-all-the-code, Sep 14), refactoring (building-tools-for-defenders, Sep 18), lethain, vickiboykis (bad-code-is-kudzu), benn.substack. Avoid tomorrow: taste, evals, handoffs.",
