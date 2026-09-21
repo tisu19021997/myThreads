@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 21</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 57</div></div></div>
+<div class="meta label">Monday, September 21, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">NOTHING WAS CUT</span><span data-l="vi">KHÔNG CẮT GÌ CẢ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Michael Lopp</div><div class="what"><span data-l="en">Robot prose annoys you, and it is not the em dashes. It optimises for an answer that satisfies you rather than one that is correct, it empties its whole shelf onto the page, and it has never once told you your idea was dumb. Good writing is the record of how a human thinks.</span><span data-l="vi">Văn robot làm bạn khó chịu, và không phải vì mấy cái gạch ngang. Nó tối ưu cho câu trả lời làm bạn hài lòng chứ không phải câu đúng, đổ hết cả kệ sách ra trang giấy, và chưa một lần nào nói ý bạn là dở. Viết hay là bản ghi cách một con người suy nghĩ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">In Writes and Write-Nots he argues that writing is thinking, so once AI removes the need to write, the world splits in two: the people who still write, and the people who can no longer think clearly.</span><span data-l="vi">Trong Writes and Write-Nots, ông nói viết chính là nghĩ. AI xoá đi nhu cầu phải viết, nên thế giới tách làm hai: người còn viết, và người hết nghĩ cho rõ ràng được nữa.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Voice is not style. It is the audit log of everything a person decided to throw away, which is why a wall of text reads as empty: <u>nothing was cut</u>.</span><span data-l="vi">Giọng không phải là style. Nó là cái log của mọi thứ một người đã quyết định vứt đi. Nên bức tường chữ đọc vào thấy rỗng: <u>không cắt gì cả</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did I <b>cut today</b>, and could I <b>defend the cut</b>?</span><span data-l="vi">Hôm nay mình <b>cắt cái gì</b>, và mình <b>bảo vệ được chỗ cắt đó</b> không?</span></p></div>
+<div class="src-link"><a href="https://randsinrepose.com/archives/robots-have-no-voice/" target="_blank" rel="noopener">Rands in Repose — Robots Have No Voice &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE VACATION TEST</span><span data-l="vi">PHÉP THỬ NGHỈ PHÉP</span></span></div>
+<div class="eq"><div class="term"><div class="who">Emily Kramer</div><div class="what"><span data-l="en">Her three-person team shipped fast and built everything local: personal machines, personal accounts. A vacation and a new laptop exposed it. Now the work lives in two shared repos installed as plugins, scored against one question: if a person or a computer is offline, can the work still run, and can you still change it?</span><span data-l="vi">Team ba người của cô ship rất nhanh nhưng làm cục bộ hết: máy riêng, account riêng. Một kỳ nghỉ với một cái laptop mới lòi ra tất cả. Giờ mọi thứ nằm trong hai repo dùng chung cài như plugin, và được chấm bằng đúng một câu: nếu một người hoặc một cái máy offline, việc còn chạy được không, và còn sửa được không?</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">A funnel runs one direction, leaks at every stage, and has to be refilled from the top forever. A loop feeds its own output back in as the next input, which is the only shape that compounds instead of decaying.</span><span data-l="vi">Funnel chạy một chiều, tầng nào cũng rò, và phải đổ thêm từ trên xuống mãi. Loop lấy output vòng này làm input vòng sau. Chỉ có loop mới cộng dồn, còn lại đều rơi rụng.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A prompt saved on your laptop is a funnel: it pays out once, to you. The same prompt in a repo your team installs is a loop, because the next person&#x27;s use is <u>an input, not a withdrawal</u>.</span><span data-l="vi">Cái prompt để trên laptop là funnel: trả một lần, cho mỗi bạn. Vẫn cái prompt đó nằm trong repo cả team cài được thì thành loop, vì lượt dùng của người kế tiếp là <u>input chứ không phải một lần rút ra</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of my AI shortcuts would <b>die with my laptop</b>?</span><span data-l="vi">Cái shortcut AI nào của mình sẽ <b>chết chung với cái laptop</b>?</span></p></div>
+<div class="src-link"><a href="https://newsletter.mkt1.co/p/multiplayer-ai-team-mkt1" target="_blank" rel="noopener">MKT1 Newsletter — Inside team MKT1&#x27;s multiplayer AI setup &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE UNRUN BRANCH</span><span data-l="vi">NHÁNH CHƯA CHẠY</span></span></div>
+<div class="eq"><div class="term"><div class="who">Randy Au</div><div class="what"><span data-l="en">Years of modelling put the odds of a negative leap second before 2035 at roughly thirty percent. In October the CGPM votes on widening the allowed gap between atomic time and the sun from one second to one hour, which retires the leap second for centuries.</span><span data-l="vi">Mấy năm mô hình hoá cho ra xác suất phải trừ đi một giây nhuận trước 2035 là khoảng ba mươi phần trăm. Tháng 10 này CGPM bỏ phiếu nới khoảng cách cho phép giữa giờ nguyên tử và giờ mặt trời từ một giây lên một tiếng, tức là cho giây nhuận nghỉ hưu vài thế kỷ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Seth Godin</div><div class="what"><span data-l="en">Start a decision at its edges. If this completely works, what follows; if it completely fails, what does that cost. Only then bring in the odds. We skip the edges because we reach for the expected outcome first.</span><span data-l="vi">Quyết định gì thì bắt đầu từ hai đầu mút. Ăn thì ăn tới đâu, hỏng thì hỏng tới đâu. Tính xác suất sau. Ai cũng bỏ qua hai đầu mút vì nhảy thẳng vào cái kết quả trung bình.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Nobody is frightened of the thirty percent. They are frightened that a negative leap second has never once happened, and the fix is not a better estimate. It is <u>a tolerance wide enough that the untested branch never runs</u>.</span><span data-l="vi">Không ai sợ con ba mươi phần trăm. Người ta sợ vì giây nhuận âm chưa từng xảy ra lần nào, và cách sửa không phải là ước lượng cho chuẩn hơn. Là <u>nới ngưỡng rộng tới mức cái nhánh chưa test kia không bao giờ chạy</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which path through my system has <b>never actually run</b>?</span><span data-l="vi">Đường nào trong hệ thống của mình <b>chưa từng chạy thật</b>?</span></p></div>
+<div class="src-link"><a href="https://www.counting-stuff.com/were-almost-done-with-leap-seconds-for-our-lifetimes/" target="_blank" rel="noopener">Counting Stuff — We&#x27;re almost done with leap seconds for our lifetimes &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-20.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-20</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Michael Lopp / Paul Graham / Emily Kramer / Brian Balfour / Randy Au / Seth Godin<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Michael Lopp / Paul Graham / Emily Kramer / Brian Balfour / Randy Au / Seth Godin<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-21",
+  "edition": 57,
+  "framing": "What got cut, what stayed local, what never ran.",
+  "framing_vi": "Cái bị cắt, cái nằm lại trên máy bạn, cái chưa chạy.",
+  "note": "Themes: voice as the record of what a person threw away, a shared repo as the difference between a funnel and a loop, tail risk resolved by widening the tolerance instead of sharpening the estimate. Sources: randsinrepose.com (Michael Lopp, 'Robots Have No Voice', Sep 15, six days, a completely fresh well and a new name on file, fully free, read in full on the page including the Sinners scene and the closing list of voices), newsletter.mkt1.co (Emily Kramer and Halley Johnson, 'Inside team MKT1's multiplayer AI setup', Sep 17, four days, the freshest anchor, fresh well and new name; the post carries a Paid badge but says in its own header it is the monthly free edition, and the full 45KB body rendered with the 4 Cs, the Vacation Test, the two-repo setup and the context-layer section all readable), counting-stuff.com (Randy Au, 'We're almost done with leap seconds for our lifetimes', Sep 15, six days, fresh well and new name, always-free Tuesday post, read in full: the ~30 percent negative-leap-second estimate, the CGPM vote Oct 13-15 on widening UT1-UTC from 1 second to 3600, application date May 20 2027). Spark 3's second half is also a fetched piece rather than a roster framework: Seth Godin, 'Upside/downside', https://seths.blog/2026/09/think-big-think-small/, Sep 20, one day old, fresh well and new name, read in full -- that is the recently-published anchor for the edition even though the out-link points at Au's longer piece. All three first halves are new names, third edition running to use that move (Ed 48, Ed 56) because the roster second halves had crowded up again. Second halves from the rested end: Paul Graham (Sep 15, six days) and Brian Balfour (Sep 18, three days, tighter than ideal but the loop-versus-funnel frame was the only one that fit the multiplayer argument). Pairings Michael Lopp x Paul Graham, Emily Kramer x Brian Balfour, Randy Au x Seth Godin, all three checked against the full 56-edition pairing set and all three brand new. Avoid tomorrow: AI writing quality, shared context and repos, tail risk. Rested wells worth a look next: stratechery.com (one use ever, 'Doomforce' Sep 18 unread), charity.wtf ('Confessions of an Unrepentant Slop Snob', Sep 14, still unused), martinfowler.com ('I don't like LLMs', Sep 17, still unused, Fowler now rested since Sep 16), thezvi.substack.com (fresh well, 'The Preference Cascade Is Only Getting Started', Sep 18), commoncog.com ('How to Handle Disruptive Change', Sep 16), lethain.com, notboring.co. Kent Beck's newsletter.kentbeck.com stays paywalled after the intro -- checked again, still skip.",
+  "sparks": [
+    {
+      "title": "NOTHING WAS CUT",
+      "title_vi": "KHÔNG CẮT GÌ CẢ",
+      "headline": "You spot the robot by what it refused to leave out",
+      "headline_vi": "Bạn nhận ra robot ở chỗ nó không chịu bỏ bớt",
+      "a": {
+        "who": "Michael Lopp",
+        "what": "Robot prose annoys you, and it is not the em dashes. It optimises for an answer that satisfies you rather than one that is correct, it empties its whole shelf onto the page, and it has never once told you your idea was dumb. Good writing is the record of how a human thinks.",
+        "what_vi": "Văn robot làm bạn khó chịu, và không phải vì mấy cái gạch ngang. Nó tối ưu cho câu trả lời làm bạn hài lòng chứ không phải câu đúng, đổ hết cả kệ sách ra trang giấy, và chưa một lần nào nói ý bạn là dở. Viết hay là bản ghi cách một con người suy nghĩ."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "In Writes and Write-Nots he argues that writing is thinking, so once AI removes the need to write, the world splits in two: the people who still write, and the people who can no longer think clearly.",
+        "what_vi": "Trong Writes and Write-Nots, ông nói viết chính là nghĩ. AI xoá đi nhu cầu phải viết, nên thế giới tách làm hai: người còn viết, và người hết nghĩ cho rõ ràng được nữa."
+      },
+      "result": "Voice is not style. It is the audit log of everything a person decided to throw away, which is why a wall of text reads as empty: nothing was cut.",
+      "result_vi": "Giọng không phải là style. Nó là cái log của mọi thứ một người đã quyết định vứt đi. Nên bức tường chữ đọc vào thấy rỗng: không cắt gì cả.",
+      "result_underline": "nothing was cut",
+      "result_underline_vi": "không cắt gì cả",
+      "tick": "What did I cut today, and could I defend the cut?",
+      "tick_vi": "Hôm nay mình cắt cái gì, và mình bảo vệ được chỗ cắt đó không?",
+      "tick_bold": [
+        "cut today",
+        "defend the cut"
+      ],
+      "tick_bold_vi": [
+        "cắt cái gì",
+        "bảo vệ được chỗ cắt đó"
+      ],
+      "provocation": "Lopp says the tell is an absence: no voice, because nothing in the text was chosen over something else. Graham says the choosing was the thinking. Put together, the question to ask of any draft, yours or a model's, is not what it says but what it left on the floor.",
+      "provocation_vi": "Lopp nói dấu hiệu nhận ra là một sự vắng mặt: không có giọng, vì không có chữ nào trong đó được chọn thay cho chữ khác. Graham nói chính chỗ chọn đó mới là chỗ nghĩ. Ghép lại, câu hỏi dành cho mọi bản nháp, của bạn hay của model, không phải nó nói gì mà là nó đã bỏ lại cái gì.",
+      "source": {
+        "site": "Rands in Repose",
+        "title": "Robots Have No Voice",
+        "url": "https://randsinrepose.com/archives/robots-have-no-voice/",
+        "published": "2026-09-15"
+      }
+    },
+    {
+      "title": "THE VACATION TEST",
+      "title_vi": "PHÉP THỬ NGHỈ PHÉP",
+      "headline": "A skill on your laptop pays out exactly once",
+      "headline_vi": "Cái skill nằm trên laptop bạn chỉ trả đúng một lần",
+      "a": {
+        "who": "Emily Kramer",
+        "what": "Her three-person team shipped fast and built everything local: personal machines, personal accounts. A vacation and a new laptop exposed it. Now the work lives in two shared repos installed as plugins, scored against one question: if a person or a computer is offline, can the work still run, and can you still change it?",
+        "what_vi": "Team ba người của cô ship rất nhanh nhưng làm cục bộ hết: máy riêng, account riêng. Một kỳ nghỉ với một cái laptop mới lòi ra tất cả. Giờ mọi thứ nằm trong hai repo dùng chung cài như plugin, và được chấm bằng đúng một câu: nếu một người hoặc một cái máy offline, việc còn chạy được không, và còn sửa được không?"
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "A funnel runs one direction, leaks at every stage, and has to be refilled from the top forever. A loop feeds its own output back in as the next input, which is the only shape that compounds instead of decaying.",
+        "what_vi": "Funnel chạy một chiều, tầng nào cũng rò, và phải đổ thêm từ trên xuống mãi. Loop lấy output vòng này làm input vòng sau. Chỉ có loop mới cộng dồn, còn lại đều rơi rụng."
+      },
+      "result": "A prompt saved on your laptop is a funnel: it pays out once, to you. The same prompt in a repo your team installs is a loop, because the next person's use is an input, not a withdrawal.",
+      "result_vi": "Cái prompt để trên laptop là funnel: trả một lần, cho mỗi bạn. Vẫn cái prompt đó nằm trong repo cả team cài được thì thành loop, vì lượt dùng của người kế tiếp là input chứ không phải một lần rút ra.",
+      "result_underline": "an input, not a withdrawal",
+      "result_underline_vi": "input chứ không phải một lần rút ra",
+      "tick": "Which of my AI shortcuts would die with my laptop?",
+      "tick_vi": "Cái shortcut AI nào của mình sẽ chết chung với cái laptop?",
+      "tick_bold": [
+        "die with my laptop"
+      ],
+      "tick_bold_vi": [
+        "chết chung với cái laptop"
+      ],
+      "provocation": "Kramer's vacation test sounds like a resilience check and is really an accounting one. Balfour's distinction is what it measures: a setup that only runs while you are at your desk is a funnel you refill by hand every morning. Shared is not a nicety here, it is the difference between spending your AI work and investing it.",
+      "provocation_vi": "Phép thử nghỉ phép của Kramer nghe như kiểm tra độ bền, thật ra là kiểm tra sổ sách. Cái phân biệt của Balfour mới là thứ nó đo: một setup chỉ chạy khi bạn ngồi ở bàn là funnel, sáng nào cũng phải tự tay đổ lại. Chia sẻ ở đây không phải cho đẹp, nó là khác biệt giữa tiêu và đầu tư công sức AI của bạn.",
+      "source": {
+        "site": "MKT1 Newsletter",
+        "title": "Inside team MKT1's multiplayer AI setup",
+        "url": "https://newsletter.mkt1.co/p/multiplayer-ai-team-mkt1",
+        "published": "2026-09-17"
+      }
+    },
+    {
+      "title": "THE UNRUN BRANCH",
+      "title_vi": "NHÁNH CHƯA CHẠY",
+      "headline": "They are widening the tolerance, not sharpening the estimate",
+      "headline_vi": "Người ta nới ngưỡng, chứ không làm ước lượng chuẩn hơn",
+      "a": {
+        "who": "Randy Au",
+        "what": "Years of modelling put the odds of a negative leap second before 2035 at roughly thirty percent. In October the CGPM votes on widening the allowed gap between atomic time and the sun from one second to one hour, which retires the leap second for centuries.",
+        "what_vi": "Mấy năm mô hình hoá cho ra xác suất phải trừ đi một giây nhuận trước 2035 là khoảng ba mươi phần trăm. Tháng 10 này CGPM bỏ phiếu nới khoảng cách cho phép giữa giờ nguyên tử và giờ mặt trời từ một giây lên một tiếng, tức là cho giây nhuận nghỉ hưu vài thế kỷ."
+      },
+      "b": {
+        "who": "Seth Godin",
+        "what": "Start a decision at its edges. If this completely works, what follows; if it completely fails, what does that cost. Only then bring in the odds. We skip the edges because we reach for the expected outcome first.",
+        "what_vi": "Quyết định gì thì bắt đầu từ hai đầu mút. Ăn thì ăn tới đâu, hỏng thì hỏng tới đâu. Tính xác suất sau. Ai cũng bỏ qua hai đầu mút vì nhảy thẳng vào cái kết quả trung bình."
+      },
+      "result": "Nobody is frightened of the thirty percent. They are frightened that a negative leap second has never once happened, and the fix is not a better estimate. It is a tolerance wide enough that the untested branch never runs.",
+      "result_vi": "Không ai sợ con ba mươi phần trăm. Người ta sợ vì giây nhuận âm chưa từng xảy ra lần nào, và cách sửa không phải là ước lượng cho chuẩn hơn. Là nới ngưỡng rộng tới mức cái nhánh chưa test kia không bao giờ chạy.",
+      "result_underline": "a tolerance wide enough that the untested branch never runs",
+      "result_underline_vi": "nới ngưỡng rộng tới mức cái nhánh chưa test kia không bao giờ chạy",
+      "tick": "Which path through my system has never actually run?",
+      "tick_vi": "Đường nào trong hệ thống của mình chưa từng chạy thật?",
+      "tick_bold": [
+        "never actually run"
+      ],
+      "tick_bold_vi": [
+        "chưa từng chạy thật"
+      ],
+      "provocation": "Au's metrologists did the patient thing Godin describes: they went to the edge first, found a branch nobody has ever executed, and only then argued about probability. The move they landed on is worth stealing. When the dangerous path is the one you have never tested, do not get better at predicting it. Change the spec so it cannot be reached.",
+      "provocation_vi": "Mấy nhà đo lường của Au làm đúng cái việc kiên nhẫn mà Godin nói: đi ra đầu mút trước, thấy một nhánh chưa ai từng chạy, rồi mới cãi nhau về xác suất. Nước đi cuối của họ đáng để ăn cắp. Khi cái đường nguy hiểm là cái đường bạn chưa test bao giờ, đừng cố đoán nó giỏi hơn. Sửa spec để không bao giờ chạm tới nó.",
+      "source": {
+        "site": "Counting Stuff",
+        "title": "We're almost done with leap seconds for our lifetimes",
+        "url": "https://www.counting-stuff.com/were-almost-done-with-leap-seconds-for-our-lifetimes/",
+        "published": "2026-09-15"
+      }
+    }
+  ]
+}

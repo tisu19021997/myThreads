@@ -1,0 +1,22 @@
+Morning Spark · Monday, September 21 · Ed. 57
+What got cut, what stayed local, what never ran.
+
+─────────────────
+01 · You spot the robot by what it refused to leave out
+Michael Lopp × Paul Graham
+Lopp says the tell is an absence: no voice, because nothing in the text was chosen over something else. Graham says the choosing was the thinking. Put together, the question to ask of any draft, yours or a model's, is not what it says but what it left on the floor.
+→ https://randsinrepose.com/archives/robots-have-no-voice/
+
+─────────────────
+02 · A skill on your laptop pays out exactly once
+Emily Kramer × Brian Balfour
+Kramer's vacation test sounds like a resilience check and is really an accounting one. Balfour's distinction is what it measures: a setup that only runs while you are at your desk is a funnel you refill by hand every morning. Shared is not a nicety here, it is the difference between spending your AI work and investing it.
+→ https://newsletter.mkt1.co/p/multiplayer-ai-team-mkt1
+
+─────────────────
+03 · They are widening the tolerance, not sharpening the estimate
+Randy Au × Seth Godin
+Au's metrologists did the patient thing Godin describes: they went to the edge first, found a branch nobody has ever executed, and only then argued about probability. The move they landed on is worth stealing. When the dangerous path is the one you have never tested, do not get better at predicting it. Change the spec so it cannot be reached.
+→ https://www.counting-stuff.com/were-almost-done-with-leap-seconds-for-our-lifetimes/
+
+Full styled card → open the session.

@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-21",
+      "edition": 57,
+      "note": "Themes: voice as the record of what a person threw away, a shared repo as the difference between a funnel and a loop, tail risk resolved by widening the tolerance instead of sharpening the estimate. Sources: randsinrepose.com (Michael Lopp, 'Robots Have No Voice', Sep 15, six days, a completely fresh well and a new name on file, fully free, read in full on the page including the Sinners scene and the closing list of voices), newsletter.mkt1.co (Emily Kramer and Halley Johnson, 'Inside team MKT1's multiplayer AI setup', Sep 17, four days, the freshest anchor, fresh well and new name; the post carries a Paid badge but says in its own header it is the monthly free edition, and the full 45KB body rendered with the 4 Cs, the Vacation Test, the two-repo setup and the context-layer section all readable), counting-stuff.com (Randy Au, 'We're almost done with leap seconds for our lifetimes', Sep 15, six days, fresh well and new name, always-free Tuesday post, read in full: the ~30 percent negative-leap-second estimate, the CGPM vote Oct 13-15 on widening UT1-UTC from 1 second to 3600, application date May 20 2027). Spark 3's second half is also a fetched piece rather than a roster framework: Seth Godin, 'Upside/downside', https://seths.blog/2026/09/think-big-think-small/, Sep 20, one day old, fresh well and new name, read in full -- that is the recently-published anchor for the edition even though the out-link points at Au's longer piece. All three first halves are new names, third edition running to use that move (Ed 48, Ed 56) because the roster second halves had crowded up again. Second halves from the rested end: Paul Graham (Sep 15, six days) and Brian Balfour (Sep 18, three days, tighter than ideal but the loop-versus-funnel frame was the only one that fit the multiplayer argument). Pairings Michael Lopp x Paul Graham, Emily Kramer x Brian Balfour, Randy Au x Seth Godin, all three checked against the full 56-edition pairing set and all three brand new. Avoid tomorrow: AI writing quality, shared context and repos, tail risk. Rested wells worth a look next: stratechery.com (one use ever, 'Doomforce' Sep 18 unread), charity.wtf ('Confessions of an Unrepentant Slop Snob', Sep 14, still unused), martinfowler.com ('I don't like LLMs', Sep 17, still unused, Fowler now rested since Sep 16), thezvi.substack.com (fresh well, 'The Preference Cascade Is Only Getting Started', Sep 18), commoncog.com ('How to Handle Disruptive Change', Sep 16), lethain.com, notboring.co. Kent Beck's newsletter.kentbeck.com stays paywalled after the intro -- checked again, still skip.",
+      "sparks": [
+        {
+          "pair": "Michael Lopp x Paul Graham",
+          "headline": "You spot the robot by what it refused to leave out",
+          "source": "Rands in Repose — Robots Have No Voice",
+          "url": "https://randsinrepose.com/archives/robots-have-no-voice/"
+        },
+        {
+          "pair": "Emily Kramer x Brian Balfour",
+          "headline": "A skill on your laptop pays out exactly once",
+          "source": "MKT1 Newsletter — Inside team MKT1's multiplayer AI setup",
+          "url": "https://newsletter.mkt1.co/p/multiplayer-ai-team-mkt1"
+        },
+        {
+          "pair": "Randy Au x Seth Godin",
+          "headline": "They are widening the tolerance, not sharpening the estimate",
+          "source": "Counting Stuff — We're almost done with leap seconds for our lifetimes",
+          "url": "https://www.counting-stuff.com/were-almost-done-with-leap-seconds-for-our-lifetimes/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-20",
       "edition": 56,
       "note": "Themes: the AI org summary as an unchosen proxy metric, agent headcount as a saturating channel, vocabulary drift as evidence of decisions nobody made. Sources: skamille.medium.com (Camille Fournier, 'The Manager's Path in the Age of AI', Sep 19, one day old, a completely fresh well and a new name on file; medium.com returns 403 to this datacenter IP behind Cloudflare, so it was read in full from her own Medium RSS feed, which carried the whole 21KB body with no member-only marker and her closing book plug -- it is a free post, not gated), interconnects.ai (Nathan Lambert, 'Why I still haven't bought into true RSI', Sep 19, one day old, fresh well and new name, read on the page above the subscribe wall: lossy self-improvement, the Richard Ngo quote on being directionally correct but factually wrong), buttondown.com/hillelwayne (Hillel Wayne, 'The LLMs yearn for the spines', Sep 16, four days, fresh well and new name, fully free, read in full including the gate and ladder counts). All three first halves are people never used on file, same move as Ed 48, because the roster second halves had crowded up again. Second halves picked from the rested end of the roster: Gibson Biddle (Sep 15, five days), Andrew Chen (Sep 13, seven days, the longest-rested name), Teresa Torres (Sep 14, six days). Pairings Camille Fournier x Gibson Biddle, Nathan Lambert x Andrew Chen, Hillel Wayne x Teresa Torres, all three checked against the full 55-edition pairing set and all three brand new. Chen's banner-ad clickthrough number was deliberately left vague ('double-digit in the nineties') because the exact figure is quoted inconsistently. Avoid tomorrow: proxy metrics, parallel agents, LLM vocabulary tics. Rested wells worth a look next: stratechery.com (one use ever), lethain.com, notboring.co, benn.substack.com ('How to lose your mind', Sep 13, still unused), newsletter.kentbeck.com (fresh well but paywalled after the intro, skip), charity.wtf ('Confessions of an Unrepentant Slop Snob', Sep 14, fresh well, read and unused), martinfowler.com ('I don't like LLMs', Sep 17, read in full and unused, but Fowler ran Sep 14 and Sep 16 so rest him first).",
