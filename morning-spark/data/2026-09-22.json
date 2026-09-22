@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-22",
+  "edition": 58,
+  "framing": "Listen before you write. Keep the neck. Record the recovery.",
+  "framing_vi": "Nghe trước khi viết. Giữ cái cổ chai. Ghi lại chỗ sửa sai.",
+  "note": "Themes: a policy written after the listening rather than before it, a constraint that was designed on purpose and is now being removed, and the gap between an archive of outputs and a record of process. Sources: charity.wtf (Charity Majors, 'Where do AI norms come from?', Sep 21, one day old, fresh well and a new name on file, free post read in full including the opt-in discussion hours capped at ten and the 'what AI-related thing has annoyed you lately' question); blog.jim-nielsen.com (Jim Nielsen, 'Bottlenecks Get a Bad Rap', Sep 15, fresh well and new name, short post read in full, the bottle neck / human neck / firehose argument); gradientflow.substack.com (Ben Lorica, 'so Google just paid $10 million for an airline's Teams messages', Sep 15, fresh well and new name, no paywall, read in full: the Spirit Airlines sale, the three layers of fragments / trajectories / what you build from them, and the 34-to-11 API call compaction example). Second halves are roster frameworks: Torres on story-based interviewing, Perri on the build trap, Cohen on what cannot be bought. Kent Beck's 'Formal Methods Pay Off' (Sep 17) was found and dropped: paywalled after two paragraphs. Do not repeat: listening-before-writing, bottleneck-as-design, process-versus-output.",
+  "sparks": [
+    {
+      "title": "WHAT ANNOYED YOU",
+      "title_vi": "KHÓ CHỊU CHỖ NÀO",
+      "headline": "The policy lands quietly because the anger already left the room",
+      "headline_vi": "Văn bản ra êm, vì cơn nóng đã đi trước nó rồi",
+      "a": {
+        "who": "Charity Majors",
+        "what": "Before Honeycomb wrote down any AI norms, she put opt-in discussion hours on her calendar, capped each at ten people, and asked one wide-open question: what AI-related thing has annoyed you lately. Themes surfaced in the first sessions and she followed them into the later ones. By the time the document went out internally, the heat had simmered down.",
+        "what_vi": "Trước khi Honeycomb viết ra bất kỳ quy tắc AI nào, cô đặt lịch mấy buổi nói chuyện tự nguyện, mỗi buổi tối đa mười người, và hỏi đúng một câu mở: gần đây có chuyện gì liên quan tới AI làm bạn khó chịu. Vài chủ đề hiện ra ngay mấy buổi đầu, cô bám theo chúng ở các buổi sau. Tới lúc tài liệu gửi ra nội bộ thì lửa đã nguội bớt."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery says opinions are cheap and stories are data. You do not ask people what they want or what they think the rule should be. You ask about the last specific time it happened, and you keep asking every week, not once before a launch.",
+        "what_vi": "Continuous discovery nói ý kiến thì rẻ, còn câu chuyện mới là dữ liệu. Bạn không hỏi người ta muốn gì hay nghĩ luật nên thế nào. Bạn hỏi lần gần nhất chuyện đó xảy ra cụ thể ra sao, và hỏi đều mỗi tuần, chứ không phải một lần trước khi launch."
+      },
+      "result": "An AI policy is a discovery artifact, not a legal one. Write it before the interviews and all you have published is your own opinion with a company logo on it.",
+      "result_vi": "Một cái policy về AI là sản phẩm của discovery, không phải của phòng pháp chế. Viết nó trước khi đi hỏi thì thứ bạn đăng lên chỉ là ý kiến của chính bạn kèm logo công ty.",
+      "result_underline": "your own opinion with a company logo on it",
+      "result_underline_vi": "ý kiến của chính bạn kèm logo công ty",
+      "tick": "Whose annoyance am I about to write a rule about, without asking them first?",
+      "tick_vi": "Mình sắp ra luật cho nỗi khó chịu của ai, mà chưa hỏi họ câu nào?",
+      "tick_bold": ["Whose annoyance", "without asking them first"],
+      "tick_bold_vi": ["nỗi khó chịu của ai", "chưa hỏi họ câu nào"],
+      "provocation": "Majors treated the listening hours as the work and the document as the receipt, which is why shipping it felt anticlimactic in the good way. Torres would call those hours interviews, and would point out that one round before a launch is not discovery, it is a survey with better manners.",
+      "provocation_vi": "Majors coi mấy buổi ngồi nghe là phần việc chính, còn tài liệu chỉ là cái biên nhận, nên lúc gửi ra nó nhạt nhẽo theo nghĩa tốt. Torres sẽ gọi mấy buổi đó là interview, và sẽ nói thêm rằng một vòng hỏi trước khi launch thì chưa phải discovery, đó là cái survey lịch sự hơn bình thường.",
+      "source": {
+        "site": "charity.wtf",
+        "title": "Where do AI norms come from?",
+        "url": "https://charity.wtf/p/where-do-ai-norms-come-from",
+        "published": "2026-09-21"
+      }
+    },
+    {
+      "title": "WHOSE NECK",
+      "title_vi": "CỔ CỦA AI",
+      "headline": "The bottle's neck is not the bottleneck, yours is",
+      "headline_vi": "Cổ chai không phải chỗ tắc, cổ bạn mới là",
+      "a": {
+        "who": "Jim Nielsen",
+        "what": "A bottle's neck exists to constrain the pour. That is its entire purpose, and it is built around a fact about us: a person can only swallow so much at a time. We could build machines that produce more wine than anyone can drink, and the throat would not widen to match. So if drinking from a firehose is hard, the question is not how to modify your biology.",
+        "what_vi": "Cổ chai sinh ra để hãm dòng chảy. Đó là toàn bộ công dụng của nó, và nó được thiết kế quanh một sự thật về con người: mỗi lần chỉ nuốt được chừng đó. Có làm ra cái máy sản xuất rượu nhiều hơn sức uống của cả thế giới thì cái cổ họng cũng không nở ra theo. Nên nếu uống nước từ vòi cứu hoả thấy khó, câu hỏi không phải là làm sao sửa lại cơ thể mình."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "The build trap is an organisation that measures itself in output. It gets faster at shipping, the feature count climbs, and the outcomes stay exactly where they were, because production speed was never the thing holding the business back.",
+        "what_vi": "Build trap là khi một tổ chức đo mình bằng output. Nó ship nhanh hơn, số feature tăng đều, còn outcome thì đứng nguyên chỗ cũ, vì tốc độ sản xuất chưa bao giờ là thứ giữ chân công ty lại."
+      },
+      "result": "AI widened the machine, not the throat. The constraint worth defending is how much your team can actually absorb, and everything you push past it is not shipping, it is spilling.",
+      "result_vi": "AI làm cái máy to ra, không làm cổ họng to ra. Cái giới hạn đáng giữ là team bạn tiêu hoá được bao nhiêu, và mọi thứ đẩy quá mức đó không phải là ship, là đổ ra ngoài.",
+      "result_underline": "it is spilling",
+      "result_underline_vi": "là đổ ra ngoài",
+      "tick": "Which of my bottlenecks did I put there on purpose, and am I about to remove it?",
+      "tick_vi": "Nút thắt nào là mình cố tình đặt ở đó, và mình sắp gỡ nó ra à?",
+      "tick_bold": ["on purpose", "about to remove it"],
+      "tick_bold_vi": ["cố tình đặt ở đó", "sắp gỡ nó ra"],
+      "provocation": "Nielsen is arguing that some constraints are design, not failure, and the test is whether removing one makes a mess. Perri names the mess: more output arriving at a team whose capacity to decide, review and learn did not move an inch.",
+      "provocation_vi": "Nielsen đang nói có những giới hạn là thiết kế chứ không phải lỗi, và phép thử là gỡ nó ra thì có bày bừa không. Perri gọi tên đống bừa đó: output đổ về một cái team mà khả năng quyết, review và học thì không nhúc nhích một li.",
+      "source": {
+        "site": "Jim Nielsen's Blog",
+        "title": "Bottlenecks Get a Bad Rap",
+        "url": "https://blog.jim-nielsen.com/2026/bottlenecks/",
+        "published": "2026-09-15"
+      }
+    },
+    {
+      "title": "BOUGHT THE ARCHIVE",
+      "title_vi": "MUA CẢ CÁI KHO",
+      "headline": "Ten million dollars for the outputs, and the experience was not in the box",
+      "headline_vi": "Mười triệu đô cho kết quả, còn kinh nghiệm thì không nằm trong thùng",
+      "a": {
+        "who": "Ben Lorica",
+        "what": "Google agreed to pay ten million dollars for bankrupt Spirit Airlines' internal emails, Teams messages and operating records. His point is that the archive is not the asset. Fragments sit at the bottom, trajectories above them (goal to decision to action to outcome), and the valuable layer is what you build from those: worked examples, failure cases, evaluations, reusable workflows. Most companies preserve the finished work and lose the process that produced it.",
+        "what_vi": "Google đồng ý trả mười triệu đô cho email nội bộ, tin nhắn Teams và hồ sơ vận hành của Spirit Airlines đang phá sản. Ý ông là cái kho không phải là tài sản. Dưới cùng là mảnh vụn, trên đó là trajectory (mục tiêu tới quyết định tới hành động tới kết quả), và lớp đáng tiền là thứ bạn dựng từ đám đó: ví dụ mẫu, ca hỏng, eval, workflow xài lại được. Đa số công ty giữ lại thành phẩm và đánh mất cái quá trình làm ra nó."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "A durable advantage is the thing a competitor cannot buy, copy or hire in a quarter. Anything available on the open market is table stakes, however expensive it looked on the invoice.",
+        "what_vi": "Lợi thế bền là thứ đối thủ không mua được, không copy được, không tuyển được trong một quý. Cái gì mua được ngoài thị trường thì chỉ là điều kiện cần, hoá đơn có to tới đâu cũng vậy."
+      },
+      "result": "Two companies rent the same model and hold the same documents. What separates them is not the size of the archive, it is whether anyone ever wrote down how the work recovers from a mistake.",
+      "result_vi": "Hai công ty thuê cùng một model, giữ cùng một đống tài liệu. Cái tách họ ra không phải kho to hay nhỏ, mà là có ai từng ghi lại cách công việc đó sửa sai sau khi làm hỏng hay không.",
+      "result_underline": "how the work recovers from a mistake",
+      "result_underline_vi": "cách công việc đó sửa sai sau khi làm hỏng",
+      "tick": "What did I figure out this week that exists nowhere once I close the laptop?",
+      "tick_vi": "Tuần này mình nghĩ ra được cái gì mà đóng laptop xong là không còn ở đâu nữa?",
+      "tick_bold": ["exists nowhere"],
+      "tick_bold_vi": ["không còn ở đâu nữa"],
+      "provocation": "Lorica's warning is that companies fret about their archive leaking when the real loss is that the valuable part was never captured: a decision severed from its outcome, an exception that died in a chat thread. Cohen's filter finishes the thought, since a bankruptcy court can sell an archive, and nobody can sell you the habit of recording why the fix worked.",
+      "provocation_vi": "Lorica cảnh báo rằng công ty lo kho dữ liệu bị rò rỉ, trong khi mất mát thật là phần đáng giá chưa bao giờ được ghi lại: một quyết định bị tách khỏi kết quả của nó, một ca ngoại lệ chết trong luồng chat. Bộ lọc của Cohen kết lại ý đó, vì toà phá sản bán được cái kho, còn cái thói quen ghi lại vì sao chỗ sửa đó chạy được thì không ai bán cho bạn.",
+      "source": {
+        "site": "Gradient Flow",
+        "title": "so Google just paid $10 million for an airline's Teams messages",
+        "url": "https://gradientflow.substack.com/p/what-counts-as-valuable-company-data",
+        "published": "2026-09-15"
+      }
+    }
+  ]
+}

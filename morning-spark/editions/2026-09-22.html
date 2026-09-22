@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 22</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 58</div></div></div>
+<div class="meta label">Tuesday, September 22, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">WHAT ANNOYED YOU</span><span data-l="vi">KHÓ CHỊU CHỖ NÀO</span></span></div>
+<div class="eq"><div class="term"><div class="who">Charity Majors</div><div class="what"><span data-l="en">Before Honeycomb wrote down any AI norms, she put opt-in discussion hours on her calendar, capped each at ten people, and asked one wide-open question: what AI-related thing has annoyed you lately. Themes surfaced in the first sessions and she followed them into the later ones. By the time the document went out internally, the heat had simmered down.</span><span data-l="vi">Trước khi Honeycomb viết ra bất kỳ quy tắc AI nào, cô đặt lịch mấy buổi nói chuyện tự nguyện, mỗi buổi tối đa mười người, và hỏi đúng một câu mở: gần đây có chuyện gì liên quan tới AI làm bạn khó chịu. Vài chủ đề hiện ra ngay mấy buổi đầu, cô bám theo chúng ở các buổi sau. Tới lúc tài liệu gửi ra nội bộ thì lửa đã nguội bớt.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery says opinions are cheap and stories are data. You do not ask people what they want or what they think the rule should be. You ask about the last specific time it happened, and you keep asking every week, not once before a launch.</span><span data-l="vi">Continuous discovery nói ý kiến thì rẻ, còn câu chuyện mới là dữ liệu. Bạn không hỏi người ta muốn gì hay nghĩ luật nên thế nào. Bạn hỏi lần gần nhất chuyện đó xảy ra cụ thể ra sao, và hỏi đều mỗi tuần, chứ không phải một lần trước khi launch.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">An AI policy is a discovery artifact, not a legal one. Write it before the interviews and all you have published is <u>your own opinion with a company logo on it</u>.</span><span data-l="vi">Một cái policy về AI là sản phẩm của discovery, không phải của phòng pháp chế. Viết nó trước khi đi hỏi thì thứ bạn đăng lên chỉ là <u>ý kiến của chính bạn kèm logo công ty</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en"><b>Whose annoyance</b> am I about to write a rule about, <b>without asking them first</b>?</span><span data-l="vi">Mình sắp ra luật cho <b>nỗi khó chịu của ai</b>, mà <b>chưa hỏi họ câu nào</b>?</span></p></div>
+<div class="src-link"><a href="https://charity.wtf/p/where-do-ai-norms-come-from" target="_blank" rel="noopener">charity.wtf — Where do AI norms come from? &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">WHOSE NECK</span><span data-l="vi">CỔ CỦA AI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jim Nielsen</div><div class="what"><span data-l="en">A bottle&#x27;s neck exists to constrain the pour. That is its entire purpose, and it is built around a fact about us: a person can only swallow so much at a time. We could build machines that produce more wine than anyone can drink, and the throat would not widen to match. So if drinking from a firehose is hard, the question is not how to modify your biology.</span><span data-l="vi">Cổ chai sinh ra để hãm dòng chảy. Đó là toàn bộ công dụng của nó, và nó được thiết kế quanh một sự thật về con người: mỗi lần chỉ nuốt được chừng đó. Có làm ra cái máy sản xuất rượu nhiều hơn sức uống của cả thế giới thì cái cổ họng cũng không nở ra theo. Nên nếu uống nước từ vòi cứu hoả thấy khó, câu hỏi không phải là làm sao sửa lại cơ thể mình.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">The build trap is an organisation that measures itself in output. It gets faster at shipping, the feature count climbs, and the outcomes stay exactly where they were, because production speed was never the thing holding the business back.</span><span data-l="vi">Build trap là khi một tổ chức đo mình bằng output. Nó ship nhanh hơn, số feature tăng đều, còn outcome thì đứng nguyên chỗ cũ, vì tốc độ sản xuất chưa bao giờ là thứ giữ chân công ty lại.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">AI widened the machine, not the throat. The constraint worth defending is how much your team can actually absorb, and everything you push past it is not shipping, <u>it is spilling</u>.</span><span data-l="vi">AI làm cái máy to ra, không làm cổ họng to ra. Cái giới hạn đáng giữ là team bạn tiêu hoá được bao nhiêu, và mọi thứ đẩy quá mức đó không phải là ship, <u>là đổ ra ngoài</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of my bottlenecks did I put there <b>on purpose</b>, and am I <b>about to remove it</b>?</span><span data-l="vi">Nút thắt nào là mình <b>cố tình đặt ở đó</b>, và mình <b>sắp gỡ nó ra</b> à?</span></p></div>
+<div class="src-link"><a href="https://blog.jim-nielsen.com/2026/bottlenecks/" target="_blank" rel="noopener">Jim Nielsen&#x27;s Blog — Bottlenecks Get a Bad Rap &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">BOUGHT THE ARCHIVE</span><span data-l="vi">MUA CẢ CÁI KHO</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ben Lorica</div><div class="what"><span data-l="en">Google agreed to pay ten million dollars for bankrupt Spirit Airlines&#x27; internal emails, Teams messages and operating records. His point is that the archive is not the asset. Fragments sit at the bottom, trajectories above them (goal to decision to action to outcome), and the valuable layer is what you build from those: worked examples, failure cases, evaluations, reusable workflows. Most companies preserve the finished work and lose the process that produced it.</span><span data-l="vi">Google đồng ý trả mười triệu đô cho email nội bộ, tin nhắn Teams và hồ sơ vận hành của Spirit Airlines đang phá sản. Ý ông là cái kho không phải là tài sản. Dưới cùng là mảnh vụn, trên đó là trajectory (mục tiêu tới quyết định tới hành động tới kết quả), và lớp đáng tiền là thứ bạn dựng từ đám đó: ví dụ mẫu, ca hỏng, eval, workflow xài lại được. Đa số công ty giữ lại thành phẩm và đánh mất cái quá trình làm ra nó.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">A durable advantage is the thing a competitor cannot buy, copy or hire in a quarter. Anything available on the open market is table stakes, however expensive it looked on the invoice.</span><span data-l="vi">Lợi thế bền là thứ đối thủ không mua được, không copy được, không tuyển được trong một quý. Cái gì mua được ngoài thị trường thì chỉ là điều kiện cần, hoá đơn có to tới đâu cũng vậy.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Two companies rent the same model and hold the same documents. What separates them is not the size of the archive, it is whether anyone ever wrote down <u>how the work recovers from a mistake</u>.</span><span data-l="vi">Hai công ty thuê cùng một model, giữ cùng một đống tài liệu. Cái tách họ ra không phải kho to hay nhỏ, mà là có ai từng ghi lại <u>cách công việc đó sửa sai sau khi làm hỏng</u> hay không.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did I figure out this week that <b>exists nowhere</b> once I close the laptop?</span><span data-l="vi">Tuần này mình nghĩ ra được cái gì mà đóng laptop xong là <b>không còn ở đâu nữa</b>?</span></p></div>
+<div class="src-link"><a href="https://gradientflow.substack.com/p/what-counts-as-valuable-company-data" target="_blank" rel="noopener">Gradient Flow — so Google just paid $10 million for an airline&#x27;s Teams messages &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-21.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-21</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Charity Majors / Teresa Torres / Jim Nielsen / Melissa Perri / Ben Lorica / Jason Cohen<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Charity Majors / Teresa Torres / Jim Nielsen / Melissa Perri / Ben Lorica / Jason Cohen<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

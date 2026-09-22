@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, September 22 · Ed. 58
+Listen before you write. Keep the neck. Record the recovery.
+
+─────────────────
+01 · The policy lands quietly because the anger already left the room
+Charity Majors × Teresa Torres
+Majors treated the listening hours as the work and the document as the receipt, which is why shipping it felt anticlimactic in the good way. Torres would call those hours interviews, and would point out that one round before a launch is not discovery, it is a survey with better manners.
+→ https://charity.wtf/p/where-do-ai-norms-come-from
+
+─────────────────
+02 · The bottle's neck is not the bottleneck, yours is
+Jim Nielsen × Melissa Perri
+Nielsen is arguing that some constraints are design, not failure, and the test is whether removing one makes a mess. Perri names the mess: more output arriving at a team whose capacity to decide, review and learn did not move an inch.
+→ https://blog.jim-nielsen.com/2026/bottlenecks/
+
+─────────────────
+03 · Ten million dollars for the outputs, and the experience was not in the box
+Ben Lorica × Jason Cohen
+Lorica's warning is that companies fret about their archive leaking when the real loss is that the valuable part was never captured: a decision severed from its outcome, an exception that died in a chat thread. Cohen's filter finishes the thought, since a bankruptcy court can sell an archive, and nobody can sell you the habit of recording why the fix worked.
+→ https://gradientflow.substack.com/p/what-counts-as-valuable-company-data
+
+Full styled card → open the session.

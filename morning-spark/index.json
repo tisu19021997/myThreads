@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-22",
+      "edition": 58,
+      "note": "Themes: a policy written after the listening rather than before it, a constraint that was designed on purpose and is now being removed, and the gap between an archive of outputs and a record of process. Sources: charity.wtf (Charity Majors, 'Where do AI norms come from?', Sep 21, one day old, fresh well and a new name on file, free post read in full including the opt-in discussion hours capped at ten and the 'what AI-related thing has annoyed you lately' question); blog.jim-nielsen.com (Jim Nielsen, 'Bottlenecks Get a Bad Rap', Sep 15, fresh well and new name, short post read in full, the bottle neck / human neck / firehose argument); gradientflow.substack.com (Ben Lorica, 'so Google just paid $10 million for an airline's Teams messages', Sep 15, fresh well and new name, no paywall, read in full: the Spirit Airlines sale, the three layers of fragments / trajectories / what you build from them, and the 34-to-11 API call compaction example). Second halves are roster frameworks: Torres on story-based interviewing, Perri on the build trap, Cohen on what cannot be bought. Kent Beck's 'Formal Methods Pay Off' (Sep 17) was found and dropped: paywalled after two paragraphs. Do not repeat: listening-before-writing, bottleneck-as-design, process-versus-output.",
+      "sparks": [
+        {
+          "pair": "Charity Majors x Teresa Torres",
+          "headline": "The policy lands quietly because the anger already left the room",
+          "source": "charity.wtf — Where do AI norms come from?",
+          "url": "https://charity.wtf/p/where-do-ai-norms-come-from"
+        },
+        {
+          "pair": "Jim Nielsen x Melissa Perri",
+          "headline": "The bottle's neck is not the bottleneck, yours is",
+          "source": "Jim Nielsen's Blog — Bottlenecks Get a Bad Rap",
+          "url": "https://blog.jim-nielsen.com/2026/bottlenecks/"
+        },
+        {
+          "pair": "Ben Lorica x Jason Cohen",
+          "headline": "Ten million dollars for the outputs, and the experience was not in the box",
+          "source": "Gradient Flow — so Google just paid $10 million for an airline's Teams messages",
+          "url": "https://gradientflow.substack.com/p/what-counts-as-valuable-company-data"
+        }
+      ]
+    },
+    {
       "date": "2026-09-21",
       "edition": 57,
       "note": "Themes: voice as the record of what a person threw away, a shared repo as the difference between a funnel and a loop, tail risk resolved by widening the tolerance instead of sharpening the estimate. Sources: randsinrepose.com (Michael Lopp, 'Robots Have No Voice', Sep 15, six days, a completely fresh well and a new name on file, fully free, read in full on the page including the Sinners scene and the closing list of voices), newsletter.mkt1.co (Emily Kramer and Halley Johnson, 'Inside team MKT1's multiplayer AI setup', Sep 17, four days, the freshest anchor, fresh well and new name; the post carries a Paid badge but says in its own header it is the monthly free edition, and the full 45KB body rendered with the 4 Cs, the Vacation Test, the two-repo setup and the context-layer section all readable), counting-stuff.com (Randy Au, 'We're almost done with leap seconds for our lifetimes', Sep 15, six days, fresh well and new name, always-free Tuesday post, read in full: the ~30 percent negative-leap-second estimate, the CGPM vote Oct 13-15 on widening UT1-UTC from 1 second to 3600, application date May 20 2027). Spark 3's second half is also a fetched piece rather than a roster framework: Seth Godin, 'Upside/downside', https://seths.blog/2026/09/think-big-think-small/, Sep 20, one day old, fresh well and new name, read in full -- that is the recently-published anchor for the edition even though the out-link points at Au's longer piece. All three first halves are new names, third edition running to use that move (Ed 48, Ed 56) because the roster second halves had crowded up again. Second halves from the rested end: Paul Graham (Sep 15, six days) and Brian Balfour (Sep 18, three days, tighter than ideal but the loop-versus-funnel frame was the only one that fit the multiplayer argument). Pairings Michael Lopp x Paul Graham, Emily Kramer x Brian Balfour, Randy Au x Seth Godin, all three checked against the full 56-edition pairing set and all three brand new. Avoid tomorrow: AI writing quality, shared context and repos, tail risk. Rested wells worth a look next: stratechery.com (one use ever, 'Doomforce' Sep 18 unread), charity.wtf ('Confessions of an Unrepentant Slop Snob', Sep 14, still unused), martinfowler.com ('I don't like LLMs', Sep 17, still unused, Fowler now rested since Sep 16), thezvi.substack.com (fresh well, 'The Preference Cascade Is Only Getting Started', Sep 18), commoncog.com ('How to Handle Disruptive Change', Sep 16), lethain.com, notboring.co. Kent Beck's newsletter.kentbeck.com stays paywalled after the intro -- checked again, still skip.",
