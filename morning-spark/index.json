@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-23",
+      "edition": 59,
+      "note": "Themes: a safeguard whose green signal was wired to a throttle, work that has no positioning because it was never announced, and a clean design as the residue of answered questions. Sources: surfingcomplexity.blog (Lorin Hochstein, 'Saturation at GitHub: the saga continues', Sep 19, four days, a completely fresh well and a new name on file, fully free, read in full including the three excerpted report paragraphs, the gray-failure and safety-boundary sections, and the asymmetry-of-timeouts section which was deliberately left unused and is strong material for a later edition); staysaasy.com (Stay SaaSy, 'Defensive Driving For Your Career', Sep 20, three days, the freshest anchor, fresh well and a new name, free, read in full: take public credit, the free-newspaper-of-ads line, don't let anyone lie about you, the got-lucky personality type, maintain leverage; the blog is written anonymously by two SaaS execs so the byline on file is the publication name, not a person); construction-physics.com (Brian Potter, 'How SpaceX Streamlined the Raptor Engine', Sep 17, six days, fresh well and a new name, free and not gated, read in full: version 1 as a development engine heavy with sensors, main-chamber igniters deleted by v2, bolted flanges to welds, piping internalised via 3D printing, and the heat shield as the biggest single mass saving). Note staysaasy.com was recorded as a 404 feed in Ed 53's notes -- that was the feed path, staysaasy.com/feed.xml is alive and healthy, so restore the well. Second halves are roster frameworks from the rested end: Gibson Biddle on proxy metrics as bets with a shelf life (last ran Sep 20), April Dunford on positioning as supplied context (Sep 19), Marty Cagan on discovery retiring risk before delivery (Sep 18). Torres, Perri, Cohen, Graham, Balfour and Godin all ran within the last two days and were skipped. Pairings Lorin Hochstein x Gibson Biddle, Stay SaaSy x April Dunford, Brian Potter x Marty Cagan, all three checked against the full 58-edition pairing set and all three brand new; all three first halves are new names, the fourth edition running that move. Deliberately skipped: lennysnewsletter Opus 5.5 vs GPT-6 model comparison (Sep 22, freshest thing found but the well is spent and it is a review, not an argument); newsletter.eng-leadership.com 'The most important laws you need' (Sep 21, fresh well, but a laws listicle); commoncog 'How to Handle Disruptive Change' (Sep 16, STILL unused, earmarked by Ed 53, 54 and 55 and passed over a fourth time -- take it); cutlefish TBM 440 (Sep 19, well ran Sep 19); seangoedecke Sep 20 x2 (four uses on file, the single most dominant well, rest it). Feed notes: surfingcomplexity.blog/feed, staysaasy.com/feed.xml and construction-physics.com/feed are all healthy and carry full bodies; tomtunguz.com/feed.xml now 404s, find the new path; thediff.co/feed stops in 2022; anildash, jvns.ca, apenwarr, eugeneyan, danslimmon and every.to all quiet or stale; blog.nelhage.com/rss is a 404; shreyasdoshi and mindtheproduct feeds return empty. Wells barely spent: commoncog, surfingcomplexity (telstra-outage, how-the-incident-happened), construction-physics (reading lists), matduggan.com (new, flat-rate-monthly-responsibility-service Sep 11), staysaasy (book-the-meeting, same-side-of-the-table), lethain, notboring.co. Avoid tomorrow: gray failures and dashboards, taking public credit, subtraction as design.",
+      "sparks": [
+        {
+          "pair": "Lorin Hochstein x Gibson Biddle",
+          "headline": "The dial stayed green, and that is what kept the job pushing",
+          "source": "Surfing Complexity — Saturation at GitHub: the saga continues",
+          "url": "https://surfingcomplexity.blog/2026/09/19/saturation-at-github-the-saga-continues/"
+        },
+        {
+          "pair": "Stay SaaSy x April Dunford",
+          "headline": "Nobody is writing your story, so the blank page wins",
+          "source": "Stay SaaSy — Defensive Driving For Your Career",
+          "url": "https://staysaasy.com/defensive-career-driving/"
+        },
+        {
+          "pair": "Brian Potter x Marty Cagan",
+          "headline": "The clean engine is what is left after the questions are answered",
+          "source": "Construction Physics — How SpaceX Streamlined the Raptor Engine",
+          "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor"
+        }
+      ]
+    },
+    {
       "date": "2026-09-22",
       "edition": 58,
       "note": "Themes: a policy written after the listening rather than before it, a constraint that was designed on purpose and is now being removed, and the gap between an archive of outputs and a record of process. Sources: charity.wtf (Charity Majors, 'Where do AI norms come from?', Sep 21, one day old, fresh well and a new name on file, free post read in full including the opt-in discussion hours capped at ten and the 'what AI-related thing has annoyed you lately' question); blog.jim-nielsen.com (Jim Nielsen, 'Bottlenecks Get a Bad Rap', Sep 15, fresh well and new name, short post read in full, the bottle neck / human neck / firehose argument); gradientflow.substack.com (Ben Lorica, 'so Google just paid $10 million for an airline's Teams messages', Sep 15, fresh well and new name, no paywall, read in full: the Spirit Airlines sale, the three layers of fragments / trajectories / what you build from them, and the 34-to-11 API call compaction example). Second halves are roster frameworks: Torres on story-based interviewing, Perri on the build trap, Cohen on what cannot be bought. Kent Beck's 'Formal Methods Pay Off' (Sep 17) was found and dropped: paywalled after two paragraphs. Do not repeat: listening-before-writing, bottleneck-as-design, process-versus-output.",

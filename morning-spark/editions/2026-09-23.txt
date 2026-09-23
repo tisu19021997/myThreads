@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, September 23 · Ed. 59
+Green is not safe. Send the note. Take the scaffolding down.
+
+─────────────────
+01 · The dial stayed green, and that is what kept the job pushing
+Lorin Hochstein × Gibson Biddle
+Hochstein's point is that the safeguard was not broken. It was reading one real limit while a different limit, the one nobody had thought to watch, was the one that moved. Biddle would add that a proxy metric is a hypothesis with an expiry date, and the dangerous moment is when you stop treating it as one and start letting it steer.
+→ https://surfingcomplexity.blog/2026/09/19/saturation-at-github-the-saga-continues/
+
+─────────────────
+02 · Nobody is writing your story, so the blank page wins
+Stay SaaSy × April Dunford
+Stay SaaSy's rule is that you have to send the note under your own name, because they will know it was me is almost never true. Dunford's version of the same idea is that a blank context box never stays blank. Someone fills it in for you, and their guess is rarely generous.
+→ https://staysaasy.com/defensive-career-driving/
+
+─────────────────
+03 · The clean engine is what is left after the questions are answered
+Brian Potter × Marty Cagan
+Potter's list of changes is mostly subtraction: sensors, igniters, bolted flanges, a heat exchanger, and finally the heat shield, which could only go once the pipes it was protecting had moved inside. Cagan's framing explains the order. The mess is how you buy the knowledge, and the streamlining is the receipt.
+→ https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor
+
+Full styled card → open the session.

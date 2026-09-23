@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-23",
+  "edition": 59,
+  "framing": "Green is not safe. Send the note. Take the scaffolding down.",
+  "framing_vi": "Xanh chưa chắc an toàn. Gửi cái note đi. Dỡ giàn giáo xuống.",
+  "note": "Themes: a safeguard whose green signal was wired to a throttle, work that has no positioning because it was never announced, and a clean design as the residue of answered questions. Sources: surfingcomplexity.blog (Lorin Hochstein, 'Saturation at GitHub: the saga continues', Sep 19, four days, a completely fresh well and a new name on file, fully free, read in full including the three excerpted report paragraphs, the gray-failure and safety-boundary sections, and the asymmetry-of-timeouts section which was deliberately left unused and is strong material for a later edition); staysaasy.com (Stay SaaSy, 'Defensive Driving For Your Career', Sep 20, three days, the freshest anchor, fresh well and a new name, free, read in full: take public credit, the free-newspaper-of-ads line, don't let anyone lie about you, the got-lucky personality type, maintain leverage; the blog is written anonymously by two SaaS execs so the byline on file is the publication name, not a person); construction-physics.com (Brian Potter, 'How SpaceX Streamlined the Raptor Engine', Sep 17, six days, fresh well and a new name, free and not gated, read in full: version 1 as a development engine heavy with sensors, main-chamber igniters deleted by v2, bolted flanges to welds, piping internalised via 3D printing, and the heat shield as the biggest single mass saving). Note staysaasy.com was recorded as a 404 feed in Ed 53's notes -- that was the feed path, staysaasy.com/feed.xml is alive and healthy, so restore the well. Second halves are roster frameworks from the rested end: Gibson Biddle on proxy metrics as bets with a shelf life (last ran Sep 20), April Dunford on positioning as supplied context (Sep 19), Marty Cagan on discovery retiring risk before delivery (Sep 18). Torres, Perri, Cohen, Graham, Balfour and Godin all ran within the last two days and were skipped. Pairings Lorin Hochstein x Gibson Biddle, Stay SaaSy x April Dunford, Brian Potter x Marty Cagan, all three checked against the full 58-edition pairing set and all three brand new; all three first halves are new names, the fourth edition running that move. Deliberately skipped: lennysnewsletter Opus 5.5 vs GPT-6 model comparison (Sep 22, freshest thing found but the well is spent and it is a review, not an argument); newsletter.eng-leadership.com 'The most important laws you need' (Sep 21, fresh well, but a laws listicle); commoncog 'How to Handle Disruptive Change' (Sep 16, STILL unused, earmarked by Ed 53, 54 and 55 and passed over a fourth time -- take it); cutlefish TBM 440 (Sep 19, well ran Sep 19); seangoedecke Sep 20 x2 (four uses on file, the single most dominant well, rest it). Feed notes: surfingcomplexity.blog/feed, staysaasy.com/feed.xml and construction-physics.com/feed are all healthy and carry full bodies; tomtunguz.com/feed.xml now 404s, find the new path; thediff.co/feed stops in 2022; anildash, jvns.ca, apenwarr, eugeneyan, danslimmon and every.to all quiet or stale; blog.nelhage.com/rss is a 404; shreyasdoshi and mindtheproduct feeds return empty. Wells barely spent: commoncog, surfingcomplexity (telstra-outage, how-the-incident-happened), construction-physics (reading lists), matduggan.com (new, flat-rate-monthly-responsibility-service Sep 11), staysaasy (book-the-meeting, same-side-of-the-table), lethain, notboring.co. Avoid tomorrow: gray failures and dashboards, taking public credit, subtraction as design.",
+  "sparks": [
+    {
+      "title": "GREEN MEANT GO",
+      "title_vi": "XANH LÀ ĐI",
+      "headline": "The dial stayed green, and that is what kept the job pushing",
+      "headline_vi": "Đồng hồ vẫn xanh, nên cái job cứ thế đạp tiếp",
+      "a": {
+        "who": "Lorin Hochstein",
+        "what": "GitHub's September 13 incident. A cleanup job began writing to the database cluster that stores permission data read on nearly every authenticated request. The safeguard pacing that job watched one health signal, replica lag, and it stayed low the whole time. Meanwhile the primary quietly ran out of connections. He calls this a gray failure: the monitoring reports healthy while the users are not. You never know where the safety boundary is until you cross it.",
+        "what_vi": "Sự cố GitHub ngày 13 tháng 9. Một job dọn dữ liệu bắt đầu ghi vào cụm database chứa permission, thứ mà gần như mọi request có đăng nhập đều phải đọc. Cơ chế an toàn ghìm job lại chỉ nhìn đúng một tín hiệu là độ trễ của replica, và tín hiệu đó xanh suốt. Trong khi đó con primary lặng lẽ cạn sạch connection. Ông gọi đây là gray failure: monitoring báo khoẻ còn user thì không. Bạn không bao giờ biết ranh giới an toàn nằm ở đâu cho tới lúc vượt qua nó."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "A proxy metric is a bet. You cannot measure the outcome you actually want in time to act on it, so you pick something you can read today and wager that it moves with the thing you care about. The wager has a shelf life and has to be re-checked.",
+        "what_vi": "Proxy metric là một cái cược. Bạn không đo kịp cái outcome thật sự muốn, nên chọn thứ đọc được ngay và cược rằng nó chạy cùng chiều với thứ mình quan tâm. Cược thì phải kiểm lại, vì proxy có hạn sử dụng."
+      },
+      "result": "A proxy you only report is a bad estimate. A proxy wired to a throttle is an accelerator: while the primary was dying, green did not mean safe, it meant push harder.",
+      "result_vi": "Proxy chỉ để báo cáo thì cùng lắm là ước lượng sai. Proxy nối vào tay ga thì thành chân đạp: lúc con primary đang chết, xanh không có nghĩa là an toàn, xanh có nghĩa là đạp mạnh thêm.",
+      "result_underline": "green did not mean safe, it meant push harder",
+      "result_underline_vi": "xanh không có nghĩa là an toàn, xanh có nghĩa là đạp mạnh thêm",
+      "tick": "Which of my green dashboards is holding a throttle open right now?",
+      "tick_vi": "Cái dashboard xanh nào của mình đang giữ một tay ga mở?",
+      "tick_bold": [
+        "green dashboards",
+        "holding a throttle open"
+      ],
+      "tick_bold_vi": [
+        "dashboard xanh nào",
+        "giữ một tay ga mở"
+      ],
+      "provocation": "Hochstein's point is that the safeguard was not broken. It was reading one real limit while a different limit, the one nobody had thought to watch, was the one that moved. Biddle would add that a proxy metric is a hypothesis with an expiry date, and the dangerous moment is when you stop treating it as one and start letting it steer.",
+      "provocation_vi": "Hochstein nói cơ chế an toàn đó không hỏng. Nó đọc đúng một giới hạn thật, chỉ là giới hạn kia, cái không ai nghĩ tới việc canh, mới là cái dịch chuyển. Biddle sẽ nói thêm: proxy metric là một giả thuyết có hạn dùng, và khoảnh khắc nguy hiểm là lúc bạn thôi coi nó như giả thuyết và để nó cầm lái.",
+      "source": {
+        "site": "Surfing Complexity",
+        "title": "Saturation at GitHub: the saga continues",
+        "url": "https://surfingcomplexity.blog/2026/09/19/saturation-at-github-the-saga-continues/",
+        "published": "2026-09-19"
+      }
+    },
+    {
+      "title": "SEND THE NOTE",
+      "title_vi": "GỬI CÁI NOTE",
+      "headline": "Nobody is writing your story, so the blank page wins",
+      "headline_vi": "Không ai viết giùm bạn, nên tờ giấy trắng thắng",
+      "a": {
+        "who": "Stay SaaSy",
+        "what": "Most organisations can only value you through what you announce. If your role does not own an explicit topline number, people judge your performance on the last update your boss happened to see. So pick one to three important public announcements you always own, and send them yourself rather than letting the team send them, because they will not know it was you. Whatever you send has to actually matter, or you become the free newspaper full of ads at the coffee shop.",
+        "what_vi": "Phần lớn công ty chỉ định giá được bạn qua những gì bạn công bố. Nếu vai trò của bạn không nắm một con số topline nào, người ta chấm bạn bằng cái update gần nhất mà sếp tình cờ đọc được. Vậy nên chọn một tới ba thứ bạn luôn đứng ra announce, và tự gửi, tên bạn, đừng đẩy cho team, vì họ sẽ không biết đó là công bạn. Và thứ bạn gửi phải thật sự đáng, không thì bạn thành tờ báo phát không toàn quảng cáo ở quán cà phê."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is the context you put a product in, and you do not get to skip it. Leave the context blank and the customer fills it from whatever they already know, usually the wrong shelf, and then judges you by that shelf's rules.",
+        "what_vi": "Positioning là cái context bạn đặt sản phẩm vào, và bạn không có quyền bỏ qua bước đó. Để trống thì khách tự lấy một context họ đã biết, thường là sai kệ, rồi chấm bạn theo luật của cái kệ đó."
+      },
+      "result": "Your work is a product with no positioning. Silence is not modesty, it is letting someone who was not paying attention decide what shelf you sit on.",
+      "result_vi": "Việc bạn làm là một sản phẩm không có positioning. Im lặng không phải khiêm tốn, đó là để một người không thèm để ý quyết định bạn nằm ở kệ nào.",
+      "result_underline": "letting someone who was not paying attention decide what shelf you sit on",
+      "result_underline_vi": "để một người không thèm để ý quyết định bạn nằm ở kệ nào",
+      "tick": "What did I ship this quarter that my boss would not be able to name?",
+      "tick_vi": "Quý này mình ship cái gì mà sếp không gọi được tên?",
+      "tick_bold": [
+        "would not be able to name"
+      ],
+      "tick_bold_vi": [
+        "sếp không gọi được tên"
+      ],
+      "provocation": "Stay SaaSy's rule is that you have to send the note under your own name, because they will know it was me is almost never true. Dunford's version of the same idea is that a blank context box never stays blank. Someone fills it in for you, and their guess is rarely generous.",
+      "provocation_vi": "Stay SaaSy chốt là phải tự gửi, tên mình, vì câu họ biết là mình làm mà gần như luôn sai. Dunford nói cùng một ý theo kiểu khác: cái ô context không bao giờ để trống được lâu, sẽ có người điền hộ bạn, và họ hiếm khi điền rộng rãi.",
+      "source": {
+        "site": "Stay SaaSy",
+        "title": "Defensive Driving For Your Career",
+        "url": "https://staysaasy.com/defensive-career-driving/",
+        "published": "2026-09-20"
+      }
+    },
+    {
+      "title": "THE WIRES COME OFF",
+      "title_vi": "THÁO DÂY RA",
+      "headline": "The clean engine is what is left after the questions are answered",
+      "headline_vi": "Cái máy gọn gàng là phần còn lại sau khi hết câu hỏi",
+      "a": {
+        "who": "Brian Potter",
+        "what": "Raptor 1 was a tangle of external pipes and wires. Raptor 3 is smooth and makes about 35 percent more thrust. Much of the difference is that version 1 was largely a development engine, carrying extra sensors just to work out how it behaved. Once it was dialled in the sensors came off, the main chamber igniters went, bolted flanges became welds, and the piping moved inside via 3D printed parts, which is what finally allowed the heavy heat shield to be deleted. The core architecture never changed.",
+        "what_vi": "Raptor 1 là một mớ ống và dây lằng nhằng bên ngoài. Raptor 3 nhẵn nhụi và cho lực đẩy hơn khoảng 35 phần trăm. Khác biệt lớn nằm ở chỗ bản 1 chủ yếu là engine để phát triển, gắn thêm cả đống sensor chỉ để hiểu nó chạy ra sao. Chỉnh xong rồi thì sensor tháo bớt, bỏ igniter buồng đốt chính, đổi mặt bích bắt bu lông sang mối hàn, và đẩy đường ống vào trong nhờ in 3D kim loại, chính cái đó mới cho phép bỏ luôn tấm chắn nhiệt nặng trịch. Kiến trúc lõi thì không đổi."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Empowered teams run discovery before delivery, because the point of the messy phase is to retire risk. You cannot design the final solution until you know which of your assumptions were wrong, and the expensive mistake is committing to a clean design too early.",
+        "what_vi": "Team được trao quyền làm discovery trước delivery, vì giai đoạn lộn xộn tồn tại để gỡ rủi ro. Bạn không thiết kế được bản cuối khi chưa biết giả định nào của mình sai, và sai lầm đắt nhất là chốt một thiết kế đẹp quá sớm."
+      },
+      "result": "The tangle was not bad engineering, it was the price of not knowing yet. Nobody starts at Raptor 3, because elegance is a residue, not a plan.",
+      "result_vi": "Cái mớ lằng nhằng đó không phải làm dở, đó là giá của việc chưa biết. Không ai bắt đầu thẳng từ Raptor 3, vì gọn gàng là thứ đọng lại, không phải thứ lên kế hoạch.",
+      "result_underline": "elegance is a residue, not a plan",
+      "result_underline_vi": "gọn gàng là thứ đọng lại, không phải thứ lên kế hoạch",
+      "tick": "Which parts of my build are scaffolding I forgot to take down?",
+      "tick_vi": "Chỗ nào trong thứ mình đang làm là giàn giáo mà mình quên dỡ?",
+      "tick_bold": [
+        "scaffolding I forgot to take down"
+      ],
+      "tick_bold_vi": [
+        "giàn giáo mà mình quên dỡ"
+      ],
+      "provocation": "Potter's list of changes is mostly subtraction: sensors, igniters, bolted flanges, a heat exchanger, and finally the heat shield, which could only go once the pipes it was protecting had moved inside. Cagan's framing explains the order. The mess is how you buy the knowledge, and the streamlining is the receipt.",
+      "provocation_vi": "Danh sách thay đổi của Potter chủ yếu là phép trừ: sensor, igniter, mặt bích, một bộ trao đổi nhiệt, và cuối cùng là tấm chắn nhiệt, thứ chỉ bỏ được khi đám ống nó che đã chui vào bên trong. Cách nhìn của Cagan giải thích thứ tự đó. Mớ lộn xộn là cách bạn mua lấy hiểu biết, còn sự gọn gàng là tờ biên nhận.",
+      "source": {
+        "site": "Construction Physics",
+        "title": "How SpaceX Streamlined the Raptor Engine",
+        "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor",
+        "published": "2026-09-17"
+      }
+    }
+  ]
+}

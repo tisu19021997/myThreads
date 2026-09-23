@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 23</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 59</div></div></div>
+<div class="meta label">Wednesday, September 23, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">GREEN MEANT GO</span><span data-l="vi">XANH LÀ ĐI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Lorin Hochstein</div><div class="what"><span data-l="en">GitHub&#x27;s September 13 incident. A cleanup job began writing to the database cluster that stores permission data read on nearly every authenticated request. The safeguard pacing that job watched one health signal, replica lag, and it stayed low the whole time. Meanwhile the primary quietly ran out of connections. He calls this a gray failure: the monitoring reports healthy while the users are not. You never know where the safety boundary is until you cross it.</span><span data-l="vi">Sự cố GitHub ngày 13 tháng 9. Một job dọn dữ liệu bắt đầu ghi vào cụm database chứa permission, thứ mà gần như mọi request có đăng nhập đều phải đọc. Cơ chế an toàn ghìm job lại chỉ nhìn đúng một tín hiệu là độ trễ của replica, và tín hiệu đó xanh suốt. Trong khi đó con primary lặng lẽ cạn sạch connection. Ông gọi đây là gray failure: monitoring báo khoẻ còn user thì không. Bạn không bao giờ biết ranh giới an toàn nằm ở đâu cho tới lúc vượt qua nó.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">A proxy metric is a bet. You cannot measure the outcome you actually want in time to act on it, so you pick something you can read today and wager that it moves with the thing you care about. The wager has a shelf life and has to be re-checked.</span><span data-l="vi">Proxy metric là một cái cược. Bạn không đo kịp cái outcome thật sự muốn, nên chọn thứ đọc được ngay và cược rằng nó chạy cùng chiều với thứ mình quan tâm. Cược thì phải kiểm lại, vì proxy có hạn sử dụng.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A proxy you only report is a bad estimate. A proxy wired to a throttle is an accelerator: while the primary was dying, <u>green did not mean safe, it meant push harder</u>.</span><span data-l="vi">Proxy chỉ để báo cáo thì cùng lắm là ước lượng sai. Proxy nối vào tay ga thì thành chân đạp: lúc con primary đang chết, <u>xanh không có nghĩa là an toàn, xanh có nghĩa là đạp mạnh thêm</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of my <b>green dashboards</b> is <b>holding a throttle open</b> right now?</span><span data-l="vi">Cái <b>dashboard xanh nào</b> của mình đang <b>giữ một tay ga mở</b>?</span></p></div>
+<div class="src-link"><a href="https://surfingcomplexity.blog/2026/09/19/saturation-at-github-the-saga-continues/" target="_blank" rel="noopener">Surfing Complexity — Saturation at GitHub: the saga continues &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">SEND THE NOTE</span><span data-l="vi">GỬI CÁI NOTE</span></span></div>
+<div class="eq"><div class="term"><div class="who">Stay SaaSy</div><div class="what"><span data-l="en">Most organisations can only value you through what you announce. If your role does not own an explicit topline number, people judge your performance on the last update your boss happened to see. So pick one to three important public announcements you always own, and send them yourself rather than letting the team send them, because they will not know it was you. Whatever you send has to actually matter, or you become the free newspaper full of ads at the coffee shop.</span><span data-l="vi">Phần lớn công ty chỉ định giá được bạn qua những gì bạn công bố. Nếu vai trò của bạn không nắm một con số topline nào, người ta chấm bạn bằng cái update gần nhất mà sếp tình cờ đọc được. Vậy nên chọn một tới ba thứ bạn luôn đứng ra announce, và tự gửi, tên bạn, đừng đẩy cho team, vì họ sẽ không biết đó là công bạn. Và thứ bạn gửi phải thật sự đáng, không thì bạn thành tờ báo phát không toàn quảng cáo ở quán cà phê.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is the context you put a product in, and you do not get to skip it. Leave the context blank and the customer fills it from whatever they already know, usually the wrong shelf, and then judges you by that shelf&#x27;s rules.</span><span data-l="vi">Positioning là cái context bạn đặt sản phẩm vào, và bạn không có quyền bỏ qua bước đó. Để trống thì khách tự lấy một context họ đã biết, thường là sai kệ, rồi chấm bạn theo luật của cái kệ đó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Your work is a product with no positioning. Silence is not modesty, it is <u>letting someone who was not paying attention decide what shelf you sit on</u>.</span><span data-l="vi">Việc bạn làm là một sản phẩm không có positioning. Im lặng không phải khiêm tốn, đó là <u>để một người không thèm để ý quyết định bạn nằm ở kệ nào</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did I ship this quarter that my boss <b>would not be able to name</b>?</span><span data-l="vi">Quý này mình ship cái gì mà <b>sếp không gọi được tên</b>?</span></p></div>
+<div class="src-link"><a href="https://staysaasy.com/defensive-career-driving/" target="_blank" rel="noopener">Stay SaaSy — Defensive Driving For Your Career &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE WIRES COME OFF</span><span data-l="vi">THÁO DÂY RA</span></span></div>
+<div class="eq"><div class="term"><div class="who">Brian Potter</div><div class="what"><span data-l="en">Raptor 1 was a tangle of external pipes and wires. Raptor 3 is smooth and makes about 35 percent more thrust. Much of the difference is that version 1 was largely a development engine, carrying extra sensors just to work out how it behaved. Once it was dialled in the sensors came off, the main chamber igniters went, bolted flanges became welds, and the piping moved inside via 3D printed parts, which is what finally allowed the heavy heat shield to be deleted. The core architecture never changed.</span><span data-l="vi">Raptor 1 là một mớ ống và dây lằng nhằng bên ngoài. Raptor 3 nhẵn nhụi và cho lực đẩy hơn khoảng 35 phần trăm. Khác biệt lớn nằm ở chỗ bản 1 chủ yếu là engine để phát triển, gắn thêm cả đống sensor chỉ để hiểu nó chạy ra sao. Chỉnh xong rồi thì sensor tháo bớt, bỏ igniter buồng đốt chính, đổi mặt bích bắt bu lông sang mối hàn, và đẩy đường ống vào trong nhờ in 3D kim loại, chính cái đó mới cho phép bỏ luôn tấm chắn nhiệt nặng trịch. Kiến trúc lõi thì không đổi.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">Empowered teams run discovery before delivery, because the point of the messy phase is to retire risk. You cannot design the final solution until you know which of your assumptions were wrong, and the expensive mistake is committing to a clean design too early.</span><span data-l="vi">Team được trao quyền làm discovery trước delivery, vì giai đoạn lộn xộn tồn tại để gỡ rủi ro. Bạn không thiết kế được bản cuối khi chưa biết giả định nào của mình sai, và sai lầm đắt nhất là chốt một thiết kế đẹp quá sớm.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The tangle was not bad engineering, it was the price of not knowing yet. Nobody starts at Raptor 3, because <u>elegance is a residue, not a plan</u>.</span><span data-l="vi">Cái mớ lằng nhằng đó không phải làm dở, đó là giá của việc chưa biết. Không ai bắt đầu thẳng từ Raptor 3, vì <u>gọn gàng là thứ đọng lại, không phải thứ lên kế hoạch</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which parts of my build are <b>scaffolding I forgot to take down</b>?</span><span data-l="vi">Chỗ nào trong thứ mình đang làm là <b>giàn giáo mà mình quên dỡ</b>?</span></p></div>
+<div class="src-link"><a href="https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor" target="_blank" rel="noopener">Construction Physics — How SpaceX Streamlined the Raptor Engine &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-22.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-22</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Lorin Hochstein / Gibson Biddle / Stay SaaSy / April Dunford / Brian Potter / Marty Cagan<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Lorin Hochstein / Gibson Biddle / Stay SaaSy / April Dunford / Brian Potter / Marty Cagan<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
