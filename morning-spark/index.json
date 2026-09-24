@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-24",
+      "edition": 60,
+      "note": "Themes: goal state that only lives in a manager's head and now blocks a loop, pricing rules that only work when they cost you a deal, and a lead that has to be re-bought every release. Sources: lethain.com (Will Larson, 'Trying the Software factory pattern.', Sep 20, four days, domain used once before on a different piece, free, read in full: the Jan-to-July adoption timeline, the /linear-project-loop skill, the RFC-plus-Datadog-or-Snowflake audit step, post-release monitoring mode, and the compounding-only-if-you-have-the-other-pieces closer); elenaverna.com (Elena Verna, 'Your company needs a pricing constitution.', Sep 22, two days, the freshest anchor, domain used once before on a different piece, free, read in full including all five principles, the Monetization Council section and the 'you can tell it is working when it costs you something' closer); strangeloopcanon.com (Rohit Krishnan, 'The Business of Building God', Sep 21, three days, fresh well and a new name on file, free, read in full: the one-to-two-model moat, the CFO dialogue on token spend, the four candidate moats, Zeno's paradox framing, RSI as the true unknown, and the Lake Victoria cichlid speciation image which was left unused and is good material later). Pairings used: Larson x Cagan, Verna x Dunford, Krishnan x Biddle -- all three are new combinations. Do not reuse Biddle three editions running; he has now appeared in 51, 56, 59 and 60.",
+      "sparks": [
+        {
+          "pair": "Will Larson x Marty Cagan",
+          "headline": "The agent cannot start until somebody writes the goal down",
+          "source": "Irrational Exuberance — Trying the Software factory pattern.",
+          "url": "https://lethain.com/software-factory-experiment/"
+        },
+        {
+          "pair": "Elena Verna x April Dunford",
+          "headline": "If your packaging has never cost you a deal, it is not a decision",
+          "source": "Elena's Growth Scoop — Your company needs a pricing constitution.",
+          "url": "https://www.elenaverna.com/p/pricing-constitution"
+        },
+        {
+          "pair": "Rohit Krishnan x Gibson Biddle",
+          "headline": "A two-model lead is not a moat, it is a subscription",
+          "source": "Strange Loop Canon — The Business of Building God",
+          "url": "https://www.strangeloopcanon.com/p/the-business-of-building-god"
+        }
+      ]
+    },
+    {
       "date": "2026-09-23",
       "edition": 59,
       "note": "Themes: a safeguard whose green signal was wired to a throttle, work that has no positioning because it was never announced, and a clean design as the residue of answered questions. Sources: surfingcomplexity.blog (Lorin Hochstein, 'Saturation at GitHub: the saga continues', Sep 19, four days, a completely fresh well and a new name on file, fully free, read in full including the three excerpted report paragraphs, the gray-failure and safety-boundary sections, and the asymmetry-of-timeouts section which was deliberately left unused and is strong material for a later edition); staysaasy.com (Stay SaaSy, 'Defensive Driving For Your Career', Sep 20, three days, the freshest anchor, fresh well and a new name, free, read in full: take public credit, the free-newspaper-of-ads line, don't let anyone lie about you, the got-lucky personality type, maintain leverage; the blog is written anonymously by two SaaS execs so the byline on file is the publication name, not a person); construction-physics.com (Brian Potter, 'How SpaceX Streamlined the Raptor Engine', Sep 17, six days, fresh well and a new name, free and not gated, read in full: version 1 as a development engine heavy with sensors, main-chamber igniters deleted by v2, bolted flanges to welds, piping internalised via 3D printing, and the heat shield as the biggest single mass saving). Note staysaasy.com was recorded as a 404 feed in Ed 53's notes -- that was the feed path, staysaasy.com/feed.xml is alive and healthy, so restore the well. Second halves are roster frameworks from the rested end: Gibson Biddle on proxy metrics as bets with a shelf life (last ran Sep 20), April Dunford on positioning as supplied context (Sep 19), Marty Cagan on discovery retiring risk before delivery (Sep 18). Torres, Perri, Cohen, Graham, Balfour and Godin all ran within the last two days and were skipped. Pairings Lorin Hochstein x Gibson Biddle, Stay SaaSy x April Dunford, Brian Potter x Marty Cagan, all three checked against the full 58-edition pairing set and all three brand new; all three first halves are new names, the fourth edition running that move. Deliberately skipped: lennysnewsletter Opus 5.5 vs GPT-6 model comparison (Sep 22, freshest thing found but the well is spent and it is a review, not an argument); newsletter.eng-leadership.com 'The most important laws you need' (Sep 21, fresh well, but a laws listicle); commoncog 'How to Handle Disruptive Change' (Sep 16, STILL unused, earmarked by Ed 53, 54 and 55 and passed over a fourth time -- take it); cutlefish TBM 440 (Sep 19, well ran Sep 19); seangoedecke Sep 20 x2 (four uses on file, the single most dominant well, rest it). Feed notes: surfingcomplexity.blog/feed, staysaasy.com/feed.xml and construction-physics.com/feed are all healthy and carry full bodies; tomtunguz.com/feed.xml now 404s, find the new path; thediff.co/feed stops in 2022; anildash, jvns.ca, apenwarr, eugeneyan, danslimmon and every.to all quiet or stale; blog.nelhage.com/rss is a 404; shreyasdoshi and mindtheproduct feeds return empty. Wells barely spent: commoncog, surfingcomplexity (telstra-outage, how-the-incident-happened), construction-physics (reading lists), matduggan.com (new, flat-rate-monthly-responsibility-service Sep 11), staysaasy (book-the-meeting, same-side-of-the-table), lethain, notboring.co. Avoid tomorrow: gray failures and dashboards, taking public credit, subtraction as design.",

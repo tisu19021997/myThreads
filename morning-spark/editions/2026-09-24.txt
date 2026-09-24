@@ -1,0 +1,22 @@
+Morning Spark · Thursday, September 24 · Ed. 60
+Say the goal out loud. Leave money on the table.
+
+─────────────────
+01 · The agent cannot start until somebody writes the goal down
+Will Larson × Marty Cagan
+Larson's loop refuses to work on a project until the goal is written and the metric is queryable. Cagan has asked managers for that same artifact for two decades and mostly been ignored, because humans route around a missing goal. Machines do not route around it. They stop, and the stop is the audit.
+→ https://lethain.com/software-factory-experiment/
+
+─────────────────
+02 · If your packaging has never cost you a deal, it is not a decision
+Elena Verna × April Dunford
+Verna's constitution and Dunford's positioning are the same instrument: a constraint agreed in advance so you stop relitigating it per launch. Both only work when they are expensive. The uncaptured value is the part that is doing the positioning.
+→ https://www.elenaverna.com/p/pricing-constitution
+
+─────────────────
+03 · A two-model lead is not a moat, it is a subscription
+Rohit Krishnan × Gibson Biddle
+Krishnan's four moats sort cleanly into Biddle's middle term. Capex, talent and a model lead are advantages with a maintenance bill. Accumulated data and distribution are advantages with interest. If the answer to why you are hard to copy names a vendor, you have a supplier, not a moat.
+→ https://www.strangeloopcanon.com/p/the-business-of-building-god
+
+Full styled card → open the session.

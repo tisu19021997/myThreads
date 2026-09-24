@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-24",
+  "edition": 60,
+  "framing": "Say the goal out loud. Leave money on the table.",
+  "framing_vi": "Nói cái goal ra thành lời. Chừa lại chút tiền trên bàn.",
+  "note": "Themes: goal state that only lives in a manager's head and now blocks a loop, pricing rules that only work when they cost you a deal, and a lead that has to be re-bought every release. Sources: lethain.com (Will Larson, 'Trying the Software factory pattern.', Sep 20, four days, domain used once before on a different piece, free, read in full: the Jan-to-July adoption timeline, the /linear-project-loop skill, the RFC-plus-Datadog-or-Snowflake audit step, post-release monitoring mode, and the compounding-only-if-you-have-the-other-pieces closer); elenaverna.com (Elena Verna, 'Your company needs a pricing constitution.', Sep 22, two days, the freshest anchor, domain used once before on a different piece, free, read in full including all five principles, the Monetization Council section and the 'you can tell it is working when it costs you something' closer); strangeloopcanon.com (Rohit Krishnan, 'The Business of Building God', Sep 21, three days, fresh well and a new name on file, free, read in full: the one-to-two-model moat, the CFO dialogue on token spend, the four candidate moats, Zeno's paradox framing, RSI as the true unknown, and the Lake Victoria cichlid speciation image which was left unused and is good material later). Pairings used: Larson x Cagan, Verna x Dunford, Krishnan x Biddle -- all three are new combinations. Do not reuse Biddle three editions running; he has now appeared in 51, 56, 59 and 60.",
+  "sparks": [
+    {
+      "title": "THE LOOP AUDIT",
+      "title_vi": "CUỘC KIỂM TRA VÒNG LẶP",
+      "headline": "The agent cannot start until somebody writes the goal down",
+      "headline_vi": "Con agent không chạy được cho tới khi có người viết cái goal ra",
+      "a": {
+        "who": "Will Larson",
+        "what": "He is trying the software factory pattern at Imprint: instead of handing an agent a task, you hand it a goal and let the harness loop toward it. His first version audits the project before doing any work. Is there an RFC that says what the goal is and how it is measured? Is there a Datadog dashboard or a Snowflake query that reads progress? If either is missing, the loop stops and makes you build it. What he noticed is that he had been hoarding that state himself, and the agent had no way to tell whether it was going the right direction.",
+        "what_vi": "Anh đang thử software factory pattern ở Imprint: thay vì đưa agent một task, bạn đưa nó một goal rồi để cái harness lặp về phía đó. Bản đầu tiên của anh kiểm tra project trước khi làm bất cứ việc gì. Có RFC nói rõ goal là gì và đo bằng cái gì chưa? Có dashboard Datadog hay query Snowflake nào đọc được tiến độ chưa? Thiếu một trong hai là vòng lặp dừng, bắt bạn dựng nó lên đã. Điều anh nhận ra: chính anh đã ôm khư khư đống state đó, còn agent thì không có cách nào biết mình đang đi đúng hướng hay không."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "An empowered team is given a problem to solve and the outcome it has to move, not a list of features to build. The manager's job is to make the goal and its measure explicit enough that the team can decide for itself.",
+        "what_vi": "Team được empower là team nhận một vấn đề cần giải và một outcome cần dịch chuyển, không phải một danh sách feature cần build. Việc của manager là làm cho cái goal và thước đo của nó rõ tới mức team tự quyết được."
+      },
+      "result": "For twenty years a team could run on a goal nobody wrote down, because people fill gaps quietly. An agent does not fill them, it halts on them: the harness is not a productivity tool, it is the first honest audit of how empowered anyone actually was.",
+      "result_vi": "Suốt hai mươi năm một team vẫn chạy được với cái goal chẳng ai viết ra, vì con người tự lấp chỗ trống trong im lặng. Agent thì không lấp, nó dừng lại ngay chỗ đó: cái harness không phải công cụ tăng năng suất, nó là lần kiểm tra thật thà đầu tiên xem ai thực sự được empower tới đâu.",
+      "result_underline": "it is the first honest audit of how empowered anyone actually was",
+      "result_underline_vi": "nó là lần kiểm tra thật thà đầu tiên xem ai thực sự được empower tới đâu",
+      "tick": "Which goal of mine exists only in my head, and what would an agent do with it?",
+      "tick_vi": "Cái goal nào của mình mới chỉ nằm trong đầu, và agent sẽ làm gì với nó?",
+      "tick_bold": ["only in my head"],
+      "tick_bold_vi": ["mới chỉ nằm trong đầu"],
+      "provocation": "Larson's loop refuses to work on a project until the goal is written and the metric is queryable. Cagan has asked managers for that same artifact for two decades and mostly been ignored, because humans route around a missing goal. Machines do not route around it. They stop, and the stop is the audit.",
+      "provocation_vi": "Vòng lặp của Larson từ chối làm việc trên một project cho tới khi goal được viết ra và metric query được. Cagan đòi đúng cái artifact đó từ hai chục năm nay và phần lớn bị bỏ ngoài tai, vì con người biết đi vòng qua một cái goal còn thiếu. Máy thì không đi vòng. Nó dừng, và cú dừng đó chính là bài kiểm tra.",
+      "source": {
+        "site": "Irrational Exuberance",
+        "title": "Trying the Software factory pattern.",
+        "url": "https://lethain.com/software-factory-experiment/",
+        "published": "2026-09-20"
+      }
+    },
+    {
+      "title": "PRICE AS POSITION",
+      "title_vi": "GIÁ CHÍNH LÀ POSITIONING",
+      "headline": "If your packaging has never cost you a deal, it is not a decision",
+      "headline_vi": "Nếu packaging của bạn chưa từng làm mất deal nào, nó chưa phải một quyết định",
+      "a": {
+        "who": "Elena Verna",
+        "what": "Every feature now arrives with the same argument: free or paid, which tier, usage-gated or add-on. She wants that argued once, in a written pricing constitution, with laws like never manufacture pain to monetize it, monetize the outcome and not the steps, and do not tax your own distribution. Her test for whether it is real: it has to cost you something. A tempting upgrade lever you will not pull. A large customer self-serve keeps. If everyone agreed to it easily, you wrote a slogan, not a constitution.",
+        "what_vi": "Giờ feature nào ra đời cũng kéo theo đúng một cuộc cãi: free hay paid, tier nào, tính theo usage hay bán add-on. Chị muốn cãi một lần thôi, trong một bản pricing constitution viết hẳn ra, với những điều luật kiểu đừng tự tạo ra nỗi đau rồi bán thuốc, tính tiền trên outcome chứ không trên từng bước, và đừng đánh thuế lên chính kênh phân phối của mình. Cách chị kiểm xem nó có thật hay không: nó phải làm bạn mất cái gì đó. Một cái đòn bẩy upgrade ngon nhưng không được kéo. Một khách hàng to mà self-serve giữ luôn. Ai cũng gật đầu dễ dàng thì cái bạn viết là khẩu hiệu, không phải constitution."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is choosing the context you want to be judged in, which means choosing who you are not for. A position that offends nobody and excludes nobody is not doing any work.",
+        "what_vi": "Positioning là chọn bối cảnh mà bạn muốn được đem ra so sánh, tức là chọn luôn mình không dành cho ai. Một cái position không làm ai phật lòng và không loại ai ra thì nó chẳng làm việc gì cả."
+      },
+      "result": "Pricing is the one positioning statement a customer has to pay to agree with, so it is also the one that gets tested every single day. Packaging that has never lost you a deal is not a position, it is a menu.",
+      "result_vi": "Pricing là câu positioning duy nhất mà khách phải trả tiền mới gật được, nên cũng là câu bị đem ra thử mỗi ngày. Packaging chưa từng làm bạn mất deal nào thì không phải position, đó là cái menu.",
+      "result_underline": "it is a menu",
+      "result_underline_vi": "đó là cái menu",
+      "tick": "What is my product deliberately not charging for, and what is that buying me?",
+      "tick_vi": "Sản phẩm của mình cố tình không thu tiền chỗ nào, và chỗ đó đang mua lại cho mình cái gì?",
+      "tick_bold": ["deliberately not charging for"],
+      "tick_bold_vi": ["cố tình không thu tiền chỗ nào"],
+      "provocation": "Verna's constitution and Dunford's positioning are the same instrument: a constraint agreed in advance so you stop relitigating it per launch. Both only work when they are expensive. The uncaptured value is the part that is doing the positioning.",
+      "provocation_vi": "Constitution của Verna và positioning của Dunford là cùng một công cụ: một ràng buộc chốt trước để khỏi phải cãi lại ở mỗi lần launch. Cả hai chỉ có tác dụng khi nó đắt. Phần giá trị bạn cố tình không thu chính là phần đang làm positioning.",
+      "source": {
+        "site": "Elena's Growth Scoop",
+        "title": "Your company needs a pricing constitution.",
+        "url": "https://www.elenaverna.com/p/pricing-constitution",
+        "published": "2026-09-22"
+      }
+    },
+    {
+      "title": "RENTED MOAT",
+      "title_vi": "HÀO ĐI THUÊ",
+      "headline": "A two-model lead is not a moat, it is a subscription",
+      "headline_vi": "Dẫn trước hai đời model không phải cái hào, đó là gói thuê bao",
+      "a": {
+        "who": "Rohit Krishnan",
+        "what": "He puts the frontier labs on a balance sheet instead of an altar. Their entire defensibility is a lead of one, maybe two models over open weights, and holding it costs ten times more each year. He lists the candidate moats and prices each one: capex and talent depreciate as both spread, the two-model lead is Zeno's paradox where you run harder for a smaller gap, recursive self-improvement would be real but nobody knows if it exists, and the data you accumulate from everyone's traces is the only one that compounds while you sleep. Meanwhile CFOs have started asking what the token line item bought them, and routing work to cheap models that are good enough.",
+        "what_vi": "Anh đặt các frontier lab lên bảng cân đối kế toán thay vì lên bàn thờ. Toàn bộ khả năng phòng thủ của họ là khoảng cách một, cùng lắm hai đời model so với open weights, và giữ được khoảng đó thì mỗi năm tốn gấp mười. Anh liệt kê từng cái hào rồi định giá: capex và talent mất giá dần vì cả hai đều lan ra, dẫn trước hai đời model là nghịch lý Zeno, chạy mệt hơn để giữ khoảng cách ngắn hơn, recursive self-improvement thì đúng là thật nếu có nhưng không ai biết nó có hay không, còn dữ liệu gom được từ trace của tất cả mọi người là thứ duy nhất tự cộng dồn trong lúc bạn ngủ. Trong khi đó CFO bắt đầu hỏi cái dòng chi phí token mua về được gì, rồi đẩy việc sang những model rẻ mà đủ xài."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: a strategy has to delight customers, in hard-to-copy, margin-enhancing ways. The middle term is the one that decides whether you keep the win, and most teams mistake a current advantage for a hard-to-copy one.",
+        "what_vi": "DHM: một chiến lược phải làm khách mê, theo cách khó copy và cải thiện được biên lợi nhuận. Chính vế giữa quyết định bạn có giữ được chiến thắng hay không, và phần lớn team nhầm lợi thế đang có với thứ thật sự khó copy."
+      },
+      "result": "A lead is an advantage you re-buy every release; an accumulation is one that builds itself while you sleep. If the best model is what makes your product hard to copy, you are not defending a moat, you are paying rent on someone else's.",
+      "result_vi": "Dẫn trước là lợi thế phải mua lại ở mỗi lần release; tích luỹ là lợi thế tự lớn lúc bạn ngủ. Nếu thứ khiến sản phẩm của bạn khó copy là model xịn nhất, thì bạn không giữ hào của mình, bạn đang trả tiền thuê hào của người khác.",
+      "result_underline": "you are paying rent on someone else's",
+      "result_underline_vi": "bạn đang trả tiền thuê hào của người khác",
+      "tick": "What does my product accumulate this month that a competitor cannot buy next month?",
+      "tick_vi": "Tháng này sản phẩm của mình tích được cái gì mà tháng sau đối thủ không mua lại được?",
+      "tick_bold": ["accumulate this month", "cannot buy next month"],
+      "tick_bold_vi": ["tích được cái gì", "không mua lại được"],
+      "provocation": "Krishnan's four moats sort cleanly into Biddle's middle term. Capex, talent and a model lead are advantages with a maintenance bill. Accumulated data and distribution are advantages with interest. If the answer to why you are hard to copy names a vendor, you have a supplier, not a moat.",
+      "provocation_vi": "Bốn cái hào của Krishnan xếp gọn vào đúng vế giữa của Biddle. Capex, talent và chuyện dẫn trước model là lợi thế kèm hoá đơn bảo trì. Dữ liệu tích luỹ và kênh phân phối là lợi thế kèm lãi suất. Nếu câu trả lời cho việc vì sao bạn khó copy lại gọi tên một nhà cung cấp, thì cái bạn có là nhà cung cấp, không phải cái hào.",
+      "source": {
+        "site": "Strange Loop Canon",
+        "title": "The Business of Building God",
+        "url": "https://www.strangeloopcanon.com/p/the-business-of-building-god",
+        "published": "2026-09-21"
+      }
+    }
+  ]
+}

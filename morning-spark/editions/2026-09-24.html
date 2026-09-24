@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 24</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 60</div></div></div>
+<div class="meta label">Thursday, September 24, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE LOOP AUDIT</span><span data-l="vi">CUỘC KIỂM TRA VÒNG LẶP</span></span></div>
+<div class="eq"><div class="term"><div class="who">Will Larson</div><div class="what"><span data-l="en">He is trying the software factory pattern at Imprint: instead of handing an agent a task, you hand it a goal and let the harness loop toward it. His first version audits the project before doing any work. Is there an RFC that says what the goal is and how it is measured? Is there a Datadog dashboard or a Snowflake query that reads progress? If either is missing, the loop stops and makes you build it. What he noticed is that he had been hoarding that state himself, and the agent had no way to tell whether it was going the right direction.</span><span data-l="vi">Anh đang thử software factory pattern ở Imprint: thay vì đưa agent một task, bạn đưa nó một goal rồi để cái harness lặp về phía đó. Bản đầu tiên của anh kiểm tra project trước khi làm bất cứ việc gì. Có RFC nói rõ goal là gì và đo bằng cái gì chưa? Có dashboard Datadog hay query Snowflake nào đọc được tiến độ chưa? Thiếu một trong hai là vòng lặp dừng, bắt bạn dựng nó lên đã. Điều anh nhận ra: chính anh đã ôm khư khư đống state đó, còn agent thì không có cách nào biết mình đang đi đúng hướng hay không.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">An empowered team is given a problem to solve and the outcome it has to move, not a list of features to build. The manager&#x27;s job is to make the goal and its measure explicit enough that the team can decide for itself.</span><span data-l="vi">Team được empower là team nhận một vấn đề cần giải và một outcome cần dịch chuyển, không phải một danh sách feature cần build. Việc của manager là làm cho cái goal và thước đo của nó rõ tới mức team tự quyết được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">For twenty years a team could run on a goal nobody wrote down, because people fill gaps quietly. An agent does not fill them, it halts on them: the harness is not a productivity tool, <u>it is the first honest audit of how empowered anyone actually was</u>.</span><span data-l="vi">Suốt hai mươi năm một team vẫn chạy được với cái goal chẳng ai viết ra, vì con người tự lấp chỗ trống trong im lặng. Agent thì không lấp, nó dừng lại ngay chỗ đó: cái harness không phải công cụ tăng năng suất, <u>nó là lần kiểm tra thật thà đầu tiên xem ai thực sự được empower tới đâu</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which goal of mine exists <b>only in my head</b>, and what would an agent do with it?</span><span data-l="vi">Cái goal nào của mình <b>mới chỉ nằm trong đầu</b>, và agent sẽ làm gì với nó?</span></p></div>
+<div class="src-link"><a href="https://lethain.com/software-factory-experiment/" target="_blank" rel="noopener">Irrational Exuberance — Trying the Software factory pattern. &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">PRICE AS POSITION</span><span data-l="vi">GIÁ CHÍNH LÀ POSITIONING</span></span></div>
+<div class="eq"><div class="term"><div class="who">Elena Verna</div><div class="what"><span data-l="en">Every feature now arrives with the same argument: free or paid, which tier, usage-gated or add-on. She wants that argued once, in a written pricing constitution, with laws like never manufacture pain to monetize it, monetize the outcome and not the steps, and do not tax your own distribution. Her test for whether it is real: it has to cost you something. A tempting upgrade lever you will not pull. A large customer self-serve keeps. If everyone agreed to it easily, you wrote a slogan, not a constitution.</span><span data-l="vi">Giờ feature nào ra đời cũng kéo theo đúng một cuộc cãi: free hay paid, tier nào, tính theo usage hay bán add-on. Chị muốn cãi một lần thôi, trong một bản pricing constitution viết hẳn ra, với những điều luật kiểu đừng tự tạo ra nỗi đau rồi bán thuốc, tính tiền trên outcome chứ không trên từng bước, và đừng đánh thuế lên chính kênh phân phối của mình. Cách chị kiểm xem nó có thật hay không: nó phải làm bạn mất cái gì đó. Một cái đòn bẩy upgrade ngon nhưng không được kéo. Một khách hàng to mà self-serve giữ luôn. Ai cũng gật đầu dễ dàng thì cái bạn viết là khẩu hiệu, không phải constitution.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">April Dunford</div><div class="what"><span data-l="en">Positioning is choosing the context you want to be judged in, which means choosing who you are not for. A position that offends nobody and excludes nobody is not doing any work.</span><span data-l="vi">Positioning là chọn bối cảnh mà bạn muốn được đem ra so sánh, tức là chọn luôn mình không dành cho ai. Một cái position không làm ai phật lòng và không loại ai ra thì nó chẳng làm việc gì cả.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Pricing is the one positioning statement a customer has to pay to agree with, so it is also the one that gets tested every single day. Packaging that has never lost you a deal is not a position, <u>it is a menu</u>.</span><span data-l="vi">Pricing là câu positioning duy nhất mà khách phải trả tiền mới gật được, nên cũng là câu bị đem ra thử mỗi ngày. Packaging chưa từng làm bạn mất deal nào thì không phải position, <u>đó là cái menu</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What is my product <b>deliberately not charging for</b>, and what is that buying me?</span><span data-l="vi">Sản phẩm của mình <b>cố tình không thu tiền chỗ nào</b>, và chỗ đó đang mua lại cho mình cái gì?</span></p></div>
+<div class="src-link"><a href="https://www.elenaverna.com/p/pricing-constitution" target="_blank" rel="noopener">Elena&#x27;s Growth Scoop — Your company needs a pricing constitution. &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">RENTED MOAT</span><span data-l="vi">HÀO ĐI THUÊ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Rohit Krishnan</div><div class="what"><span data-l="en">He puts the frontier labs on a balance sheet instead of an altar. Their entire defensibility is a lead of one, maybe two models over open weights, and holding it costs ten times more each year. He lists the candidate moats and prices each one: capex and talent depreciate as both spread, the two-model lead is Zeno&#x27;s paradox where you run harder for a smaller gap, recursive self-improvement would be real but nobody knows if it exists, and the data you accumulate from everyone&#x27;s traces is the only one that compounds while you sleep. Meanwhile CFOs have started asking what the token line item bought them, and routing work to cheap models that are good enough.</span><span data-l="vi">Anh đặt các frontier lab lên bảng cân đối kế toán thay vì lên bàn thờ. Toàn bộ khả năng phòng thủ của họ là khoảng cách một, cùng lắm hai đời model so với open weights, và giữ được khoảng đó thì mỗi năm tốn gấp mười. Anh liệt kê từng cái hào rồi định giá: capex và talent mất giá dần vì cả hai đều lan ra, dẫn trước hai đời model là nghịch lý Zeno, chạy mệt hơn để giữ khoảng cách ngắn hơn, recursive self-improvement thì đúng là thật nếu có nhưng không ai biết nó có hay không, còn dữ liệu gom được từ trace của tất cả mọi người là thứ duy nhất tự cộng dồn trong lúc bạn ngủ. Trong khi đó CFO bắt đầu hỏi cái dòng chi phí token mua về được gì, rồi đẩy việc sang những model rẻ mà đủ xài.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">DHM: a strategy has to delight customers, in hard-to-copy, margin-enhancing ways. The middle term is the one that decides whether you keep the win, and most teams mistake a current advantage for a hard-to-copy one.</span><span data-l="vi">DHM: một chiến lược phải làm khách mê, theo cách khó copy và cải thiện được biên lợi nhuận. Chính vế giữa quyết định bạn có giữ được chiến thắng hay không, và phần lớn team nhầm lợi thế đang có với thứ thật sự khó copy.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A lead is an advantage you re-buy every release; an accumulation is one that builds itself while you sleep. If the best model is what makes your product hard to copy, you are not defending a moat, <u>you are paying rent on someone else&#x27;s</u>.</span><span data-l="vi">Dẫn trước là lợi thế phải mua lại ở mỗi lần release; tích luỹ là lợi thế tự lớn lúc bạn ngủ. Nếu thứ khiến sản phẩm của bạn khó copy là model xịn nhất, thì bạn không giữ hào của mình, <u>bạn đang trả tiền thuê hào của người khác</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What does my product <b>accumulate this month</b> that a competitor <b>cannot buy next month</b>?</span><span data-l="vi">Tháng này sản phẩm của mình <b>tích được cái gì</b> mà tháng sau đối thủ <b>không mua lại được</b>?</span></p></div>
+<div class="src-link"><a href="https://www.strangeloopcanon.com/p/the-business-of-building-god" target="_blank" rel="noopener">Strange Loop Canon — The Business of Building God &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-23.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-23</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Will Larson / Marty Cagan / Elena Verna / April Dunford / Rohit Krishnan / Gibson Biddle<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Will Larson / Marty Cagan / Elena Verna / April Dunford / Rohit Krishnan / Gibson Biddle<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
