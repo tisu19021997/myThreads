@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-25",
+  "edition": 61,
+  "framing": "The idea was never the bottleneck. The pipe was.",
+  "framing_vi": "Ý tưởng chưa bao giờ là nút thắt. Đường đi của nó mới là.",
+  "note": "Themes: internal tools as a position rather than a cost, friction that was quietly doing the judgement, and good ideas leaking out between stages. Sources: latent.space (Adrian Sanborn guest post, 'Foundries vs Navigators: Lowering the Cost of Science', Sep 24, one day old, new domain on file, free, read in full: the foundry / navigator split, thinking-got-cheap-doing-did-not, the in-house data portal built in a day, the 500-to-100 disease triage with skeptical-expert prompts, the Jevons footnote, and the reproducibility footnote which was left unused and is good material later); cutlefish.substack.com (John Cutler, 'TBM 441: AI, the Loss of Positive Friction, and What to Do About It', Sep 24, one day old, domain used once before on TBM 439 in Ed 52, free, read in full: the pre-AI workflow as forcing function, the twelve-part ontology and the edges-not-nouns line, all eleven principles, the Linear-as-dumping-ground observation and the depth-over-breadth principle); itamargilad.com (Itamar Gilad, 'Why Good Product Ideas Don't Survive', Sep 24, one day old, new name and new domain on file, free, read in full: the 20 / 40 / 50 / 10 percent survival math landing at five percent, outputmaxing, and the evidence-guided alternative at roughly eight in ten). Pairings used: Sanborn x Graham, Cutler x Balfour, Gilad x Chen -- all three are new combinations. Biddle was deliberately skipped after four appearances in ten editions; do not bring him back before Ed 63. Dunford and Cagan are also near saturation. Andrew Chen had only appeared once recently, in Ed 56.",
+  "sparks": [
+    {
+      "title": "CHEAP THINKING",
+      "title_vi": "NGHĨ THÌ RẺ",
+      "headline": "The tool you build is an opinion",
+      "headline_vi": "Cái tool bạn tự build là một quan điểm",
+      "a": {
+        "who": "Adrian Sanborn",
+        "what": "In science, thinking got cheap and doing did not: an experiment still takes days, but the analysis around it takes an afternoon. So the edge moved to what he calls navigating -- rebuilding your own tools instead of buying them. A lab data portal that used to be six figures and a vendor contract is now a one-day build, and it fits the quirks of your data because you wrote it. His point is that every interface carries an opinion about which comparisons are one click away and which need hunting, and that opinion decides what your team ends up noticing. The old rule was never build what you can buy. The new rule is build the tools that shape how you think.",
+        "what_vi": "Trong khoa học, nghĩ thì rẻ đi còn làm thì không: một thí nghiệm vẫn mất mấy ngày, nhưng phần phân tích quanh nó giờ chỉ mất một buổi chiều. Nên lợi thế chuyển sang cái anh gọi là navigating -- tự build lại tool của mình thay vì đi mua. Một cái data portal cho lab, trước kia là sáu con số và một hợp đồng với vendor, giờ build trong một ngày, và nó vừa khít mấy chỗ dị của data vì chính bạn viết ra. Ý anh là: mọi giao diện đều mang sẵn một quan điểm về phép so sánh nào cách bạn một cú click và phép nào phải đi lùng, và cái quan điểm đó quyết định team bạn rốt cuộc nhìn thấy gì. Luật cũ: đừng build cái gì mua được. Luật mới: build những tool định hình cách bạn nghĩ."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "The best startup ideas are things the founders themselves want and can build. You find them by living in the future and noticing what is missing, not by brainstorming what other people might pay for.",
+        "what_vi": "Ý tưởng startup tốt nhất là thứ chính founder muốn có và tự làm được. Bạn tìm ra nó bằng cách sống ở tương lai rồi để ý xem còn thiếu cái gì, chứ không phải ngồi brainstorm xem người khác chịu trả tiền cho cái gì."
+      },
+      "result": "Building the thing you yourself wanted used to be how a company started. Now it is a Tuesday -- and the software you did not build is quietly choosing what you are allowed to notice.",
+      "result_vi": "Tự build đúng cái mình cần từng là cách một công ty ra đời. Giờ nó là chuyện của một ngày thứ Ba bình thường -- còn phần mềm bạn không tự build đang âm thầm chọn giùm bạn được phép nhìn thấy cái gì.",
+      "result_underline": "quietly choosing what you are allowed to notice",
+      "result_underline_vi": "âm thầm chọn giùm bạn được phép nhìn thấy cái gì",
+      "tick": "Which tool on my desk decided today what I would look at?",
+      "tick_vi": "Cái tool nào trên bàn mình hôm nay đã quyết định giùm mình sẽ nhìn vào đâu?",
+      "tick_bold": ["decided today what I would look at"],
+      "tick_bold_vi": ["quyết định giùm mình sẽ nhìn vào đâu"],
+      "provocation": "Sanborn's lab rebuilds its own data portal in a day, because a bought interface decides which comparisons are one click away and which are never made. Graham's test for a startup idea was whether you wanted it and could build it yourself. That test has quietly migrated from the product you sell to the tooling you sit in all day.",
+      "provocation_vi": "Lab của Sanborn tự build lại data portal trong một ngày, vì một giao diện đi mua sẽ quyết định phép so sánh nào cách bạn một cú click và phép nào không bao giờ được làm. Bài test của Graham cho một ý tưởng startup là bạn có muốn nó và tự build được không. Bài test đó đã lặng lẽ chuyển từ sản phẩm bạn bán sang bộ tool bạn ngồi trong đó cả ngày.",
+      "source": {
+        "site": "Latent Space",
+        "title": "Foundries vs Navigators: Lowering the Cost of Science",
+        "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+        "published": "2026-09-24"
+      }
+    },
+    {
+      "title": "GOOD FRICTION",
+      "title_vi": "MA SÁT TỐT",
+      "headline": "You deleted the step that was doing the thinking",
+      "headline_vi": "Bạn vừa xoá mất cái bước đang suy nghĩ giùm bạn",
+      "a": {
+        "who": "John Cutler",
+        "what": "Every hand-off in product work -- transcript to themes, themes to options, options to tickets -- was a pain, and was also a forcing function. You had to reread, restate, argue, and that was where judgement entered. Automate the whole chain and you lose the drudgery and the judgement together: five customer calls become eighty opportunities, four hundred tasks and fifty dashboards, none of it traceable back to a sentence a human actually said. His remedy is to put friction back deliberately -- at each copy, state what carried forward, what changed, and why -- and to keep every derived item linked to the original. If you cannot link back to something real, stop doing it.",
+        "what_vi": "Mỗi lần bàn giao trong việc làm sản phẩm -- transcript thành theme, theme thành phương án, phương án thành ticket -- đều mệt, và cũng đều là một forcing function. Bạn buộc phải đọc lại, diễn đạt lại, cãi nhau, và đó chính là chỗ phán đoán đi vào. Tự động hoá cả chuỗi thì bạn mất phần cực nhọc và mất luôn phần phán đoán: năm cuộc gọi khách hàng biến thành tám mươi opportunity, bốn trăm task, năm mươi dashboard, không cái nào lần ngược về được một câu người thật đã nói. Cách chữa của anh là cố tình đặt ma sát trở lại -- mỗi lần copy, phải nói rõ cái gì được mang theo, cái gì đổi, và vì sao -- và giữ mọi thứ phái sinh còn link về bản gốc. Không link ngược về được cái gì thật thì đừng làm nữa."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "Growth is a loop, not a funnel: each pass has to feed the next one so the thing compounds. The craft is finding where the loop leaks and taking friction out until it spins faster.",
+        "what_vi": "Growth là một cái loop, không phải cái phễu: mỗi vòng phải nuôi được vòng sau thì nó mới cộng dồn. Nghề ở đây là tìm chỗ loop bị rò rồi gỡ ma sát ra cho nó quay nhanh hơn."
+      },
+      "result": "Growth taught a whole generation that friction is always the enemy. Cutler is pointing at the exception: some of it was load-bearing, and a loop with none of it left does not compound, it just repeats.",
+      "result_vi": "Growth dạy cả một thế hệ rằng ma sát luôn là kẻ thù. Cutler đang chỉ vào ngoại lệ: có chỗ ma sát đang chịu lực, và một cái loop không còn chút nào thì không cộng dồn, nó chỉ lặp lại.",
+      "result_underline": "does not compound, it just repeats",
+      "result_underline_vi": "không cộng dồn, nó chỉ lặp lại",
+      "tick": "Which step did I automate away before noticing it was where I decided?",
+      "tick_vi": "Mình đã tự động hoá mất bước nào trước khi kịp nhận ra đó là chỗ mình ra quyết định?",
+      "tick_bold": ["it was where I decided"],
+      "tick_bold_vi": ["đó là chỗ mình ra quyết định"],
+      "provocation": "Cutler traces a product workflow where the annoying parts -- rereading the transcript, restating the theme, defending the option -- were the only places a human applied discretion. Remove them and you get summaries of summaries that look authoritative and point at nothing. His fix is not less AI. It is a rule that every derived item keeps a link back to the sentence it came from.",
+      "provocation_vi": "Cutler lần theo một quy trình làm sản phẩm, nơi mấy khúc khó chịu nhất -- đọc lại transcript, diễn đạt lại theme, bảo vệ phương án -- lại là chỗ duy nhất con người thực sự cân nhắc. Bỏ chúng đi thì bạn có tóm tắt của tóm tắt, nghe rất chắc nịch mà chẳng chỉ vào đâu cả. Cách chữa của anh không phải là bớt AI. Nó là một luật: mọi thứ phái sinh đều phải giữ link ngược về đúng câu nó sinh ra từ đó.",
+      "source": {
+        "site": "The Beautiful Mess",
+        "title": "TBM 441: AI, the Loss of Positive Friction, and What to Do About It",
+        "url": "https://cutlefish.substack.com/p/tbm-441-ai-the-loss-of-positive-friction",
+        "published": "2026-09-24"
+      }
+    },
+    {
+      "title": "IN TRANSIT",
+      "title_vi": "CHẾT DỌC ĐƯỜNG",
+      "headline": "Good ideas rarely lose, they leak",
+      "headline_vi": "Ý tưởng tốt hiếm khi thua, nó rò rỉ dần",
+      "a": {
+        "who": "Itamar Gilad",
+        "what": "He runs the arithmetic on one genuinely good idea walking through a normal launch-and-iterate process. Twenty percent survive prioritisation, where politics and risk aversion punish anything counterintuitive. Forty percent survive specification by committee, which grinds the sharp version into a compromise. Fifty percent survive delivery, because when a project runs long you cut whatever is not built yet rather than whatever is least valuable. Ten percent ever get iterated on afterwards. Multiply it out and roughly one good idea in twenty reaches users at full strength. AI has not moved that number: it is being used to produce more specs and more PRs faster, which he calls outputmaxing -- a faster feature factory, not a smarter one.",
+        "what_vi": "Anh làm phép tính cho một ý tưởng thật sự tốt đi qua quy trình launch-and-iterate bình thường. Hai mươi phần trăm sống sót qua khâu prioritisation, nơi chính trị và tâm lý ngại rủi ro trừng phạt mọi thứ phản trực giác. Bốn mươi phần trăm sống sót qua khâu spec kiểu họp hội đồng, chỗ bản sắc nhất bị mài thành một phương án dung hoà. Năm mươi phần trăm sống sót qua khâu delivery, vì khi project chạy quá hạn thì người ta cắt phần chưa kịp làm chứ không cắt phần ít giá trị nhất. Mười phần trăm được quay lại iterate sau khi launch. Nhân hết lại: cỡ một ý tưởng tốt trên hai mươi tới tay người dùng còn nguyên sức. AI chưa dịch được con số đó: nó đang được dùng để ra nhiều spec và nhiều PR hơn, nhanh hơn -- cái anh gọi là outputmaxing, một cái feature factory chạy nhanh hơn chứ không khôn hơn."
+      },
+      "b": {
+        "who": "Andrew Chen",
+        "what": "Growth is a numbers game played honestly: most experiments fail, so you win by running many cheap ones and reading the losses, not by betting the quarter on whichever idea argued best in the room.",
+        "what_vi": "Growth là trò chơi xác suất chơi cho thật thà: phần lớn experiment sẽ fail, nên bạn thắng bằng cách chạy thật nhiều thử nghiệm rẻ rồi đọc kỹ mấy lần thua, chứ không phải đặt cả quý vào ý tưởng nào cãi hay nhất trong phòng họp."
+      },
+      "result": "Idea quality is the part everyone argues about and the smallest lever on the board. Double the quality of what goes in and you gain a little; stop shredding what you already have and you gain the whole difference.",
+      "result_vi": "Chất lượng ý tưởng là thứ ai cũng ngồi cãi, và là cái cần gạt nhỏ nhất trên bàn. Tăng gấp đôi chất lượng đầu vào thì được một chút; ngừng băm nát những gì đang có thì được trọn phần chênh lệch.",
+      "result_underline": "stop shredding what you already have",
+      "result_underline_vi": "ngừng băm nát những gì đang có",
+      "tick": "Name the last good idea I shipped at half strength. Which stage took the other half?",
+      "tick_vi": "Kể tên ý tưởng tốt gần nhất mình ship ra chỉ còn một nửa. Nửa kia mất ở khâu nào?",
+      "tick_bold": ["Which stage took the other half"],
+      "tick_bold_vi": ["Nửa kia mất ở khâu nào"],
+      "provocation": "Gilad multiplies survival rates through prioritisation, spec, delivery and iteration and lands at five percent -- one good idea in twenty ships at full value. His evidence-guided alternative reaches roughly eight in ten, mostly by replacing build-or-kill verdicts with cheap tests, which is Chen's growth loop pointed at the roadmap instead of the funnel. Neither number has moved because of AI. So far it has only made the shredder faster.",
+      "provocation_vi": "Gilad nhân các tỉ lệ sống sót qua prioritisation, spec, delivery và iteration rồi dừng ở năm phần trăm -- một ý tưởng tốt trên hai mươi ship ra còn nguyên giá trị. Phương án evidence-guided của anh đạt cỡ tám trên mười, chủ yếu nhờ thay phán quyết build-hay-kill bằng những phép thử rẻ tiền, tức là cái growth loop của Chen chĩa vào roadmap thay vì cái phễu. AI chưa dịch được con số nào trong hai con số đó. Tới giờ nó mới chỉ làm cái máy băm chạy nhanh hơn.",
+      "source": {
+        "site": "Itamar Gilad",
+        "title": "Why Good Product Ideas Don't Survive",
+        "url": "https://itamargilad.com/good-ideas/",
+        "published": "2026-09-24"
+      }
+    }
+  ]
+}

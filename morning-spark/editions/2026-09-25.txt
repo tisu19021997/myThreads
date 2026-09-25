@@ -1,0 +1,22 @@
+Morning Spark · Friday, September 25 · Ed. 61
+The idea was never the bottleneck. The pipe was.
+
+─────────────────
+01 · The tool you build is an opinion
+Adrian Sanborn × Paul Graham
+Sanborn's lab rebuilds its own data portal in a day, because a bought interface decides which comparisons are one click away and which are never made. Graham's test for a startup idea was whether you wanted it and could build it yourself. That test has quietly migrated from the product you sell to the tooling you sit in all day.
+→ https://www.latent.space/p/foundries-vs-navigators-lowering
+
+─────────────────
+02 · You deleted the step that was doing the thinking
+John Cutler × Brian Balfour
+Cutler traces a product workflow where the annoying parts -- rereading the transcript, restating the theme, defending the option -- were the only places a human applied discretion. Remove them and you get summaries of summaries that look authoritative and point at nothing. His fix is not less AI. It is a rule that every derived item keeps a link back to the sentence it came from.
+→ https://cutlefish.substack.com/p/tbm-441-ai-the-loss-of-positive-friction
+
+─────────────────
+03 · Good ideas rarely lose, they leak
+Itamar Gilad × Andrew Chen
+Gilad multiplies survival rates through prioritisation, spec, delivery and iteration and lands at five percent -- one good idea in twenty ships at full value. His evidence-guided alternative reaches roughly eight in ten, mostly by replacing build-or-kill verdicts with cheap tests, which is Chen's growth loop pointed at the roadmap instead of the funnel. Neither number has moved because of AI. So far it has only made the shredder faster.
+→ https://itamargilad.com/good-ideas/
+
+Full styled card → open the session.

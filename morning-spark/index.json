@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-09-25",
+      "edition": 61,
+      "note": "Themes: internal tools as a position rather than a cost, friction that was quietly doing the judgement, and good ideas leaking out between stages. Sources: latent.space (Adrian Sanborn guest post, 'Foundries vs Navigators: Lowering the Cost of Science', Sep 24, one day old, new domain on file, free, read in full: the foundry / navigator split, thinking-got-cheap-doing-did-not, the in-house data portal built in a day, the 500-to-100 disease triage with skeptical-expert prompts, the Jevons footnote, and the reproducibility footnote which was left unused and is good material later); cutlefish.substack.com (John Cutler, 'TBM 441: AI, the Loss of Positive Friction, and What to Do About It', Sep 24, one day old, domain used once before on TBM 439 in Ed 52, free, read in full: the pre-AI workflow as forcing function, the twelve-part ontology and the edges-not-nouns line, all eleven principles, the Linear-as-dumping-ground observation and the depth-over-breadth principle); itamargilad.com (Itamar Gilad, 'Why Good Product Ideas Don't Survive', Sep 24, one day old, new name and new domain on file, free, read in full: the 20 / 40 / 50 / 10 percent survival math landing at five percent, outputmaxing, and the evidence-guided alternative at roughly eight in ten). Pairings used: Sanborn x Graham, Cutler x Balfour, Gilad x Chen -- all three are new combinations. Biddle was deliberately skipped after four appearances in ten editions; do not bring him back before Ed 63. Dunford and Cagan are also near saturation. Andrew Chen had only appeared once recently, in Ed 56.",
+      "sparks": [
+        {
+          "pair": "Adrian Sanborn x Paul Graham",
+          "headline": "The tool you build is an opinion",
+          "source": "Latent Space — Foundries vs Navigators: Lowering the Cost of Science",
+          "url": "https://www.latent.space/p/foundries-vs-navigators-lowering"
+        },
+        {
+          "pair": "John Cutler x Brian Balfour",
+          "headline": "You deleted the step that was doing the thinking",
+          "source": "The Beautiful Mess — TBM 441: AI, the Loss of Positive Friction, and What to Do About It",
+          "url": "https://cutlefish.substack.com/p/tbm-441-ai-the-loss-of-positive-friction"
+        },
+        {
+          "pair": "Itamar Gilad x Andrew Chen",
+          "headline": "Good ideas rarely lose, they leak",
+          "source": "Itamar Gilad — Why Good Product Ideas Don't Survive",
+          "url": "https://itamargilad.com/good-ideas/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-24",
       "edition": 60,
       "note": "Themes: goal state that only lives in a manager's head and now blocks a loop, pricing rules that only work when they cost you a deal, and a lead that has to be re-bought every release. Sources: lethain.com (Will Larson, 'Trying the Software factory pattern.', Sep 20, four days, domain used once before on a different piece, free, read in full: the Jan-to-July adoption timeline, the /linear-project-loop skill, the RFC-plus-Datadog-or-Snowflake audit step, post-release monitoring mode, and the compounding-only-if-you-have-the-other-pieces closer); elenaverna.com (Elena Verna, 'Your company needs a pricing constitution.', Sep 22, two days, the freshest anchor, domain used once before on a different piece, free, read in full including all five principles, the Monetization Council section and the 'you can tell it is working when it costs you something' closer); strangeloopcanon.com (Rohit Krishnan, 'The Business of Building God', Sep 21, three days, fresh well and a new name on file, free, read in full: the one-to-two-model moat, the CFO dialogue on token spend, the four candidate moats, Zeno's paradox framing, RSI as the true unknown, and the Lake Victoria cichlid speciation image which was left unused and is good material later). Pairings used: Larson x Cagan, Verna x Dunford, Krishnan x Biddle -- all three are new combinations. Do not reuse Biddle three editions running; he has now appeared in 51, 56, 59 and 60.",

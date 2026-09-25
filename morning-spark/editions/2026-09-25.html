@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 25</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 61</div></div></div>
+<div class="meta label">Friday, September 25, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">CHEAP THINKING</span><span data-l="vi">NGHĨ THÌ RẺ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Adrian Sanborn</div><div class="what"><span data-l="en">In science, thinking got cheap and doing did not: an experiment still takes days, but the analysis around it takes an afternoon. So the edge moved to what he calls navigating -- rebuilding your own tools instead of buying them. A lab data portal that used to be six figures and a vendor contract is now a one-day build, and it fits the quirks of your data because you wrote it. His point is that every interface carries an opinion about which comparisons are one click away and which need hunting, and that opinion decides what your team ends up noticing. The old rule was never build what you can buy. The new rule is build the tools that shape how you think.</span><span data-l="vi">Trong khoa học, nghĩ thì rẻ đi còn làm thì không: một thí nghiệm vẫn mất mấy ngày, nhưng phần phân tích quanh nó giờ chỉ mất một buổi chiều. Nên lợi thế chuyển sang cái anh gọi là navigating -- tự build lại tool của mình thay vì đi mua. Một cái data portal cho lab, trước kia là sáu con số và một hợp đồng với vendor, giờ build trong một ngày, và nó vừa khít mấy chỗ dị của data vì chính bạn viết ra. Ý anh là: mọi giao diện đều mang sẵn một quan điểm về phép so sánh nào cách bạn một cú click và phép nào phải đi lùng, và cái quan điểm đó quyết định team bạn rốt cuộc nhìn thấy gì. Luật cũ: đừng build cái gì mua được. Luật mới: build những tool định hình cách bạn nghĩ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">The best startup ideas are things the founders themselves want and can build. You find them by living in the future and noticing what is missing, not by brainstorming what other people might pay for.</span><span data-l="vi">Ý tưởng startup tốt nhất là thứ chính founder muốn có và tự làm được. Bạn tìm ra nó bằng cách sống ở tương lai rồi để ý xem còn thiếu cái gì, chứ không phải ngồi brainstorm xem người khác chịu trả tiền cho cái gì.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Building the thing you yourself wanted used to be how a company started. Now it is a Tuesday -- and the software you did not build is <u>quietly choosing what you are allowed to notice</u>.</span><span data-l="vi">Tự build đúng cái mình cần từng là cách một công ty ra đời. Giờ nó là chuyện của một ngày thứ Ba bình thường -- còn phần mềm bạn không tự build đang <u>âm thầm chọn giùm bạn được phép nhìn thấy cái gì</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which tool on my desk <b>decided today what I would look at</b>?</span><span data-l="vi">Cái tool nào trên bàn mình hôm nay đã <b>quyết định giùm mình sẽ nhìn vào đâu</b>?</span></p></div>
+<div class="src-link"><a href="https://www.latent.space/p/foundries-vs-navigators-lowering" target="_blank" rel="noopener">Latent Space — Foundries vs Navigators: Lowering the Cost of Science &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">GOOD FRICTION</span><span data-l="vi">MA SÁT TỐT</span></span></div>
+<div class="eq"><div class="term"><div class="who">John Cutler</div><div class="what"><span data-l="en">Every hand-off in product work -- transcript to themes, themes to options, options to tickets -- was a pain, and was also a forcing function. You had to reread, restate, argue, and that was where judgement entered. Automate the whole chain and you lose the drudgery and the judgement together: five customer calls become eighty opportunities, four hundred tasks and fifty dashboards, none of it traceable back to a sentence a human actually said. His remedy is to put friction back deliberately -- at each copy, state what carried forward, what changed, and why -- and to keep every derived item linked to the original. If you cannot link back to something real, stop doing it.</span><span data-l="vi">Mỗi lần bàn giao trong việc làm sản phẩm -- transcript thành theme, theme thành phương án, phương án thành ticket -- đều mệt, và cũng đều là một forcing function. Bạn buộc phải đọc lại, diễn đạt lại, cãi nhau, và đó chính là chỗ phán đoán đi vào. Tự động hoá cả chuỗi thì bạn mất phần cực nhọc và mất luôn phần phán đoán: năm cuộc gọi khách hàng biến thành tám mươi opportunity, bốn trăm task, năm mươi dashboard, không cái nào lần ngược về được một câu người thật đã nói. Cách chữa của anh là cố tình đặt ma sát trở lại -- mỗi lần copy, phải nói rõ cái gì được mang theo, cái gì đổi, và vì sao -- và giữ mọi thứ phái sinh còn link về bản gốc. Không link ngược về được cái gì thật thì đừng làm nữa.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Growth is a loop, not a funnel: each pass has to feed the next one so the thing compounds. The craft is finding where the loop leaks and taking friction out until it spins faster.</span><span data-l="vi">Growth là một cái loop, không phải cái phễu: mỗi vòng phải nuôi được vòng sau thì nó mới cộng dồn. Nghề ở đây là tìm chỗ loop bị rò rồi gỡ ma sát ra cho nó quay nhanh hơn.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Growth taught a whole generation that friction is always the enemy. Cutler is pointing at the exception: some of it was load-bearing, and a loop with none of it left <u>does not compound, it just repeats</u>.</span><span data-l="vi">Growth dạy cả một thế hệ rằng ma sát luôn là kẻ thù. Cutler đang chỉ vào ngoại lệ: có chỗ ma sát đang chịu lực, và một cái loop không còn chút nào thì <u>không cộng dồn, nó chỉ lặp lại</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which step did I automate away before noticing <b>it was where I decided</b>?</span><span data-l="vi">Mình đã tự động hoá mất bước nào trước khi kịp nhận ra <b>đó là chỗ mình ra quyết định</b>?</span></p></div>
+<div class="src-link"><a href="https://cutlefish.substack.com/p/tbm-441-ai-the-loss-of-positive-friction" target="_blank" rel="noopener">The Beautiful Mess — TBM 441: AI, the Loss of Positive Friction, and What to Do About It &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">IN TRANSIT</span><span data-l="vi">CHẾT DỌC ĐƯỜNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Itamar Gilad</div><div class="what"><span data-l="en">He runs the arithmetic on one genuinely good idea walking through a normal launch-and-iterate process. Twenty percent survive prioritisation, where politics and risk aversion punish anything counterintuitive. Forty percent survive specification by committee, which grinds the sharp version into a compromise. Fifty percent survive delivery, because when a project runs long you cut whatever is not built yet rather than whatever is least valuable. Ten percent ever get iterated on afterwards. Multiply it out and roughly one good idea in twenty reaches users at full strength. AI has not moved that number: it is being used to produce more specs and more PRs faster, which he calls outputmaxing -- a faster feature factory, not a smarter one.</span><span data-l="vi">Anh làm phép tính cho một ý tưởng thật sự tốt đi qua quy trình launch-and-iterate bình thường. Hai mươi phần trăm sống sót qua khâu prioritisation, nơi chính trị và tâm lý ngại rủi ro trừng phạt mọi thứ phản trực giác. Bốn mươi phần trăm sống sót qua khâu spec kiểu họp hội đồng, chỗ bản sắc nhất bị mài thành một phương án dung hoà. Năm mươi phần trăm sống sót qua khâu delivery, vì khi project chạy quá hạn thì người ta cắt phần chưa kịp làm chứ không cắt phần ít giá trị nhất. Mười phần trăm được quay lại iterate sau khi launch. Nhân hết lại: cỡ một ý tưởng tốt trên hai mươi tới tay người dùng còn nguyên sức. AI chưa dịch được con số đó: nó đang được dùng để ra nhiều spec và nhiều PR hơn, nhanh hơn -- cái anh gọi là outputmaxing, một cái feature factory chạy nhanh hơn chứ không khôn hơn.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Andrew Chen</div><div class="what"><span data-l="en">Growth is a numbers game played honestly: most experiments fail, so you win by running many cheap ones and reading the losses, not by betting the quarter on whichever idea argued best in the room.</span><span data-l="vi">Growth là trò chơi xác suất chơi cho thật thà: phần lớn experiment sẽ fail, nên bạn thắng bằng cách chạy thật nhiều thử nghiệm rẻ rồi đọc kỹ mấy lần thua, chứ không phải đặt cả quý vào ý tưởng nào cãi hay nhất trong phòng họp.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Idea quality is the part everyone argues about and the smallest lever on the board. Double the quality of what goes in and you gain a little; <u>stop shredding what you already have</u> and you gain the whole difference.</span><span data-l="vi">Chất lượng ý tưởng là thứ ai cũng ngồi cãi, và là cái cần gạt nhỏ nhất trên bàn. Tăng gấp đôi chất lượng đầu vào thì được một chút; <u>ngừng băm nát những gì đang có</u> thì được trọn phần chênh lệch.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Name the last good idea I shipped at half strength. <b>Which stage took the other half</b>?</span><span data-l="vi">Kể tên ý tưởng tốt gần nhất mình ship ra chỉ còn một nửa. <b>Nửa kia mất ở khâu nào</b>?</span></p></div>
+<div class="src-link"><a href="https://itamargilad.com/good-ideas/" target="_blank" rel="noopener">Itamar Gilad — Why Good Product Ideas Don&#x27;t Survive &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-24.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-24</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Adrian Sanborn / Paul Graham / John Cutler / Brian Balfour / Itamar Gilad / Andrew Chen<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Adrian Sanborn / Paul Graham / John Cutler / Brian Balfour / Itamar Gilad / Andrew Chen<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
