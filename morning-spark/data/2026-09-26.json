@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-26",
+  "edition": 62,
+  "framing": "The signal was there. Nobody was paid to fetch it.",
+  "framing_vi": "Tín hiệu vẫn nằm đó. Không ai được trả tiền để đi lấy.",
+  "note": "Themes: the price of asking a question, an aggregator after the exit closes, and a team running the annual version of a habit it made weekly for strangers. Sources: seangoedecke.com (Sean Goedecke, 'You should all be asking way more questions', Sep 25, one day old, free, read in full: the one-question-every-thirty-seconds habit, compounding misunderstanding, skin in the game, building the plan in his head, the wicked-feature datacenter-siloing story, and the AI-agent section with 'language models are always on their first day' which was deliberately left mostly unused because Ed 61 spark 2 already ran friction-and-AI -- the facet taken here is ownership, not friction; well last ran Sep 17, eight days, and Goedecke is the most dominant well on file so rest him again); matduggan.com (Mat Duggan, 'I'm Tired of Being on the Network', Sep 25, one day old, a new name on file and a well never used, free, read in full: the phone as a tax with a choice of collector, the Danish app stack of Aula / Rejsekort / MitID / e-Boks, the OKR-driven app installs, the podcast ad for a digital detox app, the MiSTer FPGA board with the ethernet cable pulled, TapTo NFC cards as cartridge-off-a-shelf, the Crash Bandicoot one-new-thing-per-level observation which was left unused and is strong material for a design day, and the closing 'It asks nothing of me. It knows nothing about me.'); martinfowler.com (Anuja Karnik and Sumeet Moghe, 'Healthy Feedback', Sep 24, two days, byline is two Thoughtworks authors on Fowler's site rather than Fowler himself, so a new name on file, free, read in full: all feedback is positive per Pat Kua, feedback as a peer sport, the telemetry-signal analogy, situation-behaviour-impact, and the four antipatterns -- reviews, the sandwich, orchestrated events, feedback farming). Second halves from the rested end of the roster: Melissa Perri on the build trap (Sep 22, four days), Ben Thompson on aggregation theory (Sep 19, seven days, the longest-rested core name), Teresa Torres on continuous discovery (Sep 22, four days). Pairings Goedecke x Perri, Duggan x Thompson, Karnik-and-Moghe x Torres, all three checked against the full 61-edition pairing set and all three new; note Goedecke x Dunford already ran in Ed 53. Biddle stays benched per Ed 61 and is clear from Ed 63; Cagan, Dunford, Cutler, Balfour, Chen and Graham all ran within two days and were skipped. Deliberately skipped: svpg.com 'Experts Lead Experts' (Sep 25, one day old, but Cagan ran Sep 24); elenaverna.com 'What it's like to work at an AI-native company' (Sep 24, but Verna ran Sep 24); stratechery '2026.39: Begun, the Aggregator Wars Have' (Sep 25, free weekly roundup, no argument of its own -- same verdict as Ed 55 gave 2026.38, so stop opening the weekly numbers and look for the standalone articles instead); blog.jim-nielsen.com and counting-stuff and gradientflow all posted but every one of those names ran within four days; lennysnewsletter 'Advanced evals' (Sep 22, but evals ran as Ed 55 spark 2). Feed notes: matduggan.com/rss and martinfowler.com/feed.atom are both healthy and carry full bodies; tomtunguz.com/rss returns unparseable XML now, drop it until fixed; every.to/feeds/everything.xml returns no items. Wells barely spent: commoncog 'How to Handle Disruptive Change' (Sep 16, earmarked and passed over by Ed 53, 54, 55, 59 and now 62 -- ten days old and still unused, take it); leaddev 'Build an engineering team people want to come back to' (Sep 24, fetched today and unread, strong candidate); martinfowler 'Fragments: September 24'; notboring, benn.substack, surfingcomplexity 'How the incident happened'. Avoid tomorrow: asking questions, ads and attention taxes, feedback loops.",
+  "sparks": [
+    {
+      "title": "THIRTY SECONDS",
+      "title_vi": "BA MƯƠI GIÂY",
+      "headline": "The silence in a planning meeting is a measurement report",
+      "headline_vi": "Sự im lặng trong buổi họp plan là một báo cáo đo lường",
+      "a": {
+        "who": "Sean Goedecke",
+        "what": "He asks a question roughly every thirty seconds when someone explains a plan to him, mostly tiny ones: so when you say X, you mean Y? He does it because a small misunderstanding early does not stay small -- everything you build on top of it inherits the error, so you cannot save your questions for the end. And he is honest about why most people stay quiet: they are not really trying to understand, they are trusting that the senior person in the room knows. What changes that is skin in the game. Once you are the one who has to walk out and implement the thing, you find yourself asking.",
+        "what_vi": "Khi ai đó trình bày một cái plan, cứ tầm ba mươi giây anh lại hỏi một câu, phần lớn là câu nhỏ xíu: ý anh nói X là nói tới Y hả? Anh làm vậy vì một hiểu nhầm nhỏ lúc đầu không chịu nằm yên -- mọi thứ bạn build lên trên nó đều thừa hưởng cái sai đó, nên không thể để dành câu hỏi tới cuối buổi. Và anh nói thẳng vì sao đa số ngồi im: họ không thực sự cố hiểu, họ tin là người senior trong phòng đã nắm rồi. Thứ thay đổi chuyện đó là skin in the game. Khi bạn chính là người bước ra khỏi phòng và phải làm cái đó, tự nhiên bạn sẽ hỏi."
+      },
+      "b": {
+        "who": "Melissa Perri",
+        "what": "The build trap is what happens when a team is measured on output shipped instead of the outcome it was supposed to move. The tickets close on time and nobody in the room is on the hook for whether the thing worked.",
+        "what_vi": "Build trap là chuyện xảy ra khi một team bị đo bằng output đã ship thay vì outcome lẽ ra phải dịch chuyển. Ticket vẫn đóng đúng hạn, và không ai trong phòng phải chịu trách nhiệm chuyện nó có chạy hay không."
+      },
+      "result": "Questions have a price, and the room is quietly paying it. Tell me what a wrong answer costs each person at the table and I can predict the silence before the meeting starts.",
+      "result_vi": "Câu hỏi có giá của nó, và cả phòng đang lặng lẽ trả. Cho tôi biết một câu trả lời sai tốn của mỗi người ở bàn đó cái gì, tôi đoán được sự im lặng trước cả khi buổi họp bắt đầu.",
+      "result_underline": "I can predict the silence before the meeting starts",
+      "result_underline_vi": "tôi đoán được sự im lặng trước cả khi buổi họp bắt đầu",
+      "tick": "In the last plan I nodded along to, who was going to pay for a wrong answer?",
+      "tick_vi": "Trong cái plan gần nhất mình gật đầu cho qua, ai là người phải trả giá nếu nó sai?",
+      "tick_bold": [
+        "who was going to pay for a wrong answer"
+      ],
+      "tick_bold_vi": [
+        "ai là người phải trả giá nếu nó sai"
+      ],
+      "provocation": "Goedecke interrupts every thirty seconds because he is the one who has to build the thing afterwards. Perri's build trap describes a room where nobody is. The quiet meeting is not a culture problem, it is a report on how the people in it are measured.",
+      "provocation_vi": "Goedecke cắt ngang mỗi ba mươi giây vì anh chính là người sau đó phải đi build. Build trap của Perri mô tả một căn phòng không có ai như vậy. Buổi họp im ắng không phải vấn đề văn hoá, nó là báo cáo về cách người ngồi trong đó đang bị đo.",
+      "source": {
+        "site": "seangoedecke.com",
+        "title": "You should all be asking way more questions",
+        "url": "https://seangoedecke.com/you-should-all-be-asking-way-more-questions/",
+        "published": "2026-09-25"
+      }
+    },
+    {
+      "title": "THE TAX",
+      "title_vi": "KHOẢN THUẾ",
+      "headline": "He kept the one device that wanted nothing from him",
+      "headline_vi": "Anh giữ lại đúng cái máy không đòi hỏi gì ở mình",
+      "a": {
+        "who": "Mat Duggan",
+        "what": "He queued at 3 a.m. for the first iPhone and cannot now name which model is in his pocket. The phone stopped being a product and became a tax: he picks the collector, not whether to pay, because school, trains, ID and government post all arrive through apps. His maps have ads, his apps have ads, most of the ads are for installing more apps, and his podcast app sold him an ad for a digital detox. What brought the pleasure back was a bare FPGA board for old games with the ethernet cable pulled out, driven by NFC cards you tap like pulling a cartridge off a shelf. His verdict on it: it asks nothing of me, it knows nothing about me.",
+        "what_vi": "Anh từng xếp hàng 3 giờ sáng mua chiếc iPhone đầu tiên, giờ không nhớ nổi trong túi mình là đời nào. Điện thoại thôi làm sản phẩm và thành một khoản thuế: anh chỉ được chọn ai thu, không được chọn có đóng hay không, vì trường học, tàu điện, giấy tờ tuỳ thân và thư của nhà nước đều đi qua app. Map có ads, app có ads, phần lớn ads là để cài thêm app, và app podcast bán cho anh một quảng cáo về digital detox. Thứ kéo lại niềm vui là một bo mạch FPGA trần để chơi game cũ, rút hẳn dây ethernet, điều khiển bằng mấy thẻ NFC chạm cái là vô game, y như rút băng game khỏi kệ. Anh chốt về nó: nó không đòi hỏi gì ở tôi, nó không biết gì về tôi."
+      },
+      "b": {
+        "who": "Ben Thompson",
+        "what": "Aggregation theory: once distribution is free, power moves to whoever owns the demand. Aggregators win the user relationship first by having the best experience, then commoditise the suppliers behind them.",
+        "what_vi": "Aggregation theory: khi phân phối thành miễn phí, quyền lực chạy về phía ai nắm được nhu cầu. Aggregator giành quan hệ với user trước bằng trải nghiệm tốt nhất, rồi biến đám supplier phía sau thành hàng hoá thay thế được."
+      },
+      "result": "An aggregator competes on experience only for as long as leaving is possible. Duggan is a dispatch from after that door shut, and the thing that won his evening back was the one box with no demand to defend.",
+      "result_vi": "Aggregator chỉ cạnh tranh bằng trải nghiệm chừng nào bạn còn đi được. Duggan là bản tin gửi về từ sau lúc cánh cửa đó đóng lại, và thứ giành lại buổi tối cho anh là cái hộp duy nhất không có nhu cầu nào để giữ.",
+      "result_underline": "the one box with no demand to defend",
+      "result_underline_vi": "cái hộp duy nhất không có nhu cầu nào để giữ",
+      "tick": "Which part of my product exists because we need something from the user?",
+      "tick_vi": "Phần nào trong sản phẩm của mình tồn tại vì bọn mình cần gì đó từ user?",
+      "tick_bold": [
+        "we need something from the user"
+      ],
+      "tick_bold_vi": [
+        "bọn mình cần gì đó từ user"
+      ],
+      "provocation": "Aggregation theory explains why the experience was once so good. Duggan explains what it feels like after the aggregator no longer has to keep you. Every install prompt and every ad in his maps started life as someone's quarterly target, and the device he actually loves is the one with no target at all.",
+      "provocation_vi": "Aggregation theory giải thích vì sao trải nghiệm từng tốt tới vậy. Duggan kể cảm giác lúc aggregator không cần giữ bạn nữa. Mỗi lời mời cài app, mỗi cái ads trong map đều từng là chỉ tiêu quý của ai đó, còn cái máy anh thực sự thương là cái không có chỉ tiêu nào hết.",
+      "source": {
+        "site": "matduggan.com",
+        "title": "I'm Tired of Being on the Network",
+        "url": "https://matduggan.com/im-tired-of-being-on-the-network/",
+        "published": "2026-09-25"
+      }
+    },
+    {
+      "title": "NO LOGS",
+      "title_vi": "KHÔNG CÓ LOG",
+      "headline": "A quiet team looks healthy right up until it fails",
+      "headline_vi": "Team êm ả trông rất khoẻ, tới lúc vỡ thì thôi",
+      "a": {
+        "who": "Karnik and Moghe",
+        "what": "They treat a team as a system that needs telemetry, and feedback is the signal. A service with no logs and no metrics looks fine until the day it falls over; a team with no feedback looks harmonious until a deadline or a reorg surfaces the things everyone had noticed and nobody had named. Their sharpest antipattern is the one most companies run on purpose: collecting peer feedback inside the performance review, where it is months late, written rather than spoken, and attached to somebody's raise. What works instead is small, spoken, and close to the work it is about.",
+        "what_vi": "Họ coi team là một hệ thống cần telemetry, và feedback chính là tín hiệu đó. Một service không log không metric trông vẫn ổn cho tới ngày nó sập; một team không có feedback trông rất êm cho tới khi một deadline hay một đợt reorg lôi ra hết những thứ ai cũng thấy mà không ai gọi tên. Antipattern sắc nhất họ chỉ ra lại là thứ đa số công ty cố tình làm: gom feedback vào kỳ review, lúc nó đã trễ mấy tháng, viết ra thay vì nói ra, và dính luôn vào chuyện tăng lương của người ta. Cái chạy được thì ngược lại: nhỏ, nói miệng, và sát ngay với việc vừa xảy ra."
+      },
+      "b": {
+        "who": "Teresa Torres",
+        "what": "Continuous discovery means touching a customer every week, because learning batched into a quarterly research study arrives after the decisions it was meant to inform.",
+        "what_vi": "Continuous discovery nghĩa là tuần nào cũng chạm được một khách hàng, vì cái gì gom lại thành một đợt research mỗi quý thì về tới nơi sau khi quyết định đã chốt rồi."
+      },
+      "result": "You built a weekly habit of asking strangers what they think and kept a yearly one for the four people you sit beside. Same bug, shorter distance, bigger blast radius.",
+      "result_vi": "Bạn xây được thói quen mỗi tuần đi hỏi người lạ nghĩ gì, còn với bốn người ngồi ngay cạnh thì mỗi năm một lần. Cùng một lỗi, gần hơn nhiều, mà sức công phá lớn hơn.",
+      "result_underline": "Same bug, shorter distance, bigger blast radius",
+      "result_underline_vi": "Cùng một lỗi, gần hơn nhiều, mà sức công phá lớn hơn",
+      "tick": "What am I saving for a review that a teammate could act on this week?",
+      "tick_vi": "Mình đang để dành điều gì tới kỳ review, trong khi tuần này đồng đội đã có thể làm gì đó với nó?",
+      "tick_bold": [
+        "saving for a review"
+      ],
+      "tick_bold_vi": [
+        "để dành điều gì tới kỳ review"
+      ],
+      "provocation": "Discovery cadence and feedback cadence are the same argument pointed at different people. Most product teams have already accepted it for customers and quietly kept the annual version for each other.",
+      "provocation_vi": "Nhịp discovery và nhịp feedback là cùng một lập luận, chỉ khác chỗ chĩa vào ai. Phần lớn team product đã chấp nhận nó với khách hàng từ lâu, rồi lặng lẽ giữ lại bản mỗi-năm-một-lần cho chính mình.",
+      "source": {
+        "site": "martinfowler.com",
+        "title": "Healthy Feedback",
+        "url": "https://martinfowler.com/articles/healthy-peer-feedback.html",
+        "published": "2026-09-24"
+      }
+    }
+  ]
+}

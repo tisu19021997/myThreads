@@ -1,0 +1,22 @@
+Morning Spark · Saturday, September 26 · Ed. 62
+The signal was there. Nobody was paid to fetch it.
+
+─────────────────
+01 · The silence in a planning meeting is a measurement report
+Sean Goedecke × Melissa Perri
+Goedecke interrupts every thirty seconds because he is the one who has to build the thing afterwards. Perri's build trap describes a room where nobody is. The quiet meeting is not a culture problem, it is a report on how the people in it are measured.
+→ https://seangoedecke.com/you-should-all-be-asking-way-more-questions/
+
+─────────────────
+02 · He kept the one device that wanted nothing from him
+Mat Duggan × Ben Thompson
+Aggregation theory explains why the experience was once so good. Duggan explains what it feels like after the aggregator no longer has to keep you. Every install prompt and every ad in his maps started life as someone's quarterly target, and the device he actually loves is the one with no target at all.
+→ https://matduggan.com/im-tired-of-being-on-the-network/
+
+─────────────────
+03 · A quiet team looks healthy right up until it fails
+Karnik and Moghe × Teresa Torres
+Discovery cadence and feedback cadence are the same argument pointed at different people. Most product teams have already accepted it for customers and quietly kept the annual version for each other.
+→ https://martinfowler.com/articles/healthy-peer-feedback.html
+
+Full styled card → open the session.

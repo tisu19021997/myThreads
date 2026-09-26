@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 26</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 62</div></div></div>
+<div class="meta label">Saturday, September 26, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THIRTY SECONDS</span><span data-l="vi">BA MƯƠI GIÂY</span></span></div>
+<div class="eq"><div class="term"><div class="who">Sean Goedecke</div><div class="what"><span data-l="en">He asks a question roughly every thirty seconds when someone explains a plan to him, mostly tiny ones: so when you say X, you mean Y? He does it because a small misunderstanding early does not stay small -- everything you build on top of it inherits the error, so you cannot save your questions for the end. And he is honest about why most people stay quiet: they are not really trying to understand, they are trusting that the senior person in the room knows. What changes that is skin in the game. Once you are the one who has to walk out and implement the thing, you find yourself asking.</span><span data-l="vi">Khi ai đó trình bày một cái plan, cứ tầm ba mươi giây anh lại hỏi một câu, phần lớn là câu nhỏ xíu: ý anh nói X là nói tới Y hả? Anh làm vậy vì một hiểu nhầm nhỏ lúc đầu không chịu nằm yên -- mọi thứ bạn build lên trên nó đều thừa hưởng cái sai đó, nên không thể để dành câu hỏi tới cuối buổi. Và anh nói thẳng vì sao đa số ngồi im: họ không thực sự cố hiểu, họ tin là người senior trong phòng đã nắm rồi. Thứ thay đổi chuyện đó là skin in the game. Khi bạn chính là người bước ra khỏi phòng và phải làm cái đó, tự nhiên bạn sẽ hỏi.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">The build trap is what happens when a team is measured on output shipped instead of the outcome it was supposed to move. The tickets close on time and nobody in the room is on the hook for whether the thing worked.</span><span data-l="vi">Build trap là chuyện xảy ra khi một team bị đo bằng output đã ship thay vì outcome lẽ ra phải dịch chuyển. Ticket vẫn đóng đúng hạn, và không ai trong phòng phải chịu trách nhiệm chuyện nó có chạy hay không.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Questions have a price, and the room is quietly paying it. Tell me what a wrong answer costs each person at the table and <u>I can predict the silence before the meeting starts</u>.</span><span data-l="vi">Câu hỏi có giá của nó, và cả phòng đang lặng lẽ trả. Cho tôi biết một câu trả lời sai tốn của mỗi người ở bàn đó cái gì, <u>tôi đoán được sự im lặng trước cả khi buổi họp bắt đầu</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">In the last plan I nodded along to, <b>who was going to pay for a wrong answer</b>?</span><span data-l="vi">Trong cái plan gần nhất mình gật đầu cho qua, <b>ai là người phải trả giá nếu nó sai</b>?</span></p></div>
+<div class="src-link"><a href="https://seangoedecke.com/you-should-all-be-asking-way-more-questions/" target="_blank" rel="noopener">seangoedecke.com — You should all be asking way more questions &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE TAX</span><span data-l="vi">KHOẢN THUẾ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Mat Duggan</div><div class="what"><span data-l="en">He queued at 3 a.m. for the first iPhone and cannot now name which model is in his pocket. The phone stopped being a product and became a tax: he picks the collector, not whether to pay, because school, trains, ID and government post all arrive through apps. His maps have ads, his apps have ads, most of the ads are for installing more apps, and his podcast app sold him an ad for a digital detox. What brought the pleasure back was a bare FPGA board for old games with the ethernet cable pulled out, driven by NFC cards you tap like pulling a cartridge off a shelf. His verdict on it: it asks nothing of me, it knows nothing about me.</span><span data-l="vi">Anh từng xếp hàng 3 giờ sáng mua chiếc iPhone đầu tiên, giờ không nhớ nổi trong túi mình là đời nào. Điện thoại thôi làm sản phẩm và thành một khoản thuế: anh chỉ được chọn ai thu, không được chọn có đóng hay không, vì trường học, tàu điện, giấy tờ tuỳ thân và thư của nhà nước đều đi qua app. Map có ads, app có ads, phần lớn ads là để cài thêm app, và app podcast bán cho anh một quảng cáo về digital detox. Thứ kéo lại niềm vui là một bo mạch FPGA trần để chơi game cũ, rút hẳn dây ethernet, điều khiển bằng mấy thẻ NFC chạm cái là vô game, y như rút băng game khỏi kệ. Anh chốt về nó: nó không đòi hỏi gì ở tôi, nó không biết gì về tôi.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Aggregation theory: once distribution is free, power moves to whoever owns the demand. Aggregators win the user relationship first by having the best experience, then commoditise the suppliers behind them.</span><span data-l="vi">Aggregation theory: khi phân phối thành miễn phí, quyền lực chạy về phía ai nắm được nhu cầu. Aggregator giành quan hệ với user trước bằng trải nghiệm tốt nhất, rồi biến đám supplier phía sau thành hàng hoá thay thế được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">An aggregator competes on experience only for as long as leaving is possible. Duggan is a dispatch from after that door shut, and the thing that won his evening back was <u>the one box with no demand to defend</u>.</span><span data-l="vi">Aggregator chỉ cạnh tranh bằng trải nghiệm chừng nào bạn còn đi được. Duggan là bản tin gửi về từ sau lúc cánh cửa đó đóng lại, và thứ giành lại buổi tối cho anh là <u>cái hộp duy nhất không có nhu cầu nào để giữ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which part of my product exists because <b>we need something from the user</b>?</span><span data-l="vi">Phần nào trong sản phẩm của mình tồn tại vì <b>bọn mình cần gì đó từ user</b>?</span></p></div>
+<div class="src-link"><a href="https://matduggan.com/im-tired-of-being-on-the-network/" target="_blank" rel="noopener">matduggan.com — I&#x27;m Tired of Being on the Network &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">NO LOGS</span><span data-l="vi">KHÔNG CÓ LOG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Karnik and Moghe</div><div class="what"><span data-l="en">They treat a team as a system that needs telemetry, and feedback is the signal. A service with no logs and no metrics looks fine until the day it falls over; a team with no feedback looks harmonious until a deadline or a reorg surfaces the things everyone had noticed and nobody had named. Their sharpest antipattern is the one most companies run on purpose: collecting peer feedback inside the performance review, where it is months late, written rather than spoken, and attached to somebody&#x27;s raise. What works instead is small, spoken, and close to the work it is about.</span><span data-l="vi">Họ coi team là một hệ thống cần telemetry, và feedback chính là tín hiệu đó. Một service không log không metric trông vẫn ổn cho tới ngày nó sập; một team không có feedback trông rất êm cho tới khi một deadline hay một đợt reorg lôi ra hết những thứ ai cũng thấy mà không ai gọi tên. Antipattern sắc nhất họ chỉ ra lại là thứ đa số công ty cố tình làm: gom feedback vào kỳ review, lúc nó đã trễ mấy tháng, viết ra thay vì nói ra, và dính luôn vào chuyện tăng lương của người ta. Cái chạy được thì ngược lại: nhỏ, nói miệng, và sát ngay với việc vừa xảy ra.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery means touching a customer every week, because learning batched into a quarterly research study arrives after the decisions it was meant to inform.</span><span data-l="vi">Continuous discovery nghĩa là tuần nào cũng chạm được một khách hàng, vì cái gì gom lại thành một đợt research mỗi quý thì về tới nơi sau khi quyết định đã chốt rồi.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">You built a weekly habit of asking strangers what they think and kept a yearly one for the four people you sit beside. <u>Same bug, shorter distance, bigger blast radius</u>.</span><span data-l="vi">Bạn xây được thói quen mỗi tuần đi hỏi người lạ nghĩ gì, còn với bốn người ngồi ngay cạnh thì mỗi năm một lần. <u>Cùng một lỗi, gần hơn nhiều, mà sức công phá lớn hơn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What am I <b>saving for a review</b> that a teammate could act on this week?</span><span data-l="vi">Mình đang <b>để dành điều gì tới kỳ review</b>, trong khi tuần này đồng đội đã có thể làm gì đó với nó?</span></p></div>
+<div class="src-link"><a href="https://martinfowler.com/articles/healthy-peer-feedback.html" target="_blank" rel="noopener">martinfowler.com — Healthy Feedback &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-25.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-25</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Sean Goedecke / Melissa Perri / Mat Duggan / Ben Thompson / Karnik and Moghe / Teresa Torres<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Sean Goedecke / Melissa Perri / Mat Duggan / Ben Thompson / Karnik and Moghe / Teresa Torres<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
