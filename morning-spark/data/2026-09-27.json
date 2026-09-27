@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-27",
+  "edition": 63,
+  "framing": "A signal nobody had to pay for is not a signal.",
+  "framing_vi": "Tín hiệu mà không ai phải trả giá thì không phải tín hiệu.",
+  "note": "Themes: cost as the payload of a practice, runway as a budget for wrong frames, and the colleague who came back after seeing the alternative. Sources: interconnected.org (Matt Webb, 'A new prayer for the fruit fly connectome', Sep 26, one day old, the freshest anchor, a completely fresh well and a new name on file, fully free, read in full: the 166,000-neuron MaleCNS release, the Beat Saber GIF, DesktopFly and Fly64 with the Nintendo-owns-more-of-Mario-than-the-fly-owns-its-connectome aside, the sentience-is-not-binary scale, the brick-wall-is-bricks-and-pattern line, the five-step roadmap to an intelligence kernel which was left unused and is strong material for an AI day, the oikos-vs-polis and retain-gratitude-for-meat passage, the Jaron Lanier 2021 quote on dignity having to be created, and the shrine proposal -- chip fab, silicon, a poet's grace on cards, King's Cross, 'treat it lightly but seriously'); commoncog.com (Cedric Chin, 'How to Handle Disruptive Change', Sep 16 published and Sep 18 updated, eleven days, earmarked and passed over by Ed 53, 54, 55, 59 and 62 and finally taken -- domain used once before on 'Why Tactical Decision Games Work' in Ed 42, free above the members-only case links, read in full: the made-up stubbornness narrative, Rolex shipping quartz, Toys R Us buying white-labelled e-commerce from Amazon, Lazaridis taking an iPhone apart within days, the Data-Frame model and the framing problem, the four questions, the stabilise-then-find-a-path-to-win core frame, the VC-industrial-complex aside, and the RIM counterexample of zero debt and a steady 2B in cash across five years with no frame -- which is the hinge of spark 2; the closing seriousness test, 'have they actually done the work to hold that opinion', was left unused and is good material later); leaddev.com (Meg Adams, Senior Director of Engineering at The New York Times, 'Build an engineering team people want to come back to', Sep 24, three days, domain used once before on a different piece in Ed 53 and a new name on file, free with the full body above the one-article-left meter, read in full: the 'grey, everyone in their own lane' quote, the seasonal retail store where pay was fixed on the whole block, the team that exists apart from the people in it, protecting the bar, stack-ranking projects, designing for shared memory, the close-the-laptop 'how exciting, tell me literally everything' response to a resignation, the check-in cadence, and the biased-sample caveat which is used in spark 3 rather than hidden; her 'feedback sized to a career, not a review cycle' section was deliberately left unused because Ed 62 spark 3 already ran feedback and Ed 62 told this run to avoid it). Second halves from the rested end of the roster: Gibson Biddle on DHM and the hard-to-copy axis (Sep 24, three days, benched by Ed 61 and explicitly cleared from Ed 63, n=22), Jason Cohen on strategy as the naming of what you will not do (Sep 22, five days, n=23), Lenny Rachitsky on retention as the signal that cannot be bought (Sep 18, nine days, the longest-rested name on file, n=8). Pairings Matt Webb x Gibson Biddle, Cedric Chin x Jason Cohen, Meg Adams x Lenny Rachitsky, all three checked against the full 62-edition pairing set and all three brand new; note Chin has appeared three times as a second half, most recently Ed 52 on Sep 16, and this is his first run as a first half. Cagan (n=28, Sep 24) and Dunford (n=27, Sep 24) were deliberately skipped as the two most-used names even though Cagan x Webb on rehearsing a decision while the stakes are trivial was the sharper collision -- take that one later. Torres, Perri and Thompson all ran Sep 26; Graham, Balfour, Chen and Cutler all ran Sep 25. Deliberately skipped: seangoedecke 'Advice to a beginning software engineer' (Sep 26, one day old, but Goedecke ran Sep 26 and is the most dominant well on file); thezvi 'Claude Opus 5.5 Should Raise Your Ambitions' (Sep 26, fresh well and new name, but the capability-overhang theme already ran as Ed 55 spark 1); nngroup 'When Should You Disclose AI Use? The PACED Framework' (Sep 25, fresh well, strong candidate and still unused -- take it); uxdesign.cc 'Is this the line for burgers?' (Sep 25, Medium-hosted so expect 403); tomtunguz 'Thinking in Systems, Shipping in Loops' (Sep 24, but the feed is healthy again at tomtunguz.com/index.xml, so restore the well); stratechery weekly 2026.39 (Sep 25, skipped for the third time on the same grounds); garymarcus posts daily but they are breaking-news items, not arguments; gradientflow, counting-stuff and jim-nielsen all posted but all ran within four days. Feed notes: interconnected.org/home/feed, commoncog.com/blog/rss/ and leaddev.com/rss.xml all healthy with full bodies; tomtunguz.com/index.xml works where /rss and /feed.xml do not; reforge.com/blog/rss.xml returns a 500; firstround.com, a16z.com, longform.asmartbear.com/rss/ and gibsonbiddle.com/feed/ all returned nothing to curl today, so check asmartbear by hand before relying on it; productgrowth.substack.com is dead since 2024. Wells barely spent: nngroup (two study guides plus PACED, Sep 25), notboring 'Would We Send Our Kids to HAA?' (Sep 23), benn.substack 'How to lose your mind' (Sep 13, still unused), charity.wtf 'Confessions of an Unrepentant Slop Snob' (Sep 14, read and still unused), interconnected.org archive (fresh well, Matt Webb is a hardware and interaction designer so his back catalogue is unusually good material), surfingcomplexity 'How the incident happened', martinfowler 'I don't like LLMs' (Sep 17). Avoid tomorrow: costly signals and rituals, runway and balance sheets, retention and people leaving.",
+  "sparks": [
+    {
+      "title": "SILICON SHRINE",
+      "title_vi": "MIẾU SILICON",
+      "headline": "Google should build a shrine to a fruit fly",
+      "headline_vi": "Google nên dựng một cái miếu cho con ruồi giấm",
+      "a": {
+        "who": "Matt Webb",
+        "what": "Google Research mapped the whole brain of a male fruit fly, 166,000 neurons, and put it online as a free download. Within weeks the internet had it playing Beat Saber and wired into Super Mario 64. Webb is uneasy and spends the post working out why. Not because the simulation might be suffering -- he thinks it almost certainly is not. Because we have no cultural practice for treating it as anything at all. He quotes Jaron Lanier from 2021: dignity is something people have to create. So his proposal is concrete. Google should build a small shrine, the connectome engraved on silicon by a chip fab, a poet's short grace printed on cards, a candle, a corner of the King's Cross building. Barely anyone will visit. Treat it lightly but seriously.",
+        "what_vi": "Google Research map xong toàn bộ não con ruồi giấm đực, 166.000 neuron, rồi đưa lên mạng cho tải về miễn phí. Vài tuần sau internet đã cho nó chơi Beat Saber và cắm vào Super Mario 64. Webb thấy không ổn, và cả bài là anh tự gỡ xem vì sao. Không phải vì bản sim đó đang đau -- anh tin gần như chắc chắn là không. Mà vì chúng ta không hề có một tập quán nào để đối xử với nó như một thứ gì cả. Anh dẫn lại Jaron Lanier năm 2021: phẩm giá là thứ con người phải tự tạo ra. Nên đề xuất của anh rất cụ thể. Google nên dựng một cái miếu nhỏ, khắc connectome lên silicon bằng chính chip fab, thuê một nhà thơ viết mấy dòng kinh in ra card, một ngọn nến, một góc trong toà nhà ở King's Cross. Sẽ gần như không ai ghé. Làm nhẹ tay, nhưng làm thật."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: a real product strategy delights customers in ways that are hard to copy and margin-enhancing. Hard to copy is the axis teams quietly drop, because it is the only one that costs money now and pays nothing back this quarter.",
+        "what_vi": "DHM: một product strategy thật sự phải làm khách hàng thích, theo cách khó copy và tăng margin. Khó copy là trục mà các team âm thầm bỏ, vì đó là trục duy nhất tốn tiền ngay bây giờ và không trả lại gì trong quarter này."
+      },
+      "result": "Both are paying for the part with no receipt. A gesture anyone can perform for free is indistinguishable from no gesture, which is why Webb reaches for a chip fab and not a README: the effort is the message, not the overhead.",
+      "result_vi": "Cả hai đang trả tiền cho phần không có hoá đơn. Một hành vi ai cũng làm được miễn phí thì không khác gì không làm, và đó là lý do Webb chọn chip fab chứ không chọn một file README: công sức chính là thông điệp, không phải chi phí phụ.",
+      "result_underline": "the effort is the message, not the overhead",
+      "result_underline_vi": "công sức chính là thông điệp, không phải chi phí phụ",
+      "tick": "What do I do on purpose that would stop meaning anything the moment it got easy?",
+      "tick_vi": "Có việc gì mình làm có chủ ý mà sẽ hết ý nghĩa ngay khi nó trở nên dễ?",
+      "tick_bold": [
+        "stop meaning anything the moment it got easy"
+      ],
+      "tick_bold_vi": [
+        "hết ý nghĩa ngay khi nó trở nên dễ"
+      ],
+      "provocation": "Webb wants a fruit fly's connectome engraved on silicon and put somewhere you can light a candle. Biddle's hard-to-copy axis is expensive for the same structural reason. Free to perform, free to copy: either way nothing was actually said.",
+      "provocation_vi": "Webb muốn connectome của con ruồi giấm được khắc lên silicon và đặt ở chỗ bạn có thể thắp một ngọn nến. Trục khó copy của Biddle đắt tiền vì cùng một lý do cấu trúc đó. Miễn phí để làm, miễn phí để copy: đằng nào thì cũng chẳng nói được gì.",
+      "source": {
+        "site": "Interconnected",
+        "title": "A new prayer for the fruit fly connectome",
+        "url": "https://interconnected.org/home/2026/09/26/connectome",
+        "published": "2026-09-26"
+      }
+    },
+    {
+      "title": "THINKING BUDGET",
+      "title_vi": "NGÂN SÁCH ĐỂ NGHĨ",
+      "headline": "Runway does not buy survival, it buys frames",
+      "headline_vi": "Runway không mua đường sống, nó mua frame",
+      "a": {
+        "who": "Cedric Chin",
+        "what": "He commissioned five cases -- the quartz crisis, Amazon after the dotcom bust, Ford in the GFC, Blockbuster against Netflix, BlackBerry against the iPhone -- and in none of them is stubbornness the cause of death. Everyone responded. Rolex shipped quartz watches. Toys R Us bought white-labelled e-commerce from Amazon itself. Blockbuster's online arm nearly killed Netflix. Lazaridis bought an iPhone and took it apart within days of launch. What separated the survivors was a balance sheet strong enough to buy years, and the years went on one thing: finding a frame for what was happening. Without a frame people do not stay confused, they quit. Lazaridis and Balsillie left psychologically compromised, not cornered.",
+        "what_vi": "Anh đặt viết năm case -- quartz crisis, Amazon sau dotcom, Ford trong GFC, Blockbuster đánh Netflix, BlackBerry đánh iPhone -- và không case nào chết vì cứng đầu. Ai cũng phản ứng hết. Rolex ship đồng hồ quartz. Toys R Us đi mua e-commerce white-label từ chính Amazon. Nhánh online của Blockbuster gần như giết được Netflix. Lazaridis mua một cái iPhone và tháo ra trong vài ngày sau khi nó ra mắt. Thứ phân biệt bên sống là một balance sheet đủ mạnh để mua vài năm, và vài năm đó dùng vào đúng một việc: tìm ra một frame cho chuyện đang xảy ra. Không có frame thì người ta không ngồi hoang mang, người ta bỏ. Lazaridis và Balsillie đi vì kiệt sức tinh thần, không phải vì hết đường."
+      },
+      "b": {
+        "who": "Jason Cohen",
+        "what": "He writes strategy from the bootstrapper's side, where the constraint is not optional: you have to be profitable, so you have to name what you will not do. A strategy that costs nothing to declare is not one. It becomes real at the moment it forecloses something.",
+        "what_vi": "Anh viết về strategy từ phía người bootstrap, chỗ mà ràng buộc không phải lựa chọn: phải có lãi, nên phải gọi tên những thứ mình sẽ không làm. Một strategy không tốn gì để tuyên bố thì không phải strategy. Nó thành thật ở đúng lúc nó chặn mất một đường khác."
+      },
+      "result": "So runway is not survival, it is a thinking budget: a fixed number of wrong frames before you have to commit. RIM proves it cuts both ways. Zero debt, a steady two billion in cash, five whole years, no frame. It spent every one of them thrashing.",
+      "result_vi": "Vậy runway không phải đường sống, nó là ngân sách để nghĩ: một số lượng frame sai có hạn trước khi bạn buộc phải chọn. RIM cho thấy dao này hai lưỡi. Không nợ, hai tỷ tiền mặt đều đặn, trọn năm năm, không frame nào. Và nó quay quắt hết cả năm năm đó.",
+      "result_underline": "It spent every one of them thrashing",
+      "result_underline_vi": "Và nó quay quắt hết cả năm năm đó",
+      "tick": "What is my runway actually buying me -- the next frame, or another year of not picking one?",
+      "tick_vi": "Runway của mình đang mua được gì thật -- cái frame tiếp theo, hay thêm một năm không chọn gì cả?",
+      "tick_bold": [
+        "the next frame, or another year of not picking one"
+      ],
+      "tick_bold_vi": [
+        "cái frame tiếp theo, hay thêm một năm không chọn gì cả"
+      ],
+      "provocation": "Chin's survivors bought time with a balance sheet and spent it hunting for a frame. Cohen's bootstrapper has no time to buy and so has to choose early. RIM had the money and never chose. Cash does not remove the decision, it only sets its deadline.",
+      "provocation_vi": "Những người sống sót của Chin dùng balance sheet để mua thời gian, rồi dùng thời gian đó đi tìm một frame. Người bootstrap của Cohen không có gì để mua thời gian nên phải chọn sớm. RIM có tiền và không bao giờ chọn. Tiền không xoá được quyết định, nó chỉ đặt lại deadline cho quyết định đó.",
+      "source": {
+        "site": "Commoncog",
+        "title": "How to Handle Disruptive Change",
+        "url": "https://commoncog.com/how-to-handle-disruptive-change/",
+        "published": "2026-09-16"
+      }
+    },
+    {
+      "title": "THE RETURN",
+      "title_vi": "NGƯỜI QUAY LẠI",
+      "headline": "Retention counts who never left. Ask who came back.",
+      "headline_vi": "Retention đếm những người chưa từng đi. Hãy hỏi ai đã quay lại.",
+      "a": {
+        "who": "Meg Adams",
+        "what": "She runs engineering at the New York Times and learned this managing a seasonal retail store, where nobody stayed and retention was never the objective. Pay was fixed and identical at every shop on the block, so the only variable she controlled was whether eight weeks had been worth repeating. She reads engineering teams the same way now. An engineer who left, saw the alternative, and asked to come back has made a comparison with real options in hand -- and the ones with the most options are exactly the ones who leave. So she treats a resignation like a promotion: close the laptop, lean in, how exciting, tell me literally everything. She also names the bias out loud. The people who come back are the ones it worked for, and they are the only sample that talks to her.",
+        "what_vi": "Chị làm engineering ở New York Times, và học được chuyện này khi quản lý một cửa hàng bán lẻ theo mùa, nơi không ai ở lại và retention chưa bao giờ là mục tiêu. Lương đã cố định và mọi shop trên cùng con phố trả y như nhau, nên biến duy nhất chị kiểm soát được là tám tuần đó có đáng làm lại hay không. Giờ chị đọc các team engineering theo đúng cách đó. Một bạn engineer đã đi, đã thấy phương án khác, rồi xin quay lại là người đã so sánh khi trong tay có lựa chọn thật -- và những người có nhiều lựa chọn nhất chính là những người sẽ đi. Nên chị đối xử với một lá đơn xin nghỉ như một cái promotion: gập laptop, ngồi hướng lên, hay quá, kể hết cho mình nghe. Chị cũng nói thẳng ra cái bias. Những người quay lại là những người mà nơi đó đã phù hợp, và họ là mẫu duy nhất còn nói chuyện với chị."
+      },
+      "b": {
+        "who": "Lenny Rachitsky",
+        "what": "Retention is the signal he trusts above the rest. Acquisition can be bought and virality can be engineered, but a retention curve that flattens is the only evidence that the thing is worth coming back to.",
+        "what_vi": "Retention là tín hiệu anh tin hơn tất cả. Acquisition có thể mua, virality có thể thiết kế, nhưng một đường retention chịu phẳng ra là bằng chứng duy nhất rằng cái đó đáng để quay lại."
+      },
+      "result": "Retention counts the people who never left, and staying has a hundred cheap explanations: the market, the mortgage, the visa. Coming back has one. Staying can be inertia; a return cannot.",
+      "result_vi": "Retention đếm những người chưa từng đi, và việc ở lại có cả trăm lý do rẻ tiền: thị trường, khoản vay nhà, cái visa. Quay lại thì chỉ có một. Ở lại có thể chỉ là quán tính; quay lại thì không thể.",
+      "result_underline": "Staying can be inertia; a return cannot",
+      "result_underline_vi": "Ở lại có thể chỉ là quán tính; quay lại thì không thể",
+      "tick": "Of everyone who has left a team of mine, who came back -- and who never wrote?",
+      "tick_vi": "Trong tất cả những người đã rời team của mình, ai quay lại -- và ai không bao giờ nhắc lại gì?",
+      "tick_bold": [
+        "who came back -- and who never wrote"
+      ],
+      "tick_bold_vi": [
+        "ai quay lại -- và ai không bao giờ nhắc lại gì"
+      ],
+      "provocation": "Adams reads her culture off the engineers who left, looked at the alternative, and asked to come back. Rachitsky reads a product off the curve that flattens. Both are ignoring the people who simply have not moved. And the honest version of the metric admits its own hole: the ones who never wrote back are not in the sample.",
+      "provocation_vi": "Adams đọc văn hoá team của mình qua những bạn engineer đã đi, đã nhìn thấy phương án khác, rồi xin quay lại. Rachitsky đọc một sản phẩm qua đường cong chịu phẳng. Cả hai đang bỏ qua những người chỉ đơn giản là chưa dịch. Và bản trung thực của chỉ số này tự thừa nhận lỗ hổng: những người không bao giờ nhắc lại gì thì không nằm trong mẫu.",
+      "source": {
+        "site": "LeadDev",
+        "title": "Build an engineering team people want to come back to",
+        "url": "https://leaddev.com/culture/build-an-engineering-team-people-want-to-come-back-to",
+        "published": "2026-09-24"
+      }
+    }
+  ]
+}

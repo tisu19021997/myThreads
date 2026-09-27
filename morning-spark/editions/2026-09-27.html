@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 27</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 63</div></div></div>
+<div class="meta label">Sunday, September 27, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">SILICON SHRINE</span><span data-l="vi">MIẾU SILICON</span></span></div>
+<div class="eq"><div class="term"><div class="who">Matt Webb</div><div class="what"><span data-l="en">Google Research mapped the whole brain of a male fruit fly, 166,000 neurons, and put it online as a free download. Within weeks the internet had it playing Beat Saber and wired into Super Mario 64. Webb is uneasy and spends the post working out why. Not because the simulation might be suffering -- he thinks it almost certainly is not. Because we have no cultural practice for treating it as anything at all. He quotes Jaron Lanier from 2021: dignity is something people have to create. So his proposal is concrete. Google should build a small shrine, the connectome engraved on silicon by a chip fab, a poet&#x27;s short grace printed on cards, a candle, a corner of the King&#x27;s Cross building. Barely anyone will visit. Treat it lightly but seriously.</span><span data-l="vi">Google Research map xong toàn bộ não con ruồi giấm đực, 166.000 neuron, rồi đưa lên mạng cho tải về miễn phí. Vài tuần sau internet đã cho nó chơi Beat Saber và cắm vào Super Mario 64. Webb thấy không ổn, và cả bài là anh tự gỡ xem vì sao. Không phải vì bản sim đó đang đau -- anh tin gần như chắc chắn là không. Mà vì chúng ta không hề có một tập quán nào để đối xử với nó như một thứ gì cả. Anh dẫn lại Jaron Lanier năm 2021: phẩm giá là thứ con người phải tự tạo ra. Nên đề xuất của anh rất cụ thể. Google nên dựng một cái miếu nhỏ, khắc connectome lên silicon bằng chính chip fab, thuê một nhà thơ viết mấy dòng kinh in ra card, một ngọn nến, một góc trong toà nhà ở King&#x27;s Cross. Sẽ gần như không ai ghé. Làm nhẹ tay, nhưng làm thật.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">DHM: a real product strategy delights customers in ways that are hard to copy and margin-enhancing. Hard to copy is the axis teams quietly drop, because it is the only one that costs money now and pays nothing back this quarter.</span><span data-l="vi">DHM: một product strategy thật sự phải làm khách hàng thích, theo cách khó copy và tăng margin. Khó copy là trục mà các team âm thầm bỏ, vì đó là trục duy nhất tốn tiền ngay bây giờ và không trả lại gì trong quarter này.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Both are paying for the part with no receipt. A gesture anyone can perform for free is indistinguishable from no gesture, which is why Webb reaches for a chip fab and not a README: <u>the effort is the message, not the overhead</u>.</span><span data-l="vi">Cả hai đang trả tiền cho phần không có hoá đơn. Một hành vi ai cũng làm được miễn phí thì không khác gì không làm, và đó là lý do Webb chọn chip fab chứ không chọn một file README: <u>công sức chính là thông điệp, không phải chi phí phụ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What do I do on purpose that would <b>stop meaning anything the moment it got easy</b>?</span><span data-l="vi">Có việc gì mình làm có chủ ý mà sẽ <b>hết ý nghĩa ngay khi nó trở nên dễ</b>?</span></p></div>
+<div class="src-link"><a href="https://interconnected.org/home/2026/09/26/connectome" target="_blank" rel="noopener">Interconnected — A new prayer for the fruit fly connectome &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THINKING BUDGET</span><span data-l="vi">NGÂN SÁCH ĐỂ NGHĨ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Cedric Chin</div><div class="what"><span data-l="en">He commissioned five cases -- the quartz crisis, Amazon after the dotcom bust, Ford in the GFC, Blockbuster against Netflix, BlackBerry against the iPhone -- and in none of them is stubbornness the cause of death. Everyone responded. Rolex shipped quartz watches. Toys R Us bought white-labelled e-commerce from Amazon itself. Blockbuster&#x27;s online arm nearly killed Netflix. Lazaridis bought an iPhone and took it apart within days of launch. What separated the survivors was a balance sheet strong enough to buy years, and the years went on one thing: finding a frame for what was happening. Without a frame people do not stay confused, they quit. Lazaridis and Balsillie left psychologically compromised, not cornered.</span><span data-l="vi">Anh đặt viết năm case -- quartz crisis, Amazon sau dotcom, Ford trong GFC, Blockbuster đánh Netflix, BlackBerry đánh iPhone -- và không case nào chết vì cứng đầu. Ai cũng phản ứng hết. Rolex ship đồng hồ quartz. Toys R Us đi mua e-commerce white-label từ chính Amazon. Nhánh online của Blockbuster gần như giết được Netflix. Lazaridis mua một cái iPhone và tháo ra trong vài ngày sau khi nó ra mắt. Thứ phân biệt bên sống là một balance sheet đủ mạnh để mua vài năm, và vài năm đó dùng vào đúng một việc: tìm ra một frame cho chuyện đang xảy ra. Không có frame thì người ta không ngồi hoang mang, người ta bỏ. Lazaridis và Balsillie đi vì kiệt sức tinh thần, không phải vì hết đường.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">He writes strategy from the bootstrapper&#x27;s side, where the constraint is not optional: you have to be profitable, so you have to name what you will not do. A strategy that costs nothing to declare is not one. It becomes real at the moment it forecloses something.</span><span data-l="vi">Anh viết về strategy từ phía người bootstrap, chỗ mà ràng buộc không phải lựa chọn: phải có lãi, nên phải gọi tên những thứ mình sẽ không làm. Một strategy không tốn gì để tuyên bố thì không phải strategy. Nó thành thật ở đúng lúc nó chặn mất một đường khác.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">So runway is not survival, it is a thinking budget: a fixed number of wrong frames before you have to commit. RIM proves it cuts both ways. Zero debt, a steady two billion in cash, five whole years, no frame. <u>It spent every one of them thrashing</u>.</span><span data-l="vi">Vậy runway không phải đường sống, nó là ngân sách để nghĩ: một số lượng frame sai có hạn trước khi bạn buộc phải chọn. RIM cho thấy dao này hai lưỡi. Không nợ, hai tỷ tiền mặt đều đặn, trọn năm năm, không frame nào. <u>Và nó quay quắt hết cả năm năm đó</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What is my runway actually buying me -- <b>the next frame, or another year of not picking one</b>?</span><span data-l="vi">Runway của mình đang mua được gì thật -- <b>cái frame tiếp theo, hay thêm một năm không chọn gì cả</b>?</span></p></div>
+<div class="src-link"><a href="https://commoncog.com/how-to-handle-disruptive-change/" target="_blank" rel="noopener">Commoncog — How to Handle Disruptive Change &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE RETURN</span><span data-l="vi">NGƯỜI QUAY LẠI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Meg Adams</div><div class="what"><span data-l="en">She runs engineering at the New York Times and learned this managing a seasonal retail store, where nobody stayed and retention was never the objective. Pay was fixed and identical at every shop on the block, so the only variable she controlled was whether eight weeks had been worth repeating. She reads engineering teams the same way now. An engineer who left, saw the alternative, and asked to come back has made a comparison with real options in hand -- and the ones with the most options are exactly the ones who leave. So she treats a resignation like a promotion: close the laptop, lean in, how exciting, tell me literally everything. She also names the bias out loud. The people who come back are the ones it worked for, and they are the only sample that talks to her.</span><span data-l="vi">Chị làm engineering ở New York Times, và học được chuyện này khi quản lý một cửa hàng bán lẻ theo mùa, nơi không ai ở lại và retention chưa bao giờ là mục tiêu. Lương đã cố định và mọi shop trên cùng con phố trả y như nhau, nên biến duy nhất chị kiểm soát được là tám tuần đó có đáng làm lại hay không. Giờ chị đọc các team engineering theo đúng cách đó. Một bạn engineer đã đi, đã thấy phương án khác, rồi xin quay lại là người đã so sánh khi trong tay có lựa chọn thật -- và những người có nhiều lựa chọn nhất chính là những người sẽ đi. Nên chị đối xử với một lá đơn xin nghỉ như một cái promotion: gập laptop, ngồi hướng lên, hay quá, kể hết cho mình nghe. Chị cũng nói thẳng ra cái bias. Những người quay lại là những người mà nơi đó đã phù hợp, và họ là mẫu duy nhất còn nói chuyện với chị.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Lenny Rachitsky</div><div class="what"><span data-l="en">Retention is the signal he trusts above the rest. Acquisition can be bought and virality can be engineered, but a retention curve that flattens is the only evidence that the thing is worth coming back to.</span><span data-l="vi">Retention là tín hiệu anh tin hơn tất cả. Acquisition có thể mua, virality có thể thiết kế, nhưng một đường retention chịu phẳng ra là bằng chứng duy nhất rằng cái đó đáng để quay lại.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Retention counts the people who never left, and staying has a hundred cheap explanations: the market, the mortgage, the visa. Coming back has one. <u>Staying can be inertia; a return cannot</u>.</span><span data-l="vi">Retention đếm những người chưa từng đi, và việc ở lại có cả trăm lý do rẻ tiền: thị trường, khoản vay nhà, cái visa. Quay lại thì chỉ có một. <u>Ở lại có thể chỉ là quán tính; quay lại thì không thể</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Of everyone who has left a team of mine, <b>who came back -- and who never wrote</b>?</span><span data-l="vi">Trong tất cả những người đã rời team của mình, <b>ai quay lại -- và ai không bao giờ nhắc lại gì</b>?</span></p></div>
+<div class="src-link"><a href="https://leaddev.com/culture/build-an-engineering-team-people-want-to-come-back-to" target="_blank" rel="noopener">LeadDev — Build an engineering team people want to come back to &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-26.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-26</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Matt Webb / Gibson Biddle / Cedric Chin / Jason Cohen / Meg Adams / Lenny Rachitsky<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Matt Webb / Gibson Biddle / Cedric Chin / Jason Cohen / Meg Adams / Lenny Rachitsky<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

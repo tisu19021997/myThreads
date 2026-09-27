@@ -1,0 +1,22 @@
+Morning Spark · Sunday, September 27 · Ed. 63
+A signal nobody had to pay for is not a signal.
+
+─────────────────
+01 · Google should build a shrine to a fruit fly
+Matt Webb × Gibson Biddle
+Webb wants a fruit fly's connectome engraved on silicon and put somewhere you can light a candle. Biddle's hard-to-copy axis is expensive for the same structural reason. Free to perform, free to copy: either way nothing was actually said.
+→ https://interconnected.org/home/2026/09/26/connectome
+
+─────────────────
+02 · Runway does not buy survival, it buys frames
+Cedric Chin × Jason Cohen
+Chin's survivors bought time with a balance sheet and spent it hunting for a frame. Cohen's bootstrapper has no time to buy and so has to choose early. RIM had the money and never chose. Cash does not remove the decision, it only sets its deadline.
+→ https://commoncog.com/how-to-handle-disruptive-change/
+
+─────────────────
+03 · Retention counts who never left. Ask who came back.
+Meg Adams × Lenny Rachitsky
+Adams reads her culture off the engineers who left, looked at the alternative, and asked to come back. Rachitsky reads a product off the curve that flattens. Both are ignoring the people who simply have not moved. And the honest version of the metric admits its own hole: the ones who never wrote back are not in the sample.
+→ https://leaddev.com/culture/build-an-engineering-team-people-want-to-come-back-to
+
+Full styled card → open the session.
