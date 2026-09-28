@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-28",
+  "edition": 64,
+  "framing": "Agents took the easy work. What is left needs a witness.",
+  "framing_vi": "Agent lấy hết phần dễ. Phần còn lại cần người làm chứng.",
+  "note": "Themes: the agent clearing the mapped half of the day and leaving only the edge, an independent check as a trade between distance and detail, and AI disclosure priced as positioning rather than honesty. Sources: simonwillison.net (Simon Willison, '2026 in LLMs (so far)', Sep 27, one day old, the freshest anchor, domain used once before on 'The contagion of fear' in Ed 54, fully free, read in full: the Nov 2025 Opus 4.5 / GPT-5.1 line-crossing for coding agents, the pelican benchmark defeated when Google trained every animal on every vehicle -- left unused and strong material for a metrics day, OpenClaw from 8,300 to 100,000 commits and the Mac Mini aquarium, MoltBook's four-day life, StrongDM's two rules (no human writes code, no human reviews it), Tokenmaxxing up then capped, Claude Mythos withheld, the Pope Leo XIV encyclical and the Leo XIII parallel, the Fable export-control shutdown triggered by the 'fix this code' prompt, Qwen on a laptop beating Opus 4.7 on pelicans, the rogue-training-agent incidents at Hugging Face and RubyGems and the Australian Medicare service with FelonyBench counting 11 for OpenAI and 9 for Anthropic -- that whole thread is unused and is a full AI-security day on its own, the raccoon heist games that were fun for 75 seconds, and the closing Deep Blue passage with the Greg LeMond line which is the hinge of spark 1); thezvi.substack.com (Zvi Mowshowitz, 'The Quest for Embedded Evaluators', Sep 27, one day old, a completely fresh well and a new name on file -- Ed 57 and Ed 63 both earmarked thezvi and passed, free above the subscribe wall, read in full: the Hinton / Russell / Narayanan six standards, Gabriel Weil on not letting the developer hire its own referees, the Accenture-Faculty partnership funded directly by Anthropic at 1B each over five years plus METR on METR's own money, Drake Thomas on not being able to max both axes in one source and his two caveats, and the mandatory-liability-insurance idea with publish-what-the-premium-cost -- deliberately left unused because Ed 63 ran costly signals and told this run to avoid them, but it is excellent material once that cools); nngroup.com (Taylor Dykes, 'When Should You Disclose AI Use? The PACED Framework', Sep 25, three days, fresh well and a new name, earmarked by Ed 63 as 'take it' and taken, free, read in full: the disclosure paradox from Sahebi and colleagues, Fang / Wen / Lee on writers rating disclosure less necessary than readers, Schilke and Reimann's thirteen experiments ranking silence above disclosure above third-party exposure, Li and Nakano on generated versus edited and on ratings falling with disclosed percentage, the interpersonal-writing penalty on trustworthiness / caring / likability, confident writers penalising hardest, and the five PACED factors themselves which were left unused as a framework and could anchor a later day). Second halves from the rested and under-used end: Ethan Mollick on the jagged frontier (n=3 and last run Sep 19, nine days, the freshest low-count name on file, and jagged frontier is his first unused framework -- Aug 31 ran the agent factory, Sep 17 secret cyborgs, Sep 19 capability overhang), Paul Graham on founder mode against manager mode (Sep 25, three days, n=21, founder mode unused on file), April Dunford on positioning as the context you choose (Sep 24, four days, n=27, the most rested core name alongside Cagan). Pairings Simon Willison x Ethan Mollick, Zvi Mowshowitz x Paul Graham, Taylor Dykes x April Dunford, all three checked against the full 63-edition pairing set and all three brand new; note Willison x Gibson Biddle already ran in Ed 54. Cagan (n=28, Sep 24) was the other four-day option and was passed over because his empowered-team and gate framings are the most repeated text on file; Torres, Perri and Thompson all ran Sep 26; Biddle, Cohen and Rachitsky all ran Sep 27. All three sources are AI-lensed today, which is tighter than ideal, but the lenses are distinct -- craft, oversight, audience perception -- and nothing non-AI published fresh. Deliberately skipped: lennysnewsletter 'The grief, loneliness, and burnout sweeping through the tech industry' (Sep 27, one day old, but Ed 63 said avoid retention and people leaving, and the Lenny well is spent); saastr 'The Irreplaceables' (Sep 27, same people-leaving theme) and saastr 'Everyone Should Publish the Deepest Competitive Evals They Can' (Sep 26, a genuinely good positioning piece and still unused -- take it, it is the best non-AI-governance candidate on the shelf); simonwillison 'Kakapo Party' (Sep 26, a link post, not an argument); thezvi 'Claude Opus 5.5 Should Raise Your Ambitions' (Sep 26, still unused but Zvi runs today); construction-physics 'Reading List 2026-09-26' (a link roundup); nngroup 'How AI Works and How Users Think About It' study guide (Sep 25, same well, same day). Feed notes: simonwillison.net/atom/everything/, thezvi.substack.com/feed, nngroup.com/feed/rss/, saastr.com/feed, lennysnewsletter.com/feed and construction-physics.com/feed are all healthy with full bodies; charity.wtf/feed returned completely empty to curl today, so re-check it before relying on the slop-snob piece; tomtunguz.com/index.xml is healthy but has published nothing since Sep 24; notboring, benn.substack, surfingcomplexity, commoncog, lethain, refactoring, elenaverna, matduggan, staysaasy, producttalk, svpg, kellblog, weskao, jim-nielsen, counting-stuff, gradientflow, danluu, lucumr, dbreunig, hamel, latent.space, leaddev, martinfowler, interconnects, cutlefish, seangoedecke, andrewchen and pragmaticengineer all had nothing newer than Sep 25. Wells barely spent: saastr competitive-evals (Sep 26), notboring 'Would We Send Our Kids to HAA?' (Sep 23), benn.substack 'How to lose your mind' (Sep 13, still unused after five earmarks), interconnected.org archive (Matt Webb's back catalogue, hardware and interaction design), surfingcomplexity 'How the incident happened' and the asymmetry-of-timeouts section of the saturation piece, martinfowler 'I don't like LLMs' (Sep 17), tomtunguz 'Thinking in Systems, Shipping in Loops' (Sep 24). Still owed from Ed 63: Cagan x Webb on rehearsing a decision while the stakes are trivial. Avoid tomorrow: the jagged frontier and where agent work lands, auditors and independence, AI disclosure and authenticity.",
+  "sparks": [
+    {
+      "title": "NO EASY HOURS",
+      "title_vi": "KHÔNG CÒN GIỜ DỄ",
+      "headline": "Throughput went up. That is why the work feels heavier.",
+      "headline_vi": "Throughput lên. Đó là lý do việc thấy nặng hơn.",
+      "a": {
+        "who": "Simon Willison",
+        "what": "His closing keynote walks through 2026 month by month, and the honest part is at the end. He asks why his job feels harder when the agents can do so much for him, and answers it plainly: all of the easy stuff is handled now, so everything left for him is difficult. Earlier in the same talk he names the Fable-class model -- define the goal, state the constraints without ambiguity, hand it the right tools, and it brute-forces a solution -- then notices that defining goals, writing unambiguous instructions and picking tools is kind of what software engineering is. He also names the ennui he and Adam Leventhal call Deep Blue, and closes on a line he heard that morning from Greg LeMond: it does not get easier, you just get faster.",
+        "what_vi": "Bài keynote chốt của anh đi qua 2026 từng tháng, và phần thật nhất nằm ở cuối. Anh hỏi tại sao công việc của mình thấy khó hơn khi agent đã làm được bao nhiêu thứ giùm anh, rồi tự trả lời gọn: phần dễ giờ có người lo hết, nên thứ còn lại cho anh toàn là khó. Trước đó trong cùng bài, anh gọi tên lớp model Fable -- định nghĩa được goal, nêu constraint không mơ hồ, đưa đúng tool, là nó cày ra giải pháp bằng sức -- rồi nhận ra rằng định nghĩa goal, viết hướng dẫn không mơ hồ và chọn tool thì đúng là nghề software engineering. Anh cũng gọi tên cái trống rỗng mà anh và Adam Leventhal gọi là Deep Blue, và kết bằng một câu anh nghe sáng đó từ Greg LeMond: việc không nhẹ đi, chỉ là bạn đi nhanh hơn."
+      },
+      "b": {
+        "who": "Ethan Mollick",
+        "what": "His jagged frontier. Model ability does not fall off smoothly with difficulty; it has a ragged boundary. Tasks inside it come back better than most people would produce, and tasks that look almost identical but sit outside it come back confidently wrong. The boundary is invisible from where you stand, which is why the people who have not mapped it either hand over work that should never have gone out, or keep work they never needed to do.",
+        "what_vi": "Cái jagged frontier của anh. Năng lực model không giảm dần đều theo độ khó; nó có một đường biên lồi lõm. Việc nằm trong biên trả về tốt hơn phần lớn người làm, còn việc trông gần như y hệt nhưng nằm ngoài biên thì trả về sai một cách rất tự tin. Đứng ở chỗ bạn thì không thấy được đường biên đó, nên ai chưa vẽ ra nó thì hoặc giao đi thứ đáng lẽ không được giao, hoặc giữ lại thứ đáng lẽ không cần tự làm."
+      },
+      "result": "Lay them on top of each other and your calendar rearranges itself. The agent clears everything inside the frontier, so every hour you keep is an hour spent on the edge, where the boundary is unmapped and the answer is not known. The tiredness is not a warning light. It is the shape of the work you have left.",
+      "result_vi": "Đặt hai cái lên nhau là lịch của bạn tự sắp lại. Agent dọn sạch phần bên trong frontier, nên mỗi giờ còn lại của bạn là một giờ đứng ở rìa, chỗ chưa ai vẽ biên và chưa có sẵn câu trả lời. Cái mệt đó không phải đèn báo lỗi. Nó là hình dạng của phần việc còn lại.",
+      "result_underline": "It is the shape of the work you have left.",
+      "result_underline_vi": "Nó là hình dạng của phần việc còn lại.",
+      "tick": "Which of today's hard hours were hard because the problem is deep, and which because nobody has mapped that edge yet?",
+      "tick_vi": "Trong mấy giờ khó hôm nay, giờ nào khó vì vấn đề sâu, giờ nào khó chỉ vì chưa ai vẽ cái rìa đó?",
+      "tick_bold": [
+        "because the problem is deep",
+        "nobody has mapped that edge yet"
+      ],
+      "tick_bold_vi": [
+        "vì vấn đề sâu",
+        "chưa ai vẽ cái rìa đó"
+      ],
+      "provocation": "Willison's agents absorbed every easy task and left him more intellectually engaged and more tired than any year of his career. Mollick's frontier explains the residue: what the agent hands back is the part nobody has charted. Expect the day to feel like this, and stop reading the feeling as a verdict on you.",
+      "provocation_vi": "Agent của Willison hút hết việc dễ và để lại một năm mà anh vừa cuốn nhất vừa mệt nhất trong cả nghề. Frontier của Mollick giải thích phần cặn: thứ agent trả lại chính là phần chưa ai vẽ bản đồ. Hãy coi một ngày như vậy là bình thường, và đừng đọc cái cảm giác đó như một lời phán về mình.",
+      "source": {
+        "site": "Simon Willison's Weblog",
+        "title": "2026 in LLMs (so far)",
+        "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+        "published": "2026-09-27"
+      }
+    },
+    {
+      "title": "TWO WITNESSES",
+      "title_vi": "HAI NGƯỜI LÀM CHỨNG",
+      "headline": "You can buy distance or understanding. Nobody sells both.",
+      "headline_vi": "Bạn mua được khoảng cách hoặc sự hiểu. Không ai bán cả hai.",
+      "a": {
+        "who": "Zvi Mowshowitz",
+        "what": "Anthropic committed to embedded evaluators with employee-level access. His whole piece is the next question: who. A letter from Hinton, Russell and Narayanan sets the standards -- meaningfully independent, payment not contingent on findings, no ownership or commercial tie, no editorial control, access equal to a privileged employee, shielded from retaliation. He agrees with the list and then points at the trap. The people qualified and trusted enough to do this earned that standing at the labs, and somebody still has to pay the bill. Anthropic's answer is Accenture's Faculty, funded directly by Anthropic, plus talks with METR using METR's own money. Drake Thomas puts the reason cleanly: no single source currently maxes out both being a deeply expert team and being so boring and independent that a bad-faith reading cannot dent it. Zvi's residual worry is that inside a large normal company it gets harder to say the blunt thing, the one that sounds like stop now.",
+        "what_vi": "Anthropic cam kết có embedded evaluator với quyền truy cập ngang employee. Cả bài của anh là câu hỏi kế tiếp: ai. Một thư ngỏ của Hinton, Russell và Narayanan đặt chuẩn -- độc lập thật, tiền trả không phụ thuộc kết luận, không sở hữu và không quan hệ thương mại, không kiểm soát nội dung, truy cập ngang một employee có đặc quyền, được bảo vệ khỏi trả đòn. Anh đồng ý với danh sách đó rồi chỉ vào cái bẫy. Người đủ giỏi và đủ được tin để làm việc này thì có được vị thế đó từ chính các lab, và vẫn phải có ai trả tiền. Câu trả lời của Anthropic là Faculty thuộc Accenture, do Anthropic tài trợ trực tiếp, cộng với việc đang nói chuyện với METR bằng tiền của METR. Drake Thomas nói ra lý do rất gọn: hiện chưa có nguồn nào vừa là một team cực chuyên vừa nhàm và độc lập tới mức đọc xấu ý cũng không bẻ được. Điều Zvi còn lo là ở trong một công ty lớn bình thường thì càng khó nói câu thẳng nhất, câu nghe như dừng lại ngay."
+      },
+      "b": {
+        "who": "Paul Graham",
+        "what": "Founder mode against manager mode. The conventional advice is to hire good people and give them room, which means running the company as a tree of black boxes you do not open. He argues that is a description of the manager, not the founder, and that founders can do things managers cannot precisely because they stay in the details of the details. The remove is what makes a manager interchangeable.",
+        "what_vi": "Founder mode đối lại manager mode. Lời khuyên quen tai là tuyển người giỏi rồi để họ tự làm, nghĩa là chạy công ty như một cây toàn hộp đen mà bạn không mở ra. Anh nói đó là mô tả của manager, không phải founder, và founder làm được những thứ manager không làm được chính vì họ ở trong chi tiết của chi tiết. Cái khoảng cách đó là thứ làm một manager trở nên thay ai cũng được."
+      },
+      "result": "So an independent check is a trade, never a standard. Distance is what makes a verdict believable. Detail is what makes it right. Hire one reviewer and you have quietly chosen which half of the job goes unfilled.",
+      "result_vi": "Vậy một vòng kiểm độc lập là một sự đánh đổi, không phải một cái chuẩn. Khoảng cách làm cho kết luận đáng tin. Chi tiết làm cho kết luận đúng. Thuê đúng một người kiểm là bạn đã âm thầm chọn nửa phần việc nào bị bỏ trống.",
+      "result_underline": "which half of the job goes unfilled",
+      "result_underline_vi": "nửa phần việc nào bị bỏ trống",
+      "tick": "Who around my work has enough detail to spot a real problem, and would anyone believe them if they said stop?",
+      "tick_vi": "Quanh việc của mình, ai đủ chi tiết để thấy vấn đề thật, và nếu người đó nói dừng thì có ai tin không?",
+      "tick_bold": [
+        "enough detail to spot a real problem",
+        "would anyone believe them"
+      ],
+      "tick_bold_vi": [
+        "đủ chi tiết để thấy vấn đề thật",
+        "có ai tin không"
+      ],
+      "provocation": "Zvi wants evaluators with employee-level access and no commercial tie, and notes that the people qualified for it got qualified at the labs. Graham's manager mode is the same shape from the other side: the person who stays outside the details is the one who cannot see what is wrong. Anthropic's answer is to buy both kinds and fund one of them. The useful question is not who is independent. It is whose stop you would actually obey.",
+      "provocation_vi": "Zvi muốn evaluator có quyền truy cập ngang employee và không dính quan hệ thương mại, rồi lưu ý rằng người đủ trình làm việc đó có trình từ chính các lab. Manager mode của Graham là cùng một hình dạng nhìn từ phía kia: người đứng ngoài chi tiết là người không thấy được chỗ sai. Câu trả lời của Anthropic là mua cả hai loại và tài trợ một loại. Câu hỏi có ích không phải ai độc lập. Mà là bạn sẽ thật sự nghe lời dừng của ai.",
+      "source": {
+        "site": "Don't Worry About the Vase",
+        "title": "The Quest for Embedded Evaluators",
+        "url": "https://thezvi.substack.com/p/the-quest-for-embedded-evaluators",
+        "published": "2026-09-27"
+      }
+    },
+    {
+      "title": "WHO WORDS IT",
+      "title_vi": "AI ĐƯỢC NÓI TRƯỚC",
+      "headline": "Silence beats disclosure. Getting caught loses to both.",
+      "headline_vi": "Im lặng hơn tự khai. Bị phát hiện thì thua cả hai.",
+      "a": {
+        "who": "Taylor Dykes",
+        "what": "She reads the research on AI disclosure and finds a paradox. Readers say they want to be told, then rate disclosed text as less trustworthy, less authentic and less useful; writers, asked the same question, think disclosure matters far less than readers do. Across thirteen experiments Schilke and Reimann found people trusted a discloser less than someone who said nothing, and trusted the one exposed by a third party least of all. The penalty is not evenly spread. It lands where a human contribution was the point: ratings of an author's trustworthiness, caring and likability fell hardest on interpersonal writing, while argumentative and exploratory work was tolerated. Generated hurts more than edited, ratings drop as the disclosed percentage rises, and the readers who penalise hardest are the ones confident in their own writing.",
+        "what_vi": "Cô đọc lại nghiên cứu về việc khai báo dùng AI và tìm ra một nghịch lý. Người đọc nói họ muốn được cho biết, rồi chấm bài có khai báo là ít đáng tin, ít thật và ít hữu ích hơn; còn người viết, khi được hỏi cùng câu, lại thấy việc khai báo quan trọng ít hơn nhiều so với người đọc. Qua mười ba thí nghiệm, Schilke và Reimann thấy người ta tin người tự khai ít hơn người không nói gì, và tin người bị bên thứ ba phát hiện ít nhất. Hình phạt không rải đều. Nó rơi đúng vào chỗ mà phần con người mới là điểm chính: điểm về độ đáng tin, sự để tâm và sự dễ mến của tác giả tụt mạnh nhất ở văn viết cho người, còn bài lập luận hay bài khám phá thì được tha. Generated bị phạt nặng hơn edited, điểm càng tụt khi phần trăm AI khai ra càng cao, và người chấm nặng tay nhất lại là người tự tin vào khả năng viết của mình."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "Positioning is the context you choose so the right things about you read as good. Leave the frame unstated and the audience fills it from whatever is nearest to hand, which is almost never the frame you would have picked.",
+        "what_vi": "Positioning là cái context bạn chọn để những điểm đúng của mình đọc ra là tốt. Để trống cái frame đó thì người ta lấy thứ gần tay nhất mà điền vào, và gần như không bao giờ là cái frame bạn sẽ chọn."
+      },
+      "result": "So disclosure was never an honesty question, it is a positioning one. The frame gets set either way: by you, by the platform's automatic label, or by whoever finds out, and the research prices those three very differently. You are not deciding whether to be seen. You are bidding for the right to word it.",
+      "result_vi": "Vậy khai báo chưa bao giờ là câu hỏi về trung thực, nó là câu hỏi về positioning. Cái frame sẽ được đặt bằng cách này hay cách khác: bởi bạn, bởi cái nhãn tự động của platform, hoặc bởi người phát hiện ra, và nghiên cứu định giá ba đường đó rất khác nhau. Bạn không đang chọn có bị thấy hay không. Bạn đang trả giá để được tự nói ra bằng chữ của mình.",
+      "result_underline": "You are bidding for the right to word it.",
+      "result_underline_vi": "Bạn đang trả giá để được tự nói ra bằng chữ của mình.",
+      "tick": "Which part of my work would read worse in someone else's words than in mine?",
+      "tick_vi": "Phần nào trong việc của mình mà để người khác kể thì nghe tệ hơn mình tự kể?",
+      "tick_bold": [
+        "read worse in someone else's words"
+      ],
+      "tick_bold_vi": [
+        "để người khác kể thì nghe tệ hơn"
+      ],
+      "provocation": "The studies say readers demand disclosure, punish it when they get it, and punish third-party exposure hardest of all. Dunford says an unstated frame gets filled by whoever is nearest. Together they turn a compliance question into a pricing one: all three versions of the sentence cost something, and the cheapest one is still the sentence you write yourself.",
+      "provocation_vi": "Nghiên cứu nói người đọc đòi được khai báo, phạt bạn khi bạn khai, và phạt nặng nhất khi bên thứ ba khai giùm. Dunford nói cái frame để trống sẽ do người gần nhất điền vào. Ghép lại, câu hỏi tuân thủ thành câu hỏi về giá: cả ba phiên bản của câu đó đều tốn gì đó, và phiên bản rẻ nhất vẫn là câu bạn tự viết.",
+      "source": {
+        "site": "NN/g",
+        "title": "When Should You Disclose AI Use? The PACED Framework",
+        "url": "https://www.nngroup.com/articles/disclose-ai-paced/",
+        "published": "2026-09-25"
+      }
+    }
+  ]
+}

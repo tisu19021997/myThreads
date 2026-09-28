@@ -1,0 +1,22 @@
+Morning Spark · Monday, September 28 · Ed. 64
+Agents took the easy work. What is left needs a witness.
+
+─────────────────
+01 · Throughput went up. That is why the work feels heavier.
+Simon Willison × Ethan Mollick
+Willison's agents absorbed every easy task and left him more intellectually engaged and more tired than any year of his career. Mollick's frontier explains the residue: what the agent hands back is the part nobody has charted. Expect the day to feel like this, and stop reading the feeling as a verdict on you.
+→ https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/
+
+─────────────────
+02 · You can buy distance or understanding. Nobody sells both.
+Zvi Mowshowitz × Paul Graham
+Zvi wants evaluators with employee-level access and no commercial tie, and notes that the people qualified for it got qualified at the labs. Graham's manager mode is the same shape from the other side: the person who stays outside the details is the one who cannot see what is wrong. Anthropic's answer is to buy both kinds and fund one of them. The useful question is not who is independent. It is whose stop you would actually obey.
+→ https://thezvi.substack.com/p/the-quest-for-embedded-evaluators
+
+─────────────────
+03 · Silence beats disclosure. Getting caught loses to both.
+Taylor Dykes × April Dunford
+The studies say readers demand disclosure, punish it when they get it, and punish third-party exposure hardest of all. Dunford says an unstated frame gets filled by whoever is nearest. Together they turn a compliance question into a pricing one: all three versions of the sentence cost something, and the cheapest one is still the sentence you write yourself.
+→ https://www.nngroup.com/articles/disclose-ai-paced/
+
+Full styled card → open the session.
