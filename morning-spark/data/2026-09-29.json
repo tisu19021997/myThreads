@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-29",
+  "edition": 65,
+  "framing": "When doing gets cheap, what you want becomes the product.",
+  "framing_vi": "Khi việc làm thành rẻ, cái bạn muốn mới là sản phẩm.",
+  "note": "Themes: the agent as gatekeeper of desire rather than of discovery, an efficiency ratio nobody reports, and the growth tactic as a confession that the value test failed. Sources: stratechery.com (Ben Thompson, 'Apps, Agents, and Aggregation', Sep 28, one day old, a free standalone Article not a numbered weekly or a paid Update, read in full: the 'Are you getting it' iPhone frame, the 151-apps-to-689-apps count, Muse and the 2-core 8GB virtual machine Meta is handing every US user, the Instagram recipe box app built in five minutes while walking the dog, the infinite disposable app and the 2024 Gen AI Bridge prediction of just-in-time UI, the Copilot super app with Autopilot in your own tenant and Nadella's OS-for-work line, the Salesforce three-digit premium to become a Claude plugin, and the hinge used here -- doing is becoming abundant, what is scarce is volition, so the problem shifts from discovery to inspiration and every app becomes a supplier scrapping for crumbs from the agent, 'the ultimate gatekeeper of not just user demand, but desire'; the closing distribution argument that Meta reaches every person and Microsoft every employee was left unused and is strong material for a platform day, as is the generative-UI thread; well last ran Sep 9, twenty days, the longest-rested top-roster well on file). tomtunguz.com (Tomasz Tunguz, 'How GPU Prices Can Double While AI Gets Cheaper', Sep 28, one day old, free, read in full: GPU rental 4.40 to 8.08 per GPU-hour in six months, Oracle's force majeure on the New Mexico campus after the gas pipeline slipped six months, Opus 5.5 at 40 percent less to run, the benchmark threshold falling from 0.55 to 0.0015 for a 377x reduction, the 10-year Treasury correlation with tech multiples flipping from -0.50 to +0.39, Microsoft's 90 percent more tokens per GPU year over year, and the hinge used here, gross profit dollars per GPU-hour; the rates-and-multiples flip was left unused and is a clean data-lens spark on its own; well last ran Sep 16, thirteen days, and index.xml is healthy again). blog.jim-nielsen.com (Jim Nielsen, 'Humane Interfaces', Sep 27, two days, free, a short post read in full: the Jef Raskin quote from Unsung -- an interface is humane if it is responsive to human needs and considerate of human frailties -- growth tactics designed to exploit frailties rather than be considerate of them, and the close, humane technology does not rely on impulse, addiction or imposition, it survives purely on the free choice of its user; Raskin is a new name on file and the well last ran Sep 22, seven days). Second halves: Kathy Sierra on the badass user, an outside half never on file at all, same precedent as David Allen in Ed 45, Clayton Christensen in Ed 49 and Mark Zuckerberg in Ed 35 -- taken because Ben Thompson as a first half is now exhausted against every roster member except Lenny Rachitsky, who ran Sep 27 and is two days rested, tighter than any precedent; Brian Balfour on funnels versus loops (Sep 25, four days, n=24, and the funnels-vs-loops framework last ran Aug 20, forty days, where product-channel fit and the launch loop are the worn ones); Marty Cagan on the four discovery risks of value, usability, feasibility and business viability (Sep 24, five days, the most rested core name, n=29 -- and the four-risks framing is unused on file, deliberately chosen over his empowered-vs-feature-team and build-trap framings which Ed 64 flagged as the most repeated text on file). Pairings Ben Thompson x Kathy Sierra, Tomasz Tunguz x Brian Balfour, Jim Nielsen x Marty Cagan, all three checked against the full 64-edition pairing set built from data/*.json and all three brand new in both directions; note Brian Balfour x Ben Thompson already ran, so Thompson x Balfour would only be that pairing reversed, the trap Ed 46 named. Andrew Chen was the first choice for the Tunguz spark on the law of shitty clickthroughs and was refused: the decay law has now run twice, Sep 13 and Sep 20, nine days ago. Dunford and Graham ran Sep 28; Biddle, Cohen and Rachitsky ran Sep 27; Torres, Perri and Thompson-as-second-half ran Sep 26; Cutler, Chen and Balfour ran Sep 25, so Balfour at four days was the best available. Deliberately skipped: saastr 'Almost Every Pre-AI Vendor We Use Is Raising Prices for Agent Access' (Sep 28, one day old, well rested twelve days, a strong pricing spark and still unused -- take it, it is the best candidate on the shelf); saastr 'Everyone Should Publish the Deepest, Most Direct Competitive Evals They Can' (Sep 26, earmarked by Ed 64 and skipped again, third earmark -- either take it or drop it); notboring 'Airbound: As We May Move' (Sep 28, a company deep-dive rather than an argument, but the well has rested fifteen days); newsletter.posthog.com 'We're building multiplayer AI' (Sep 28, well rested sixteen days, unused and strong); leaddev 'Your agent loop is not a production system' (Sep 28, but leaddev ran Sep 27); seangoedecke 'Human-AI partnerships are for alignment, not capability' (Sep 27, but Goedecke ran Sep 25 and Sep 26 and is the most dominant well on file); thezvi 'What Also Happened: #NotOnlyHuggingFace' (Sep 28, but Zvi ran Sep 28); simonwillison 'Claude Sonnet 5.5' and the two Quoting posts (link posts, not arguments, and Willison ran Sep 28); svpg 'Experts Lead Experts' (Sep 25, still unused, and Cagan is a second half today so the piece is free tomorrow); stratechery 2026.39 weekly (skipped for the fourth time, stop opening the numbered weeklies). Feed notes: stratechery.com/feed/ carries the free Articles alongside the paid Updates so check the slug, and 'Apps, Agents, and Aggregation' is a free Article with the full body on the page; tomtunguz.com/index.xml is healthy again; blog.jim-nielsen.com/feed.xml, www.saastr.com/feed, newsletter.posthog.com/feed, leaddev.com/rss.xml, seangoedecke.com/rss.xml, thezvi.substack.com/feed, simonwillison.net/atom/everything/ and www.notboring.co/feed are all healthy with full bodies; www.nngroup.com/feed/rss/ failed to write to disk today, re-check it; producttalk, cutlefish, svpg, kellblog, matduggan, charity.wtf, elenaverna, weskao, interconnected, commoncog, lucumr, caseyaccidental, vickiboykis, counting-stuff, interconnects, dbreunig, lg.substack, benn.substack, staysaasy, surfingcomplexity, construction-physics, mkt1, longform.asmartbear, andrewchen and pragmaticengineer all had nothing newer than Sep 26. Wells barely spent: saastr (agent-access pricing Sep 28, competitive evals Sep 26), notboring (Airbound Sep 28, 'Would We Send Our Kids to HAA' Sep 23), posthog (multiplayer AI Sep 28), stratechery (the distribution and generative-UI threads of today's piece both unused), tomtunguz ('Thinking in Systems, Shipping in Loops' Sep 24, 'The Most Important Market in AI is the Middle' Sep 23), martinfowler 'I don't like LLMs' (Sep 17), interconnected.org archive (Matt Webb's hardware and interaction-design back catalogue). Still owed from Ed 63 and 64: Cagan x Webb on rehearsing a decision while the stakes are trivial -- Cagan is spent today, so it waits again. Avoid tomorrow: agents as the interface that owns desire, efficiency ratios and unit economics, dark patterns and growth tactics.",
+  "sparks": [
+    {
+      "title": "WHO OWNS WANTING",
+      "title_vi": "AI SỞ HỮU CÁI MUỐN",
+      "headline": "Doing got cheap. Wanting did not.",
+      "headline_vi": "Làm thì rẻ đi. Muốn thì không.",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "Agents make doing abundant, so the scarce input becomes volition. The problem to solve is no longer discovery but inspiration, and every app underneath is abstracted into an implementation detail, a supplier scrapping for crumbs from whoever owns the conversation.",
+        "what_vi": "Agent làm cho việc làm thành vô hạn, nên thứ khan hiếm còn lại là ý muốn. Bài toán không còn là discovery mà là inspiration, và mọi app bên dưới bị gói lại thành chi tiết kỹ thuật, thành nhà cung cấp đi xin từng mẩu vụn từ kẻ sở hữu cuộc hội thoại."
+      },
+      "b": {
+        "who": "Kathy Sierra",
+        "what": "Nobody wants to be great at your product. They want to be great at the thing your product is for. Build for the user's capability, not the feature list, because the user who sticks is the one who got better.",
+        "what_vi": "Không ai muốn giỏi cái app của bạn. Họ muốn giỏi cái việc mà app đó phục vụ. Hãy build cho năng lực của user, đừng build cho danh sách feature, vì user ở lại là user đã khá lên."
+      },
+      "result": "If the agent does all the doing, the user never gets better at the doing. The one skill still compounding is knowing what to ask for, and that is exactly the layer someone is now selling you.",
+      "result_vi": "Nếu agent làm hết phần làm, user không khá lên ở phần làm nữa. Kỹ năng duy nhất còn cộng dồn là biết mình muốn gì, mà đó đúng là tầng người ta đang bán cho bạn.",
+      "result_underline": "that is exactly the layer someone is now selling you",
+      "result_underline_vi": "đó đúng là tầng người ta đang bán cho bạn",
+      "tick": "What did I get better at this week that the agent could not hand me?",
+      "tick_vi": "Tuần này mình khá lên ở chỗ nào mà agent không đưa sẵn cho mình?",
+      "tick_bold": [
+        "get better at"
+      ],
+      "tick_bold_vi": [
+        "khá lên"
+      ],
+      "provocation": "Thompson's prize is not the model, it is the interface that owns your desire. Sierra's test is whether the user got stronger. Put them together and the question for any product is whether it is building the user's judgment or renting it back to them.",
+      "provocation_vi": "Giải thưởng Thompson nói tới không phải model, mà là interface sở hữu ý muốn của bạn. Phép thử của Sierra là user có mạnh lên hay không. Ghép lại thì câu hỏi cho mọi sản phẩm là: bạn đang xây judgment cho user, hay cho họ thuê lại nó?",
+      "source": {
+        "site": "Stratechery",
+        "title": "Apps, Agents, and Aggregation",
+        "url": "https://stratechery.com/2026/apps-agents-and-aggregation/",
+        "published": "2026-09-28"
+      }
+    },
+    {
+      "title": "THE RATIO",
+      "title_vi": "CÁI TỶ SỐ",
+      "headline": "Two curves, one number, nobody prints it.",
+      "headline_vi": "Hai đường cong, một con số, không ai in ra.",
+      "a": {
+        "who": "Tomasz Tunguz",
+        "what": "GPU rental doubled from 4.40 to 8.08 per GPU-hour in six months while inference prices kept falling, and Microsoft says it gets 90 percent more tokens per GPU year over year. The number that decides the outcome is gross profit per GPU-hour.",
+        "what_vi": "Giá thuê GPU tăng gấp đôi, từ 4,40 lên 8,08 một GPU-hour trong sáu tháng, mà giá inference vẫn rớt, và Microsoft nói mỗi GPU ra nhiều hơn 90 phần trăm token so với năm trước. Con số quyết định là gross profit trên mỗi GPU-hour."
+      },
+      "b": {
+        "who": "Brian Balfour",
+        "what": "A funnel spends to fill its own mouth. A loop feeds its output back into its own input, so it only compounds when what comes out is worth more than what goes back in.",
+        "what_vi": "Funnel thì đổ tiền vào miệng phễu. Loop thì lấy output bơm ngược lại vào input của chính nó, nên nó chỉ cộng dồn khi cái lấy ra đáng hơn cái bơm vào."
+      },
+      "result": "The AI buildout is a loop whose output gets bid straight back into the price of its input, so the whole thing compounds or treadmills on a single efficiency term. Everyone quotes the two curves and nobody quotes the ratio between them.",
+      "result_vi": "Cuộc build AI là một loop mà output bị đấu giá quay ngược vào giá input, nên cả hệ hoặc cộng dồn hoặc giậm chân tại chỗ chỉ nhờ một số hạng hiệu suất. Ai cũng đọc hai đường cong, và không ai đọc tỷ số giữa chúng.",
+      "result_underline": "nobody quotes the ratio between them",
+      "result_underline_vi": "không ai đọc tỷ số giữa chúng",
+      "tick": "Which two numbers am I quoting when the honest one is their ratio?",
+      "tick_vi": "Mình đang đọc hai con số nào, khi con số thật là tỷ số của chúng?",
+      "tick_bold": [
+        "their ratio"
+      ],
+      "tick_bold_vi": [
+        "tỷ số của chúng"
+      ],
+      "provocation": "Tunguz shows cost per unit rising and price per unit falling at the same time, held together only by efficiency. Balfour's loop test says the reinvestment has to clear the input cost or the loop is a treadmill. Find the one ratio that decides whether your own thing compounds, and put that on the dashboard instead of the two curves that flatter you.",
+      "provocation_vi": "Tunguz cho thấy chi phí mỗi đơn vị đi lên và giá mỗi đơn vị đi xuống cùng lúc, và chỉ hiệu suất giữ được hai cái đó với nhau. Phép thử loop của Balfour: phần bơm lại phải bù nổi giá input, không thì loop chỉ là cái máy chạy bộ. Hãy tìm đúng một tỷ số quyết định thứ của bạn có cộng dồn hay không, và đưa nó lên dashboard thay cho hai đường cong đang khen bạn.",
+      "source": {
+        "site": "Tomasz Tunguz",
+        "title": "How GPU Prices Can Double While AI Gets Cheaper",
+        "url": "https://tomtunguz.com/how-gpu-prices-double-while-ai-gets-cheaper/",
+        "published": "2026-09-28"
+      }
+    },
+    {
+      "title": "FRAILTY TAX",
+      "title_vi": "THUẾ ĐIỂM YẾU",
+      "headline": "Every growth tactic is a confession.",
+      "headline_vi": "Mọi growth tactic đều là một lời thú nhận.",
+      "a": {
+        "who": "Jim Nielsen",
+        "what": "Quoting Jef Raskin: an interface is humane if it is responsive to human needs and considerate of human frailties. Modern growth tactics do the opposite, they are designed to exploit the frailties. Humane technology survives purely on the free choice of its user.",
+        "what_vi": "Dẫn lại Jef Raskin: một interface là nhân văn khi nó đáp ứng nhu cầu con người và biết thương những điểm yếu của con người. Growth tactic bây giờ làm ngược lại, nó được thiết kế để khai thác đúng mấy điểm yếu đó. Công nghệ nhân văn sống được chỉ vì user tự chọn nó."
+      },
+      "b": {
+        "who": "Marty Cagan",
+        "what": "Discovery exists to kill four risks before anyone builds: is it valuable, is it usable, can we build it, does the business work. Skip one and you ship a bet you never tested.",
+        "what_vi": "Discovery tồn tại để giết bốn rủi ro trước khi build: có đáng giá không, có dùng được không, làm được không, và business có chạy không. Bỏ qua một cái là bạn ship một canh cược chưa từng test."
+      },
+      "result": "A dark pattern is an unresolved value risk wearing the costume of a viability fix. If the number only moves while the user cannot leave, you did not find value, you found a lock.",
+      "result_vi": "Dark pattern là một rủi ro giá trị chưa giải xong, đem hóa trang thành giải pháp cho business. Nếu con số chỉ nhúc nhích khi user không đi được, bạn không tìm ra giá trị, bạn tìm ra một cái khóa.",
+      "result_underline": "you did not find value, you found a lock",
+      "result_underline_vi": "bạn không tìm ra giá trị, bạn tìm ra một cái khóa",
+      "tick": "If leaving were one tap away, which of my numbers would survive?",
+      "tick_vi": "Nếu rời đi chỉ cách một cái tap, con số nào của mình còn sống?",
+      "tick_bold": [
+        "one tap away"
+      ],
+      "tick_bold_vi": [
+        "một cái tap"
+      ],
+      "provocation": "Raskin's line, carried by Nielsen, is that a humane interface is considerate of frailty rather than dependent on it. Cagan's four risks say value has to be proven separately from business viability. Read together, a retention tactic that leans on a frailty is an admission that the value test failed, and the bill for it goes to the user.",
+      "provocation_vi": "Câu của Raskin, qua Nielsen: interface nhân văn thì thương điểm yếu, chứ không sống nhờ điểm yếu. Bốn rủi ro của Cagan nói giá trị phải được chứng minh riêng, tách khỏi chuyện business có chạy. Đọc chung lại, một chiêu retention dựa vào điểm yếu là lời thừa nhận rằng phép thử giá trị đã thất bại, và hóa đơn cho nó thì user trả.",
+      "source": {
+        "site": "Jim Nielsen's Blog",
+        "title": "Humane Interfaces",
+        "url": "https://blog.jim-nielsen.com/2026/humane-interfaces/",
+        "published": "2026-09-27"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Sep 29</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 65</div></div></div>
+<div class="meta label">Tuesday, September 29, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">WHO OWNS WANTING</span><span data-l="vi">AI SỞ HỮU CÁI MUỐN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">Agents make doing abundant, so the scarce input becomes volition. The problem to solve is no longer discovery but inspiration, and every app underneath is abstracted into an implementation detail, a supplier scrapping for crumbs from whoever owns the conversation.</span><span data-l="vi">Agent làm cho việc làm thành vô hạn, nên thứ khan hiếm còn lại là ý muốn. Bài toán không còn là discovery mà là inspiration, và mọi app bên dưới bị gói lại thành chi tiết kỹ thuật, thành nhà cung cấp đi xin từng mẩu vụn từ kẻ sở hữu cuộc hội thoại.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Kathy Sierra</div><div class="what"><span data-l="en">Nobody wants to be great at your product. They want to be great at the thing your product is for. Build for the user&#x27;s capability, not the feature list, because the user who sticks is the one who got better.</span><span data-l="vi">Không ai muốn giỏi cái app của bạn. Họ muốn giỏi cái việc mà app đó phục vụ. Hãy build cho năng lực của user, đừng build cho danh sách feature, vì user ở lại là user đã khá lên.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">If the agent does all the doing, the user never gets better at the doing. The one skill still compounding is knowing what to ask for, and <u>that is exactly the layer someone is now selling you</u>.</span><span data-l="vi">Nếu agent làm hết phần làm, user không khá lên ở phần làm nữa. Kỹ năng duy nhất còn cộng dồn là biết mình muốn gì, mà <u>đó đúng là tầng người ta đang bán cho bạn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did I <b>get better at</b> this week that the agent could not hand me?</span><span data-l="vi">Tuần này mình <b>khá lên</b> ở chỗ nào mà agent không đưa sẵn cho mình?</span></p></div>
+<div class="src-link"><a href="https://stratechery.com/2026/apps-agents-and-aggregation/" target="_blank" rel="noopener">Stratechery — Apps, Agents, and Aggregation &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE RATIO</span><span data-l="vi">CÁI TỶ SỐ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Tomasz Tunguz</div><div class="what"><span data-l="en">GPU rental doubled from 4.40 to 8.08 per GPU-hour in six months while inference prices kept falling, and Microsoft says it gets 90 percent more tokens per GPU year over year. The number that decides the outcome is gross profit per GPU-hour.</span><span data-l="vi">Giá thuê GPU tăng gấp đôi, từ 4,40 lên 8,08 một GPU-hour trong sáu tháng, mà giá inference vẫn rớt, và Microsoft nói mỗi GPU ra nhiều hơn 90 phần trăm token so với năm trước. Con số quyết định là gross profit trên mỗi GPU-hour.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">A funnel spends to fill its own mouth. A loop feeds its output back into its own input, so it only compounds when what comes out is worth more than what goes back in.</span><span data-l="vi">Funnel thì đổ tiền vào miệng phễu. Loop thì lấy output bơm ngược lại vào input của chính nó, nên nó chỉ cộng dồn khi cái lấy ra đáng hơn cái bơm vào.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The AI buildout is a loop whose output gets bid straight back into the price of its input, so the whole thing compounds or treadmills on a single efficiency term. Everyone quotes the two curves and <u>nobody quotes the ratio between them</u>.</span><span data-l="vi">Cuộc build AI là một loop mà output bị đấu giá quay ngược vào giá input, nên cả hệ hoặc cộng dồn hoặc giậm chân tại chỗ chỉ nhờ một số hạng hiệu suất. Ai cũng đọc hai đường cong, và <u>không ai đọc tỷ số giữa chúng</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which two numbers am I quoting when the honest one is <b>their ratio</b>?</span><span data-l="vi">Mình đang đọc hai con số nào, khi con số thật là <b>tỷ số của chúng</b>?</span></p></div>
+<div class="src-link"><a href="https://tomtunguz.com/how-gpu-prices-double-while-ai-gets-cheaper/" target="_blank" rel="noopener">Tomasz Tunguz — How GPU Prices Can Double While AI Gets Cheaper &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">FRAILTY TAX</span><span data-l="vi">THUẾ ĐIỂM YẾU</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jim Nielsen</div><div class="what"><span data-l="en">Quoting Jef Raskin: an interface is humane if it is responsive to human needs and considerate of human frailties. Modern growth tactics do the opposite, they are designed to exploit the frailties. Humane technology survives purely on the free choice of its user.</span><span data-l="vi">Dẫn lại Jef Raskin: một interface là nhân văn khi nó đáp ứng nhu cầu con người và biết thương những điểm yếu của con người. Growth tactic bây giờ làm ngược lại, nó được thiết kế để khai thác đúng mấy điểm yếu đó. Công nghệ nhân văn sống được chỉ vì user tự chọn nó.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Marty Cagan</div><div class="what"><span data-l="en">Discovery exists to kill four risks before anyone builds: is it valuable, is it usable, can we build it, does the business work. Skip one and you ship a bet you never tested.</span><span data-l="vi">Discovery tồn tại để giết bốn rủi ro trước khi build: có đáng giá không, có dùng được không, làm được không, và business có chạy không. Bỏ qua một cái là bạn ship một canh cược chưa từng test.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A dark pattern is an unresolved value risk wearing the costume of a viability fix. If the number only moves while the user cannot leave, <u>you did not find value, you found a lock</u>.</span><span data-l="vi">Dark pattern là một rủi ro giá trị chưa giải xong, đem hóa trang thành giải pháp cho business. Nếu con số chỉ nhúc nhích khi user không đi được, <u>bạn không tìm ra giá trị, bạn tìm ra một cái khóa</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If leaving were <b>one tap away</b>, which of my numbers would survive?</span><span data-l="vi">Nếu rời đi chỉ cách <b>một cái tap</b>, con số nào của mình còn sống?</span></p></div>
+<div class="src-link"><a href="https://blog.jim-nielsen.com/2026/humane-interfaces/" target="_blank" rel="noopener">Jim Nielsen&#x27;s Blog — Humane Interfaces &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-28.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-28</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ben Thompson / Kathy Sierra / Tomasz Tunguz / Brian Balfour / Jim Nielsen / Marty Cagan<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ben Thompson / Kathy Sierra / Tomasz Tunguz / Brian Balfour / Jim Nielsen / Marty Cagan<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

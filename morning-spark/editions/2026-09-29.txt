@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, September 29 · Ed. 65
+When doing gets cheap, what you want becomes the product.
+
+─────────────────
+01 · Doing got cheap. Wanting did not.
+Ben Thompson × Kathy Sierra
+Thompson's prize is not the model, it is the interface that owns your desire. Sierra's test is whether the user got stronger. Put them together and the question for any product is whether it is building the user's judgment or renting it back to them.
+→ https://stratechery.com/2026/apps-agents-and-aggregation/
+
+─────────────────
+02 · Two curves, one number, nobody prints it.
+Tomasz Tunguz × Brian Balfour
+Tunguz shows cost per unit rising and price per unit falling at the same time, held together only by efficiency. Balfour's loop test says the reinvestment has to clear the input cost or the loop is a treadmill. Find the one ratio that decides whether your own thing compounds, and put that on the dashboard instead of the two curves that flatter you.
+→ https://tomtunguz.com/how-gpu-prices-double-while-ai-gets-cheaper/
+
+─────────────────
+03 · Every growth tactic is a confession.
+Jim Nielsen × Marty Cagan
+Raskin's line, carried by Nielsen, is that a humane interface is considerate of frailty rather than dependent on it. Cagan's four risks say value has to be proven separately from business viability. Read together, a retention tactic that leans on a frailty is an admission that the value test failed, and the bill for it goes to the user.
+→ https://blog.jim-nielsen.com/2026/humane-interfaces/
+
+Full styled card → open the session.
