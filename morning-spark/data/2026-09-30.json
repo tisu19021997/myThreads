@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-30",
+  "edition": 66,
+  "framing": "Every default is an old answer wearing today's confidence.",
+  "framing_vi": "Mọi default là câu trả lời cũ, khoác vẻ tự tin hôm nay.",
+  "note": "Themes: the architecture as a loan against a price that has since moved, the rating as a summary with its source deleted, and the expert whose retrieval speed outlives the cases it was built on. Sources: newsletter.pragmaticengineer.com (Gergely Orosz, 'Why has Shopify dropped React Native?', Sep 29, one day old, a Deepdive marked Paid: sections 1 to 3 are on the open page and were read in full, the paywall closes at section 4 on the Airbnb and Notion precedents, so nothing from section 4 onward is used here. Read: seven out of ten Shopify buyers on mobile and 69 percent of BFCM sales, the 2018 Arrive rewrite that shipped Android at 95 percent shared code, the 2020 all-in announcement, the January 2025 'Five years of React Native' victory lap with sub-500ms P75 screen loads and six apps migrated, Mustafa Ali's reversal post saying coding models got dramatically better so building the same feature in Swift and Kotlin no longer carries the cost it used to, the New Architecture giving only 10 percent Android and 3 percent iOS startup gains, Shop shipped fully native in twelve weeks, Farhan Thawar's line that React as the shared language is now replaced by the English language, and the part left unused and worth its own day: the shared headless test suite that validates the same business logic in Swift and Kotlin so a feature cannot ship until it passes identical tests on both platforms, which is a verification-layer spark, not an architecture one. Well last ran Sep 15, fifteen days.) counting-stuff.com (Randy Au, 'Feedback mechanisms are terrible data sources', Sep 29, one day old, free, read in full: response rates often fractions of a single percentage point of impressions, self-selection to the furious and the delighted with no middle, the uninterpretable thumbs-down and the real study answers 'I read the scale the wrong way' and 'I was angry at another product, not yours', the laggy loop where nothing visibly changes so users stop responding which lowers response rates further, the exec-and-lead dialogue ending in 'we are not doing anything with it', and the hinge used here plus one left unused: a negative rating eliminates one bad version out of infinite bad versions while a positive one points at something that worked, which is a clean measurement spark on its own, as is his note that forced A-versus-B picks carry more signal than a scale. Well last ran Sep 21, nine days.) svpg.com (Marty Cagan, 'Experts Lead Experts', Sep 25, five days, free, read in full: the experts-lead-experts principle at top product model companies, the people-only manager he calls beyond terrible, leaders finding themselves on the same learning curve as their reports, some going back to IC voluntarily out of exhaustion, the return of people now feeling pressure to get back to vision, strategy, team topologies and outcomes, companies reversing their early manager reductions, and the claim that a falling cost of building makes leadership responsibilities more important rather than less. Earmarked by Ed 65 as free today because Cagan was a second half yesterday; the svpg well last ran Sep 13, seventeen days, the most rested roster well on file. The AI Productivity Paradox is named but not explained in the piece, so it is not used here.) Second halves: John Cutler on positive friction and keeping feedback atomic with a path back to source, taken from TBM 441 (Sep 24) which was read in full today, so the framework is grounded rather than recalled -- Cutler ran as a second half Sep 25, five days, the same spacing Ed 65 accepted for Balfour; Martin Fowler on sacrificial architecture, the second half last used Sep 16, fourteen days, though note his own well ran as a first half Sep 26 and his URL is not used today; Cedric Chin on tacit knowledge and the expert's case library, n=2 as a second half and the least-spent name on the whole B-side ledger, last run Sep 16 for the framework and Sep 27 for the commoncog well. Pairings Gergely Orosz x Martin Fowler, Randy Au x John Cutler, Marty Cagan x Cedric Chin, all three checked in both directions against the full 65-edition pairing set built from data/*.json and all three new; Orosz x Cedric Chin already ran Sep 15 and Orosz x Ben Thompson earlier, which is why Fowler carries the Shopify spark, and Lemkin x Jason Cohen already ran Sep 17. Deliberately refused: saastr 'What 17,000 Subscription Apps Tell Us About Free Trial Length' (Sep 29, read in full, genuinely rich RevenueCat data -- annual trials of 17 to 32 days converting 44.6 percent against 24 percent at four days or less, monthly peaking at 46.6 percent in the 10 to 16 day band, and the AI finding that conversion falls from 38.5 to 31.8 percent past 16 days with no renewal gain because every free session burns inference -- but Ed 65 closed by naming efficiency ratios, unit economics and growth tactics as the things to avoid today, and a free-trial-length spark is all three, so it is held, not dropped, and it is the strongest piece on the shelf); lennysnewsletter 'The grief, loneliness, and burnout sweeping through the tech industry right now' with Molly Graham (Sep 27, and the Lenny well has never once been a source URL on file, which makes it the single most rested well anywhere, but the episode page is Paid and only show notes and a link list are open, not enough to write from, so this well stays unspendable until a free post appears); saastr 'Almost Every Pre-AI Vendor We Use Is Raising Prices for Agent Access' (Ed 65's own recommendation, refused for the same unit-economics reason and because Stratechery already covered the Salesforce agent premium on Sep 29); newsletter.posthog.com 'We're building multiplayer AI' (Sep 28, well rested, but mkt1's multiplayer-AI setup ran Sep 21); kellblog 'The Only Sensible Policy for Commenting on Rumors' (Sep 29, well rested fifteen days, fetched, but it is a comms policy note rather than an argument that collides); notboring 'Airbound' (Sep 28, a company deep-dive); leaddev 'AI makes critical thinking harder to build in junior engineers' (Sep 29, but leaddev ran Sep 27); martinfowler 'Bliki: Sensible Default' and 'Fragments: September 29' (Sep 29, but the well ran Sep 26 and Fowler is a second half today); lucumr 'Deser: Rethinking Rust Serialization' (Sep 29, too narrow); simonwillison, thezvi, nngroup, stratechery, tomtunguz, jim-nielsen, interconnected, commoncog and seangoedecke all had fresh material but every one of those wells ran Sep 26 to Sep 29. Feed notes: newsletter.pragmaticengineer.com/feed, www.counting-stuff.com/rss/, www.svpg.com/articles/feed/, cutlefish.substack.com/feed, www.saastr.com/feed, www.kellblog.com/feed/, www.lennysnewsletter.com/feed and www.nngroup.com/feed/rss/ were all healthy today, and nngroup wrote to disk fine, so Ed 65's re-check is cleared. Both the Pragmatic Engineer Deepdive and the Lenny episode are Substack Paid pages that still serve a useful amount above the fold, so check how far the free body runs before discarding a paid post. Wells barely spent: saastr (free-trial data Sep 29, agent-access pricing Sep 28, competitive evals Sep 26, now a third earmark), posthog (multiplayer AI Sep 28), pragmaticengineer (the shared-verification-suite thread inside today's piece, plus 'The Pulse: RoR creator sparks new death of coding by hand debate' Sep 24), counting-stuff (the positive-versus-negative-signal argument and 'How many ways can we database a store?' Sep 21), svpg (the people-only-manager article Cagan says is for another day), martinfowler 'I don't like LLMs' (Sep 17). Still owed from Ed 63, 64 and 65: Cagan x Matt Webb on rehearsing a decision while the stakes are trivial -- Cagan is a first half today, so it waits a fourth time and should be forced next. Avoid tomorrow: inherited defaults and expiring assumptions, feedback and signal quality, hands-on leadership after a tooling shift.",
+  "sparks": [
+    {
+      "title": "BORROWED TIME",
+      "title_vi": "THỜI GIAN ĐI VAY",
+      "headline": "Shopify unwound six years in twelve weeks.",
+      "headline_vi": "Shopify tháo sáu năm trong mười hai tuần.",
+      "a": {
+        "who": "Gergely Orosz",
+        "what": "Shopify went all-in on React Native in 2020 to stop building every feature twice and to ship Android at all, and in January 2025 called the move a success. Last week it reversed: agents now do enough of the implementation, translation and review that two codebases no longer cost what they did, and the Shop app shipped fully native in twelve weeks.",
+        "what_vi": "Shopify dồn hết vào React Native năm 2020 để khỏi build mỗi feature hai lần và để có bản Android, rồi tháng 1 năm 2025 tuyên bố nước đi đó thành công. Tuần trước họ quay ngược: agent giờ làm đủ phần implement, port qua lại và review nên hai codebase không còn đắt như trước, và app Shop đã ship native hoàn toàn trong mười hai tuần."
+      },
+      "b": {
+        "who": "Martin Fowler",
+        "what": "Sacrificial architecture: the best design you can build now is often one you expect to throw away in a few years. Architecture is a bet on the cost of change, and discarding it on schedule is the bet paying out, not the bet failing.",
+        "what_vi": "Sacrificial architecture: thiết kế tốt nhất bạn làm được hôm nay thường là thiết kế bạn tính sẽ bỏ sau vài năm. Kiến trúc là một canh cược vào giá của việc thay đổi, và bỏ nó đúng hạn là canh cược ăn, không phải canh cược thua."
+      },
+      "result": "React Native was never wrong. It was a loan taken out against the price of a developer hour, and agents just repriced the hour, so paying the loan off looks exactly like a U-turn.",
+      "result_vi": "React Native chưa bao giờ sai. Nó là khoản vay đặt trên giá một giờ công dev, mà agent vừa định giá lại cái giờ đó, nên trả xong khoản vay nhìn y hệt một cú quay xe.",
+      "result_underline": "paying the loan off looks exactly like a U-turn",
+      "result_underline_vi": "trả xong khoản vay nhìn y hệt một cú quay xe",
+      "tick": "Which of my abstractions still charges rent on a constraint that already left?",
+      "tick_vi": "Abstraction nào của mình vẫn đang thu tiền thuê cho một constraint đã đi rồi?",
+      "tick_bold": [
+        "a constraint that already left"
+      ],
+      "tick_bold_vi": [
+        "một constraint đã đi rồi"
+      ],
+      "provocation": "Orosz shows the same team declaring React Native a success in January 2025 and killing it twenty months later, for the same reason both times: the price of writing one screen twice. Fowler's sacrificial architecture says a design you throw away on time is a design that worked. So the honest test is not whether you would choose it again, it is whether you can still name the price that made you choose it.",
+      "provocation_vi": "Orosz cho thấy cùng một team khen React Native thành công tháng 1 năm 2025 rồi khai tử nó hai mươi tháng sau, cả hai lần vì cùng một lý do: giá của việc viết một màn hình hai lần. Sacrificial architecture của Fowler nói thiết kế bị bỏ đúng hạn là thiết kế đã làm được việc. Nên phép thử thật không phải là bạn có chọn lại nó hay không, mà là bạn còn đọc ra được cái giá đã khiến bạn chọn nó hay không.",
+      "source": {
+        "site": "The Pragmatic Engineer",
+        "title": "Why has Shopify dropped React Native?",
+        "url": "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile",
+        "published": "2026-09-29"
+      }
+    },
+    {
+      "title": "ONE BIT WIDE",
+      "title_vi": "RỘNG ĐÚNG MỘT BIT",
+      "headline": "A thumbs-down is not a measurement.",
+      "headline_vi": "Một cái thumbs-down không phải một phép đo.",
+      "a": {
+        "who": "Randy Au",
+        "what": "Twenty years on the collecting side: response rates run in fractions of one percent, self-selected to the furious and the delighted with no middle. Pull those users into a study and the negative ratings turn out to mean anything from an aesthetic dislike to I read the scale the wrong way. Nothing visibly changes, so people stop answering, and the data quietly goes unused.",
+        "what_vi": "Hai mươi năm ngồi ở phía thu data: tỷ lệ trả lời chỉ vài phần trăm của một phần trăm, và toàn là người đang rất tức hoặc rất vui, không có khoảng giữa. Kéo mấy user đó vào phòng hỏi lại thì một cái rating xấu có thể nghĩa là gì cũng được, từ nhìn không thích cho tới đọc ngược cái thang điểm. Không thấy gì thay đổi nên người ta bỏ trả lời, và data nằm đó không ai dùng."
+      },
+      "b": {
+        "who": "John Cutler",
+        "what": "Positive friction: every point where information got copied and recontextualised used to force a human to stop and think. Keep the original feedback atomic and keep its path back to the source, because if an item cannot be linked back to something real, stop producing it.",
+        "what_vi": "Positive friction: mỗi chỗ thông tin bị copy qua và đặt vào ngữ cảnh mới, trước đây đều buộc một con người dừng lại và nghĩ. Giữ feedback gốc ở dạng nguyên tử và giữ đường lần về nguồn, vì nếu một item không lần về được cái gì thật thì đừng tạo ra nó nữa."
+      },
+      "result": "A star rating is a summary with the source deleted, except the user did the flattening for you. You are not short of signal. You are short of the thread back to what someone actually meant.",
+      "result_vi": "Một cái rating là bản tóm tắt đã xóa nguồn, chỉ khác là user tự tay làm phẳng hộ bạn. Bạn không thiếu signal. Bạn thiếu sợi dây lần về điều người ta thật sự muốn nói.",
+      "result_underline": "the thread back to what someone actually meant",
+      "result_underline_vi": "sợi dây lần về điều người ta thật sự muốn nói",
+      "tick": "For my last ten data points, can I still reach the sentence they came from?",
+      "tick_vi": "Mười data point gần nhất, mình còn lần về được câu nói gốc của chúng không?",
+      "tick_bold": [
+        "reach the sentence they came from"
+      ],
+      "tick_bold_vi": [
+        "lần về được câu nói gốc"
+      ],
+      "provocation": "Au has sat on the collecting end of feedback widgets for two decades and reports the same ending every time: the data is never used, because a one-click answer arrives with its context already stripped. Cutler's rule is that every derived item keeps a link back to the original words. Read together, a thumbs-down is not a number you average, it is a hand raised for a conversation you never schedule.",
+      "provocation_vi": "Au ngồi ở đầu thu của mấy cái widget feedback hai thập kỷ và lần nào cũng thấy một kết thúc: data không ai dùng, vì một câu trả lời một click thì tới tay bạn đã bị lột sạch ngữ cảnh. Nguyên tắc của Cutler là mọi item suy ra đều phải giữ link về lời gốc. Đọc chung lại, một cái thumbs-down không phải con số để lấy trung bình, nó là một cánh tay giơ lên xin nói chuyện mà bạn chưa bao giờ xếp lịch.",
+      "source": {
+        "site": "Counting Stuff",
+        "title": "Feedback mechanisms are terrible data sources",
+        "url": "https://www.counting-stuff.com/feedback-mechanisms-are-terrible-data-sources/",
+        "published": "2026-09-29"
+      }
+    },
+    {
+      "title": "EXPIRED EXPERTISE",
+      "title_vi": "CHUYÊN MÔN HẾT HẠN",
+      "headline": "Your instincts were trained on a machine that left.",
+      "headline_vi": "Bản năng của bạn được luyện trên một cái máy đã biến mất.",
+      "a": {
+        "who": "Marty Cagan",
+        "what": "Top product companies run on experts lead experts: to lead engineers you have to be expert at engineering. The current cull of managers is a necessary but temporary state, some companies are already reversing it, and as the cost of building falls the calls on vision, strategy, team topologies and outcomes matter more, not less.",
+        "what_vi": "Mấy công ty product hàng đầu chạy theo nguyên tắc experts lead experts: muốn dẫn engineer thì phải giỏi engineering. Đợt cắt manager hiện tại là một trạng thái cần thiết nhưng tạm thời, có công ty đã bắt đầu quay ngược lại, và khi giá của việc build rớt xuống thì mấy quyết định về vision, strategy, team topology và outcome lại quan trọng hơn, không phải ít hơn."
+      },
+      "b": {
+        "who": "Cedric Chin",
+        "what": "Most real expertise is tacit and perceptual. An expert is fast because they hold a library of cases that lets them recognise a situation before they can explain it, and that library is only built by doing the work in the real domain and getting real feedback.",
+        "what_vi": "Phần lớn chuyên môn thật là thứ ngầm, nằm ở cách nhìn. Một expert nhanh vì trong đầu họ có một thư viện tình huống, đủ để nhận ra chuyện gì đang xảy ra trước khi giải thích được, và thư viện đó chỉ xây được bằng cách làm thật trong đúng lĩnh vực và nhận phản hồi thật."
+      },
+      "result": "If expertise is a case library, a tooling shift does not turn you back into a beginner. It quietly voids some entries and leaves your retrieval speed untouched, which is why the risky one is never the leader who feels lost, it is the one who still answers instantly.",
+      "result_vi": "Nếu chuyên môn là một thư viện tình huống thì một cú đổi công cụ không biến bạn thành người mới. Nó âm thầm vô hiệu vài mục và để nguyên tốc độ tra cứu, nên người đáng lo chưa bao giờ là ông thấy mình mất phương hướng, mà là ông vẫn trả lời ngay tắp lự.",
+      "result_underline": "it is the one who still answers instantly",
+      "result_underline_vi": "mà là ông vẫn trả lời ngay tắp lự",
+      "tick": "Which of my fast answers is old pattern matching, not judgement?",
+      "tick_vi": "Câu trả lời nhanh nào của mình là pattern matching cũ, chứ không phải judgement?",
+      "tick_bold": [
+        "old pattern matching"
+      ],
+      "tick_bold_vi": [
+        "pattern matching cũ"
+      ],
+      "provocation": "Cagan argues the manager cull is temporary, because a falling cost of building raises the value of the decisions nobody can automate. Chin's account of expertise explains where an expert's speed comes from: a stock of remembered cases, earned only by doing. Put them side by side and going hands-on stops being a loyalty gesture. It is the only way to find out which of your instincts still resolve to the right answer.",
+      "provocation_vi": "Cagan lập luận rằng đợt cắt manager chỉ là tạm, vì giá build rớt xuống thì mấy quyết định không ai tự động hóa được lại đáng giá hơn. Cách Chin nói về chuyên môn giải thích tốc độ của expert tới từ đâu: một kho tình huống đã trải, chỉ có được bằng cách làm. Đặt cạnh nhau thì chuyện xắn tay làm lại không còn là cử chỉ giữ uy tín. Nó là cách duy nhất để biết bản năng nào của bạn còn ra đúng đáp án.",
+      "source": {
+        "site": "Silicon Valley Product Group",
+        "title": "Experts Lead Experts",
+        "url": "https://www.svpg.com/experts-lead-experts/",
+        "published": "2026-09-25"
+      }
+    }
+  ]
+}

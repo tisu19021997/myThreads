@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, September 30 · Ed. 66
+Every default is an old answer wearing today's confidence.
+
+─────────────────
+01 · Shopify unwound six years in twelve weeks.
+Gergely Orosz × Martin Fowler
+Orosz shows the same team declaring React Native a success in January 2025 and killing it twenty months later, for the same reason both times: the price of writing one screen twice. Fowler's sacrificial architecture says a design you throw away on time is a design that worked. So the honest test is not whether you would choose it again, it is whether you can still name the price that made you choose it.
+→ https://newsletter.pragmaticengineer.com/p/shopify-native-mobile
+
+─────────────────
+02 · A thumbs-down is not a measurement.
+Randy Au × John Cutler
+Au has sat on the collecting end of feedback widgets for two decades and reports the same ending every time: the data is never used, because a one-click answer arrives with its context already stripped. Cutler's rule is that every derived item keeps a link back to the original words. Read together, a thumbs-down is not a number you average, it is a hand raised for a conversation you never schedule.
+→ https://www.counting-stuff.com/feedback-mechanisms-are-terrible-data-sources/
+
+─────────────────
+03 · Your instincts were trained on a machine that left.
+Marty Cagan × Cedric Chin
+Cagan argues the manager cull is temporary, because a falling cost of building raises the value of the decisions nobody can automate. Chin's account of expertise explains where an expert's speed comes from: a stock of remembered cases, earned only by doing. Put them side by side and going hands-on stops being a loyalty gesture. It is the only way to find out which of your instincts still resolve to the right answer.
+→ https://www.svpg.com/experts-lead-experts/
+
+Full styled card → open the session.
