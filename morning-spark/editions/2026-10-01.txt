@@ -1,0 +1,22 @@
+Morning Spark · Thursday, October 1 · Ed. 67
+Price, measurement, proof: three things that cover less than they claim.
+
+─────────────────
+01 · The agent handed back two hours. Which two?
+Casey Newton × Jason Cohen
+Newton measured the trade honestly: fifteen minutes of attention in, two hours of admin out. Cohen's arithmetic says those two hours were never the thousand-dollar ones. Hunting down a lease and filling a broker's form sit at the cheap end of the day, which is exactly why an agent can do them. The agent is a bargain either way. Whether it changes anything depends entirely on what refills the slot.
+→ https://www.platformer.news/openai-dots-agents-devday-2026/
+
+─────────────────
+02 · The tool wrote the test before anyone read the transcripts.
+Hamel Husain × Teresa Torres
+Husain's complaint is not that the plugin finds nothing. He says its one-shot issue discovery is the strongest he has seen. It is that the workflow hands you an evaluator before you have earned an opinion, then asks you to sign off on its labels. Torres would call that solution-first. The twist is that here the solution is the instrument you were going to judge everything else with.
+→ https://hamel.dev/blog/posts/claude-auto-evals/
+
+─────────────────
+03 · To verify a property you first need a property.
+Hillel Wayne × Melissa Perri
+Wayne's limit is sharper than the usual one about correct designs not producing correct code. It is that the checker only ever sees the properties somebody could phrase, and some of the most important ones have no phrasing. Perri's build trap is the same shape one floor up, where the roadmap fills with countable output. Both documents look complete. Both are only as wide as the team's vocabulary.
+→ https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/
+
+Full styled card → open the session.

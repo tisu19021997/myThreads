@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Oct 1</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 67</div></div></div>
+<div class="meta label">Thursday, October 1, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">CHEAPEST HOURS FIRST</span><span data-l="vi">GIỜ RẺ ĐI TRƯỚC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Casey Newton</div><div class="what"><span data-l="en">He spent an afternoon with Dots, OpenAI&#x27;s new agent, and timed the trade: roughly two hours of work returned for about fifteen minutes of his own effort. The work was an insurance broker&#x27;s form, an email to the lawyer, a meeting agenda, a declined radio booking. He also prices the other side of the deal, noting that he would rather pay a hundred dollars a month than hack through a thicket of suggested purchases inside a free agent funded by transactions.</span><span data-l="vi">Anh ngồi một buổi chiều với Dots, agent mới của OpenAI, và bấm giờ cuộc trao đổi: khoảng hai giờ việc được trả lại, đổi bằng chừng mười lăm phút công của anh. Việc ở đây là cái form của bên môi giới bảo hiểm, một email gửi luật sư, một agenda họp, một lời từ chối lên radio. Anh cũng định giá luôn phía bên kia: anh thà trả một trăm đô mỗi tháng còn hơn phải lách qua một rừng gợi ý mua hàng trong một agent miễn phí sống bằng hoa hồng giao dịch.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jason Cohen</div><div class="what"><span data-l="en">A startup founder&#x27;s hour is worth around a thousand dollars, not their consulting rate, because the payout is four years away and most likely never arrives, so the risk has to be priced into the hour. The consequence is not to work more hours. It is to delegate far more than feels comfortable and stay inside the overlap of what only you are excellent at and what actually matters.</span><span data-l="vi">Một giờ của founder đáng khoảng một ngàn đô, không phải giá tư vấn theo giờ, vì tiền về sau bốn năm và nhiều khả năng không bao giờ về, nên rủi ro phải được tính vào cái giờ đó. Hệ quả không phải là cày thêm giờ. Hệ quả là delegate nhiều hơn mức bạn thấy thoải mái, và ở lì trong phần giao nhau giữa thứ chỉ bạn làm giỏi và thứ thật sự quan trọng.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">An agent buys back your cheapest hours first, because those are the only ones it can do. The saving exists only <u>if you already know where the expensive hour goes</u>.</span><span data-l="vi">Agent mua lại mấy giờ rẻ nhất trước, vì đó là mấy giờ duy nhất nó làm được. Phần tiết kiệm chỉ có thật <u>nếu bạn đã biết giờ đắt tiền đi về đâu</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If two hours came back tomorrow, <b>what exactly would you put in them</b>?</span><span data-l="vi">Nếu mai có hai giờ trả lại, bạn sẽ bỏ <b>chính xác cái gì vào đó</b>?</span></p></div>
+<div class="src-link"><a href="https://www.platformer.news/openai-dots-agents-devday-2026/" target="_blank" rel="noopener">Platformer — OpenAI connects the Dots &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">EVAL BEFORE DATA</span><span data-l="vi">EVAL TRƯỚC, DATA SAU</span></span></div>
+<div class="eq"><div class="term"><div class="who">Hamel Husain</div><div class="what"><span data-l="en">He and Isaac Flath ran Anthropic&#x27;s new eval plugin for Claude Code over real conversation traces from an apartment leasing assistant. It opened with a menu of suspected failures and asked them to pick one to turn into an eval, before either of them had read a single conversation. It then asked them to approve labels they had no context to judge, and bundled four distinct failures into one pass-or-fail field. His rule: if an eval tool does not put looking at data at the center of the workflow, it is not worth using.</span><span data-l="vi">Anh và Isaac Flath chạy thử eval plugin mới của Anthropic cho Claude Code trên transcript thật của một con trợ lý cho thuê căn hộ. Nó mở ra một menu các lỗi khả nghi rồi bảo họ chọn một cái để dựng eval, trong khi chưa ai đọc lấy một cuộc hội thoại nào. Sau đó nó bảo họ duyệt mấy cái label mà họ không đủ ngữ cảnh để phán. Rồi nó nhét bốn lỗi khác nhau vào chung một ô pass hay fail. Luật của anh: eval tool nào không đặt việc nhìn data vào giữa workflow thì không đáng dùng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Teresa Torres</div><div class="what"><span data-l="en">Continuous discovery: you map the opportunity space before you commit to a solution, and you keep a weekly touchpoint with the people you are building for. A team that jumps straight to a solution has not saved any time. It has moved its biggest assumption somewhere nobody is going to check it.</span><span data-l="vi">Continuous discovery: bạn vẽ ra không gian cơ hội trước khi chốt một solution, và giữ đều mỗi tuần một buổi nói chuyện với người bạn đang làm sản phẩm cho. Team nào nhảy thẳng vào solution thì không tiết kiệm được giây nào. Nó chỉ đẩy cái giả định lớn nhất của mình sang một chỗ không ai soi tới.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">An eval is a solution wearing the clothes of a measurement. Skip discovery there and you lose <u>the last floor where somebody was still required to read the raw rows</u>.</span><span data-l="vi">Một cái eval là solution khoác áo phép đo. Bỏ qua discovery ở tầng đó là <u>mất nốt tầng cuối cùng còn bắt một ai đó phải đọc data thô</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Who <b>actually read the rows</b> behind the number you trust most?</span><span data-l="vi">Ai <b>thật sự đã đọc data thô</b> đằng sau con số bạn tin nhất?</span></p></div>
+<div class="src-link"><a href="https://hamel.dev/blog/posts/claude-auto-evals/" target="_blank" rel="noopener">Hamel Husain — Claude&#x27;s new auto eval tool &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">PROVABLE AND SAYABLE</span><span data-l="vi">CHỨNG ĐƯỢC VÀ NÓI ĐƯỢC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Hillel Wayne</div><div class="what"><span data-l="en">Formal methods are having a moment since the inventor of Claude Code showed Opus using TLA+ to find race conditions. Wayne teaches TLA+ and still wants the euphoria turned down, for a reason that has nothing to do with the checker. Whole classes of property cannot be written down at all: that something is merely reachable, that one run uses less power than another, that delete then undo returns the original. If you cannot formalize the notion of a bird, you cannot prove your app recognizes birds.</span><span data-l="vi">Formal methods đang được chú ý từ lúc cha đẻ của Claude Code cho thấy Opus dùng TLA+ để tìm race condition. Wayne dạy TLA+ và vẫn muốn hạ bớt sự phấn khích, vì một lý do chẳng liên quan gì tới cái checker. Có nguyên những lớp tính chất không viết ra được: rằng một trạng thái là có thể chạm tới, rằng lần chạy này tốn ít điện hơn lần chạy kia, rằng xóa rồi undo thì trả về đúng bản gốc. Nếu bạn không phát biểu nổi thế nào là con chim, bạn không chứng minh được app của bạn nhận ra chim.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melissa Perri</div><div class="what"><span data-l="en">The build trap: teams end up counting the features they shipped, because output is easy to state and outcomes are not. The roadmap quietly becomes a list of the things somebody managed to put into words, and the value nobody could phrase simply never gets scheduled.</span><span data-l="vi">Build trap: team rốt cuộc đi đếm số feature đã ship, vì output thì dễ phát biểu còn outcome thì không. Cái roadmap lặng lẽ biến thành danh sách những thứ có người nói thành lời được, còn giá trị không ai diễn đạt nổi thì đơn giản là không bao giờ được xếp lịch.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Your proof and your roadmap are the same kind of document: an index of what somebody managed to say out loud. And <u>the word verified reads exactly like the word safe</u>.</span><span data-l="vi">Bản chứng minh và cái roadmap của bạn là cùng một loại tài liệu: danh mục những gì có người nói thành lời được. Mà <u>chữ verified đọc lên y hệt chữ an toàn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Name the failure you can <b>describe over coffee but not in a test</b>.</span><span data-l="vi">Kể ra cái lỗi bạn <b>tả được lúc ngồi cà phê nhưng không viết được thành test</b>.</span></p></div>
+<div class="src-link"><a href="https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/" target="_blank" rel="noopener">Hillel Wayne — What TLA+ can and can&#x27;t check &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-09-30.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-09-30</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Casey Newton / Jason Cohen / Hamel Husain / Teresa Torres / Hillel Wayne / Melissa Perri<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Casey Newton / Jason Cohen / Hamel Husain / Teresa Torres / Hillel Wayne / Melissa Perri<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
