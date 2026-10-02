@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-02",
+  "edition": 68,
+  "framing": "Every design decision quietly assigns work to someone else.",
+  "framing_vi": "Mọi quyết định thiết kế đều âm thầm giao việc cho người khác.",
+  "note": "Themes: the acknowledgment gap as a supervision bill, headcount as a staircase rather than a slope, and the schema as a staffing decision. Deliberately rested the signature B-side bench today -- Dunford was at six uses, Torres, Graham, Biddle and Balfour at five -- and used three canonical frameworks never yet on the ledger instead: Don Norman (gulf of evaluation), Fred Brooks (Mythical Man-Month, n(n-1)/2 communication paths), Melvin Conway (1968 law). All three are fresh wells too. Sources: uxdesign.cc (Patrick Neeman, 'Stop blaming the model for slow AI', Oct 1, one day old, a brand new domain on the ledger, read in full from the publication's own RSS feed because medium.com answers the proxy with a Cloudflare 403 -- the canonical link is live in a normal browser. Read: the 1982 Doherty and Thadani paper 'The Economic Value of Rapid Response Time' and the non-linear curve below 400ms, Nielsen's tenth-second / one-second / ten-second restatement, Deloitte's 'Milliseconds Make Millions' 0.1s for 8.4 percent across 37 brands, the 100ms median gap in conversational turn-taking across ten languages, Google's Interaction to Next Paint 200ms-at-p75 bar, Microsoft's 'Breaking down the infinite workday' telemetry of 117 emails and 153 Teams messages a weekday with an interruption every two minutes, the two-clocks spec, streaming as an answer to the wrong problem, Luke Wroblewski on avoiding the spinner and on showing the work of agents, Shneiderman's informative-feedback rule, Josh Clark and Veronika Kindred's 'Say Hello to Sentient Design', and the contract-review agent whose single spinner hides a wrong document version at step two. Left unused and strong: the optimistic-write-with-honest-rollback thread, and 'users forgive slowness, they do not forgive being managed' as a trust spark.) staysaasy.com (Stay SaaSy, 'Hiring Breakpoints', Sep 30, two days old, domain used once before in Ed 44 on 'Defensive Driving For Your Career' so do not pair Stay SaaSy with April Dunford again, free, read in full: the 0-1 list of designer, data owner, first manager, first G&A hire, in-house lawyer and chief of staff, the God-Empress designer line, two PMs systematising their yapping, CMO plus CRO as overlapping top-level functions, two sales or two support reps keeping each other honest as a PMF diagnostic, 7 plus-or-minus 2 and working memory, the 50-plus-reports movement judged unlikely to clear 12 or 13, Dunbar at 150, and the advice to stay under 150 then accelerate once over because the coordination penalty is already paid. Left unused: the 'only one rep failing tells you the bar' diagnostic, which is a clean hiring-signal spark.) dataengineeringweekly.com (Ananth Packkildurai, 'Thinking Like a Data Architect', Sep 30, two days old, a brand new well, free, read in full: 'people don't break the system; a poorly designed system breaks people', Ana's comment 'one person's walk signal is another person's wait time', the Slack observability test of what the recipient can actually do, the five places difficulty accumulates (discovery, publication, metric definitions, migration, recovery), the colleague as an interface with no documentation and no SLA that goes on vacation, 'certified' without 'for what', the 41,200 versus 43,050 Tuesday orders snapshot, Strogatz's Sync and fireflies as the thing organisations are not, Stewart Brand and Frank Duffy's pace layers for contracts versus meaning, the 7-to-30-day attribution window that passes every schema check, and 'architecture can move the work to the team that can do it once'. Left unused and strong: the recovery section's blast radius and recognisable-corrections checklist, which is a whole incident spark.",
+  "sparks": [
+    {
+      "title": "TWO CLOCKS",
+      "title_vi": "HAI CÁI ĐỒNG HỒ",
+      "headline": "Your model is slow. Your button has no excuse.",
+      "headline_vi": "Model của bạn chậm. Cái nút thì không có cớ.",
+      "a": {
+        "who": "Patrick Neeman",
+        "what": "Doherty's 1982 threshold said productivity jumps when a system answers in under 400 milliseconds, because that is roughly how long a person holds a thought. Generative AI did not retire the number, it split the event in two: the acknowledgment, which proves the system heard you, and the answer, which takes as long as it takes. Clock one belongs to whoever builds the surface and needs no inference at all. Most teams instrument only clock two, ship a respectable p95 chart, and ship a feature that feels dead on the first tap. Streaming does not rescue it, because streaming begins after the silence.",
+        "what_vi": "Ngưỡng Doherty năm 1982 nói productivity nhảy vọt khi hệ thống trả lời dưới 400 milli giây, vì đó cũng là khoảng một người giữ được một ý nghĩ. AI sinh nội dung không xoá cái số đó, nó cắt một sự kiện thành hai: cái xác nhận, chứng minh hệ thống đã nghe bạn, và cái câu trả lời, lâu bao nhiêu thì lâu. Đồng hồ một thuộc về người dựng màn hình, không cần inference gì hết. Phần lớn team chỉ đo đồng hồ hai, ship một biểu đồ p95 coi được, rồi ship một feature bấm vào thấy như chết. Streaming không cứu được, vì streaming chỉ bắt đầu sau khoảng im lặng."
+      },
+      "b": {
+        "who": "Don Norman",
+        "what": "Between acting and understanding sits the gulf of evaluation: the work a person does to figure out what the system just did and whether it moved them closer to what they wanted. Feedback is what closes it, and feedback has to be immediate, because a response that arrives late is no longer attached to the action that caused it. An interface that leaves the gulf open does not merely annoy people. It teaches them they are not the one in control.",
+        "what_vi": "Giữa lúc bạn hành động và lúc bạn hiểu chuyện gì vừa xảy ra là cái hố đánh giá: phần công người ta phải bỏ ra để biết hệ thống vừa làm gì và có đưa mình gần hơn thứ mình muốn hay không. Feedback là thứ lấp cái hố đó, và feedback phải tức thì, vì một phản hồi tới muộn thì không còn dính vào hành động sinh ra nó nữa. Giao diện để cái hố đó mở không chỉ gây khó chịu. Nó dạy người ta rằng mình không phải người đang điều khiển."
+      },
+      "result": "Latency is not an inference bill, it is a supervision bill. Stretch the silence far enough and the human in your loop stops reviewing and starts approving.",
+      "result_vi": "Latency không phải hoá đơn inference, nó là hoá đơn giám sát. Kéo khoảng im lặng dài ra đủ thì người trong vòng lặp của bạn thôi rà soát và bắt đầu bấm đồng ý.",
+      "result_underline": "stops reviewing and starts approving",
+      "result_underline_vi": "thôi rà soát và bắt đầu bấm đồng ý",
+      "tick": "Which review in your product is already a rubber stamp because waiting got too expensive?",
+      "tick_vi": "Bước rà soát nào trong sản phẩm của bạn thực ra đã là ký cho xong, vì chờ quá đắt?",
+      "tick_bold": [
+        "already a rubber stamp"
+      ],
+      "tick_bold_vi": [
+        "đã là ký cho xong"
+      ],
+      "provocation": "Neeman's fix costs about a week of front-end work: echo the input into the thread before any request leaves the client, name the step instead of animating a thought, give every wait an exit and a reason. Norman explains why that week beats cheaper tokens. The person you are counting on to catch the model being wrong is spending their attention on the gap, and attention is the one budget you cannot top up. Users forgive a slow answer. Handed a silent one, they switch tabs, and nobody who switched tabs comes back to review.",
+      "provocation_vi": "Cách sửa của Neeman tốn chừng một tuần làm front-end: in cái input của người ta vào thread trước khi có request nào rời máy, gọi tên bước đang chạy thay vì cho chạy animation nghĩ ngợi, cho mỗi lần chờ một cửa ra và một lý do. Norman giải thích vì sao cái tuần đó hơn token rẻ. Người bạn đang trông để bắt lỗi model đang tiêu chú ý vào khoảng trống, và chú ý là ngân sách duy nhất không nạp thêm được. Người ta tha cho một câu trả lời chậm. Gặp một khoảng im lặng thì họ chuyển tab, và ai đã chuyển tab thì không quay lại để rà soát.",
+      "source": {
+        "site": "UX Collective",
+        "title": "Stop blaming the model for slow AI. Using Doherty's threshold as a guideline.",
+        "url": "https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc",
+        "published": "2026-10-01"
+      }
+    },
+    {
+      "title": "STEP NOT SLOPE",
+      "title_vi": "BẬC, KHÔNG PHẢI DỐC",
+      "headline": "Headcount does not grow. It clicks.",
+      "headline_vi": "Headcount không tăng dần. Nó nhảy bậc.",
+      "a": {
+        "who": "Stay SaaSy",
+        "what": "The usefulness of a marginal hire is not linear, and it can be negative. Zero to one on a function changes everything: one great designer or one real data owner makes the whole group faster, and a bad one buys you an overhaul every two years forever. One to two is often worse than one, because two designers step on each other and two PMs systematise their yapping into overhead nobody asked for. Seven to ten is a manager's carrying capacity, and the current fashion for fifty reports runs into neurological hardware that has not shipped an update since evolution. Past 150 the Dunbar wall lands: stay under it as long as you can, then hire faster once you are over, because the full coordination penalty is already on the invoice.",
+        "what_vi": "Giá trị của một người tuyển thêm không đi theo đường thẳng, và có thể là số âm. Từ không lên một ở một chức năng thì đổi hẳn cuộc chơi: một designer giỏi hay một người thật sự sở hữu data làm cả nhóm nhanh hơn, còn tuyển dở thì cứ hai năm lại phải đập đi làm lại. Từ một lên hai thường tệ hơn một, vì hai designer đạp chân nhau, còn hai PM sẽ biến chuyện nói qua nói lại thành quy trình không ai cần. Bảy tới mười là sức chứa của một manager, và cái trend bắt một người quản năm mươi đứa thì đâm vào phần cứng thần kinh chưa ra bản cập nhật nào từ thời tiến hoá. Qua 150 là tường Dunbar: ở dưới nó càng lâu càng tốt, rồi khi đã qua thì tuyển nhanh lên, vì tiền phối hợp đằng nào cũng đã nằm trên hoá đơn."
+      },
+      "b": {
+        "who": "Fred Brooks",
+        "what": "Adding people to a late project makes it later. The work may divide, but the communication does not: with n people there are n times n minus one, over two, pairs who have to stay in sync, so every new arrival taxes everyone already there. Brooks' point was that the pace of a project is set by the cost of coordination, not by the shortage of hands.",
+        "what_vi": "Thêm người vào một dự án đang trễ thì nó trễ thêm. Việc có thể chia, nhưng giao tiếp thì không: n người là n nhân n trừ một, chia hai, cặp phải đồng bộ với nhau, nên mỗi người mới tới lại đánh thuế lên tất cả những người đã ở đó. Ý của Brooks là nhịp của một dự án do chi phí phối hợp quyết định, không phải do thiếu tay làm."
+      },
+      "result": "Brooks drew coordination as a smooth curve that only gets worse. It is not smooth, it is a staircase, and the only real question about a hire is which step they land on.",
+      "result_vi": "Brooks vẽ chi phí phối hợp thành một đường cong mượt, càng đi càng xấu. Nó không mượt, nó là cái cầu thang, và câu hỏi thật về một người mới là họ đứng vào bậc nào.",
+      "result_underline": "which step they land on",
+      "result_underline_vi": "họ đứng vào bậc nào",
+      "tick": "The next person you hire: do they land below a line, or across one?",
+      "tick_vi": "Người tiếp theo bạn tuyển: họ nằm dưới một cái ngưỡng, hay bước qua nó?",
+      "tick_bold": [
+        "below a line, or across one"
+      ],
+      "tick_bold_vi": [
+        "nằm dưới một cái ngưỡng, hay bước qua nó"
+      ],
+      "provocation": "Brooks priced the coordination penalty and assumed it accrued evenly. Stay SaaSy names the places it jumps, and the jumps are not where a headcount plan looks. The second designer is Brooks' worst case, not his average. The hire that takes a manager from nine reports to eleven is a bigger decision than the one that took the company from ninety people to a hundred. A plan that only counts people cannot see either of them.",
+      "provocation_vi": "Brooks định giá cái thuế phối hợp và cho rằng nó dồn lên đều đều. Stay SaaSy chỉ đúng những chỗ nó nhảy, và mấy chỗ đó không nằm ở nơi một bản kế hoạch headcount nhìn vào. Designer thứ hai là trường hợp xấu nhất của Brooks, không phải trường hợp trung bình. Người đưa một manager từ chín báo cáo lên mười một là quyết định lớn hơn người đưa công ty từ chín mươi lên một trăm. Kế hoạch chỉ biết đếm người thì không thấy cái nào trong hai cái đó.",
+      "source": {
+        "site": "Stay SaaSy",
+        "title": "Hiring Breakpoints",
+        "url": "https://staysaasy.com/hiring-breakpoints/",
+        "published": "2026-09-30"
+      }
+    },
+    {
+      "title": "CONWAY, REVERSED",
+      "title_vi": "CONWAY, CHIỀU NGƯỢC",
+      "headline": "The diagram is a staffing plan.",
+      "headline_vi": "Cái sơ đồ chính là kế hoạch phân việc.",
+      "a": {
+        "who": "Ananth Packkildurai",
+        "what": "People do not break the system; a poorly designed system breaks people. Architecture decides where the work lands: who has to know which table is current, who explains why two dashboards disagree, who decides at 2 a.m. whether an incident is really over. Leaving that work out of the design does not delete it. It gets done repeatedly, informally and under pressure, by every consumer who has to trace a number. Certified without for what is only a badge, and if picking the right dataset depends on knowing the right colleague, you have made that colleague part of the interface: no documentation, no SLA, and holidays.",
+        "what_vi": "Người không làm hỏng hệ thống; hệ thống thiết kế tệ mới làm hỏng người. Kiến trúc quyết định việc rơi vào tay ai: ai phải biết bảng nào là bảng mới, ai đi giải thích vì sao hai dashboard lệch nhau, ai 2 giờ sáng quyết định sự cố đã xong thật chưa. Bỏ phần việc đó ra khỏi thiết kế không làm nó mất đi. Nó vẫn bị làm lại nhiều lần, làm tạm, làm lúc gấp, bởi từng người dùng phải đi truy một con số. Dán nhãn certified mà không nói certified để làm gì thì chỉ là cái huy hiệu, còn nếu chọn đúng dataset lại phụ thuộc vào việc biết đúng người, thì bạn đã biến người đó thành một phần của interface: không tài liệu, không SLA, và có nghỉ phép."
+      },
+      "b": {
+        "who": "Melvin Conway",
+        "what": "Any organisation that designs a system produces a design whose structure copies that organisation's own communication structure. Conway meant it descriptively and a little fatalistically: the seams in your software are the seams between the groups who built it, so the architecture you end up with is the one your meeting schedule allowed.",
+        "what_vi": "Tổ chức nào thiết kế một hệ thống thì cũng cho ra một thiết kế có cấu trúc sao y cấu trúc giao tiếp của chính tổ chức đó. Conway nói điều này như một mô tả, hơi buông xuôi: những đường nối trong code của bạn chính là đường nối giữa các nhóm đã viết nó, nên kiến trúc bạn có là kiến trúc mà lịch họp của bạn cho phép."
+      },
+      "result": "Conway's arrow runs both ways. The org chart writes the architecture, and then the architecture writes the org chart back, one undocumented table at a time.",
+      "result_vi": "Mũi tên của Conway chạy cả hai chiều. Sơ đồ tổ chức viết ra kiến trúc, rồi kiến trúc viết lại sơ đồ tổ chức, mỗi lần một cái bảng không ai viết tài liệu.",
+      "result_underline": "one undocumented table at a time",
+      "result_underline_vi": "mỗi lần một cái bảng không ai viết tài liệu",
+      "tick": "Which of your tables is actually a person who has to answer a Slack message?",
+      "tick_vi": "Cái bảng nào của bạn thực ra là một con người phải trả lời tin Slack?",
+      "tick_bold": [
+        "actually a person"
+      ],
+      "tick_bold_vi": [
+        "thực ra là một con người"
+      ],
+      "provocation": "Conway said the system will come to look like the org. Packkildurai adds the return journey, and the return journey is the expensive one: every promise the platform declines to keep becomes labour somewhere downstream, and nobody downstream will ask you to fix it, because each team feels only its own share of the cost. Only someone who can see the whole platform can see the total. Which makes a schema decision a staffing decision, taken by a person who will never file the headcount request.",
+      "provocation_vi": "Conway nói hệ thống rồi sẽ giống cái tổ chức. Packkildurai thêm chiều về, và chiều về mới là chiều đắt: mỗi lời hứa mà platform không chịu giữ sẽ thành công việc của ai đó ở phía dưới, và không ai phía dưới đi đòi bạn sửa, vì mỗi team chỉ thấy phần chi phí của riêng mình. Chỉ người thấy cả platform mới thấy tổng. Thế là một quyết định về schema trở thành một quyết định về nhân sự, do một người sẽ không bao giờ nộp đơn xin headcount đưa ra.",
+      "source": {
+        "site": "Data Engineering Weekly",
+        "title": "Thinking Like a Data Architect",
+        "url": "https://www.dataengineeringweekly.com/p/thinking-like-a-data-architect",
+        "published": "2026-09-30"
+      }
+    }
+  ]
+}

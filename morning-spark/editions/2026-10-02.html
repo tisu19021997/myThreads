@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Oct 2</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 68</div></div></div>
+<div class="meta label">Friday, October 2, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">TWO CLOCKS</span><span data-l="vi">HAI CÁI ĐỒNG HỒ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Patrick Neeman</div><div class="what"><span data-l="en">Doherty&#x27;s 1982 threshold said productivity jumps when a system answers in under 400 milliseconds, because that is roughly how long a person holds a thought. Generative AI did not retire the number, it split the event in two: the acknowledgment, which proves the system heard you, and the answer, which takes as long as it takes. Clock one belongs to whoever builds the surface and needs no inference at all. Most teams instrument only clock two, ship a respectable p95 chart, and ship a feature that feels dead on the first tap. Streaming does not rescue it, because streaming begins after the silence.</span><span data-l="vi">Ngưỡng Doherty năm 1982 nói productivity nhảy vọt khi hệ thống trả lời dưới 400 milli giây, vì đó cũng là khoảng một người giữ được một ý nghĩ. AI sinh nội dung không xoá cái số đó, nó cắt một sự kiện thành hai: cái xác nhận, chứng minh hệ thống đã nghe bạn, và cái câu trả lời, lâu bao nhiêu thì lâu. Đồng hồ một thuộc về người dựng màn hình, không cần inference gì hết. Phần lớn team chỉ đo đồng hồ hai, ship một biểu đồ p95 coi được, rồi ship một feature bấm vào thấy như chết. Streaming không cứu được, vì streaming chỉ bắt đầu sau khoảng im lặng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Don Norman</div><div class="what"><span data-l="en">Between acting and understanding sits the gulf of evaluation: the work a person does to figure out what the system just did and whether it moved them closer to what they wanted. Feedback is what closes it, and feedback has to be immediate, because a response that arrives late is no longer attached to the action that caused it. An interface that leaves the gulf open does not merely annoy people. It teaches them they are not the one in control.</span><span data-l="vi">Giữa lúc bạn hành động và lúc bạn hiểu chuyện gì vừa xảy ra là cái hố đánh giá: phần công người ta phải bỏ ra để biết hệ thống vừa làm gì và có đưa mình gần hơn thứ mình muốn hay không. Feedback là thứ lấp cái hố đó, và feedback phải tức thì, vì một phản hồi tới muộn thì không còn dính vào hành động sinh ra nó nữa. Giao diện để cái hố đó mở không chỉ gây khó chịu. Nó dạy người ta rằng mình không phải người đang điều khiển.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Latency is not an inference bill, it is a supervision bill. Stretch the silence far enough and the human in your loop <u>stops reviewing and starts approving</u>.</span><span data-l="vi">Latency không phải hoá đơn inference, nó là hoá đơn giám sát. Kéo khoảng im lặng dài ra đủ thì người trong vòng lặp của bạn <u>thôi rà soát và bắt đầu bấm đồng ý</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which review in your product is <b>already a rubber stamp</b> because waiting got too expensive?</span><span data-l="vi">Bước rà soát nào trong sản phẩm của bạn thực ra <b>đã là ký cho xong</b>, vì chờ quá đắt?</span></p></div>
+<div class="src-link"><a href="https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc" target="_blank" rel="noopener">UX Collective — Stop blaming the model for slow AI. Using Doherty&#x27;s threshold as a guideline. &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">STEP NOT SLOPE</span><span data-l="vi">BẬC, KHÔNG PHẢI DỐC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Stay SaaSy</div><div class="what"><span data-l="en">The usefulness of a marginal hire is not linear, and it can be negative. Zero to one on a function changes everything: one great designer or one real data owner makes the whole group faster, and a bad one buys you an overhaul every two years forever. One to two is often worse than one, because two designers step on each other and two PMs systematise their yapping into overhead nobody asked for. Seven to ten is a manager&#x27;s carrying capacity, and the current fashion for fifty reports runs into neurological hardware that has not shipped an update since evolution. Past 150 the Dunbar wall lands: stay under it as long as you can, then hire faster once you are over, because the full coordination penalty is already on the invoice.</span><span data-l="vi">Giá trị của một người tuyển thêm không đi theo đường thẳng, và có thể là số âm. Từ không lên một ở một chức năng thì đổi hẳn cuộc chơi: một designer giỏi hay một người thật sự sở hữu data làm cả nhóm nhanh hơn, còn tuyển dở thì cứ hai năm lại phải đập đi làm lại. Từ một lên hai thường tệ hơn một, vì hai designer đạp chân nhau, còn hai PM sẽ biến chuyện nói qua nói lại thành quy trình không ai cần. Bảy tới mười là sức chứa của một manager, và cái trend bắt một người quản năm mươi đứa thì đâm vào phần cứng thần kinh chưa ra bản cập nhật nào từ thời tiến hoá. Qua 150 là tường Dunbar: ở dưới nó càng lâu càng tốt, rồi khi đã qua thì tuyển nhanh lên, vì tiền phối hợp đằng nào cũng đã nằm trên hoá đơn.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Fred Brooks</div><div class="what"><span data-l="en">Adding people to a late project makes it later. The work may divide, but the communication does not: with n people there are n times n minus one, over two, pairs who have to stay in sync, so every new arrival taxes everyone already there. Brooks&#x27; point was that the pace of a project is set by the cost of coordination, not by the shortage of hands.</span><span data-l="vi">Thêm người vào một dự án đang trễ thì nó trễ thêm. Việc có thể chia, nhưng giao tiếp thì không: n người là n nhân n trừ một, chia hai, cặp phải đồng bộ với nhau, nên mỗi người mới tới lại đánh thuế lên tất cả những người đã ở đó. Ý của Brooks là nhịp của một dự án do chi phí phối hợp quyết định, không phải do thiếu tay làm.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Brooks drew coordination as a smooth curve that only gets worse. It is not smooth, it is a staircase, and the only real question about a hire is <u>which step they land on</u>.</span><span data-l="vi">Brooks vẽ chi phí phối hợp thành một đường cong mượt, càng đi càng xấu. Nó không mượt, nó là cái cầu thang, và câu hỏi thật về một người mới là <u>họ đứng vào bậc nào</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">The next person you hire: do they land <b>below a line, or across one</b>?</span><span data-l="vi">Người tiếp theo bạn tuyển: họ <b>nằm dưới một cái ngưỡng, hay bước qua nó</b>?</span></p></div>
+<div class="src-link"><a href="https://staysaasy.com/hiring-breakpoints/" target="_blank" rel="noopener">Stay SaaSy — Hiring Breakpoints &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">CONWAY, REVERSED</span><span data-l="vi">CONWAY, CHIỀU NGƯỢC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ananth Packkildurai</div><div class="what"><span data-l="en">People do not break the system; a poorly designed system breaks people. Architecture decides where the work lands: who has to know which table is current, who explains why two dashboards disagree, who decides at 2 a.m. whether an incident is really over. Leaving that work out of the design does not delete it. It gets done repeatedly, informally and under pressure, by every consumer who has to trace a number. Certified without for what is only a badge, and if picking the right dataset depends on knowing the right colleague, you have made that colleague part of the interface: no documentation, no SLA, and holidays.</span><span data-l="vi">Người không làm hỏng hệ thống; hệ thống thiết kế tệ mới làm hỏng người. Kiến trúc quyết định việc rơi vào tay ai: ai phải biết bảng nào là bảng mới, ai đi giải thích vì sao hai dashboard lệch nhau, ai 2 giờ sáng quyết định sự cố đã xong thật chưa. Bỏ phần việc đó ra khỏi thiết kế không làm nó mất đi. Nó vẫn bị làm lại nhiều lần, làm tạm, làm lúc gấp, bởi từng người dùng phải đi truy một con số. Dán nhãn certified mà không nói certified để làm gì thì chỉ là cái huy hiệu, còn nếu chọn đúng dataset lại phụ thuộc vào việc biết đúng người, thì bạn đã biến người đó thành một phần của interface: không tài liệu, không SLA, và có nghỉ phép.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Melvin Conway</div><div class="what"><span data-l="en">Any organisation that designs a system produces a design whose structure copies that organisation&#x27;s own communication structure. Conway meant it descriptively and a little fatalistically: the seams in your software are the seams between the groups who built it, so the architecture you end up with is the one your meeting schedule allowed.</span><span data-l="vi">Tổ chức nào thiết kế một hệ thống thì cũng cho ra một thiết kế có cấu trúc sao y cấu trúc giao tiếp của chính tổ chức đó. Conway nói điều này như một mô tả, hơi buông xuôi: những đường nối trong code của bạn chính là đường nối giữa các nhóm đã viết nó, nên kiến trúc bạn có là kiến trúc mà lịch họp của bạn cho phép.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Conway&#x27;s arrow runs both ways. The org chart writes the architecture, and then the architecture writes the org chart back, <u>one undocumented table at a time</u>.</span><span data-l="vi">Mũi tên của Conway chạy cả hai chiều. Sơ đồ tổ chức viết ra kiến trúc, rồi kiến trúc viết lại sơ đồ tổ chức, <u>mỗi lần một cái bảng không ai viết tài liệu</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your tables is <b>actually a person</b> who has to answer a Slack message?</span><span data-l="vi">Cái bảng nào của bạn <b>thực ra là một con người</b> phải trả lời tin Slack?</span></p></div>
+<div class="src-link"><a href="https://www.dataengineeringweekly.com/p/thinking-like-a-data-architect" target="_blank" rel="noopener">Data Engineering Weekly — Thinking Like a Data Architect &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-10-01.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-10-01</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Patrick Neeman / Don Norman / Stay SaaSy / Fred Brooks / Ananth Packkildurai / Melvin Conway<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Patrick Neeman / Don Norman / Stay SaaSy / Fred Brooks / Ananth Packkildurai / Melvin Conway<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

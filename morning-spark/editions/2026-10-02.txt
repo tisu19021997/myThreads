@@ -1,0 +1,22 @@
+Morning Spark · Friday, October 2 · Ed. 68
+Every design decision quietly assigns work to someone else.
+
+─────────────────
+01 · Your model is slow. Your button has no excuse.
+Patrick Neeman × Don Norman
+Neeman's fix costs about a week of front-end work: echo the input into the thread before any request leaves the client, name the step instead of animating a thought, give every wait an exit and a reason. Norman explains why that week beats cheaper tokens. The person you are counting on to catch the model being wrong is spending their attention on the gap, and attention is the one budget you cannot top up. Users forgive a slow answer. Handed a silent one, they switch tabs, and nobody who switched tabs comes back to review.
+→ https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc
+
+─────────────────
+02 · Headcount does not grow. It clicks.
+Stay SaaSy × Fred Brooks
+Brooks priced the coordination penalty and assumed it accrued evenly. Stay SaaSy names the places it jumps, and the jumps are not where a headcount plan looks. The second designer is Brooks' worst case, not his average. The hire that takes a manager from nine reports to eleven is a bigger decision than the one that took the company from ninety people to a hundred. A plan that only counts people cannot see either of them.
+→ https://staysaasy.com/hiring-breakpoints/
+
+─────────────────
+03 · The diagram is a staffing plan.
+Ananth Packkildurai × Melvin Conway
+Conway said the system will come to look like the org. Packkildurai adds the return journey, and the return journey is the expensive one: every promise the platform declines to keep becomes labour somewhere downstream, and nobody downstream will ask you to fix it, because each team feels only its own share of the cost. Only someone who can see the whole platform can see the total. Which makes a schema decision a staffing decision, taken by a person who will never file the headcount request.
+→ https://www.dataengineeringweekly.com/p/thinking-like-a-data-architect
+
+Full styled card → open the session.
