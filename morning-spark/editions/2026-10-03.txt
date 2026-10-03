@@ -1,0 +1,22 @@
+Morning Spark · Saturday, October 3 · Ed. 69
+The decisive move always happens earlier than it feels.
+
+─────────────────
+01 · Nobody was ever argued into adopting anything.
+Sean Goedecke × Andrew Chen
+Read the two together and the AI launch deck starts looking like a category error. Teams spend the quarter sharpening the case for why the agent matters, then watch adoption sit at nine percent, and conclude the explanation needs work. It does not. The bullet-biters on your staff were converted in week one and they are not the number. Everyone else is waiting for the thing to do one unglamorous job they already hate doing, for free, today, with no belief required. Chen's cold start answer and Goedecke's bribe are the same answer wearing different clothes: stop asking people to agree with you, and start paying them in work they no longer have to do.
+→ https://www.seangoedecke.com/superpersuasion-will-look-like-bribery/
+
+─────────────────
+02 · Every trap you fall into opened as a strength.
+John Cutler × Chris Argyris
+This is not only a career thing. The same shape runs your roadmap. The bet you defend in month six is defended with evidence the bet itself produced, gathered by people who would look foolish if it were wrong, and the question of whether to kill it has quietly become undiscussable. Argyris says you will not reason your way out, because the reasoning is part of the seal. Cutler gives the only move that survives: write the specific, boring, observable trigger down on the day you start, when you have nothing at stake and nothing to defend. Not a review date. A sentence that tells you the trap has opened.
+→ https://cutlefish.substack.com/p/tbm-442-10-career-traps-thoughtful
+
+─────────────────
+03 · An ontology scraped from Slack is confusion at scale.
+Joe Reis × Peter Naur
+Naur explains the mechanism Reis is pointing at. Ontology in a box assumes meaning is latent in the artifacts and only needs extracting. It is not. The agreement about what a customer is either happened in a room, between people with the standing to be bound by it, or it did not happen. Scraping the threads where it did not happen produces a model that is fluent, plausible, and sourced from the exact disagreement it claims to resolve. The data swamp at least looked like a swamp. This one ships with an API and a confidence score. The unglamorous work has not changed in thirty years: name the owner, write the decision down, and let the tool go fast afterward.
+→ https://joereis.substack.com/p/this-years-better-mousetrap-new-tech
+
+Full styled card → open the session.
