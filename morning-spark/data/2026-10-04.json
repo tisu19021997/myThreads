@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-04",
+  "edition": 70,
+  "framing": "Three defaults doing work nobody remembered to assign.",
+  "framing_vi": "Ba cái default đang làm việc mà không ai nhớ giao.",
+  "note": "Themes: the stop that works with nobody awake, the system only the AI can still read, and the moat that was only the cost of leaving. Balance: two canonical frameworks never on the ledger (Taiichi Ohno, jidoka and the andon cord, Toyota Production System; Lisanne Bainbridge, 'Ironies of Automation', Automatica 1983) plus one roster name, Gibson Biddle on DHM, last used Sep 27 at 23 appearances. Rested today: Dunford, Cagan, Torres, Cutler, Cohen, Balfour, Chen (A-side yesterday), Thompson, Graham, Perri, Lenny. Sources: simonwillison.net (Simon Willison, \"We're going to need default hard budget caps on pretty much everything\", Oct 3, one day old, read in full, short post: hard caps versus soft warning emails, the midnight email and the rogue service, the businesses-prefer-errors-to-a-$10,000-bill argument, the explicit opt-out checkbox wording, AWS spend limits announced Sep 16 in 'New AWS experience helps builders get started and ship faster' with the page still limited-release, Google Cloud Spend Caps in July, and the closing ask that agents themselves start biasing toward capped providers. Well last ran Sep 28 on '2026 in LLMs (so far)', six days. Unused and worth its own day: the agent-recommends-the-safer-provider idea as a trust and distribution spark.) nngroup.com (Tanner Kohler, 'The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile', Oct 2, two days old, read in full: Foote and Yoder 1997/1999 as the origin, the vibe-architect study, the overbuilding quote, all five patterns -- throwaway code and the rules.md first draft, piecemeal growth and the Asana widget that became a crossfunctional dashboard, keep-it-working and the chat history run out of Downloads, sweeping-under-the-rug and the 'to be synthesized' folder that cost 45 minutes, and reconstruction -- the three context types (global, local, ambient), the one-question test, the four habits, and 'the goal was never to avoid reconstruction, it is to stay in a position to direct it'. NN/g well last ran Sep 28 on the PACED disclosure article, six days, and Tanner Kohler is a new name on file. Unused and strong: the inherited-workflow drift section, a clean handoff spark.) saastr.com (Jason Lemkin, 'We Got a $240,000 Estimate for Agent API Access. Our Agent Suggested a $5 Postgres Instance.', Oct 3, one day old, read in full, and this closes the agent-access-pricing earmark that Ed 67 logged: three humans and 21-plus agents, 10K at 35,000 to 40,000 API calls a day, Salesforce rolling out agent charges with a banner at login, Atlassian already doing it, HubSpot so far only first-party, the $240,000 estimate, the five-cents-a-gallon line, the week of self-tracked API usage, the $5 Postgres mirror offered the same day with its sync cost, Marketo giving the agent 10 to 20 minutes of API a day until they migrated off, Bending Spoons and Evernote as the price-raising math that still works, Dharmesh Shah and Aurasell going the other way, Muse doing work they used to buy $50k to $100k apps for, and the bifurcated cloud index. Well last ran Sep 17, seventeen days. Unused and strong: the 22,000-attendee analysis with 49.7 percent of executives and 63 percent of CMOs changing jobs in 16 months, which is a whole go-to-market spark on buyer churn.) Pairings Simon Willison x Taiichi Ohno, Tanner Kohler x Lisanne Bainbridge, Jason Lemkin x Gibson Biddle, all three checked against the full 69-edition pairing set and all three new; Lemkin last paired with Jason Cohen in Ed 53. Deliberately refused: cutlefish 'TBM 443: The Standard Setter' (Oct 3, but the well ran Oct 3 in Ed 69); surfingcomplexity 'Quick thoughts on GitHub's Sept 23 incident' (Oct 3, fresh, but Ed 59 already ran the GitHub saturation saga from the same well); oneusefulthing 'The Dot and the Swarm' (Oct 1, well rested fifteen days, but Dot and personal agents were Ed 67's whole first spark); stratechery '2026.40: Dots and Question Marks' and the Jason Del Rey interview (Oct 1 and 2, same Dot and Muse ground); producttalk 'Generating Opportunity Solution Trees with AI' (Oct 1, well rested eighteen days, held because it collides with the eval and discovery-tooling theme Ed 67 named as off-limits -- first in line for a later edition); mkt1 'I analyzed 1,100+ job posts with Claude Code' (Oct 1, strong data spark, held because today already carries three and it deserves a full slot); construction-physics 'Understanding the AI That Drives Robots' (Oct 1, strong but long and outside the morning's product register); martinfowler 'Sensible Default' is still held from Ed 67 and is now four editions old -- it is the natural second half for a defaults spark and today's first spark covers that ground, so it should either run next or be retired; refactoring.fm 'Refactoring Street Fighter With AI' (Oct 2, title carries an emoji so the exact title cannot pass the build). Feed notes: all 47 feeds tried today served over curl except infrequently.org/feed.xml, tomtunguz.com/feed.xml and interconnected.org/home/feed (the first two returned malformed XML, the third a 232-byte stub) -- fetch those three sites directly rather than by feed. seangoedecke.com/rss.xml is alive again today after being logged dead in Ed 67. Still owed from Ed 63 onward: Cagan x Matt Webb on rehearsing a decision while the stakes are trivial, now waiting six editions with the Webb URL spent -- give it a fresh Webb piece or retire it. Wells barely spent: platformer (the Benedict Evans positioning quote), posthog, infrequently.org (never used), ben-evans.com (never used), leaddev (Atlassian developer experience, Oct 1), latent.space (the Airbnb inside-out piece, Oct 2). Avoid tomorrow: budget caps and spend defaults, context libraries and agent maintenance debt, and agent API pricing or vendor lock-in.",
+  "sparks": [
+    {
+      "title": "HARD STOP",
+      "title_vi": "DỪNG CỨNG",
+      "headline": "The cap that works while you sleep",
+      "headline_vi": "Cái cap chạy trong lúc bạn ngủ",
+      "a": {
+        "who": "Simon Willison",
+        "what": "Usage-billed services need hard budget caps on by default: at the limit, cut the thing off and return errors. A warning email sent at midnight is not a safeguard.",
+        "what_vi": "Dịch vụ tính tiền theo usage phải bật hard budget cap sẵn: tới hạn thì cắt, trả về lỗi. Một cái email cảnh báo gửi lúc nửa đêm không phải là phanh."
+      },
+      "b": {
+        "who": "Taiichi Ohno",
+        "what": "Jidoka: build the stop into the machine. A line that halts itself on a defect beats a line that waits for someone to notice one.",
+        "what_vi": "Jidoka: làm cái stop vào trong máy. Một dây chuyền tự dừng khi có lỗi thắng một dây chuyền chờ người phát hiện ra lỗi."
+      },
+      "result": "Both men are picking which way the thing fails. Ohno took the stopped line over the shipped defect; Willison takes the error page over the ten-thousand-dollar bill. A safeguard that needs you awake is not a safeguard.",
+      "result_vi": "Cả hai đang chọn cách để hệ thống fail. Ohno chọn dừng line thay vì để lỗi chạy xuống dưới; Willison chọn trả về lỗi thay vì cái bill mười nghìn đô. Một cái phanh cần bạn thức thì không phải phanh.",
+      "result_underline": "A safeguard that needs you awake is not a safeguard",
+      "result_underline_vi": "Một cái phanh cần bạn thức thì không phải phanh",
+      "tick": "Which of your defaults quietly assumes someone is watching?",
+      "tick_vi": "Default nào của bạn đang mặc định là có người ngồi canh?",
+      "tick_bold": [
+        "assumes someone is watching"
+      ],
+      "tick_bold_vi": [
+        "có người ngồi canh"
+      ],
+      "provocation": "Willison wants hard budget caps shipped on, with removing them an explicit opt-in checkbox. AWS added spend limits on September 16 and Google Cloud shipped Spend Caps in July. Decide now which failure you would rather explain.",
+      "provocation_vi": "Willison muốn hard budget cap bật sẵn, muốn tắt thì phải tự tay tick vào ô tắt. AWS thêm spend limit ngày 16 tháng 9, Google Cloud ra Spend Caps từ tháng 7. Chọn trước đi: bạn muốn đi giải thích cái lỗi nào.",
+      "source": {
+        "site": "Simon Willison's Weblog",
+        "title": "We're going to need default hard budget caps on pretty much everything",
+        "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+        "published": "2026-10-03"
+      }
+    },
+    {
+      "title": "JUNK DRAWER",
+      "title_vi": "NGĂN ĐỒ LINH TINH",
+      "headline": "Your system is readable by one of you",
+      "headline_vi": "Hệ thống của bạn giờ chỉ một bên đọc được",
+      "a": {
+        "who": "Tanner Kohler",
+        "what": "NN/g watched non-engineers grow context libraries into big balls of mud. Building got nearly free, so nothing forced a decision, and participants could not find the files their own systems ran on.",
+        "what_vi": "NN/g quan sát những người không phải engineer nuôi context library thành một cục bùn. Build gần như free nên không có gì buộc họ phải chọn, và nhiều người không tìm được file mà hệ thống của chính họ đang chạy trên đó."
+      },
+      "b": {
+        "who": "Lisanne Bainbridge",
+        "what": "The ironies of automation: the machine takes the easy work, leaves the operator the hard residue, and removes the daily practice that handling the residue required.",
+        "what_vi": "Nghịch lý của tự động hóa: máy nhận phần dễ, để lại cho người phần khó nhất, rồi lấy đi luôn cái thực hành mỗi ngày cần có để làm được phần khó đó."
+      },
+      "result": "The mud is not the problem. The AI reading it for you is. Every patch it applies on your behalf buys a working system and sells a little of your map of it, and you will need the map on exactly the day it can no longer read.",
+      "result_vi": "Cục bùn không phải vấn đề. Vấn đề là AI đang đọc nó thay bạn. Mỗi lần nó tự vá giúp, bạn mua được một hệ thống chạy được và bán đi một mẩu bản đồ trong đầu, và bạn sẽ cần bản đồ đó đúng vào ngày nó đọc không nổi nữa.",
+      "result_underline": "on exactly the day it can no longer read",
+      "result_underline_vi": "đúng vào ngày nó đọc không nổi nữa",
+      "tick": "Can you still name what to change, or only ask where it lives?",
+      "tick_vi": "Bạn còn gọi được tên thứ cần sửa, hay chỉ đi hỏi nó nằm ở đâu?",
+      "tick_bold": [
+        "name what to change"
+      ],
+      "tick_bold_vi": [
+        "gọi được tên thứ cần sửa"
+      ],
+      "provocation": "Kohler's test is one question: to change how the system behaves, would you know which context to edit? One participant lost 45 minutes to a folder named to be synthesized. If the answer is to ask the AI, you are not maintaining a system, you are hoping.",
+      "provocation_vi": "Bài test của Kohler chỉ một câu: muốn đổi cách hệ thống hoạt động, bạn có biết phải sửa context nào không? Một người trong nghiên cứu mất 45 phút vì một folder tên là to be synthesized. Nếu câu trả lời là đi hỏi AI, bạn không đang maintain hệ thống, bạn đang cầu may.",
+      "source": {
+        "site": "NN/g",
+        "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
+        "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/",
+        "published": "2026-10-02"
+      }
+    },
+    {
+      "title": "COST OF LEAVING",
+      "title_vi": "GIÁ CỦA VIỆC ĐI",
+      "headline": "The moat was the exit cost, not the data",
+      "headline_vi": "Moat là chi phí đi ra, không phải data",
+      "a": {
+        "who": "Jason Lemkin",
+        "what": "SaaStr runs on three humans and 21 agents making up to 40,000 API calls a day. Vendors started metering agent access, one estimate came back at $240,000 a year, and the agent offered to mirror the system of record into a $5 Postgres instance the same day.",
+        "what_vi": "SaaStr chạy với ba người và 21 agent, mỗi ngày tới 40.000 API call. Vendor bắt đầu tính tiền agent access, một báo giá trả về 240.000 đô một năm, và con agent đề nghị mirror cái system of record sang một Postgres 5 đô ngay trong ngày."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: a product has to be delightful, hard to copy, and margin-enhancing. Hard to copy is the leg that decides whether you get to keep the margin.",
+        "what_vi": "DHM: sản phẩm phải delight, khó copy, và đẩy được margin. Khó copy là cái chân quyết định bạn có giữ được margin hay không."
+      },
+      "result": "The system of record was never hard to copy. It was hard to leave, and the price rode on that one fact. An agent that can mirror it before dinner has just repriced every vendor whose moat was your inertia.",
+      "result_vi": "System of record chưa bao giờ khó copy. Nó khó rời đi, và cái giá ăn theo đúng chỗ đó. Một con agent mirror được nó trước giờ cơm vừa định giá lại mọi vendor có moat chỉ là việc bạn chưa chịu đi.",
+      "result_underline": "whose moat was your inertia",
+      "result_underline_vi": "có moat chỉ là việc bạn chưa chịu đi",
+      "tick": "If a buyer's agent priced your product tonight, what would it refuse to pay for?",
+      "tick_vi": "Nếu agent của khách định giá sản phẩm bạn tối nay, nó sẽ từ chối trả cho cái gì?",
+      "tick_bold": [
+        "what would it refuse to pay for"
+      ],
+      "tick_bold_vi": [
+        "nó sẽ từ chối trả cho cái gì"
+      ],
+      "provocation": "Lemkin says if SaaStr started from zero knowing what agent access now costs, they might pick none of their current stack. Atlassian's metering is growing revenue today. Both are true at once, which is what makes it a trap.",
+      "provocation_vi": "Lemkin nói nếu SaaStr bắt đầu lại từ số không và biết trước giá agent access, họ có thể không chọn bất kỳ tool nào đang dùng. Atlassian tính phí và doanh thu đang lên. Cả hai đúng cùng lúc, và đó mới là cái bẫy.",
+      "source": {
+        "site": "SaaStr",
+        "title": "We Got a $240,000 Estimate for Agent API Access. Our Agent Suggested a $5 Postgres Instance.",
+        "url": "https://www.saastr.com/we-got-a-240000-estimate-for-agent-api-access-our-agent-suggested-a-5-postgres-instance/",
+        "published": "2026-10-03"
+      }
+    }
+  ]
+}

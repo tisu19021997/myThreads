@@ -1,0 +1,22 @@
+Morning Spark · Sunday, October 4 · Ed. 70
+Three defaults doing work nobody remembered to assign.
+
+─────────────────
+01 · The cap that works while you sleep
+Simon Willison × Taiichi Ohno
+Willison wants hard budget caps shipped on, with removing them an explicit opt-in checkbox. AWS added spend limits on September 16 and Google Cloud shipped Spend Caps in July. Decide now which failure you would rather explain.
+→ https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+
+─────────────────
+02 · Your system is readable by one of you
+Tanner Kohler × Lisanne Bainbridge
+Kohler's test is one question: to change how the system behaves, would you know which context to edit? One participant lost 45 minutes to a folder named to be synthesized. If the answer is to ask the AI, you are not maintaining a system, you are hoping.
+→ https://www.nngroup.com/articles/big-ball-of-mud-ai/
+
+─────────────────
+03 · The moat was the exit cost, not the data
+Jason Lemkin × Gibson Biddle
+Lemkin says if SaaStr started from zero knowing what agent access now costs, they might pick none of their current stack. Atlassian's metering is growing revenue today. Both are true at once, which is what makes it a trap.
+→ https://www.saastr.com/we-got-a-240000-estimate-for-agent-api-access-our-agent-suggested-a-5-postgres-instance/
+
+Full styled card → open the session.
