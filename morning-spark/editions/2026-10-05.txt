@@ -1,0 +1,22 @@
+Morning Spark · Monday, October 5 · Ed. 71
+Three choices that look like taste and are actually cost.
+
+─────────────────
+01 · The boundary of the firm just moved indoors
+Nathan Baschez × Ronald Coase
+Baschez's three tests are shared, specific, scrutinized. He argues skills fail the third: the runtime is not shared, so owners never see the failures and the feedback loop is broken. A shared prompt is not a factory. A watched queue is.
+→ https://www.gettheleverage.com/p/against-the-personal-agents-theory
+
+─────────────────
+02 · The only fix that fits in a sentence
+Lorin Hochstein × W. Edwards Deming
+The report's own root cause says the maintenance workflow had no verification step for detecting unintended disruption. That is not a human error, that is a missing cross-check. Hochstein notes the three automation fixes will bring new failure modes of their own, which is the honest trade.
+→ https://surfingcomplexity.blog/2026/10/02/there-was-a-light-that-never-went-out/
+
+─────────────────
+03 · Grow what you can throw away
+Tomasz Tunguz × Herbert Simon
+Tunguz points at Boris Cherny putting Lean and TLA+ on the Claude Agent SDK as the designed end of the spectrum. Notice which half of your system you would never dare run five times in parallel. That half is telling you where the cost of being wrong lands.
+→ https://tomtunguz.com/grow-or-design-software/
+
+Full styled card → open the session.

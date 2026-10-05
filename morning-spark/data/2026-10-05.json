@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-05",
+  "edition": 71,
+  "framing": "Three choices that look like taste and are actually cost.",
+  "framing_vi": "Ba lựa chọn tưởng là khẩu vị, thật ra là chi phí.",
+  "note": "Themes: the make-or-buy boundary redrawn inside the company, the remediation written to close the document, and the grow-versus-design choice decided by restart cost. Balance: three canonical frameworks never on the ledger (Ronald Coase, 'The Nature of the Firm', 1937, transaction costs and the boundary of the firm; W. Edwards Deming, 'Out of the Crisis', the 94-percent-belongs-to-the-system attribution and point ten on eliminating slogans and exhortations; Herbert Simon, 'The Architecture of Complexity', 1962, the Hora and Tempus watchmaker parable and stable subassemblies). IMPORTANT ROSTER DRIFT: this is the second zero-roster edition in four days (Ed 68 was the other). Dunford, Cagan, Torres, Cutler, Cohen, Balfour, Chen, Thompson, Graham, Biddle, Perri and Lenny were all rested today, deliberately -- Cagan is at 31 uses, Dunford 29, Cutler and Torres 28 -- but tomorrow should mix at least one roster name back in as a B-side, and the strongest rested candidates by recency are Dunford (last Sep 28), Graham (Sep 28), Balfour (Sep 29), Thompson (Sep 29) and Cagan (Sep 30). Sources: gettheleverage.com (Nathan Baschez guest post, 'Against the Personal Agents Theory of Everything', Oct 4, one day old, read in full, and a brand new domain and a brand new name on the whole 70-edition ledger: factory defined as shared, specific, scrutinized; BigBrain versus DumboCo at 100 employees each; the estimate that 99 percent of companies run the DumboCo way; the arithmetic of 5-to-50 tinkering hours spread over 5-10 tasks giving 3.7 hours per task versus concentrated on 1-2 tasks giving 18.3, called 5x deeper into the learning curve; why skills are not factories (runtime not shared, runs not scrutinizable, feedback loop broken); the Notion-database-plus-status-column minimum viable factory and the 8-step build; prompt versioning via a testing/production/retired column; evals as the next thing you need; the vendor list Sierra, Fin, Decagon, Cognition, Cursor, XBOW, Novee, Snyk and Amplitude pivoting to a 'product factory'; the 'factory factory' and the 'factory router'. Unused and strong: the factory-router idea, that your personal agent calls factories without you knowing they exist, which is a distribution and interface spark of its own.) surfingcomplexity.blog (Lorin Hochstein, 'There was a light that never went out', Oct 2, three days old, read in full: the GCP us-central1 networking incident report via Lex Neva of SRE Weekly; Hochstein's standing position that human error is not a useful construct and his working definition of an error-tolerant system (cross-checks plus fast recovery, by analogy with code review, CI, staging, canarying, progressive rollouts, blue-green and feature flags); the quoted Root Cause in full -- the capacity upgrade on data center routers in us-central1-b and -f, the incompatible higher-density transceivers, redundant routers in separate rooms, the procedural error that issued the whole transceiver list without one-router-at-a-time sequencing, the missing human and software verification steps, all fiber paths unplugged inside 13 minutes, and the ignored standing procedure to halt if light is detected on an unplugged fiber; the report's own two-error framing, correctly following an incorrect procedure and incorrectly following a correct procedure; the contrast with Sean Klein's QCon SF 2025 talk on the January 2023 Azure global networking outage, which went deep into history instead; all four follow-up actions, three of them real system changes (automatic sequencing orchestration, work-stop alerting on live-fiber disconnection, automated regional traffic drain cutting 19 minutes to about 5) and one of them 'reinforce training'; his 'blame and train' label; and the closing observation that the new automation will introduce novel failure modes. Well last ran Sep 23 in Ed 59 on the GitHub saturation saga, twelve days, and Ed 70 refused the Sept 23 GitHub incident piece from this well for colliding with Ed 59 -- this is a different piece and clean. Unused and worth its own day: the book recommendation 'Behind Human Error', and the Sean Klein Azure talk as a full source.) tomtunguz.com ('Do We Grow Software or Do We Design It?', Oct 2, three days old, a 2-minute post read in full: vibe-coding as growing, the petri dish and glucose and thymol blue imagery, the most sophisticated vibe-coders running 4-5 dishes in parallel and picking the optimally evolved one; designed software as state machine work, asking the AI for the flowchart, laying every fork out in a table so the holes jump out, plus formal verification; the Boris Cherny footnote on formally verifying the Claude Agent SDK with Lean and TLA+; the organic-versus-mechanical framing and state machines as right for core systems that must work; the three prior philosophies it footnotes, TDD and Kent Beck 2002, pair programming and XP, and move-fast-and-break-things. Well last ran Sep 29 in Ed 65, six days, Tunguz at 5 uses. Note the piece is thin on its own -- it carried today only because Simon's parable supplied the second half.) Pairings Nathan Baschez x Ronald Coase, Lorin Hochstein x W. Edwards Deming, Tomasz Tunguz x Herbert Simon, all three checked against the full 70-edition pairing set and all three new. Caught and avoided: Tomasz Tunguz x Paul Graham was the first instinct for the third spark and is already spent in Ed 45 (Sep 9) -- check Tunguz pairings before reaching for Graham, he has also had Dunford (Ed 36), Biddle (Ed 40), Perri (Ed 52) and Balfour (Ed 65). Deliberately refused: cutlefish 'TBM 443: The Standard Setter' (Oct 3, read in full and genuinely good, a clean Deming collision on exhortation versus systems, but the cutlefish well ran Oct 3 in Ed 69 and Cutler is at 28 uses, so Hochstein took the Deming slot instead -- TBM 443 is now twice-deferred and should either run or be retired, and Deming is spent on it as a partner); oneusefulthing 'The Dot and the Swarm' (Oct 1, well rested eighteen days, but Dot and personal agents are Ed 67 ground and would have collided with today's first spark); producttalk 'Generating Opportunity Solution Trees with AI' (Oct 1, Ed 70 already held it for the eval and discovery-tooling collision, held again today for the same reason against spark one -- it is now twice-deferred, Torres well rested eighteen days, run it soon or retire it); leaddev 'Your error budgets don't know AI exists' (Sep 30, adjacent to Ed 70's budget-caps spark) and 'AI makes critical thinking harder to build in junior engineers' (Sep 29, collides with Ed 70's Bainbridge spark); leaddev 'Inside Atlassian's developer experience overhaul' (Oct 1, still unspent and still first in line for a devex spark); lethain 'Trying the Software Factory pattern' (Sep 20, Will Larson at 4 uses -- this is the practitioner half of today's first spark and is the obvious second half for a follow-up factory edition, hold it for that); ben-evans.com 'AI, tools and transformation' (Sep 3, well never used, too old to anchor but a strong framework well); stratechery 'One More Note on Agents, Meta Connect' and the Oct 2 agents roundup (same Dot and Muse ground as Ed 67); lennysnewsletter 'OpenAI's Head of ChatGPT' (Oct 4, fresh and the Lenny well is rested since Sep 27, but it is a podcast and needs a transcript pass -- worth the effort tomorrow). Feed notes: mkt1.co/feed now 404s, so the 1,100-job-posts piece Ed 70 earmarked must be fetched from the site directly or retired; infrequently.org/feed.xml returns a Page-not-found title, confirming Ed 70's note that the feed is dead, fetch the site directly; producttalk.org/feed/ with the trailing slash returns empty while producttalk.org/feed works; huyenchip.com has published nothing since Jan 2025; asmartbear's latest is Jul 19; posthog's latest is Sep 16; staysaasy's feed carries no titles, only updated stamps. Hshop and Nshop untouched today. Still owed from Ed 63: Cagan x Matt Webb on rehearsing a decision while the stakes are trivial, now seven editions old with the Webb URL spent -- give it a fresh Webb piece tomorrow or retire the earmark. Avoid tomorrow: shared-versus-personal agent architecture and factories, postmortem and incident remediation, and vibe-coding versus formal design.",
+  "sparks": [
+    {
+      "title": "FACTORY LINE",
+      "title_vi": "DÂY CHUYỀN",
+      "headline": "The boundary of the firm just moved indoors",
+      "headline_vi": "Ranh giới công ty vừa dịch vào bên trong",
+      "a": {
+        "who": "Nathan Baschez",
+        "what": "Personal agents mean a hundred people each climbing the same learning curve, about 3.7 hours per task per month. A factory -- shared, specific, scrutinized -- concentrates that into 18.3 hours on one task. Specialization and gains from trade.",
+        "what_vi": "Mỗi người một personal agent nghĩa là cả trăm người cùng leo một learning curve, khoảng 3,7 giờ mỗi task mỗi tháng. Một factory -- shared, specific, scrutinized -- dồn chỗ đó thành 18,3 giờ cho một task. Chuyên môn hóa, và lợi từ phân công."
+      },
+      "b": {
+        "who": "Ronald Coase",
+        "what": "The Nature of the Firm, 1937: work moves inside a company whenever coordinating it internally costs less than buying it outside. The boundary sits exactly where those two costs meet.",
+        "what_vi": "The Nature of the Firm, 1937: việc chạy vào bên trong công ty khi điều phối nội bộ rẻ hơn đi mua ngoài. Ranh giới nằm đúng chỗ hai chi phí đó gặp nhau."
+      },
+      "result": "Baschez says 99 percent of companies still run DumboCo. Coase says they were not wrong, only early: a shared factory used to cost more to govern than a hundred private reinventions. What changed is not the payoff from specializing, it is that watching got cheap.",
+      "result_vi": "Baschez nói 99 phần trăm công ty vẫn đang là DumboCo. Coase nói họ không sai, chỉ là chưa tới lúc: trước đây vận hành một factory dùng chung còn tốn hơn để trăm người tự phát minh lại cái bánh xe. Thứ đổi không phải là lợi từ chuyên môn hóa, mà là việc quan sát đã trở nên rẻ.",
+      "result_underline": "it is that watching got cheap",
+      "result_underline_vi": "việc quan sát đã trở nên rẻ",
+      "tick": "Which task do you repeat enough that someone should be watching the runs, not just running it?",
+      "tick_vi": "Việc nào bạn làm lại đủ nhiều để cần một người ngồi xem các lần chạy, chứ không chỉ chạy nó?",
+      "tick_bold": [
+        "watching the runs"
+      ],
+      "tick_bold_vi": [
+        "ngồi xem các lần chạy"
+      ],
+      "provocation": "Baschez's three tests are shared, specific, scrutinized. He argues skills fail the third: the runtime is not shared, so owners never see the failures and the feedback loop is broken. A shared prompt is not a factory. A watched queue is.",
+      "provocation_vi": "Ba tiêu chí của Baschez: shared, specific, scrutinized. Anh cho rằng skill trượt cái thứ ba -- runtime không dùng chung, nên người sở hữu không bao giờ thấy lỗi, và feedback loop đứt. Một cái prompt dùng chung chưa phải factory. Một cái queue có người xem thì mới là.",
+      "source": {
+        "site": "The Leverage",
+        "title": "Against the Personal Agents Theory of Everything",
+        "url": "https://www.gettheleverage.com/p/against-the-personal-agents-theory",
+        "published": "2026-10-04"
+      }
+    },
+    {
+      "title": "BLAME AND TRAIN",
+      "title_vi": "QUY LỖI RỒI ĐI HỌC",
+      "headline": "The only fix that fits in a sentence",
+      "headline_vi": "Cái fix duy nhất gói được trong một câu",
+      "a": {
+        "who": "Lorin Hochstein",
+        "what": "Google's us-central1 report pins the outage on two human errors -- correctly following an incorrect procedure, and incorrectly following a correct one -- then lists reinforced training as a remedy. A system that assumes perfect humans following perfect procedures is in for surprises.",
+        "what_vi": "Báo cáo sự cố us-central1 của Google quy về hai lỗi người -- làm đúng theo một quy trình sai, và làm sai một quy trình đúng -- rồi kê ra tăng cường đào tạo như cách sửa. Hệ thống nào giả định người hoàn hảo làm theo quy trình hoàn hảo thì còn nhiều bất ngờ lắm."
+      },
+      "b": {
+        "who": "W. Edwards Deming",
+        "what": "Out of the Crisis: roughly 94 percent of trouble belongs to the system, not the worker. Point ten of the fourteen is to eliminate slogans and exhortations aimed at the workforce.",
+        "what_vi": "Out of the Crisis: khoảng 94 phần trăm vấn đề thuộc về hệ thống, không phải người làm. Điều thứ mười trong mười bốn điều: bỏ hết slogan và hô hào nhắm vào người làm."
+      },
+      "result": "Look at Google's four actions: three rebuild the system, one retrains the technician. The training is in there because rebuilding takes quarters and a sentence takes a minute. Every postmortem has one line that was written to close the document, not the gap.",
+      "result_vi": "Nhìn bốn hành động của Google: ba cái xây lại hệ thống, một cái đi đào tạo lại anh kỹ thuật viên. Cái đào tạo nằm đó vì xây lại mất mấy quý, còn viết một câu mất một phút. Postmortem nào cũng có một dòng được viết để đóng tài liệu, chứ không phải đóng cái lỗ.",
+      "result_underline": "written to close the document, not the gap",
+      "result_underline_vi": "được viết để đóng tài liệu, chứ không phải đóng cái lỗ",
+      "tick": "What did your last postmortem ask a person to remember, instead of making the system refuse?",
+      "tick_vi": "Postmortem gần nhất của bạn nhờ một người nhớ giùm điều gì, thay vì để hệ thống từ chối?",
+      "tick_bold": [
+        "ask a person to remember"
+      ],
+      "tick_bold_vi": [
+        "nhờ một người nhớ giùm"
+      ],
+      "provocation": "The report's own root cause says the maintenance workflow had no verification step for detecting unintended disruption. That is not a human error, that is a missing cross-check. Hochstein notes the three automation fixes will bring new failure modes of their own, which is the honest trade.",
+      "provocation_vi": "Chính phần root cause của báo cáo nói workflow bảo trì không có bước verify để bắt việc mất kết nối ngoài ý muốn. Đó không phải lỗi người, đó là thiếu một cái cross-check. Hochstein lưu ý ba cái fix bằng automation sẽ mang theo failure mode mới của riêng chúng, và đó mới là cái trade thật thà.",
+      "source": {
+        "site": "Surfing Complexity",
+        "title": "There was a light that never went out",
+        "url": "https://surfingcomplexity.blog/2026/10/02/there-was-a-light-that-never-went-out/",
+        "published": "2026-10-02"
+      }
+    },
+    {
+      "title": "TWO WATCHMAKERS",
+      "title_vi": "HAI NGƯỜI THỢ ĐỒNG HỒ",
+      "headline": "Grow what you can throw away",
+      "headline_vi": "Nuôi cái mà bạn dám bỏ đi",
+      "a": {
+        "who": "Tomasz Tunguz",
+        "what": "Two philosophies now. Growing software is vibe-coding, where the most sophisticated run four or five attempts in parallel and keep whichever evolved best. Designing it is state machine work: lay every fork out in a table and the holes jump out.",
+        "what_vi": "Giờ có hai trường phái. Nuôi software là vibe-coding, dân giỏi nhất chạy bốn năm nhánh song song rồi giữ nhánh nào tiến hóa tốt nhất. Thiết kế nó là làm state machine: kê từng nhánh rẽ ra bảng, lỗ hổng tự lộ ra."
+      },
+      "b": {
+        "who": "Herbert Simon",
+        "what": "The Architecture of Complexity, 1962: Hora built watches from stable subassemblies, Tempus assembled each one whole. Every interruption cost Hora a module and cost Tempus the entire watch.",
+        "what_vi": "The Architecture of Complexity, 1962: Hora làm đồng hồ từ những cụm nhỏ đã ổn định, Tempus lắp nguyên cái một lượt. Mỗi lần bị gián đoạn, Hora mất một cụm, Tempus mất cả cái đồng hồ."
+      },
+      "result": "So it was never a question of temperament. Five petri dishes are affordable because a dead colony costs nothing to discard, and a state machine is what you reach for when starting over is the expensive part. Pick the philosophy that matches what your last known-good state actually is.",
+      "result_vi": "Vậy nên đây chưa bao giờ là chuyện khẩu vị. Năm cái đĩa petri trả được vì một đám khuẩn chết thì bỏ đi không tốn gì, còn state machine là thứ bạn lôi ra khi làm lại từ đầu mới là chỗ đắt. Chọn trường phái theo đúng cái last known-good state bạn thật sự đang có.",
+      "result_underline": "what your last known-good state actually is",
+      "result_underline_vi": "cái last known-good state bạn thật sự đang có",
+      "tick": "Which part of tonight's build could you delete and regrow by morning?",
+      "tick_vi": "Phần nào trong cái bạn build tối nay có thể xóa đi rồi nuôi lại trước sáng?",
+      "tick_bold": [
+        "delete and regrow"
+      ],
+      "tick_bold_vi": [
+        "xóa đi rồi nuôi lại"
+      ],
+      "provocation": "Tunguz points at Boris Cherny putting Lean and TLA+ on the Claude Agent SDK as the designed end of the spectrum. Notice which half of your system you would never dare run five times in parallel. That half is telling you where the cost of being wrong lands.",
+      "provocation_vi": "Tunguz chỉ vào chuyện Boris Cherny đem Lean và TLA+ ra verify Claude Agent SDK, đầu designed của phổ. Để ý nửa nào trong hệ thống của bạn mà bạn không bao giờ dám chạy song song năm lần. Nửa đó đang nói cho bạn biết cái giá của việc đoán sai rơi xuống đầu ai.",
+      "source": {
+        "site": "Tomasz Tunguz",
+        "title": "Do We Grow Software or Do We Design It?",
+        "url": "https://tomtunguz.com/grow-or-design-software/",
+        "published": "2026-10-02"
+      }
+    }
+  ]
+}

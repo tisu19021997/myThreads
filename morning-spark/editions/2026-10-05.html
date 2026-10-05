@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Oct 5</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 71</div></div></div>
+<div class="meta label">Monday, October 5, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">FACTORY LINE</span><span data-l="vi">DÂY CHUYỀN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Nathan Baschez</div><div class="what"><span data-l="en">Personal agents mean a hundred people each climbing the same learning curve, about 3.7 hours per task per month. A factory -- shared, specific, scrutinized -- concentrates that into 18.3 hours on one task. Specialization and gains from trade.</span><span data-l="vi">Mỗi người một personal agent nghĩa là cả trăm người cùng leo một learning curve, khoảng 3,7 giờ mỗi task mỗi tháng. Một factory -- shared, specific, scrutinized -- dồn chỗ đó thành 18,3 giờ cho một task. Chuyên môn hóa, và lợi từ phân công.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Ronald Coase</div><div class="what"><span data-l="en">The Nature of the Firm, 1937: work moves inside a company whenever coordinating it internally costs less than buying it outside. The boundary sits exactly where those two costs meet.</span><span data-l="vi">The Nature of the Firm, 1937: việc chạy vào bên trong công ty khi điều phối nội bộ rẻ hơn đi mua ngoài. Ranh giới nằm đúng chỗ hai chi phí đó gặp nhau.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Baschez says 99 percent of companies still run DumboCo. Coase says they were not wrong, only early: a shared factory used to cost more to govern than a hundred private reinventions. What changed is not the payoff from specializing, <u>it is that watching got cheap</u>.</span><span data-l="vi">Baschez nói 99 phần trăm công ty vẫn đang là DumboCo. Coase nói họ không sai, chỉ là chưa tới lúc: trước đây vận hành một factory dùng chung còn tốn hơn để trăm người tự phát minh lại cái bánh xe. Thứ đổi không phải là lợi từ chuyên môn hóa, mà là <u>việc quan sát đã trở nên rẻ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which task do you repeat enough that someone should be <b>watching the runs</b>, not just running it?</span><span data-l="vi">Việc nào bạn làm lại đủ nhiều để cần một người <b>ngồi xem các lần chạy</b>, chứ không chỉ chạy nó?</span></p></div>
+<div class="src-link"><a href="https://www.gettheleverage.com/p/against-the-personal-agents-theory" target="_blank" rel="noopener">The Leverage — Against the Personal Agents Theory of Everything &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">BLAME AND TRAIN</span><span data-l="vi">QUY LỖI RỒI ĐI HỌC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Lorin Hochstein</div><div class="what"><span data-l="en">Google&#x27;s us-central1 report pins the outage on two human errors -- correctly following an incorrect procedure, and incorrectly following a correct one -- then lists reinforced training as a remedy. A system that assumes perfect humans following perfect procedures is in for surprises.</span><span data-l="vi">Báo cáo sự cố us-central1 của Google quy về hai lỗi người -- làm đúng theo một quy trình sai, và làm sai một quy trình đúng -- rồi kê ra tăng cường đào tạo như cách sửa. Hệ thống nào giả định người hoàn hảo làm theo quy trình hoàn hảo thì còn nhiều bất ngờ lắm.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">W. Edwards Deming</div><div class="what"><span data-l="en">Out of the Crisis: roughly 94 percent of trouble belongs to the system, not the worker. Point ten of the fourteen is to eliminate slogans and exhortations aimed at the workforce.</span><span data-l="vi">Out of the Crisis: khoảng 94 phần trăm vấn đề thuộc về hệ thống, không phải người làm. Điều thứ mười trong mười bốn điều: bỏ hết slogan và hô hào nhắm vào người làm.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Look at Google&#x27;s four actions: three rebuild the system, one retrains the technician. The training is in there because rebuilding takes quarters and a sentence takes a minute. Every postmortem has one line that was <u>written to close the document, not the gap</u>.</span><span data-l="vi">Nhìn bốn hành động của Google: ba cái xây lại hệ thống, một cái đi đào tạo lại anh kỹ thuật viên. Cái đào tạo nằm đó vì xây lại mất mấy quý, còn viết một câu mất một phút. Postmortem nào cũng có một dòng <u>được viết để đóng tài liệu, chứ không phải đóng cái lỗ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did your last postmortem <b>ask a person to remember</b>, instead of making the system refuse?</span><span data-l="vi">Postmortem gần nhất của bạn <b>nhờ một người nhớ giùm</b> điều gì, thay vì để hệ thống từ chối?</span></p></div>
+<div class="src-link"><a href="https://surfingcomplexity.blog/2026/10/02/there-was-a-light-that-never-went-out/" target="_blank" rel="noopener">Surfing Complexity — There was a light that never went out &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">TWO WATCHMAKERS</span><span data-l="vi">HAI NGƯỜI THỢ ĐỒNG HỒ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Tomasz Tunguz</div><div class="what"><span data-l="en">Two philosophies now. Growing software is vibe-coding, where the most sophisticated run four or five attempts in parallel and keep whichever evolved best. Designing it is state machine work: lay every fork out in a table and the holes jump out.</span><span data-l="vi">Giờ có hai trường phái. Nuôi software là vibe-coding, dân giỏi nhất chạy bốn năm nhánh song song rồi giữ nhánh nào tiến hóa tốt nhất. Thiết kế nó là làm state machine: kê từng nhánh rẽ ra bảng, lỗ hổng tự lộ ra.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Herbert Simon</div><div class="what"><span data-l="en">The Architecture of Complexity, 1962: Hora built watches from stable subassemblies, Tempus assembled each one whole. Every interruption cost Hora a module and cost Tempus the entire watch.</span><span data-l="vi">The Architecture of Complexity, 1962: Hora làm đồng hồ từ những cụm nhỏ đã ổn định, Tempus lắp nguyên cái một lượt. Mỗi lần bị gián đoạn, Hora mất một cụm, Tempus mất cả cái đồng hồ.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">So it was never a question of temperament. Five petri dishes are affordable because a dead colony costs nothing to discard, and a state machine is what you reach for when starting over is the expensive part. Pick the philosophy that matches <u>what your last known-good state actually is</u>.</span><span data-l="vi">Vậy nên đây chưa bao giờ là chuyện khẩu vị. Năm cái đĩa petri trả được vì một đám khuẩn chết thì bỏ đi không tốn gì, còn state machine là thứ bạn lôi ra khi làm lại từ đầu mới là chỗ đắt. Chọn trường phái theo đúng <u>cái last known-good state bạn thật sự đang có</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which part of tonight&#x27;s build could you <b>delete and regrow</b> by morning?</span><span data-l="vi">Phần nào trong cái bạn build tối nay có thể <b>xóa đi rồi nuôi lại</b> trước sáng?</span></p></div>
+<div class="src-link"><a href="https://tomtunguz.com/grow-or-design-software/" target="_blank" rel="noopener">Tomasz Tunguz — Do We Grow Software or Do We Design It? &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-10-04.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-10-04</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Nathan Baschez / Ronald Coase / Lorin Hochstein / W. Edwards Deming / Tomasz Tunguz / Herbert Simon<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Nathan Baschez / Ronald Coase / Lorin Hochstein / W. Edwards Deming / Tomasz Tunguz / Herbert Simon<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
