@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Oct 6</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 72</div></div></div>
+<div class="meta label">Tuesday, October 6, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">CLICK OK</span><span data-l="vi">BẤM OK</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ben Thompson</div><div class="what"><span data-l="en">His always-on Mac Mini, running nothing but Claude and Codex, got rooted through an exposed screen-sharing port. macOS asks permission per program, but an agent writes new programs all day, and the dialog appears in a space no software can see -- so programs fail silently and he screen-shares from his phone to click OK on prompts he long since stopped reading.</span><span data-l="vi">Con Mac Mini bật 24/7 của anh, trong máy chỉ có Claude và Codex, bị chiếm root qua cổng screen sharing để hở. macOS xin quyền theo từng program, nhưng agent thì viết program mới suốt ngày, và hộp thoại lại hiện ở chỗ không software nào thấy được -- nên program lỗi âm thầm, còn anh phải screen-share từ điện thoại để bấm OK cho những prompt đã lâu rồi không còn đọc.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">Proxy metrics: the outcome you want is too slow to measure, so you pick something fast that predicts it -- and you keep re-testing that the prediction still holds, or you end up hitting the number while the outcome walks away.</span><span data-l="vi">Proxy metric: cái outcome bạn muốn thì đo quá lâu, nên bạn chọn một chỉ số nhanh có khả năng dự báo nó -- rồi phải kiểm lại đều đặn xem nó còn dự báo đúng không, không thì bạn đạt chỉ tiêu trong khi outcome đã đi mất.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Apple&#x27;s proxy for safety is the prompt, and the prompts are still being clicked, so the number looks healthy. Thompson kept screen sharing on only to reach a dialog no agent is permitted to see, and that is the port they came through. The proxy did not fail by going down. <u>It failed by going up</u>.</span><span data-l="vi">Proxy cho an toàn của Apple là cái prompt, và prompt thì vẫn được bấm, nên con số trông vẫn đẹp. Thompson bật screen sharing chỉ để với tới một hộp thoại mà không agent nào được phép thấy, và đó đúng là cái cổng kẻ tấn công đi vào. Proxy không hỏng vì tụt xuống. <u>Nó hỏng vì tăng lên</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your safety checks is now <b>just a reflex</b>?</span><span data-l="vi">Cái chốt an toàn nào của bạn giờ <b>chỉ còn là phản xạ</b>?</span></p></div>
+<div class="src-link"><a href="https://stratechery.com/2026/apple-and-a-hackers-future/" target="_blank" rel="noopener">Stratechery — Apple and a Hacker&#x27;s Future &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">LABEL DRIFT</span><span data-l="vi">NHÃN TỰ DÁN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Elena Verna</div><div class="what"><span data-l="en">She keeps taking full-time jobs because the day job is what keeps the writing credible, and writing is what turns loose thoughts into frameworks worth sharing. Her rules are all disclosure and boundaries. The one she admits she has not solved: now that she is visibly at Lovable, unrelated half-formed posts get read as company statements, and saying the opinions are hers changes nothing.</span><span data-l="vi">Chị vẫn nhận job full-time, vì chính công việc hằng ngày giữ cho bài viết còn đáng tin, và chính việc viết biến mấy ý rời rạc thành framework đem chia sẻ được. Luật của chị toàn là nói rõ và vạch ranh. Cái chị thừa nhận chưa giải được: giờ ai cũng thấy chị ở Lovable, nên một post nửa vời chẳng liên quan gì cũng bị đọc thành phát ngôn của công ty, và ghi &#x27;ý kiến cá nhân&#x27; thì chẳng thay đổi gì.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Paul Graham</div><div class="what"><span data-l="en">Keep Your Identity Small, 2009: a discussion stays useful only while it does not engage the participants&#x27; identities. Every label you take on is a topic you have quietly given up the ability to think clearly about.</span><span data-l="vi">Keep Your Identity Small, 2009: một cuộc trao đổi chỉ còn hữu ích khi nó chưa chạm vào danh tính của người trong đó. Mỗi cái nhãn bạn nhận vào là một chủ đề bạn đã âm thầm mất khả năng nghĩ cho tỉnh.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Graham&#x27;s advice assumes you choose the labels. Verna&#x27;s case runs the other way: distribution hands them to you, one reader at a time, and the first thing the new label takes is not her credibility but <u>her right to be half-wrong out loud</u>.</span><span data-l="vi">Lời khuyên của Graham giả định bạn tự chọn nhãn. Trường hợp của Verna đi chiều ngược lại: distribution dán nhãn cho bạn, từng người đọc một, và thứ cái nhãn mới lấy đi đầu tiên không phải uy tín, mà là <u>quyền được sai một nửa ở chỗ đông người</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What have you <b>stopped saying out loud</b> since people started listening?</span><span data-l="vi">Từ lúc có người nghe, bạn đã <b>thôi nói to</b> điều gì?</span></p></div>
+<div class="src-link"><a href="https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an" target="_blank" rel="noopener">Elena&#x27;s Growth Scoop — How to survive a double life as an operator-creator &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">RATCHET</span><span data-l="vi">BÁNH RĂNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Joe Reis</div><div class="what"><span data-l="en">Data does not move in a line, it oscillates: centralize until you create bottlenecks, decentralize until you create fragmentation, standardize to deal with the fragmentation, recentralize whatever is hard to coordinate. Pendulums are feedback systems -- speed creates fragility, governance creates bureaucracy, abstraction loses control. But it never swings back to the same place. A pendulum on a ratchet.</span><span data-l="vi">Data không đi đường thẳng, nó dao động: centralize tới khi sinh ra bottleneck, decentralize tới khi sinh ra phân mảnh, standardize để chữa phân mảnh, rồi centralize lại những thứ khó điều phối. Pendulum là một feedback system -- nhanh thì sinh ra mong manh, governance thì sinh ra quan liêu, abstraction thì mất kiểm soát. Nhưng nó không bao giờ quay về đúng chỗ cũ. Một quả lắc gắn trên bánh răng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Brian Balfour</div><div class="what"><span data-l="en">Loops, not funnels: in a loop the output of one cycle is reinvested as the input of the next, which is why loops compound on their own and funnels have to be refilled from outside forever.</span><span data-l="vi">Loop, không phải funnel: trong một loop, output của vòng này được tái đầu tư thành input của vòng sau, nên loop tự cộng dồn, còn funnel thì phải đổ thêm từ ngoài vào mãi mãi.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Balfour&#x27;s loops compound in your favour and Reis&#x27;s compound against you, and they are the same shape. So the question about tonight&#x27;s architecture is not whether the loop runs. It is <u>how many turns until the output starts arriving as the complaint</u>.</span><span data-l="vi">Loop của Balfour cộng dồn về phía bạn, loop của Reis cộng dồn ngược lại, mà hình thì y như nhau. Nên câu hỏi về kiến trúc tối nay không phải là loop có chạy hay không. Mà là <u>mấy vòng nữa thì output bắt đầu quay về dưới dạng lời phàn nàn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What does tonight&#x27;s architecture look like <b>after it wins</b>?</span><span data-l="vi">Kiến trúc tối nay sẽ trông thế nào <b>sau khi nó thắng</b>?</span></p></div>
+<div class="src-link"><a href="https://joereis.substack.com/p/the-pendulums-of-data" target="_blank" rel="noopener">Joe Reis — The Pendulums of Data &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-10-05.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-10-05</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Ben Thompson / Gibson Biddle / Elena Verna / Paul Graham / Joe Reis / Brian Balfour<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Ben Thompson / Gibson Biddle / Elena Verna / Paul Graham / Joe Reis / Brian Balfour<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

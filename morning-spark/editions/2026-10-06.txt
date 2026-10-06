@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, October 6 · Ed. 72
+Three things that broke by being adopted too well.
+
+─────────────────
+01 · Consent stopped predicting safety a thousand prompts ago
+Ben Thompson × Gibson Biddle
+The fix came from the agent, not the vendor: Claude flagged the intrusion, narrowed it to a four-second window, built a watcher, and the machine got wiped. His argument is that the permission layer belongs around the agent, not around the programs it writes. TCC is guarding the wrong object.
+→ https://stratechery.com/2026/apple-and-a-hackers-future/
+
+─────────────────
+02 · Your audience picks your identity, and it is never small
+Elena Verna × Paul Graham
+Verna writes the audience into every employment agreement as hers, and it is the right thing to protect. But the asset that actually erodes is unlisted: thinking in public. The audience is what you own. The half-baked take is what you spend to get it.
+→ https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an
+
+─────────────────
+03 · Every architecture ships with its own backlash included
+Joe Reis × Brian Balfour
+Reis stopped asking whether a new architecture is the future. He asks what tension it is temporarily resolving, and what the backlash will be if it succeeds too well. His sharper line underneath: execution decentralizes much more easily than coordination, which is why every decentralization ends up rebuilding a centre.
+→ https://joereis.substack.com/p/the-pendulums-of-data
+
+Full styled card → open the session.
