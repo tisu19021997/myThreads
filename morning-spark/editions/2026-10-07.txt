@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, October 7 · Ed. 73
+Three instruments still pointed where the work used to be.
+
+─────────────────
+01 · AI sped up the one station that was never the bottleneck
+Emma Bostian × Eliyahu Goldratt
+The prescription is unglamorous and load-bearing: the author owns quality whether or not an agent wrote it, and has to be able to explain and test the change before handing it to a colleague. Then measure the delivery system whole -- review time, rework, maintainability -- not just how fast code appears.
+→ https://leaddev.com/software-quality/faster-code-isnt-faster-delivery
+
+─────────────────
+02 · He took capabilities away from the agent on purpose
+Armin Ronacher × Alan Kay
+The pattern his agents found on their own: probe five or ten items to learn the shape of a response, then script the rest. He hides the MCP tools entirely and exposes a search instead, so discovery is progressive rather than a catalogue the model pays for up front. Trust is what decides whether you hand something options or grammar.
+→ https://lucumr.pocoo.org/2026/10/6/codemode/
+
+─────────────────
+03 · One word, three instruments, no way to convert between them
+Randy Au × Lenny Rachitsky
+The satellite index is the instructive one. A bare canopy over green grass reads as healthy forest, a cloud reads as decline, and one pixel can average hundreds of square metres of unrelated ground. The number is real, well validated, and answers a question sitting next to yours.
+→ https://www.counting-stuff.com/how-autumn-foliage-is-measured/
+
+Full styled card → open the session.

@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Oct 7</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 73</div></div></div>
+<div class="meta label">Wednesday, October 7, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">REVIEW QUEUE</span><span data-l="vi">HÀNG CHỜ REVIEW</span></span></div>
+<div class="eq"><div class="term"><div class="who">Emma Bostian</div><div class="what"><span data-l="en">A year ago teams asked how AI could help. Now they ask why it has not made them faster. The answer in the piece: the bottleneck did not disappear, it moved from writing code to reviewing it. Pull requests arrive faster than anyone can understand, test and approve them, and HBR puts the cost of a single piece of workslop at one hour fifty-six minutes for whoever has to deal with it.</span><span data-l="vi">Một năm trước các team hỏi AI giúp được gì. Giờ họ hỏi sao vẫn chưa nhanh hơn. Câu trả lời trong bài: điểm nghẽn không mất đi, nó chỉ đổi chỗ, từ viết code sang review code. PR đổ về nhanh hơn mức người ta kịp đọc, kịp test, kịp approve, và HBR tính mỗi mẩu workslop ngốn một giờ năm mươi sáu phút của người phải dọn.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Eliyahu Goldratt</div><div class="what"><span data-l="en">Theory of constraints: throughput is set by one station, so an hour saved anywhere else is a mirage. The work you freed up does not leave the system, it piles in front of the real limit -- while every local efficiency number looks better than it did last quarter.</span><span data-l="vi">Theory of constraints: công suất cả hệ do một trạm duy nhất quyết định, nên một giờ tiết kiệm được ở chỗ khác chỉ là ảo giác. Phần việc làm nhanh được không đi ra khỏi hệ thống, nó dồn lại trước cái giới hạn thật -- trong khi mọi con số hiệu suất cục bộ thì đẹp hơn quý trước.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Nobody got faster. The pile got taller, and the pile is made of your reviewers&#x27; attention. The dashboard still counts what the fast station produced, so output climbs while the ship date slips, and <u>the chart is the thing still being believed</u>.</span><span data-l="vi">Không ai nhanh hơn cả. Đống việc cao hơn, và đống đó làm bằng sự tập trung của người review. Dashboard vẫn đếm sản lượng của cái trạm nhanh, nên output leo lên trong khi ngày ship tụt lại, và <u>cái chart mới là thứ còn được tin</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which station did AI actually speed up, and <b>who is holding what it made</b>?</span><span data-l="vi">AI thật ra tăng tốc trạm nào, và <b>ai đang gánh phần nó làm ra</b>?</span></p></div>
+<div class="src-link"><a href="https://leaddev.com/software-quality/faster-code-isnt-faster-delivery" target="_blank" rel="noopener">LeadDev — Faster code isn&#x27;t faster delivery &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">OFF THE MENU</span><span data-l="vi">RÚT KHỎI MENU</span></span></div>
+<div class="eq"><div class="term"><div class="who">Armin Ronacher</div><div class="what"><span data-l="en">Codemode hands the model a JavaScript sandbox with no network, no file system, no timers and little memory. Its only power is to call more tools. Image generation and the Jev classifier are deliberately kept off the tool list, because as tools they would do nothing but spend context. Composition moved out of the model&#x27;s attention and into a language.</span><span data-l="vi">Codemode đưa cho model một sandbox JavaScript không network, không file system, không timer, RAM ít. Quyền duy nhất của nó là gọi thêm tool. Sinh ảnh và classifier Jev thì cố tình không đưa vào danh sách tool, vì đưa vào thì chỉ tốn context chứ không được gì. Phần ghép nối đã rời khỏi vùng chú ý của model để đi vào một ngôn ngữ.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Alan Kay</div><div class="what"><span data-l="en">He judged a system by whether someone could build the thing its designers never imagined, which is why his answer was a language sitting inside the interface rather than more commands in the menu: simple things stay simple, complex things stay possible.</span><span data-l="vi">Ông đánh giá một hệ thống bằng việc người dùng có dựng được cái mà chính người thiết kế không hề nghĩ ra hay không -- nên câu trả lời của ông là một ngôn ngữ nằm bên trong interface, chứ không phải thêm lệnh vào menu: việc đơn giản thì cứ đơn giản, việc phức tạp thì vẫn làm được.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A menu charges everyone who reads it; a language charges only the person who uses it. So when capability grows, the move is usually to take options away and leave a clean way to combine what is left, which is <u>the opposite of every roadmap you have ever been handed</u>.</span><span data-l="vi">Menu thu phí mọi người đọc nó; ngôn ngữ chỉ thu phí người thực sự dùng. Nên khi năng lực nhiều lên, nước đi thường là bớt lựa chọn đi và để lại một cách ghép nối tử tế những thứ còn lại, tức là <u>ngược hoàn toàn với mọi cái roadmap từng được đặt vào tay bạn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What are you adding to the menu that <b>should have been a language</b>?</span><span data-l="vi">Bạn đang thêm gì vào menu, trong khi nó <b>đáng lẽ phải là một ngôn ngữ</b>?</span></p></div>
+<div class="src-link"><a href="https://lucumr.pocoo.org/2026/10/6/codemode/" target="_blank" rel="noopener">Armin Ronacher — What is Codemode &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">PEAK, DEFINED</span><span data-l="vi">ĐỈNH LÀ GÌ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Randy Au</div><div class="what"><span data-l="en">Autumn gets measured three ways that do not reconcile: volunteers binning a canopy into six percentage buckets, cameras computing green over total brightness, satellites computing a vegetation index from near-infrared and red. That index tracks chlorophyll, so it detects the end of green rather than the arrival of red. New York&#x27;s tourism board skips all of it and defines peak as the best overall appearance the foliage will have.</span><span data-l="vi">Mùa thu được đo ba cách không khớp nhau: tình nguyện viên chia tán cây vào sáu nhóm phần trăm, camera tính tỷ lệ xanh trên tổng độ sáng, vệ tinh tính chỉ số thực vật từ cận hồng ngoại và đỏ. Chỉ số đó đo theo chlorophyll, nên nó bắt được lúc màu xanh kết thúc chứ không bắt được lúc màu đỏ xuất hiện. Sở du lịch New York bỏ qua hết, và định nghĩa đỉnh điểm là lúc tán lá trông đẹp nhất cả mùa.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Lenny Rachitsky</div><div class="what"><span data-l="en">His benchmark posts always print the definition next to the number, because a retention or activation figure borrowed from someone who counted it differently tells you nothing at all -- and almost everyone counts it differently.</span><span data-l="vi">Các bài benchmark của anh luôn để định nghĩa ngay cạnh con số, vì một con số retention hay activation vay của người đếm theo cách khác thì không nói lên được gì hết -- mà gần như ai cũng đếm theo cách khác.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Three honest instruments, one word, and no conversion between them. That is also your weekly metrics review. The tourism board is the only party being straight with you, because it says out loud that it is optimising for prettiness, and <u>your dashboard has never once said what it is optimising for</u>.</span><span data-l="vi">Ba cái thước đều trung thực, một chữ, và không có tỷ lệ quy đổi nào giữa chúng. Đó cũng là buổi review metric hàng tuần của bạn. Sở du lịch là bên duy nhất nói thẳng, vì nó nói rõ ra là nó tối ưu cho độ đẹp, còn dashboard của bạn thì <u>chưa một lần nói nó đang tối ưu cho cái gì</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Does your north-star metric have a sensor, or <b>an index fitted to what you hoped</b>?</span><span data-l="vi">Chỉ số north-star của bạn có sensor thật, hay chỉ là <b>một index fit theo điều bạn mong</b>?</span></p></div>
+<div class="src-link"><a href="https://www.counting-stuff.com/how-autumn-foliage-is-measured/" target="_blank" rel="noopener">Counting Stuff — How Autumn (Foliage) Is Measured &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-10-06.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-10-06</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Emma Bostian / Eliyahu Goldratt / Armin Ronacher / Alan Kay / Randy Au / Lenny Rachitsky<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Emma Bostian / Eliyahu Goldratt / Armin Ronacher / Alan Kay / Randy Au / Lenny Rachitsky<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

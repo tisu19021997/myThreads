@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-07",
+  "edition": 73,
+  "framing": "Three instruments still pointed where the work used to be.",
+  "framing_vi": "Ba cái thước vẫn chỉ vào chỗ công việc đã rời đi.",
+  "note": "Themes: the station AI sped up was never the constraint, capability pulled off the menu on purpose, and one word with three instruments that cannot be converted. Roster: one B-side, Lenny Rachitsky, at ten days the most rested roster name on file and the lowest-count one (n=9) -- and the benchmark framing last ran Sep 7, thirty days, re-angled today onto the definition travelling with the number rather than onto the caveat. Two canonical frameworks never on the ledger: Eliyahu Goldratt (theory of constraints, an hour saved at a non-bottleneck is a mirage) and Alan Kay (a language inside the interface instead of more commands in the menu; simple things simple, complex things possible). Rested deliberately: Thompson, Graham, Biddle, Balfour, Verna and Reis all ran Oct 6 as Ed 72 instructed; Cutler and Chen Oct 3; Torres, Perri and Cohen Oct 1; Cagan Sep 30 -- Cagan was the other candidate and was passed over because empowered-teams, the four risks and experts-lead-experts are the three most repeated framings on file and all ran inside the last nine days. Dunford skipped again: positioning-as-context has now run Sep 17, 19, 23, 24 and 28, and Ed 72 skipped it for the same reason -- give it a genuinely different Dunford angle or rest it a fortnight. Perri skipped: the build trap has run Sep 16, 22, 26 and Oct 1 with near-identical wording four times. Sources, all published Oct 6, all fetched by curl today and all read in full: leaddev.com (Emma Bostian, engineering manager at Spotify, 'Faster code isn't faster delivery' -- a brand new name on the 72-edition ledger and the leaddev well last supplied a source Sep 17, twenty days, after Ed 65, 66, 67 and 70 all refused leaddev pieces for collisions: the bottleneck moving from writing to reviewing, Anthropic's late-2025 estimate of 1.8 percent annual US labour productivity growth over the decade, HBR's workslop numbers -- 1h56m handling each instance, 40 percent having reviewed workslop in the past month, 42 percent rating the sender less trustworthy and 37 percent less intelligent -- the reviewer who ends up reconstructing the author's logic, the find-a-problem / prompt-the-AI / push-the-fix cycle when a non-technical author cannot read the review comment, concentration fragmentation across parallel agents, the three risks named (security vulnerabilities, codebase bloat, edge-case bugs), and the five prescriptions ending in 'measure the entire delivery system'. Unused and strong: the constructive-friction argument that innovation needs people disagreeing, and the trust numbers as a collaboration spark of their own); lucumr.pocoo.org (Armin Ronacher, 'What is Codemode' -- Armin at n=1, last used Sep 12, twenty-five days: brains versus hands, the harness and the execution environment on different file systems with different trust; Codemode running in QuickJS inside WASM with no network, no file system, no timers and limited RAM whose only power is to call more tools; the 2000-trailing-lines context cap on a plain bash call versus structured output through Codemode; store() stashing state in the transcript for a later invocation; image generation and the Jev classifier exposed only through Codemode because as tools they would just waste context; Cloudflare coining the name and the Codemode-in-Codemode double-escaping problem where inner code cannot call outer tools; the four MCP asks (structured content via outputSchema, consistent results, large binary data, composable tool search); and Starlark's determinism floated over JavaScript. Unused and worth its own day: the probe-five-then-script-the-rest pattern against a server that token-optimises by result size, so the probe passes and the full run breaks -- a sampling spark, held back today because spark three already occupies measurement); counting-stuff.com (Randy Au, 'How Autumn (Foliage) Is Measured' -- well last ran Sep 29, seven days, Randy Au at n=2: the three methodologies, the National Phenology Network's colored-leaves definition and its six canopy buckets (<5, 5-24, 25-49, 50-74, 75-94, 95+), the NY State report of Sept 30 with 20 percent on the Lower East Side against 85 percent in Franklin County and its dandelion-to-rhubarb colour list, I LOVE NY defining peak as 'the best overall appearance the foliage will have during the season', PhenoCam and GCC = G/(R+G+B) and RCC, NDVI = (NIR-Red)/(NIR+Red) with its clouds, green-ground-under-fallen-leaves and pixel-averaging failure modes, ARI and RGVI as the supplements NDVI needs because NDVI only measures greenness, and the 2013 Harvard Forest paper fitting a cold-degree-day photoperiod model from Delpierre 2009 per species against 1993-2010 records made by one observer every 3-7 days. Unused: the one-observer-for-seventeen-years detail, which is a data-provenance spark). Pairings Emma Bostian x Eliyahu Goldratt, Armin Ronacher x Alan Kay, Randy Au x Lenny Rachitsky, all three checked against the full 72-edition pairing set and all three new; note Armin Ronacher x Paul Graham already ran Sep 12 and Randy Au x John Cutler Sep 30. Deliberately refused: leaddev 'Meta turned engineers' judgment into agent skills' (Oct 5, strong, but Ed 71's whole first spark was factories versus skills and the same well supplies spark one today); cutlefish 'TBM 443: The Standard Setter' (Oct 3, now thrice-deferred -- Cutler ran Oct 3, Deming is spent on it as a partner, so either run it in the next few days or retire the earmark); producttalk 'Generating Opportunity Solution Trees with AI' (Oct 1, now thrice-deferred, Torres well rested twenty days, same verdict -- run or retire); interconnects 'The Cyber Risk Discourse is Broken' and gradientflow 'I keep thinking about these 17,600 attempts' (both Oct 6, both well rested, both held because Ed 72 spent the security lens); platformer 'Does intelligence need a hard cap?' (Oct 7, published today and the freshest thing on the shelf, well ran Oct 1 -- held because it is AI policy rather than a builder's morning, but it is first in line if that reading is wrong); pragmaticengineer 'The state of the tech industry in 2026' (Oct 6, well rested seven days, fetched and strong, held because it is a survey roundup and deserves a full data slot -- take it soon); kellblog 'Please Don't Scare the Children' (Oct 6, Dave Kellogg at n=3 and the well rested twenty-two days, fetched, a clean org-design spark on splitting off the new business team -- best unused candidate on the shelf); jim-nielsen 'Apple's App Icon HOA' (Oct 6, well rested seven days, a platform-constraint spark worth taking); seangoedecke 'How to read code' (Oct 7, published today but the well ran Oct 3, four days); tomtunguz 'Inference Is the Most Important Market in Software' and 'How to Automate Inbound' (Oct 5 and 6, but Tunguz ran Oct 5); saastr 'How Much of Your Customer Support Can AI Really Resolve' (Oct 6, good RevenueCat-grade numbers, but saastr ran Oct 4); thezvi 'Childhood and Education #21: Grades and Standards' (Oct 6, a measurement-adjacent piece that would have collided with spark three); uxdesign 'Why designers need to stop reporting and start recommending' and 'The taste paradox' (Oct 5 and 6, both decent, well ran Oct 2); commoncog 'Dealing with Recessions' (Oct 6, Cedric Chin rested since Sep 30, unused and strong); refactoring 'Refactoring Street Fighter With AI' (Oct 2, the title still carries an emoji so the exact title cannot pass the build). Feed notes: 59 of 60 feeds served over curl today; only dbreunig.com/feed.xml came back empty. mkt1.co/feed is alive again after Ed 72 logged it 404. infrequently.org/feed.xml returns a 3.4KB stub, confirming it is still dead -- fetch the site directly. lethain.com/feed is a 2.8KB stub today. Hshop and Nshop untouched. Still owed from Ed 63, now ten editions: Cagan x Matt Webb on rehearsing a decision while the stakes are trivial, with the Webb URL spent -- interconnected.org published 'What we're building at Inanimate' on Oct 2, so the fresh Webb piece now exists; take it or retire the earmark for good. Avoid tomorrow: bottlenecks and delivery throughput, tool surfaces and agent interfaces, and metric definitions or proxy measurement.",
+  "sparks": [
+    {
+      "title": "REVIEW QUEUE",
+      "title_vi": "HÀNG CHỜ REVIEW",
+      "headline": "AI sped up the one station that was never the bottleneck",
+      "headline_vi": "AI tăng tốc đúng cái trạm chưa bao giờ là điểm nghẽn",
+      "a": {
+        "who": "Emma Bostian",
+        "what": "A year ago teams asked how AI could help. Now they ask why it has not made them faster. The answer in the piece: the bottleneck did not disappear, it moved from writing code to reviewing it. Pull requests arrive faster than anyone can understand, test and approve them, and HBR puts the cost of a single piece of workslop at one hour fifty-six minutes for whoever has to deal with it.",
+        "what_vi": "Một năm trước các team hỏi AI giúp được gì. Giờ họ hỏi sao vẫn chưa nhanh hơn. Câu trả lời trong bài: điểm nghẽn không mất đi, nó chỉ đổi chỗ, từ viết code sang review code. PR đổ về nhanh hơn mức người ta kịp đọc, kịp test, kịp approve, và HBR tính mỗi mẩu workslop ngốn một giờ năm mươi sáu phút của người phải dọn."
+      },
+      "b": {
+        "who": "Eliyahu Goldratt",
+        "what": "Theory of constraints: throughput is set by one station, so an hour saved anywhere else is a mirage. The work you freed up does not leave the system, it piles in front of the real limit -- while every local efficiency number looks better than it did last quarter.",
+        "what_vi": "Theory of constraints: công suất cả hệ do một trạm duy nhất quyết định, nên một giờ tiết kiệm được ở chỗ khác chỉ là ảo giác. Phần việc làm nhanh được không đi ra khỏi hệ thống, nó dồn lại trước cái giới hạn thật -- trong khi mọi con số hiệu suất cục bộ thì đẹp hơn quý trước."
+      },
+      "result": "Nobody got faster. The pile got taller, and the pile is made of your reviewers' attention. The dashboard still counts what the fast station produced, so output climbs while the ship date slips, and the chart is the thing still being believed.",
+      "result_vi": "Không ai nhanh hơn cả. Đống việc cao hơn, và đống đó làm bằng sự tập trung của người review. Dashboard vẫn đếm sản lượng của cái trạm nhanh, nên output leo lên trong khi ngày ship tụt lại, và cái chart mới là thứ còn được tin.",
+      "result_underline": "the chart is the thing still being believed",
+      "result_underline_vi": "cái chart mới là thứ còn được tin",
+      "tick": "Which station did AI actually speed up, and who is holding what it made?",
+      "tick_vi": "AI thật ra tăng tốc trạm nào, và ai đang gánh phần nó làm ra?",
+      "tick_bold": [
+        "who is holding what it made"
+      ],
+      "tick_bold_vi": [
+        "ai đang gánh phần nó làm ra"
+      ],
+      "provocation": "The prescription is unglamorous and load-bearing: the author owns quality whether or not an agent wrote it, and has to be able to explain and test the change before handing it to a colleague. Then measure the delivery system whole -- review time, rework, maintainability -- not just how fast code appears.",
+      "provocation_vi": "Phần kê toa không hào nhoáng nhưng chịu lực: người mở PR chịu trách nhiệm chất lượng, bất kể agent viết hay không, và phải giải thích được, test được trước khi đẩy sang đồng nghiệp. Rồi đo cả hệ delivery -- thời gian review, làm lại, độ dễ bảo trì -- chứ không chỉ đo tốc độ code hiện ra.",
+      "source": {
+        "site": "LeadDev",
+        "title": "Faster code isn't faster delivery",
+        "url": "https://leaddev.com/software-quality/faster-code-isnt-faster-delivery",
+        "published": "2026-10-06"
+      }
+    },
+    {
+      "title": "OFF THE MENU",
+      "title_vi": "RÚT KHỎI MENU",
+      "headline": "He took capabilities away from the agent on purpose",
+      "headline_vi": "Anh chủ động rút bớt năng lực khỏi tay agent",
+      "a": {
+        "who": "Armin Ronacher",
+        "what": "Codemode hands the model a JavaScript sandbox with no network, no file system, no timers and little memory. Its only power is to call more tools. Image generation and the Jev classifier are deliberately kept off the tool list, because as tools they would do nothing but spend context. Composition moved out of the model's attention and into a language.",
+        "what_vi": "Codemode đưa cho model một sandbox JavaScript không network, không file system, không timer, RAM ít. Quyền duy nhất của nó là gọi thêm tool. Sinh ảnh và classifier Jev thì cố tình không đưa vào danh sách tool, vì đưa vào thì chỉ tốn context chứ không được gì. Phần ghép nối đã rời khỏi vùng chú ý của model để đi vào một ngôn ngữ."
+      },
+      "b": {
+        "who": "Alan Kay",
+        "what": "He judged a system by whether someone could build the thing its designers never imagined, which is why his answer was a language sitting inside the interface rather than more commands in the menu: simple things stay simple, complex things stay possible.",
+        "what_vi": "Ông đánh giá một hệ thống bằng việc người dùng có dựng được cái mà chính người thiết kế không hề nghĩ ra hay không -- nên câu trả lời của ông là một ngôn ngữ nằm bên trong interface, chứ không phải thêm lệnh vào menu: việc đơn giản thì cứ đơn giản, việc phức tạp thì vẫn làm được."
+      },
+      "result": "A menu charges everyone who reads it; a language charges only the person who uses it. So when capability grows, the move is usually to take options away and leave a clean way to combine what is left, which is the opposite of every roadmap you have ever been handed.",
+      "result_vi": "Menu thu phí mọi người đọc nó; ngôn ngữ chỉ thu phí người thực sự dùng. Nên khi năng lực nhiều lên, nước đi thường là bớt lựa chọn đi và để lại một cách ghép nối tử tế những thứ còn lại, tức là ngược hoàn toàn với mọi cái roadmap từng được đặt vào tay bạn.",
+      "result_underline": "the opposite of every roadmap you have ever been handed",
+      "result_underline_vi": "ngược hoàn toàn với mọi cái roadmap từng được đặt vào tay bạn",
+      "tick": "What are you adding to the menu that should have been a language?",
+      "tick_vi": "Bạn đang thêm gì vào menu, trong khi nó đáng lẽ phải là một ngôn ngữ?",
+      "tick_bold": [
+        "should have been a language"
+      ],
+      "tick_bold_vi": [
+        "đáng lẽ phải là một ngôn ngữ"
+      ],
+      "provocation": "The pattern his agents found on their own: probe five or ten items to learn the shape of a response, then script the rest. He hides the MCP tools entirely and exposes a search instead, so discovery is progressive rather than a catalogue the model pays for up front. Trust is what decides whether you hand something options or grammar.",
+      "provocation_vi": "Cái pattern agent tự tìm ra: thăm dò năm mười item để biết hình dạng của response, rồi mới viết script chạy phần còn lại. Anh ẩn hết tool MCP đi và chỉ mở một cái search, nên việc khám phá diễn ra từng bước chứ không phải một catalogue model phải trả tiền trước. Mức tin cậy mới quyết định bạn đưa cho một thứ lựa chọn, hay đưa cho nó ngữ pháp.",
+      "source": {
+        "site": "Armin Ronacher",
+        "title": "What is Codemode",
+        "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+        "published": "2026-10-06"
+      }
+    },
+    {
+      "title": "PEAK, DEFINED",
+      "title_vi": "ĐỈNH LÀ GÌ",
+      "headline": "One word, three instruments, no way to convert between them",
+      "headline_vi": "Một chữ, ba cái thước, không cách nào quy đổi",
+      "a": {
+        "who": "Randy Au",
+        "what": "Autumn gets measured three ways that do not reconcile: volunteers binning a canopy into six percentage buckets, cameras computing green over total brightness, satellites computing a vegetation index from near-infrared and red. That index tracks chlorophyll, so it detects the end of green rather than the arrival of red. New York's tourism board skips all of it and defines peak as the best overall appearance the foliage will have.",
+        "what_vi": "Mùa thu được đo ba cách không khớp nhau: tình nguyện viên chia tán cây vào sáu nhóm phần trăm, camera tính tỷ lệ xanh trên tổng độ sáng, vệ tinh tính chỉ số thực vật từ cận hồng ngoại và đỏ. Chỉ số đó đo theo chlorophyll, nên nó bắt được lúc màu xanh kết thúc chứ không bắt được lúc màu đỏ xuất hiện. Sở du lịch New York bỏ qua hết, và định nghĩa đỉnh điểm là lúc tán lá trông đẹp nhất cả mùa."
+      },
+      "b": {
+        "who": "Lenny Rachitsky",
+        "what": "His benchmark posts always print the definition next to the number, because a retention or activation figure borrowed from someone who counted it differently tells you nothing at all -- and almost everyone counts it differently.",
+        "what_vi": "Các bài benchmark của anh luôn để định nghĩa ngay cạnh con số, vì một con số retention hay activation vay của người đếm theo cách khác thì không nói lên được gì hết -- mà gần như ai cũng đếm theo cách khác."
+      },
+      "result": "Three honest instruments, one word, and no conversion between them. That is also your weekly metrics review. The tourism board is the only party being straight with you, because it says out loud that it is optimising for prettiness, and your dashboard has never once said what it is optimising for.",
+      "result_vi": "Ba cái thước đều trung thực, một chữ, và không có tỷ lệ quy đổi nào giữa chúng. Đó cũng là buổi review metric hàng tuần của bạn. Sở du lịch là bên duy nhất nói thẳng, vì nó nói rõ ra là nó tối ưu cho độ đẹp, còn dashboard của bạn thì chưa một lần nói nó đang tối ưu cho cái gì.",
+      "result_underline": "your dashboard has never once said what it is optimising for",
+      "result_underline_vi": "chưa một lần nói nó đang tối ưu cho cái gì",
+      "tick": "Does your north-star metric have a sensor, or an index fitted to what you hoped?",
+      "tick_vi": "Chỉ số north-star của bạn có sensor thật, hay chỉ là một index fit theo điều bạn mong?",
+      "tick_bold": [
+        "an index fitted to what you hoped"
+      ],
+      "tick_bold_vi": [
+        "một index fit theo điều bạn mong"
+      ],
+      "provocation": "The satellite index is the instructive one. A bare canopy over green grass reads as healthy forest, a cloud reads as decline, and one pixel can average hundreds of square metres of unrelated ground. The number is real, well validated, and answers a question sitting next to yours.",
+      "provocation_vi": "Chỉ số vệ tinh mới là cái đáng học. Tán cây trụi lá trên cỏ xanh thì đọc ra rừng khỏe mạnh, một đám mây thì đọc ra suy giảm, và một pixel có thể trung bình hàng trăm mét vuông đất chẳng liên quan. Con số là thật, được kiểm chứng tử tế, và nó trả lời một câu hỏi nằm ngay cạnh câu hỏi của bạn.",
+      "source": {
+        "site": "Counting Stuff",
+        "title": "How Autumn (Foliage) Is Measured",
+        "url": "https://www.counting-stuff.com/how-autumn-foliage-is-measured/",
+        "published": "2026-10-06"
+      }
+    }
+  ]
+}
