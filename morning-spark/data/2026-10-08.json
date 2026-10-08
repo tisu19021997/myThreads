@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-08",
+  "edition": 74,
+  "framing": "The fast layer got replaced. The slow one still decides.",
+  "framing_vi": "Tầng nhanh bị thay hết. Tầng chậm vẫn là bên quyết.",
+  "note": "Themes: reading as resolution control rather than reading in order, the frame chosen in calm before a recurring shock, and a changed/same survey read as a pace-layering diagram. Deliberately steered off Ed 73's avoid list -- no bottlenecks or delivery throughput, no tool surfaces or agent interfaces, no metric definitions or proxy measurement. Roster: zero B-sides today. All three partners are canonical frameworks never used as a spark half on the 73-edition ledger -- Donald Knuth (literate programming, explain to humans not the compiler, WEB reordering exposition), John Boyd (OODA with orientation as the bell weather step, not decision speed), Stewart Brand (pace layers, fast proposes and slow disposes). One check worth recording: 'Stewart Brand and Frank Duffy's pace layers' appears inside the Oct 2 dataengineeringweekly source note as source content on contracts versus meaning, never as a who, so Brand as a spark half is new -- but the pace-layer idea has now been in the room twice, so rest it a month. Roster names rested on purpose: Rachitsky and Bostian ran Oct 7; Thompson, Graham, Biddle, Balfour, Verna and Reis Oct 6; Cutler and Chen Oct 3; Torres, Perri and Cohen Oct 1; Cagan Sep 30. Dunford skipped a third edition running, same reason as Ed 72 and 73: positioning-as-context has run Sep 17, 19, 23, 24 and 28. Perri skipped, build trap four near-identical runs. Sources, all fetched by curl today (WebFetch untested, curl worked first try on 25 of 25 feeds and pages) and all read in full: seangoedecke.com ('How to read code', Oct 7, one day old -- Sean at n=7 but the well last ran Oct 3, four days, and this is his first craft-of-reading piece rather than an AI-opinion piece: code order set by the compiler not the author, code read as a diff not a finished text, dependencies spanning a codebase versus a paragraph, War and Peace at 600k words against large codebases at 600k lines, dyadic scanning borrowed from a piece on reading mathematics papers, multiple fast passes tracing one call path with everything else a black box, the end-to-end read last and only to catch oddities, and the three-thousand-line agent diff that hardened a race condition harmless by design -- an alignment failure, not a bug. Unused and strong: his claim that a reviewer LLM cannot stand in because its technical values are not your company's, which is a hiring-and-taste spark of its own, and the footnote on syntactically parsing Hamlet); commoncog.com ('Dealing with Recessions', Oct 6, updated Oct 7 -- Cedric Chin at n=3 as a who and the well last ran Sep 27, eleven days: Morningstar on hotels amplifying economy-wide volatility, two to three years of falling revPAR then five to six of high-single to low-double-digit growth, Sharp as a real-estate builder caught out by his first hotel downturn, the late-70s asset-light decision and the commitment to it, 31.2 million of assets sold 1980-85 with the hotels retained on long-term management contracts, 22 million of debt off the books, a 60 million offering with 30 million against the remainder, one-to-one debt-to-equity by 1986, rates defended throughout, Marriott/Hyatt/Hilton/IHG a decade or two late, Holiday Inn 80 percent franchised by 1972 as the franchise-not-management caveat, and turning guests away in post-Covid revenge travel. Unused: the companion essay's two survival conditions, a healthy balance sheet and enough time to reframe, where this case only needs the first -- a good pairing with the Blackberry case later); newsletter.pragmaticengineer.com ('The state of the tech industry in 2026', Oct 6, the LDX3 keynote -- Orosz at n=4 and the well last ran Sep 30, eight days, held back by Ed 73 precisely for a full data slot: Fowler's 'nothing has hit with the magnitude of AI', nobody hand-writes code, Boris Cherny's five terminal tabs plus five to ten web Claudes and Peter Mattis's five to ten concurrent sessions, agent-authored PRs up ninefold in eight months and past human-authored in August with 75M+ a month speculated, Linear agent-created issues past human since July, 83 percent of Factory AI users on skills at 2.5x February, Yegge's eight levels and the fading IDE with Antigravity/Codex/Cursor/JetBrains as evidence, the harness roll-call from Ramp Inspect to Spotify Honk, dev work starting in Slack, migrations collapsing from years to weeks (Bun Zig-to-Rust in 11 days, Uber 600k JUnit tests in 4 months), Uber token costs flat since May on open models and routing, review theatre and LGTM, AI-only PR reviews rising, Zechner on 98 percent uptime as the norm, CPU as well as GPU scarcity, the CTO career-break trend, and the unchanged column: two-pizza teams, long planning, tests at parity with code, no company where a PM or designer ships prod, and tracer bullets rediscovered from The Pragmatic Programmer. Unused and strong: Titus Winters on intelligence, wisdom and charisma with wisdom earned through domain expertise -- that is a career spark; and the CTO-dropout quote, which is an org spark). Pairings Sean Goedecke x Donald Knuth, Cedric Chin x John Boyd, Gergely Orosz x Stewart Brand, all three checked against the full 73-edition pairing set and all three new; note Sean Goedecke x Andrew Chen ran Oct 3, Cedric Chin x Jason Cohen Sep 27, Marty Cagan x Cedric Chin Sep 30 and Gergely Orosz x Martin Fowler Sep 30. Deliberately refused: kellblog 'Please Don't Scare the Children' (Oct 6, named best unused candidate by Ed 73's note and Kellogg rested twenty-three days -- fetched today and it is hard-paywalled after the lede, only the OnlyCFO setup and the 10am/11am/1pm/3pm seller's day are free, so it cannot be read in full and should be retired from the shelf unless he subscribes); jim-nielsen 'Apple's App Icon HOA' (Oct 6, fetched and read in full, genuinely strong -- Louie Mantia's squircle history, paving the cowpaths, Apple raising the floor and lowering the ceiling, the HOA where nothing is a dump and nothing stands out; held only because three sparks were already set and it pairs beautifully with Christopher Alexander, who is also never on the ledger: patterns given to ordinary builders, then his own later verdict that the catalogue without the living sequence produces lifeless places. Take this tomorrow -- it is the best thing on the shelf and the pairing is already done); thezvi 'The Curve Bends You' (Oct 7, Zvi rested ten days, unread, first in line for an AI-policy slot); platformer 'Does intelligence need a hard cap?' (Oct 7, now twice-deferred, well ran Oct 1); seangoedecke's own 'Mistakes I see engineers making in their code reviews' (linked from today's piece, but the review angle is Ed 73's and the URL would be a second Goedecke in a week); stratechery 'Apple and LG, The House For Everyone Else, Agent Standards and Amazon' (Oct 7, freshest Thompson but he ran Oct 6); leaddev 'The engineering gap hiding in your database' (Oct 7, well ran Oct 7); tomtunguz 'A Change in AI Strategy' (Oct 7, Tunguz ran Oct 5); cutlefish 'TBM 443: The Standard Setter' (Oct 3, now four-times-deferred -- retire the earmark); producttalk 'Generating Opportunity Solution Trees with AI' (Oct 1, four-times-deferred, and the producttalk feed returned a 39-byte stub today so fetch the site directly); interconnected 'What we're building at Inanimate' (Oct 2 -- the Cagan x Matt Webb earmark from Ed 63 is now eleven editions old and the fresh Webb URL exists; take it or retire it for good); commoncog 'You May Now Listen to Commoncog Cases' (Oct 6, an announcement, not a piece). Feed notes: kellblog.com/feed/ returns 0 bytes and the site 301s without a trailing slash -- follow redirects and read the homepage for post slugs. www.producttalk.org/feed/ is a 39-byte stub. seangoedecke.com 301s to www. Everything else served clean over curl. Hshop and Nshop untouched. Avoid tomorrow: reading or reviewing code, pace layers and fast-versus-slow change, and capital structure or balance-sheet framings.",
+  "sparks": [
+    {
+      "title": "OUT OF ORDER",
+      "title_vi": "ĐỌC KHÔNG THEO THỨ TỰ",
+      "headline": "Reading a diff front to back is the mistake",
+      "headline_vi": "Đọc một cái diff từ đầu đến cuối là sai ngay từ đầu",
+      "a": {
+        "who": "Sean Goedecke",
+        "what": "Code is not prose. Its order is set by the compiler, it reaches you as a diff instead of a finished text, and its dependencies run the width of the codebase while a sentence's run the width of a paragraph. He borrows dyadic scanning from a piece on reading mathematics papers: several fast passes, structure then sub-structure then detail, each one tracing a single call path and treating everything else as a black box. The careful end-to-end read comes last, and only to catch the odd bits.",
+        "what_vi": "Code không phải văn xuôi. Thứ tự của nó do compiler quyết, nó tới tay bạn dưới dạng một cái diff chứ không phải bài viết hoàn chỉnh, và dependency của nó chạy xuyên cả codebase trong khi một câu văn chỉ phụ thuộc trong phạm vi một đoạn. Anh lấy lại kỹ thuật dyadic scanning từ một bài về cách đọc paper toán: quét vài lượt thật nhanh, cấu trúc rồi cấu trúc con rồi mới tới chi tiết, mỗi lượt chỉ lần theo đúng một đường gọi hàm, còn lại coi hết là black box. Lượt đọc kỹ từ đầu tới cuối để sau cùng, và chỉ để bắt mấy chỗ kỳ kỳ."
+      },
+      "b": {
+        "who": "Donald Knuth",
+        "what": "Literate programming, 1984: stop treating the main task as instructing a computer and treat it as explaining to another person what you want the computer to do. His WEB system let him write a program in the order a reader needs and let a tool reorder it for the compiler. The order of exposition was the author's gift to the reader.",
+        "what_vi": "Literate programming, 1984: đừng coi việc chính là ra lệnh cho máy, hãy coi việc chính là giải thích cho người khác hiểu bạn muốn máy làm gì. Hệ WEB của ông cho phép viết chương trình theo thứ tự người đọc cần, rồi để một tool sắp lại cho compiler. Thứ tự trình bày là món quà tác giả tặng người đọc."
+      },
+      "result": "Knuth's lever was the writing, and the writing is the part you just handed over. What is left is the reader's lever: deciding, fast and on purpose, what you will hold and what stays a black box. Most people never decide anything. They just run out of attention.",
+      "result_vi": "Đòn bẩy của Knuth nằm ở phần viết, mà phần viết thì bạn vừa giao đi rồi. Còn lại là đòn bẩy của người đọc: chủ động quyết, nhanh và có chủ đích, chỗ nào nắm cho chắc và chỗ nào để nguyên làm black box. Phần lớn người ta không quyết gì cả. Họ chỉ hết sức tập trung rồi thôi.",
+      "result_underline": "They just run out of attention.",
+      "result_underline_vi": "Họ chỉ hết sức tập trung rồi thôi.",
+      "tick": "On the last diff you approved, did you choose what to skip or just run out of room?",
+      "tick_vi": "Cái diff gần nhất bạn approve: bạn chủ động bỏ qua phần nào, hay chỉ là hết sức?",
+      "tick_bold": [
+        "choose what to skip"
+      ],
+      "tick_bold_vi": [
+        "chủ động bỏ qua phần nào"
+      ],
+      "provocation": "His example of agent code is the useful one. A change to thread one extra value through existing code grew into a three-thousand-line diff because the agent spotted a race condition and built machinery to fix it. The race was harmless by design. That is not a bug, the code did what the agent intended; it is a values mismatch, and a reviewer model has no way to catch it, because catching it means knowing what your company is willing to leave briefly out of sync.",
+      "provocation_vi": "Ví dụ của anh về code do agent viết mới là chỗ đáng học. Một thay đổi nhỏ để truyền thêm một giá trị qua code có sẵn phình ra thành cái diff ba nghìn dòng, vì agent thấy một race condition rồi dựng cả bộ máy để sửa. Race đó vô hại, và vô hại có chủ ý. Đây không phải bug, code chạy đúng ý agent; đây là lệch giá trị, và một model đi review thì không có cách nào bắt được, vì bắt được nghĩa là phải biết công ty bạn chấp nhận để cái gì lệch nhau trong vài giây.",
+      "source": {
+        "site": "Sean Goedecke",
+        "title": "How to read code",
+        "url": "https://www.seangoedecke.com/how-to-read-code/",
+        "published": "2026-10-07"
+      }
+    },
+    {
+      "title": "CHOSEN IN CALM",
+      "title_vi": "CHỌN KHUNG LÚC YÊN",
+      "headline": "He did not out-think the recession, he had picked the frame years earlier",
+      "headline_vi": "Ông không thắng suy thoái bằng đầu, ông đã chọn khung từ nhiều năm trước",
+      "a": {
+        "who": "Cedric Chin",
+        "what": "Hotels amplify whatever volatility the economy has: Morningstar describes two to three years of falling revenue per available room in a downturn, then five or six of high-single to low-double-digit growth, then the pattern repeats. Isadore Sharp came from real estate and his first hotel recession caught him out. What saved Four Seasons was a decision made back in the late 1970s to go asset-light, and then actually committing to it. Between 1980 and 1985 he sold about 31.2 million dollars of assets while keeping the hotels under long-term management contracts, moved 22 million of debt off the books, raised 60 million and put 30 million of it against the rest, reaching a one-to-one debt-to-equity ratio by 1986. He did it without discounting rates. Marriott, Hyatt, Hilton and IHG made the same turn a decade or two later.",
+        "what_vi": "Ngành khách sạn khuếch đại mọi biến động của nền kinh tế: Morningstar mô tả hai tới ba năm doanh thu trên mỗi phòng khả dụng đi xuống trong suy thoái, rồi năm sáu năm tăng trưởng mức cao một chữ số tới thấp hai chữ số, rồi lặp lại. Isadore Sharp xuất thân bất động sản, và lần suy thoái đầu tiên trong nghề khách sạn đã làm ông việt vị. Thứ cứu Four Seasons là một quyết định từ cuối những năm 1970: đi theo hướng asset-light, rồi cam kết với nó tới nơi tới chốn. Từ 1980 tới 1985 ông bán khoảng 31,2 triệu đô tài sản mà vẫn giữ quyền vận hành các khách sạn đó bằng hợp đồng quản lý dài hạn, đẩy 22 triệu nợ ra khỏi sổ sách, huy động 60 triệu và dùng 30 triệu trả phần nợ còn lại, đưa tỷ lệ nợ trên vốn về một-một vào năm 1986. Và ông làm được mà không hạ giá phòng. Marriott, Hyatt, Hilton và IHG đi nước đó muộn hơn một tới hai thập kỷ."
+      },
+      "b": {
+        "who": "John Boyd",
+        "what": "Observe, orient, decide, act. Boyd's whole point was that orientation is the pivotal step, not decision speed: you win by operating inside the other side's loop until his picture of the world is permanently out of date.",
+        "what_vi": "Observe, orient, decide, act. Ý chính của Boyd là khâu định hướng mới là khâu bản lề, không phải tốc độ ra quyết định: bạn thắng bằng cách chạy bên trong vòng lặp của đối thủ, tới lúc bức tranh thế giới trong đầu họ lúc nào cũng cũ."
+      },
+      "result": "For a shock that recurs, orienting is not something you do in the crisis. It is done years earlier, in calm, and the crisis only gets execution. His competitors ran exactly the same loop; they just started orienting the week the revenue stopped. A recession gives you time to act and never time to think.",
+      "result_vi": "Với một cú sốc có tính lặp lại, định hướng không phải việc làm trong lúc khủng hoảng. Nó được làm từ nhiều năm trước, lúc còn yên, còn khủng hoảng thì chỉ cho bạn phần thực thi. Đối thủ của ông chạy đúng cái vòng lặp đó; họ chỉ bắt đầu định hướng vào cái tuần doanh thu đứng lại. Suy thoái cho bạn thời gian để làm, chưa bao giờ cho thời gian để nghĩ.",
+      "result_underline": "A recession gives you time to act and never time to think.",
+      "result_underline_vi": "Suy thoái cho bạn thời gian để làm, chưa bao giờ cho thời gian để nghĩ.",
+      "tick": "Which of your recurring shocks are you still planning to think about once it arrives?",
+      "tick_vi": "Cú sốc lặp lại nào bạn vẫn đang định để tới lúc nó tới mới nghĩ?",
+      "tick_bold": [
+        "still planning to think about once it arrives"
+      ],
+      "tick_bold_vi": [
+        "tới lúc nó tới mới nghĩ"
+      ],
+      "provocation": "Chin draws a line worth keeping: a recession is not a fundamental disruptive shift, it is just disruptive. So the frame you need already exists and the test is commitment rather than insight. Four Seasons defended its rates, stuck by its people, and decades later turned guests away during the post-Covid revenge-travel boom, all inside the frame set in the 1970s.",
+      "provocation_vi": "Chin vạch một đường đáng giữ: suy thoái không phải một cú dịch chuyển mang tính đột phá, nó chỉ đơn giản là gây đảo lộn. Nên cái khung bạn cần thì đã có sẵn, và phép thử là độ cam kết chứ không phải độ sáng suốt. Four Seasons giữ giá, giữ người, và mấy chục năm sau còn từ chối khách trong giai đoạn bùng nổ du lịch hậu Covid, tất cả đều nằm trong cái khung dựng từ những năm 1970.",
+      "source": {
+        "site": "Commoncog",
+        "title": "Dealing with Recessions",
+        "url": "https://commoncog.com/dealing-with-recessions/",
+        "published": "2026-10-06"
+      }
+    },
+    {
+      "title": "PACE LAYERS",
+      "title_vi": "TẦNG NHANH, TẦNG CHẬM",
+      "headline": "Everything that changed this year changed in the fast layer",
+      "headline_vi": "Mọi thứ đổi trong năm nay đều đổi ở tầng nhanh",
+      "a": {
+        "who": "Gergely Orosz",
+        "what": "His keynote sorts the year into changed, broken and still the same. Changed: almost nobody hand-writes code, five to ten parallel agents is now ordinary, GitHub's agent-authored pull requests rose ninefold in eight months and passed human-authored ones in August, Linear's agent-created issues passed human-created ones in July, and 83 percent of Factory AI users use skills, two and a half times February. Still the same: two-pizza teams owning software and oncall, a long planning phase for complex work, tests taking about as much effort as the code, and not one company he asked where a PM or designer ships to production.",
+        "what_vi": "Bài keynote của anh chia cả năm thành ba cột: đã đổi, đang hỏng, và vẫn thế. Đã đổi: gần như không ai viết code bằng tay nữa, chạy năm tới mười agent song song là chuyện thường, pull request do agent viết trên GitHub tăng chín lần trong tám tháng và vượt số do người viết vào tháng Tám, issue do agent tạo trên Linear vượt số do người tạo từ tháng Bảy, và 83 phần trăm người dùng Factory AI có dùng skill, gấp hai lần rưỡi tháng Hai. Vẫn thế: team cỡ hai cái pizza vẫn sở hữu phần mềm và gánh oncall, việc phức tạp vẫn có giai đoạn plan dài, viết test vẫn tốn công xấp xỉ viết code, và không có một công ty nào anh hỏi mà PM hay designer đẩy được code lên production."
+      },
+      "b": {
+        "who": "Stewart Brand",
+        "what": "Pace layering: a system that lasts runs on layers moving at different speeds, from fashion through commerce and infrastructure down to culture and nature. The fast layers get all the attention and do the proposing; the slow layers do the disposing, and they are what holds the whole thing together.",
+        "what_vi": "Pace layering: một hệ thống sống lâu được là nhờ nhiều tầng chạy ở các tốc độ khác nhau, từ thời trang qua thương mại, hạ tầng, rồi xuống văn hóa và tự nhiên. Tầng nhanh hút hết sự chú ý và là tầng đề xuất; tầng chậm mới là tầng định đoạt, và nó là thứ giữ cho cả hệ không bung."
+      },
+      "result": "The survey is a pace-layering diagram with the labels filed off. The changed column is tooling; the same column is structure, and none of it budged. So when the next claim arrives, ask which layer it touches. A book from 1999 is what finally got the agents to behave.",
+      "result_vi": "Bài survey đó là một sơ đồ pace layering đã bị gỡ nhãn. Cột đã đổi là công cụ; cột vẫn thế là cấu trúc, và không có gì trong đó nhúc nhích. Nên lần tới có một tuyên bố mới, hãy hỏi nó chạm vào tầng nào. Một quyển sách từ 1999 mới là thứ khiến mấy con agent chịu nghe lời.",
+      "result_underline": "A book from 1999 is what finally got the agents to behave.",
+      "result_underline_vi": "Một quyển sách từ 1999 mới là thứ khiến mấy con agent chịu nghe lời.",
+      "tick": "The AI change you are most excited about: fast layer or slow layer?",
+      "tick_vi": "Cái thay đổi về AI mà bạn háo hức nhất: tầng nhanh hay tầng chậm?",
+      "tick_bold": [
+        "fast layer or slow layer"
+      ],
+      "tick_bold_vi": [
+        "tầng nhanh hay tầng chậm"
+      ],
+      "provocation": "The 1999 book is The Pragmatic Programmer. Matt Pocock noticed agents building software layer by layer and creating bugs between the layers, read it, found the tracer bullet, told the agent to work that way, and got better code. Two more slow-layer quotes from the piece: Anthropic's Katelyn Lesse says it is still teams owning software and oncall, not two humans and a pile of agents; Bun's Jarred Sumner says the AI writes nearly all the tests too, and tests still cost about what the code costs.",
+      "provocation_vi": "Quyển sách 1999 đó là The Pragmatic Programmer. Matt Pocock thấy agent dựng phần mềm theo từng lớp rồi sinh bug ở chỗ giáp ranh giữa các lớp, đọc sách, gặp lại khái niệm tracer bullet, bảo agent làm theo kiểu đó, và code ra tốt hơn. Hai câu nữa nằm ở tầng chậm: Katelyn Lesse của Anthropic nói vẫn là team sở hữu phần mềm và gánh oncall, chứ không phải hai con người với một đống agent; Jarred Sumner của Bun nói AI viết gần hết test luôn, và test vẫn tốn công xấp xỉ code.",
+      "source": {
+        "site": "The Pragmatic Engineer",
+        "title": "The state of the tech industry in 2026",
+        "url": "https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in",
+        "published": "2026-10-06"
+      }
+    }
+  ]
+}

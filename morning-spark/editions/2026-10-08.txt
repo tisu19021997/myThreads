@@ -1,0 +1,22 @@
+Morning Spark · Thursday, October 8 · Ed. 74
+The fast layer got replaced. The slow one still decides.
+
+─────────────────
+01 · Reading a diff front to back is the mistake
+Sean Goedecke × Donald Knuth
+His example of agent code is the useful one. A change to thread one extra value through existing code grew into a three-thousand-line diff because the agent spotted a race condition and built machinery to fix it. The race was harmless by design. That is not a bug, the code did what the agent intended; it is a values mismatch, and a reviewer model has no way to catch it, because catching it means knowing what your company is willing to leave briefly out of sync.
+→ https://www.seangoedecke.com/how-to-read-code/
+
+─────────────────
+02 · He did not out-think the recession, he had picked the frame years earlier
+Cedric Chin × John Boyd
+Chin draws a line worth keeping: a recession is not a fundamental disruptive shift, it is just disruptive. So the frame you need already exists and the test is commitment rather than insight. Four Seasons defended its rates, stuck by its people, and decades later turned guests away during the post-Covid revenge-travel boom, all inside the frame set in the 1970s.
+→ https://commoncog.com/dealing-with-recessions/
+
+─────────────────
+03 · Everything that changed this year changed in the fast layer
+Gergely Orosz × Stewart Brand
+The 1999 book is The Pragmatic Programmer. Matt Pocock noticed agents building software layer by layer and creating bugs between the layers, read it, found the tracer bullet, told the agent to work that way, and got better code. Two more slow-layer quotes from the piece: Anthropic's Katelyn Lesse says it is still teams owning software and oncall, not two humans and a pile of agents; Bun's Jarred Sumner says the AI writes nearly all the tests too, and tests still cost about what the code costs.
+→ https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in
+
+Full styled card → open the session.
