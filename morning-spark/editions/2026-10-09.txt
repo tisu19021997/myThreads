@@ -1,0 +1,22 @@
+Morning Spark · Friday, October 9 · Ed. 75
+Defaults, pledges, credit. The structure decided before anyone showed up.
+
+─────────────────
+01 · Apple raised the floor and that is how it lowered the ceiling
+Jim Nielsen × Christopher Alexander
+Mantia's history is the setup: most app icons are brand logos now, so Apple built Icon Composer and the glass effects to make a logo in a squircle look good by default. Floor up, ceiling down, and Nielsen's name for it is an HOA. Nothing is a dump, nobody stands out. Alexander hit the same wall with A Pattern Language by the late seventies. Buildings built from his patterns were okay but not profound, and he was clear that writing more patterns was not the fix. The thing that had dropped out of sight was the sequence.
+→ https://blog.jim-nielsen.com/2026/app-icon-hoa/
+
+─────────────────
+02 · A cap only you can check is not a cap
+Casey Newton × Thomas Schelling
+Newton was at The Curve and heard several speakers float a hard cap on how smart a model is allowed to get. Amodei has asked for a speed limit on recursive self-improvement, and the responsible scaling policies try to gate deployment on capability. The line to keep is Newton's own: the enforcement capability for any of it does not exist, not at the lab level and not at the country level. Schelling worked out in 1960 what actually makes a commitment bind, and it was never sincerity. It is surrendering the option in a way the other side can verify. Which is what makes morally binding such an honest piece of wording.
+→ https://www.platformer.news/does-intelligence-need-a-hard-cap/
+
+─────────────────
+03 · The manager you remember fondly was downstream of a budget
+Charity Majors × Richard Hackman
+Majors' dialogue with Cat Hicks lands on the part worth keeping: we credit people for what structures do. We remember the manager who gave us the raise because we deserved it, not the one who was good enough at business that there was money in the pot to give it from. Psychological safety drifted the same way, away from accountability and learning and toward never having to feel bad at work. Hackman and Wageman put numbers on where a leader's contribution actually sits: roughly sixty percent in the prework and the design, thirty in the launch, ten in the live coaching everyone pictures when they say leadership. Treat the numbers as a rough heuristic. The ordering is the point.
+→ https://charity.wtf/p/if-your-team-is-happy-are-you-doing
+
+Full styled card → open the session.
