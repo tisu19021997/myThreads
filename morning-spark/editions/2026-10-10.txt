@@ -1,0 +1,22 @@
+Morning Spark · Saturday, October 10 · Ed. 76
+A constraint, a benchmark, a reputation. Three advantages you never priced.
+
+─────────────────
+01 · The problem plasma solved walked out before plasma did
+Brian Potter × W. Brian Arthur
+Plasma was invented to dodge one cost. PLATO needed terminals whose screens held their own image, because redrawing a CRT thirty times a second meant video memory nobody could afford per seat. Bitzer's team got the memory effect by accident in 1964, Owens-Illinois shipped it in 1971, and then DRAM arrived and memory fell onto Moore's Law. The reason plasma existed quietly stopped being a reason. It survived four more decades on thinness and ruggedness and size, and Potter's hedge on how it finally died is the useful part: likely manufacturing, possibly because the industry put far more money into LCD factories. Arthur showed in 1989 why that is not a footnote. With increasing returns, the early lead attracts the investment, the investment lowers the cost, and the market can lock in to the worse path for good.
+→ https://www.construction-physics.com/p/the-rise-and-fall-of-the-plasma-screen
+
+─────────────────
+02 · AlphaFold learned the deposit, not the protein
+Pushmeet Kohli × Russell Ackoff
+Kohli helped build AlphaFold and spends a panel dismantling the word solved. Proteins are disordered, their shape depends on context, and he admits he calls them building blocks without believing it. Nobody knows a protein's true ground state or the real distribution of shapes it takes. What the model was trained to do was reproduce structures humans had already deposited in the PDB, and that, he says, just so happens to be useful. His co-panellist Sal Candido gives the other half for free: I'm lazy, so I'm going to work with what's available. Ackoff spent a career on exactly this failure mode. The expensive error is a rigorous answer to a problem nobody chose, and precision makes it worse, because the method you already own picks the problem for you.
+→ https://www.latent.space/p/biohub-deepmind
+
+─────────────────
+03 · Your open door was paid for by reputation
+Seth Godin × Robert Axelrod
+Godin's piece is short and it lands. Civilised life runs on a thin friction, the kind that stops you yelling in the library, and that thin layer is what keeps a society open to strangers. Agents and cheap bots are immune: they multiply exponentially, care little about being shunned, and have no reputation at stake, so fake sincerity is cheap and identity is interchangeable. His forecast is thicker walls and invitation-only doors, with the invitation filtered out. Axelrod found the load-bearing condition forty years ago, and it was not trust or authority. It was that the next encounter between the same two individuals has to matter, and that your strategy can tell apart those who reciprocate from those who do not. His own line: the foundation of cooperation is not really trust, but the durability of the relationship.
+→ https://seths.blog/2026/10/thin-friction-and-thicker-walls/
+
+Full styled card → open the session.
