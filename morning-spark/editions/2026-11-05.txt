@@ -1,0 +1,22 @@
+Morning Spark · Thursday, November 5 · Ed. 77
+A demo, a red build, a dataset. Three things that cannot be shown.
+
+─────────────────
+01 · The demo measures the one thing a good product gives up
+Jim Nielsen × Mark Weiser
+Jobs rejected the touchscreen laptop with a compliment: it gives great demo. Nielsen's point is that a demo exists to be noticed, while a finished product makes you forget it is there. Weiser set that forgetting as the goal of computing. So the demo and the craft are scoring opposite columns, and the feature that disappears into the work has no way to argue for itself in the room where the money is.
+→ https://blog.jim-nielsen.com/2026/it-gives-great-demo/
+
+─────────────────
+02 · Speed spends your ability to be surprised first
+Rachel Laycock × Claude Shannon
+Laycock's team built an airline app with agents doing all the typing, reached eighty percent, and lived with a build that was red most of the time. Her objection is that a permanently red build cannot report anything, and the green one stops meaning anything either. Shannon put a number on that forty years earlier: a signal that never varies has zero capacity. The agents did not break the pipeline. They raised the message rate past what the channel could carry, and the thing that got quietly spent was surprise.
+→ https://martinfowler.com/rachels-ramblings/good-devs-wary.html
+
+─────────────────
+03 · The context you would have to type is the context you do not have yet
+Randy Au × Michael Polanyi
+Au will hand a model the cron job and the CSV helper, but not the exploring, because whether a number looks wrong depends on what you meant to do with it. He admits you could write all that context down, then calls the writing herculean and unverifiable. Polanyi says it is worse than herculean: the floor under any skill cannot be stated at all. So the limit on delegating analysis is not the model. It is that exploring is the process by which you find out what you were asking.
+→ https://www.counting-stuff.com/exploratory-data-analysis-cant-be-automated-away/
+
+Full styled card → open the session.
