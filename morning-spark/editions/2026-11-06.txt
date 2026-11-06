@@ -1,0 +1,22 @@
+Morning Spark · Friday, November 6 · Ed. 78
+Three places where evidence was quietly doing all the work.
+
+─────────────────
+01 · You abstract on the likeness and pay for the difference
+Vaishnavi Khosla × David Parnas
+Khosla folded three workflows into one component because the screens matched. Months on, every difference was a flag and nobody could change the confirmation step without three owners agreeing. Parnas told us to hide the decisions likely to change, which is exactly the information you do not have on day one.
+→ https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet/
+
+─────────────────
+02 · Your site never trusted anyone, it just had cheap evidence
+Bryan Becker × Michael Jensen
+Becker's point is that an agent does not break trust, it breaks visibility, and the site ends up paying for both. Jensen and Meckling priced that out fifty years ago: delegation costs you monitoring, bonding, or a residual loss someone absorbs. Fingerprints and session history were the cheapest monitoring ever built, and agents switched them off.
+→ https://blog.cloudflare.com/trusted-agent-delegation/
+
+─────────────────
+03 · The most agreeable thing in your stack is the dangerous one
+Mat Duggan × Irving Janis
+ClickHouse never told Duggan he was wrong; it just let him be wrong at eighty-four times the cost, and query_log was the only thing in the building that would say so. Janis found the same failure in cohesive groups and did not prescribe better judgement, he prescribed a role: somebody whose job is to disagree. Your query engine does not have that role. Neither does your model.
+→ https://matduggan.com/clickhouse-will-let-you-be-wrong-at-scale/
+
+Full styled card → open the session.
