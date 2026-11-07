@@ -1,0 +1,22 @@
+Morning Spark · Saturday, November 7 · Ed. 79
+Three arguments that do not end where you are looking.
+
+─────────────────
+01 · Two designers, no referee
+Sean Goedecke × Horst Rittel
+Goedecke has worked with designers for years and his rule is one at a time, because an engineering argument can pivot on latency or a bug count and a design argument has only taste. Rittel named the mechanism in 1973: no stopping rule, no test, solutions only good-or-bad. An argument like that does not resolve. It gets ended.
+→ https://www.seangoedecke.com/working-with-designers/
+
+─────────────────
+02 · The model is the same. The product is not.
+Caleb Sponheim × James Gibson
+Sponheim's two scheduling assistants share a model and differ completely, because the harness decides which context arrives, which tools may run, and when to stop and ask. Gibson's affordances were never in the object or in the animal, only in the fit between them. A capability you cannot locate in the model is not one you can buy by upgrading it.
+→ https://www.nngroup.com/articles/agent-harness/
+
+─────────────────
+03 · The agent can compute it. It cannot ratify it.
+Joe Reis × Chester Barnard
+Reis separates mechanical data work from interpretation from accountability, and notes that the cost of the first has collapsed while the cost of the last has not moved. An agent can calculate revenue six legitimate ways and cannot choose one. Barnard worked out why in 1938: authority lives with whoever accepts the instruction, not whoever issues it.
+→ https://joereis.substack.com/p/the-great-data-interregnum-morbid
+
+Full styled card → open the session.
