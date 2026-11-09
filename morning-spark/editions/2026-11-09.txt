@@ -1,0 +1,22 @@
+Morning Spark · Monday, November 9 · Ed. 81
+Three measured gains. Three costs nobody put on the chart.
+
+─────────────────
+01 · A barber ten times faster, and he pays more
+Matt Webb × Ivan Illich
+Webb's gut says a barber ten times faster at identical quality earns 50 percent more per cut and twice the visits. Illich spent a book on the other half: the time a faster tool saves gets spent on more of the same thing, until the hours are back where they were. Both are describing one mechanism from opposite ends. Speed does not refund time, it re-prices it.
+→ https://interconnected.org/home/2026/11/07/scraps
+
+─────────────────
+02 · The slow step was also doing the thinking
+John Cutler × Erik Hollnagel
+Cutler lists what the drudgery was quietly doing: the ROI pro forma forced a wait, the pairing session spread the team's context, six rounds on a doc bought days of reflection, and friction asked is that actually what they meant without being asked to. Hollnagel named the mechanism in 2009. Efficiency and thoroughness cannot both be maximised, so every speedup is a sale, and people sell thoroughness because that is the side nobody rewards. Removing a bottleneck is a purchase. Check what you paid with.
+→ https://cutlefish.substack.com/p/tbm-450-the-loss-of-positive-friction
+
+─────────────────
+03 · Twice as fast, or barely at all
+Ben Lorica × Oskar Morgenstern
+METR spent eleven weeks inside Anthropic and came out with around twice the previous pace, roughly 80 percent of it attributed to AI. The same benchmarks analysed differently give 1.1x or 2.9x, most of the evidence sits on tasks with clean answers, and what the researchers found most informative was redacted. Morgenstern's 1950 rule applies without modification: a number published without its error is not a measurement. Early warning thresholds are being drawn across an interval, and only the midpoint travels.
+→ https://gradientflow.com/metr-anthropic-2026/
+
+Full styled card → open the session.
