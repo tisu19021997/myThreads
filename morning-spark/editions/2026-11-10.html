@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Nov 10</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 82</div></div></div>
+<div class="meta label">Tuesday, November 10, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">UNION RULES</span><span data-l="vi">LUẬT CÔNG ĐOÀN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Christian Crumlish</div><div class="what"><span data-l="en">At Sybex in the early nineties a manuscript passed through five jobs before anyone could hold it as a book. The PC merged three of them into one desktop publisher, and the typesetters who turned down the retraining were not defending their skill. They were defending being a typesetter.</span><span data-l="vi">Đầu thập niên 90, ở Sybex một bản thảo phải đi qua năm cái job mới ra được quyển sách. Cái PC gộp ba job trong đó lại thành một desktop publisher. Mấy ông typesetter từ chối đi học lại không phải để giữ tay nghề. Họ giữ cái danh typesetter.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Harry Braverman</div><div class="what"><span data-l="en">Labor and Monopoly Capital, 1974: conception gets pulled up to management and the worker is left with execution, so the craft that had planning and doing in the same pair of hands is split in two.</span><span data-l="vi">Labor and Monopoly Capital, 1974: phần nghĩ bị kéo lên cho management, người làm chỉ còn phần thực thi, nên cái nghề từng có nghĩ với làm trong cùng một đôi tay bị cắt làm hai.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Braverman&#x27;s split ran one way: planning up, doing down. This one runs backwards. Execution falls into the tool and conception gets handed downward to everybody, intern included. The threat is not losing your skill, it is losing <u>the right to be only one thing</u>.</span><span data-l="vi">Vết cắt của Braverman chạy một chiều: nghĩ lên trên, làm xuống dưới. Lần này nó chạy ngược. Phần thực thi rơi vào cái tool, còn phần nghĩ bị đẩy xuống cho tất cả mọi người, kể cả đứa intern. Mối đe doạ không phải là mất tay nghề, mà là mất <u>cái quyền chỉ làm một thứ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What am I refusing to learn because it is <b>not in my union</b>?</span><span data-l="vi">Mình đang từ chối học cái gì chỉ vì nó <b>không thuộc phần việc của mình</b>?</span></p></div>
+<div class="src-link"><a href="https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285" target="_blank" rel="noopener">UX Collective — Five pairs of hands: what the typesetters can teach designers about AI &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">WHO TYPES IT</span><span data-l="vi">AI GÕ PHẦN ĐÓ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ken Goldberg</div><div class="what"><span data-l="en">Feeding robots more human demonstrations has hit a plateau: good at first, then things break, and more data does not fix them. So Berkeley and NVIDIA had coding agents write readable model-based robot code instead, reaching 99 percent on tasks where imitation learning managed 20.</span><span data-l="vi">Nhồi thêm demo của người cho robot đã tới plateau: đầu chạy tốt, rồi vỡ, và thêm data không sửa được. Nên Berkeley với NVIDIA cho mấy con coding agent tự viết code robot kiểu model-based, đọc được sửa được, đạt 99 phần trăm ở mấy task mà imitation learning chỉ được 20.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Richard Sutton</div><div class="what"><span data-l="en">The Bitter Lesson, 2019: general methods that scale with computation keep beating methods built on human knowledge, which look good early and then plateau and block further progress.</span><span data-l="vi">The Bitter Lesson, 2019: mấy phương pháp tổng quát scale theo compute luôn thắng mấy phương pháp nhồi kiến thức của người vào, loại sau nhìn hay lúc đầu rồi đứng lại và chặn luôn đường đi tiếp.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Sutton was never arguing against knowledge. He was arguing against a human being the one who enters it. Hand that job to the model and the hand-built model comes back as output instead of input. The plateau sits <u>wherever a person still has to type</u>.</span><span data-l="vi">Sutton chưa bao giờ chống lại kiến thức. Ông chống lại chuyện để một con người ngồi gõ nó vào. Giao việc đó cho model thì cái model viết tay quay lại ở đầu ra, không phải đầu vào. Plateau nằm <u>đúng chỗ nào còn cần người ngồi gõ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">In my system, which part is <b>still waiting on me to type it</b>?</span><span data-l="vi">Trong hệ thống của mình, phần nào <b>vẫn đang chờ mình gõ vào</b>?</span></p></div>
+<div class="src-link"><a href="https://spectrum.ieee.org/agentic-robotics" target="_blank" rel="noopener">IEEE Spectrum — Can Agentic Robotics Solve Robotics’ Data Scaling Problem? &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">APPEAL COURT</span><span data-l="vi">TOÀ PHÚC THẨM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jina Yoon</div><div class="what"><span data-l="en">PostHog gates its session-summary redaction with two narrow yes-or-no calls instead of one broad one, which cut false flags to a tenth. Only 1.3 percent escalate to a frontier model, and the threshold sits at 0.4 because a missed name costs more than a wasted call.</span><span data-l="vi">PostHog chặn khâu xoá thông tin cá nhân bằng hai câu hỏi có-không thật hẹp thay vì một câu rộng, và số báo động sai rớt xuống còn một phần mười. Chỉ 1,3 phần trăm được đẩy lên frontier model, và ngưỡng để ở 0,4 vì bỏ sót một cái tên đắt hơn một lần gọi dư.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Abraham Wald</div><div class="what"><span data-l="en">Sequential analysis, published 1945: stop the test the moment the evidence is decisive instead of running out a fixed sample, and you reach the same confidence with roughly half the observations.</span><span data-l="vi">Sequential analysis, công bố 1945: dừng test ngay khi bằng chứng đã đủ rõ thay vì chạy hết một mẫu cố định, thì vẫn đạt cùng độ tin cậy với khoảng một nửa số quan sát.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Wald&#x27;s move was to put the stopping rule inside the test. PostHog makes the same move with the question: ask the cheapest one answerable in a single pass, and let the expensive model be the appeal court. The threshold is not a property of the model. It is a confession about <u>which mistake you can afford</u>.</span><span data-l="vi">Nước đi của Wald là đưa luật dừng vào trong chính cái test. PostHog làm đúng nước đi đó với câu hỏi: hỏi câu rẻ nhất mà trả lời được trong một lượt, rồi để model đắt tiền làm toà phúc thẩm. Ngưỡng không phải thuộc tính của model. Nó là lời thú nhận <u>bạn chịu được cái sai nào</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Of my two mistakes, which is <b>the one I can afford</b>?</span><span data-l="vi">Trong hai cái sai của mình, <b>cái nào mình chịu được</b>?</span></p></div>
+<div class="src-link"><a href="https://newsletter.posthog.com/p/decision-models" target="_blank" rel="noopener">PostHog — Not everything needs an LLM &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-11-09.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-11-09</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Christian Crumlish / Harry Braverman / Ken Goldberg / Richard Sutton / Jina Yoon / Abraham Wald<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Christian Crumlish / Harry Braverman / Ken Goldberg / Richard Sutton / Jina Yoon / Abraham Wald<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

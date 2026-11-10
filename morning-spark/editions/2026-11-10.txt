@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, November 10 · Ed. 82
+Nothing was deleted. The lines were redrawn.
+
+─────────────────
+01 · Five jobs became one. The skill survived; the title did not.
+Christian Crumlish × Harry Braverman
+Five jobs made a book at Sybex in 1992, and the PC merged three of them into one. The typesetters who walked were not protecting a skill, they were protecting a title. Braverman's century pushed conception up and execution down; this is that split running backwards, with the planning landing on whoever is nearest.
+→ https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285
+
+─────────────────
+02 · Imitation learning stalled, so hand-written robot code came back.
+Ken Goldberg × Richard Sutton
+Berkeley and NVIDIA announced agentic robotics this week: no demonstration data, coding agents writing readable model-based code, 99 percent success on tasks where imitation learning got 20. The bitter lesson said human knowledge plateaus. The part that plateaued was the human doing the entering.
+→ https://spectrum.ieee.org/agentic-robotics
+
+─────────────────
+03 · 98.7 percent never reach the expensive model.
+Jina Yoon × Abraham Wald
+PostHog runs two narrow yes-or-no checks before any frontier call, and 98.7 percent of session summaries never reach the expensive model. The threshold is 0.4 where a missed name is the costly error and 0.85 where a false alarm is. Wald put the stopping rule inside the test in 1945; this puts the question inside it.
+→ https://newsletter.posthog.com/p/decision-models
+
+Full styled card → open the session.
