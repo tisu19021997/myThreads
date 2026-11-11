@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-11",
+  "edition": 83,
+  "framing": "The reader changed. The thing you built for them did not.",
+  "framing_vi": "Người đọc đã đổi. Thứ bạn làm cho họ thì chưa.",
+  "note": "Themes: the midterm data-center backlash making permission the last binding constraint on AI, agents assembling the comparison set so a pricing slider parses as nothing, and mandated quality booking as cost in the housing index but as output in the BLS vehicle index. Through-line on purpose: in all three the artifact is unchanged and the audience for it was swapped underneath -- the buildout now answers to voters instead of capital, the pricing page now answers to a fetcher instead of a human hand, the building now answers to an index that was never taught to see what the code bought. Steered off Ed 82's avoid list: nothing on role boundaries or job titles merging (Lenny's late-2026 job-market report was the freshest thing on the wire today and was deliberately left on the floor for exactly that reason, since its spine is the collapse of siloed engineering disciplines), nothing on where knowledge is encoded versus learned, and nothing on cheap-model gating or escalation ladders -- spark one is about who holds the veto, not about routing. Cutlefish TBM 449 on engagement-as-game-design was the strongest builder candidate on merit and was dropped because Cutler ran two days ago at Ed 81 and now has 29 appearances, the heaviest in the ledger; the Goffman front-stage pairing it wants is still unspent and worth taking when a non-Cutler piece carries it. Roster: three A-sides (Ben Thompson at 24 uses but last run Ed 72 on Oct 6, Zeno Rocha and Brian Potter both fresh) and three B-sides never used as a who (Albert O. Hirschman, Zvi Griliches, plus April Dunford as a signature framework). Hosts: stratechery absent from the last ten editions, latent.space and construction-physics both last used at Ed 76 on Oct 10. Feeds all healthy over curl today: stratechery, lenny, producttalk, aprildunford, cutlefish, asmartbear, svpg, brianbalfour, andrewchen, interconnected, construction-physics, benn, notboring, latent.space, lethain and pragmaticengineer all returned 200 with full bodies, and the svpg feed carries only a 448-character stub per item so fetch that site directly when it is wanted. Wells barely spent: svpg 'Experimentation, AI and the Product Model' (Oct 21), interconnected 'Scraps, snip snaps, psyops, suns' (Nov 7, but Webb ran Ed 81), pragmaticengineer 'How software engineering is changing: a tale of two eras' (Nov 3), lenny 'Why PMs are suddenly valuable again' with Tulsee Doshi (Nov 8), construction-physics 'A New Kind of Chemistry' (Oct 29), lethain 'Self-reinforcing quality / adopting verification pattern' (Oct 30). Still owed from Ed 63: Cagan x Webb on rehearsing a decision while the stakes are trivial, now twenty editions old -- take it or retire it. Avoid tomorrow: who holds the veto on a buildout, machine-readable docs and agent-facing surfaces, and quality that hides inside a cost line.",
+  "sparks": [
+    {
+      "title": "THE PERMISSION WALL",
+      "title_vi": "BỨC TƯỜNG GIẤY PHÉP",
+      "headline": "Compute ramped, power ramped, consent does not",
+      "headline_vi": "Compute ramp được, điện ramp được, sự đồng thuận thì không",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "Every constraint on the AI buildout so far gave way to money: compute, then memory, then power. The one left is political, and nearly every local ballot measure against data centers won.",
+        "what_vi": "Mọi nút thắt của cuộc đua AI tới giờ đều chịu khuất phục trước tiền: compute, rồi memory, rồi điện. Nút còn lại là chính trị, và gần như mọi lá phiếu địa phương chống data center đều thắng."
+      },
+      "b": {
+        "who": "Albert O. Hirschman",
+        "what": "People unhappy with an institution either exit or use voice, and they reach for voice precisely when leaving is not on the table.",
+        "what_vi": "Người ta không hài lòng với một tổ chức thì hoặc rời đi, hoặc lên tiếng, và họ chọn lên tiếng đúng lúc không còn đường rời đi."
+      },
+      "result": "Globalization moved the factories and nobody got a vote. A data center needs a permit, so the neighbours cannot exit and they vote instead. Capital ramps compute; it cannot ramp consent.",
+      "result_vi": "Toàn cầu hóa dời nhà máy đi mà không ai được bỏ phiếu. Data center thì cần giấy phép, nên dân quanh đó không rời đi được, họ bỏ phiếu. Tiền ramp được compute; tiền không ramp được sự đồng thuận.",
+      "result_underline": "it cannot ramp consent",
+      "result_underline_vi": "tiền không ramp được sự đồng thuận",
+      "tick": "Who can block what I am building, and have I ever built them a way to be heard?",
+      "tick_vi": "Ai có thể chặn thứ tôi đang làm, và tôi đã bao giờ làm cho họ một chỗ để nói chưa?",
+      "tick_bold": ["block what I am building", "a way to be heard"],
+      "tick_bold_vi": ["chặn thứ tôi đang làm", "một chỗ để nói"],
+      "provocation": "Thompson reads the midterms as the binding constraint on AI moving from physics to permission, with both parties finding that opposing data centers is a winning message and local officials recalled for approving them. Hirschman gives the shape: voice is what people use when exit is closed. The industry grew up on users who could always just leave, so it never built a channel for anyone who cannot.",
+      "provocation_vi": "Thompson đọc kết quả giữa kỳ như dấu hiệu nút thắt của AI chuyển từ vật lý sang giấy phép: cả hai đảng đều thấy chống data center là thông điệp thắng, và có quan chức địa phương bị bãi nhiệm vì đã duyệt. Hirschman cho cái hình: người ta lên tiếng khi không còn đường rời đi. Ngành này lớn lên với những user lúc nào cũng có thể bỏ đi, nên chưa bao giờ làm một cái kênh cho người không thể.",
+      "source": {
+        "site": "Stratechery",
+        "title": "AI on the Ballot",
+        "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+        "published": "2026-11-04"
+      }
+    },
+    {
+      "title": "THE UNREADABLE SLIDER",
+      "title_vi": "CÁI SLIDER KHÔNG ĐỌC ĐƯỢC",
+      "headline": "Your best sales page is invisible to the recommender",
+      "headline_vi": "Trang bán hàng tốt nhất của bạn vô hình với thứ đang đi gợi ý",
+      "a": {
+        "who": "Zeno Rocha",
+        "what": "Agents now pick the email API before any human compares anything, so Resend put a markdown twin behind its pricing page: a person drags the slider, an agent reads the whole table in one request.",
+        "what_vi": "Agent giờ chọn email API trước khi có người nào kịp so sánh, nên Resend dựng một bản markdown song song cho trang pricing: người thì kéo slider, agent thì đọc cả bảng trong một request."
+      },
+      "b": {
+        "who": "April Dunford",
+        "what": "You do not own your positioning. The alternative the customer is comparing you against owns it, because that comparison decides what you get judged as.",
+        "what_vi": "Bạn không sở hữu positioning của mình. Cái alternative mà khách đang đem ra so mới sở hữu nó, vì chính phép so đó quyết định bạn bị đánh giá như cái gì."
+      },
+      "result": "When a model assembles the comparison set, positioning stops being a story you tell and becomes a retrieval problem. You get compared against whatever it could parse, and a slider parses as nothing.",
+      "result_vi": "Khi một model là thứ dựng nên bộ so sánh, positioning thôi làm câu chuyện bạn kể và thành bài toán retrieval. Bạn bị đem so với bất cứ thứ gì nó đọc được, và slider thì nó đọc ra số không.",
+      "result_underline": "a slider parses as nothing",
+      "result_underline_vi": "slider thì nó đọc ra số không",
+      "tick": "Which page am I proudest of that returns nothing useful to a machine fetching it?",
+      "tick_vi": "Trang nào tôi tự hào nhất mà trả về không gì dùng được cho một con máy đi fetch nó?",
+      "tick_bold": ["returns nothing useful"],
+      "tick_bold_vi": ["trả về không gì dùng được"],
+      "provocation": "In one study of Claude Code's email recommendations, Resend came first in 64 of the 102 answers the researchers could extract; SendGrid led seven times and turned up as the runner-up 55 times, which nobody ever gets around to trying. Rocha's older wedge was the same move in a different decade: React Email put his code in the repo before anyone chose a provider. Dunford's point is that the comparison frame is the whole decision. That frame is now built at fetch time.",
+      "provocation_vi": "Trong một nghiên cứu về gợi ý email của Claude Code, Resend đứng đầu ở 64 trong 102 câu trả lời mà nhóm nghiên cứu bóc ra được; SendGrid dẫn bảy lần và xuất hiện 55 lần ở vị trí thứ hai, cái vị trí chẳng ai rảnh để thử. Nước đi cũ của Rocha cũng y vậy ở một thập kỷ khác: React Email đưa code của anh vào repo trước khi có ai kịp chọn nhà cung cấp. Dunford nói phép so sánh chính là toàn bộ quyết định. Giờ phép so đó được dựng ngay lúc fetch.",
+      "source": {
+        "site": "Latent Space",
+        "title": "Designing for Agents — Zeno Rocha, Resend",
+        "url": "https://www.latent.space/p/resend",
+        "published": "2026-11-10"
+      }
+    },
+    {
+      "title": "HALF A LEDGER",
+      "title_vi": "NỬA CÁI SỔ",
+      "headline": "The same mandate: cost in one book, output in another",
+      "headline_vi": "Cùng một quy định: bên này ghi chi phí, bên kia ghi output",
+      "a": {
+        "who": "Brian Potter",
+        "what": "Studies price what building codes add, roughly half a percent to one percent a year, and mostly skip the benefit side. The housing index adjusts for bathrooms and wall material but not for mandated safety. The vehicle index does.",
+        "what_vi": "Các nghiên cứu đo phần chi phí mà building code thêm vào, cỡ nửa phần trăm tới một phần trăm mỗi năm, và phần lớn bỏ qua bên lợi ích. Index nhà ở điều chỉnh theo số phòng tắm và vật liệu tường, nhưng không theo phần an toàn bị bắt buộc. Index xe hơi thì có."
+      },
+      "b": {
+        "who": "Zvi Griliches",
+        "what": "A price index that was never taught to see a product's characteristics will read every quality improvement as inflation.",
+        "what_vi": "Một price index chưa từng được dạy để thấy các đặc tính của sản phẩm thì sẽ đọc mọi cải thiện chất lượng thành lạm phát."
+      },
+      "result": "Codes made houses survive floods and cars survive crashes. Only the car index was taught to count that as product, so construction's famous stagnation is partly a fact about the index, not the industry.",
+      "result_vi": "Quy định làm nhà sống sót qua lũ và xe sống sót qua tai nạn. Chỉ index của xe được dạy tính cái đó thành sản phẩm, nên cái trì trệ nổi tiếng của ngành xây dựng một phần là chuyện của cái index, không phải của cái ngành.",
+      "result_underline": "a fact about the index, not the industry",
+      "result_underline_vi": "chuyện của cái index, không phải của cái ngành",
+      "tick": "Which number on my dashboard counts the hardening I was told to add as pure drag?",
+      "tick_vi": "Con số nào trên dashboard của tôi đang tính phần hardening tôi bị yêu cầu thêm vào thành thuần lực cản?",
+      "tick_bold": ["as pure drag"],
+      "tick_bold_vi": ["thuần lực cản"],
+      "provocation": "Potter's survey finds benefit-cost ratios of 2.4 to 6 for home sprinklers and 6 to nearly 12 for flood, wind and earthquake provisions, against code costs of under one percent a year. The two-stairway rule is the honest exception, adding 6 to 13 percent of floor area for almost no safety. Griliches built the machinery for exactly this problem, and the statistics only ever pointed it at cars.",
+      "provocation_vi": "Khảo sát của Potter cho tỉ lệ lợi ích trên chi phí là 2,4 tới 6 với sprinkler trong nhà ở, và 6 tới gần 12 với các điều khoản chống lũ, bão và địa chấn, so với chi phí code dưới một phần trăm mỗi năm. Quy định hai cầu thang là ngoại lệ thật lòng: thêm 6 tới 13 phần trăm diện tích sàn mà gần như không thêm an toàn. Griliches đã dựng đúng cái máy cho bài toán này, và ngành thống kê chỉ chĩa nó vào xe hơi.",
+      "source": {
+        "site": "Construction Physics",
+        "title": "How Do Building Codes Affect the Price of Housing?",
+        "url": "https://www.construction-physics.com/p/how-do-building-codes-affect-the",
+        "published": "2026-11-06"
+      }
+    }
+  ]
+}

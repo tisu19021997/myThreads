@@ -1,6 +1,31 @@
 {
   "editions": [
     {
+      "date": "2026-11-11",
+      "edition": 83,
+      "note": "Themes: the midterm data-center backlash making permission the last binding constraint on AI, agents assembling the comparison set so a pricing slider parses as nothing, and mandated quality booking as cost in the housing index but as output in the BLS vehicle index. Through-line on purpose: in all three the artifact is unchanged and the audience for it was swapped underneath -- the buildout now answers to voters instead of capital, the pricing page now answers to a fetcher instead of a human hand, the building now answers to an index that was never taught to see what the code bought. Steered off Ed 82's avoid list: nothing on role boundaries or job titles merging (Lenny's late-2026 job-market report was the freshest thing on the wire today and was deliberately left on the floor for exactly that reason, since its spine is the collapse of siloed engineering disciplines), nothing on where knowledge is encoded versus learned, and nothing on cheap-model gating or escalation ladders -- spark one is about who holds the veto, not about routing. Cutlefish TBM 449 on engagement-as-game-design was the strongest builder candidate on merit and was dropped because Cutler ran two days ago at Ed 81 and now has 29 appearances, the heaviest in the ledger; the Goffman front-stage pairing it wants is still unspent and worth taking when a non-Cutler piece carries it. Roster: three A-sides (Ben Thompson at 24 uses but last run Ed 72 on Oct 6, Zeno Rocha and Brian Potter both fresh) and three B-sides never used as a who (Albert O. Hirschman, Zvi Griliches, plus April Dunford as a signature framework). Hosts: stratechery absent from the last ten editions, latent.space and construction-physics both last used at Ed 76 on Oct 10. Feeds all healthy over curl today: stratechery, lenny, producttalk, aprildunford, cutlefish, asmartbear, svpg, brianbalfour, andrewchen, interconnected, construction-physics, benn, notboring, latent.space, lethain and pragmaticengineer all returned 200 with full bodies, and the svpg feed carries only a 448-character stub per item so fetch that site directly when it is wanted. Wells barely spent: svpg 'Experimentation, AI and the Product Model' (Oct 21), interconnected 'Scraps, snip snaps, psyops, suns' (Nov 7, but Webb ran Ed 81), pragmaticengineer 'How software engineering is changing: a tale of two eras' (Nov 3), lenny 'Why PMs are suddenly valuable again' with Tulsee Doshi (Nov 8), construction-physics 'A New Kind of Chemistry' (Oct 29), lethain 'Self-reinforcing quality / adopting verification pattern' (Oct 30). Still owed from Ed 63: Cagan x Webb on rehearsing a decision while the stakes are trivial, now twenty editions old -- take it or retire it. Avoid tomorrow: who holds the veto on a buildout, machine-readable docs and agent-facing surfaces, and quality that hides inside a cost line.",
+      "sparks": [
+        {
+          "pair": "Ben Thompson x Albert O. Hirschman",
+          "headline": "Compute ramped, power ramped, consent does not",
+          "source": "Stratechery — AI on the Ballot",
+          "url": "https://stratechery.com/2026/ai-on-the-ballot/"
+        },
+        {
+          "pair": "Zeno Rocha x April Dunford",
+          "headline": "Your best sales page is invisible to the recommender",
+          "source": "Latent Space — Designing for Agents — Zeno Rocha, Resend",
+          "url": "https://www.latent.space/p/resend"
+        },
+        {
+          "pair": "Brian Potter x Zvi Griliches",
+          "headline": "The same mandate: cost in one book, output in another",
+          "source": "Construction Physics — How Do Building Codes Affect the Price of Housing?",
+          "url": "https://www.construction-physics.com/p/how-do-building-codes-affect-the"
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "edition": 82,
       "note": "Themes: five publishing jobs merged into one desktop publisher and the typesetters who refused, imitation learning plateauing so hand-written robot code came back as agent output, and a 2-cent gate that keeps 98.7 percent of calls away from a frontier model. Through-line on purpose: in all three nothing was removed, the partition moved -- the layout work went into one person, the physics model went from human input to agent output, the PII judgement went from the frontier model to a cheap judge with an appeal path. Steered off Ed 81's avoid list: nothing on speed or efficiency and what it costs (spark one is about identity and scope, not about doing the same work faster; spark two is about where knowledge is encoded, and Goldberg's retasking-in-a-minute figure was deliberately left out of the card; spark three is about escalation design, with the 444x cheaper and 193x faster figures left out for the same reason), nothing on friction or constraints as a good thing, and nothing on error bars or the softness of a headline metric -- spark three is written as a confession about which error you can afford, not as a story about calibration or uncertainty, and PostHog's calibration material was left on the floor on those grounds. Roster: three A-sides at n=0 (Christian Crumlish, Ken Goldberg) plus Jina Yoon at n=1, and three B-sides never used as a who (Harry Braverman, Richard Sutton, Abraham Wald). Hosts: spectrum.ieee.org at n=0, uxdesign.cc and posthog both n=1. Avoid tomorrow: role boundaries and job titles merging, where knowledge is encoded versus learned, and cheap-model gating or escalation ladders.",

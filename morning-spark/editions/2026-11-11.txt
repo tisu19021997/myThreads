@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, November 11 · Ed. 83
+The reader changed. The thing you built for them did not.
+
+─────────────────
+01 · Compute ramped, power ramped, consent does not
+Ben Thompson × Albert O. Hirschman
+Thompson reads the midterms as the binding constraint on AI moving from physics to permission, with both parties finding that opposing data centers is a winning message and local officials recalled for approving them. Hirschman gives the shape: voice is what people use when exit is closed. The industry grew up on users who could always just leave, so it never built a channel for anyone who cannot.
+→ https://stratechery.com/2026/ai-on-the-ballot/
+
+─────────────────
+02 · Your best sales page is invisible to the recommender
+Zeno Rocha × April Dunford
+In one study of Claude Code's email recommendations, Resend came first in 64 of the 102 answers the researchers could extract; SendGrid led seven times and turned up as the runner-up 55 times, which nobody ever gets around to trying. Rocha's older wedge was the same move in a different decade: React Email put his code in the repo before anyone chose a provider. Dunford's point is that the comparison frame is the whole decision. That frame is now built at fetch time.
+→ https://www.latent.space/p/resend
+
+─────────────────
+03 · The same mandate: cost in one book, output in another
+Brian Potter × Zvi Griliches
+Potter's survey finds benefit-cost ratios of 2.4 to 6 for home sprinklers and 6 to nearly 12 for flood, wind and earthquake provisions, against code costs of under one percent a year. The two-stairway rule is the honest exception, adding 6 to 13 percent of floor area for almost no safety. Griliches built the machinery for exactly this problem, and the statistics only ever pointed it at cars.
+→ https://www.construction-physics.com/p/how-do-building-codes-affect-the
+
+Full styled card → open the session.
