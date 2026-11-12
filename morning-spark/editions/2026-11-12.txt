@@ -1,0 +1,22 @@
+Morning Spark · Thursday, November 12 · Ed. 84
+The gain was real. Where it landed is a design choice.
+
+─────────────────
+01 · Capital builds the miracle, consumers keep it
+Packy McCormick × Gibson Biddle
+McCormick grants all three arguments and shows that granting them describes exactly the situation that creates and then deflates a bubble. He cites Nordhaus: across 1948 to 2001, producers captured about 2.2 percent of the social surplus from innovation and consumers took the other 97 to 98. The winners were the ones who anticipated the glut and built a cost advantage, not the ones who were right about the size of the market. Biddle's DHM is the test on the other side of that, and the hard-to-copy leg is doing all the work.
+→ https://www.notboring.co/p/of-miracles-and-moats
+
+─────────────────
+02 · Coding was ten percent of the lead time
+Bharat Sharma × Donald Reinertsen
+Sharma's point is not the four percent, which is one initiative in one organization. It is that adoption rate, merged pull requests and suggestion acceptance all measure creation, so a dashboard built from them will keep funding the step that was never the constraint. Three independent studies land in the same place on how little of the week is coding: Microsoft at about eleven percent, Atlassian at sixteen, Software.com at a median fifty-two minutes a day. Reinertsen explains why the rest stays dark. Sharma's fix is cheap: put a column next to every wait that says who it waited on, for how many days, and why.
+→ https://leaddev.com/velocity/your-engineers-got-twice-as-fast-your-lead-time-only-moved-4
+
+─────────────────
+03 · A number expires, a limit does not
+Kiran Prakash × Walter Shewhart
+Prakash's stock-ordering agent spends most of its weeks waiting, on a manager, a supplier, a delivery, and the price it was approved for can move in the meantime. So the manager approves 4.20 dollars and up to five percent above it, the tool fetches the quote again at order time and checks it against that ceiling deterministically, and a confirmation at 4.35 stands while 4.54 goes back for re-approval. Shewhart wrote the general form a century ago: manage to limits, act on exceptions. The other line worth keeping from the piece is that a persistent log records what the agent saw, not what actually happened.
+→ https://martinfowler.com/articles/durable-execution-agents.html
+
+Full styled card → open the session.

@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-12",
+  "edition": 84,
+  "framing": "The gain was real. Where it landed is a design choice.",
+  "framing_vi": "Lợi ích là thật. Nó rơi vào đâu thì do bạn thiết kế.",
+  "note": "Themes: the three strongest arguments against an AI bubble being steps one to three of every capital cycle, coding turning out to be ten percent of lead time so a 2x speedup buys four, and a long-horizon agent that should be handed a tolerance instead of a value. Through-line on purpose: in all three the gain was genuinely real and still did not land where the builder was looking -- the surplus went to consumers because nothing was hard to copy, the saved hours went into an unmeasured queue, the approved price went stale while the agent waited. The fix in each is structural, never a matter of trying harder. Steered off Ed 83's avoid list: spark one is about competitive supply and appropriability, deliberately not about who grants permission for a buildout (Packy's data-center material was left out for exactly that reason); spark three is built on durable state and approval width, and the piece's prompt-injection section was skipped to stay off agent-facing surfaces; nothing anywhere rests on quality hiding inside a cost line. Spark two sits closest to Ed 80's review-ratio spark and was framed on invisible queues rather than reviewer capacity to keep the distance, with code review avoided as the example. Roster: three A-sides essentially untouched (Packy McCormick at 1 use last seen Sep 14, Bharat Sharma and Kiran Prakash both new -- note Prakash wrote the martinfowler.com piece, Fowler only edited it) and two B-sides never used as a who (Donald Reinertsen, Walter Shewhart), plus Gibson Biddle's DHM as the one signature framework, 25 uses but last run Oct 6. Hosts: notboring last used Sep 14, leaddev Oct 7, martinfowler Nov 5 -- the martinfowler repeat inside a week was accepted because the author is new and the piece is the strongest agent-engineering read on the wire. Rohit Krishnan's 'The Token Fed' (strangeloopcanon, Nov 8) was the first pick for the AI slot and had to be dropped: the page is hard-gated behind an email wall and the feed carries only a 371-character preview, so it could not be read. Retry it only if a full body ever appears. Feeds all healthy over curl today: all forty roster feeds returned 200, including gibsonbiddle-adjacent scrapes not needed this run. Wells barely spent: strangeloopcanon 'The Token Fed' (gated), commoncog 'Can Tactical Decision Games Accelerate Maths?' (Nov 9, and it is the natural vehicle for the Ed 63 earmark since a tactical decision game is literally rehearsing a decision while the stakes are trivial), surfingcomplexity on the GCP europe-west2-b outage (Nov 8), svpg 'AI and the Future of the Product Role' (Nov 6), lenny 'Why PMs are suddenly valuable again' with Tulsee Doshi (Nov 8), seangoedecke 'LLMs are terrible at designing AI systems' (Nov 8), joereis 'Is BI Dead?' (Nov 10), counting-stuff 'How social scientists measure the abstract' (Nov 10), elenaverna 'The end of feature discovery as we know it' (Nov 5). Still owed from Ed 63: Cagan x Webb on rehearsing a decision while the stakes are trivial, now twenty-one editions old -- take it via the commoncog piece next or retire it for good. The unspent Goffman front-stage pairing from Ed 83 is still waiting for a non-Cutler carrier. Avoid tomorrow: moats and who captures the margin, lead time and where work waits, and approvals expressed as ranges or limits.",
+  "sparks": [
+    {
+      "title": "DELIGHT IS CHEAP",
+      "title_vi": "DELIGHT THÌ RẺ",
+      "headline": "Capital builds the miracle, consumers keep it",
+      "headline_vi": "Tiền xây ra điều kỳ diệu, người dùng giữ nó",
+      "a": {
+        "who": "Packy McCormick",
+        "what": "The three strongest arguments that AI is not a bubble -- the technology is genuinely useful, the revenue is real and growing fast, the labs can be profitable -- are steps one, two and three of every commodity cycle, from British railways to fiber to oil at ten cents a barrel.",
+        "what_vi": "Ba lý lẽ mạnh nhất nói AI không phải bubble -- công nghệ xịn thật, doanh thu thật và tăng nhanh thật, lab có thể có lãi -- đúng là bước một, hai, ba của mọi chu kỳ hàng hóa, từ đường sắt Anh tới fiber tới dầu mười cent một thùng."
+      },
+      "b": {
+        "who": "Gibson Biddle",
+        "what": "DHM: a strategy has to be delightful, hard to copy, and margin-enhancing. All three, or it is not a strategy.",
+        "what_vi": "DHM: một chiến lược phải delight, phải khó copy, phải đẩy được margin. Thiếu một chân là chưa phải chiến lược."
+      },
+      "result": "An Age of Miracles is the D in DHM, scaled to civilization and handed out for free. Delight is the part competition gives away; hard to copy is the only part a builder gets to keep.",
+      "result_vi": "Age of Miracles là chữ D trong DHM, phóng to lên cỡ cả nền kinh tế rồi phát không. Delight là phần cạnh tranh sẽ cho đi; khó copy mới là phần bạn giữ được.",
+      "result_underline": "hard to copy is the only part a builder gets to keep",
+      "result_underline_vi": "khó copy mới là phần bạn giữ được",
+      "tick": "My roadmap this quarter: how much of it is delight anyone can ship by March, and how much is hard to copy?",
+      "tick_vi": "Roadmap quý này: bao nhiêu phần là delight ai cũng ship được trước tháng Ba, bao nhiêu phần là khó copy?",
+      "tick_bold": [
+        "delight anyone can ship by March",
+        "hard to copy"
+      ],
+      "tick_bold_vi": [
+        "delight ai cũng ship được trước tháng Ba",
+        "khó copy"
+      ],
+      "provocation": "McCormick grants all three arguments and shows that granting them describes exactly the situation that creates and then deflates a bubble. He cites Nordhaus: across 1948 to 2001, producers captured about 2.2 percent of the social surplus from innovation and consumers took the other 97 to 98. The winners were the ones who anticipated the glut and built a cost advantage, not the ones who were right about the size of the market. Biddle's DHM is the test on the other side of that, and the hard-to-copy leg is doing all the work.",
+      "provocation_vi": "McCormick chấp cả ba lý lẽ, rồi chỉ ra rằng chấp chúng tức là đang mô tả đúng cái hoàn cảnh sinh ra bubble rồi làm nó xẹp. Ông dẫn Nordhaus: giai đoạn 1948 tới 2001, nhà sản xuất giữ khoảng 2,2% phần giá trị mà đổi mới tạo ra, người dùng ăn 97 tới 98 phần còn lại. Người thắng là người đoán trước được cảnh thừa cung và dựng lợi thế chi phí, không phải người đoán đúng cỡ thị trường. DHM của Biddle là bài kiểm tra ở đầu kia, và cái chân gánh hết việc là khó copy.",
+      "source": {
+        "site": "Not Boring",
+        "title": "Of Miracles and Moats",
+        "url": "https://www.notboring.co/p/of-miracles-and-moats",
+        "published": "2026-11-11"
+      }
+    },
+    {
+      "title": "WHERE IT WAITED",
+      "title_vi": "NÓ CHỜ Ở ĐÂU",
+      "headline": "Coding was ten percent of the lead time",
+      "headline_vi": "Code chỉ chiếm mười phần trăm lead time",
+      "a": {
+        "who": "Bharat Sharma",
+        "what": "He had near-perfect AI adoption numbers, got asked what had changed for the business, and had no answer. So he timed one initiative end to end: coding was about ten percent of lead time, so roughly doubling coding speed moved lead time four percent.",
+        "what_vi": "Anh có số adoption AI gần như hoàn hảo, bị hỏi business thay đổi được gì, và im lặng. Thế là anh bấm giờ một initiative từ đầu tới cuối: code chỉ chiếm khoảng mười phần trăm lead time, nên code nhanh gấp đôi chỉ cắt được bốn phần trăm."
+      },
+      "b": {
+        "who": "Donald Reinertsen",
+        "what": "In product development the inventory is invisible, because it is information sitting in queues. Nobody sees it, so nobody manages it, and most of the cost of delay is in the waiting rather than in the work.",
+        "what_vi": "Trong phát triển sản phẩm, hàng tồn là vô hình, vì nó là thông tin đang nằm xếp hàng. Không ai thấy nên không ai quản, và phần lớn cost of delay nằm ở chỗ chờ, không nằm ở việc làm."
+      },
+      "result": "Typing was the only step anyone could see, so it is the only step we made faster. The saved hours did not vanish. They went into a queue nobody had a column for.",
+      "result_vi": "Gõ code là khâu duy nhất ai cũng thấy, nên nó là khâu duy nhất được làm nhanh hơn. Số giờ tiết kiệm được không bay đi đâu. Nó rơi vào một hàng chờ mà không ai có cột để ghi.",
+      "result_underline": "a queue nobody had a column for",
+      "result_underline_vi": "một hàng chờ mà không ai có cột để ghi",
+      "tick": "The last thing I shipped: how many days was it actually being worked on, and how many was it just waiting?",
+      "tick_vi": "Thứ gần nhất tôi ship: bao nhiêu ngày thật sự có người làm, bao nhiêu ngày chỉ nằm chờ?",
+      "tick_bold": [
+        "actually being worked on",
+        "just waiting"
+      ],
+      "tick_bold_vi": [
+        "thật sự có người làm",
+        "chỉ nằm chờ"
+      ],
+      "provocation": "Sharma's point is not the four percent, which is one initiative in one organization. It is that adoption rate, merged pull requests and suggestion acceptance all measure creation, so a dashboard built from them will keep funding the step that was never the constraint. Three independent studies land in the same place on how little of the week is coding: Microsoft at about eleven percent, Atlassian at sixteen, Software.com at a median fifty-two minutes a day. Reinertsen explains why the rest stays dark. Sharma's fix is cheap: put a column next to every wait that says who it waited on, for how many days, and why.",
+      "provocation_vi": "Điểm của Sharma không phải con số bốn phần trăm, đó chỉ là một initiative ở một tổ chức. Điểm là adoption rate, số pull request merge và tỷ lệ chấp nhận gợi ý đều chỉ đo khâu tạo ra, nên một cái dashboard dựng từ đó sẽ cứ đổ tiền vào đúng khâu chưa bao giờ là nút thắt. Ba nghiên cứu độc lập ra cùng một cỡ về việc một tuần của dev có bao nhiêu phần là code: Microsoft khoảng mười một phần trăm, Atlassian mười sáu, Software.com trung vị năm mươi hai phút một ngày. Reinertsen nói vì sao phần còn lại tối thui. Cách sửa của Sharma rẻ thôi: thêm một cột cạnh mỗi lần chờ, ghi rõ chờ ai, mấy ngày, vì lý do gì.",
+      "source": {
+        "site": "LeadDev",
+        "title": "Your engineers got twice as fast. Your lead time only moved 4%",
+        "url": "https://leaddev.com/velocity/your-engineers-got-twice-as-fast-your-lead-time-only-moved-4",
+        "published": "2026-11-11"
+      }
+    },
+    {
+      "title": "APPROVE A RANGE",
+      "title_vi": "DUYỆT MỘT KHOẢNG",
+      "headline": "A number expires, a limit does not",
+      "headline_vi": "Một con số thì hết hạn, một giới hạn thì không",
+      "a": {
+        "who": "Kiran Prakash",
+        "what": "A long-horizon agent decides at one moment and acts days later, so the facts behind the decision go stale. His patterns: give a decision an expiry date, re-read the facts before anything irreversible, and have the human approve a range instead of a value, with that check sitting in the tool rather than in the model.",
+        "what_vi": "Agent chạy dài hạn quyết ở một thời điểm rồi hành động nhiều ngày sau, nên dữ kiện đằng sau quyết định đó cũ đi. Ba cách xử của anh: cho quyết định một ngày hết hạn, đọc lại dữ kiện trước mọi bước không thể lùi, và để người duyệt một khoảng thay vì một con số, với cái check nằm trong tool chứ không nằm trong model."
+      },
+      "b": {
+        "who": "Walter Shewhart",
+        "what": "Control limits, from the 1920s: you do not manage a process by aiming it at a single target value. You set the band you can tolerate, and you intervene only when it leaves the band.",
+        "what_vi": "Control limits, từ thập niên 1920: không ai quản một quá trình bằng cách nhắm vào một con số mục tiêu. Bạn đặt cái khoảng mình chịu được, và chỉ can thiệp khi nó ra khỏi khoảng đó."
+      },
+      "result": "Human-in-the-loop jams because we keep asking people for values, and a value starts going stale the moment it is given. A limit keeps working while you sleep. Delegate a band, not a number.",
+      "result_vi": "Human-in-the-loop tắc vì ta cứ hỏi người ta một con số, mà con số vừa đưa ra là đã bắt đầu cũ. Một giới hạn thì vẫn chạy trong lúc bạn ngủ. Hãy giao một khoảng, đừng giao một con số.",
+      "result_underline": "Delegate a band, not a number",
+      "result_underline_vi": "Hãy giao một khoảng, đừng giao một con số",
+      "tick": "The last approval I gave: was it a number that went stale, or a limit that still holds?",
+      "tick_vi": "Lần duyệt gần nhất của tôi: đó là một con số đã cũ, hay một giới hạn vẫn còn đúng?",
+      "tick_bold": [
+        "a number that went stale",
+        "a limit that still holds"
+      ],
+      "tick_bold_vi": [
+        "một con số đã cũ",
+        "một giới hạn vẫn còn đúng"
+      ],
+      "provocation": "Prakash's stock-ordering agent spends most of its weeks waiting, on a manager, a supplier, a delivery, and the price it was approved for can move in the meantime. So the manager approves 4.20 dollars and up to five percent above it, the tool fetches the quote again at order time and checks it against that ceiling deterministically, and a confirmation at 4.35 stands while 4.54 goes back for re-approval. Shewhart wrote the general form a century ago: manage to limits, act on exceptions. The other line worth keeping from the piece is that a persistent log records what the agent saw, not what actually happened.",
+      "provocation_vi": "Agent đặt hàng của Prakash dành phần lớn mấy tuần để chờ, chờ manager, chờ nhà cung cấp, chờ giao hàng, và cái giá đã được duyệt có thể nhúc nhích trong lúc đó. Nên manager duyệt 4,20 đô và tối đa năm phần trăm trên đó, tool lấy lại báo giá lúc đặt hàng rồi so với cái trần đó một cách cố định, báo giá về 4,35 thì cho qua còn 4,54 thì phải đi duyệt lại. Shewhart viết dạng tổng quát của chuyện này cả trăm năm trước: quản theo giới hạn, chỉ ra tay khi có ngoại lệ. Còn một câu nữa trong bài đáng giữ: cái log ghi lại thứ agent nhìn thấy, không phải thứ đã thật sự xảy ra.",
+      "source": {
+        "site": "martinfowler.com",
+        "title": "Long-horizon agents and durable execution",
+        "url": "https://martinfowler.com/articles/durable-execution-agents.html",
+        "published": "2026-11-10"
+      }
+    }
+  ]
+}

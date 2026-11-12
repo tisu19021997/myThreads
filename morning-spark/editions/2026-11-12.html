@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Nov 12</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 84</div></div></div>
+<div class="meta label">Thursday, November 12, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">DELIGHT IS CHEAP</span><span data-l="vi">DELIGHT THÌ RẺ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Packy McCormick</div><div class="what"><span data-l="en">The three strongest arguments that AI is not a bubble -- the technology is genuinely useful, the revenue is real and growing fast, the labs can be profitable -- are steps one, two and three of every commodity cycle, from British railways to fiber to oil at ten cents a barrel.</span><span data-l="vi">Ba lý lẽ mạnh nhất nói AI không phải bubble -- công nghệ xịn thật, doanh thu thật và tăng nhanh thật, lab có thể có lãi -- đúng là bước một, hai, ba của mọi chu kỳ hàng hóa, từ đường sắt Anh tới fiber tới dầu mười cent một thùng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Gibson Biddle</div><div class="what"><span data-l="en">DHM: a strategy has to be delightful, hard to copy, and margin-enhancing. All three, or it is not a strategy.</span><span data-l="vi">DHM: một chiến lược phải delight, phải khó copy, phải đẩy được margin. Thiếu một chân là chưa phải chiến lược.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">An Age of Miracles is the D in DHM, scaled to civilization and handed out for free. Delight is the part competition gives away; <u>hard to copy is the only part a builder gets to keep</u>.</span><span data-l="vi">Age of Miracles là chữ D trong DHM, phóng to lên cỡ cả nền kinh tế rồi phát không. Delight là phần cạnh tranh sẽ cho đi; <u>khó copy mới là phần bạn giữ được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">My roadmap this quarter: how much of it is <b>delight anyone can ship by March</b>, and how much is <b>hard to copy</b>?</span><span data-l="vi">Roadmap quý này: bao nhiêu phần là <b>delight ai cũng ship được trước tháng Ba</b>, bao nhiêu phần là <b>khó copy</b>?</span></p></div>
+<div class="src-link"><a href="https://www.notboring.co/p/of-miracles-and-moats" target="_blank" rel="noopener">Not Boring — Of Miracles and Moats &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">WHERE IT WAITED</span><span data-l="vi">NÓ CHỜ Ở ĐÂU</span></span></div>
+<div class="eq"><div class="term"><div class="who">Bharat Sharma</div><div class="what"><span data-l="en">He had near-perfect AI adoption numbers, got asked what had changed for the business, and had no answer. So he timed one initiative end to end: coding was about ten percent of lead time, so roughly doubling coding speed moved lead time four percent.</span><span data-l="vi">Anh có số adoption AI gần như hoàn hảo, bị hỏi business thay đổi được gì, và im lặng. Thế là anh bấm giờ một initiative từ đầu tới cuối: code chỉ chiếm khoảng mười phần trăm lead time, nên code nhanh gấp đôi chỉ cắt được bốn phần trăm.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Donald Reinertsen</div><div class="what"><span data-l="en">In product development the inventory is invisible, because it is information sitting in queues. Nobody sees it, so nobody manages it, and most of the cost of delay is in the waiting rather than in the work.</span><span data-l="vi">Trong phát triển sản phẩm, hàng tồn là vô hình, vì nó là thông tin đang nằm xếp hàng. Không ai thấy nên không ai quản, và phần lớn cost of delay nằm ở chỗ chờ, không nằm ở việc làm.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Typing was the only step anyone could see, so it is the only step we made faster. The saved hours did not vanish. They went into <u>a queue nobody had a column for</u>.</span><span data-l="vi">Gõ code là khâu duy nhất ai cũng thấy, nên nó là khâu duy nhất được làm nhanh hơn. Số giờ tiết kiệm được không bay đi đâu. Nó rơi vào <u>một hàng chờ mà không ai có cột để ghi</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">The last thing I shipped: how many days was it <b>actually being worked on</b>, and how many was it <b>just waiting</b>?</span><span data-l="vi">Thứ gần nhất tôi ship: bao nhiêu ngày <b>thật sự có người làm</b>, bao nhiêu ngày <b>chỉ nằm chờ</b>?</span></p></div>
+<div class="src-link"><a href="https://leaddev.com/velocity/your-engineers-got-twice-as-fast-your-lead-time-only-moved-4" target="_blank" rel="noopener">LeadDev — Your engineers got twice as fast. Your lead time only moved 4% &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">APPROVE A RANGE</span><span data-l="vi">DUYỆT MỘT KHOẢNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Kiran Prakash</div><div class="what"><span data-l="en">A long-horizon agent decides at one moment and acts days later, so the facts behind the decision go stale. His patterns: give a decision an expiry date, re-read the facts before anything irreversible, and have the human approve a range instead of a value, with that check sitting in the tool rather than in the model.</span><span data-l="vi">Agent chạy dài hạn quyết ở một thời điểm rồi hành động nhiều ngày sau, nên dữ kiện đằng sau quyết định đó cũ đi. Ba cách xử của anh: cho quyết định một ngày hết hạn, đọc lại dữ kiện trước mọi bước không thể lùi, và để người duyệt một khoảng thay vì một con số, với cái check nằm trong tool chứ không nằm trong model.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Walter Shewhart</div><div class="what"><span data-l="en">Control limits, from the 1920s: you do not manage a process by aiming it at a single target value. You set the band you can tolerate, and you intervene only when it leaves the band.</span><span data-l="vi">Control limits, từ thập niên 1920: không ai quản một quá trình bằng cách nhắm vào một con số mục tiêu. Bạn đặt cái khoảng mình chịu được, và chỉ can thiệp khi nó ra khỏi khoảng đó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Human-in-the-loop jams because we keep asking people for values, and a value starts going stale the moment it is given. A limit keeps working while you sleep. <u>Delegate a band, not a number</u>.</span><span data-l="vi">Human-in-the-loop tắc vì ta cứ hỏi người ta một con số, mà con số vừa đưa ra là đã bắt đầu cũ. Một giới hạn thì vẫn chạy trong lúc bạn ngủ. <u>Hãy giao một khoảng, đừng giao một con số</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">The last approval I gave: was it <b>a number that went stale</b>, or <b>a limit that still holds</b>?</span><span data-l="vi">Lần duyệt gần nhất của tôi: đó là <b>một con số đã cũ</b>, hay <b>một giới hạn vẫn còn đúng</b>?</span></p></div>
+<div class="src-link"><a href="https://martinfowler.com/articles/durable-execution-agents.html" target="_blank" rel="noopener">martinfowler.com — Long-horizon agents and durable execution &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-11-11.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-11-11</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Packy McCormick / Gibson Biddle / Bharat Sharma / Donald Reinertsen / Kiran Prakash / Walter Shewhart<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Packy McCormick / Gibson Biddle / Bharat Sharma / Donald Reinertsen / Kiran Prakash / Walter Shewhart<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>
