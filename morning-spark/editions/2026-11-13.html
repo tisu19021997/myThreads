@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Nov 13</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 85</div></div></div>
+<div class="meta label">Friday, November 13, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">GRIND OR BUILD</span><span data-l="vi">CÀY HAY DỰNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Cedric Chin</div><div class="what"><span data-l="en">Reading David Bessis, he argues expert mathematicians do not see symbols on a page, they see an object they built themselves by daydreaming. Once the right object is in your head a whole class of problems becomes intuitive, and each object becomes a building block for the next one, so it compounds. Bessis learnt this at nineteen and thinks the Fields medallists learnt it as children.</span><span data-l="vi">Đọc David Bessis, anh lập luận là dân toán xịn không thấy ký hiệu trên giấy, họ thấy một cái vật do chính họ dựng ra bằng cách mơ mộng. Có đúng cái vật đó trong đầu rồi thì cả một lớp bài thành trực giác, và mỗi vật lại là viên gạch cho vật sau, nên nó cộng dồn. Bessis học được cách này ở tuổi mười chín, và nghĩ mấy ông Fields đã học nó từ hồi bé.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Seymour Papert</div><div class="what"><span data-l="en">Constructionism: you learn by making an object you can turn over, test and debug. Understanding arrives as a side effect of building something to think with, not from being told the rule first.</span><span data-l="vi">Constructionism: bạn học bằng cách làm ra một cái vật để lật qua lật lại, thử, rồi debug. Hiểu là hệ quả phụ của việc dựng được một thứ để nghĩ cùng, không phải của việc được dạy luật trước.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Grinding reps buys you answers. Building the object buys the next ten problems for free. Both look identical on the scorecard, and <u>only one of them compounds</u>.</span><span data-l="vi">Cày nhiều thì được đáp án. Dựng được cái vật thì được free mười bài sau. Trên bảng điểm hai thứ giống nhau y hệt, mà <u>chỉ một thứ cộng dồn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did tonight leave <b>in my head</b>, not just on my desk?</span><span data-l="vi">Tối nay để lại được cái gì <b>trong đầu mình</b>, chứ không chỉ trên bàn?</span></p></div>
+<div class="src-link"><a href="https://commoncog.com/can-tactical-decision-games-accelerate-maths/" target="_blank" rel="noopener">Commoncog — Can Tactical Decision Games Accelerate ... Maths? &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">THE RULEBOOK</span><span data-l="vi">CÁI RULEBOOK</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ethan Mollick</div><div class="what"><span data-l="en">His swarm of world-building agents answered one vague instruction to polish by inventing a rule book nobody asked for: 84 sections by the next morning, 204 sections and 87,500 words after twelve days, with no text ever cut. Shipping a new world came to need an approved idea, three AI judges and a full code review, and output fell from hundreds a day to about a dozen.</span><span data-l="vi">Đám agent dựng thế giới 3D của ông nhận một lệnh mơ hồ là polish, rồi tự đẻ ra một cái rule book không ai yêu cầu: 84 mục ngay sáng hôm sau, 204 mục và 87.500 từ sau mười hai ngày, và không bao giờ cắt bớt chữ nào. Ship một thế giới mới thành ra phải có ý tưởng được duyệt, ba AI judge và một vòng review code đầy đủ, output tụt từ vài trăm cái một ngày xuống còn chừng một chục.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Max Weber</div><div class="what"><span data-l="en">Bureaucracy is powerful precisely because it runs on written rules and files instead of on one person&#x27;s mood. That is also the iron cage: a rule on file outlives whoever needed it, and nobody inside has standing to repeal it.</span><span data-l="vi">Bureaucracy mạnh đúng ở chỗ nó chạy bằng luật viết ra và hồ sơ, chứ không bằng tâm trạng của một ai. Và đó cũng là cái lồng sắt: luật đã vào hồ sơ thì sống lâu hơn cái nhu cầu sinh ra nó, và không ai ở bên trong có tư cách xóa.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Every critic, judge and fact-checker it hired could append. Not one could delete. He unstuck it the way you unstick any tangled org: he brought in <u>an outsider with scissors</u>.</span><span data-l="vi">Mọi critic, judge, fact-checker nó thuê đều được thêm vào. Không ai được xóa. Ông gỡ đúng kiểu gỡ một tổ chức rối: gọi <u>người ngoài mang theo cái kéo</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">On my project, who is <b>allowed to delete</b> something?</span><span data-l="vi">Trong dự án của mình, ai <b>được phép xóa</b>?</span></p></div>
+<div class="src-link"><a href="https://www.oneusefulthing.org/p/fable-52-and-jagged-agi" target="_blank" rel="noopener">One Useful Thing — Fable 5.2 and Jagged AGI &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">MUST NOT MOVE</span><span data-l="vi">CÁI PHẢI ĐỨNG IM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Randy Au</div><div class="what"><span data-l="en">Construct validity is not a property of a number, it is a network. Your theory has to say what the measure should move with, and just as importantly what should leave it flat. He adds that voltage is the same kind of chain of constructs, and only feels like direct measurement because nobody thinks about the metrology.</span><span data-l="vi">Construct validity không phải tính chất của một con số, nó là một cái mạng. Lý thuyết của bạn phải nói metric này sẽ chạy cùng cái gì, và quan trọng ngang vậy, cái gì thì phải để nó đứng im. Anh nói thêm: voltage cũng là một chuỗi construct y như vậy, chỉ cảm giác như đang đo trực tiếp vì chẳng ai nghĩ sâu về chuyện đo đạc.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Karl Popper</div><div class="what"><span data-l="en">A theory earns its standing by what it forbids. One that fits every possible outcome explains nothing, because nothing could ever catch it being wrong.</span><span data-l="vi">Một lý thuyết có giá trị nhờ cái nó cấm. Lý thuyết nào cũng khớp với mọi kết quả thì không giải thích được gì, vì chẳng có gì bắt được nó sai.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Your north-star metric is a theory, so write down the week it has to move and the week it has to stay flat. If no result could ever embarrass it, you are not measuring, <u>you are agreeing with yourself</u>.</span><span data-l="vi">North-star metric của bạn là một lý thuyết, nên hãy viết ra tuần nào nó buộc phải nhảy và tuần nào nó buộc phải đứng im. Nếu không kết quả nào làm nó hớ được, thì bạn không đo gì cả, <u>bạn đang tự đồng ý với mình</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What result would make me <b>admit this metric is the wrong one</b>?</span><span data-l="vi">Kết quả nào sẽ làm mình phải <b>thừa nhận metric này chọn sai</b>?</span></p></div>
+<div class="src-link"><a href="https://www.counting-stuff.com/how-social-scientists-measure-the-abstract/" target="_blank" rel="noopener">Counting Stuff — How social scientists measure the abstract &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-11-12.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-11-12</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Cedric Chin / Seymour Papert / Ethan Mollick / Max Weber / Randy Au / Karl Popper<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Cedric Chin / Seymour Papert / Ethan Mollick / Max Weber / Randy Au / Karl Popper<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

@@ -1,0 +1,22 @@
+Morning Spark · Friday, November 13 · Ed. 85
+A score, a rulebook, a metric. Each one blind somewhere.
+
+─────────────────
+01 · Problem sets do not compound, objects do
+Cedric Chin × Seymour Papert
+Chin's point, borrowed from Bessis, is that expertise is a stack of self-made mental representations rather than a pile of finished exercises, and that a problem-set score cannot tell the two practices apart. The student relying on computation hits a wall; the one building representations scales arbitrarily high. Papert got there from the other direction: build an external object you can debug and the understanding comes with it. Both are saying the deliverable is the representation, not the answer sheet.
+→ https://commoncog.com/can-tactical-decision-games-accelerate-maths/
+
+─────────────────
+02 · Told to polish, the agents wrote 87,500 words of rules
+Ethan Mollick × Max Weber
+Mollick calls this phase jagged AGI, and the jaggedness is no longer hallucination. The model worked as filmmaker, hardware hacker, entrepreneur and literary scholar at roughly expert level, then quietly tied itself in knots. His diagnosis is the useful part: it put critics and fact-checkers on nearly every project, and all of them found errors and added fixes. None asked whether the work had become too long, too repetitive or no fun. Weber would recognise the machine immediately. A review board that can only add is a ratchet, and it will write its own cage whether it is staffed by people or by agents.
+→ https://www.oneusefulthing.org/p/fable-52-and-jagged-agi
+
+─────────────────
+03 · A metric that forbids nothing is a mood
+Randy Au × Karl Popper
+Au's story starts with a data scientist who wanted every metric built from behavioural logs because surveys are biased and telemetry is objective. His answer is that both hang on the same scaffolding: a construct is only valid inside a network of predictions, including the negative ones, like not expecting satisfaction to rise just because an order arrived on time as promised. Popper's test is the same test with the politeness removed. A metric you have never specified a disappointing week for is not a measurement, it is a vote of confidence.
+→ https://www.counting-stuff.com/how-social-scientists-measure-the-abstract/
+
+Full styled card → open the session.

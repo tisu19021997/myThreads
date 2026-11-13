@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-13",
+  "edition": 85,
+  "framing": "A score, a rulebook, a metric. Each one blind somewhere.",
+  "framing_vi": "Một điểm số, một rulebook, một metric. Cái nào cũng có điểm mù.",
+  "note": "Themes: expertise as self-built mental objects that compound where problem-set grinding does not, an agent swarm that answered one vague 'polish' with a 204-section 87,500-word rule book nobody could cut, and construct validity as a network that has to include what should leave the measure flat. Through-line on purpose: in all three the instrument in place reports faithfully and still cannot see the thing that matters -- the score cannot distinguish a constructed representation from a ground-out answer, every judge the AI hired could append but none could delete, and a metric with no negative predictions cannot be caught being wrong. The fix in each case is to add the missing seat: the question about the object, the authority to delete, the week the number must stay flat. Steered off Ed 84's avoid list: nothing on moats or who captures the margin (spark one is about compounding inside one head, not about appropriability), nothing on lead time or where work waits (spark two deliberately frames the rule book as an additive ratchet, and the 'a day to launch a world' queue detail was left out of the card for exactly that reason), and nothing on approvals expressed as ranges or limits (spark three is about negative predictions in a measurement theory, not about tolerances handed to an agent). Spark three sits nearest Ed 77's Randy Au spark on tacit analysis and was framed on falsifiability rather than on what can be written down to keep the distance; Ed 81's error-bars avoid was also respected, since this is about what a metric forbids, not about how soft it is. Roster: Cedric Chin n=6 but rested 36 days since Oct 8, Ethan Mollick n=4 rested 46 days since Sep 28, Randy Au n=4 and the tightest call in the edition at 8 days since Nov 5 -- taken anyway because the construct-validity piece was the only real data idea on the wire and his Nov 5 pairing was Polanyi, not Popper. Prefer n=0 or n=1 A-sides next run. All three B-sides are canonical thinkers never used as a who on the 84-edition ledger: Seymour Papert (constructionism, objects to think with), Max Weber (bureaucracy by written rule, the iron cage), Karl Popper (a theory is worth what it forbids). Hosts: commoncog n=3 last Oct 8, oneusefulthing n=2 last Sep 19, counting-stuff n=4 last Nov 5. Earmarks: the Ed 63 debt (Cagan x Webb, rehearsing a decision while the stakes are trivial) is now RETIRED -- the commoncog piece earmarked as its vehicle turned out to be about mental representations rather than rehearsal, and it was taken on its own merits with Papert instead. The unspent Goffman front-stage pairing from Ed 83 is still waiting for a non-Cutler carrier; note Goffman appears inside today's commoncog piece only as a citation in the Data-Frame literature. Fresh and strong but passed over today: Martin Fowler 'Tests as data' (Nov 11) and 'Bliki: Generated Glossary' (Nov 12), both dropped only because martinfowler.com ran yesterday at Ed 84 -- take 'Tests as data' soon, it is the best unused AI-engineering read on the wire. Also unspent: Gergely Orosz 'Software correctness' (Nov 10, pragmaticengineer), Ananth Packkildurai 'How Open Is Open? Iceberg, Catalogs, and User Choice' (Nov 11, dataengineeringweekly, n=1 host, read in full today and passed over as too close to Ed 84's moat material), Brian Potter 'Technology as a search problem' (Nov 12, but Potter ran Nov 11), Cutlefish TBM 451 'What we learn to notice' (Nov 12, Cutler n=29 and ran Nov 9), IEEE Spectrum 'When Does It Actually Make Sense to Put AI Into Products?' (Nov 11), Lenny 'State of the tech job market late 2026' (Nov 10, twice deferred now on the role-boundaries theme), gradientflow 'Proofs Could Make AI Coding Faster, Not Slower' (Nov 11) and 'Maybe we've been thinking about verification backwards' (Nov 10), Sean Goedecke 'Glue work is still harmful in the age of AI' (Nov 11, but Goedecke is the heaviest A-side well at n=8, last Nov 7), Stratechery Roblox interview (Nov 12, Thompson ran Nov 11), Randy Au 'I'm working on another class' (Nov 12, promo). Joe Reis 'Is BI Dead?' (Nov 10) is video only with no readable body -- do not plan a spark on it. Feed notes over curl today: producttalk, commoncog, latent.space, interconnected and leaddev all answer 301 and need -L; brianbalfour.com/feed.xml and tomtunguz.com/feed.xml both 404 now (find the new paths or scrape the index); hex.tech and motherduck.com blog feeds 404. Everything else on the roster returned 200 with full bodies. Avoid tomorrow: expertise as constructed representations and what a score cannot see, review boards and rule books that only add, and metrics judged by what they forbid.",
+  "sparks": [
+    {
+      "title": "GRIND OR BUILD",
+      "title_vi": "CÀY HAY DỰNG",
+      "headline": "Problem sets do not compound, objects do",
+      "headline_vi": "Cày bài tập không cộng dồn, vật trong đầu thì có",
+      "a": {
+        "who": "Cedric Chin",
+        "what": "Reading David Bessis, he argues expert mathematicians do not see symbols on a page, they see an object they built themselves by daydreaming. Once the right object is in your head a whole class of problems becomes intuitive, and each object becomes a building block for the next one, so it compounds. Bessis learnt this at nineteen and thinks the Fields medallists learnt it as children.",
+        "what_vi": "Đọc David Bessis, anh lập luận là dân toán xịn không thấy ký hiệu trên giấy, họ thấy một cái vật do chính họ dựng ra bằng cách mơ mộng. Có đúng cái vật đó trong đầu rồi thì cả một lớp bài thành trực giác, và mỗi vật lại là viên gạch cho vật sau, nên nó cộng dồn. Bessis học được cách này ở tuổi mười chín, và nghĩ mấy ông Fields đã học nó từ hồi bé."
+      },
+      "b": {
+        "who": "Seymour Papert",
+        "what": "Constructionism: you learn by making an object you can turn over, test and debug. Understanding arrives as a side effect of building something to think with, not from being told the rule first.",
+        "what_vi": "Constructionism: bạn học bằng cách làm ra một cái vật để lật qua lật lại, thử, rồi debug. Hiểu là hệ quả phụ của việc dựng được một thứ để nghĩ cùng, không phải của việc được dạy luật trước."
+      },
+      "result": "Grinding reps buys you answers. Building the object buys the next ten problems for free. Both look identical on the scorecard, and only one of them compounds.",
+      "result_vi": "Cày nhiều thì được đáp án. Dựng được cái vật thì được free mười bài sau. Trên bảng điểm hai thứ giống nhau y hệt, mà chỉ một thứ cộng dồn.",
+      "result_underline": "only one of them compounds",
+      "result_underline_vi": "chỉ một thứ cộng dồn",
+      "tick": "What did tonight leave in my head, not just on my desk?",
+      "tick_vi": "Tối nay để lại được cái gì trong đầu mình, chứ không chỉ trên bàn?",
+      "tick_bold": [
+        "in my head"
+      ],
+      "tick_bold_vi": [
+        "trong đầu mình"
+      ],
+      "provocation": "Chin's point, borrowed from Bessis, is that expertise is a stack of self-made mental representations rather than a pile of finished exercises, and that a problem-set score cannot tell the two practices apart. The student relying on computation hits a wall; the one building representations scales arbitrarily high. Papert got there from the other direction: build an external object you can debug and the understanding comes with it. Both are saying the deliverable is the representation, not the answer sheet.",
+      "provocation_vi": "Ý của Chin, lấy từ Bessis: expertise là một chồng representation tự mình dựng, không phải một đống bài tập đã làm xong, và điểm bài tập thì không phân biệt được hai kiểu học đó. Người dựa vào tính toán sẽ tới lúc đụng tường; người dựng representation thì leo cao bao nhiêu cũng được. Papert tới cùng kết luận từ phía ngược lại: làm ra một cái vật bên ngoài mà bạn debug được, hiểu sẽ tới kèm theo. Cả hai đều nói deliverable là cái representation, không phải tờ đáp án.",
+      "source": {
+        "site": "Commoncog",
+        "title": "Can Tactical Decision Games Accelerate ... Maths?",
+        "url": "https://commoncog.com/can-tactical-decision-games-accelerate-maths/",
+        "published": "2026-11-09"
+      }
+    },
+    {
+      "title": "THE RULEBOOK",
+      "title_vi": "CÁI RULEBOOK",
+      "headline": "Told to polish, the agents wrote 87,500 words of rules",
+      "headline_vi": "Được lệnh polish, lũ agent tự viết 87.500 từ quy định",
+      "a": {
+        "who": "Ethan Mollick",
+        "what": "His swarm of world-building agents answered one vague instruction to polish by inventing a rule book nobody asked for: 84 sections by the next morning, 204 sections and 87,500 words after twelve days, with no text ever cut. Shipping a new world came to need an approved idea, three AI judges and a full code review, and output fell from hundreds a day to about a dozen.",
+        "what_vi": "Đám agent dựng thế giới 3D của ông nhận một lệnh mơ hồ là polish, rồi tự đẻ ra một cái rule book không ai yêu cầu: 84 mục ngay sáng hôm sau, 204 mục và 87.500 từ sau mười hai ngày, và không bao giờ cắt bớt chữ nào. Ship một thế giới mới thành ra phải có ý tưởng được duyệt, ba AI judge và một vòng review code đầy đủ, output tụt từ vài trăm cái một ngày xuống còn chừng một chục."
+      },
+      "b": {
+        "who": "Max Weber",
+        "what": "Bureaucracy is powerful precisely because it runs on written rules and files instead of on one person's mood. That is also the iron cage: a rule on file outlives whoever needed it, and nobody inside has standing to repeal it.",
+        "what_vi": "Bureaucracy mạnh đúng ở chỗ nó chạy bằng luật viết ra và hồ sơ, chứ không bằng tâm trạng của một ai. Và đó cũng là cái lồng sắt: luật đã vào hồ sơ thì sống lâu hơn cái nhu cầu sinh ra nó, và không ai ở bên trong có tư cách xóa."
+      },
+      "result": "Every critic, judge and fact-checker it hired could append. Not one could delete. He unstuck it the way you unstick any tangled org: he brought in an outsider with scissors.",
+      "result_vi": "Mọi critic, judge, fact-checker nó thuê đều được thêm vào. Không ai được xóa. Ông gỡ đúng kiểu gỡ một tổ chức rối: gọi người ngoài mang theo cái kéo.",
+      "result_underline": "an outsider with scissors",
+      "result_underline_vi": "người ngoài mang theo cái kéo",
+      "tick": "On my project, who is allowed to delete something?",
+      "tick_vi": "Trong dự án của mình, ai được phép xóa?",
+      "tick_bold": [
+        "allowed to delete"
+      ],
+      "tick_bold_vi": [
+        "được phép xóa"
+      ],
+      "provocation": "Mollick calls this phase jagged AGI, and the jaggedness is no longer hallucination. The model worked as filmmaker, hardware hacker, entrepreneur and literary scholar at roughly expert level, then quietly tied itself in knots. His diagnosis is the useful part: it put critics and fact-checkers on nearly every project, and all of them found errors and added fixes. None asked whether the work had become too long, too repetitive or no fun. Weber would recognise the machine immediately. A review board that can only add is a ratchet, and it will write its own cage whether it is staffed by people or by agents.",
+      "provocation_vi": "Mollick gọi giai đoạn này là jagged AGI, và chỗ lởm chởm bây giờ không còn là hallucination. Model làm được việc của nhà làm phim, người hack hardware, founder và học giả văn chương ở tầm gần chuyên gia, rồi tự thắt nút mình lại. Phần đáng dùng là cách ông chẩn đoán: nó cắm critic và fact-checker vào gần như mọi project, và tất cả đều tìm ra lỗi rồi thêm cách sửa. Không ai hỏi liệu việc này có dài quá, lặp quá, hay nhạt quá. Weber nhìn một cái là nhận ra ngay cái máy này. Một hội đồng review chỉ biết thêm thì là cái bánh răng một chiều, và nó sẽ tự xây cái lồng cho mình, dù ngồi trong đó là người hay là agent.",
+      "source": {
+        "site": "One Useful Thing",
+        "title": "Fable 5.2 and Jagged AGI",
+        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "published": "2026-11-09"
+      }
+    },
+    {
+      "title": "MUST NOT MOVE",
+      "title_vi": "CÁI PHẢI ĐỨNG IM",
+      "headline": "A metric that forbids nothing is a mood",
+      "headline_vi": "Metric mà không cấm điều gì thì chỉ là cảm giác",
+      "a": {
+        "who": "Randy Au",
+        "what": "Construct validity is not a property of a number, it is a network. Your theory has to say what the measure should move with, and just as importantly what should leave it flat. He adds that voltage is the same kind of chain of constructs, and only feels like direct measurement because nobody thinks about the metrology.",
+        "what_vi": "Construct validity không phải tính chất của một con số, nó là một cái mạng. Lý thuyết của bạn phải nói metric này sẽ chạy cùng cái gì, và quan trọng ngang vậy, cái gì thì phải để nó đứng im. Anh nói thêm: voltage cũng là một chuỗi construct y như vậy, chỉ cảm giác như đang đo trực tiếp vì chẳng ai nghĩ sâu về chuyện đo đạc."
+      },
+      "b": {
+        "who": "Karl Popper",
+        "what": "A theory earns its standing by what it forbids. One that fits every possible outcome explains nothing, because nothing could ever catch it being wrong.",
+        "what_vi": "Một lý thuyết có giá trị nhờ cái nó cấm. Lý thuyết nào cũng khớp với mọi kết quả thì không giải thích được gì, vì chẳng có gì bắt được nó sai."
+      },
+      "result": "Your north-star metric is a theory, so write down the week it has to move and the week it has to stay flat. If no result could ever embarrass it, you are not measuring, you are agreeing with yourself.",
+      "result_vi": "North-star metric của bạn là một lý thuyết, nên hãy viết ra tuần nào nó buộc phải nhảy và tuần nào nó buộc phải đứng im. Nếu không kết quả nào làm nó hớ được, thì bạn không đo gì cả, bạn đang tự đồng ý với mình.",
+      "result_underline": "you are agreeing with yourself",
+      "result_underline_vi": "bạn đang tự đồng ý với mình",
+      "tick": "What result would make me admit this metric is the wrong one?",
+      "tick_vi": "Kết quả nào sẽ làm mình phải thừa nhận metric này chọn sai?",
+      "tick_bold": [
+        "admit this metric is the wrong one"
+      ],
+      "tick_bold_vi": [
+        "thừa nhận metric này chọn sai"
+      ],
+      "provocation": "Au's story starts with a data scientist who wanted every metric built from behavioural logs because surveys are biased and telemetry is objective. His answer is that both hang on the same scaffolding: a construct is only valid inside a network of predictions, including the negative ones, like not expecting satisfaction to rise just because an order arrived on time as promised. Popper's test is the same test with the politeness removed. A metric you have never specified a disappointing week for is not a measurement, it is a vote of confidence.",
+      "provocation_vi": "Chuyện của Au mở đầu bằng một data scientist muốn mọi metric phải dựng từ behavioral log, vì survey thì bias còn telemetry thì khách quan. Câu trả lời của anh: cả hai đứng trên cùng một giàn giáo. Một construct chỉ valid bên trong một mạng các dự đoán, kể cả dự đoán phủ định, kiểu đừng mong satisfaction tăng chỉ vì đơn hàng tới đúng hẹn như đã hứa. Bài test của Popper là đúng bài đó, bỏ phần lịch sự đi. Cái metric mà bạn chưa từng mô tả trước một tuần làm nó thất vọng thì không phải phép đo, đó là một phiếu tín nhiệm.",
+      "source": {
+        "site": "Counting Stuff",
+        "title": "How social scientists measure the abstract",
+        "url": "https://www.counting-stuff.com/how-social-scientists-measure-the-abstract/",
+        "published": "2026-11-10"
+      }
+    }
+  ]
+}
