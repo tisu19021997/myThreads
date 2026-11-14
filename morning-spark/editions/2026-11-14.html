@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Nov 14</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 86</div></div></div>
+<div class="meta label">Saturday, November 14, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">THE UNCLONABLE PART</span><span data-l="vi">PHẦN KHÔNG CLONE ĐƯỢC</span></span></div>
+<div class="eq"><div class="term"><div class="who">Mat Duggan</div><div class="what"><span data-l="en">He spent years as the Mac IT contractor in creative departments and walked out of Adobe&#x27;s own campus certain they were entrenched forever. Then he ran the LLM-written Lightroom and InDesign clones, found them close enough to give him a pit in his stomach, and concluded the moat was never the file format or the feature list: it was decades of goodwill and muscle memory, which incumbents are spending one dark pattern at a time.</span><span data-l="vi">Anh từng làm IT cho các creative department, và rời campus của Adobe với niềm tin là không ai lật được họ. Rồi anh chạy thử bản clone Lightroom và InDesign do LLM viết, thấy chúng gần tới mức đủ làm anh lạnh sống lưng, và kết luận: moat thật chưa bao giờ là file format hay danh sách feature, mà là mấy chục năm goodwill cộng cơ bắp quen tay, thứ mà chính các ông lớn đang tiêu hết, mỗi lần một dark pattern.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Kenneth Arrow</div><div class="what"><span data-l="en">In The Limits of Organization he calls trust a lubricant that makes a whole system cheaper to run, and then notes the catch: it is not a commodity you can buy easily, because if you have to buy it you already have doubts about what you bought.</span><span data-l="vi">Trong The Limits of Organization, ông gọi trust là chất bôi trơn làm cả hệ thống chạy rẻ đi, rồi chỉ ra cái bẫy: nó không phải món bạn mua được, vì đã phải bỏ tiền ra mua thì tức là bạn đã có nghi ngờ về thứ mình mua.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Once the feature list can be one-shotted, the only asset left is the one with no price on it. The developer who cloned seven Adobe apps <u>says he started because of a cancellation fee</u>.</span><span data-l="vi">Khi danh sách feature có thể one-shot trong một đêm, tài sản duy nhất còn lại là thứ không có giá niêm yết. Người clone bảy app của Adobe nói <u>anh ta bắt đầu vì một cái phí hủy đăng ký</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What in your product could be one-shotted this weekend, and what took <b>years of not screwing anyone over</b>?</span><span data-l="vi">Phần nào trong sản phẩm của bạn có thể bị one-shot cuối tuần này, và phần nào phải mất <b>nhiều năm không chơi xấu ai</b> mới có?</span></p></div>
+<div class="src-link"><a href="https://matduggan.com/so-all-software-is-free-as-in-money-now/" target="_blank" rel="noopener">matduggan.com — So all software is free as in money now? &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">FTE ADDICT</span><span data-l="vi">NGHIỆN FULL-TIME</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ibrahim Bashir</div><div class="what"><span data-l="en">Writing in Elena Verna&#x27;s newsletter, he calls himself a full-time-employee addict: three rewrites of his theory of work (maximise take-home, do work that matters, reach the top title), a career break to go independent, then a relapse into a head-of-product role. What pulled him back was not pay. The default path, he says, has less friction, more reinforcement and better systems.</span><span data-l="vi">Viết trên newsletter của Elena Verna, anh tự gọi mình là người nghiện làm full-time: ba lần viết lại lý thuyết về công việc (tối đa thu nhập, làm việc có ý nghĩa, leo tới chức cao nhất), một kỳ nghỉ dài để đi solo, rồi tái nghiện bằng một ghế head of product. Thứ kéo anh về không phải lương. Theo anh, đường mặc định ít ma sát hơn, được vỗ vai nhiều hơn, và có sẵn hệ thống.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Charles Handy</div><div class="what"><span data-l="en">He named portfolio work decades before it had a market: a working life is a mix of wage work, fee work, gift work, study work and home work, and only the first two pay. The single employer was one container for that mix, never the only one.</span><span data-l="vi">Ông đặt tên cho portfolio work từ trước khi nó có thị trường: một đời làm việc là tổ hợp của wage work, fee work, gift work, study work và home work, và chỉ hai cái đầu trả tiền. Một công ty duy nhất chỉ là một cái hộp đựng tổ hợp đó, chưa bao giờ là cái duy nhất.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Handy found the accounting; Bashir&#x27;s relapses are the engineering. Independence is not a decision you make once, it is infrastructure you have to build, and the default wins because <u>the default comes with plumbing</u>.</span><span data-l="vi">Handy nhìn ra phần kế toán; mấy lần tái nghiện của Bashir mới là phần kỹ thuật. Đi độc lập không phải một quyết định, nó là hạ tầng bạn phải tự dựng, và mặc định thắng vì <u>mặc định có sẵn đường ống</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which parts of your working life are you currently <b>renting from your employer</b>?</span><span data-l="vi">Những phần nào trong đời làm việc của bạn đang <b>đi thuê từ công ty</b>?</span></p></div>
+<div class="src-link"><a href="https://www.elenaverna.com/p/confessions-of-a-recovering-full" target="_blank" rel="noopener">Elena&#x27;s Growth Scoop — Confessions of a recovering Full-Time Employee &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">NINE FILES, FOUR BADGES</span><span data-l="vi">CHÍN FILE, BỐN BADGE</span></span></div>
+<div class="eq"><div class="term"><div class="who">Lance Martin</div><div class="what"><span data-l="en">In Anthropic&#x27;s work on agent memory, Sonnet 3.7 played Pokemon and wrote 413 memory files across 225 folders, earning one badge; Fable 5 wrote nine files in two folders plus a single global.md, and earned four. A later pass over a knowledge wiki found nine links pointing at a page that did not exist, repointed them, and added an index. On questions needing several documents the wiki scored 87 percent against 73 for search alone.</span><span data-l="vi">Trong nghiên cứu của Anthropic về agent memory, Sonnet 3.7 chơi Pokemon và ghi 413 file memory trong 225 folder, lấy được một badge; Fable 5 ghi chín file trong hai folder cộng một global.md, và lấy bốn badge. Một lượt soi lại wiki sau đó phát hiện chín cái link trỏ vào một trang không tồn tại, trỏ lại cho đúng, và thêm vào một index. Với những câu hỏi cần gộp nhiều tài liệu, wiki đạt 87 phần trăm so với 73 của search đơn thuần.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Niklas Luhmann</div><div class="what"><span data-l="en">His slip box held roughly ninety thousand cards, but the invention was not the cards. It was the fixed numbers and the keyword register that gave every card an address, so any one of them could be reached again. A slip with no address is a slip that is gone.</span><span data-l="vi">Hộp phiếu của ông có khoảng chín mươi nghìn tờ, nhưng phát minh không phải mấy tờ phiếu. Đó là dãy số cố định và cuốn sổ từ khóa cho mỗi tờ một địa chỉ, để bất kỳ tờ nào cũng tìm lại được. Tờ phiếu không có địa chỉ là tờ phiếu mất.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Memory is not what you keep, it is what you can reach at the moment you need it. The 413 files were all written down; <u>they were never addressed</u>.</span><span data-l="vi">Memory không phải thứ bạn giữ, mà là thứ bạn chạm tới được đúng lúc cần. 413 file kia đã được ghi hết; <u>chúng chỉ chưa bao giờ có địa chỉ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">In your own system, what is written down but <b>has no address</b>?</span><span data-l="vi">Trong hệ thống của bạn, thứ gì đã ghi xuống mà <b>không có địa chỉ</b>?</span></p></div>
+<div class="src-link"><a href="https://www.anthropic.com/research/components-of-agent-memory" target="_blank" rel="noopener">Anthropic — The components of agent memory &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-11-13.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-11-13</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Mat Duggan / Kenneth Arrow / Ibrahim Bashir / Charles Handy / Lance Martin / Niklas Luhmann<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Mat Duggan / Kenneth Arrow / Ibrahim Bashir / Charles Handy / Lance Martin / Niklas Luhmann<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

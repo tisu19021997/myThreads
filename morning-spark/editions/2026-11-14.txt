@@ -1,0 +1,22 @@
+Morning Spark · Saturday, November 14 · Ed. 86
+Supply got solved. The bottleneck moved to the plumbing.
+
+─────────────────
+01 · Seven Adobe clones, and the only moat left is goodwill
+Mat Duggan × Kenneth Arrow
+Features are now cheap to copy and trust still has no supply curve. The man who cloned seven Adobe apps was not chasing a market opening; he was reacting to a cancellation fee.
+→ https://matduggan.com/so-all-software-is-free-as-in-money-now/
+
+─────────────────
+02 · He kept relapsing into full-time, and it was never the money
+Ibrahim Bashir × Charles Handy
+The pull of the full-time job is rarely the salary; it is the scaffolding that comes attached to it. Going independent means rebuilding that scaffolding yourself, which is why people who want it keep going back.
+→ https://www.elenaverna.com/p/confessions-of-a-recovering-full
+
+─────────────────
+03 · The agent with 413 notes lost to the agent with nine
+Lance Martin × Niklas Luhmann
+Storing more is easy and getting the right note back at the right moment is not. The index is the memory; the notes are just paper.
+→ https://www.anthropic.com/research/components-of-agent-memory
+
+Full styled card → open the session.

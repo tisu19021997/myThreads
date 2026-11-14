@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-14",
+  "edition": 86,
+  "framing": "Supply got solved. The bottleneck moved to the plumbing.",
+  "framing_vi": "Nguồn cung đã xong. Nút thắt chuyển sang phần đường ống.",
+  "note": "Themes: LLM-written clones of seven Adobe apps leaving goodwill as the last moat, a three-time relapse into full-time work that was never about pay, and an agent that wrote 413 memory files and earned one badge. Through-line on purpose: in all three the abundant thing arrived (free feature parity, independence, unlimited notes) and the binding constraint moved to unglamorous connective tissue -- trust, scaffolding, an address. Steered off Ed 85's avoid list: nothing on expertise as constructed representations or what a score cannot see (Jeff An's 'Your coding agent shouldn't grade its own homework', stackoverflow.blog Nov 13, was the single strongest unused AI read on the wire and was deliberately dropped for exactly this reason -- its spine is shared blind spots between author and checker, which is Ed 85 spark one plus spark two; take it in a few days, the 1,000-unit-test audit where only 9.6 percent were useful verification is a superb number and the obvious B-side is anyone on separation of powers); nothing on review boards or rule books that only add (spark three is framed on addressing and retrieval, and Lorica's 'measure learning, not task completion' framing was left out on those grounds); nothing on metrics judged by what they forbid. Spark one sits nearest Ed 84's appropriability spark and was framed on trust as an input with no supply curve rather than on margin capture, with the 'surplus goes to consumers' argument avoided entirely. Roster: three A-sides at n=0 or rested (Mat Duggan n=2 rested 7 days, Ibrahim Bashir n=0 as a guest author on Elena Verna's newsletter, Lance Martin n=0) and three B-sides never used as a who on the 85-edition ledger (Kenneth Arrow, Charles Handy, Niklas Luhmann). Hosts: matduggan.com n=2 last Nov 6, elenaverna.com n=3 last Oct 6, anthropic.com n=0. All three pairings checked programmatically against the full 85-edition pairing set; all three URLs checked for 200 and against the used-URL set. Verification discipline: the Duggan piece was read in full (Chicago font-licensing years, the Adobe San Jose visit, the Creative Cloud perpetual-licence retirement as the moment the vibes changed, LightCraft and DesignCraft, 'you can 3D print software but you cannot really clean-room generate trust'), and the Ars Technica interview it links was fetched and read to confirm the quotes before they went in the card: Brandon Thomas, ArtCraft, seven open-source clones of Photoshop, Illustrator, Premiere, Lightroom, After Effects, InDesign and Acrobat Pro built with Claude Opus 5.5 in Rust, 'Software is over', 'I one-shotted Photoshop. The whole thing', and -- the detail the card turns on -- that he was inspired after being 'bit by the dark pattern cancellation fee one too many times'. Arrow: the lubricant passage is The Limits of Organization (1974), ch. 1, p. 23, confirmed across several sources; the 1972 'Gifts and Exchanges' attribution that circulates for the same line could NOT be confirmed, so the card credits the book. Handy: the five kinds of work (wage, fee, gift, study, home) and his authorship of portfolio work are confirmed from multiple secondary sources and his later books; the claim that the phrase first appears in The Age of Unreason (1989) could not be verified from a primary, so the card says 'decades before it had a market' and names no book. Luhmann: roughly 90,000 slips, fixed branching numbers as addresses and keyword register cards pointing at those numbers, all confirmed; 'Communicating with Slip Boxes' is 1981. The often-quoted figure of about 1,250 keyword entries could not be confirmed and was left out. Spark three is sourced to Anthropic's own post (Lance Martin, Nov 6) rather than Ben Lorica's Nov 13 summary of it, because Lorica is n=2 and ran five days ago at Ed 81 -- but his piece was read in full and is the better card for a data-shaped run later this week (eight numbered lessons, 'every note is a prediction that something will matter later', 'memory is a feature, learning is an outcome you have to measure'). Both primaries behind Lorica were fetched and read: the Anthropic post confirms 413 files across 225 folders and one badge for Sonnet 3.7 against nine files in two folders plus global.md and four badges for Fable 5, the 87-versus-73 percent multi-document wiki result on the LAB merger questions, 41 of 57 contract facts surviving a shared page against 57 of 57 with one page per contract, dreaming scaled from 2 to 128 sessions moving 13 percent to 48 percent on 25 questions over the Stainless corpus (350,000 files, 420M tokens), wiki-plus-search 61 percent against search alone 53 percent while saving about 20,000 tokens per question, and the second dreaming pass that found nine links to a missing page and added an index. The Continual-ARC preprint (arXiv 2611.14505) was also read and is the best unused retrieval evidence on the shelf: GLM-5.3 Flash saved 106 memories, a written rule for each of 25 tasks, but prime-agent listed at most six entries chosen before the task was shown, so the rule reached the model on only 40 of 154 returns, and those 40 cost 10.6 percent of budget against 23.7 percent on the other 114, which is statistically indistinguishable from no memory at all. It was kept out of the card to keep spark three anchored on one source. Fresh and strong but passed over today: Jeff An on independent verification (above); Stratechery 'The End of Jensen' and Platformer's founder-cult piece plus thezvi and latent.space AINews, all on Jensen Huang's resignation after 33 years -- the story is everywhere today and Thompson ran Nov 11, but Casey Newton is n=2 rested since Oct 9 and the accountability angle is unspent; Lorin Hochstein 'Constraints and production pressure at eMudhra' (surfingcomplexity Nov 13, n=2 rested 39 days, dropped only because constraints-as-material is Ed 81 territory); nngroup 'Research-In-The-Loop' (Nov 13); staysaasy 'Tactical Team Changes From AI' (Nov 12, n=2 rested six weeks); Martin Fowler 'Tests as data' (Nov 11, still the best unused AI-engineering read and now three days old); Cutlefish TBM 451 'What We Learn to Notice and Ignore' (Nov 12, but Cutler is n=29, the heaviest well in the ledger); Brian Potter 'Technology as a Search Problem' (Nov 12, Potter ran Nov 11); tomtunguz 'No Shirt, No Shoes, No Service for Bots' (Nov 13, n=7). The unspent Goffman front-stage pairing from Ed 83 is still waiting for a non-Cutler carrier. Feed notes over curl today: benn.substack.com now returns nothing at all (dead, find the new feed or scrape); unparseable with a strict XML parser: lethain.com/feed/index.xml, brianbalfour.com/rss.xml, aprildunford.com?format=rss, melissaperri.com?format=rss, infrequently.org/feed.xml, every.to/feed.xml. andrewchen.com/feed is alive but still stalled in Feb 2024. anthropic.com/engineering/components-agent-memory 404s; the live path is anthropic.com/research/components-of-agent-memory, and the /engineering/ variant with 'of' also resolves. Everything else on the 63-feed sweep returned 200 with full bodies. Avoid tomorrow: trust or goodwill as the asset that cannot be bought, the scaffolding an employer supplies, and retrieval or indexing as the real memory.",
+  "sparks": [
+    {
+      "title": "THE UNCLONABLE PART",
+      "title_vi": "PHẦN KHÔNG CLONE ĐƯỢC",
+      "headline": "Seven Adobe clones, and the only moat left is goodwill",
+      "headline_vi": "Bảy bản clone của Adobe, và moat duy nhất còn lại là niềm tin",
+      "a": {
+        "who": "Mat Duggan",
+        "what": "He spent years as the Mac IT contractor in creative departments and walked out of Adobe's own campus certain they were entrenched forever. Then he ran the LLM-written Lightroom and InDesign clones, found them close enough to give him a pit in his stomach, and concluded the moat was never the file format or the feature list: it was decades of goodwill and muscle memory, which incumbents are spending one dark pattern at a time.",
+        "what_vi": "Anh từng làm IT cho các creative department, và rời campus của Adobe với niềm tin là không ai lật được họ. Rồi anh chạy thử bản clone Lightroom và InDesign do LLM viết, thấy chúng gần tới mức đủ làm anh lạnh sống lưng, và kết luận: moat thật chưa bao giờ là file format hay danh sách feature, mà là mấy chục năm goodwill cộng cơ bắp quen tay, thứ mà chính các ông lớn đang tiêu hết, mỗi lần một dark pattern."
+      },
+      "b": {
+        "who": "Kenneth Arrow",
+        "what": "In The Limits of Organization he calls trust a lubricant that makes a whole system cheaper to run, and then notes the catch: it is not a commodity you can buy easily, because if you have to buy it you already have doubts about what you bought.",
+        "what_vi": "Trong The Limits of Organization, ông gọi trust là chất bôi trơn làm cả hệ thống chạy rẻ đi, rồi chỉ ra cái bẫy: nó không phải món bạn mua được, vì đã phải bỏ tiền ra mua thì tức là bạn đã có nghi ngờ về thứ mình mua."
+      },
+      "result": "Once the feature list can be one-shotted, the only asset left is the one with no price on it. The developer who cloned seven Adobe apps says he started because of a cancellation fee.",
+      "result_vi": "Khi danh sách feature có thể one-shot trong một đêm, tài sản duy nhất còn lại là thứ không có giá niêm yết. Người clone bảy app của Adobe nói anh ta bắt đầu vì một cái phí hủy đăng ký.",
+      "result_underline": "says he started because of a cancellation fee",
+      "result_underline_vi": "anh ta bắt đầu vì một cái phí hủy đăng ký",
+      "tick": "What in your product could be one-shotted this weekend, and what took years of not screwing anyone over?",
+      "tick_vi": "Phần nào trong sản phẩm của bạn có thể bị one-shot cuối tuần này, và phần nào phải mất nhiều năm không chơi xấu ai mới có?",
+      "tick_bold": [
+        "years of not screwing anyone over"
+      ],
+      "tick_bold_vi": [
+        "nhiều năm không chơi xấu ai"
+      ],
+      "provocation": "Features are now cheap to copy and trust still has no supply curve. The man who cloned seven Adobe apps was not chasing a market opening; he was reacting to a cancellation fee.",
+      "provocation_vi": "Feature giờ copy rất rẻ, còn trust thì vẫn không có đường cung. Người clone bảy app của Adobe không đi tìm khe thị trường, anh ta chỉ phản ứng với một cái phí hủy đăng ký.",
+      "source": {
+        "site": "matduggan.com",
+        "title": "So all software is free as in money now?",
+        "url": "https://matduggan.com/so-all-software-is-free-as-in-money-now/",
+        "published": "2026-11-13"
+      }
+    },
+    {
+      "title": "FTE ADDICT",
+      "title_vi": "NGHIỆN FULL-TIME",
+      "headline": "He kept relapsing into full-time, and it was never the money",
+      "headline_vi": "Anh tái nghiện full-time nhiều lần, và chưa bao giờ vì tiền",
+      "a": {
+        "who": "Ibrahim Bashir",
+        "what": "Writing in Elena Verna's newsletter, he calls himself a full-time-employee addict: three rewrites of his theory of work (maximise take-home, do work that matters, reach the top title), a career break to go independent, then a relapse into a head-of-product role. What pulled him back was not pay. The default path, he says, has less friction, more reinforcement and better systems.",
+        "what_vi": "Viết trên newsletter của Elena Verna, anh tự gọi mình là người nghiện làm full-time: ba lần viết lại lý thuyết về công việc (tối đa thu nhập, làm việc có ý nghĩa, leo tới chức cao nhất), một kỳ nghỉ dài để đi solo, rồi tái nghiện bằng một ghế head of product. Thứ kéo anh về không phải lương. Theo anh, đường mặc định ít ma sát hơn, được vỗ vai nhiều hơn, và có sẵn hệ thống."
+      },
+      "b": {
+        "who": "Charles Handy",
+        "what": "He named portfolio work decades before it had a market: a working life is a mix of wage work, fee work, gift work, study work and home work, and only the first two pay. The single employer was one container for that mix, never the only one.",
+        "what_vi": "Ông đặt tên cho portfolio work từ trước khi nó có thị trường: một đời làm việc là tổ hợp của wage work, fee work, gift work, study work và home work, và chỉ hai cái đầu trả tiền. Một công ty duy nhất chỉ là một cái hộp đựng tổ hợp đó, chưa bao giờ là cái duy nhất."
+      },
+      "result": "Handy found the accounting; Bashir's relapses are the engineering. Independence is not a decision you make once, it is infrastructure you have to build, and the default wins because the default comes with plumbing.",
+      "result_vi": "Handy nhìn ra phần kế toán; mấy lần tái nghiện của Bashir mới là phần kỹ thuật. Đi độc lập không phải một quyết định, nó là hạ tầng bạn phải tự dựng, và mặc định thắng vì mặc định có sẵn đường ống.",
+      "result_underline": "the default comes with plumbing",
+      "result_underline_vi": "mặc định có sẵn đường ống",
+      "tick": "Which parts of your working life are you currently renting from your employer?",
+      "tick_vi": "Những phần nào trong đời làm việc của bạn đang đi thuê từ công ty?",
+      "tick_bold": [
+        "renting from your employer"
+      ],
+      "tick_bold_vi": [
+        "đi thuê từ công ty"
+      ],
+      "provocation": "The pull of the full-time job is rarely the salary; it is the scaffolding that comes attached to it. Going independent means rebuilding that scaffolding yourself, which is why people who want it keep going back.",
+      "provocation_vi": "Sức hút của một công việc full-time ít khi là lương, nó là bộ giàn giáo đi kèm. Đi độc lập nghĩa là tự dựng lại bộ giàn giáo đó, nên những người muốn đi vẫn cứ quay về.",
+      "source": {
+        "site": "Elena's Growth Scoop",
+        "title": "Confessions of a recovering Full-Time Employee",
+        "url": "https://www.elenaverna.com/p/confessions-of-a-recovering-full",
+        "published": "2026-11-13"
+      }
+    },
+    {
+      "title": "NINE FILES, FOUR BADGES",
+      "title_vi": "CHÍN FILE, BỐN BADGE",
+      "headline": "The agent with 413 notes lost to the agent with nine",
+      "headline_vi": "Agent ghi 413 note thua agent ghi chín note",
+      "a": {
+        "who": "Lance Martin",
+        "what": "In Anthropic's work on agent memory, Sonnet 3.7 played Pokemon and wrote 413 memory files across 225 folders, earning one badge; Fable 5 wrote nine files in two folders plus a single global.md, and earned four. A later pass over a knowledge wiki found nine links pointing at a page that did not exist, repointed them, and added an index. On questions needing several documents the wiki scored 87 percent against 73 for search alone.",
+        "what_vi": "Trong nghiên cứu của Anthropic về agent memory, Sonnet 3.7 chơi Pokemon và ghi 413 file memory trong 225 folder, lấy được một badge; Fable 5 ghi chín file trong hai folder cộng một global.md, và lấy bốn badge. Một lượt soi lại wiki sau đó phát hiện chín cái link trỏ vào một trang không tồn tại, trỏ lại cho đúng, và thêm vào một index. Với những câu hỏi cần gộp nhiều tài liệu, wiki đạt 87 phần trăm so với 73 của search đơn thuần."
+      },
+      "b": {
+        "who": "Niklas Luhmann",
+        "what": "His slip box held roughly ninety thousand cards, but the invention was not the cards. It was the fixed numbers and the keyword register that gave every card an address, so any one of them could be reached again. A slip with no address is a slip that is gone.",
+        "what_vi": "Hộp phiếu của ông có khoảng chín mươi nghìn tờ, nhưng phát minh không phải mấy tờ phiếu. Đó là dãy số cố định và cuốn sổ từ khóa cho mỗi tờ một địa chỉ, để bất kỳ tờ nào cũng tìm lại được. Tờ phiếu không có địa chỉ là tờ phiếu mất."
+      },
+      "result": "Memory is not what you keep, it is what you can reach at the moment you need it. The 413 files were all written down; they were never addressed.",
+      "result_vi": "Memory không phải thứ bạn giữ, mà là thứ bạn chạm tới được đúng lúc cần. 413 file kia đã được ghi hết; chúng chỉ chưa bao giờ có địa chỉ.",
+      "result_underline": "they were never addressed",
+      "result_underline_vi": "chúng chỉ chưa bao giờ có địa chỉ",
+      "tick": "In your own system, what is written down but has no address?",
+      "tick_vi": "Trong hệ thống của bạn, thứ gì đã ghi xuống mà không có địa chỉ?",
+      "tick_bold": [
+        "has no address"
+      ],
+      "tick_bold_vi": [
+        "không có địa chỉ"
+      ],
+      "provocation": "Storing more is easy and getting the right note back at the right moment is not. The index is the memory; the notes are just paper.",
+      "provocation_vi": "Lưu thêm thì dễ, lấy đúng cái note vào đúng lúc mới khó. Index chính là memory; note chỉ là giấy.",
+      "source": {
+        "site": "Anthropic",
+        "title": "The components of agent memory",
+        "url": "https://www.anthropic.com/research/components-of-agent-memory",
+        "published": "2026-11-06"
+      }
+    }
+  ]
+}
