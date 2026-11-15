@@ -1,0 +1,22 @@
+Morning Spark · Sunday, November 15 · Ed. 87
+Not a capability problem. A placement problem.
+
+─────────────────
+01 · A thousand AI-written tests, ninety-six worth having
+Jeff An × Montesquieu
+An agent that writes the code and the tests brings the same blind spots to both, so a green suite proves only that it agreed with itself. In the audit, 96 of 1,000 AI-written unit tests were useful verification, and agents banned from writing tests did fractionally better. The verifier that found three to five times more bugs was not smarter; it just never saw the implementation.
+→ https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/
+
+─────────────────
+02 · He planned to run Nvidia until he was 120
+Casey Newton × Philip Selznick
+Being irreplaceable is not a credential, it is a backlog item nobody closed. Nvidia generated a 700,000 percent return under Huang and still had one person holding the purpose, 60 direct reports and no second name on the list. Selznick's test is simple: an organisation runs a task, an institution carries a purpose, and the only proof you built the second one is that it survives you.
+→ https://www.platformer.news/jensen-huang-resigns-founder-cult-accountability/
+
+─────────────────
+03 · Millions of edges, queried inside a browser tab
+Ilya Boyandin × Jim Gray
+Gray's rule is twenty-three years old and still the only one that matters: the bytes cost more to move than the arithmetic costs to do. Flowmap City keeps Parquet in S3 and runs the SQL in the browser, so dragging a map of mobility flows costs no round trip at all. Most pipelines still move the data to the compute, and call the latency a scale problem.
+→ https://duckdb.org/2026/11/12/local-analytics-without-a-database-server
+
+Full styled card → open the session.

@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Nov 15</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 87</div></div></div>
+<div class="meta label">Sunday, November 15, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">SELF-GRADED</span><span data-l="vi">TỰ CHẤM ĐIỂM</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jeff An</div><div class="what"><span data-l="en">He runs an eight-person engineering team at Momentic that lives on background agents, and got tired of agents declaring a feature done while basic flows broke the moment someone opened the app. A human-reviewed audit of 1,000 AI-authored unit tests in their monorepo found 9.6 percent were useful verification: a third checked argument passing or formatting, 22.8 percent duplicated coverage that already existed, 22.4 percent mocked production behaviour away. In a separate run across 111 tasks, agents allowed to write their own tests scored 65.3 percent against 66.2 for agents forbidden from writing any. His fix is a QA agent that gets the requirements and a live app and none of the coding agent&#x27;s history.</span><span data-l="vi">Anh quản lý team engineering tám người ở Momentic, sống bằng background agent, và mệt với kiểu agent báo xong feature rồi mở app lên là vỡ ngay luồng cơ bản. Một lượt audit do người chấm trên 1.000 unit test do AI viết trong monorepo của họ: chỉ 9,6 phần trăm là kiểm tra thật sự có ích; một phần ba chỉ xem tham số truyền đúng hay format đẹp, 22,8 phần trăm trùng coverage đã có sẵn, 22,4 phần trăm mock tới mức không còn giống production. Ở một thử nghiệm khác trên 111 task, nhóm agent được tự viết test đạt 65,3 phần trăm, nhóm bị cấm viết test đạt 66,2. Cách anh chữa: một QA agent riêng, nhận requirement gốc, có app chạy thật, và không được thấy gì trong lịch sử của agent viết code.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Montesquieu</div><div class="what"><span data-l="en">In The Spirit of the Laws he writes that there is still no liberty if the power of judging is not separated from the legislative and the executive, and gives the reason in one clause: joined to the power of making law, the judge would be the legislator. The argument never once appeals to the judge&#x27;s character. It is about which hand holds which job.</span><span data-l="vi">Trong De l&#x27;Esprit des lois, ông viết: vẫn chưa có tự do nếu quyền xét xử không tách khỏi quyền làm luật và quyền hành pháp, rồi đưa lý do gọn trong một câu: nhập vào quyền làm luật thì quan tòa chính là người làm luật. Lập luận không hề dựa vào tư cách của quan tòa. Nó nói về chuyện tay nào giữ việc nào.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">You cannot prompt an agent into independence. Writing the tests that grade your own patch bought nothing at all: 65.3 percent against 66.2. Independence is not an attitude you can ask for, <u>it is a seating chart</u>.</span><span data-l="vi">Không prompt cho một agent thành độc lập được. Tự viết test để tự chấm patch của mình chẳng mua lại được gì: 65,3 phần trăm so với 66,2. Độc lập không phải thái độ để đi xin, <u>nó là sơ đồ chỗ ngồi</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Who checks your work, and <b>do they know how you built it</b>?</span><span data-l="vi">Ai kiểm tra việc của bạn, và người đó <b>có biết bạn đã làm nó thế nào</b> không?</span></p></div>
+<div class="src-link"><a href="https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/" target="_blank" rel="noopener">Stack Overflow Blog — Your coding agent shouldn&#x27;t grade its own homework &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">UNTIL 120</span><span data-l="vi">TỚI NĂM 120 TUỔI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Casey Newton</div><div class="what"><span data-l="en">Huang resigned on Thursday after 33 years, with the chief financial officer stepping in while the board starts a search. Newton&#x27;s point is not the affairs. It is that a 63-year-old chief executive with more than 60 direct reports had no succession plan and had reportedly told colleagues he would run Nvidia until he was 120, while Founders Fund launched in 2005 promising never to remove a founder and Andreessen Horowitz still calls criticising one a fireable offence. His closing line: the real scandal is that Huang thought only he could run the company he founded.</span><span data-l="vi">Huang từ chức hôm thứ Năm sau 33 năm, CFO lên tạm quyền trong lúc board đi tìm người thay. Điều Newton nhắm tới không phải mấy vụ ngoại tình. Là chuyện một CEO 63 tuổi với hơn 60 báo cáo trực tiếp mà không có kế hoạch kế nhiệm, lại còn nói với đồng nghiệp là sẽ điều hành Nvidia tới năm 120 tuổi, trong khi Founders Fund từ 2005 đã cam kết không bao giờ gạt một founder ra, và Andreessen Horowitz tới giờ vẫn coi việc chê founder là lý do đủ để sa thải. Câu kết của anh: scandal thật là Huang tin chỉ mình ông ta điều hành được công ty mình lập ra.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Philip Selznick</div><div class="what"><span data-l="en">His 1957 book splits two words we use interchangeably: an organisation is a tool built for a job, an institution is one infused with value beyond the technical requirements of the task at hand. The chapter on what a leader is actually for is called The Institutional Embodiment of Purpose.</span><span data-l="vi">Cuốn sách năm 1957 của ông tách hai chữ ta vẫn dùng lẫn: organisation là công cụ dựng lên để làm một việc, còn institution là tổ chức đã được thổi vào giá trị vượt ra ngoài yêu cầu kỹ thuật của việc đó. Chương nói về việc một người lãnh đạo thật ra tồn tại để làm gì có tên: The Institutional Embodiment of Purpose.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Embodiment is a transfer, not a performance. Sixty direct reports and a plan to work until 120 is not a strong founder, <u>it is an unfinished job</u>.</span><span data-l="vi">Embodiment là một lần chuyển giao, không phải một màn diễn. Sáu mươi báo cáo trực tiếp cộng kế hoạch làm tới năm 120 tuổi không phải một founder mạnh, <u>đó là một việc chưa làm xong</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">If you vanished for a month, <b>which decisions would simply stop</b>?</span><span data-l="vi">Nếu bạn mất tích một tháng, <b>quyết định nào sẽ đứng im luôn</b>?</span></p></div>
+<div class="src-link"><a href="https://www.platformer.news/jensen-huang-resigns-founder-cult-accountability/" target="_blank" rel="noopener">Platformer — Jensen Huang and the end of the &#x27;lol nothing matters&#x27; era of American politics &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">NEAR THE DATA</span><span data-l="vi">NGAY CẠNH DATA</span></span></div>
+<div class="eq"><div class="term"><div class="who">Ilya Boyandin</div><div class="what"><span data-l="en">He built Flowmap City on a small budget and did not want a database server, so uploads sit in S3 as Parquet and DuckDB compiled to WebAssembly runs the SQL in the browser; panning or zooming the map fires a batch of queries with no round trip. Those pieces became SQLRooms, which now runs Foursquare&#x27;s Spatial Desktop, generating map tiles on demand from the user&#x27;s own data, and Cosmograph, exploring graphs of several million edges in a tab. Even the AI assistant works this way: the dataset stays on the machine, and only the schema and selected results go out.</span><span data-l="vi">Anh làm Flowmap City với ngân sách nhỏ và không muốn nuôi database server, nên data upload nằm trên S3 dưới dạng Parquet, còn DuckDB biên dịch sang WebAssembly chạy SQL ngay trong browser; kéo map hay zoom là bắn một loạt query, không đi vòng lên server. Mấy mảnh đó thành SQLRooms, giờ chạy cho Spatial Desktop của Foursquare, sinh map tile tại chỗ từ data của chính người dùng, và cho Cosmograph, soi graph vài triệu edge trong một tab. Cả con AI assistant cũng vậy: dataset nằm lại trên máy, chỉ schema và vài kết quả được chọn mới đi ra ngoài.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Jim Gray</div><div class="what"><span data-l="en">In a 2003 Microsoft report he priced the parts of a distributed system and found that one dollar bought roughly a gigabyte sent over the wide-area network, or eight hours of CPU. Moving the bytes, in other words, is the expensive half. His conclusion was five words long: put the computation near the data.</span><span data-l="vi">Trong một technical report năm 2003 ở Microsoft, ông đi định giá từng phần của một hệ phân tán và thấy: một đô mua được khoảng một gigabyte truyền qua WAN, hoặc tám tiếng CPU. Nói cách khác, phần đắt là phần chuyển byte. Kết luận của ông gọn trong một câu: đặt phần tính toán ngay cạnh data.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">The warehouse read Gray&#x27;s rule as an instruction to haul all the data into one place so the compute could sit beside it. Read the other way it says compute belongs wherever the question is, and <u>the question is sitting on somebody&#x27;s laptop</u>.</span><span data-l="vi">Cái warehouse đọc nguyên tắc của Gray thành: dồn hết data về một chỗ để compute ngồi cạnh. Đọc ngược lại, nó nói compute phải ở nơi có câu hỏi, và <u>câu hỏi đang nằm trên laptop của một người nào đó</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of today&#x27;s queries would <b>just run on your laptop</b>?</span><span data-l="vi">Trong số query hôm nay, cái nào <b>chạy thẳng trên laptop của bạn</b> là xong?</span></p></div>
+<div class="src-link"><a href="https://duckdb.org/2026/11/12/local-analytics-without-a-database-server" target="_blank" rel="noopener">DuckDB — Local Analytics Doesn&#x27;t Need a Database Server &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-11-14.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-11-14</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Jeff An / Montesquieu / Casey Newton / Philip Selznick / Ilya Boyandin / Jim Gray<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Jeff An / Montesquieu / Casey Newton / Philip Selznick / Ilya Boyandin / Jim Gray<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

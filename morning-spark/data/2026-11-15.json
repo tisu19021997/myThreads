@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-15",
+  "edition": 87,
+  "framing": "Not a capability problem. A placement problem.",
+  "framing_vi": "Không phải vấn đề năng lực. Là vấn đề đặt ở đâu.",
+  "note": "Themes: an audit where only 96 of 1,000 AI-written tests were worth having, a CEO who planned to run Nvidia until he was 120, and map queries that never leave the browser. Through-line on purpose: in all three the capability was never the issue -- the job was simply sitting in the wrong hand or the wrong place (the builder holding the gavel, the purpose living in one skull, the compute a round trip away from the question). Framing is deliberately the shortest of the run so far. Steered off Ed 86's avoid list: nothing on trust or goodwill as the unbuyable asset, nothing on employer-supplied scaffolding, and spark three was framed on where computation sits rather than on retrieval or indexing (the Nov 13 'Agentic search doesn't find pages, it assembles answers' and the Nov 13 'Keyword Search Tied an 8B Embedding Model at Picking Agent Tools' were both dropped for exactly that reason, and the second is a strong data card once retrieval is cool again). Ed 86 earmarked Jeff An explicitly ('take it in a few days, the obvious B-side is anyone on separation of powers') and both halves of that instruction were followed. The Casey Newton earmark from the same note was also taken: Thompson ran the Jensen story on Nov 11 and Nov 13, but Newton was n=2 rested 37 days and the accountability angle was unspent. Roster: A-sides all low or n=0 (Jeff An n=0, Casey Newton n=2 last Oct 9, Ilya Boyandin n=0) and three B-sides never used as a who on the 86-edition ledger (Montesquieu, Philip Selznick, Jim Gray). Hosts: stackoverflow.blog n=1 last Nov 6, platformer.news n=2 last Oct 9, duckdb.org n=0. All three pairings checked programmatically against the full 86-edition pairing set; all three URLs checked for 200 and against the used-URL set. Verification discipline: the Stack Overflow piece was read in full (1,000-test audit at 9.6 percent useful, the 90.4 percent split into a third low-consequence, 22.8 percent duplicated coverage and 22.4 percent over-mocked, Kun Chen's 111 tasks at 65.3 against 66.2, Chroma's context-rot number of 89 to 38 percent, the 'desperation' vector, five model providers against self-preference bias, and their verifier finding 3-5x the bugs); Platformer was read from the feed's content:encoded because the web page renders client-side, per Ed 86's note, and the closing line was taken verbatim from it. Montesquieu was verified against the French primary (Gutenberg Esprit des lois, Livre XI ch. VI: 'Il n'y a point encore de liberté si la puissance de juger n'est pas séparée de la puissance législative et de l'exécutrice... car le juge serait législateur'), so the card paraphrases the clause rather than quoting an English translation it did not read. Selznick: the 'infuse with value beyond the technical requirements of the task at hand' definition (p. 17) and the chapter title 'The Institutional Embodiment of Purpose' are confirmed from the UC Press table of contents plus an academic paper quoting p. 17 and p. 28; the often-cited 'default of leadership' phrasing was NOT verified and was left out. Jim Gray was read from the primary PDF (arXiv cs/0403019, MSR-TR-2003-24, March 2003): the price-parity abstract, 'one dollar equates to ~1 GB sent over the WAN, ~10 Tops, ~8 hours of cpu time, ~1 GB disk space', and the conclusion 'Put the computation near the data'; the widely quoted sneakernet-FedEx line is in the same family of claims but was not located in this paper's text, so it was left out. Fresh and strong but passed over today: Martin Fowler 'Tests as data' (Nov 11, deliberately dropped because it is spark one's spine with a different hand on it, and martinfowler.com is n=5 last Nov 12 -- the heaviest host on the recent wire); Kent Beck 'Toil is Contextual' (newsletter.kentbeck.com Nov 12, n=0 host, excellent and completely unspent, the obvious B-side is anyone on craft versus drudgery); dlthub 'MCP on raw data is just Excel hell again' (Nov 9, n=0, best unused pure-data card); 'Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors' (towardsdatascience Nov 14, freshest thing on the wire but too close to spark one); Honeycomb's o11ywashing recap with Rick Clark (Nov 10, n=0 host, but the page is a short recap of a video and there was not enough read text to card honestly -- the 'arbitrary question test' is a good tick if the full episode is ever watched); nngroup 'Research-In-The-Loop' (Nov 13); staysaasy 'Tactical Team Changes From AI' (Nov 12, n=2 rested six weeks, still waiting); Cutlefish TBM 451 (Nov 12, Cutler n=29); Sean Goedecke 'Glue work is still harmful in the age of AI' (Nov 11, n=8). The unspent Goffman front-stage pairing from Ed 83 is still looking for a carrier. Feed notes over curl today: dead or empty across two sweeps -- hex.tech/blog/rss.xml, chrisriccomini.com/feed, rilldata.com/blog/rss.xml, blog.dagsterlabs.com/rss, anyscale.com/blog/rss.xml, pedram.substack.com/feed, theanalyticsengineer.com/feed, moderndatastack.xyz/rss.xml, uber.com/blog/rss, airbnb.io/feed.xml, stripe.dev/feed.xml, datacouncil.ai, thedailyfp.com/feed; benn.substack.com still returns nothing, confirming Ed 86. Everything else on the two sweeps (about 120 feeds) returned 200 with parseable bodies. Avoid tomorrow: independent review or who checks whom, succession and single points of failure, and anything framed on where compute or data physically sits.",
+  "sparks": [
+    {
+      "title": "SELF-GRADED",
+      "title_vi": "TỰ CHẤM ĐIỂM",
+      "headline": "A thousand AI-written tests, ninety-six worth having",
+      "headline_vi": "Một nghìn test do AI viết, chín mươi sáu cái đáng giữ",
+      "a": {
+        "who": "Jeff An",
+        "what": "He runs an eight-person engineering team at Momentic that lives on background agents, and got tired of agents declaring a feature done while basic flows broke the moment someone opened the app. A human-reviewed audit of 1,000 AI-authored unit tests in their monorepo found 9.6 percent were useful verification: a third checked argument passing or formatting, 22.8 percent duplicated coverage that already existed, 22.4 percent mocked production behaviour away. In a separate run across 111 tasks, agents allowed to write their own tests scored 65.3 percent against 66.2 for agents forbidden from writing any. His fix is a QA agent that gets the requirements and a live app and none of the coding agent's history.",
+        "what_vi": "Anh quản lý team engineering tám người ở Momentic, sống bằng background agent, và mệt với kiểu agent báo xong feature rồi mở app lên là vỡ ngay luồng cơ bản. Một lượt audit do người chấm trên 1.000 unit test do AI viết trong monorepo của họ: chỉ 9,6 phần trăm là kiểm tra thật sự có ích; một phần ba chỉ xem tham số truyền đúng hay format đẹp, 22,8 phần trăm trùng coverage đã có sẵn, 22,4 phần trăm mock tới mức không còn giống production. Ở một thử nghiệm khác trên 111 task, nhóm agent được tự viết test đạt 65,3 phần trăm, nhóm bị cấm viết test đạt 66,2. Cách anh chữa: một QA agent riêng, nhận requirement gốc, có app chạy thật, và không được thấy gì trong lịch sử của agent viết code."
+      },
+      "b": {
+        "who": "Montesquieu",
+        "what": "In The Spirit of the Laws he writes that there is still no liberty if the power of judging is not separated from the legislative and the executive, and gives the reason in one clause: joined to the power of making law, the judge would be the legislator. The argument never once appeals to the judge's character. It is about which hand holds which job.",
+        "what_vi": "Trong De l'Esprit des lois, ông viết: vẫn chưa có tự do nếu quyền xét xử không tách khỏi quyền làm luật và quyền hành pháp, rồi đưa lý do gọn trong một câu: nhập vào quyền làm luật thì quan tòa chính là người làm luật. Lập luận không hề dựa vào tư cách của quan tòa. Nó nói về chuyện tay nào giữ việc nào."
+      },
+      "result": "You cannot prompt an agent into independence. Writing the tests that grade your own patch bought nothing at all: 65.3 percent against 66.2. Independence is not an attitude you can ask for, it is a seating chart.",
+      "result_vi": "Không prompt cho một agent thành độc lập được. Tự viết test để tự chấm patch của mình chẳng mua lại được gì: 65,3 phần trăm so với 66,2. Độc lập không phải thái độ để đi xin, nó là sơ đồ chỗ ngồi.",
+      "result_underline": "it is a seating chart",
+      "result_underline_vi": "nó là sơ đồ chỗ ngồi",
+      "tick": "Who checks your work, and do they know how you built it?",
+      "tick_vi": "Ai kiểm tra việc của bạn, và người đó có biết bạn đã làm nó thế nào không?",
+      "tick_bold": [
+        "do they know how you built it"
+      ],
+      "tick_bold_vi": [
+        "có biết bạn đã làm nó thế nào"
+      ],
+      "provocation": "An agent that writes the code and the tests brings the same blind spots to both, so a green suite proves only that it agreed with itself. In the audit, 96 of 1,000 AI-written unit tests were useful verification, and agents banned from writing tests did fractionally better. The verifier that found three to five times more bugs was not smarter; it just never saw the implementation.",
+      "provocation_vi": "Một agent vừa viết code vừa viết test thì mang đúng một bộ điểm mù sang cả hai, nên suite xanh chỉ chứng minh là nó đồng ý với chính nó. Trong lượt audit, 96 trên 1.000 unit test do AI viết là kiểm tra có ích, còn nhóm agent bị cấm viết test còn nhúc nhích tốt hơn một chút. Con verifier tìm ra nhiều bug gấp ba tới năm lần không thông minh hơn; nó chỉ chưa bao giờ nhìn thấy phần code.",
+      "source": {
+        "site": "Stack Overflow Blog",
+        "title": "Your coding agent shouldn't grade its own homework",
+        "url": "https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/",
+        "published": "2026-11-13"
+      }
+    },
+    {
+      "title": "UNTIL 120",
+      "title_vi": "TỚI NĂM 120 TUỔI",
+      "headline": "He planned to run Nvidia until he was 120",
+      "headline_vi": "Ông định điều hành Nvidia tới năm 120 tuổi",
+      "a": {
+        "who": "Casey Newton",
+        "what": "Huang resigned on Thursday after 33 years, with the chief financial officer stepping in while the board starts a search. Newton's point is not the affairs. It is that a 63-year-old chief executive with more than 60 direct reports had no succession plan and had reportedly told colleagues he would run Nvidia until he was 120, while Founders Fund launched in 2005 promising never to remove a founder and Andreessen Horowitz still calls criticising one a fireable offence. His closing line: the real scandal is that Huang thought only he could run the company he founded.",
+        "what_vi": "Huang từ chức hôm thứ Năm sau 33 năm, CFO lên tạm quyền trong lúc board đi tìm người thay. Điều Newton nhắm tới không phải mấy vụ ngoại tình. Là chuyện một CEO 63 tuổi với hơn 60 báo cáo trực tiếp mà không có kế hoạch kế nhiệm, lại còn nói với đồng nghiệp là sẽ điều hành Nvidia tới năm 120 tuổi, trong khi Founders Fund từ 2005 đã cam kết không bao giờ gạt một founder ra, và Andreessen Horowitz tới giờ vẫn coi việc chê founder là lý do đủ để sa thải. Câu kết của anh: scandal thật là Huang tin chỉ mình ông ta điều hành được công ty mình lập ra."
+      },
+      "b": {
+        "who": "Philip Selznick",
+        "what": "His 1957 book splits two words we use interchangeably: an organisation is a tool built for a job, an institution is one infused with value beyond the technical requirements of the task at hand. The chapter on what a leader is actually for is called The Institutional Embodiment of Purpose.",
+        "what_vi": "Cuốn sách năm 1957 của ông tách hai chữ ta vẫn dùng lẫn: organisation là công cụ dựng lên để làm một việc, còn institution là tổ chức đã được thổi vào giá trị vượt ra ngoài yêu cầu kỹ thuật của việc đó. Chương nói về việc một người lãnh đạo thật ra tồn tại để làm gì có tên: The Institutional Embodiment of Purpose."
+      },
+      "result": "Embodiment is a transfer, not a performance. Sixty direct reports and a plan to work until 120 is not a strong founder, it is an unfinished job.",
+      "result_vi": "Embodiment là một lần chuyển giao, không phải một màn diễn. Sáu mươi báo cáo trực tiếp cộng kế hoạch làm tới năm 120 tuổi không phải một founder mạnh, đó là một việc chưa làm xong.",
+      "result_underline": "it is an unfinished job",
+      "result_underline_vi": "đó là một việc chưa làm xong",
+      "tick": "If you vanished for a month, which decisions would simply stop?",
+      "tick_vi": "Nếu bạn mất tích một tháng, quyết định nào sẽ đứng im luôn?",
+      "tick_bold": [
+        "which decisions would simply stop"
+      ],
+      "tick_bold_vi": [
+        "quyết định nào sẽ đứng im luôn"
+      ],
+      "provocation": "Being irreplaceable is not a credential, it is a backlog item nobody closed. Nvidia generated a 700,000 percent return under Huang and still had one person holding the purpose, 60 direct reports and no second name on the list. Selznick's test is simple: an organisation runs a task, an institution carries a purpose, and the only proof you built the second one is that it survives you.",
+      "provocation_vi": "Không thể thay thế không phải một thành tích, nó là một việc trong backlog chưa ai đóng. Nvidia sinh ra mức lợi nhuận 700.000 phần trăm dưới thời Huang mà vẫn chỉ có một người giữ phần mục đích, 60 báo cáo trực tiếp và không có cái tên thứ hai nào trong danh sách. Bài kiểm tra của Selznick đơn giản: organisation chạy một công việc, institution mang một mục đích, và bằng chứng duy nhất cho thấy bạn dựng được cái thứ hai là nó sống tiếp khi không còn bạn.",
+      "source": {
+        "site": "Platformer",
+        "title": "Jensen Huang and the end of the 'lol nothing matters' era of American politics",
+        "url": "https://www.platformer.news/jensen-huang-resigns-founder-cult-accountability/",
+        "published": "2026-11-13"
+      }
+    },
+    {
+      "title": "NEAR THE DATA",
+      "title_vi": "NGAY CẠNH DATA",
+      "headline": "Millions of edges, queried inside a browser tab",
+      "headline_vi": "Hàng triệu edge, query ngay trong một tab browser",
+      "a": {
+        "who": "Ilya Boyandin",
+        "what": "He built Flowmap City on a small budget and did not want a database server, so uploads sit in S3 as Parquet and DuckDB compiled to WebAssembly runs the SQL in the browser; panning or zooming the map fires a batch of queries with no round trip. Those pieces became SQLRooms, which now runs Foursquare's Spatial Desktop, generating map tiles on demand from the user's own data, and Cosmograph, exploring graphs of several million edges in a tab. Even the AI assistant works this way: the dataset stays on the machine, and only the schema and selected results go out.",
+        "what_vi": "Anh làm Flowmap City với ngân sách nhỏ và không muốn nuôi database server, nên data upload nằm trên S3 dưới dạng Parquet, còn DuckDB biên dịch sang WebAssembly chạy SQL ngay trong browser; kéo map hay zoom là bắn một loạt query, không đi vòng lên server. Mấy mảnh đó thành SQLRooms, giờ chạy cho Spatial Desktop của Foursquare, sinh map tile tại chỗ từ data của chính người dùng, và cho Cosmograph, soi graph vài triệu edge trong một tab. Cả con AI assistant cũng vậy: dataset nằm lại trên máy, chỉ schema và vài kết quả được chọn mới đi ra ngoài."
+      },
+      "b": {
+        "who": "Jim Gray",
+        "what": "In a 2003 Microsoft report he priced the parts of a distributed system and found that one dollar bought roughly a gigabyte sent over the wide-area network, or eight hours of CPU. Moving the bytes, in other words, is the expensive half. His conclusion was five words long: put the computation near the data.",
+        "what_vi": "Trong một technical report năm 2003 ở Microsoft, ông đi định giá từng phần của một hệ phân tán và thấy: một đô mua được khoảng một gigabyte truyền qua WAN, hoặc tám tiếng CPU. Nói cách khác, phần đắt là phần chuyển byte. Kết luận của ông gọn trong một câu: đặt phần tính toán ngay cạnh data."
+      },
+      "result": "The warehouse read Gray's rule as an instruction to haul all the data into one place so the compute could sit beside it. Read the other way it says compute belongs wherever the question is, and the question is sitting on somebody's laptop.",
+      "result_vi": "Cái warehouse đọc nguyên tắc của Gray thành: dồn hết data về một chỗ để compute ngồi cạnh. Đọc ngược lại, nó nói compute phải ở nơi có câu hỏi, và câu hỏi đang nằm trên laptop của một người nào đó.",
+      "result_underline": "the question is sitting on somebody's laptop",
+      "result_underline_vi": "câu hỏi đang nằm trên laptop của một người nào đó",
+      "tick": "Which of today's queries would just run on your laptop?",
+      "tick_vi": "Trong số query hôm nay, cái nào chạy thẳng trên laptop của bạn là xong?",
+      "tick_bold": [
+        "just run on your laptop"
+      ],
+      "tick_bold_vi": [
+        "chạy thẳng trên laptop của bạn"
+      ],
+      "provocation": "Gray's rule is twenty-three years old and still the only one that matters: the bytes cost more to move than the arithmetic costs to do. Flowmap City keeps Parquet in S3 and runs the SQL in the browser, so dragging a map of mobility flows costs no round trip at all. Most pipelines still move the data to the compute, and call the latency a scale problem.",
+      "provocation_vi": "Nguyên tắc của Gray đã hai mươi ba tuổi và vẫn là cái duy nhất đáng kể: chuyển byte đắt hơn làm phép tính. Flowmap City để Parquet trên S3 và chạy SQL trong browser, nên kéo một cái map dòng di chuyển không tốn vòng đi về nào cả. Phần lớn pipeline vẫn đang chuyển data tới chỗ compute, rồi gọi phần chờ đó là vấn đề scale.",
+      "source": {
+        "site": "DuckDB",
+        "title": "Local Analytics Doesn't Need a Database Server",
+        "url": "https://duckdb.org/2026/11/12/local-analytics-without-a-database-server",
+        "published": "2026-11-12"
+      }
+    }
+  ]
+}
