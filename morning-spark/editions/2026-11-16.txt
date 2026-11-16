@@ -1,0 +1,22 @@
+Morning Spark · Monday, November 16 · Ed. 88
+Whatever you did not write down, the agent invents.
+
+─────────────────
+01 · The installer became a block of text
+Robin Sloan × Marshall McLuhan
+Sloan sets the PyTorch configurator grid next to a copy prompt button and calls it the old software distribution and the new. The installer has been superseded by something closer to a postcard: text you photograph, paste, and keep in a drawer. McLuhan's warning lands exactly here, because the content is the same familiar option matrix, so nobody notices the medium is now writing.
+→ https://www.robinsloan.com/lab/new-distribution/
+
+─────────────────
+02 · Four months by hand, two hours with somewhere to run
+Swami Sivasubramanian × Donald Schön
+He sat with an agent for four nights on a replication engine before noticing the real problem: it had nowhere to try anything. Given a spec and a place to run, the same rebuild took two hours, against four months by hand twenty years ago. Schön's practitioner gets good by making a move and listening to what the situation says back, which is why an agent with nothing to push against is only guessing fluently.
+→ https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html
+
+─────────────────
+03 · The CFO got 1.2 million, sales got 1.4
+Adrian Brudaru × Ludwig Wittgenstein
+An agent wired to raw systems reads the business rules off the shape of the tables, and reads them differently for each person who asks, so the CFO gets 1.2 million and sales gets 1.4. Brudaru's line is that agents replaced the analyst, not the warehouse: the meaning belongs in an ontology, the rules in tested code. Wittgenstein got there first. A definition only you can hold is not a definition.
+→ https://dlthub.com/blog/mcp-on-raw-data-is-excel-hell-again
+
+Full styled card → open the session.
