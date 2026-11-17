@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-17",
+  "edition": 89,
+  "framing": "The work moved. Most of us still watch the old spot.",
+  "framing_vi": "Việc đã dịch chỗ. Phần lớn chúng ta vẫn nhìn chỗ cũ.",
+  "note": "Themes: a developer who can ship orders of magnitude faster and hates the work now, the argument that understanding code is what blocks understanding systems, and sixteen weeks of token telemetry showing two labs at ninety percent share of two different tiers. Through-line: in all three the work moved and the attention did not -- the pleasure left execution for supervision, the understanding left the source for the behaviour, the margin left the whole market for its two ends. Steered off Ed 88's avoid list: nothing framed on writing things down (spark one does mention Smith's mountain of markdown files because it is her own account, but the card is framed on the flow preconditions, not on specification, and spark two is actively anti-text), nothing on distribution or packaging, and nothing where the punch is an agent guessing wrong -- in spark one the agents work exactly as intended and that is the whole problem. Roster: three A-sides at n=0 on the who (Rach Smith, Marc Brooker) plus Tomasz Tunguz at n=7, rested nine days since Nov 8, taken because his piece was the only hard-numbers data post on today's wire. Hosts: rachsmith.com n=0, brooker.co.za n=0, tomtunguz.com n=7. Three B-sides never used as a who on the 88-edition ledger (Mihaly Csikszentmihalyi, W. Ross Ashby, Michael Porter); Harry Braverman was the first instinct for spark one and was dropped because he ran on Nov 10. All three pairings checked programmatically against the full 88-edition pairing set; all three URLs checked for 200 and against the used-URL set. Verification discipline: all three pieces read in full over curl. Smith is a short note and the card takes all of it (bad output, then heavy-handed models, then the be-specific-and-confirm-assumptions trick, tests to prove it, no flow, four hours feeling like six, exhausted from parsing, cannot go back because velocity expectations shifted, AI-powered teammates out-shipping her, grieving). Brooker read in full (the No AI Slop Manifesto's 'understanding over speed', the sixty years of privileging program text, the uncommitted-transaction SELECT as a precise property, 'makes the user's life easier' as a fuzzy one, metastable failures and the Lorenz attractor as emergent ones, no Bode plot or Nyquist criterion yet, the screw and the aggregate and the PCB trace, 'it is time to look up'). Tunguz read in full including his footnotes (Databricks Unity Gateway, 10,000+ enterprises, Anthropic 81 to 94 percent of SOTA tokens and ~70 percent of proprietary spend, Opus 5.5 on Sep 21, OpenAI Luna cut 80 percent on Jul 30 then another 50 percent to $0.10/1m, low-end share 30 to 66 to a peak of 84 and 81 percent on Nov 2, open-weight 7 to 33 percent then stalled at 31, mid tier 0 to 47 percent and 57 percent of the newest Sonnet-vs-Sol cohort in six weeks, the 200:1 blended-price assumption, and his closing subsidy-or-structural-cost question). The underlying primary is the Databricks AI Index published Nov 16; the card cites Tunguz because the strategic question is his. B-sides: Ashby verified verbatim from the Introduction to Cybernetics PDF, chapter 6, section 6/3 -- 'all knowledge obtainable from a Black Box (of given input and output) is such as can be obtained by re-coding the protocol; all that, and nothing more' -- plus 6/1 on systems whose internal mechanisms are not open to inspection and 6/4 on no skill being required for the first random pokes. Csikszentmihalyi verified against the flow literature summary: clear goals, clear and immediate feedback, challenge-skill balance as the central precondition, and the merging of action and awareness; no page or book quote is claimed because only secondary summaries were read. Porter is taken from a reputable secondary summary of the generic strategies and the 'hole in the middle' profit-impact observation, not from Competitive Strategy itself, so the card paraphrases and quotes nothing. Fresh and strong but passed over today: Kellblog 'The Awesome Power of Teams Sitting Around a Table of Numbers' (Nov 16) is PAID-GATED after the setup, so it cannot be read -- same failure mode as Kent Beck, retire both unless a free version appears. Vercel 'Agents are users, so your software needs evals' (Nov 16, n=0 host, genuinely good segmentation card, held because evals were too near Ed 87's grading theme); Pragmatic Engineer 'Software engineering after code becomes cheap with Satya Nadella' (Nov 16, host n=5); Teresa Torres 'Ch. 11: Measuring Impact' (Nov 16, signature source, unspent); towardsdatascience 'After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th' (Nov 16, lovely Tversky-and-Kahneman law-of-small-numbers pairing, held only because the punch is a model getting it wrong and that was on today's avoid list -- it is clear from tomorrow); towardsdatascience 'Why Human in the Loop AI Oversight Fails and How to Fix It' (Nov 16, Bainbridge ran Oct, so needs a different B-side); matduggan 'So all software is free as in money now?' (Nov 13) and uxdesign 'Why bother paying for software anymore?' (Nov 16) are a natural willingness-to-pay pair but both would collide with today's pricing card; Joe Reis 'Do Data Roles Have a Future?' (Nov 15, now three deferrals, take it soon); nngroup 'Research-In-The-Loop' (Nov 13, fourth deferral); posthog 'The modern data stack had a good run' (Nov 12); rachsmith 'How long have we got before the agent output is enshittified?' (Nov 13, same blog as today so rest it a while); InfoQ 'Technical Debt is Social' (Nov 12); Shopify 'generative discovery model' (Nov 11); Core77 'Polestar's New Concept Features User-Configurable Physical Buttons' (Nov 13) is a good hardware-interaction card if a design B-side ever needs a carrier. The unspent Goffman front-stage pairing from Ed 83 is still looking for one. Feed notes over curl today: a 145-feed sweep parsed clean; brooker.co.za serves http in its feed but https resolves 200 and that is what the card uses. Avoid tomorrow: flow, craft and how the work feels; reading versus observing a system; and price tiers or ends of a market.",
+  "sparks": [
+    {
+      "title": "NO FLOW",
+      "title_vi": "KHÔNG CÓ FLOW",
+      "headline": "The agent ships faster and the day feels longer",
+      "headline_vi": "Agent ship nhanh hơn, mà ngày thì dài hơn",
+      "a": {
+        "who": "Rach Smith",
+        "what": "She walks through three stages honestly. First the agent output was straight bad. Then the models got good but heavy-handed, doing things she never asked for, and she learned the trick: be incredibly specific about requirements and make the agent confirm its assumptions before it acts. Now, with that approach and a mountain of markdown files, she generates code that works and has tests to prove it, orders of magnitude faster than she could before. And she does not like working this way. Her lifelong special interest was writing code to make things. Instead she writes requirements, answers questions, reads lines and lines and lines, and QA tests the results. There is no flow in it anywhere. She works four hours and it feels like six, and she is exhausted from parsing that much information. She also cannot go back, because expectations around velocity have shifted and her AI-powered teammates out-ship her any day. She says she is stuck grieving what she lost.",
+        "what_vi": "Cô kể ba giai đoạn rất thật. Đầu tiên agent viết ra toàn đồ dở. Rồi model khá lên nhưng nặng tay, tự làm những thứ cô không hề nhờ, và cô tìm ra cách: mô tả yêu cầu cực kỳ cụ thể, và bắt agent xác nhận mọi giả định trước khi làm. Giờ với cách đó cộng một núi file markdown, cô ra được code chạy được, có test để chứng minh, nhanh hơn trước cả mấy bậc. Và cô không thích làm việc kiểu này. Sở thích cả đời của cô là viết code để tạo ra thứ gì đó. Còn giờ thì cô viết requirement, trả lời câu hỏi, đọc hết dòng này tới dòng khác, rồi QA lại kết quả. Không có chỗ nào cho flow. Làm bốn tiếng mà cảm giác như sáu, và cô kiệt sức vì phải đọc hiểu quá nhiều thông tin. Cô cũng không quay lại được, vì kỳ vọng về tốc độ đã khác, và mấy đồng đội có AI ship nhiều hơn cô bất cứ ngày nào. Cô bảo mình đang mắc lại ở chỗ tiếc cái đã mất."
+      },
+      "b": {
+        "who": "Mihaly Csikszentmihalyi",
+        "what": "Flow is not a mood, it has preconditions, and they are specific: goals clear enough to give the work direction, feedback that is clear and immediate, and a challenge sitting right at the edge of your own skill. The challenge-to-skill balance is the central one, and it only holds when the goals are clear and the feedback actually arrives. Satisfy all three and action and awareness merge and the hours vanish. Break one and the same hours get heavy.",
+        "what_vi": "Flow không phải một tâm trạng, nó có điều kiện, và điều kiện rất cụ thể: mục tiêu đủ rõ để công việc có hướng, feedback rõ và tức thì, và độ khó nằm đúng ở mép skill của bạn. Cái cân giữa độ khó và skill là cái trung tâm, mà nó chỉ đứng được khi mục tiêu rõ và feedback thật sự về tới. Đủ cả ba thì hành động và nhận thức nhập lại làm một, và mấy tiếng bay đi mất. Hụt một cái thì đúng mấy tiếng đó trở nên nặng."
+      },
+      "result": "Her exhaustion is not nostalgia. Hand off the execution and the feedback stops being immediate and the challenge stops matching your skill, which is two of the three conditions gone. The velocity and the fatigue are the same change, billed twice.",
+      "result_vi": "Cái mệt của cô không phải là nhớ nghề. Giao phần thực thi đi là feedback không còn tức thì và độ khó không còn khớp skill của bạn, mất hai trong ba điều kiện. Tốc độ và cái mệt là cùng một thay đổi, bị tính tiền hai lần.",
+      "result_underline": "the same change, billed twice",
+      "result_underline_vi": "cùng một thay đổi, bị tính tiền hai lần",
+      "tick": "Which part of your day still returns feedback fast enough to disappear into?",
+      "tick_vi": "Phần nào trong ngày của bạn còn trả feedback đủ nhanh để bạn đắm vào được?",
+      "tick_bold": [
+        "feedback fast enough"
+      ],
+      "tick_bold_vi": [
+        "feedback đủ nhanh"
+      ],
+      "provocation": "Smith can now generate tested code orders of magnitude faster than before, and she says plainly that she does not like working this way: no flow, four hours that feel like six, exhausted from parsing. Csikszentmihalyi explains the bill. Flow needs immediate feedback and a challenge at the edge of your skill, and delegating the making removes both at once.",
+      "provocation_vi": "Smith giờ ra được code có test nhanh hơn trước cả mấy bậc, và cô nói thẳng là cô không thích làm kiểu này: không có flow, bốn tiếng mà như sáu, kiệt sức vì đọc. Csikszentmihalyi giải thích cái giá đó. Flow cần feedback tức thì và độ khó nằm ở mép skill, mà giao phần làm đi là mất cả hai cùng lúc.",
+      "source": {
+        "site": "Rach Smith",
+        "title": "The nature of my job has completely changed",
+        "url": "https://rachsmith.com/my-job-has-changed",
+        "published": "2026-11-16"
+      }
+    },
+    {
+      "title": "LOOK UP",
+      "title_vi": "NGẨNG LÊN",
+      "headline": "You were never reading the system, only its source",
+      "headline_vi": "Bạn chưa từng đọc hệ thống, chỉ đọc source của nó",
+      "a": {
+        "who": "Marc Brooker",
+        "what": "People sent him the No AI Slop Manifesto, which values understanding over speed. He agrees with the slogan and then takes it apart, because the manifesto's understanding means reading code, and program text has been privileged in this field for about sixty years. The properties that actually matter are not in any line. Precise ones, like a SELECT never showing results from uncommitted transactions. Fuzzy ones, like making the user's life easier. And genuinely emergent ones, like metastable failure, which is about as tractable to read out of source as the behaviour of a Lorenz attractor. Software engineering, he notes, has not developed its Bode plot or its Nyquist stability criterion yet. We are still looking at each screw, each grain of aggregate, each PCB trace, and trying to understand the whole by thinking very hard. It is time to look up.",
+        "what_vi": "Mấy người gửi cho anh cái No AI Slop Manifesto, trong đó đặt sự hiểu lên trên tốc độ. Anh đồng ý với cái khẩu hiệu, rồi mổ nó ra, vì cái hiểu trong đó nghĩa là đọc code, mà text của chương trình thì được ngành này ưu ái suốt chừng sáu mươi năm. Những tính chất thật sự quan trọng lại không nằm ở dòng nào cả. Loại chính xác, kiểu một câu SELECT không bao giờ thấy kết quả của transaction chưa commit. Loại mờ, kiểu làm cuộc sống của user dễ hơn. Và loại thật sự emergent, kiểu metastable failure, đọc nó ra từ source cũng khó như đọc hành vi của một Lorenz attractor. Anh chỉ ra: software engineering chưa có Bode plot hay Nyquist criterion của riêng nó. Chúng ta vẫn ngồi nhìn từng con vít, từng hạt đá, từng đường mạch, rồi cố hiểu cái tổng thể bằng cách nghĩ thật căng. Tới lúc ngẩng lên rồi."
+      },
+      "b": {
+        "who": "W. Ross Ashby",
+        "what": "In An Introduction to Cybernetics he turns the sealed box into a method. You get inputs you may disturb however you like and outputs you may read, and the work is to keep a protocol: a timed list of what you did and what the box then did. His conclusion is hard and worth saying exactly. All knowledge obtainable from a black box is such as can be obtained by re-coding the protocol, all that and nothing more. He also notes that at the start no skill is required, because with nothing known, random pokes are as defensible as any clever plan. Daily life, he says, is full of systems whose insides are not open to inspection, and they must be handled this way.",
+        "what_vi": "Trong An Introduction to Cybernetics, ông biến cái hộp kín thành một phương pháp. Bạn có input để tác động kiểu gì cũng được và output để đọc, còn việc phải làm là ghi một protocol: danh sách theo thời gian, bạn làm gì và hộp đáp lại gì. Kết luận của ông rất rắn và nên nói đúng nguyên văn. Mọi thứ biết được từ một black box là những gì có thể lấy ra bằng cách mã lại cái protocol đó, chỉ vậy và không gì hơn. Ông còn nói lúc mới bắt đầu thì không cần skill gì, vì khi chưa biết gì thì chọc bừa cũng chính đáng như mọi kế hoạch khôn ngoan. Ông bảo đời thường đầy những hệ thống mà ruột nó không mở ra cho ta xem, và phải xử theo cách này."
+      },
+      "result": "The as-built system was always a black box, and source was a leak we mistook for a window. If the knowledge really lives in the protocol, the thing to build is not a better reader but a better way to poke it.",
+      "result_vi": "Hệ thống như-đã-dựng luôn là một black box, còn source chỉ là một kẽ hở mà ta tưởng là cửa sổ. Nếu phần biết được thật sự nằm trong protocol, thì thứ cần làm không phải một cái đọc giỏi hơn mà là một cách chọc vào nó tốt hơn.",
+      "result_underline": "a better way to poke it",
+      "result_underline_vi": "một cách chọc vào nó tốt hơn",
+      "tick": "What do you know about your system that no diff could have told you?",
+      "tick_vi": "Bạn biết gì về hệ thống của mình mà không diff nào nói cho bạn được?",
+      "tick_bold": [
+        "no diff could have told you"
+      ],
+      "tick_bold_vi": [
+        "không diff nào nói cho bạn được"
+      ],
+      "provocation": "Brooker thinks insisting on understanding the code is the part that holds us back, because the properties worth having are non-local and some are emergent, and the field has no Bode plot yet. Ashby had already drawn the boundary: everything knowable about a sealed system comes from re-coding the protocol of pokes and responses, and nothing more. Reading the source feels like understanding because it is the only window we were ever handed.",
+      "provocation_vi": "Brooker cho rằng chính việc khăng khăng phải hiểu code mới là thứ kéo chúng ta lại, vì những tính chất đáng có thì không nằm ở một chỗ, có cái còn là emergent, mà ngành này thì chưa có Bode plot. Ashby đã vạch sẵn cái ranh: mọi thứ biết được về một hệ thống kín đều đến từ việc mã lại cái protocol chọc và đáp, không gì hơn. Đọc source cho ta cảm giác là đang hiểu, vì đó là cửa sổ duy nhất từng được phát cho ta.",
+      "source": {
+        "site": "Marc Brooker",
+        "title": "What does it mean to understand what we built?",
+        "url": "https://brooker.co.za/blog/2026/11/16/understanding.html",
+        "published": "2026-11-16"
+      }
+    },
+    {
+      "title": "NINETY EACH",
+      "title_vi": "MỖI BÊN CHÍN MƯƠI",
+      "headline": "Two labs, ninety percent share each, different markets",
+      "headline_vi": "Hai lab, mỗi bên chín mươi phần trăm, hai thị trường khác nhau",
+      "a": {
+        "who": "Tomasz Tunguz",
+        "what": "Sixteen weeks of Databricks Unity Gateway telemetry across more than ten thousand enterprises, and the shape is clean. Anthropic holds 94 percent of frontier state-of-the-art tokens, up from 81 percent in July after Opus 5.5 shipped, and about 70 percent of proprietary spend. OpenAI holds 81 percent of the low end, after cutting Luna 80 percent in July and another 50 percent since, a 90 percent total reduction that puts GPT-6 Luna at ten cents per million tokens. Open-weight share climbed every week from 7 percent in July to 33 percent in September, then stalled at 31 percent in the very week those cuts landed. The mid tier is the one place the two collide directly: OpenAI went from zero in July to 47 percent of mid-tier volume, and took 57 percent of the newest cohort within six weeks. His question is whether that split is a deliberate pricing strategy or a structural cost difference in how the two serve a token.",
+        "what_vi": "Mười sáu tuần telemetry từ Databricks Unity Gateway trên hơn mười nghìn doanh nghiệp, và hình nó rõ. Anthropic giữ 94 phần trăm token ở tầng frontier, tăng từ 81 phần trăm hồi tháng Bảy sau khi Opus 5.5 ra, và khoảng 70 phần trăm tiền chi cho model đóng. OpenAI giữ 81 phần trăm đầu thấp, sau khi cắt giá Luna 80 phần trăm hồi tháng Bảy rồi cắt thêm 50 phần trăm, tổng là giảm 90 phần trăm, đưa GPT-6 Luna về mười cent cho một triệu token. Phần của model open-weight tăng đều từ 7 phần trăm tháng Bảy lên 33 phần trăm tháng Chín, rồi đứng lại ở 31 phần trăm đúng cái tuần mấy đợt cắt giá đó về. Tầng giữa là chỗ duy nhất hai bên đụng nhau trực diện: OpenAI từ không có gì hồi tháng Bảy lên 47 phần trăm volume tầng giữa, và lấy 57 phần trăm lứa model mới nhất chỉ trong sáu tuần. Câu hỏi của anh là cái thế chia đó là chiến lược giá có chủ đích, hay là khác biệt cấu trúc về chi phí phục vụ một token."
+      },
+      "b": {
+        "who": "Michael Porter",
+        "what": "Pick cost leadership or pick differentiation, and commit, because chasing both leaves a firm stuck in the middle with no direction it can state. The observation underneath the framework was blunter than the framework. Firms with high share did well, firms with low share serving a narrow niche did well, and the least profitable were the ones with moderate share of everything. The hole in the middle.",
+        "what_vi": "Chọn dẫn đầu về chi phí hoặc chọn khác biệt hóa, rồi theo tới cùng, vì đuổi cả hai thì công ty mắc ở giữa, không nói ra được mình đang đi hướng nào. Cái quan sát nằm dưới framework còn thẳng hơn cả framework. Công ty share cao thì sống tốt, công ty share thấp mà bám một ngách hẹp cũng sống tốt, còn lỗ nhất là mấy công ty share vừa vừa ở mọi nơi. Cái lỗ ở giữa."
+      },
+      "result": "Nobody here has ninety percent of the market. Each has ninety percent of an end. Porter's hole in the middle is not between the two labs, it is where the open-weight models stalled.",
+      "result_vi": "Ở đây không ai có chín mươi phần trăm thị trường. Mỗi bên có chín mươi phần trăm của một đầu. Cái lỗ ở giữa của Porter không nằm giữa hai lab, nó nằm đúng chỗ mấy model open-weight đứng lại.",
+      "result_underline": "it is where the open-weight models stalled",
+      "result_underline_vi": "nó nằm đúng chỗ mấy model open-weight đứng lại",
+      "tick": "Which end of your market are you winning, and when did you choose it?",
+      "tick_vi": "Bạn đang thắng ở đầu nào của thị trường, và bạn chọn nó từ lúc nào?",
+      "tick_bold": [
+        "when did you choose it"
+      ],
+      "tick_bold_vi": [
+        "bạn chọn nó từ lúc nào"
+      ],
+      "provocation": "Two vendors each hold roughly ninety percent share, of two different tiers: Anthropic 94 percent of frontier tokens, OpenAI 81 percent of the low end after a ninety percent price cut. Porter said the money sits at the ends and the losses sit in the middle. Read the telemetry that way and the striking number is not either ninety, it is open-weight share stalling at 31 percent the same week the floor got cheaper.",
+      "provocation_vi": "Hai bên mỗi bên giữ khoảng chín mươi phần trăm share, mà là của hai tầng khác nhau: Anthropic 94 phần trăm token frontier, OpenAI 81 phần trăm đầu thấp sau khi cắt giá chín mươi phần trăm. Porter nói tiền nằm ở hai đầu còn lỗ nằm ở giữa. Đọc telemetry theo hướng đó thì con số đáng chú ý không phải cái chín mươi nào cả, mà là phần open-weight đứng lại ở 31 phần trăm đúng cái tuần cái sàn rẻ đi.",
+      "source": {
+        "site": "Tomasz Tunguz",
+        "title": "Strategic Decision or Structural Advantage?",
+        "url": "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+        "published": "2026-11-16"
+      }
+    }
+  ]
+}

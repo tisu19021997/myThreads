@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, November 17 · Ed. 89
+The work moved. Most of us still watch the old spot.
+
+─────────────────
+01 · The agent ships faster and the day feels longer
+Rach Smith × Mihaly Csikszentmihalyi
+Smith can now generate tested code orders of magnitude faster than before, and she says plainly that she does not like working this way: no flow, four hours that feel like six, exhausted from parsing. Csikszentmihalyi explains the bill. Flow needs immediate feedback and a challenge at the edge of your skill, and delegating the making removes both at once.
+→ https://rachsmith.com/my-job-has-changed
+
+─────────────────
+02 · You were never reading the system, only its source
+Marc Brooker × W. Ross Ashby
+Brooker thinks insisting on understanding the code is the part that holds us back, because the properties worth having are non-local and some are emergent, and the field has no Bode plot yet. Ashby had already drawn the boundary: everything knowable about a sealed system comes from re-coding the protocol of pokes and responses, and nothing more. Reading the source feels like understanding because it is the only window we were ever handed.
+→ https://brooker.co.za/blog/2026/11/16/understanding.html
+
+─────────────────
+03 · Two labs, ninety percent share each, different markets
+Tomasz Tunguz × Michael Porter
+Two vendors each hold roughly ninety percent share, of two different tiers: Anthropic 94 percent of frontier tokens, OpenAI 81 percent of the low end after a ninety percent price cut. Porter said the money sits at the ends and the losses sit in the middle. Read the telemetry that way and the striking number is not either ninety, it is open-weight share stalling at 31 percent the same week the floor got cheaper.
+→ https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/
+
+Full styled card → open the session.
