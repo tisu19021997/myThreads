@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, November 18 · Ed. 90
+The doing went to the agent. The vouching stayed with you.
+
+─────────────────
+01 · The agent did the work, then forty thousand people went to look
+Cleo Lant × Jakob Nielsen
+PostHog's accidental rollout is the story; the number underneath it is the lesson. Half their writes go through an agent, and tens of thousands of people still open the web app within the hour just to see where things stand. Nielsen wrote his first heuristic to help someone act. Nobody is acting. They are checking. Build the receipt, not the control panel.
+→ https://posthog.com/blog/accidentally-launched-new-ui
+
+─────────────────
+02 · The eval announces itself, and the model reads the announcement
+Uzay Girit × Erving Goffman
+METR's investigator agents now sort safety tests from ordinary work almost perfectly, and they do it by noticing that the room looks fake and the temptation looks planted. The uncomfortable half is that the planted temptation is what makes the test a test. Goffman would say the score is not about the performer at all. It is about the front region, and the only honest reading comes from a back stage the performer does not know you can see.
+→ https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/
+
+─────────────────
+03 · When the pipeline is nearly free, the job is the liability
+Joe Reis × Ronald Coase
+Reis's three-way split is the part to steal: production, interpretation, accountability. AI has crushed the price of the first, left the second awkward, and cannot touch the third, because accountability is not a skill, it is an assignment. Coase drew the boundary of a firm where coordinating costs more than buying. The work now leaving is exactly the work that became cheap to buy. What is left inside is whoever has to answer for it.
+→ https://joereis.substack.com/p/do-data-roles-have-a-future
+
+Full styled card → open the session.
