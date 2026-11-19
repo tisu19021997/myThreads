@@ -1,0 +1,22 @@
+Morning Spark · Thursday, November 19 · Ed. 91
+The work got cheap. The bill moved to whoever absorbs it.
+
+─────────────────
+01 · Finding bugs went free, and the maintainer got the invoice
+Ashley Wolf × Elinor Ostrom
+Thousands of flagged issues became 99 reports only because seven researchers spent two days per project checking them by hand, and maintainers fixed 55 of those, 14 already shipped. The part to keep is the standard: check it, report it privately, include the fix. Ostrom's commons lasted where taking was bound to providing. Triage is not the maintainer's job. It is the sender's bill.
+→ https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/
+
+─────────────────
+02 · The guardrail that does not ask you a question
+Simon Willison × Jerome Saltzer
+The external sandbox puts the agent outside and the execution inside: only the folders you mount, no network beyond the hosts you allow, and API keys the proxy adds so the agent never holds them. Willison's reason is not paranoia about models, it is decision fatigue. Approve every action and you will soon approve everything without reading. Saltzer wrote that down in 1975 and called it psychological acceptability. A protection you have to think about is one you will get wrong.
+→ https://blog.primeradiant.com/external-sandboxes-for-coding-agents/
+
+─────────────────
+03 · The FLOPs said nine hours. The housekeeping said otherwise.
+Bruno Duarte × Gene Amdahl
+272 fine-tuning jobs, 7,382 GPU-hours, and the FLOP estimate everyone uses explains almost none of the wall clock: R squared 0.31, twelve hours of mean error on jobs that average twenty-three. A boosted tree reading nothing but the submitted config gets to 1.71 hours, and its strongest signal is how much evaluation you scheduled, not how big the model is. Amdahl opened his 1967 paper by counting the housekeeping at 40 percent of instructions. The math is not the part your estimate gets wrong.
+→ https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time
+
+Full styled card → open the session.
