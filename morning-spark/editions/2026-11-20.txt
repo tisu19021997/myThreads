@@ -1,0 +1,22 @@
+Morning Spark · Friday, November 20 · Ed. 92
+Three fights over the yardstick: who names it, who moves it.
+
+─────────────────
+01 · Everyone adopted the tool. Nobody named what good looks like.
+Eira May × Ikujiro Nonaka
+Snowflake's rollout went looking for what its best engineers had invented and came back with about 14 named patterns, then spread them with recurring focus weeks instead of a mandate, and left the org chart for last. Nonaka's spiral says the same thing: adoption only ever spreads tacit skill to whoever sits nearby, and the step every company skips is the one where somebody finds the words.
+→ https://stackoverflow.blog/2026/11/19/chaos-then-control/
+
+─────────────────
+02 · Score against physics, not against last quarter's best
+Shashwat Kumar × Charles Sanders Peirce
+Google's qubits won a game no pre-written table can win, 98.30 percent against a classical ceiling of 88.89, and measured their own contextuality at 5.590 against a physical limit of 6. The part worth stealing is the accident: a test scored against a fixed natural limit caught coherent errors that random-circuit benchmarks average away, and it cannot saturate, because nobody can move the ceiling.
+→ https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/
+
+─────────────────
+03 · The side that can walk away cheaply never has to listen
+Julián Posada × Albert Hirschman
+On Scale AI's Outlier platform the same job advertises up to 180 dollars an hour for a US physician, 12.50 for Swahili in Tanzania and 7.50 for Tagalog in the Philippines, and the terms let the platform withhold accrued pay at its sole determination and deactivate an account without notice. Hirschman's model runs backwards here: the buyer is the one who can leave cheaply, so nobody is obliged to listen, and at a 2024 meeting convened on exactly this question the room went quiet because no workers were in it.
+→ https://restofworld.org/2026/ai-jobs-skills-gig-work/
+
+Full styled card → open the session.
