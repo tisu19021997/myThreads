@@ -1,0 +1,22 @@
+Morning Spark · Saturday, November 21 · Ed. 93
+Three things nobody has to see, and what that costs.
+
+─────────────────
+01 · Four shapes decide whether local decisions can work at all
+Matthias Bentert × Friedrich Hayek
+Two researchers proved there are exactly four network shapes that stop routers, deciding locally in under a millisecond with no memory of where a packet has been, from always delivering it. The four are so simple that the denser your network, the likelier you have one, which means the standard fix of adding links is what breaks local routing. Hayek's answer to the same problem was the price: one number that smuggles the whole map into a local view, which is precisely what a looping packet does not have.
+→ https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/
+
+─────────────────
+02 · Tests cannot tell you when you are done. Proofs can
+Clark Barrett × Edsger Dijkstra
+Barrett's objection to agents that test, scan and critique themselves is not that they are bad at it. They find plenty. They just cannot tell you when you are finished, because you never know if one more bug is lurking. His company puts a Lean proof under the code instead, so a person can trust it without reading every line. Dijkstra asked for proofs for the opposite reason, because a human skull is small and must understand what it builds. The understanding has not gone away; it has moved into the specification you wrote.
+→ https://latent.space/p/formal-verification
+
+─────────────────
+03 · Fleming's window was seldom if ever opened
+Saloni Dattani × Nassim Nicholas Taleb
+Fleming's open window appears nowhere in his 1929 paper, his colleagues said it was seldom if ever opened, and the discovery cannot be reproduced the way he described it. Pasteur's famous accident was a deliberate run of experiments by his assistant Roux, kept vague because France banned patents on medicines and secrecy was the monopoly. Taleb's narrative fallacy says we turn luck into skill after the fact; these notebooks show the same compression running backwards, performed by people with a commercial reason to keep the method to themselves.
+→ https://www.worksinprogress.news/p/the-trouble-with-serendipity
+
+Full styled card → open the session.
