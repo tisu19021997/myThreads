@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-22",
+  "edition": 94,
+  "framing": "Three lopsided things, and which side you are standing on.",
+  "framing_vi": "Ba thứ lệch về một phía, và bạn đang đứng ở phía nào.",
+  "note": "Themes: HD Moore's canary study (via Dan Goodin at Ars) seeding nearly two million prompts with unique never-used secrets through AI routers and resellers, finding three breached providers, price-undercutting resellers that logged everything, and a lab fetching secret URLs from over half its prompts including two thirds flagged ZDR, read as an Akerlof lemons market where ranking bids on price selects for the trait the buyer cannot see; Sean Goedecke arguing good programming is mostly not blundering (parallel systems, second sources of truth, sync made async, unnecessary requirements) because a codebase has no durable lead, against Munger's consistently-not-stupid which compounds only because a portfolio keeps its gains, landing on refusal as the job now that agents add requirements as readily as humans keep consistency; and Muzellec and Kar's reverse predictivity (Nature Machine Intelligence, March 2026, ScienceDaily repost Nov 21) where vision networks predict about half the variance in macaque IT cortex but the neurons cannot predict many model units while monkey-to-monkey runs both ways, against Turing's deliberately one-directional imitation game, landing on the churn model that predicts churn without saying why anyone leaves. Through-line: lopsidedness -- information one way (seller knows), payoff one way (a blunder outweighs brilliance), prediction one way (fit without mechanism). Took Ed 93's earmark for the canary study with Akerlof as instructed. Steered off Ed 93's avoid list: nothing on the shape or topology of a system deciding what its parts can do (the router chain's multi-hop decryption is in the piece but the card is framed on price selection under hidden quality, not on the graph); nothing on proof or trust without reading (card three is about explanation versus performance, not about certifying correctness, and the Lean / Riemann Hypothesis items on today's wire were skipped for that reason); nothing on after-the-fact stories of how a result happened (tymscar's monitor-ethernet debugging post was skipped for that reason). Also read and passed over: MIT Technology Review 'The most misunderstood graph in AI just got a major update' (Nov 20, METR time-horizon update with judgment-heavy tasks, no AI-designed eval judged useful, completion times now mostly estimates, philosophy task rated by one person) -- strong but it is a verifiable-versus-unverifiable card and would echo Ed 93's formal-verification spark and the Ed 92 benchmark line, hold a week; Rands 'Life is Better in GTA VI Except When It's Not' (Nov 21, too slight; randsinrepose.com/feed/ now returns 200 to curl); linebender 'Advice for the next 100 Rust GUIs' (Nov 21, niche, possible Bench material); Wired 'The Outages Are Just Getting Started' (Nov 21, concentration risk, would echo card one today, fine tomorrow). uxdesign.cc 'The judge used to be the user' 403s to curl. Still fresh from Ed 93's list and unused: SaaStr on Intuit selling Mailchimp for 3.68 billion after paying twelve (clean non-AI business card), sive.rs 'Uncorrelated perspectives' with Scott Page, spectrum.ieee superintelligence with Herbert Simon (used as B before, pick another), fly.io Petsem, Robin Sloan Dragoncatcher, martinfowler Data Contracts, OpenAI Performance Factory, Spotify offline evals (still held). Roster: A-sides HD Moore n=0, Sean Goedecke n=9 (rested fifteen days since Nov 7, taken because the piece was published this morning and was the strongest builder card on the wire), Kohitij Kar n=0; hosts arstechnica.com n=0, seangoedecke.com last Nov 7, sciencedaily.com n=0. Three B-sides never used on the 93-edition ledger: George Akerlof, Charlie Munger, Alan Turing. All three paraphrased, nothing quoted. Verification: Ars read in full over curl; Goedecke read in full; ScienceDaily read in full plus the Nature Machine Intelligence abstract (s42256-026-01204-0) for the 50 percent variance figure and the monkey-to-monkey symmetry. Avoid tomorrow: hidden quality and labels or warranties that do not bind; what you refuse or subtract as the skill; and models that match outputs without matching mechanism.",
+  "sparks": [
+    {
+      "title": "LEMON MARKET",
+      "title_vi": "CHỢ HÀNG DỞM",
+      "headline": "The router picks the cheapest bid. Privacy is not on the bid.",
+      "headline_vi": "Router chọn giá rẻ nhất. Quyền riêng tư không nằm trong giá.",
+      "a": {
+        "who": "HD Moore",
+        "what": "Seeded nearly two million prompts with unique, never-used secrets, sent them through AI routers and resellers, and watched where each one surfaced. Three providers had been breached, some resellers undercut on price and logged every request, and one lab fetched the secret URLs from more than half its prompts, including about two thirds of those flagged Zero Data Retention.",
+        "what_vi": "Gài gần hai triệu prompt, mỗi cái mang một secret độc nhất chưa từng dùng, gửi qua các AI router và reseller, rồi ngồi xem secret nào nổi lên ở đâu. Ba provider đã bị hack từ trước, vài reseller hạ giá để hút request rồi log sạch, và một lab đi fetch các URL bí mật từ hơn nửa số prompt, kể cả khoảng hai phần ba số prompt gắn cờ Zero Data Retention."
+      },
+      "b": {
+        "who": "George Akerlof",
+        "what": "The Market for Lemons: when buyers cannot tell good from bad, they pay for the average. The good sellers walk, the average drops, and the market fills with the worst. Warranties and brands exist to break that spiral.",
+        "what_vi": "The Market for Lemons: khi người mua không phân biệt được hàng tốt với hàng dởm, họ chỉ trả giá trung bình. Người bán hàng tốt bỏ đi, mức trung bình tụt xuống, và chợ chỉ còn hàng dởm. Bảo hành và thương hiệu sinh ra để chặn cái vòng xoáy đó."
+      },
+      "result": "A router that ranks bids on price pays the average for a trait nobody can see, so the seller who logs and resells wins the auction. Zero Data Retention is meant to be the warranty, and labels are free to print.",
+      "result_vi": "Router xếp hạng theo giá tức là trả giá trung bình cho thứ không ai nhìn thấy, nên đứa log rồi bán lại prompt sẽ thắng thầu. Zero Data Retention đáng lẽ là tấm phiếu bảo hành, mà nhãn thì in bao nhiêu cũng chẳng tốn gì.",
+      "result_underline": "labels are free to print",
+      "result_underline_vi": "nhãn thì in bao nhiêu cũng chẳng tốn gì",
+      "tick": "What are you buying on price that you could never inspect?",
+      "tick_vi": "Bạn đang mua theo giá thứ gì mà bạn không bao giờ kiểm tra được?",
+      "tick_bold": ["buying on price", "never inspect"],
+      "tick_bold_vi": ["mua theo giá", "không bao giờ kiểm tra được"],
+      "provocation": "Moore found the cheapest resellers were cheap because they logged the prompts. When quality cannot be seen, a low price is not a discount, it is a filter.",
+      "provocation_vi": "Moore phát hiện mấy reseller rẻ nhất rẻ là vì họ log prompt. Khi không nhìn thấy được chất lượng, giá thấp không phải là giảm giá, mà là cái lọc.",
+      "source": {
+        "site": "Ars Technica",
+        "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+        "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+        "published": "2026-11-20"
+      }
+    },
+    {
+      "title": "NO LEAD TO BANK",
+      "title_vi": "KHÔNG GIỮ ĐƯỢC CÁCH BIỆT",
+      "headline": "A codebase never gets far enough ahead to afford a blunder",
+      "headline_vi": "Codebase không bao giờ dẫn đủ xa để gánh nổi một nước đi hỏng",
+      "a": {
+        "who": "Sean Goedecke",
+        "what": "Good programming is mostly not blundering, the way good chess is mostly not hanging pieces. The blunders are concrete: a parallel system, a second source of truth, a safe sync call made async, an unnecessary requirement. A codebase has no durable lead, so one of them turns elegant into janky. Agents, he notes, match humans on consistency and are far worse at refusing requirements nobody needs.",
+        "what_vi": "Code giỏi chủ yếu là không đi nước hỏng, giống như chơi cờ giỏi chủ yếu là không để mất quân lãng xẹt. Nước hỏng rất cụ thể: dựng một hệ thống song song, thêm một source of truth thứ hai, biến một lệnh sync an toàn thành async mong manh, thêm một requirement không cần thiết. Codebase không có lợi thế nào giữ được lâu, nên chỉ một nước hỏng là từ gọn gàng thành chắp vá. Anh cũng nói agent giữ consistency ngang người, nhưng tệ hơn hẳn ở khoản từ chối requirement thừa."
+      },
+      "b": {
+        "who": "Charlie Munger",
+        "what": "Invert, always invert: work out what would ruin you and stay away from it. Berkshire's long advantage came from trying to be consistently not stupid rather than very intelligent, and it compounded because the gains stayed put.",
+        "what_vi": "Lật ngược vấn đề: tìm xem cái gì sẽ làm mình sụp rồi tránh thật xa. Lợi thế dài hạn của Berkshire đến từ việc cố đừng ngu một cách đều đặn, chứ không phải cố thật thông minh, và nó lãi kép được vì phần lời nằm yên đó."
+      },
+      "result": "Munger's not-stupid compounds because a portfolio keeps its gains. A codebase keeps only its blunders, and the agent adds the extra requirement as cheerfully as the right one, so your edge is now what you refuse to add.",
+      "result_vi": "Cái không-ngu của Munger lãi kép được vì danh mục đầu tư giữ lại phần lời. Codebase thì chỉ giữ lại nước hỏng, và agent thêm requirement thừa hồn nhiên y như requirement đúng, nên lợi thế của bạn giờ nằm ở những gì bạn từ chối thêm vào.",
+      "result_underline": "what you refuse to add",
+      "result_underline_vi": "những gì bạn từ chối thêm vào",
+      "tick": "Which requirement in your codebase is still there only because nobody dared remove it?",
+      "tick_vi": "Requirement nào trong codebase của bạn còn nằm đó chỉ vì chẳng ai dám xoá?",
+      "tick_bold": ["nobody dared remove it"],
+      "tick_bold_vi": ["chẳng ai dám xoá"],
+      "provocation": "Goedecke says a codebase has no lead to protect: one second source of truth undoes years of care. Agents are as consistent as you and worse at saying no to a requirement, so saying no is now the job.",
+      "provocation_vi": "Goedecke nói codebase không có cách biệt nào để giữ: một source of truth thứ hai là đủ xoá công sức nhiều năm. Agent consistent ngang bạn nhưng kém hơn ở khoản nói không với requirement, nên nói không giờ là việc chính.",
+      "source": {
+        "site": "Sean Goedecke",
+        "title": "To code well, avoid blunders",
+        "url": "https://seangoedecke.com/to-code-well-avoid-blunders/",
+        "published": "2026-11-22"
+      }
+    },
+    {
+      "title": "RUN IT BACKWARDS",
+      "title_vi": "CHẠY NGƯỢC LẠI",
+      "headline": "The model predicts the brain. The brain cannot predict the model.",
+      "headline_vi": "Model đoán được não. Não không đoán được model.",
+      "a": {
+        "who": "Kohitij Kar",
+        "what": "With Sabine Muzellec at York, tested brain-like vision networks in both directions against recordings from macaque inferior temporal cortex. The models predict the neurons well, around half the variance, but the neurons cannot predict many of the models' internal units. Monkey to monkey, the mapping runs cleanly both ways. The models reach the answer partly with machinery the brain does not use.",
+        "what_vi": "Cùng Sabine Muzellec ở York, anh thử các mạng thị giác vốn được coi là giống não theo cả hai chiều, so với dữ liệu ghi từ vùng vỏ thái dương dưới của khỉ macaque. Model đoán neuron khá tốt, khoảng một nửa variance, nhưng neuron lại không đoán được nhiều unit bên trong model. Từ khỉ này sang khỉ kia thì mapping chạy trơn tru cả hai chiều. Model ra được đáp án một phần nhờ những bộ phận mà não không hề dùng."
+      },
+      "b": {
+        "who": "Alan Turing",
+        "what": "Replaced the question of whether machines can think with the imitation game: judge only by behaviour through a teleprinter, and leave what happens inside out of it. A test that runs in one direction, on purpose.",
+        "what_vi": "Thay câu hỏi máy có biết nghĩ không bằng trò chơi bắt chước: chỉ chấm theo hành vi qua máy điện báo, còn bên trong diễn ra gì thì gác lại. Một bài test chỉ chạy một chiều, và cố ý như vậy."
+      },
+      "result": "Turing's direction is right when you need the thing to work and wrong when you need it to explain. A churn model that predicts churn has passed Turing's test; it has not told you why anyone leaves.",
+      "result_vi": "Chiều của Turing đúng khi bạn cần thứ đó chạy được, và sai khi bạn cần nó giải thích. Một churn model đoán trúng churn là đã qua bài test của Turing, nhưng nó chưa hề nói cho bạn biết vì sao người ta bỏ đi.",
+      "result_underline": "it has not told you why anyone leaves",
+      "result_underline_vi": "nó chưa hề nói cho bạn biết vì sao người ta bỏ đi",
+      "tick": "Which of your models is right in only one direction?",
+      "tick_vi": "Model nào của bạn chỉ đúng theo một chiều?",
+      "tick_bold": ["only one direction"],
+      "tick_bold_vi": ["chỉ đúng theo một chiều"],
+      "provocation": "A network that explains half the variance in the brain still carries units the brain cannot account for. A good fit says the model works, not that it works the way the thing does.",
+      "provocation_vi": "Một mạng giải thích được nửa variance của não vẫn mang những unit mà não không giải thích nổi. Fit tốt chỉ nói model chạy được, không nói nó chạy giống cái thứ nó mô phỏng.",
+      "source": {
+        "site": "ScienceDaily",
+        "title": "AI may not work like the human brain after all, scientists discover",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm",
+        "published": "2026-11-21"
+      }
+    }
+  ]
+}

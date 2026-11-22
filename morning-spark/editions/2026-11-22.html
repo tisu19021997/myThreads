@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Nov 22</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 94</div></div></div>
+<div class="meta label">Sunday, November 22, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">LEMON MARKET</span><span data-l="vi">CHỢ HÀNG DỞM</span></span></div>
+<div class="eq"><div class="term"><div class="who">HD Moore</div><div class="what"><span data-l="en">Seeded nearly two million prompts with unique, never-used secrets, sent them through AI routers and resellers, and watched where each one surfaced. Three providers had been breached, some resellers undercut on price and logged every request, and one lab fetched the secret URLs from more than half its prompts, including about two thirds of those flagged Zero Data Retention.</span><span data-l="vi">Gài gần hai triệu prompt, mỗi cái mang một secret độc nhất chưa từng dùng, gửi qua các AI router và reseller, rồi ngồi xem secret nào nổi lên ở đâu. Ba provider đã bị hack từ trước, vài reseller hạ giá để hút request rồi log sạch, và một lab đi fetch các URL bí mật từ hơn nửa số prompt, kể cả khoảng hai phần ba số prompt gắn cờ Zero Data Retention.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">George Akerlof</div><div class="what"><span data-l="en">The Market for Lemons: when buyers cannot tell good from bad, they pay for the average. The good sellers walk, the average drops, and the market fills with the worst. Warranties and brands exist to break that spiral.</span><span data-l="vi">The Market for Lemons: khi người mua không phân biệt được hàng tốt với hàng dởm, họ chỉ trả giá trung bình. Người bán hàng tốt bỏ đi, mức trung bình tụt xuống, và chợ chỉ còn hàng dởm. Bảo hành và thương hiệu sinh ra để chặn cái vòng xoáy đó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">A router that ranks bids on price pays the average for a trait nobody can see, so the seller who logs and resells wins the auction. Zero Data Retention is meant to be the warranty, and <u>labels are free to print</u>.</span><span data-l="vi">Router xếp hạng theo giá tức là trả giá trung bình cho thứ không ai nhìn thấy, nên đứa log rồi bán lại prompt sẽ thắng thầu. Zero Data Retention đáng lẽ là tấm phiếu bảo hành, mà <u>nhãn thì in bao nhiêu cũng chẳng tốn gì</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What are you <b>buying on price</b> that you could <b>never inspect</b>?</span><span data-l="vi">Bạn đang <b>mua theo giá</b> thứ gì mà bạn <b>không bao giờ kiểm tra được</b>?</span></p></div>
+<div class="src-link"><a href="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/" target="_blank" rel="noopener">Ars Technica — Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced. &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">NO LEAD TO BANK</span><span data-l="vi">KHÔNG GIỮ ĐƯỢC CÁCH BIỆT</span></span></div>
+<div class="eq"><div class="term"><div class="who">Sean Goedecke</div><div class="what"><span data-l="en">Good programming is mostly not blundering, the way good chess is mostly not hanging pieces. The blunders are concrete: a parallel system, a second source of truth, a safe sync call made async, an unnecessary requirement. A codebase has no durable lead, so one of them turns elegant into janky. Agents, he notes, match humans on consistency and are far worse at refusing requirements nobody needs.</span><span data-l="vi">Code giỏi chủ yếu là không đi nước hỏng, giống như chơi cờ giỏi chủ yếu là không để mất quân lãng xẹt. Nước hỏng rất cụ thể: dựng một hệ thống song song, thêm một source of truth thứ hai, biến một lệnh sync an toàn thành async mong manh, thêm một requirement không cần thiết. Codebase không có lợi thế nào giữ được lâu, nên chỉ một nước hỏng là từ gọn gàng thành chắp vá. Anh cũng nói agent giữ consistency ngang người, nhưng tệ hơn hẳn ở khoản từ chối requirement thừa.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Charlie Munger</div><div class="what"><span data-l="en">Invert, always invert: work out what would ruin you and stay away from it. Berkshire&#x27;s long advantage came from trying to be consistently not stupid rather than very intelligent, and it compounded because the gains stayed put.</span><span data-l="vi">Lật ngược vấn đề: tìm xem cái gì sẽ làm mình sụp rồi tránh thật xa. Lợi thế dài hạn của Berkshire đến từ việc cố đừng ngu một cách đều đặn, chứ không phải cố thật thông minh, và nó lãi kép được vì phần lời nằm yên đó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Munger&#x27;s not-stupid compounds because a portfolio keeps its gains. A codebase keeps only its blunders, and the agent adds the extra requirement as cheerfully as the right one, so your edge is now <u>what you refuse to add</u>.</span><span data-l="vi">Cái không-ngu của Munger lãi kép được vì danh mục đầu tư giữ lại phần lời. Codebase thì chỉ giữ lại nước hỏng, và agent thêm requirement thừa hồn nhiên y như requirement đúng, nên lợi thế của bạn giờ nằm ở <u>những gì bạn từ chối thêm vào</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which requirement in your codebase is still there only because <b>nobody dared remove it</b>?</span><span data-l="vi">Requirement nào trong codebase của bạn còn nằm đó chỉ vì <b>chẳng ai dám xoá</b>?</span></p></div>
+<div class="src-link"><a href="https://seangoedecke.com/to-code-well-avoid-blunders/" target="_blank" rel="noopener">Sean Goedecke — To code well, avoid blunders &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">RUN IT BACKWARDS</span><span data-l="vi">CHẠY NGƯỢC LẠI</span></span></div>
+<div class="eq"><div class="term"><div class="who">Kohitij Kar</div><div class="what"><span data-l="en">With Sabine Muzellec at York, tested brain-like vision networks in both directions against recordings from macaque inferior temporal cortex. The models predict the neurons well, around half the variance, but the neurons cannot predict many of the models&#x27; internal units. Monkey to monkey, the mapping runs cleanly both ways. The models reach the answer partly with machinery the brain does not use.</span><span data-l="vi">Cùng Sabine Muzellec ở York, anh thử các mạng thị giác vốn được coi là giống não theo cả hai chiều, so với dữ liệu ghi từ vùng vỏ thái dương dưới của khỉ macaque. Model đoán neuron khá tốt, khoảng một nửa variance, nhưng neuron lại không đoán được nhiều unit bên trong model. Từ khỉ này sang khỉ kia thì mapping chạy trơn tru cả hai chiều. Model ra được đáp án một phần nhờ những bộ phận mà não không hề dùng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Alan Turing</div><div class="what"><span data-l="en">Replaced the question of whether machines can think with the imitation game: judge only by behaviour through a teleprinter, and leave what happens inside out of it. A test that runs in one direction, on purpose.</span><span data-l="vi">Thay câu hỏi máy có biết nghĩ không bằng trò chơi bắt chước: chỉ chấm theo hành vi qua máy điện báo, còn bên trong diễn ra gì thì gác lại. Một bài test chỉ chạy một chiều, và cố ý như vậy.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Turing&#x27;s direction is right when you need the thing to work and wrong when you need it to explain. A churn model that predicts churn has passed Turing&#x27;s test; <u>it has not told you why anyone leaves</u>.</span><span data-l="vi">Chiều của Turing đúng khi bạn cần thứ đó chạy được, và sai khi bạn cần nó giải thích. Một churn model đoán trúng churn là đã qua bài test của Turing, nhưng <u>nó chưa hề nói cho bạn biết vì sao người ta bỏ đi</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your models is right in <b>only one direction</b>?</span><span data-l="vi">Model nào của bạn <b>chỉ đúng theo một chiều</b>?</span></p></div>
+<div class="src-link"><a href="https://www.sciencedaily.com/releases/2026/11/261120075701.htm" target="_blank" rel="noopener">ScienceDaily — AI may not work like the human brain after all, scientists discover &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-11-21.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-11-21</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: HD Moore / George Akerlof / Sean Goedecke / Charlie Munger / Kohitij Kar / Alan Turing<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: HD Moore / George Akerlof / Sean Goedecke / Charlie Munger / Kohitij Kar / Alan Turing<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

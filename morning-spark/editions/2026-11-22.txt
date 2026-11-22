@@ -1,0 +1,22 @@
+Morning Spark · Sunday, November 22 · Ed. 94
+Three lopsided things, and which side you are standing on.
+
+─────────────────
+01 · The router picks the cheapest bid. Privacy is not on the bid.
+HD Moore × George Akerlof
+Moore found the cheapest resellers were cheap because they logged the prompts. When quality cannot be seen, a low price is not a discount, it is a filter.
+→ https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/
+
+─────────────────
+02 · A codebase never gets far enough ahead to afford a blunder
+Sean Goedecke × Charlie Munger
+Goedecke says a codebase has no lead to protect: one second source of truth undoes years of care. Agents are as consistent as you and worse at saying no to a requirement, so saying no is now the job.
+→ https://seangoedecke.com/to-code-well-avoid-blunders/
+
+─────────────────
+03 · The model predicts the brain. The brain cannot predict the model.
+Kohitij Kar × Alan Turing
+A network that explains half the variance in the brain still carries units the brain cannot account for. A good fit says the model works, not that it works the way the thing does.
+→ https://www.sciencedaily.com/releases/2026/11/261120075701.htm
+
+Full styled card → open the session.
