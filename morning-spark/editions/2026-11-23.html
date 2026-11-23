@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Nov 23</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 95</div></div></div>
+<div class="meta label">Monday, November 23, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">SHARED STEEL</span><span data-l="vi">THÉP DÙNG CHUNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Koji Sato</div><div class="what"><span data-l="en">Japan&#x27;s three biggest automakers will standardize the parts a buyer never sees: one quality standard for steel, one protocol for plastics and resins, one universal colour code for wiring harnesses. Those three were picked precisely because nobody notices them and they touch no brand&#x27;s identity, and the money saved is meant to fund what does.</span><span data-l="vi">Ba hãng xe lớn nhất Nhật sẽ chuẩn hoá đúng những phần khách không bao giờ thấy: một tiêu chuẩn chất lượng cho thép, một quy chuẩn cho nhựa, một bảng mã màu dây điện dùng chung. Chọn đúng ba thứ đó vì không ai để ý tới chúng và chúng không dính gì tới bản sắc thương hiệu, còn tiền tiết kiệm được thì đổ vào phần có dính.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Carliss Baldwin</div><div class="what"><span data-l="en">A design is modular only where you freeze the interface, and value collects at the few points that still hold real options. Everywhere else the design is not strategy, it is cost.</span><span data-l="vi">Một thiết kế chỉ modular ở chỗ bạn chốt cứng interface, và giá trị dồn về vài điểm còn thực sự có lựa chọn. Chỗ còn lại không phải chiến lược, chỉ là chi phí.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Standardising is a positioning test you can run on your own build. Any component three competitors would sit down and agree on is a component none of the three was winning with, and every hour you spend on it is <u>an hour taken from the part that is actually yours</u>.</span><span data-l="vi">Chuẩn hoá là một bài test positioning bạn tự chạy được trên chính sản phẩm mình. Bất cứ phần nào mà ba đối thủ ngồi lại thống nhất được là phần không ai trong ba đang thắng nhờ nó, và mỗi giờ bạn bỏ vào đó là <u>một giờ lấy đi từ phần thật sự là của bạn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Name the part of your product <b>three competitors would standardize with you tomorrow</b>. Why are you still building it alone?</span><span data-l="vi">Kể tên phần trong sản phẩm mà <b>ba đối thủ sẽ chuẩn hoá cùng bạn ngày mai</b>. Sao bạn vẫn tự làm một mình?</span></p></div>
+<div class="src-link"><a href="https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/" target="_blank" rel="noopener">Car and Driver — Toyota, Nissan, and Honda to Standardize Parts to Lower Costs &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">TOILET PAPER CEILING</span><span data-l="vi">TRẦN GIẤY VỆ SINH</span></span></div>
+<div class="eq"><div class="term"><div class="who">Reece Rogers</div><div class="what"><span data-l="en">Banks are shutting third-party agents out. Wells Fargo&#x27;s new terms say using one is at your own risk, Chase banned agents that log in with your credentials, Bank of America, Citibank and PNC added warnings, Amazon blocked Meta&#x27;s Muse, United blocked bots from buying flights. Every one of them is building its own agent at the same time. The researchers quoted put the real limit plainly: people are comfortable letting AI buy toilet paper, and not much above that.</span><span data-l="vi">Các ngân hàng đang chặn agent của bên thứ ba. Điều khoản mới của Wells Fargo nói dùng agent là tự chịu rủi ro, Chase cấm agent đăng nhập bằng thông tin của bạn, Bank of America, Citibank và PNC thêm cảnh báo, Amazon chặn Muse của Meta, United chặn bot mua vé bay. Trong khi đó hãng nào cũng đang tự xây agent riêng. Nghiên cứu trong bài nói thẳng giới hạn thật: người ta thoải mái để AI mua giấy vệ sinh, và hầu như không gì lớn hơn thế.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Amos Tversky</div><div class="what"><span data-l="en">A loss is felt roughly twice as hard as a gain of the same size, so nobody weighs a bet by its average outcome. They weigh it by how bad the bad end feels.</span><span data-l="vi">Mất một đồng đau gấp khoảng hai lần được một đồng, nên không ai cân một vụ cá cược theo kết quả trung bình. Họ cân theo đầu xấu nhất tệ tới đâu.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Agent adoption is not capped by capability. It is capped by blast radius. Amex offering to refund an agent&#x27;s over-order lifts the ceiling further than any smarter model will, because the unlock was never a cleverer agent, <u>it was a cheaper mistake</u>.</span><span data-l="vi">Agent không bị chặn bởi năng lực. Nó bị chặn bởi bán kính thiệt hại. Amex chịu hoàn tiền khi agent đặt thừa còn nâng trần cao hơn bất kỳ model thông minh hơn nào, vì thứ mở khoá chưa bao giờ là một agent giỏi hơn, mà là <u>một cái lỗi rẻ hơn</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What is the worst thing your product can do on a user&#x27;s behalf, and what would it take to <b>make that mistake cheap</b>?</span><span data-l="vi">Điều tệ nhất sản phẩm của bạn có thể làm thay người dùng là gì, và cần gì để <b>biến cái lỗi đó thành rẻ</b>?</span></p></div>
+<div class="src-link"><a href="https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/" target="_blank" rel="noopener">WIRED — Banks Have Had It Up to Here With Your AI Agent &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">THE SURVIVING METRIC</span><span data-l="vi">CHỈ SỐ SỐNG SÓT</span></span></div>
+<div class="eq"><div class="term"><div class="who">Jakub Pachocki</div><div class="what"><span data-l="en">OpenAI published its internal log-perplexity numbers for the first time: about 0.99 at GPT-3.5, 0.91 at GPT-4, now below 0.8, with the next step change expected in the 0.68 to 0.70 window. His argument is that downstream benchmarks saturate and go stale while this one upstream number has kept predicting capabilities nobody had thought to test for, and that it is therefore the right thing for labs to agree a shared limit on.</span><span data-l="vi">Lần đầu tiên OpenAI công bố số log-perplexity nội bộ: khoảng 0.99 ở GPT-3.5, 0.91 ở GPT-4, giờ dưới 0.8, và bước nhảy kế tiếp dự kiến ở khoảng 0.68 đến 0.70. Lập luận của Pachocki: benchmark phía dưới thì bão hoà rồi hết dùng được, còn con số thượng nguồn này vẫn dự báo được cả những năng lực chưa ai nghĩ tới việc đo, nên nó mới là thứ các lab nên thống nhất một ngưỡng chung.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Charles Goodhart</div><div class="what"><span data-l="en">Once a measure becomes a target, the number and the thing it stood for start to come apart, because there is nearly always a cheaper way to move the number than to move the thing.</span><span data-l="vi">Khi một thước đo thành mục tiêu, con số và thứ nó đại diện bắt đầu rời nhau, vì gần như lúc nào cũng có cách làm con số nhúc nhích rẻ hơn là làm thứ thật nhúc nhích.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Perplexity survived years of being targeted for one reason: there is no cheaper way to lower it than to predict better. Gaming it and achieving it are the same act. That is the only real test of a metric, and <u>almost none of yours pass it</u>.</span><span data-l="vi">Perplexity sống sót qua nhiều năm bị nhắm vào chỉ vì một lý do: không có cách nào hạ nó rẻ hơn là dự đoán giỏi hơn. Gian lận nó và đạt được nó là cùng một hành động. Đó là bài test duy nhất cho một metric, và <u>gần như không metric nào của bạn qua được</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Take your north-star metric. What is <b>the cheapest way to move it</b> without moving the thing it stands for?</span><span data-l="vi">Lấy north-star metric của bạn ra. <b>Cách rẻ nhất để đẩy nó lên</b> mà không đẩy thứ nó đại diện là gì?</span></p></div>
+<div class="src-link"><a href="https://openai.com/index/perplexity-and-intelligence/" target="_blank" rel="noopener">OpenAI — Perplexity and Intelligence &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-11-22.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-11-22</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Koji Sato / Carliss Baldwin / Reece Rogers / Amos Tversky / Jakub Pachocki / Charles Goodhart<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Koji Sato / Carliss Baldwin / Reece Rogers / Amos Tversky / Jakub Pachocki / Charles Goodhart<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

@@ -1,0 +1,22 @@
+Morning Spark · Monday, November 23 · Ed. 95
+The number everyone quotes is never the one that moves.
+
+─────────────────
+01 · Three rivals agree to stop paying three times
+Koji Sato × Carliss Baldwin
+Toyota, Nissan and Honda start standardizing steel criteria, plastics protocols and wiring-harness colour codes next year, and they chose those three because no customer notices them. Read it as an audit you can run tonight: anything a competitor would happily share is something you were never differentiating on, and the hours you spend there are hours stolen from the part that is yours.
+→ https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/
+
+─────────────────
+02 · Your agent's market is the size of a cheap mistake
+Reece Rogers × Amos Tversky
+Five US banks changed their agent terms inside a month, Amazon and United started blocking bots outright, and the one task users actually delegate is buying household supplies. The pattern is not distrust of the technology, it is loss aversion doing arithmetic. If you ship agentic anything, your growth lever is the size of the downside, not the size of the model.
+→ https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/
+
+─────────────────
+03 · Optimised for years, and it still measures
+Jakub Pachocki × Charles Goodhart
+OpenAI's chief scientist put his lab's cross-entropy loss since GPT-3.5 on a public chart and proposed it as the industry's shared speed limit. The interesting part for anyone who builds dashboards is not the numbers, it is why that metric did not rot under years of direct optimisation pressure: lowering it and improving the model are indistinguishable. Hold your own north star to that standard and watch how fast it fails.
+→ https://openai.com/index/perplexity-and-intelligence/
+
+Full styled card → open the session.

@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-23",
+  "edition": 95,
+  "framing": "The number everyone quotes is never the one that moves.",
+  "framing_vi": "Con số ai cũng đọc to không phải con số làm nên chuyện.",
+  "note": "Themes: Japan's three largest automakers (announced by JAMA chairman and Toyota vice chairman Koji Sato in Tokyo, Automotive News via Car and Driver Nov 20) agreeing to standardize steel quality criteria, plastics and resin protocols and a universal wiring-harness colour code starting next year, picked because consumers do not notice them and they do not touch brand identity, with savings redirected to differentiation and the China threat as the stated motive, read against Carliss Baldwin on modularity and where option value sits; US banks shutting out third-party agents (Wells Fargo at-your-own-risk terms effective Tuesday, Chase's late-October credential ban, BofA, Citibank and PNC warnings, Amazon blocking Meta's Muse, United blocking flight-buying bots) while each builds a first-party agent, with Kacy Kim's 'consumers authorize goals, not every click', Luca Cian's toilet-paper line and Amex's prospective over-order reimbursement, read against Tversky on loss aversion to land on blast radius rather than capability as the adoption ceiling; and Jakub Pachocki publishing OpenAI's internal log-perplexity series (0.99 at GPT-3.5, 0.91 at GPT-4, now under 0.8, math breakthroughs at ~0.76, next window 0.68-0.70) and proposing it as a cross-lab shared limit, read against Goodhart to land on the one metric test that matters: gaming it and achieving it being the same act. Through-line: the upstream number under the quoted one. Note on accuracy: the published plot starts at GPT-3.5, so the card says 'years', not a decade -- an earlier draft said twelve years of cross-entropy loss and that was wrong; Pachocki says only that the metric has been tracked remarkably constantly over the years. Steered off Ed 94's avoid list: nothing on hidden quality or labels that do not bind (card two deliberately framed on loss asymmetry and blast radius, not on whether Wells Fargo's terms protect anyone, and Amex indemnity was cut from the tail for exactly that reason); nothing on refusal or subtraction as the skill (card one is about where to spend hours, not about what to decline); nothing on models matching outputs without matching mechanism (card three is about metric integrity under optimisation pressure, and Pachocki's own 'detachment from actionable evaluations' caveat was left out to keep it off that ground). Read and passed over: seangoedecke 'When in doubt, flail about' (published this morning, genuinely good, but Goedecke carried Ed 94 yesterday at n=9 -- take it in two or three days before it goes stale); interconnected 'Cool flex AI bro' (Matt Webb on costly signalling, cigarettes among AI researchers, the Wall Street watch hierarchy, the 1840 Paris flaneur walking a tortoise -- a real Webb post and Zahavi or Spence is the obvious unused B-side, but it rests on status and reputation and half of it is Jensen Huang honeytrap gossip; hold it and pair it with Spence when a cleaner A-side appears); fly.io 'Petsem: Sometimes Dead Is Better' (fetched, host still n=0, fourth deferral); tomtunguz 'The 10x Wall' (Anthropic and SpaceX both at 9.5x 2027 revenue despite 288 and 466 percent growth, no company above 1t EV trading above 10x forward sales -- a clean valuation-ceiling card but Tunguz is n=8 and ran Nov 17); research.google on Duplex evolving into Gemini's business-calling (good Bench-adjacent interaction material); O'Reilly Radar 'What Happened to Silicon Valley?' (fetched, unread in full, worth a look); alvinbunk on Nespresso's Project Olympus reducing grams of coffee per capsule (a lovely constraint-engineering card, undated host, keep). Still unspent from older runs: Robin Sloan 'Dragoncatcher: the human voice' (Nov 20), SaaStr on Intuit selling Mailchimp for 3.68 billion after paying twelve, sive.rs 'Uncorrelated perspectives' with Scott Page, martinfowler 'Data Contracts' and his Nov 20 Fragments, MIT Tech Review METR time-horizon update (now three days cooled), Spotify offline evals (still held), spectrum.ieee superintelligence piece (pick a B-side other than Simon). Roster: A-sides Koji Sato n=0, Reece Rogers n=0, Jakub Pachocki n=0; hosts caranddriver.com n=0, wired.com n=0, openai.com n=0 -- three fresh hosts and three fresh A-sides this edition. B-sides never used on the 94-edition ledger: Carliss Baldwin, Amos Tversky, Charles Goodhart. All three pairings and all three URLs checked programmatically against index.json, and all three URLs returned 200. Verification: Car and Driver read in full over curl (it is a short report of an Automotive News story; the Sato quote about a shared sense of crisis is in it, and the three named areas are exact); WIRED read in full (all five banks, both retailer blocks, both named researchers, the ten-roast-chickens hypothetical and the Amex line are from the piece); OpenAI read in full including all five footnotes and the four stated challenges with perplexity as a shared metric. B-sides paraphrased, nothing quoted: Baldwin and Clark's Design Rules on modular interfaces and option value, Kahneman and Tversky's loss aversion at roughly 2x, Goodhart's 1975 remark in its usual generalised form. Feed sweep over curl: 177 feeds, 446 items dated Nov 19 or later. Dead, empty or wrong-path this run: a16z, ai.meta.com, asteriskmag, blog.linebender, designmilk, doordash, eng.uber.com, ethanmollick, every.to, hazyresearch, hbr.org, ialja, kottke, lethain (index.xml), linear.app, longform.asmartbear (so A Smart Bear needs scraping, not the feed), mistral, mitsloan, motherduck, paulgraham (HTML index, not a feed), phys.org, queue.acm.org, rachelbythebay, railway, review.firstround, signalvnoise, stratechery category feed (the main feed works), tedium, thedailywtf, anthropic.com/rss.xml, axios, bvp, cohere, figma, notion, ribbonfarm, works-in-progress.co. uxdesign.cc items appear in the feed but the pages still 403 to curl. Avoid tomorrow: table stakes versus differentiation and what to stop building; how big the downside is and who absorbs it; and whether a metric still means what it measures.",
+  "sparks": [
+    {
+      "title": "SHARED STEEL",
+      "title_vi": "THÉP DÙNG CHUNG",
+      "headline": "Three rivals agree to stop paying three times",
+      "headline_vi": "Ba đối thủ thống nhất: thôi trả tiền ba lần",
+      "a": {
+        "who": "Koji Sato",
+        "what": "Japan's three biggest automakers will standardize the parts a buyer never sees: one quality standard for steel, one protocol for plastics and resins, one universal colour code for wiring harnesses. Those three were picked precisely because nobody notices them and they touch no brand's identity, and the money saved is meant to fund what does.",
+        "what_vi": "Ba hãng xe lớn nhất Nhật sẽ chuẩn hoá đúng những phần khách không bao giờ thấy: một tiêu chuẩn chất lượng cho thép, một quy chuẩn cho nhựa, một bảng mã màu dây điện dùng chung. Chọn đúng ba thứ đó vì không ai để ý tới chúng và chúng không dính gì tới bản sắc thương hiệu, còn tiền tiết kiệm được thì đổ vào phần có dính."
+      },
+      "b": {
+        "who": "Carliss Baldwin",
+        "what": "A design is modular only where you freeze the interface, and value collects at the few points that still hold real options. Everywhere else the design is not strategy, it is cost.",
+        "what_vi": "Một thiết kế chỉ modular ở chỗ bạn chốt cứng interface, và giá trị dồn về vài điểm còn thực sự có lựa chọn. Chỗ còn lại không phải chiến lược, chỉ là chi phí."
+      },
+      "result": "Standardising is a positioning test you can run on your own build. Any component three competitors would sit down and agree on is a component none of the three was winning with, and every hour you spend on it is an hour taken from the part that is actually yours.",
+      "result_vi": "Chuẩn hoá là một bài test positioning bạn tự chạy được trên chính sản phẩm mình. Bất cứ phần nào mà ba đối thủ ngồi lại thống nhất được là phần không ai trong ba đang thắng nhờ nó, và mỗi giờ bạn bỏ vào đó là một giờ lấy đi từ phần thật sự là của bạn.",
+      "result_underline": "an hour taken from the part that is actually yours",
+      "result_underline_vi": "một giờ lấy đi từ phần thật sự là của bạn",
+      "tick": "Name the part of your product three competitors would standardize with you tomorrow. Why are you still building it alone?",
+      "tick_vi": "Kể tên phần trong sản phẩm mà ba đối thủ sẽ chuẩn hoá cùng bạn ngày mai. Sao bạn vẫn tự làm một mình?",
+      "tick_bold": [
+        "three competitors would standardize with you tomorrow"
+      ],
+      "tick_bold_vi": [
+        "ba đối thủ sẽ chuẩn hoá cùng bạn ngày mai"
+      ],
+      "provocation": "Toyota, Nissan and Honda start standardizing steel criteria, plastics protocols and wiring-harness colour codes next year, and they chose those three because no customer notices them. Read it as an audit you can run tonight: anything a competitor would happily share is something you were never differentiating on, and the hours you spend there are hours stolen from the part that is yours.",
+      "provocation_vi": "Từ năm sau Toyota, Nissan và Honda bắt đầu chuẩn hoá tiêu chuẩn thép, quy chuẩn nhựa và mã màu dây điện, và họ chọn đúng ba thứ đó vì không khách nào để ý. Đọc nó như một bài audit bạn chạy được tối nay: thứ gì đối thủ sẵn sàng chia sẻ là thứ bạn chưa bao giờ tạo khác biệt bằng, và giờ bạn bỏ vào đó là giờ lấy đi từ phần thật sự là của bạn.",
+      "source": {
+        "site": "Car and Driver",
+        "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
+        "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+        "published": "2026-11-20"
+      }
+    },
+    {
+      "title": "TOILET PAPER CEILING",
+      "title_vi": "TRẦN GIẤY VỆ SINH",
+      "headline": "Your agent's market is the size of a cheap mistake",
+      "headline_vi": "Thị trường của agent bằng đúng cỡ một lỗi rẻ",
+      "a": {
+        "who": "Reece Rogers",
+        "what": "Banks are shutting third-party agents out. Wells Fargo's new terms say using one is at your own risk, Chase banned agents that log in with your credentials, Bank of America, Citibank and PNC added warnings, Amazon blocked Meta's Muse, United blocked bots from buying flights. Every one of them is building its own agent at the same time. The researchers quoted put the real limit plainly: people are comfortable letting AI buy toilet paper, and not much above that.",
+        "what_vi": "Các ngân hàng đang chặn agent của bên thứ ba. Điều khoản mới của Wells Fargo nói dùng agent là tự chịu rủi ro, Chase cấm agent đăng nhập bằng thông tin của bạn, Bank of America, Citibank và PNC thêm cảnh báo, Amazon chặn Muse của Meta, United chặn bot mua vé bay. Trong khi đó hãng nào cũng đang tự xây agent riêng. Nghiên cứu trong bài nói thẳng giới hạn thật: người ta thoải mái để AI mua giấy vệ sinh, và hầu như không gì lớn hơn thế."
+      },
+      "b": {
+        "who": "Amos Tversky",
+        "what": "A loss is felt roughly twice as hard as a gain of the same size, so nobody weighs a bet by its average outcome. They weigh it by how bad the bad end feels.",
+        "what_vi": "Mất một đồng đau gấp khoảng hai lần được một đồng, nên không ai cân một vụ cá cược theo kết quả trung bình. Họ cân theo đầu xấu nhất tệ tới đâu."
+      },
+      "result": "Agent adoption is not capped by capability. It is capped by blast radius. Amex offering to refund an agent's over-order lifts the ceiling further than any smarter model will, because the unlock was never a cleverer agent, it was a cheaper mistake.",
+      "result_vi": "Agent không bị chặn bởi năng lực. Nó bị chặn bởi bán kính thiệt hại. Amex chịu hoàn tiền khi agent đặt thừa còn nâng trần cao hơn bất kỳ model thông minh hơn nào, vì thứ mở khoá chưa bao giờ là một agent giỏi hơn, mà là một cái lỗi rẻ hơn.",
+      "result_underline": "it was a cheaper mistake",
+      "result_underline_vi": "một cái lỗi rẻ hơn",
+      "tick": "What is the worst thing your product can do on a user's behalf, and what would it take to make that mistake cheap?",
+      "tick_vi": "Điều tệ nhất sản phẩm của bạn có thể làm thay người dùng là gì, và cần gì để biến cái lỗi đó thành rẻ?",
+      "tick_bold": [
+        "make that mistake cheap"
+      ],
+      "tick_bold_vi": [
+        "biến cái lỗi đó thành rẻ"
+      ],
+      "provocation": "Five US banks changed their agent terms inside a month, Amazon and United started blocking bots outright, and the one task users actually delegate is buying household supplies. The pattern is not distrust of the technology, it is loss aversion doing arithmetic. If you ship agentic anything, your growth lever is the size of the downside, not the size of the model.",
+      "provocation_vi": "Năm ngân hàng Mỹ đổi điều khoản về agent trong vòng một tháng, Amazon và United bắt đầu chặn bot thẳng tay, và việc duy nhất người dùng thực sự giao phó là mua đồ gia dụng. Đây không phải chuyện mất tin vào công nghệ, đây là loss aversion đang làm toán. Nếu bạn ship bất cứ thứ gì có agent, đòn gẩy tăng trưởng của bạn là cỡ của đầu xấu, không phải cỡ của model.",
+      "source": {
+        "site": "WIRED",
+        "title": "Banks Have Had It Up to Here With Your AI Agent",
+        "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+        "published": "2026-11-22"
+      }
+    },
+    {
+      "title": "THE SURVIVING METRIC",
+      "title_vi": "CHỈ SỐ SỐNG SÓT",
+      "headline": "Optimised for years, and it still measures",
+      "headline_vi": "Bị tối ưu nhiều năm, nó vẫn đo đúng",
+      "a": {
+        "who": "Jakub Pachocki",
+        "what": "OpenAI published its internal log-perplexity numbers for the first time: about 0.99 at GPT-3.5, 0.91 at GPT-4, now below 0.8, with the next step change expected in the 0.68 to 0.70 window. His argument is that downstream benchmarks saturate and go stale while this one upstream number has kept predicting capabilities nobody had thought to test for, and that it is therefore the right thing for labs to agree a shared limit on.",
+        "what_vi": "Lần đầu tiên OpenAI công bố số log-perplexity nội bộ: khoảng 0.99 ở GPT-3.5, 0.91 ở GPT-4, giờ dưới 0.8, và bước nhảy kế tiếp dự kiến ở khoảng 0.68 đến 0.70. Lập luận của Pachocki: benchmark phía dưới thì bão hoà rồi hết dùng được, còn con số thượng nguồn này vẫn dự báo được cả những năng lực chưa ai nghĩ tới việc đo, nên nó mới là thứ các lab nên thống nhất một ngưỡng chung."
+      },
+      "b": {
+        "who": "Charles Goodhart",
+        "what": "Once a measure becomes a target, the number and the thing it stood for start to come apart, because there is nearly always a cheaper way to move the number than to move the thing.",
+        "what_vi": "Khi một thước đo thành mục tiêu, con số và thứ nó đại diện bắt đầu rời nhau, vì gần như lúc nào cũng có cách làm con số nhúc nhích rẻ hơn là làm thứ thật nhúc nhích."
+      },
+      "result": "Perplexity survived years of being targeted for one reason: there is no cheaper way to lower it than to predict better. Gaming it and achieving it are the same act. That is the only real test of a metric, and almost none of yours pass it.",
+      "result_vi": "Perplexity sống sót qua nhiều năm bị nhắm vào chỉ vì một lý do: không có cách nào hạ nó rẻ hơn là dự đoán giỏi hơn. Gian lận nó và đạt được nó là cùng một hành động. Đó là bài test duy nhất cho một metric, và gần như không metric nào của bạn qua được.",
+      "result_underline": "almost none of yours pass it",
+      "result_underline_vi": "gần như không metric nào của bạn qua được",
+      "tick": "Take your north-star metric. What is the cheapest way to move it without moving the thing it stands for?",
+      "tick_vi": "Lấy north-star metric của bạn ra. Cách rẻ nhất để đẩy nó lên mà không đẩy thứ nó đại diện là gì?",
+      "tick_bold": [
+        "the cheapest way to move it"
+      ],
+      "tick_bold_vi": [
+        "Cách rẻ nhất để đẩy nó lên"
+      ],
+      "provocation": "OpenAI's chief scientist put his lab's cross-entropy loss since GPT-3.5 on a public chart and proposed it as the industry's shared speed limit. The interesting part for anyone who builds dashboards is not the numbers, it is why that metric did not rot under years of direct optimisation pressure: lowering it and improving the model are indistinguishable. Hold your own north star to that standard and watch how fast it fails.",
+      "provocation_vi": "Chief scientist của OpenAI đưa cross-entropy loss của lab mình từ GPT-3.5 tới nay lên một biểu đồ công khai và đề nghị lấy nó làm ngưỡng tốc độ chung cho cả ngành. Phần đáng đọc với người làm dashboard không phải mấy con số, mà là lý do metric đó không mục đi sau nhiều năm bị tối ưu trực tiếp: hạ nó xuống và làm model tốt hơn là hai việc không thể tách rời. Đem north star của bạn ra đo bằng thước đó, sẽ thấy nó trượt nhanh tới mức nào.",
+      "source": {
+        "site": "OpenAI",
+        "title": "Perplexity and Intelligence",
+        "url": "https://openai.com/index/perplexity-and-intelligence/",
+        "published": "2026-11-22"
+      }
+    }
+  ]
+}
