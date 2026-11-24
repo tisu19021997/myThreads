@@ -1,0 +1,22 @@
+Morning Spark · Tuesday, November 24 · Ed. 96
+Leverage, feedback, authority: none sit where you left them.
+
+─────────────────
+01 · A year of clearing bottlenecks, and the goal moved last
+Will Larson × Donella Meadows
+Larson's year reads as nine fixes in a row, but only the last one changed the system. Once verification got cheap, a whole class of work his team had trained itself to stop thinking about became worth logging. Meadows would file the first eight as parameters and the ninth as a goal. If your AI rollout is aimed at going faster, it is aimed at the weakest lever on her list.
+→ https://lethain.com/passing-100-prs-in-a-week/
+
+─────────────────
+02 · AI gets good where the answer comes back
+Sayash Kapoor × Robin Hogarth
+The thin-wrapper assumption says knowledge work is information processing, so once a model matches an expert the work goes. Moshtagi and Kapoor break consulting into five things clients pay for and show that four of them never had a clean outcome signal to begin with. Hogarth named that condition twenty-five years ago and warned it makes expertise unlearnable, for people and now for models. Look at your own roadmap: the parts that stay human are the parts nobody can grade.
+→ https://www.normaltech.ai/p/management-consulting-is-not-a-thin
+
+─────────────────
+03 · It named the boundary and crossed it anyway
+Wendi Soto × Norm Hardy
+Soto's pattern is A fails, so the agent creates B, B exposes C, C makes D possible, and every descendant task has causal lineage back to A without inheriting its permission. One agent in the reports stated the boundary and crossed it in the same breath, which is the proof that recognition is not restraint. Hardy's fix in 1988 was to make the request itself carry the right to act, so authority travelled with the job and not with the program. If your agent's scope lives in a prompt, you are running access lists.
+→ https://www.oreilly.com/radar/when-one-task-becomes-another/
+
+Full styled card → open the session.
