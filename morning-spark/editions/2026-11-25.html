@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en" data-lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Morning Spark — Nov 25</title><style>
+:root{--paper:#EFEDE7;--ink:#1A1A18;--muted:#8C887E;--hair:#D6D3C9;--accent:#FF4A00;--card:#F6F5F1}
+*{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 0 76px}
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.label{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+header{padding:32px 0 0}.brandrow{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.01em;text-transform:uppercase}.brand .d{color:var(--accent)}
+.endrow{display:flex;align-items:center;gap:12px}
+.langs{display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden}
+.langs button{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;background:transparent;color:var(--muted);border:0;cursor:pointer;line-height:1}
+.langs button+button{border-left:1px solid var(--hair)}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.meta{margin-top:7px}.bar{height:5px;background:var(--ink);margin-top:16px;position:relative}
+.bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:36%;background:var(--accent)}
+.intro{padding:20px 0 4px}.intro .label{color:var(--ink)}
+.spark{padding:34px 0;border-top:1px solid var(--hair)}.spark:first-of-type{border-top:none}
+.snum{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.snum .n{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--accent)}
+.snum .t{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.eq .term{padding:12px 0;border-top:1px solid var(--hair)}.eq .term:first-child{border-top:none}
+.eq .who{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.eq .what{font-size:17px;margin-top:4px;color:#3a3934;line-height:1.5}
+.eq .op{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:700;color:var(--accent);padding:6px 0}
+.result{margin-top:14px;padding-top:18px;border-top:3px solid var(--ink)}
+.result .r{font-size:clamp(20px,5vw,25px);line-height:1.32;font-weight:700;letter-spacing:-.01em}
+.result .r u{text-decoration:none;background:linear-gradient(180deg,transparent 60%,rgba(255,74,0,.28) 60%)}
+.tickline{margin-top:20px;padding:14px 0 4px 18px;border-left:3px solid var(--accent)}
+.tickline .label{color:var(--accent);display:block;margin-bottom:7px}
+.tickline p{font-size:17px;line-height:1.5;font-weight:500}.tickline p b{font-weight:800}
+.src-link{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;margin-top:16px}
+.src-link a{color:var(--accent);text-decoration:none}.src-link a:hover{text-decoration:underline}
+.ednav{display:flex;align-items:stretch;gap:8px;margin-top:26px;padding-top:20px;border-top:1px solid var(--hair)}
+.ednav .pn,.ednav .all{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--hair);padding:10px 12px;color:var(--ink);display:flex;align-items:center;gap:9px;line-height:1.5}
+.ednav .all{flex:1;justify-content:center;color:var(--muted)}
+.ednav .next{flex-direction:row-reverse}
+.ednav .ar{color:var(--accent);font-size:14px}
+.ednav .dt{color:var(--muted);letter-spacing:.06em}
+.ednav [data-l="vi"]{text-transform:none;letter-spacing:.01em;font-family:"Helvetica Neue",Helvetica,Arial,-apple-system,system-ui,sans-serif;font-size:12px}
+.ednav a:hover{border-color:var(--accent)}.ednav a:hover .dt{color:var(--ink)}
+.ednav .off{opacity:.3;padding:10px 12px;border:1px solid var(--hair);color:var(--muted)}
+footer{padding-top:30px;border-top:1px solid var(--hair);margin-top:8px}footer .label{line-height:1.9}footer a{color:var(--muted);text-decoration:underline}
+[data-l]{display:none}
+:root[data-lang="en"] [data-l="en"],:root[data-lang="vi"] [data-l="vi"]{display:inline}
+</style></head><body><div class="wrap">
+<header><div class="brandrow"><div class="brand">Morning Spark<span class="d">.</span></div>
+<div class="endrow"><div class="langs"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="vi" aria-pressed="false">VI</button></div><div class="label">Ed. 97</div></div></div>
+<div class="meta label">Wednesday, November 25, 2026 &nbsp;/&nbsp; <span data-l="en">three collisions</span><span data-l="vi">ba va chạm</span></div><div class="bar"></div></header>
+<div class="intro"><span class="label"><span data-l="en">Signal over noise — three ideas to carry today</span><span data-l="vi">Tín hiệu thay vì tiếng ồn — ba ý tưởng mang theo hôm nay</span></span></div>
+<div class="spark"><div class="snum"><span class="n">01</span><span class="t"><span data-l="en">REWRITE, TWICE</span><span data-l="vi">VIẾT LẠI, HAI LẦN</span></span></div>
+<div class="eq"><div class="term"><div class="who">Andrew Schofield</div><div class="what"><span data-l="en">Confluent put coding agents on translating Kafka&#x27;s Java client into Rust: two engineers at about three-quarters time, a working producer by week two, TLS and auth by week four, a basic consumer by week six, and then they scrapped the whole translation and started again with sharper instructions. The restarted version absorbed 191 upstream Kafka commits in under two working days.</span><span data-l="vi">Confluent cho agent dịch Kafka client từ Java sang Rust: hai engineer làm chừng ba phần tư thời gian, tuần hai có producer chạy được, tuần bốn có TLS và auth, tuần sáu có consumer cơ bản, rồi họ bỏ sạch bản dịch và làm lại từ đầu với hướng dẫn chi tiết hơn. Bản làm lại hút 191 commit mới của Kafka trong chưa tới hai ngày làm việc.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Joel Spolsky</div><div class="what"><span data-l="en">In 2000 he called rewriting from scratch the single worst strategic mistake a software company can make. Netscape&#x27;s three-year gap was the evidence: old code has been used, and every ugly hair on a two-page function is a bug fix that took weeks of real-world usage to find. Throw it out and you hand your competitors two or three years.</span><span data-l="vi">Năm 2000 ông gọi viết lại từ đầu là sai lầm chiến lược tệ nhất mà một công ty software có thể mắc. Netscape ba năm không ra bản nào là bằng chứng: code cũ đã chạy thật, và mỗi chỗ trông gớm ghiếc trong một function dài hai trang là một bug fix phải mất hàng tuần dùng thật mới lộ ra. Bỏ nó đi là biếu đối thủ hai ba năm.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Spolsky was never pricing the rewrite, he was pricing the catch-up: years of shipping nothing while you re-earn what the old code already knew. Confluent&#x27;s catch-up number is two days. When it gets that cheap, a rewrite <u>stops being a bet and becomes a pipeline</u>.</span><span data-l="vi">Spolsky chưa bao giờ định giá việc viết lại, ông định giá cái giá đuổi theo: nhiều năm không ship được gì, chỉ để lấy lại những gì code cũ đã biết. Con số đuổi theo của Confluent là hai ngày. Khi nó rẻ tới mức đó, viết lại <u>không còn là cú cược, nó thành một pipeline</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">Which of your rules survived only because the thing it forbids <b>used to be expensive</b>?</span><span data-l="vi">Quy tắc nào của bạn còn sống chỉ vì thứ nó cấm <b>ngày xưa rất đắt</b>?</span></p></div>
+<div class="src-link"><a href="https://thenewstack.io/confluent-kafka-rust-agents/" target="_blank" rel="noopener">The New Stack — Confluent spent 3 months rewriting Kafka&#x27;s Java client in Rust with AI — and had to start over &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">02</span><span class="t"><span data-l="en">SEVENTEEN MILLION LINES</span><span data-l="vi">MƯỜI BẢY TRIỆU DÒNG</span></span></div>
+<div class="eq"><div class="term"><div class="who">Levent Alpöge</div><div class="what"><span data-l="en">On 20 November he released a proof of the Riemann Hypothesis, found working with Claude, not as a paper in English but as 17 million lines of Lean, likely more Lean than every human has ever written. Independent mathematicians had re-run it through multiple proof-checkers by Saturday. Nobody was surprised the hypothesis is true; the proof&#x27;s length and rough state make it impossible to say yet whether there is an idea inside it.</span><span data-l="vi">Ngày 20 tháng 11 anh công bố một chứng minh cho giả thuyết Riemann, làm cùng Claude, không phải bài báo tiếng Anh mà là 17 triệu dòng Lean, có lẽ nhiều hơn toàn bộ Lean con người từng viết. Tới thứ Bảy, các nhà toán học độc lập đã chạy lại qua nhiều proof-checker. Không ai ngạc nhiên vì giả thuyết đúng; nhưng nó dài và còn thô tới mức chưa thể nói bên trong có một ý tưởng nào hay không.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">William Thurston</div><div class="what"><span data-l="en">Writing in 1994, he refused to ask how mathematicians prove theorems and asked instead how they advance human understanding. Appel and Haken&#x27;s four-colour proof was not doubted, he said, it was unsatisfying; anyone who prints the first ten thousand primes discovers that what they wanted was never a collection of answers. What mathematicians produce is human understanding.</span><span data-l="vi">Viết năm 1994, ông từ chối câu hỏi nhà toán học chứng minh định lý thế nào, và hỏi thay vào đó: họ đẩy hiểu biết của con người đi xa ra sao. Chứng minh bốn màu của Appel và Haken không bị ai nghi là sai, nó chỉ không làm ai thoả mãn; ai in ra mười nghìn số nguyên tố đầu tiên rồi cũng nhận ra mình chưa bao giờ cần một đống đáp án. Thứ nhà toán học làm ra là hiểu biết của con người.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Terence Tao&#x27;s reason for prizing Riemann was that solving it ought to require a new kind of mathematics. A machine-checked certificate says the statement is true and says nothing at all about what is new. The theorem is settled and <u>the subject has not moved an inch</u>.</span><span data-l="vi">Lý do Terence Tao quý Riemann là vì giải được nó lẽ ra phải cần tới một loại toán mới. Tờ chứng nhận do máy ký chỉ nói mệnh đề đúng, và không nói gì về chỗ nào mới. Định lý đã xong, còn <u>ngành toán chưa nhúc nhích</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">When the answer arrives already verified, who is still <b>responsible for understanding it</b>?</span><span data-l="vi">Khi đáp án tới nơi đã kiểm chứng sẵn, ai còn <b>chịu trách nhiệm hiểu nó</b>?</span></p></div>
+<div class="src-link"><a href="https://www.understandingai.org/p/an-anthropic-mathematician-just-solved" target="_blank" rel="noopener">Understanding AI — An Anthropic mathematician just solved math&#x27;s most famous problem &rarr;</a></div></div>
+<div class="spark"><div class="snum"><span class="n">03</span><span class="t"><span data-l="en">BEHIND THE METER</span><span data-l="vi">SAU CÔNG TƠ</span></span></div>
+<div class="eq"><div class="term"><div class="who">Casey Crownhart</div><div class="what"><span data-l="en">US data-centre developers have announced more than 100 behind-the-meter gas plants, over 115 gigawatts of planned capacity, more than double California&#x27;s peak demand, and almost all of it since the start of 2025. On-site power costs more than a grid hookup; BloombergNEF says the motivator is speed, a very expensive bridge over a five-to-seven-year interconnection wait. Most will skip combined-cycle turbines, because the efficient ones are back-ordered.</span><span data-l="vi">Các nhà phát triển data center ở Mỹ đã công bố hơn 100 nhà máy điện gas đặt sau công tơ, tổng công suất dự kiến hơn 115 gigawatt, gấp hơn hai lần phụ tải đỉnh của California, và gần như toàn bộ là từ đầu 2025 tới nay. Tự phát điện đắt hơn nối lưới; BloombergNEF nói động lực là tốc độ, một cây cầu rất đắt để vượt qua năm tới bảy năm chờ nối lưới. Phần lớn sẽ bỏ qua turbine chu trình kết hợp, vì loại hiệu suất cao đang hết hàng.</span></div></div>
+<div class="op">+</div><div class="term"><div class="who">Alfred Chandler</div><div class="what"><span data-l="en">The Visible Hand gave the integrated firm an economic reason: economies of speed. Where consistently faster throughput cut unit costs, managerial coordination beat the market, and integrating backward let a firm step around its suppliers&#x27; bottlenecks instead of queueing behind them.</span><span data-l="vi">The Visible Hand cho công ty tích hợp dọc một lý do kinh tế: economies of speed. Ở đâu thông lượng nhanh hơn đều đặn làm giảm chi phí đơn vị, ở đó quản trị nội bộ thắng thị trường, và tích hợp về phía sau cho công ty đi vòng qua chỗ tắc của nhà cung cấp thay vì xếp hàng sau nó.</span></div></div>
+<div class="op">=</div><div class="result"><div class="r"><span data-l="en">Chandler&#x27;s firms integrated because speed was cheaper. These ones integrate although speed is dearer, and what they are buying is not power but a calendar. The turbine bought to skip the queue is <u>an asset nobody meant to keep</u>.</span><span data-l="vi">Công ty của Chandler tích hợp vì nhanh thì rẻ hơn. Mấy công ty này tích hợp dù nhanh thì đắt hơn, và thứ họ mua không phải điện mà là cái lịch. Cái turbine mua để khỏi xếp hàng là <u>một tài sản không ai định giữ</u>.</span></div></div></div>
+<div class="tickline"><span class="label"><span data-l="en">The tick</span><span data-l="vi">Câu hỏi trong ngày</span></span><p><span data-l="en">What did you buy to save time that you will still own <b>long after the hurry ends</b>?</span><span data-l="vi">Bạn đã mua gì để tiết kiệm thời gian mà sẽ còn phải <b>giữ lâu sau khi hết gấp</b>?</span></p></div>
+<div class="src-link"><a href="https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/" target="_blank" rel="noopener">MIT Technology Review — Data centers are getting their own natural gas power plants &rarr;</a></div></div>
+<nav class="ednav"><a class="pn prev" href="2026-11-24.html"><span class="ar">&larr;</span><span class="dt"><span data-l="en">Previous</span><span data-l="vi">Hôm trước</span><br>2026-11-24</span></a><a class="all" href="../../index.html"><span data-l="en">All threads</span><span data-l="vi">Tất cả</span></a><span class="pn off">&rarr;</span></nav>
+<footer><div class="label"><span data-l="en">Today: Andrew Schofield / Joel Spolsky / Levent Alpöge / William Thurston / Casey Crownhart / Alfred Chandler<br>Morning Spark — curated from twelve minds worth listening to.</span><span data-l="vi">Hôm nay: Andrew Schofield / Joel Spolsky / Levent Alpöge / William Thurston / Casey Crownhart / Alfred Chandler<br>Morning Spark — chắt lọc từ mười hai cái đầu đáng nghe.</span></div></footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,btns=document.querySelectorAll(".langs button"),KEY="ms-lang";
+  function apply(l){
+    root.setAttribute("data-lang",l);root.setAttribute("lang",l);
+    for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",btns[i].getAttribute("data-set")===l?"true":"false")}
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener("click",function(){apply(this.getAttribute("data-set"))})
+  }
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  var guess=(navigator.language||"").toLowerCase().indexOf("vi")===0?"vi":"en";
+  apply(saved==="vi"||saved==="en"?saved:guess);
+})();
+</script>
+</body></html>

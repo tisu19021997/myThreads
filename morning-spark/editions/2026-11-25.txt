@@ -1,0 +1,22 @@
+Morning Spark · Wednesday, November 25 · Ed. 97
+Speed arrived. Check what came with it.
+
+─────────────────
+01 · Three months, one version thrown away, then 191 commits in two days
+Andrew Schofield × Joel Spolsky
+Confluent's agents translated Kafka's Java client into Rust over three months, threw the first translation away, and then pulled 191 upstream commits into the second one in under two working days. Spolsky's ban on rewrites was really a ban on paying the catch-up cost, and that cost just fell through the floor.
+→ https://thenewstack.io/confluent-kafka-rust-agents/
+
+─────────────────
+02 · The proof checks out. Nobody knows yet what it says.
+Levent Alpöge × William Thurston
+A 17-million-line Lean proof of the Riemann Hypothesis was verified within a day of release, and mathematicians now face months of reading to find out whether it teaches anything. Thurston's point was that proofs are not the product. Understanding is.
+→ https://www.understandingai.org/p/an-anthropic-mathematician-just-solved
+
+─────────────────
+03 · Over a hundred gas plants ordered, just to skip a queue
+Casey Crownhart × Alfred Chandler
+More than a hundred behind-the-meter gas plants, 115 gigawatts planned, almost all announced since 2025, mostly using the cheaper and less efficient turbines, because a grid connection can take five to seven years. Chandler's integrated firm chased speed because speed was cheap. This one pays a premium for it and inherits the plant.
+→ https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/
+
+Full styled card → open the session.

@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-25",
+  "edition": 97,
+  "framing": "Speed arrived. Check what came with it.",
+  "framing_vi": "Tốc độ đã tới. Thử xem nó kéo theo cái gì.",
+  "note": "Themes: Confluent's three-month agent translation of the Kafka Java client into Rust (Andrew Schofield's post reported by The New Stack; two engineers at ~75% time, working producer week 2, TLS and auth week 4, basic consumer week 6, the whole translation scrapped after several weeks and restarted with more specific instructions, a Project Manager agent coordinating an Actor and a Critic that talk through Git at ~5 review iterations, 191 upstream commits applied in under two working days, GA Rust client from Kafka 4.4.0 plus a Python preview, >100 Kafka contributors and >20 KIPs per release, librdkafka threading mismatch as the motive), read against Spolsky's 2000 ban on rewriting from scratch to land on the ban having priced the catch-up, not the rewrite; Levent Alpoge's 17-million-line Lean proof of the Riemann Hypothesis released 20 Nov, found with Claude, re-checked by independent mathematicians through multiple proof-checkers by the Saturday, read against Thurston's 1994 'On Proof and Progress in Mathematics' to land on a certified theorem leaving the subject where it was; and the US behind-the-meter gas build-out (>100 announced plants, >115 GW planned, double California's peak, almost all since the start of 2025, speed as the stated motive over a five-to-seven-year interconnection wait, single-cycle turbines because combined-cycle is back-ordered) read against Chandler's economies of speed to land on integration bought for the calendar rather than for cost. Through-line: speed arrives and something unasked-for arrives with it. Steered off Ed 96's avoid list: nothing on where the real constraint sits or what counts as work (card one is deliberately framed on rewrite economics, not on the specification -- the piece's strongest unused thread is that passing the translated tests hid a sleep on every networking-loop iteration and that the fix was to specify intended behaviour rather than trust the source, which is squarely on the avoid list and also on Ed 95's metric-honesty ground, so it was cut from the result and left out of the a-side); nothing on whether a decision gets graded (card two is framed on human understanding, not on verification as a check -- Ed 89's Barrett x Dijkstra card already ran 'tests cannot tell you when you are done, proofs can', and this card is deliberately its counterpoint rather than its repeat, so the Lean checkers are stated as fact and never as the point); nothing on how authority or permission propagates (card three is about a procurement clock and a stranded asset, and the xAI Memphis unpermitted turbines were left out of the a-side for exactly that reason). Verification: all three pieces read in full. The New Stack read from the publication's own feed content:encoded because thenewstack.io article pages 403 to curl and to WebFetch with any UA -- the piece is by Amanda Caswell, 24 Nov, reporting Schofield's Confluent post, which could not be located on confluent.io (their /blog/feed/ 404s); docs.confluent.io independently confirms a preview Rust client with no librdkafka FFI that follows the Java client's design and uses Tokio. Understanding AI read in full to the paywall, which falls after the substance (only the 'past computer-assisted proofs have been controversial' section is cut); the Masullo 900-page rival draft, Vakil, Bostrom's computronium, Yudkowsky's canary tweet, the 2050 Tao estimate and the 10% superforecaster figure all went unused. MIT Tech Review read in full (Cleanview and BloombergNEF both named; 181 GW globally with 90% US, 345 Mt CO2e by 2035 against 152 Mt extra versus the grid, the Netherlands comparison, 4.9 GW actually tied to projects today, Fripp on gas prices reaching the 60% of US households that heat with it -- all accurate and all unused, since the card is about the calendar, not about emissions). B-sides grounded on primary sources, nothing quoted: Spolsky's 'Things You Should Never Do, Part I' (6 Apr 2000) fetched in full from joelonsoftware.com (Netscape 6.0, no 5.0, Borland and Pyramid, 'it's harder to read code than to write it', the two-page function's hairs as bug fixes, 'as if source code rusted', the gift of two or three years); Thurston's essay fetched as the arXiv PDF of the April 1994 BAMS paper (the three questions, Appel-Haken as desire for understanding rather than doubt, the ten-thousand-primes printout, 'what we are producing is human understanding'); Chandler grounded via the Lamoreaux and Raff NBER chapter, which states economies of speed as consistently faster throughput reducing unit costs with vertical integration used to avoid supply bottlenecks -- card three names the inversion explicitly, because Chandler's firms integrated where speed was cheaper and these pay a premium for it, and that inversion is the whole card. Roster: A-sides Andrew Schofield n=0, Levent Alpoge n=0, Casey Crownhart n=0. Hosts thenewstack.io n=0, understandingai.org n=0, technologyreview.com n=0 -- three fresh hosts and three fresh A-sides. B-sides never used on the 96-edition ledger: Joel Spolsky, William Thurston, Alfred Chandler. All three pairings and all three URLs checked programmatically against index.json. URL checks: understandingai 200, technologyreview 200, duckdb canonical has no .html suffix (308 to the extensionless path) and thenewstack 403s to every automated client although the page is live and in their feed. Best unused on the shelf, in order: duckdb.org 'How SproutMe Cut Integration Test Time by 92.9% with DuckDB' (24 Nov, read in full and strong -- integration test step per merge from a median 639.0s to 45.6s across 88 CI runs, full dbt backfill 180.2 to 104.6, daily incremental 300.3 to 120.7, Dagster plus dbt medallion on a local DuckDB file with production staying on BigQuery, committed fixtures and golden files, TZ=UTC set because BigQuery compares in UTC and DuckDB uses the machine zone, and the piece's own caveat that this does not show one engine is faster in general. Passed over only because duckdb.org ran on 15 Nov with the Boyandin x Jim Gray local-analytics card and the product would be centre stage twice in ten days. Take it with George Box, n=0, on worrying selectively: the test warehouse is a deliberately wrong model and the named timezone difference is the tiger while the whole swapped engine is left as mice. Box's 'Science and Statistics', JASA Dec 1976, is already fetched and read -- sections 2.3 Parsimony and 2.4 Worrying Selectively). Then: fly.io 'Holding the Door for Agents' (23 Nov, a sixth deferral, host still n=0, Stafford Beer n=0 the intended B-side, deferred again today only because it sits on agent authority which was Ed 96's card three); seangoedecke 'When in doubt, flail about' (23 Nov, n=9 host, now going stale); interconnected 'Cool flex AI bro' (Matt Webb, still held, Spence or Zahavi); css-tricks 'Using Fallbacks for a Robust Front-End' (23 Nov, host n=0, pairs with Postel); planetscale 'Why you shouldn't do application-level sharding' (23 Nov, host n=0); allthingsdistributed 'Tech predictions for 2027 and beyond' (24 Nov, Werner Vogels n=0, host ran 16 Nov, unread); stackoverflow.blog 'Idempotency when you don't control the other end' and 'Agent swarms need more than a message board' (both 24 Nov, host n=3 last 20 Nov); simonwillison 'Three LLM inflection points in twelve months' (24 Nov, host n=5 but rested since 4 Oct); randsinrepose 'A Day in the Life of a Senior Leader' (24 Nov, host n=1 last 21 Sep, but it lands on what counts as work); infoq 'Lessons from Building a $100M Product in Six Weeks at OpenAI' (24 Nov, host n=0, unread); towardsdatascience 'How to Plan Retries for Multi-Agent Workflows Before You Write Code' (24 Nov, host n=0); arstechnica 'Amazon says hackers' AI agents found and exploited 0-day with little human input' (24 Nov, host n=1 last 22 Nov); technologyreview 'Data centers are getting their own natural gas power plants' is spent today but the same day's AI-consciousness piece is not; frankchiarulli 'Splitting USB-C: USB 3 and USB 2 on one port' (24 Nov, n=0, a lovely constraint card and better suited to Bench); caranddriver 'New York Bans Post-Purchase Subscriptions on Vehicles' and 'BYD Just Put a Fold-Away Steering Wheel in a Car People Can Buy' (both 24 Nov, host ran 23 Nov); marginalrevolution 'The AI gains that gdp misses' (23 Nov, still 403 to curl, read it from the feed body next run). Still unspent from older runs: Robin Sloan 'Dragoncatcher: the human voice', sive.rs 'Uncorrelated perspectives' with Scott Page, martinfowler 'Data Contracts', MIT Tech Review METR time-horizon update, O'Reilly 'What Happened to Silicon Valley?', alvinbunk on Nespresso's Project Olympus, SaaStr on Mailchimp, the Goffman front-stage pairing from Ed 83. Feed notes: 134 feeds swept over curl. Dead, empty or wrong-path this run: a16z, clickhouse, cloud.google, deepmind.google/blog/rss.xml, doordash, every.to, hbr.org, hex.tech, lethain (feeds/all.atom.xml now also empty), linear.app, longform.asmartbear, medium/airbnb-engineering, motherduck, nothing.tech (blogs/news.atom), phys.org, queue.acm.org, railway, review.firstround, signalvnoise, anthropic.com/news/rss.xml, axios, cockroachlabs, deeplearning.ai/the-batch, figma, gartner, hyrumslaw, monkeyuser, aprildunford (still malformed). thenewstack and uxdesign.cc article pages 403 to curl although their feeds carry full bodies. Avoid tomorrow: old prohibitions that only held because something was expensive; an answer that arrives without its explanation; and paying a premium to compress a schedule.",
+  "sparks": [
+    {
+      "title": "REWRITE, TWICE",
+      "title_vi": "VIẾT LẠI, HAI LẦN",
+      "headline": "Three months, one version thrown away, then 191 commits in two days",
+      "headline_vi": "Ba tháng, bỏ một bản, rồi 191 commit trong hai ngày",
+      "a": {
+        "who": "Andrew Schofield",
+        "what": "Confluent put coding agents on translating Kafka's Java client into Rust: two engineers at about three-quarters time, a working producer by week two, TLS and auth by week four, a basic consumer by week six, and then they scrapped the whole translation and started again with sharper instructions. The restarted version absorbed 191 upstream Kafka commits in under two working days.",
+        "what_vi": "Confluent cho agent dịch Kafka client từ Java sang Rust: hai engineer làm chừng ba phần tư thời gian, tuần hai có producer chạy được, tuần bốn có TLS và auth, tuần sáu có consumer cơ bản, rồi họ bỏ sạch bản dịch và làm lại từ đầu với hướng dẫn chi tiết hơn. Bản làm lại hút 191 commit mới của Kafka trong chưa tới hai ngày làm việc."
+      },
+      "b": {
+        "who": "Joel Spolsky",
+        "what": "In 2000 he called rewriting from scratch the single worst strategic mistake a software company can make. Netscape's three-year gap was the evidence: old code has been used, and every ugly hair on a two-page function is a bug fix that took weeks of real-world usage to find. Throw it out and you hand your competitors two or three years.",
+        "what_vi": "Năm 2000 ông gọi viết lại từ đầu là sai lầm chiến lược tệ nhất mà một công ty software có thể mắc. Netscape ba năm không ra bản nào là bằng chứng: code cũ đã chạy thật, và mỗi chỗ trông gớm ghiếc trong một function dài hai trang là một bug fix phải mất hàng tuần dùng thật mới lộ ra. Bỏ nó đi là biếu đối thủ hai ba năm."
+      },
+      "result": "Spolsky was never pricing the rewrite, he was pricing the catch-up: years of shipping nothing while you re-earn what the old code already knew. Confluent's catch-up number is two days. When it gets that cheap, a rewrite stops being a bet and becomes a pipeline.",
+      "result_vi": "Spolsky chưa bao giờ định giá việc viết lại, ông định giá cái giá đuổi theo: nhiều năm không ship được gì, chỉ để lấy lại những gì code cũ đã biết. Con số đuổi theo của Confluent là hai ngày. Khi nó rẻ tới mức đó, viết lại không còn là cú cược, nó thành một pipeline.",
+      "result_underline": "stops being a bet and becomes a pipeline",
+      "result_underline_vi": "không còn là cú cược, nó thành một pipeline",
+      "tick": "Which of your rules survived only because the thing it forbids used to be expensive?",
+      "tick_vi": "Quy tắc nào của bạn còn sống chỉ vì thứ nó cấm ngày xưa rất đắt?",
+      "tick_bold": [
+        "used to be expensive"
+      ],
+      "tick_bold_vi": [
+        "ngày xưa rất đắt"
+      ],
+      "provocation": "Confluent's agents translated Kafka's Java client into Rust over three months, threw the first translation away, and then pulled 191 upstream commits into the second one in under two working days. Spolsky's ban on rewrites was really a ban on paying the catch-up cost, and that cost just fell through the floor.",
+      "provocation_vi": "Agent của Confluent dịch Kafka client từ Java sang Rust trong ba tháng, bỏ bản đầu, rồi kéo 191 commit mới vào bản thứ hai trong chưa tới hai ngày làm việc. Lệnh cấm viết lại của Spolsky thực ra là lệnh cấm trả cái giá đuổi theo, và cái giá đó vừa rơi xuống sàn.",
+      "source": {
+        "site": "The New Stack",
+        "title": "Confluent spent 3 months rewriting Kafka's Java client in Rust with AI — and had to start over",
+        "url": "https://thenewstack.io/confluent-kafka-rust-agents/",
+        "published": "2026-11-24"
+      }
+    },
+    {
+      "title": "SEVENTEEN MILLION LINES",
+      "title_vi": "MƯỜI BẢY TRIỆU DÒNG",
+      "headline": "The proof checks out. Nobody knows yet what it says.",
+      "headline_vi": "Chứng minh đúng hết. Chưa ai biết nó nói gì.",
+      "a": {
+        "who": "Levent Alpöge",
+        "what": "On 20 November he released a proof of the Riemann Hypothesis, found working with Claude, not as a paper in English but as 17 million lines of Lean, likely more Lean than every human has ever written. Independent mathematicians had re-run it through multiple proof-checkers by Saturday. Nobody was surprised the hypothesis is true; the proof's length and rough state make it impossible to say yet whether there is an idea inside it.",
+        "what_vi": "Ngày 20 tháng 11 anh công bố một chứng minh cho giả thuyết Riemann, làm cùng Claude, không phải bài báo tiếng Anh mà là 17 triệu dòng Lean, có lẽ nhiều hơn toàn bộ Lean con người từng viết. Tới thứ Bảy, các nhà toán học độc lập đã chạy lại qua nhiều proof-checker. Không ai ngạc nhiên vì giả thuyết đúng; nhưng nó dài và còn thô tới mức chưa thể nói bên trong có một ý tưởng nào hay không."
+      },
+      "b": {
+        "who": "William Thurston",
+        "what": "Writing in 1994, he refused to ask how mathematicians prove theorems and asked instead how they advance human understanding. Appel and Haken's four-colour proof was not doubted, he said, it was unsatisfying; anyone who prints the first ten thousand primes discovers that what they wanted was never a collection of answers. What mathematicians produce is human understanding.",
+        "what_vi": "Viết năm 1994, ông từ chối câu hỏi nhà toán học chứng minh định lý thế nào, và hỏi thay vào đó: họ đẩy hiểu biết của con người đi xa ra sao. Chứng minh bốn màu của Appel và Haken không bị ai nghi là sai, nó chỉ không làm ai thoả mãn; ai in ra mười nghìn số nguyên tố đầu tiên rồi cũng nhận ra mình chưa bao giờ cần một đống đáp án. Thứ nhà toán học làm ra là hiểu biết của con người."
+      },
+      "result": "Terence Tao's reason for prizing Riemann was that solving it ought to require a new kind of mathematics. A machine-checked certificate says the statement is true and says nothing at all about what is new. The theorem is settled and the subject has not moved an inch.",
+      "result_vi": "Lý do Terence Tao quý Riemann là vì giải được nó lẽ ra phải cần tới một loại toán mới. Tờ chứng nhận do máy ký chỉ nói mệnh đề đúng, và không nói gì về chỗ nào mới. Định lý đã xong, còn ngành toán chưa nhúc nhích.",
+      "result_underline": "the subject has not moved an inch",
+      "result_underline_vi": "ngành toán chưa nhúc nhích",
+      "tick": "When the answer arrives already verified, who is still responsible for understanding it?",
+      "tick_vi": "Khi đáp án tới nơi đã kiểm chứng sẵn, ai còn chịu trách nhiệm hiểu nó?",
+      "tick_bold": [
+        "responsible for understanding it"
+      ],
+      "tick_bold_vi": [
+        "chịu trách nhiệm hiểu nó"
+      ],
+      "provocation": "A 17-million-line Lean proof of the Riemann Hypothesis was verified within a day of release, and mathematicians now face months of reading to find out whether it teaches anything. Thurston's point was that proofs are not the product. Understanding is.",
+      "provocation_vi": "Một chứng minh Riemann dài 17 triệu dòng Lean được xác nhận trong vòng một ngày sau khi công bố, và giờ các nhà toán học phải đọc hàng tháng mới biết nó có dạy được gì không. Ý của Thurston: chứng minh không phải là sản phẩm. Hiểu biết mới là.",
+      "source": {
+        "site": "Understanding AI",
+        "title": "An Anthropic mathematician just solved math's most famous problem",
+        "url": "https://www.understandingai.org/p/an-anthropic-mathematician-just-solved",
+        "published": "2026-11-24"
+      }
+    },
+    {
+      "title": "BEHIND THE METER",
+      "title_vi": "SAU CÔNG TƠ",
+      "headline": "Over a hundred gas plants ordered, just to skip a queue",
+      "headline_vi": "Hơn một trăm nhà máy gas được đặt, chỉ để khỏi xếp hàng",
+      "a": {
+        "who": "Casey Crownhart",
+        "what": "US data-centre developers have announced more than 100 behind-the-meter gas plants, over 115 gigawatts of planned capacity, more than double California's peak demand, and almost all of it since the start of 2025. On-site power costs more than a grid hookup; BloombergNEF says the motivator is speed, a very expensive bridge over a five-to-seven-year interconnection wait. Most will skip combined-cycle turbines, because the efficient ones are back-ordered.",
+        "what_vi": "Các nhà phát triển data center ở Mỹ đã công bố hơn 100 nhà máy điện gas đặt sau công tơ, tổng công suất dự kiến hơn 115 gigawatt, gấp hơn hai lần phụ tải đỉnh của California, và gần như toàn bộ là từ đầu 2025 tới nay. Tự phát điện đắt hơn nối lưới; BloombergNEF nói động lực là tốc độ, một cây cầu rất đắt để vượt qua năm tới bảy năm chờ nối lưới. Phần lớn sẽ bỏ qua turbine chu trình kết hợp, vì loại hiệu suất cao đang hết hàng."
+      },
+      "b": {
+        "who": "Alfred Chandler",
+        "what": "The Visible Hand gave the integrated firm an economic reason: economies of speed. Where consistently faster throughput cut unit costs, managerial coordination beat the market, and integrating backward let a firm step around its suppliers' bottlenecks instead of queueing behind them.",
+        "what_vi": "The Visible Hand cho công ty tích hợp dọc một lý do kinh tế: economies of speed. Ở đâu thông lượng nhanh hơn đều đặn làm giảm chi phí đơn vị, ở đó quản trị nội bộ thắng thị trường, và tích hợp về phía sau cho công ty đi vòng qua chỗ tắc của nhà cung cấp thay vì xếp hàng sau nó."
+      },
+      "result": "Chandler's firms integrated because speed was cheaper. These ones integrate although speed is dearer, and what they are buying is not power but a calendar. The turbine bought to skip the queue is an asset nobody meant to keep.",
+      "result_vi": "Công ty của Chandler tích hợp vì nhanh thì rẻ hơn. Mấy công ty này tích hợp dù nhanh thì đắt hơn, và thứ họ mua không phải điện mà là cái lịch. Cái turbine mua để khỏi xếp hàng là một tài sản không ai định giữ.",
+      "result_underline": "an asset nobody meant to keep",
+      "result_underline_vi": "một tài sản không ai định giữ",
+      "tick": "What did you buy to save time that you will still own long after the hurry ends?",
+      "tick_vi": "Bạn đã mua gì để tiết kiệm thời gian mà sẽ còn phải giữ lâu sau khi hết gấp?",
+      "tick_bold": [
+        "long after the hurry ends"
+      ],
+      "tick_bold_vi": [
+        "giữ lâu sau khi hết gấp"
+      ],
+      "provocation": "More than a hundred behind-the-meter gas plants, 115 gigawatts planned, almost all announced since 2025, mostly using the cheaper and less efficient turbines, because a grid connection can take five to seven years. Chandler's integrated firm chased speed because speed was cheap. This one pays a premium for it and inherits the plant.",
+      "provocation_vi": "Hơn một trăm nhà máy gas sau công tơ, 115 gigawatt dự kiến, gần như tất cả công bố từ 2025, phần lớn dùng turbine rẻ và kém hiệu suất hơn, vì nối lưới có thể mất năm tới bảy năm. Công ty tích hợp dọc của Chandler đuổi theo tốc độ vì tốc độ rẻ. Mấy công ty này trả giá cao cho nó và thừa hưởng luôn cái nhà máy.",
+      "source": {
+        "site": "MIT Technology Review",
+        "title": "Data centers are getting their own natural gas power plants",
+        "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+        "published": "2026-11-24"
+      }
+    }
+  ]
+}
