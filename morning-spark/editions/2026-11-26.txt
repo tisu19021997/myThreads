@@ -1,0 +1,22 @@
+Morning Spark · Thursday, November 26 · Ed. 98
+Three things carrying the load without ever being named.
+
+─────────────────
+01 · A device that can do anything needs a shape that suggests one thing
+Matt Webb × Dieter Rams
+Inanimate shipped five promptable devices this week, fifty of each, and the interesting part is why each one arrives as one specific thing: a form and a default app get you past the blank sheet problem of a device that can do anything. Rams asked design to stay restrained so the user had room. An everything-device gives you nothing but room.
+→ https://interconnected.org/home/2026/11/25/inanimate
+
+─────────────────
+02 · A trillion dollars says the org chart has exactly one load-bearing name
+Ben Thompson × Peter Drucker
+Ben Thompson's table puts AT&T's 729,000 employees next to Nvidia's 42,000 and Anthropic's 5,300, then notes that Nvidia added close to a trillion dollars when Jensen Huang was reinstated. Drucker's 1946 test was whether an institution can run on average people. A trillion-dollar relief rally is that test being failed in public.
+→ https://stratechery.com/2026/the-individual-exception/
+
+─────────────────
+03 · Everyone knew it would break; almost nobody had ever tested it
+Randy Au × Charles Perrow
+Randy Au went looking for anyone who had actually tested a negative leap second and found a handful of plugfest failures, a kernel bug, and several reports of it working fine. The hardened layer is the one you can plug in. The exposed one is application code doing arithmetic on time, inside the systems that decide what happened first.
+→ https://www.counting-stuff.com/what-would-wouldnt-break-w-a-negative-leap-second/
+
+Full styled card → open the session.

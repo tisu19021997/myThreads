@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-26",
+  "edition": 98,
+  "framing": "Three things carrying the load without ever being named.",
+  "framing_vi": "Ba thứ đang gánh, mà không ai gọi tên.",
+  "note": "Themes: Matt Webb's Inanimate WORKS '26 launch (five promptable devices on one platform, fifty of each, ear-touch gesture with no wake word, Session's tokens-per-minute needle gauge, Candle's seven e-ink screens, Oracle on seventy public-domain prophecy texts, MCP Agent Mode with a device simulator) read against Rams's principles four and five to land on the industrial form being the only fixed spec left on a device that can be prompted into anything; Ben Thompson's 'The Individual Exception' (his own weekend build list, the inflation-adjusted employee table from AT&T 1959 at 729,000 to Nvidia at 42,000 and Anthropic at 5,300, the near-trillion market cap gain on Huang's reinstatement, Tae Kim's exoskeleton and F1 analogies, the bimodal distribution thesis) read against Drucker's 1946 line that no institution survives if it needs geniuses, to land on the rally pricing the absence of a bench rather than the presence of a genius; and Randy Au's hunt for anyone who actually tested a negative leap second (ISPCS PTP plugfest device failures, the Linux kernel, the Uni Erlangen time string with no room for a minus sign, ntpd bug 3394, Eggert's tzcode bug, FreeBSD and GPSD and Windows Server reporting it fine) read against Perrow's Normal Accidents to land on rehearsal relocating risk from the kernels up into application arithmetic on time, where finance and event-ordering databases live. Through-line: in each card something unnamed is carrying the load -- the form, the one person, the code path never executed. Steered off Ed 97's avoid list: nothing on a prohibition that only held because something was expensive (card two is framed on institutional dependence, not on a rule lapsing); nothing on an answer arriving without its explanation (card three is deliberately about which layer absorbs a change, not about belief without evidence -- the untested-consensus angle is stated as setup and the result points at layers); nothing on paying a premium to compress a schedule. Verification: all three pieces read in full over curl. Stratechery's article is free and was read complete including the Tae Kim interview excerpt and the Stripe sponsor block; the MKBHD 2024 self-quote, the Wall-E and Zuckerberg images, the Burnham framing and the bull/bear case paragraphs went unused, and Burnham was deliberately not used as the B-side because the piece cites him itself. Au's piece read in full; the Microsoft legacy-time patent, the STL chrono removal, the Red Hat KB fragment and the Data-Crafters plug went unused. Webb's post read in full; the inanimate.tech shop link, the launch-party anecdote and the fifty-units-each scarcity went into the a-side, Agent Mode went unused in the result. B-sides grounded on primary sources: Rams's ten principles fetched in full from vitsoe.com (principles four, five and ten, and the late-1970s 'impenetrable confusion of forms, colours and noises' framing); Drucker's line grounded to The Concept of the Corporation, Part 2 ch. 1 (1946), verified against a quotation archive -- note the line is often misattributed to The Practice of Management (1954), it is not from there; Perrow grounded on Normal Accidents (1984): complexity, tight coupling, catastrophic potential, unanticipated interactions, very small beginnings, and redundancy adding the complexity the next accident uses. Roster: A-sides Matt Webb n=2 (last 9 Nov), Ben Thompson n=13 (last 11 Nov), Randy Au n=5 (last 13 Nov). Hosts interconnected.org n=2, stratechery.com n=15, counting-stuff.com n=5. B-sides never used on the 97-edition ledger: Dieter Rams, Peter Drucker, Charles Perrow. All three pairings and all three URLs checked programmatically against index.json; all three URLs returned 200 to curl. Note for balance: Thompson and Stratechery are the heaviest well in the ledger, so rest the host for at least a week. Best unused on the shelf, in order: duckdb.org 'How SproutMe Cut Integration Test Time by 92.9% with DuckDB' (24 Nov, read and strong, intended B-side George Box n=0 on worrying selectively -- a second deferral now); fly.io 'Holding the Door for Agents' (23 Nov, seventh deferral, host n=0, Stafford Beer n=0); infoq 'GitHub Ditches CSS-in-JS for CSS Modules, 55% Faster SSR After Three-Year Migration' (25 Nov, host n=0, passed over today only because it reads as a rewrite-economics card two days after Ed 97's and brushes the expensive-prohibition avoid list); css-tricks 'Style Queries as Conditional Modifiers' (25 Nov, host n=0, pairs with Postel or with Alexander on pattern context); blog.jim-nielsen.com 'Have You Tried Using Your Agent?' (25 Nov, host n=4 last 5 Nov); philschmid 'How my context engineering changed for Gemini 4 Neon' (25 Nov, host n=0, unread); towardsdatascience 'DuckDB 2.0 vs Polars 2.0 in Five Real-World Tests and One 14x Gap' (25 Nov, host n=0, but the article page 403s to curl so pull it from the feed body); robinsloan 'Dragoncatcher: Intellectual telescopes' (25 Nov, host n=1 last 16 Nov, and the earlier Dragoncatcher 'human voice' post is still unspent); allthingsdistributed 'Tech predictions for 2027 and beyond' (24 Nov, Werner Vogels n=0, still unread); stackoverflow.blog 'When AI Writes the Code, What Counts as Evidence?' (25 Nov) and 'Prompt Injection Fixes Need Regression Tests' (24 Nov), host n=3 last 20 Nov; tomtunguz 'Will AI Deflate Like Lightbulbs or Compound Like Copper?' (24 Nov, Jevons on tokens not dollars, host n=8 last 17 Nov); counting-stuff is spent today so rest it; uxdesign 'Who draws the in-betweens?' (24 Nov) and 'Future-proofing is dead and AI killed it' (25 Nov), host n=2; infoq 'DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability' (25 Nov, host n=0); restofworld 'How foreign AI romance apps are reshaping youth intimacy in Africa' (25 Nov, host n=1); dbreunig 'Using AI Without Losing Your Humanity' (24 Nov, host n=1 last 8 Sep); simonwillison 'Three LLM inflection points in twelve months' (24 Nov, host n=5 rested since 4 Oct); infoq 'Lessons from Building a $100M Product in Six Weeks at OpenAI' (24 Nov, host n=0, unread); cloudflare 'Search for Agents' (25 Nov, host n=1 last 6 Nov); randsinrepose 'At Least You'll Have Equity' (26 Nov, host n=1 last 21 Sep); thenewstack 'Anthropic set more than 1,700 traps for Claude' and 'JetBrains Mellum uses 45% fewer tokens by not thinking' (25 Nov, host spent 25 Nov, and article pages 403 to curl so use the feed body). Still unspent from older runs: the Goffman front-stage pairing from Ed 83, sive.rs 'Uncorrelated perspectives' with Scott Page, martinfowler 'Data Contracts', MIT Tech Review METR time-horizon update, O'Reilly 'What Happened to Silicon Valley?', frankchiarulli 'Splitting USB-C' (better suited to Bench). Feed notes: 134 feeds swept over curl. Returned no parseable items this run: leaddev.com/content.rss, mlops.systems, anthropic.com/rss.xml, kottke.org/main/index.rdf, a16z, gkogan.co, longform.asmartbear, paulgraham.com/articles.html (not a feed), gibsonbiddle, brianbalfour, aprildunford (still malformed), signalvnoise, reforge, every.to, crawshaw.io, blog.langchain.dev, modal.com, deeplearning.ai/the-batch, epoch.ai, nothing.tech/blogs/news.atom. Article pages that 403 to curl although their feeds carry bodies: towardsdatascience.com, thenewstack.io, uxdesign.cc, marginalrevolution.com. Everything else returned 200 with full bodies. Avoid tomorrow: a shape or default that tells you what to ask for; an organisation that depends on one irreplaceable person; and the layer of a stack that absorbs a change nobody rehearsed.",
+  "sparks": [
+    {
+      "title": "THE BLANK SHEET",
+      "title_vi": "TỜ GIẤY TRẮNG",
+      "headline": "A device that can do anything needs a shape that suggests one thing",
+      "headline_vi": "Thiết bị làm được mọi thứ thì cần một hình dáng gợi ra một thứ",
+      "a": {
+        "who": "Matt Webb",
+        "what": "Inanimate shipped WORKS '26 this week: five promptable devices on one platform, fifty of each. You face one, touch a finger to your ear, talk, and drop your hand -- no wake word, and it works with several devices in the same room. Each arrives as one specific thing. Session is an agent console whose needle gauge reads live tokens per minute, Candle is a birthday calendar across seven e-ink screens, Oracle is trained on seventy public-domain texts of prophecy. The stated reason: a form and a default app prime the imagination and get you past the blank sheet problem of an everything-device.",
+        "what_vi": "Tuần này Inanimate ship WORKS '26: năm thiết bị promptable trên một platform, mỗi loại năm mươi cái. Bạn đứng đối diện, chạm ngón tay vào tai, nói, rồi hạ tay xuống -- không cần wake word, và nhiều thiết bị trong cùng một phòng vẫn phân biệt được. Mỗi cái đến tay bạn như một món đồ cụ thể. Session là agent console với kim đồng hồ chạy theo số token mỗi phút, Candle là lịch sinh nhật trên bảy màn e-ink, Oracle học từ bảy mươi bản văn tiên tri thuộc public domain. Lý do được nói thẳng: một hình dáng cộng một app mặc định sẽ mồi trí tưởng tượng, đưa bạn qua được cái vấn đề tờ giấy trắng của một thiết bị làm được mọi thứ."
+      },
+      "b": {
+        "who": "Dieter Rams",
+        "what": "The ten principles, written in the late 1970s against what Rams called an impenetrable confusion of forms, colours and noises. Number four: good design makes a product understandable, clarifies its structure, and at best is self-explanatory. Number five: a product that fulfils a purpose is a tool, so its design stays neutral and restrained, to leave room for the user's self-expression.",
+        "what_vi": "Mười nguyên tắc, viết cuối những năm 1970 để chống lại cái mà Rams gọi là một mớ hình khối, màu sắc và tiếng ồn không thể xuyên qua. Nguyên tắc bốn: thiết kế tốt làm cho sản phẩm dễ hiểu, làm rõ cấu trúc của nó, và tốt nhất là tự nó giải thích được chính nó. Nguyên tắc năm: một sản phẩm phục vụ một mục đích thì là một công cụ, nên thiết kế phải trung tính và tiết chế, để chừa chỗ cho người dùng tự thể hiện."
+      },
+      "result": "Rams wanted the object restrained so the user had room. Webb has the opposite problem: an everything-device gives you nothing but room, and room is where people freeze. A needle gauge, seven e-ink panes, a glowing tube -- each is a sentence the hardware says before you do, so you know what to ask for. The form is the prompt.",
+      "result_vi": "Rams muốn đồ vật tiết chế lại để người dùng có chỗ. Webb gặp vấn đề ngược lại: một thiết bị làm được mọi thứ thì chỉ toàn là chỗ, và chỗ trống là nơi người ta đứng lại. Một cây kim đồng hồ, bảy màn e-ink, một bóng đèn phát sáng -- mỗi cái là một câu mà phần cứng nói trước bạn, để bạn biết nên hỏi gì. Hình dáng chính là cái prompt.",
+      "result_underline": "The form is the prompt",
+      "result_underline_vi": "Hình dáng chính là cái prompt",
+      "tick": "Your product can now do anything. What is its shape still telling people to ask for?",
+      "tick_vi": "Sản phẩm của bạn giờ làm được mọi thứ. Hình dáng của nó đang nói người ta nên hỏi gì?",
+      "tick_bold": [
+        "its shape"
+      ],
+      "tick_bold_vi": [
+        "Hình dáng của nó"
+      ],
+      "provocation": "Inanimate shipped five promptable devices this week, fifty of each, and the interesting part is why each one arrives as one specific thing: a form and a default app get you past the blank sheet problem of a device that can do anything. Rams asked design to stay restrained so the user had room. An everything-device gives you nothing but room.",
+      "provocation_vi": "Tuần này Inanimate ship năm thiết bị promptable, mỗi loại năm mươi cái, và chỗ đáng chú ý là lý do mỗi cái đến tay bạn như một món đồ cụ thể: một hình dáng cộng một app mặc định đưa bạn qua cái vấn đề tờ giấy trắng của một thiết bị làm được mọi thứ. Rams đòi thiết kế phải tiết chế để người dùng có chỗ. Một thiết bị làm được mọi thứ thì chỉ toàn là chỗ.",
+      "source": {
+        "site": "Interconnected",
+        "title": "We launched our first Inanimate AI devices a.k.a. Promptable Products",
+        "url": "https://interconnected.org/home/2026/11/25/inanimate",
+        "published": "2026-11-25"
+      }
+    },
+    {
+      "title": "ONE PILOT",
+      "title_vi": "MỘT NGƯỜI LÁI",
+      "headline": "A trillion dollars says the org chart has exactly one load-bearing name",
+      "headline_vi": "Ngàn tỷ đô nói rằng sơ đồ tổ chức chỉ có một cái tên chịu lực",
+      "a": {
+        "who": "Ben Thompson",
+        "what": "The opening is a list of what one person built since Thursday with agents: a studio control service reachable from four different clients, a screen-sharing and terminal app, single-use iOS apps, a 3D-printed measurement rig, and a harness that farms subagent work out to a Mac, a gaming PC and a Linux box, tracked on a status board that runs on every TV in the house. Then the table. AT&T in 1959 carried 729,000 employees for 198 billion dollars of market cap in today's money; Nvidia now carries 42,000 for 3.99 trillion, Anthropic 5,300 for 1.17 trillion. And Nvidia added close to a trillion when one man was reinstated as CEO -- more than all of ExxonMobil was worth in 2008.",
+        "what_vi": "Mở đầu là danh sách những gì một người dùng agent làm được từ hôm thứ Năm: một service điều khiển studio truy cập được từ bốn client khác nhau, một app screen sharing kèm terminal, vài app iOS dùng một lần, một giá đo đạc in 3D, và một harness chia việc cho subagent chạy trên một máy Mac, một PC gaming và một con Linux, theo dõi trên bảng status hiện lên mọi cái TV trong nhà. Rồi đến cái bảng số liệu. AT&T năm 1959 nuôi 729.000 nhân viên cho 198 tỷ đô market cap tính theo giá hôm nay; Nvidia bây giờ nuôi 42.000 cho 3,99 ngàn tỷ, Anthropic 5.300 cho 1,17 ngàn tỷ. Và Nvidia tăng gần một ngàn tỷ đô khi một người được đưa lại ghế CEO -- nhiều hơn cả giá trị ExxonMobil năm 2008."
+      },
+      "b": {
+        "who": "Peter Drucker",
+        "what": "In 1946, after two years inside General Motors, Drucker wrote that no institution can possibly survive if it needs geniuses or supermen to manage it: it has to be organised so that it keeps running under a leadership of average human beings. That was never modesty about talent. It was the definition of what an institution is for.",
+        "what_vi": "Năm 1946, sau hai năm ngồi trong General Motors, Drucker viết rằng không một tổ chức nào sống được nếu nó cần thiên tài hay siêu nhân để quản lý: nó phải được dựng sao cho vẫn chạy với một dàn lãnh đạo năng lực trung bình. Đây không phải là khiêm tốn về tài năng. Đây là định nghĩa của việc một tổ chức tồn tại để làm gì."
+      },
+      "result": "Thompson reads the welcome-back rally as a harbinger of the small, sovereign company. Drucker would read the same number as a diagnosis: the market was not pricing one man's brilliance, it was pricing the absence of anyone else. Tae Kim's own word for Nvidia is exoskeleton, and an exoskeleton has exactly one pilot.",
+      "result_vi": "Thompson đọc cú tăng giá đón người cũ trở về như điềm báo của công ty nhỏ, tự chủ. Drucker sẽ đọc đúng con số đó như một kết quả khám: thị trường không định giá sự xuất chúng của một người, nó định giá việc không còn ai khác. Tae Kim gọi Nvidia là bộ khung xương ngoài, và một bộ khung xương ngoài chỉ có đúng một người lái.",
+      "result_underline": "an exoskeleton has exactly one pilot",
+      "result_underline_vi": "một bộ khung xương ngoài chỉ có đúng một người lái",
+      "tick": "What part of your work stops the moment you leave the room?",
+      "tick_vi": "Phần nào trong việc của bạn đứng lại ngay khi bạn rời khỏi phòng?",
+      "tick_bold": [
+        "the moment you leave the room"
+      ],
+      "tick_bold_vi": [
+        "ngay khi bạn rời khỏi phòng"
+      ],
+      "provocation": "Ben Thompson's table puts AT&T's 729,000 employees next to Nvidia's 42,000 and Anthropic's 5,300, then notes that Nvidia added close to a trillion dollars when Jensen Huang was reinstated. Drucker's 1946 test was whether an institution can run on average people. A trillion-dollar relief rally is that test being failed in public.",
+      "provocation_vi": "Bảng số liệu của Ben Thompson đặt 729.000 nhân viên của AT&T cạnh 42.000 của Nvidia và 5.300 của Anthropic, rồi ghi nhận Nvidia tăng gần một ngàn tỷ đô khi Jensen Huang được đưa lại ghế. Phép thử của Drucker năm 1946 là một tổ chức có chạy được với người năng lực trung bình hay không. Cú tăng giá cả ngàn tỷ đô là phép thử đó bị trượt ngay giữa chợ.",
+      "source": {
+        "site": "Stratechery",
+        "title": "The Individual Exception",
+        "url": "https://stratechery.com/2026/the-individual-exception/",
+        "published": "2026-11-24"
+      }
+    },
+    {
+      "title": "NEVER EXECUTED",
+      "title_vi": "CHƯA TỪNG CHẠY",
+      "headline": "Everyone knew it would break; almost nobody had ever tested it",
+      "headline_vi": "Ai cũng biết nó sẽ vỡ; gần như không ai từng test thử",
+      "a": {
+        "who": "Randy Au",
+        "what": "Leap seconds are effectively dead and officially so next May, and the industry's shared certainty was that a negative one would have been a worldwide mess. Au went looking for anyone who had actually run the test and found almost nothing: PTP plugfests where many devices failed and the Linux kernel could not handle it, one device that read a negative leap second as a positive one because its time-string format had no room for a minus sign, an ntpd deletion bug fixed in 2018, one very unlikely bug in the timezone code. Alongside that, several reports of it working fine, and one engineer's line that the kernel handles it but there is no telling what an application will do.",
+        "what_vi": "Leap second coi như đã chết, tháng Năm năm sau là chính thức, và cả ngành đều chắc một điều: một leap second âm sẽ gây loạn khắp thế giới. Au đi tìm xem có ai đã thực sự test chưa, và gần như không thấy gì: vài kỳ plugfest PTP nơi nhiều thiết bị chết và kernel Linux không xử lý được, một thiết bị đọc leap second âm thành dương vì định dạng chuỗi thời gian của nó không có chỗ cho dấu trừ, một bug xóa giây trong ntpd fix năm 2018, một bug rất khó xảy ra trong code timezone. Bên cạnh đó là vài báo cáo nói chạy bình thường, và câu của một engineer: kernel lo được, còn application làm gì thì không ai đoán nổi."
+      },
+      "b": {
+        "who": "Charles Perrow",
+        "what": "Normal Accidents, 1984. Where a system is complex, tightly coupled and capable of catastrophe, the failure is not the component everyone is watching; it is the interaction nobody modelled, and major accidents almost always have very small beginnings. Perrow also warned that redundancy can make things worse, because every safeguard adds the complexity the next accident will use.",
+        "what_vi": "Normal Accidents, 1984. Ở những hệ thống phức tạp, ràng buộc chặt và có thể gây thảm họa, cái vỡ không phải là bộ phận ai cũng đang nhìn; nó là tương tác không ai mô hình hóa, và tai nạn lớn gần như luôn bắt đầu từ một thứ rất nhỏ. Perrow còn cảnh báo rằng dự phòng có thể làm mọi thứ tệ hơn, vì mỗi lớp bảo vệ lại thêm đúng cái phức tạp mà tai nạn kế tiếp sẽ dùng."
+      },
+      "result": "Twenty years of fear did real work: it hardened every layer you can carry to a plugfest. What it could not touch is application code doing arithmetic on time, which is exactly where Au lands -- a second or two of disagreement, harmless everywhere except in the ledgers and databases that decide what happened first. Rehearsal does not remove risk. It moves it upstairs.",
+      "result_vi": "Hai mươi năm lo sợ đã làm việc thật: nó làm cứng mọi lớp mà bạn có thể mang đến plugfest. Cái nó không chạm được là code application đang làm toán học trên thời gian, và đó đúng là chỗ Au hạ cánh -- lệch nhau một hai giây, vô hại ở mọi nơi trừ những sổ sách và database quyết định cái gì xảy ra trước. Tập dượt không xóa được rủi ro. Nó đẩy rủi ro lên tầng trên.",
+      "result_underline": "It moves it upstairs",
+      "result_underline_vi": "Nó đẩy rủi ro lên tầng trên",
+      "tick": "Which of your assumptions is still intact only because its code path has never run?",
+      "tick_vi": "Giả định nào của bạn còn nguyên chỉ vì cái code path đó chưa từng chạy?",
+      "tick_bold": [
+        "never run"
+      ],
+      "tick_bold_vi": [
+        "chưa từng chạy"
+      ],
+      "provocation": "Randy Au went looking for anyone who had actually tested a negative leap second and found a handful of plugfest failures, a kernel bug, and several reports of it working fine. The hardened layer is the one you can plug in. The exposed one is application code doing arithmetic on time, inside the systems that decide what happened first.",
+      "provocation_vi": "Randy Au đi tìm xem có ai thực sự test leap second âm chưa, và chỉ thấy vài ca chết ở plugfest, một bug kernel, và mấy báo cáo nói chạy bình thường. Lớp được làm cứng là lớp bạn cắm được vào plugfest. Lớp còn hở ra là code application đang làm toán học trên thời gian, bên trong những hệ thống quyết định cái gì xảy ra trước.",
+      "source": {
+        "site": "Counting Stuff",
+        "title": "What would/wouldn't break w/ a negative leap second",
+        "url": "https://www.counting-stuff.com/what-would-wouldnt-break-w-a-negative-leap-second/",
+        "published": "2026-11-24"
+      }
+    }
+  ]
+}
