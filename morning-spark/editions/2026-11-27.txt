@@ -1,0 +1,22 @@
+Morning Spark · Friday, November 27 · Ed. 99
+The proof is never where the demo is.
+
+─────────────────
+01 · You know the interface landed when the body starts complaining about it
+Jessica Hamzelou × Maurice Merleau-Ponty
+Utah needed five minutes to teach the implant to read his intent and three days to teach him to feel through it. The result nobody planned for is that his prosthetic wrist gets tired like a real one, and stretching tendons that do not exist relieves it. Merleau-Ponty's test for a tool is whether the body stops perceiving it and starts perceiving with it.
+→ https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/
+
+─────────────────
+02 · Authority you need courage to use is not authority
+Celine Semaan × Teresa Torres
+Semaan's students were not apathetic about the systems behind their work; they just could not see where a designer's power begins. Her answer is to stop asking for bravery and start writing inquiry into the commission: a paid research phase, evidence the client has to read before approving. That is continuous discovery with a purchase order attached.
+→ https://www.dezeen.com/2026/11/26/design-power-change-celine-semaan-opinion/
+
+─────────────────
+03 · More agents is not a result until one agent gets the same money
+Ben Burtenshaw × Frederic Bastiat
+Burtenshaw's point is not that swarms fail, it is that adding agents also adds spend, so a win only counts against one agent holding the same tokens. He ran that control on four tiny agents learning to pool four numbers, and it paid: trained coordination beat eight brute-force retries at roughly a thirteenth of the tokens.
+→ https://huggingface.co/blog/training-swarms
+
+Full styled card → open the session.
