@@ -1,0 +1,22 @@
+Morning Spark · Saturday, November 28 · Ed. 100
+The clean version of the work is not the work.
+
+─────────────────
+01 · The half of your job that fit on a roadmap is the half that got automated
+Marty Cagan × James C. Scott
+Cagan says one title has been covering three different jobs, and the operating model, not the title, decides which one you hold. Agentic delivery is already phasing out the product owner and thinning the feature team PM, because workflows automate and judgement does not. His footnote admits most companies stay in the project model for predictability. Scott would call that the legible half, and the legible half was always the one at risk.
+→ https://www.svpg.com/ai-and-the-future-of-the-product-role/
+
+─────────────────
+02 · Swahili speech recognition looks solved, for the one register nobody speaks
+Faustine Ngila × William Labov
+Swahili read aloud into a microphone scores a 3.24 per cent word error rate. Everyday Kenyan speech switches language mid-word, runs on Sheng whose newest dataset is from 2019, and arrives through matatu noise on a low-end handset. Twenty thousand new hours of audio have been collected and the builders still say hours are not coverage. Labov's observer's paradox is the reason: a corpus is a record of your collection method before it is a record of a language.
+→ https://spectrum.ieee.org/swahili-speech-recognition
+
+─────────────────
+03 · A tenth of the cost per task, and slower than doing it yourself
+Eugene Yan × Genichi Taguchi
+Yan found that in eight of twelve public evals the grader failed correct work, and that more than 60 per cent of deliverables passing every Harvey criterion still carried material hallucinations. His sharper point is about cost. Benchmarks average dollars across all attempts, so a model that skips verification and quits early looks efficient; on GDPval, the model costing a tenth as much per task made an expert slower than working alone. Taguchi's loss function always asked the same question: cheap for whom?
+→ https://eugeneyan.com/writing/public-evals
+
+Full styled card → open the session.
